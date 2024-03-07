@@ -24,7 +24,7 @@ AI-powered tools boost productivity, creativity, and teamwork by:
 However, potential downsides should be considered:
 
 * Over-reliance on AI may diminish human skills like problem-solving, critical thinking, and creativity.
-* AI systems can occasionally make errors or generate biased results, negatively affecting decisions and outcomes.
+* AI systems can occasionally **make errors or generate biased results, negatively affecting decisions and outcomes.**
 * Privacy and security risks may emerge from AI usage, as sensitive data could be processed, stored, or shared, leading to potential breaches or unauthorized access.
 
 ***It is crucial to balance the benefits of AI with an awareness of these potential drawbacks and take appropriate measures to mitigate risks.***
