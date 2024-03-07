@@ -10,29 +10,41 @@ Please note that while this repository offers a wide range of resources, it is n
 
 Feel free to open a pull request (PR) to enhance the repository.
 
+:unlock: Open Source model
+:lock: Closed Source model
 
 ## Natural Language Processing (NLP) Tools
 
-Analyze, understand, and generate human language for applications like conversational AI, sentiment analysis, and language translation.
+### Generalist conversational AI (or chatbot)
 
-### Generalist conversational AI
+Streamlines daily work tasks by providing information, automating repetitive tasks, assisting with content creation, and facilitating collaboration, ultimately enhancing productivity and efficiency.
 
-- [ChatGTP](https://chat.openai.com/)
-- [Claude](https://claude.ai/)
-- [Gemini](https://gemini.google.com/)
-- [Mistral](https://mistral.ai/) 
+- [ChatGPT](https://chat.openai.com/) -  A powerful language model developed by OpenAI. 🔒
+- [Claude](https://claude.ai/) - An advanced language model created by Anthropic. 🔒
+- [Gemini](https://gemini.google.com/) - A state-of-the-art language model developed by Google. 🔒
+- [Llama](https://github.com/facebookresearch/llama) - A large-scale language model by Meta. 🔒
+- [Mistral](https://mistral.ai/) - An open-source language model developed by Mistral AI. 🔓
+- [Openchat](https://github.com/imoneoi/openchat) - An open-source project aimed at advancing language models by leveraging mixed-quality data. 🔓
+- [Perplexity](https://www.perplexity.ai/) - A unique model that combines a search engine and a conversational agent, developed by Perplexity AI. 🔒
+- [Qwen](https://qwenlm.github.io/) - A language model developed by Alibaba. 🔒
+- [WizardLM](https://github.com/nlpxucan/WizardLM) -  A language model created by Microsoft. 🔒
+- [Yi](https://www.01.ai/) - A language model developed by 01.ai. 🔒
+
+[Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - Here you will find a crowdsourced open platform for LLM evals, to rank LLMs with the Elo ranking system.
   
+###  AI-powered code suggestion and autocompletion tool.
+
+Helps developers write code more efficiently by providing real-time, context-aware code recommendations, reducing errors and improving productivity.
+
+- [Codeium](https://codeium.com/) :lock:
+- [Codium](https://www.codium.ai/) - :lock: 
+- [Github Copilot](https://github.com/features/copilot) - :lock:
+- [Replit AI](https://replit.com/ai) - :lock:
+- [tabnine](https://www.tabnine.com/) - :lock:
+
 ###  AI-powered code suggestion and autocompletion tool
 
-- [Codeium](https://codeium.com/)
-- [Codium](https://www.codium.ai/)
-- [Github Copilot](https://github.com/features/copilot)
-- [Replit AI](https://replit.com/ai)
-- [tabnine](https://www.tabnine.com/)
-
 ## Computer Vision Tools
-
-Analyze and interpret visual data, such as images and videos, for applications like object detection, facial recognition, and image classification.
 
 ### Image editing
 ### Image generation
