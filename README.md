@@ -84,6 +84,17 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 
 ## Data Analysis
 
+- [DataSquirrel]
+- [Hal9]
+- [Vizly]
+- [Grapha AI]
+- [Research Studio]
+- [Rows AI]
+- [AskCSV]
+- [Altero AI]
+- [Pi Exchange]
+- [Julius]
+
 ## Robotic Process Automation (RPA)
 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in business processes.
