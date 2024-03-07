@@ -46,7 +46,7 @@ AI-powered tools optimize daily work tasks by offering valuable information, aut
 
 [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - Here you will find a crowdsourced open platform for LLM evals, to rank LLMs with the Elo ranking system.
   
-##  AI Code Suggestions and Autocompletion
+## Code Suggestions and Autocompletion
 
 AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
 
@@ -60,7 +60,7 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 - 🔒 [Replit AI](https://replit.com/ai) - A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations.
 - 🔒 [Tabnine](https://www.tabnine.com/) - An AI-powered code completion tool that helps developers write code faster and more accurately.
 
-## AI Image Generation and Editing Tools
+## Image Generation and Editing
 
 AI tools for image generation, editing, and enhancement, offering text-to-image creation, filters, quality improvement, and multimedia capabilities for creative and professional projects.
 
@@ -84,11 +84,11 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 
 ## Data Analysis
 
-## Robotic Process Automation (RPA) Tools
+## Robotic Process Automation (RPA)
 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in business processes.
 
-## Speech and Audio Processing Tools
+## Speech and Audio Processing 
 
 
 
