@@ -95,11 +95,20 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 - [Pi Exchange]
 - [Julius]
 
-## Robotic Process Automation (RPA)
+## Automation
 
-Automate repetitive, rule-based tasks to improve efficiency and accuracy in business processes.
+Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
+
+- [Zapier]
+- [Bardeen]
+- [N8N]
+- [Taskade]
 
 ## Speech and Audio Processing 
+
+### Text to speech
+
+### Audio/video transcription and summaries
 
 
 
