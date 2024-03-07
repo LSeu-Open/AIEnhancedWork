@@ -8,26 +8,28 @@
 
 Please note that while this repository offers a wide range of resources, it is not exhaustive and does not include every individual tool available. Inclusion in this collection does not imply full endorsement of every item listed.
 
-:unlock: Open Source model
-:lock: Closed Source model
-
 Feel free to open a pull request (PR) to enhance the repository.
 
 ## Weighing the Pros and Cons of AI in Work Tasks
 
-AI-powered tools enhance productivity, creativity, and teamwork by automating repetitive tasks, providing valuable insights, and streamlining workflows, leading to a more efficient and enjoyable work environment. 
+AI-powered tools boost productivity, creativity, and teamwork by:
 
-While AI can offer numerous benefits in work tasks, there are potential downsides to consider. Over-reliance on AI may lead to a decrease in human skills, such as problem-solving, critical thinking, and creativity. 
+* Automating repetitive tasks.
+* Offering valuable insights.
+* Optimizing workflows.
+* Creating a more efficient and enjoyable work environment.
 
-Additionally, AI systems can sometimes make mistakes or produce biased results, which could negatively impact decision-making and outcomes. 
+However, potential downsides should be considered:
 
-Lastly, privacy and security risks can arise from the use of AI, as sensitive data may be processed, stored, or shared, potentially leading to breaches or unauthorized access. 
+* Over-reliance on AI may diminish human skills like problem-solving, critical thinking, and creativity.
+* AI systems can occasionally make errors or generate biased results, negatively affecting decisions and outcomes.
+* Privacy and security risks may emerge from AI usage, as sensitive data could be processed, stored, or shared, leading to potential breaches or unauthorized access.
 
-**It is crucial to balance the benefits of AI with an awareness of these potential drawbacks and take appropriate measures to mitigate risks.**
+***It is crucial to balance the benefits of AI with an awareness of these potential drawbacks and take appropriate measures to mitigate risks.***
 
-### Generalist conversational AI (or chatbot)
+## Generalist conversational AI (or chatbot)
 
-Streamlines daily work tasks by providing information, automating repetitive tasks, assisting with content creation, and facilitating collaboration, ultimately enhancing productivity and efficiency.
+AI-powered tools optimize daily work tasks by offering valuable information, automating repetitive processes, aiding content creation, and fostering collaboration, leading to improved productivity and efficiency.
 
 - [ChatGPT](https://chat.openai.com/) -  A powerful language model developed by OpenAI. 🔒
 - [Claude](https://claude.ai/) - An advanced language model created by Anthropic. 🔒
@@ -42,37 +44,43 @@ Streamlines daily work tasks by providing information, automating repetitive tas
 
 [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - Here you will find a crowdsourced open platform for LLM evals, to rank LLMs with the Elo ranking system.
   
-###  AI Code Suggestions and Autocompletion
+##  AI Code Suggestions and Autocompletion
 
-Helps developers write code more efficiently by providing real-time, context-aware code recommendations, reducing errors and improving productivity.
+AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
 
-- [Codeium](https://codeium.com/) :lock:
+- [AskCodi](https://www.askcodi.com/) - An AI-powered coding assistant that offers code suggestions, debugging help, and explanations for code snippets. 
+- [Blackbox](https://www.blackbox.ai/) - An AI platform that helps businesses automate processes, make predictions, and optimize decision-making.
+- [Boxy](https://codesandbox.io/blog/meet-boxy-ai-coding-assistant) -  An AI coding assistant developed by CodeSandbox that provides real-time code suggestions and completions.
+- [Codeium](https://codeium.com/) :lock: An AI-powered code completion tool that helps developers write code faster and more accurately.
 - [Codium](https://www.codium.ai/) - :lock: 
 - [Github Copilot](https://github.com/features/copilot) - :lock:
+- [JetBrains AI](https://www.jetbrains.com/ai/) - 
 - [Replit AI](https://replit.com/ai) - :lock:
-- [tabnine](https://www.tabnine.com/) - :lock:
+- [Tabnine](https://www.tabnine.com/) - :lock:
 
-## AI-Powered Image Generation and Editing Tools
+## AI Image Generation and Editing Tools
 
-- [Stable diffusion]
-- [Dall-E]
-- [Midjourney]
-- [imageFX]
-- [Wombo]
-- [Craiyon]
-- [Picasso]
-- [Nightcafe]
-- [Leonardo]
-- [firefly]
-- [Lexica]
-- [Runway]
-- [Sora]
+AI tools for image generation, editing, and enhancement, offering text-to-image creation, filters, quality improvement, and multimedia capabilities for creative and professional projects.
 
-## Machine Learning Tools
+- [Craiyon](https://www.craiyon.com/) -
+- [Dall-E](https://openai.com/research/dall-e) -
+- [Firefly](https://www.adobe.com/fr/products/firefly.html) - 
+- [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) -
+- [Lensa](https://prisma-ai.com/lensa) -
+- [Lexica](https://lexica.art/) -
+- [Leonardo](https://leonardo.ai/) -
+- [Luminar Neo](https://skylum.com/fr/luminar) -
+- [Midjourney](https://www.midjourney.com/home) -
+- [Nightcafe](https://creator.nightcafe.studio/) -
+- [Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) -
+- [Pixlr](https://pixlr.com/) -
+- [Runway](https://runwayml.com/) -
+- [Sora](https://openai.com/sora) -
+- [Stable diffusion](https://stability.ai/stable-image) -
+- [Wombo](https://www.w.ai/) -
 
-Build, train, and deploy predictive models for various applications, such as recommendation systems, fraud detection, and predictive maintenance.
 
-### Data Analysis
+## Data Analysis
 
 ## Robotic Process Automation (RPA) Tools
 
