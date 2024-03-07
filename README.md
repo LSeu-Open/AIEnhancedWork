@@ -25,8 +25,6 @@ Lastly, privacy and security risks can arise from the use of AI, as sensitive da
 
 **It is crucial to balance the benefits of AI with an awareness of these potential drawbacks and take appropriate measures to mitigate risks.**
 
-## Natural Language Processing (NLP) Tools
-
 ### Generalist conversational AI (or chatbot)
 
 Streamlines daily work tasks by providing information, automating repetitive tasks, assisting with content creation, and facilitating collaboration, ultimately enhancing productivity and efficiency.
@@ -44,7 +42,7 @@ Streamlines daily work tasks by providing information, automating repetitive tas
 
 [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - Here you will find a crowdsourced open platform for LLM evals, to rank LLMs with the Elo ranking system.
   
-###  AI-powered code suggestion and autocompletion tool.
+###  AI Code Suggestions and Autocompletion
 
 Helps developers write code more efficiently by providing real-time, context-aware code recommendations, reducing errors and improving productivity.
 
@@ -54,12 +52,21 @@ Helps developers write code more efficiently by providing real-time, context-awa
 - [Replit AI](https://replit.com/ai) - :lock:
 - [tabnine](https://www.tabnine.com/) - :lock:
 
-###  AI-powered code suggestion and autocompletion tool
+## AI-Powered Image Generation and Editing Tools
 
-## Computer Vision Tools
-
-### Image editing
-### Image generation
+- [Stable diffusion]
+- [Dall-E]
+- [Midjourney]
+- [imageFX]
+- [Wombo]
+- [Craiyon]
+- [Picasso]
+- [Nightcafe]
+- [Leonardo]
+- [firefly]
+- [Lexica]
+- [Runway]
+- [Sora]
 
 ## Machine Learning Tools
 
