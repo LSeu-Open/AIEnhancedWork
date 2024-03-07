@@ -68,13 +68,13 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 - 🔒 [Dall-E](https://openai.com/research/dall-e) - An AI model developed by OpenAI that generates images from textual descriptions.
 - 🔒 [Adobe Firefly](https://www.adobe.com/fr/products/firefly.html) -  creative AI tool for generating images, animations, and other visual content.
 - 🔒 [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) - An AI-powered tool for applying various image effects and filters.
-- 🔒[Lensa](https://prisma-ai.com/lensa) - An AI-powered mobile app for editing and enhancing photos, particularly for portrait editing.
+- 🔒 [Lensa](https://prisma-ai.com/lensa) - An AI-powered mobile app for editing and enhancing photos, particularly for portrait editing.
 - 🔒 [Lexica](https://lexica.art/) - An AI art platform that generates images from textual descriptions.
-- 🔓[Leonardo](https://leonardo.ai/) -  An open-source AI model for generating images from textual descriptions.
+- 🔓 [Leonardo](https://leonardo.ai/) -  An open-source AI model for generating images from textual descriptions.
 - 🔒 [Luminar Neo](https://skylum.com/fr/luminar) - An AI-powered photo editing software developed by Skylum.
 - 🔒 [Midjourney](https://www.midjourney.com/home) - WOrld famous AI platform that generates images and visual content based on user input.
 - 🔓 [Nightcafe](https://creator.nightcafe.studio/) - n open-source AI art platform that generates images from textual descriptions using deep learning models.
-- 🔒[Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) - An AI-powered platform for generating images and animations, developed by NVIDIA.
+- 🔒 [Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) - An AI-powered platform for generating images and animations, developed by NVIDIA.
 - 🔒 [Pixlr](https://pixlr.com/) - An AI-powered online photo editing tool.
 - 🔒 [Runway](https://runwayml.com/) - An AI-powered platform for creatives to use machine learning models in their workflows.
 - 🔒 [Sora](https://openai.com/sora) - An AI model developed by OpenAI for generating videos from textual descriptions.
