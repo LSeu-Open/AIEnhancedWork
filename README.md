@@ -84,25 +84,25 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 
 ## Data Analysis
 
-- [DataSquirrel]
-- [Hal9]
-- [Vizly]
-- [Grapha AI]
-- [Research Studio]
-- [Rows AI]
-- [AskCSV]
-- [Altero AI]
-- [Pi Exchange]
-- [Julius]
+- 🔒 [AskCSV](https://askcsv.com/) - An AI-powered tool that allows users to ask questions about CSV data files in natural language and receive answers.
+- 🔒 [DataSquirrel](https://datasquirrel.ai/) - An AI-powered data extraction and analysis tool.
+- 🔒 [Grapha AI](https://grapha.ai/) - an AI-powered platform for automating data analysis and generating insights.
+- 🔒 [Hal9](https://hal9.com/) - Data analytics that leverage generative AI to get insights from databases.
+- 🔒 [Julius](https://julius.ai/) - An AI-powered tool for automating data entry and document processing tasks.
+- 🔒 [Pi Exchange](https://www.pi.exchange/) - A platform for building and deploying AI models.
+- 🔒 [Research Studio](https://researchstudio.ai/) - An AI-powered research assistant that helps users find, analyze, and summarize information.
+- 🔒 [Rows AI](https://www.rows.com/) - An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.
+- 🔒 [Vizly](https://vizly.fyi/) -  tool for creating interactive data visualizations.
 
 ## Automation
 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
 
-- [Zapier]
-- [Bardeen]
-- [N8N]
-- [Taskade]
+- 🔒 [Bardeen](https://www.bardeen.ai/) - An AI-powered automation platform that enables users to automate repetitive tasks across various applications without writing code. It offers pre-built integrations with popular tools and allows users to create custom workflows.
+- 🔓 [N8N](https://n8n.io/) - A free and open-source fair-code licensed workflow automation tool. It allows users to create workflows using a visual editor and connect various services to automate tasks. N8N can be self-hosted, providing users with more control over their data.
+- 🔒 [Taskade](https://www.taskade.com/) - An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management.
+- 🔒 [Zapier](https://zapier.com/) - A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps.
+
 
 ## Speech and Audio Processing 
 
