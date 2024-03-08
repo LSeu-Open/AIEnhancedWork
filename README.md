@@ -76,6 +76,7 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 - 🔓 [Nightcafe](https://creator.nightcafe.studio/) - An open-source AI art platform that generates images from textual descriptions using deep learning models.
 - 🔒 [Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) - An AI-powered platform for generating images and animations, developed by NVIDIA.
 - 🔒 [Pixlr](https://pixlr.com/) - An AI-powered online photo editing tool.
+- 🔒 [Removebg](https://www.remove.bg/) - An online tool that allows users to automatically remove backgrounds from images.
 - 🔒 [Runway](https://runwayml.com/) - An AI-powered platform for creatives to use machine learning models in their workflows.
 - 🔒 [Sora](https://openai.com/sora) - An AI model developed by OpenAI for generating videos from textual descriptions.
 - 🔓 [Stable diffusion](https://stability.ai/stable-image) -  An open-source AI model for generating images from textual descriptions using diffusion-based generative models.
