@@ -12,7 +12,7 @@ Each tool in the list will be marked with a 🔒 if its underlying model is clos
 
 Feel free to open a pull request (PR) to enhance the repository.
 
-## Weighing the Pros and Cons of AI in Work Tasks
+## Pros and Cons of AI usage in work tasks
 
 AI-powered tools boost productivity, creativity, and teamwork by:
 
@@ -28,6 +28,8 @@ However, potential downsides should be considered:
 * Privacy and security risks may emerge from AI usage, as sensitive data could be processed, stored, or shared, leading to potential breaches or unauthorized access.
 
 ***It is crucial to balance the benefits of AI with an awareness of these potential drawbacks and take appropriate measures to mitigate risks.***
+
+### Fairness-in-AI
 
 ## Generalist conversational AI (or chatbot)
 
