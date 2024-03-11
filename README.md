@@ -34,7 +34,7 @@ Generalist conversational AI tools optimize daily work tasks by offering valuabl
 
 
 | Tool       | Description                                                                                                           | Licence     | Organization | Knowledge Cutoff | Pricing model |
-|:------------:|---------------------------------------------------------------------------------------------------------------------|:-------------:|:--------------:|:------------------:|:-------:|
+|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:------------:|:----------------:|:-------------:|
 | [ChatGPT](https://chat.openai.com/) | Powerful language model by OpenAI for natural and contextually relevant conversations.       | Proprietary   | OpenAI         | 2021-09            |Freemium |
 | [Claude](https://claude.ai/) | Advanced language model by Anthropic for understanding and generating human-like text.              | Proprietary   | Anthropic      | 2023-08            |Freemium |
 | [Gemini](https://gemini.google.com/) | State-of-the-art language model by Google with advanced natural language understanding.     | Proprietary   | Google         | Online             |Freemium |
@@ -54,7 +54,7 @@ Generalist conversational AI tools optimize daily work tasks by offering valuabl
 AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
 
 | Tool       | Description                                                                                                           | Licence     | Pricing model |
-|:----------:|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
+|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
 | [AskCodi](https://www.askcodi.com/)    | An AI-powered coding assistant that offers code suggestions, debugging help, and explanations for code snippets. | Proprietary |Freemium |
 | [Blackbox](https://www.blackbox.ai/)   | An AI platform that helps businesses automate processes, make predictions, and optimize decision-making. | Proprietary |Free |
 | [Boxy](https://codesandbox.io/blog/meet-boxy-ai-coding-assistant)       | An AI coding assistant by CodeSandbox providing real-time code suggestions and completions. | Proprietary |Freemium |
@@ -72,7 +72,7 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 AI tools for image generation, editing, and enhancement, offering text-to-image creation, filters, quality improvement, and multimedia capabilities for creative and professional projects.
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
-|:-----------------:|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [BRIA AI](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4) | An AI-powered model to automatically remove backgrounds from images.    | Open        | Free        |
 | [Craiyon](https://www.craiyon.com/) | An AI-powered platform for generating artistic images and animations.                             | Proprietary | Paid        |
 | [Dall-E](https://openai.com/research/dall-e) | An AI model developed by OpenAI that generates images from textual descriptions.         | Proprietary | Paid|
@@ -95,7 +95,7 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 ## Data Analysis
 
 | Tool             | Description                                                                                                                 | Licence     | Pricing     |
-|:----------------:|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [AskCSV](https://askcsv.com/) | An AI-powered tool that allows users to ask questions about CSV data files in natural language and receive answers. | Proprietary | Freemium    |
 | [DataSquirrel](https://datasquirrel.ai/) | An AI-powered data extraction and analysis tool.                                                    | Proprietary | Freemium    |
 | [Grapha AI](https://grapha.ai/) | An AI-powered platform for automating data analysis and generating insights.                                 | Proprietary | Freemium    |
@@ -112,7 +112,7 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
 
 | Tool             | Description                                                                                                                   | Licence       | Pricing       |
-|:------------------:|-----------------------------------------------------------------------------------------------------------------------------|:-------------:|:-------------:|
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-------------:|:-------------:|
 | [Bardeen](https://www.bardeen.ai/) | An AI-powered automation platform that enables users to automate repetitive tasks across various applications without writing code. It offers pre-built integrations with popular tools and allows users to create custom workflows. | Proprietary | Paid |
 | [N8N](https://n8n.io/) | A free and open-source fair-code licensed workflow automation tool. It allows users to create workflows using a visual editor and connect various services to automate tasks. N8N can be self-hosted, providing users with more control over their data. | Open | Free |
 | [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | Proprietary | Paid |
@@ -125,7 +125,7 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 ### Text to speech
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|:----------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
+|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
 | [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | Proprietary | Paid      |
 | [Bark](https://github.com/suno-ai/bark)                    | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
 | [Coqui](https://github.com/coqui-ai/TTS)                   | A pioneering project that focused on advancing generative voice technology.                                 | Open        | Free      |
