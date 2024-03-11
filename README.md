@@ -111,7 +111,7 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
 
-| Tool             | Description                                                                                                                 | Licence     | Pricing     |
+| Tool             | Description                                                                                                                   | Licence       | Pricing       |
 |:------------------:|-----------------------------------------------------------------------------------------------------------------------------|:-------------:|:-------------:|
 | [Bardeen](https://www.bardeen.ai/) | An AI-powered automation platform that enables users to automate repetitive tasks across various applications without writing code. It offers pre-built integrations with popular tools and allows users to create custom workflows. | Proprietary | Paid |
 | [N8N](https://n8n.io/) | A free and open-source fair-code licensed workflow automation tool. It allows users to create workflows using a visual editor and connect various services to automate tasks. N8N can be self-hosted, providing users with more control over their data. | Open | Free |
@@ -123,6 +123,21 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 ## Speech and Audio Processing 
 
 ### Text to speech
+
+| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
+|:----------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
+| [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | Proprietary | Paid      |
+| [Bark](https://github.com/suno-ai/bark)                    | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
+| [Coqui](https://github.com/coqui-ai/TTS)                   | A pioneering project that focused on advancing generative voice technology.                                 | Open        | Free      |
+| [Eleven Labs](https://elevenlabs.io/)                      | Industry leader proprietary tool for generating speech from text using deep learning.                       | Proprietary | Freemium  |
+| [Listnr](https://listnr.ai/)                               | A cutting-edge AI voice generator that seamlessly converts text into natural-sounding speech.               | Proprietary | Freemium  |
+| [MeloTTS](https://github.com/myshell-ai/MeloTTS)           | An open-source text-to-speech tool that uses deep learning to generate high-quality speech synthesis.       | Open        | Free      |
+| [Metavoice](https://github.com/metavoiceio/metavoice-src)  | A groundbreaking model that has been developed to create human-like speech with emotional nuances.          | Proprietary | Free      |
+| [Murf](https://murf.ai/)                                   | A n innovative voice generator tool that revolutionizes the process of creating voiceovers.                 | Proprietary | Freemium  |
+| [SpeechT5](https://github.com/microsoft/SpeechT5/)         | A cutting-edge model in speech synthesis and natural language processing that offers a unified approach to various speech-related tasks. | Proprietary | Free      |
+| [Speechki](https://speechki.org/)                          | An advanced AI Realistic Voice Generator that offers over 1100 voices in more than 80 languages.            | Proprietary | Freemium  |
+| [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium  |
+
 
 ### Audio/video transcription and summaries
 
