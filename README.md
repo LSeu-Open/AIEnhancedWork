@@ -134,14 +134,33 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [MeloTTS](https://github.com/myshell-ai/MeloTTS)           | An open-source text-to-speech tool that uses deep learning to generate high-quality speech synthesis.       | Open        | Free      |
 | [Metavoice](https://github.com/metavoiceio/metavoice-src)  | A groundbreaking model that has been developed to create human-like speech with emotional nuances.          | Proprietary | Free      |
 | [Murf](https://murf.ai/)                                   | A n innovative voice generator tool that revolutionizes the process of creating voiceovers.                 | Proprietary | Freemium  |
-| [SpeechT5](https://github.com/microsoft/SpeechT5/)         | A cutting-edge model in speech synthesis and natural language processing that offers a unified approach to various speech-related tasks. | Proprietary | Free      |
+| [SpeechT5](https://github.com/microsoft/SpeechT5/)         | A cutting-edge model in speech synthesis and natural language processing that offers a unified approach to various speech-related tasks. | Proprietary | Free |
 | [Speechki](https://speechki.org/)                          | An advanced AI Realistic Voice Generator that offers over 1100 voices in more than 80 languages.            | Proprietary | Freemium  |
-| [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium  |
+| [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium |
 
 
-### Audio/video transcription and summaries
+### Video transcription and summaries
+
+| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
+|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------|-----------|
+| [Eightify](https://eightify.app/)                          | A powerful tool that utilizes YouTube AI technology to summarize videos quickly, providing users with key ideas in seconds.       | Proprietary | Free      |
+| [Exemplary AI](https://exemplary.ai/)                      | A cloud-based tool that harnesses Artificial Intelligence (AI) and LLMs to offer transcription solutions.   | Proprietary | Freemium  |
+| [Riverside](https://riverside.fm/)                         | An online studio that specializes in high-quality podcast and video recording and editing.                  | Proprietary | Freemium  |
+| [SolidPoint](https://solidpoint.ai/)                       | A range of tools that leverage AI technology to enhance productivity and efficiency in various tasks. One of its key features is the Summarize tool. | Proprietary | Free |
+| [Summify](https://summify.io/)                             | A powerful tool that efficiently condenses lengthy videos into concise and informative summaries.           | Proprietary | Freemium  |
+| [Voxweave](https://voxweave.xyz/)                          | An innovative AI-powered tool that revolutionizes the interaction with YouTube videos by transforming them into concise summaries. | Proprietary | Freemium  |
 
 
+
+### Meeting transcription and summaries
+
+| Tool                                                       | Description                                                                                                                                             | Licence     | Pricing  |
+|:-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|:--------:|
+| [Airgram](https://www.airgram.io/)                         | Industry leader proprietary tool for generating speech from text using deep learning.                                                                   | Proprietary | Freemium |
+| [Fireflies](https://fireflies.ai/)                         | An AI Meeting Assistant tool that offers a range of features to enhance meeting productivity.                                                           | Proprietary | Freemium |
+| [Otter](https://otter.ai/)                                 | AI Meeting Assistant tool that transcribes meetings in real-time, records audio, captures slides, extracts action items, and generates AI meeting summaries | Proprietary | Freemium |
+| [Tactiq](https://tactiq.io/)                               | A powerful tool that provides live transcriptions and insightful AI summaries for meetings conducted on platforms like Google Meet, Zoom, and MS Teams. | Proprietary | Freemium |
+| [Tldv](https://tldv.io/)                                   | A powerful tool designed to record, transcribe, and share online meetings on platforms like Google Meet and Zoom.                                       | Proprietary | Freemium |
 
 
 
