@@ -65,7 +65,14 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | Proprietary |Freemium |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Freemium |
 
+## Presentation slides
 
+| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
+|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
+| [Gamma](https://gamma.app/)                       | An innovative tool that harnesses artificial intelligence to create professional presentations, documents, and webpages swiftly and efficiently.                       | Proprietary   | Freemium   |
+| [MagicSlides](https://www.magicslides.app/)       | A powerful tool that leverages artificial intelligence to create professional presentations quickly and effortlessly.                                                  | Proprietary   | Freemium   |
+| [PlusAI](https://www.plusdocs.com/)               |  An advanced AI tool that integrates with Google Slides and Google Docs to assist users in creating professional presentations and well-written documents efficiently. | Proprietary   | Paid       |
+| [SlidesPilot](https://www.slidespilot.com/)       | An innovative tool designed to streamline the creation of professional and visually appealing presentation slides.                                                     | Proprietary   | Freemium   |
 
 ## Image Generation and Editing
 
@@ -161,7 +168,6 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [Otter](https://otter.ai/)                                 | AI Meeting Assistant tool that transcribes meetings in real-time, records audio, captures slides, extracts action items, and generates AI meeting summaries | Proprietary | Freemium |
 | [Tactiq](https://tactiq.io/)                               | A powerful tool that provides live transcriptions and insightful AI summaries for meetings conducted on platforms like Google Meet, Zoom, and MS Teams. | Proprietary | Freemium |
 | [Tldv](https://tldv.io/)                                   | A powerful tool designed to record, transcribe, and share online meetings on platforms like Google Meet and Zoom.                                       | Proprietary | Freemium |
-
 
 
 
