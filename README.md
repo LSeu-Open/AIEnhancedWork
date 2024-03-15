@@ -71,6 +71,7 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 | [Blackbox](https://www.blackbox.ai/)   | An AI platform that helps businesses automate processes, make predictions, and optimize decision-making. | Proprietary |Free |
 | [Boxy](https://codesandbox.io/blog/meet-boxy-ai-coding-assistant)       | An AI coding assistant by CodeSandbox providing real-time code suggestions and completions. | Proprietary |Freemium |
 | [Codeium](https://codeium.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Free |
+| [CodeWhisperer](https://aws.amazon.com/codewhisperer/)    | Developed by Amazon, provide real-time code suggestions and completions. | Proprietary |Freemium |
 | [Codium](https://www.codium.ai/)     | An AI-powered tool that analyze your code, docstring, and comments and suggests tests as you code. | Proprietary |Freemium |
 | [Github Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | Proprietary |Paid |
 | [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | Proprietary |Paid        |
