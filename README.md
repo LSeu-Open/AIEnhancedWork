@@ -8,6 +8,15 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 
  ## Table of Contents
 
+- [Generalist conversational AI](#generalist-conversational-ai)
+- [Code Suggestions and Autocompletion](#code-suggestions-and-autocompletion)
+- [Presentation slides](#presentation-slides)
+- [Image Generation and Editing](#image-generation-and-editing)
+- [Data Analysis](#data-analysis)
+- [Automation](#automation)
+- [Text to speech](#text-to-speech)
+- [Video transcription and summaries](#video-transcription-and-summaries) 
+- [Meeting transcription and summaries](#meeting-transcription-and-summaries) 
 
 ## Pros and Cons of AI Usage in Work Tasks
 
@@ -27,7 +36,7 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 > [!CAUTION]
 > **Balancing the benefits of AI with an awareness of these potential drawbacks is crucial. Taking appropriate measures to mitigate risks is essential for successful integration into workflows.**
 
-## Generalist conversational AI (or chatbot)
+## Generalist conversational AI
 
 Generalist conversational AI tools optimize daily work tasks by offering valuable information, automating repetitive processes, aiding content creation, and fostering collaboration, leading to improved productivity and efficiency.
 
