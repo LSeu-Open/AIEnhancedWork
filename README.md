@@ -59,6 +59,8 @@ Generalist conversational AI tools optimize daily work tasks by offering valuabl
 
 > [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - A crowdsourced open platform for LLM evaluations, ranking language models with the Elo ranking system based on performance in various conversational tasks.
 
+> If you're concerned about privacy issues related to LLM tools or you want to experiment with chatbots on your local device, I recommend using [Ollama](https://ollama.com/) . Ollama is an easy-to-use solution that allows you to run LLM locally without encountering technical difficulties.
+
 ## Code Suggestions and Autocompletion
 
 AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
