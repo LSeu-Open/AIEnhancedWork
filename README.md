@@ -67,6 +67,8 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 
 ## Presentation slides
 
+AI presentation tools enable users to create professional slides with ease, offering automatic layout, design, and content suggestions for impactful presentations.
+
 | Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
 |:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
 | [Gamma](https://gamma.app/)                       | An innovative tool that harnesses artificial intelligence to create professional presentations, documents, and webpages swiftly and efficiently.                       | Proprietary   | Freemium   |
@@ -101,6 +103,8 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 
 ## Data Analysis
 
+AI tools for data analysis automate routine tasks, identify patterns and trends, and provide intuitive visualizations, enabling analysts to extract valuable insights from complex data sets with ease and efficiency.
+
 | Tool             | Description                                                                                                                 | Licence     | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [AskCSV](https://askcsv.com/) | An AI-powered tool that allows users to ask questions about CSV data files in natural language and receive answers. | Proprietary | Freemium    |
@@ -112,6 +116,16 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 | [Research Studio](https://researchstudio.ai/)  | An AI-powered research assistant that helps users find, analyze, and summarize information.   | Proprietary | Paid        |
 | [Rows AI](https://www.rows.com/) | An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.              | Proprietary | Freemium    |
 | [Vizly](https://vizly.fyi/)  | A tool for creating interactive data visualizations.                                                            | Proprietary | Free        |
+
+<br>
+
+> If you are using Excel or Google Sheets, you can benefit from AI tools that help you write formulas.  👇
+
+| Tool                                             | Description                                                                                                                 | Licence     | Pricing     |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
+| [Formulabot](https://formulabot.com/)           | A virtual assistant designed to streamline the process of creating Excel formulas by understanding natural language instructions. | Proprietary | Paid        |
+| [GPTExcel](https://gptexcel.uk/)                | An AI tool designed to generate and explain Microsoft Excel and Google Sheets formulas efficiently.                            | Proprietary | Freemium    |
+| [Sheety](https://sheety.ai/formula-generator)   | A tool designed to streamline the process of creating Google Sheets formulas using artificial intelligence.                  | Proprietary | Free        |
 
 
 ## Automation
@@ -125,11 +139,9 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | Proprietary | Paid |
 | [Zapier](https://zapier.com/) | A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps. | Proprietary | Paid |
 
+## Text to speech
 
-
-## Speech and Audio Processing 
-
-### Text to speech
+Text-to-speech AI tools convert written text into natural-sounding speech, improving accessibility and creating engaging experiences. They use deep learning algorithms to synthesize speech with customizable features such as voice, accent, and speaking style.
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
@@ -146,7 +158,9 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium |
 
 
-### Video transcription and summaries
+## Video transcription and summaries
+
+AI video transcription and summarization tools use NLP and computer vision to quickly and accurately extract insights from video content. They automate the transcription and summary process, saving time and reducing errors, so users can focus on analysis and interpretation.
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------|-----------|
@@ -159,7 +173,9 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 
 
 
-### Meeting transcription and summaries
+## Meeting transcription and summaries
+
+AI meeting transcription and summarization tools automatically transcribe and summarize meetings, helping teams stay organized and informed. They use NLP and machine learning to identify key topics and action items, saving time and reducing errors.
 
 | Tool                                                       | Description                                                                                                                                             | Licence     | Pricing  |
 |:-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|:--------:|
