@@ -15,6 +15,7 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 - [Image Generation and Editing](#image-generation-and-editing)
 - [Meeting transcription and summaries](#meeting-transcription-and-summaries) 
 - [Presentation slides](#presentation-slides)
+- [Productivity](#productivity)
 - [Text to speech](#text-to-speech)
 - [Presentation slides](#presentation-slides)
 - [Image Generation and Editing](#image-generation-and-editing)
@@ -175,6 +176,17 @@ AI presentation tools enable users to create professional slides with ease, offe
 | [MagicSlides](https://www.magicslides.app/)       | A powerful tool that leverages artificial intelligence to create professional presentations quickly and effortlessly.                                                  | Proprietary   | Freemium   |
 | [PlusAI](https://www.plusdocs.com/)               |  An advanced AI tool that integrates with Google Slides and Google Docs to assist users in creating professional presentations and well-written documents efficiently. | Proprietary   | Paid       |
 | [SlidesPilot](https://www.slidespilot.com/)       | An innovative tool designed to streamline the creation of professional and visually appealing presentation slides.                                                     | Proprietary   | Freemium   |
+
+## Productivity
+
+Enhance productivity and accuracy across domains with these versatile AI tools. (yes, These tools could fit into multiple categories.)
+   
+| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
+|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
+| [BeeyondAI](https://www.beeyondai.com/)                     | AI digital assistant that offers a wide range of tools to enhance productivity and creativity across various aspects of life. | Proprietary | Paid      |
+| [Copilot](https://www.microsoft.com/fr-fr/microsoft-copilot) |  An AI assistant developed by Microsoft, designed to enhance productivity and creativity for users.       | Proprietary | Freemium  |
+| [Hyperis](https://hyperis.com/welcome)                     | AI-driven assistant app designed to help users prioritize tasks, focus on important work, and boost creativity. | Proprietary | Freemium  |
+| [Ultra-Attention](https://ultra-attention.com/)            |  AI-powered software solution designed specifically for freelancers and remote workers to help them conquer distractions, boost focus, and enhance productivity. | Proprietary | Freemium  |
 
 ## Text to speech
 
