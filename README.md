@@ -102,16 +102,17 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
 | Tool       | Description                                                                                                           | Licence     | Organization | Knowledge Cutoff | Pricing model |
 |:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:------------:|:----------------:|:-------------:|
-| [ChatGPT](https://chat.openai.com/) | Powerful language model by OpenAI for natural and contextually relevant conversations.       | Proprietary   | OpenAI         | 2021-09            |Freemium |
-| [Claude](https://claude.ai/) | Advanced language model by Anthropic for understanding and generating human-like text.              | Proprietary   | Anthropic      | 2023-08            |Freemium |
-| [Gemini](https://gemini.google.com/) | State-of-the-art language model by Google with advanced natural language understanding.     | Proprietary   | Google         | Online             |Freemium |
-| [Llama](https://github.com/facebookresearch/llama) | Large-scale language model by Meta designed to handle diverse conversational contexts. | Proprietary | Meta    | 2023-07            |Free     |
-| [Mistral](https://mistral.ai/) | Open-source language model by Mistral AI offering transparency and flexibility in deployment.     | Open          | Mistral AI     | unknown            |Freemium |
-| [Openchat](https://github.com/imoneoi/openchat) | Open-source project fostering collaboration and innovation in the AI community.  | Open          | Community      | 2024-01            |Free |
-| [Perplexity](https://www.perplexity.ai/) | Unique model by Perplexity AI combining a search engine and conversational agent for seamless integration. | Proprietary | Perplexity AI| Online |Freemium |
-| [Qwen](https://qwenlm.github.io/) | Language model by Alibaba specialized in understanding and generating text with high accuracy. | Proprietary   | Alibaba        | 2023-08            |None |
-| [WizardLM](https://github.com/nlpxucan/WizardLM) | Language model by Microsoft known for robust performance in generating relevant responses. | Proprietary | Microsoft | 2023-08        |None |
-| [Yi](https://www.01.ai/) | Language model by 01.ai equipped with state-of-the-art conversational capabilities.                     | Proprietary   | 01.ai          | 2023-06            |None |
+| [ChatGPT](https://chat.openai.com/) | Powerful language model by OpenAI for natural and contextually relevant conversations.       | Proprietary   | OpenAI         | 2021-09      | Freemium |
+| [Claude](https://claude.ai/) | Advanced language model by Anthropic for understanding and generating human-like text.              | Proprietary   | Anthropic      | 2023-08      | Freemium |
+| [Gemini](https://gemini.google.com/) | State-of-the-art language model by Google with advanced natural language understanding.     | Proprietary   | Google         | Online       | Freemium |
+| [Grok](https://github.com/xai-org/grok-1) | A chatbot developed by Elon Musk's xAI. It is designed to respond to user queries and provide real-time knowledge.| Open | X | Online | None |
+| [Llama](https://github.com/facebookresearch/llama) | Large-scale language model by Meta designed to handle diverse conversational contexts. | Proprietary | Meta    | 2023-07      | Free     |
+| [Mistral](https://mistral.ai/) | Open-source language model by Mistral AI offering transparency and flexibility in deployment.     | Open          | Mistral AI     | unknown      | Freemium |
+| [Openchat](https://github.com/imoneoi/openchat) | Open-source project fostering collaboration and innovation in the AI community.  | Open          | Community      | 2024-01      | Free |
+| [Perplexity](https://www.perplexity.ai/) | Unique model by Perplexity AI combining a search engine and conversational agent for seamless integration. | Proprietary | Perplexity AI| Online | Freemium |
+| [Qwen](https://qwenlm.github.io/) | Language model by Alibaba specialized in understanding and generating text with high accuracy. | Proprietary   | Alibaba        | 2023-08      | None |
+| [WizardLM](https://github.com/nlpxucan/WizardLM) | Language model by Microsoft known for robust performance in generating relevant responses. | Proprietary | Microsoft | 2023-08  | None |
+| [Yi](https://www.01.ai/) | Language model by 01.ai equipped with state-of-the-art conversational capabilities.                     | Proprietary   | 01.ai          | 2023-06      | None |
 
 > [!TIP]
 > *Optimizing your interactions with chatbots through prompt engineering can significantly enhance their performance. Here's a useful [prompt engineering cheat sheet](https://medium.com/@mdsatriaalamshah/chatgpt-prompt-engineering-cheat-sheet-8ee73a81d2bc) to help you improve your LLM skills.*
