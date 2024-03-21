@@ -72,6 +72,9 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 
 AI tools for data analysis automate routine tasks, identify patterns and trends, and provide intuitive visualizations, enabling analysts to extract valuable insights from complex data sets with ease and efficiency.
 
+> [!CAUTION]
+> Exercise caution with fully automated analysis results, as errors and biases may occur. Use AI tools as a complement to human judgment for more reliable insights.
+
 | Tool             | Description                                                                                                                 | Licence     | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [AskCSV](https://askcsv.com/) | An AI-powered tool that allows users to ask questions about CSV data files in natural language and receive answers. | Proprietary | Freemium    |
@@ -83,11 +86,6 @@ AI tools for data analysis automate routine tasks, identify patterns and trends,
 | [Research Studio](https://researchstudio.ai/)  | An AI-powered research assistant that helps users find, analyze, and summarize information.   | Proprietary | Paid        |
 | [Rows AI](https://www.rows.com/) | An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.              | Proprietary | Freemium    |
 | [Vizly](https://vizly.fyi/)  | A tool for creating interactive data visualizations.                                                            | Proprietary | Free        |
-
-> [!CAUTION]
-> Exercise caution with fully automated analysis results, as errors and biases may occur. Use AI tools as a complement to human judgment for more reliable insights.
-
-<br>
 
 If you are using Excel or Google Sheets, you can benefit from AI tools that help you write formulas.  👇
 
@@ -156,6 +154,7 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 | [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) | An AI-powered tool for applying various image effects and filters.     | Proprietary | Paid |
 | [Lensa](https://prisma-ai.com/lensa) | An AI-powered mobile app for editing and enhancing photos, particularly for portrait editing.    | Proprietary | Paid |
 | [Luminar Neo](https://skylum.com/fr/luminar) | An AI-powered photo editing software developed by Skylum.                                | Proprietary | Paid |
+| [Magnific AI](https://magnific.ai/) | an AI-powered image upscaler and enhancer designed for professionals and enthusiasts in photography, graphic design, digital art, and illustration. | Proprietary | Paid |
 | [Pixlr](https://pixlr.com/) | An AI-powered online photo editing tool.                                                                  | Proprietary | Freemium |
 | [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | Proprietary | Freemium    |
 
