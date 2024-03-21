@@ -106,7 +106,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [ChatGPT](https://chat.openai.com/) | Powerful language model by OpenAI for natural and contextually relevant conversations.       | Proprietary   | OpenAI         | 2021-09      | Freemium |
 | [Claude](https://claude.ai/) | Advanced language model by Anthropic for understanding and generating human-like text.              | Proprietary   | Anthropic      | 2023-08      | Freemium |
 | [Gemini](https://gemini.google.com/) | State-of-the-art language model by Google with advanced natural language understanding.     | Proprietary   | Google         | Online       | Freemium |
-| [Grok](https://github.com/xai-org/grok-1) | A chatbot developed by Elon Musk's xAI. It is designed to respond to user queries and provide real-time knowledge.| Open | X | Online | None |
+| [Grok](https://github.com/xai-org/grok-1) | A chatbot developed by Elon Musk's xAI. It is designed to respond to user queries and provide real-time knowledge.| Open | 𝕏 | Online | None |
 | [Llama](https://github.com/facebookresearch/llama) | Large-scale language model by Meta designed to handle diverse conversational contexts. | Proprietary | Meta    | 2023-07      | Free     |
 | [Mistral](https://mistral.ai/) | Open-source language model by Mistral AI offering transparency and flexibility in deployment.     | Open          | Mistral AI     | unknown      | Freemium |
 | [Openchat](https://github.com/imoneoi/openchat) | Open-source project fostering collaboration and innovation in the AI community.  | Open          | Community      | 2024-01      | Free |
