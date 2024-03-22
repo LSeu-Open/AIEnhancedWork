@@ -170,6 +170,7 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 | [Runway](https://runwayml.com/) | An AI-powered platform for creatives to use machine learning models in their workflows.               | Proprietary | Paid |
 | [Sora](https://openai.com/sora) | An AI model developed by OpenAI for generating videos from textual descriptions.                      | Proprietary | Paid |
 | [Synthesia](https://www.synthesia.io/) | A synthetic media generation AI tool to create AI-generated video content efficiently.         | Proprietary | Paid |
+| [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | Proprietary | None (Preview) |
 | [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | Proprietary | Freemium |
 
 
