@@ -63,12 +63,13 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 | [Codeium](https://codeium.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Free |
 | [CodeWhisperer](https://aws.amazon.com/codewhisperer/)    | Developed by Amazon, provide real-time code suggestions and completions. | Proprietary |Freemium |
 | [Codium](https://www.codium.ai/)     | An AI-powered tool that analyze your code, docstring, and comments and suggests tests as you code. | Proprietary |Freemium |
+| [Devin](https://preview.devin.ai/)     | The world's first fully autonomous AI software engineer, capable of autonomously handling complex engineering tasks. | Proprietary | None (Preview) |
 | [Github Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | Proprietary |Paid |
 | [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | Proprietary |Paid        |
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | Proprietary |Freemium |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Freemium |
 
-## Data Analysis
+## Data Analysis 
 
 AI tools for data analysis automate routine tasks, identify patterns and trends, and provide intuitive visualizations, enabling analysts to extract valuable insights from complex data sets with ease and efficiency.
 
