@@ -101,7 +101,7 @@ If you are using Excel or Google Sheets, you can benefit from AI tools that help
 Generalist conversational AI tools (or chatbots) optimize daily work tasks by offering valuable information, automating repetitive processes, aiding content creation, and fostering collaboration, leading to improved productivity and efficiency.
 
 > [!TIP]
-> *Optimizing your interactions with chatbots through prompt engineering can significantly enhance their performance. Here's a useful [prompt engineering cheat sheet](https://medium.com/@mdsatriaalamshah/chatgpt-prompt-engineering-cheat-sheet-8ee73a81d2bc) to help you improve your LLM skills.*
+> *Optimizing your interactions with chatbots through prompt engineering can significantly enhance their performance. Here's a useful [prompt engineering cheat sheet](https://medium.com/@mdsatriaalamshah/chatgpt-prompt-engineering-cheat-sheet-8ee73a81d2bc) to help you improve your LLM skills. For those who strive for more , this [awesome Course](https://learn.codesignal.com/preview/course-paths/16/prompt-engineering-for-everyone) form CodeSignal will make you a lot better at prompting.*
 
 | Tool       | Description                                                                                                           | Licence     | Organization | Knowledge Cutoff | Pricing model |
 |:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:------------:|:----------------:|:-------------:|
