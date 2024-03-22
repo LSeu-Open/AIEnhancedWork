@@ -112,6 +112,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Mistral](https://mistral.ai/) | Open-source language model by Mistral AI offering transparency and flexibility in deployment.     | Open          | Mistral AI     | unknown      | Freemium |
 | [Openchat](https://github.com/imoneoi/openchat) | Open-source project fostering collaboration and innovation in the AI community.  | Open          | Community      | 2024-01      | Free |
 | [Perplexity](https://www.perplexity.ai/) | Unique model by Perplexity AI combining a search engine and conversational agent for seamless integration. | Proprietary | Perplexity AI| Online | Freemium |
+| [Pi](https://inflection.ai/) | A chatbot by Inflection, It is designed to be empathetic, helpful, and safe, providing information on various topics | Proprietary | Inflection AI | unkown | Free |
 | [Qwen](https://qwenlm.github.io/) | Language model by Alibaba specialized in understanding and generating text with high accuracy. | Proprietary   | Alibaba        | 2023-08      | None |
 | [WizardLM](https://github.com/nlpxucan/WizardLM) | Language model by Microsoft known for robust performance in generating relevant responses. | Proprietary | Microsoft | 2023-08  | None |
 | [Yi](https://www.01.ai/) | Language model by 01.ai equipped with state-of-the-art conversational capabilities.                     | Proprietary   | 01.ai          | 2023-06      | None |
