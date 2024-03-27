@@ -51,6 +51,17 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | Proprietary | Paid |
 | [Zapier](https://zapier.com/) | A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps. | Proprietary | Paid |
 
+### AI Agents
+
+An AI agent, also known as an intelligent agent, is a computer program or system designed to perceive its environment, make decisions, and take actions autonomously to achieve specific goals.
+
+| Tool             | Description                                                                                                                 | Licence     | Pricing     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [AgentGPT](https://agentgpt.reworkd.ai/) | A generative artificial intelligence tool that allows users to create autonomous AI agents capable of performing various tasks autonomously. | Open | Freemium    |
+| [Godmode](https://godmode.space/) |  A web platform that provides access to innovative AI agents like autoGPT and babyAGI, allowing users to harness the power of autonomous AI agents. | Open | Free    |
+| [Super AGI](https://superagi.com/) | An open-source autonomous AI agent framework that enables developers to build, manage, and run useful autonomous agents efficiently and reliably. | Open | Free    |
+
+
 ## Code Suggestions and Autocompletion
 
 AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
