@@ -40,6 +40,10 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 > [!CAUTION]
 > **Balancing the benefits of AI with an awareness of these potential drawbacks is crucial. Taking appropriate measures to mitigate risks is essential for successful integration into workflows.**
 
+> [!TIP]
+> To effectively mitigate risks associated with generative AI technologies, it's essential to have a solid understanding of their fundamentals. By educating yourself, you'll be better equipped to identify and correct errors and biases, ensuring more accurate and reliable results.
+> Microsoft offers [helpful lessons](https://microsoft.github.io/generative-ai-for-beginners/#/) on this subject that can provide you with valuable knowledge. 
+
 ## Automation
 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
