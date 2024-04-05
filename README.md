@@ -14,13 +14,10 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 - [Data Analysis](#data-analysis)
 - [Generalist conversational AI](#generalist-conversational-ai)
 - [Image Generation and Editing](#image-generation-and-editing)
-- [Meeting transcription and summaries](#meeting-transcription-and-summaries) 
+- [Meeting transcription and summaries](#meeting-transcription-and-summaries)
+- [Music and Audio Generation](#music-and-audio-generation) 
 - [Presentation slides](#presentation-slides)
 - [Productivity](#productivity)
-- [Text to speech](#text-to-speech)
-- [Presentation slides](#presentation-slides)
-- [Image Generation and Editing](#image-generation-and-editing)
-- [Data Analysis](#data-analysis)
 - [Video transcription and summaries](#video-transcription-and-summaries) 
 
 ## Pros and Cons of AI Usage in Work Tasks
@@ -218,6 +215,39 @@ AI meeting transcription and summarization tools automatically transcribe and su
 | [Tactiq](https://tactiq.io/)                               | A powerful tool that provides live transcriptions and insightful AI summaries for meetings conducted on platforms like Google Meet, Zoom, and MS Teams. | Proprietary | Freemium |
 | [Tldv](https://tldv.io/)                                   | A powerful tool designed to record, transcribe, and share online meetings on platforms like Google Meet and Zoom.                                       | Proprietary | Freemium |
 
+## Music and Audio Generation
+
+### Music Generation
+
+AI tools for music generation use machine learning to create original compositions in various styles, aiding musicians and generating customizable background music.
+
+| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
+|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
+| [Stable Audio](https://stability.ai/stable-audio) |  A generative AI system developed by Stability AI for creating high-quality audio and music.                                                                           | Proprietary   | Freemium   |
+| [Mubert](https://mubert.com/)                     |  A generative AI platform that allows users to create and stream original, AI-generated music and audio.                                                               | Proprietary   | Freemium   |
+| [Magenta](https://magenta.tensorflow.org/)        |  AI  project developed by Google that explores the use of machine learning as a tool for creative applications, particularly in music and art.                         | Open          | Free       |
+| [MuseNet](https://openai.com/research/musenet)    |  An AI model developed by OpenAI that can generate original 4-minute musical compositions with up to 10 different instruments.                                         | Proprietary   | None (Research)   |
+| [Jukebox](https://jukebox.openai.com/)            | A generative AI model developed by OpenAI that can create original music, including rudimentary singing, in a variety of genres and artist styles.                     | Proprietary   | None (Research)   |
+
+### Text to speech
+
+Text-to-speech AI tools convert written text into natural-sounding speech, improving accessibility and creating engaging experiences. They use deep learning algorithms to synthesize speech with customizable features such as voice, accent, and speaking style.
+
+| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
+|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
+| [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | Proprietary | Paid      |
+| [Bark](https://github.com/suno-ai/bark)                    | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
+| [Coqui](https://github.com/coqui-ai/TTS)                   | A pioneering project that focused on advancing generative voice technology.                                 | Open        | Free      |
+| [Eleven Labs](https://elevenlabs.io/)                      | Industry leader proprietary tool for generating speech from text using deep learning.                       | Proprietary | Freemium  |
+| [Listnr](https://listnr.ai/)                               | A cutting-edge AI voice generator that seamlessly converts text into natural-sounding speech.               | Proprietary | Freemium  |
+| [MeloTTS](https://github.com/myshell-ai/MeloTTS)           | An open-source text-to-speech tool that uses deep learning to generate high-quality speech synthesis.       | Open        | Free      |
+| [Metavoice](https://github.com/metavoiceio/metavoice-src)  | A groundbreaking model that has been developed to create human-like speech with emotional nuances.          | Proprietary | Free      |
+| [Murf](https://murf.ai/)                                   | A n innovative voice generator tool that revolutionizes the process of creating voiceovers.                 | Proprietary | Freemium  |
+| [SpeechT5](https://github.com/microsoft/SpeechT5/)         | A cutting-edge model in speech synthesis and natural language processing that offers a unified approach to various speech-related tasks. | Proprietary | Free |
+| [Speechki](https://speechki.org/)                          | An advanced AI Realistic Voice Generator that offers over 1100 voices in more than 80 languages.            | Proprietary | Freemium  |
+| [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium |
+| [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | Open | Free |
+
 ## Presentation slides
 
 AI presentation tools enable users to create professional slides with ease, offering automatic layout, design, and content suggestions for impactful presentations.
@@ -240,25 +270,6 @@ Enhance productivity and accuracy across domains with these versatile AI tools. 
 | [Hyperis](https://hyperis.com/welcome)                     | AI-driven assistant app designed to help users prioritize tasks, focus on important work, and boost creativity. | Proprietary | Freemium  |
 | [KPU](https://maisa.ai/)                                    | A revolutionary Knowledge Processing Unit by Maisa AI that enhances the reasoning capabilities of large language models. | Proprietary | None (Preview) |
 | [Ultra-Attention](https://ultra-attention.com/)            |  AI-powered software solution designed specifically for freelancers and remote workers to help them conquer distractions, boost focus, and enhance productivity. | Proprietary | Freemium  |
-
-## Text to speech
-
-Text-to-speech AI tools convert written text into natural-sounding speech, improving accessibility and creating engaging experiences. They use deep learning algorithms to synthesize speech with customizable features such as voice, accent, and speaking style.
-
-| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
-| [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | Proprietary | Paid      |
-| [Bark](https://github.com/suno-ai/bark)                    | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
-| [Coqui](https://github.com/coqui-ai/TTS)                   | A pioneering project that focused on advancing generative voice technology.                                 | Open        | Free      |
-| [Eleven Labs](https://elevenlabs.io/)                      | Industry leader proprietary tool for generating speech from text using deep learning.                       | Proprietary | Freemium  |
-| [Listnr](https://listnr.ai/)                               | A cutting-edge AI voice generator that seamlessly converts text into natural-sounding speech.               | Proprietary | Freemium  |
-| [MeloTTS](https://github.com/myshell-ai/MeloTTS)           | An open-source text-to-speech tool that uses deep learning to generate high-quality speech synthesis.       | Open        | Free      |
-| [Metavoice](https://github.com/metavoiceio/metavoice-src)  | A groundbreaking model that has been developed to create human-like speech with emotional nuances.          | Proprietary | Free      |
-| [Murf](https://murf.ai/)                                   | A n innovative voice generator tool that revolutionizes the process of creating voiceovers.                 | Proprietary | Freemium  |
-| [SpeechT5](https://github.com/microsoft/SpeechT5/)         | A cutting-edge model in speech synthesis and natural language processing that offers a unified approach to various speech-related tasks. | Proprietary | Free |
-| [Speechki](https://speechki.org/)                          | An advanced AI Realistic Voice Generator that offers over 1100 voices in more than 80 languages.            | Proprietary | Freemium  |
-| [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium |
-| [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | Open | Free |
 
 ## Video transcription and summaries
 
