@@ -8,17 +8,25 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 
  ## Table of Contents
 
-- [AI Agents](#ai-agents)
-- [Automation](#automation)
-- [Code Suggestions and Autocompletion](#code-suggestions-and-autocompletion)
-- [Data Analysis](#data-analysis)
-- [Generalist conversational AI](#generalist-conversational-ai)
-- [Image Generation and Editing](#image-generation-and-editing)
-- [Meeting transcription and summaries](#meeting-transcription-and-summaries)
-- [Music and Audio Generation](#music-and-audio-generation) 
-- [Presentation slides](#presentation-slides)
-- [Productivity](#productivity)
-- [Video transcription and summaries](#video-transcription-and-summaries) 
+* [AI Agents](#ai-agents)
+  - [Autonomous Agents](#autonomous-agents)
+  - [Language Models for Function Calling](#language-models-for-function-calling)
+* [Automation](#automation)  
+* [Code Suggestions and Autocompletion](#code-suggestions-and-autocompletion)
+* [Data Analysis](#data-analysis)
+* [Generalist conversational AI](#generalist-conversational-ai)
+* [Image Generation and Editing](#image-generation-and-editing)
+  - [Image Generation](#image-generation)
+  - [Image Editing](#image-editing)
+  - [Video Generation](#video-generation)
+* [Music and Audio Generation](#music-and-audio-generation)
+  - [Music Generation](#music-generation)
+  - [Text to speech](#text-to-speech) 
+* [Productivity](#productivity)
+  - [Versatile Productivity tools](#versatile-productivity-tools)
+  - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
+  - [Presentation slides](#presentation-slides)
+  - [Video transcription and summaries](#video-transcription-and-summaries)
 
 ## Pros and Cons of AI Usage in Work Tasks
 
@@ -54,7 +62,7 @@ AI agents are intelligent software entities that can perform tasks autonomously 
 | [Godmode](https://godmode.space/) |  A web platform that provides access to innovative AI agents like autoGPT and babyAGI, allowing users to harness the power of autonomous AI agents. | Open | Free    |
 | [Super AGI](https://superagi.com/) | An open-source autonomous AI agent framework that enables developers to build, manage, and run useful autonomous agents efficiently and reliably. | Open | Free    |
 
-### Language Models for Function Calling (LMFC)
+### Language Models for Function Calling
 
 LMFC enables language models to execute specific functions directly on the device, eliminating the need for cloud processing, resulting in improved performance and reduced latency.
 
@@ -202,19 +210,6 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 | [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | Proprietary | None (Preview) |
 | [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | Proprietary | Freemium |
 
-
-## Meeting transcription and summaries
-
-AI meeting transcription and summarization tools automatically transcribe and summarize meetings, helping teams stay organized and informed. They use NLP and machine learning to identify key topics and action items, saving time and reducing errors.
-
-| Tool                                                       | Description                                                                                                                                             | Licence     | Pricing  |
-|:-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|:--------:|
-| [Airgram](https://www.airgram.io/)                         | Industry leader proprietary tool for generating speech from text using deep learning.                                                                   | Proprietary | Freemium |
-| [Fireflies](https://fireflies.ai/)                         | An AI Meeting Assistant tool that offers a range of features to enhance meeting productivity.                                                           | Proprietary | Freemium |
-| [Otter](https://otter.ai/)                                 | AI Meeting Assistant tool that transcribes meetings in real-time, records audio, captures slides, extracts action items, and generates AI meeting summaries | Proprietary | Freemium |
-| [Tactiq](https://tactiq.io/)                               | A powerful tool that provides live transcriptions and insightful AI summaries for meetings conducted on platforms like Google Meet, Zoom, and MS Teams. | Proprietary | Freemium |
-| [Tldv](https://tldv.io/)                                   | A powerful tool designed to record, transcribe, and share online meetings on platforms like Google Meet and Zoom.                                       | Proprietary | Freemium |
-
 ## Music and Audio Generation
 
 ### Music Generation
@@ -248,18 +243,9 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
 | [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium |
 | [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | Open | Free |
 
-## Presentation slides
-
-AI presentation tools enable users to create professional slides with ease, offering automatic layout, design, and content suggestions for impactful presentations.
-
-| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
-|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
-| [Gamma](https://gamma.app/)                       | An innovative tool that harnesses artificial intelligence to create professional presentations, documents, and webpages swiftly and efficiently.                       | Proprietary   | Freemium   |
-| [MagicSlides](https://www.magicslides.app/)       | A powerful tool that leverages artificial intelligence to create professional presentations quickly and effortlessly.                                                  | Proprietary   | Freemium   |
-| [PlusAI](https://www.plusdocs.com/)               |  An advanced AI tool that integrates with Google Slides and Google Docs to assist users in creating professional presentations and well-written documents efficiently. | Proprietary   | Paid       |
-| [SlidesPilot](https://www.slidespilot.com/)       | An innovative tool designed to streamline the creation of professional and visually appealing presentation slides.                                                     | Proprietary   | Freemium   |
-
 ## Productivity
+
+### Versatile Productivity tools
 
 Enhance productivity and accuracy across domains with these versatile AI tools. (yes, These tools could fit into multiple categories.)
    
@@ -271,7 +257,30 @@ Enhance productivity and accuracy across domains with these versatile AI tools. 
 | [KPU](https://maisa.ai/)                                    | A revolutionary Knowledge Processing Unit by Maisa AI that enhances the reasoning capabilities of large language models. | Proprietary | None (Preview) |
 | [Ultra-Attention](https://ultra-attention.com/)            |  AI-powered software solution designed specifically for freelancers and remote workers to help them conquer distractions, boost focus, and enhance productivity. | Proprietary | Freemium  |
 
-## Video transcription and summaries
+### Meeting transcription and summaries
+
+AI meeting transcription and summarization tools automatically transcribe and summarize meetings, helping teams stay organized and informed. They use NLP and machine learning to identify key topics and action items, saving time and reducing errors.
+
+| Tool                                                       | Description                                                                                                                                             | Licence     | Pricing  |
+|:-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|:--------:|
+| [Airgram](https://www.airgram.io/)                         | Industry leader proprietary tool for generating speech from text using deep learning.                                                                   | Proprietary | Freemium |
+| [Fireflies](https://fireflies.ai/)                         | An AI Meeting Assistant tool that offers a range of features to enhance meeting productivity.                                                           | Proprietary | Freemium |
+| [Otter](https://otter.ai/)                                 | AI Meeting Assistant tool that transcribes meetings in real-time, records audio, captures slides, extracts action items, and generates AI meeting summaries | Proprietary | Freemium |
+| [Tactiq](https://tactiq.io/)                               | A powerful tool that provides live transcriptions and insightful AI summaries for meetings conducted on platforms like Google Meet, Zoom, and MS Teams. | Proprietary | Freemium |
+| [Tldv](https://tldv.io/)                                   | A powerful tool designed to record, transcribe, and share online meetings on platforms like Google Meet and Zoom.                                       | Proprietary | Freemium |
+
+### Presentation slides
+
+AI presentation tools enable users to create professional slides with ease, offering automatic layout, design, and content suggestions for impactful presentations.
+
+| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
+|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
+| [Gamma](https://gamma.app/)                       | An innovative tool that harnesses artificial intelligence to create professional presentations, documents, and webpages swiftly and efficiently.                       | Proprietary   | Freemium   |
+| [MagicSlides](https://www.magicslides.app/)       | A powerful tool that leverages artificial intelligence to create professional presentations quickly and effortlessly.                                                  | Proprietary   | Freemium   |
+| [PlusAI](https://www.plusdocs.com/)               |  An advanced AI tool that integrates with Google Slides and Google Docs to assist users in creating professional presentations and well-written documents efficiently. | Proprietary   | Paid       |
+| [SlidesPilot](https://www.slidespilot.com/)       | An innovative tool designed to streamline the creation of professional and visually appealing presentation slides.                                                     | Proprietary   | Freemium   |
+
+### Video transcription and summaries
 
 AI video transcription and summarization tools use NLP and computer vision to quickly and accurately extract insights from video content. They automate the transcription and summary process, saving time and reducing errors, so users can focus on analysis and interpretation.
 
