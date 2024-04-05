@@ -8,6 +8,7 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 
  ## Table of Contents
 
+- [AI Agents](#ai-agents)
 - [Automation](#automation)
 - [Code Suggestions and Autocompletion](#code-suggestions-and-autocompletion)
 - [Data Analysis](#data-analysis)
@@ -44,6 +45,32 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 > To effectively mitigate risks associated with generative AI technologies, it's essential to have a solid understanding of their fundamentals. By educating yourself, you'll be better equipped to identify and correct errors and biases, ensuring more accurate and reliable results.
 > Microsoft offers [helpful lessons](https://microsoft.github.io/generative-ai-for-beginners/#/) on this subject that can provide you with valuable knowledge. 
 
+## AI Agents
+
+AI agents are intelligent software entities that can perform tasks autonomously or semi-autonomously on behalf of a user or system. These agents can learn from experience, adapt to new situations, and communicate with other agents or systems to achieve their goals.
+
+### Autonomous Agents
+
+| Tool             | Description                                                                                                                 | Licence     | Pricing     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [AgentGPT](https://agentgpt.reworkd.ai/) | A generative artificial intelligence tool that allows users to create autonomous AI agents capable of performing various tasks autonomously. | Open | Freemium    |
+| [Godmode](https://godmode.space/) |  A web platform that provides access to innovative AI agents like autoGPT and babyAGI, allowing users to harness the power of autonomous AI agents. | Open | Free    |
+| [Super AGI](https://superagi.com/) | An open-source autonomous AI agent framework that enables developers to build, manage, and run useful autonomous agents efficiently and reliably. | Open | Free    |
+
+### Language Models for Function Calling (LMFC)
+
+LMFC enables language models to execute specific functions directly on the device, eliminating the need for cloud processing, resulting in improved performance and reduced latency.
+
+| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
+|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
+| [Octopus-V2](https://huggingface.co/NexaAIDev/Octopus-v2) | An open-source language model with 2B parameters, developed by Nexa AI for Android API function calling, representing a research breakthrough in LLM application | Open        | Free |
+| [Llama-7B with RAG](https://agi-sphere.com/retrieval-augmented-generation-llama2/) | Use the Llama-7B language model in a Retrieval-Augmented Generation (RAG) setup.                                                        | Proprietary | Free |
+| [GPT-3.5-turbo-0613 and GPT-4-0613](https://chat.openai.com/) |   OpenAI now feature the capability of "Function Calling", which allows developers to define functions and guide the model to generate arguments for those functions. | Proprietary | Freemium |
+
+> [!Note]
+> Retrieval-Augmented Generation (RAG) is a technique that retrieves relevant information from a database and injects it into the language model's context, allowing the model to focus on what is most relevant for a given query.
+> Learn more on that subject on the [Nvidia's blog](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/).
+
 ## Automation
 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
@@ -54,17 +81,6 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [N8N](https://n8n.io/) | A free and open-source fair-code licensed workflow automation tool. It allows users to create workflows using a visual editor and connect various services to automate tasks. N8N can be self-hosted, providing users with more control over their data. | Open | Free |
 | [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | Proprietary | Paid |
 | [Zapier](https://zapier.com/) | A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps. | Proprietary | Paid |
-
-### AI Agents
-
-An AI agent, also known as an intelligent agent, is a computer program or system designed to perceive its environment, make decisions, and take actions autonomously to achieve specific goals.
-
-| Tool             | Description                                                                                                                 | Licence     | Pricing     |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [AgentGPT](https://agentgpt.reworkd.ai/) | A generative artificial intelligence tool that allows users to create autonomous AI agents capable of performing various tasks autonomously. | Open | Freemium    |
-| [Godmode](https://godmode.space/) |  A web platform that provides access to innovative AI agents like autoGPT and babyAGI, allowing users to harness the power of autonomous AI agents. | Open | Free    |
-| [Super AGI](https://superagi.com/) | An open-source autonomous AI agent framework that enables developers to build, manage, and run useful autonomous agents efficiently and reliably. | Open | Free    |
-
 
 ## Code Suggestions and Autocompletion
 
