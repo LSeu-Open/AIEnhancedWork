@@ -160,7 +160,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
 > [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - A crowdsourced open platform for LLM evaluations, ranking language models with the Elo ranking system based on performance in various conversational tasks.
 
-> If you're concerned about privacy issues related to LLM tools or you want to experiment with chatbots on your local device, I recommend using [Ollama](https://ollama.com/) . Ollama is an easy-to-use solution that allows you to run LLM locally without encountering technical difficulties.
+> If you're concerned about privacy issues related to LLM tools or you want to experiment with chatbots on your local device, I recommend using [Ollama](https://ollama.com/) (Cli) or [LM Studio](https://lmstudio.ai/) (GUI) .Thery are easy-to-use solutions that allows you to run LLM locally without encountering technical difficulties.
 
 ## Image Generation and Editing
 
