@@ -145,7 +145,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 |:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:------------:|:----------------:|:-------------:|
 | [ChatGPT](https://chat.openai.com/) | Powerful language model by OpenAI for natural and contextually relevant conversations.       | Proprietary   | OpenAI         | 2021-09      | Freemium |
 | [Claude](https://claude.ai/) | Advanced language model by Anthropic for understanding and generating human-like text.              | Proprietary   | Anthropic      | 2023-08      | Freemium |
-| [Command-R](https://cohere.com/) | A scalable AI model designed for enterprise-grade retrieval augmented generation (RAG) and tool use. | Proprietary   | Cohere      | unknown     | Freemium |
+| [Command-R](https://cohere.com/) | A scalable AI model designed for enterprise-grade retrieval augmented generation (RAG) and tool use. | Open   | Cohere      | unknown     | Freemium |
 | [DBRX](https://huggingface.co/databricks/dbrx-instruct) | A new standard that outperforms existing open models on various benchmarks, It is designed to be easily customizable. | Open   | Databricks | unknown     | Freemium |
 | [Gemini](https://gemini.google.com/) | State-of-the-art language model by Google with advanced natural language understanding.     | Proprietary   | Google         | Online       | Freemium |
 | [Grok](https://github.com/xai-org/grok-1) | A chatbot developed by Elon Musk's xAI. It is designed to respond to user queries and provide real-time knowledge.| Open | 𝕏 | Online | None |
@@ -161,6 +161,61 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 > [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - A crowdsourced open platform for LLM evaluations, ranking language models with the Elo ranking system based on performance in various conversational tasks.
 
 > If you're concerned about privacy issues related to LLM tools or you want to experiment with chatbots on your local device, I recommend using [Ollama](https://ollama.com/) (Cli) or [LM Studio](https://lmstudio.ai/) (GUI) .Thery are easy-to-use solutions that allows you to run LLM locally without encountering technical difficulties.
+
+<blockquote><details>
+<summary>🤖 <b>All Chatbots Models list</b></summary>
+
+- **OpenAI**
+	       - [GPT-4 Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary)
+	       - [GPT-4](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary)
+	       - [GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo) (Proprietary)
+- **Alibaba**
+        - [Qwen1.5-72B-Chat]() (Proprietary)
+        - [Qwen1.5-32B-Chat]() (Proprietary)
+        - [Qwen1.5-14B-Chat]() (Proprietary)
+        - [Qwen1.5-7B-Chat]() (Proprietary)
+        - [Qwen1-4B-Chat]() (Proprietary)
+        - [Qwen1.5-4B-Chat]() (Proprietary)
+- **Anthropic**
+        - [Claude 3 Opus](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+        - [Claude 3 Sonnet](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+        - [Claude 3 Haiku](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+        - [Claude 2.1](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+        - [Claude 2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+        - [Claude Instant 1.2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+- **Cohere**
+	       - [Command R+]() (Open)
+        - [Command R]() (Open)
+- **Databricks**
+        - [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (Proprietary)
+        - [Dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b) (Open)
+- **Google**
+	       - [Bard (Gemini Pro)](https://gemini.google.com/?hl=en) (Proprietary)
+        - [Gemini Pro (API)](https://ai.google.dev/docs/gemini_api_overview) (Proprietary)
+        - [Gemini Pro]() (Proprietary)
+        - [Gemma-1.1-7B-it]() (Proprietary)
+        - [Gemma-1.1-7B]() (Proprietary)
+        - [PaLM-chat-Bison-001]() (Proprietary)
+        - [Gemma-2B-it]() (Proprietary)
+- **Meta**
+        - [Llama-3-140b-chat]() (Proprietary)
+        - [Llama-2-70b-chat]() (Proprietary)
+        - [CodeLlama-70b-Instruct]() (Proprietary)
+        - [Llama-2-13b-chat]() (Proprietary)
+        - [CodeLlama-34b-Instruct]() (Proprietary)
+        - [Llama-2-7b-chat]() (Proprietary)
+- **Microsoft**
+        - [WizardLM-13b-v1.2](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (Proprietary)
+        - [WizardLM-70B-v1.0](https://huggingface.co/databricks/dolly-v2-12b) (Proprietary)  
+ - **Mistral**
+        - [Mistral-Next]() (Proprietary)
+        - [Mistral-7B-Instruct-v0.1]() (Open)
+        - [Mistral-7B-Instruct-v0.2]() (Open)
+        - [Mistral Medium]() (Proprietary)
+        - [Mistral Large]() (Proprietary)
+        - [Mistral-8x7b-Instruct-v0.1]() (Open)
+        - [Mistral-8x22b]() (Open)
+</details></blockquote> 
 
 ## Image Generation and Editing
 
