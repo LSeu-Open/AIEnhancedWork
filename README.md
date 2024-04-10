@@ -158,64 +158,84 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [WizardLM](https://github.com/nlpxucan/WizardLM) | Language model by Microsoft known for robust performance in generating relevant responses. | Proprietary | Microsoft | 2023-08  | None |
 | [Yi](https://www.01.ai/) | Language model by 01.ai equipped with state-of-the-art conversational capabilities.                     | Proprietary   | 01.ai          | 2023-06      | None |
 
-> [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - A crowdsourced open platform for LLM evaluations, ranking language models with the Elo ranking system based on performance in various conversational tasks.
+<blockquote><details>
+<summary>🤖 <b>A list of all Public Chatbot Models</b></summary>
+
+**OpenAI**
+- [GPT-4 Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary)
+- [GPT-4](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary)
+- [GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo) (Proprietary)
+  
+**Alibaba**
+- [Qwen1.5-72B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
+- [Qwen1.5-32B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
+- [Qwen1.5-14B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
+- [Qwen1.5-7B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
+- [Qwen-14B-Chat](https://huggingface.co/Qwen/Qwen-14B-Chat) (Proprietary)
+- [Qwen1.5-4B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
+  
+**Allen AI**
+- [OLMo-7B-Instruct](https://huggingface.co/allenai/OLMo-7B-Instruct) (Open)
+- [Tulu-2-DP0-70B](https://huggingface.co/allenai/tulu-2-dpo-70b) (Proprietary)
+  
+**Anthropic**
+- [Claude 3 Opus](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+- [Claude 3 Sonnet](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+- [Claude 3 Haiku](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+- [Claude 2.1](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+- [Claude 2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+- [Claude Instant 1.2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
+  
+**Cohere**
+- [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/) (Open)
+- [Command R](https://txt.cohere.com/command-r/) (Open)
+  
+**Databricks**
+- [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (Proprietary)
+- [Dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b) (Open)
+  
+**Google**
+- [Bard (Gemini Pro)](https://gemini.google.com/?hl=en) (Proprietary)
+- [Gemini Pro (API)](https://ai.google.dev/docs/gemini_api_overview) (Proprietary)
+- [Gemini Pro](https://blog.google/technology/ai/gemini-api-developers-cloud/) (Proprietary)
+- [Gemma-1.1-7B-it](https://huggingface.co/google/gemma-1.1-7b-it) (Proprietary)
+- [Gemma-7B-it](https://huggingface.co/google/gemma-7b-it) (Proprietary)
+- [PaLM-chat-Bison-001](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models) (Proprietary)
+- [Gemma-2B-it](https://huggingface.co/google/gemma-2b-it) (Proprietary)
+  
+**LMSYS**
+- [Vicuna-33B](https://huggingface.co/lmsys/vicuna-33b-v1.3) (Non Commercial)
+- [Vicuna-13B](https://huggingface.co/lmsys/vicuna-13b-v1.5) (Proprietary)
+- [Vicuna-7B](https://huggingface.co/lmsys/vicuna-7b-v1.5) (Proprietary)
+- [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) (open)
+  
+**Meta**
+- [Llama-3-140b-chat](Announced) (Proprietary)
+- [Llama-2-70b-chat](https://huggingface.co/meta-llama/Llama-2-70b-chat-hf) (Proprietary)
+- [CodeLlama-70b-Instruct](https://huggingface.co/codellama/CodeLlama-70b-hf) (Proprietary)
+- [Llama-2-13b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf) (Proprietary)
+- [CodeLlama-34b-Instruct](https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf) (Proprietary)
+- [Llama-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) (Proprietary)
+  
+**Microsoft**
+- [WizardLM-13b-v1.2](https://huggingface.co/WizardLM/WizardLM-13B-V1.2) (Proprietary)
+- [WizardLM-70B-v1.0](https://huggingface.co/WizardLM/WizardLM-70B-V1.0) (Proprietary)
+   
+  **Mistral**
+- [Mistral-Next](https://mistral.ai/) (Proprietary)
+- [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1) (Open)
+- [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Open)
+- [Mistral Medium](https://mistral.ai/) (Proprietary)
+- [Mistral Large](https://mistral.ai/news/mistral-large/) (Proprietary)
+- [Mistral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) (Open)
+- [Mistral-8x22b](Announced) (Open)
+  
+**MosaicML**
+- [MPT-30B-chat](https://huggingface.co/mosaicml/mpt-30b-chat) (Proprietary)
+- [MPT-7B-chat](https://huggingface.co/mosaicml/mpt-7b-chat) (Proprietary)  
+</details></blockquote> 
 
 > If you're concerned about privacy issues related to LLM tools or you want to experiment with chatbots on your local device, I recommend using [Ollama](https://ollama.com/) (Cli) or [LM Studio](https://lmstudio.ai/) (GUI) .Thery are easy-to-use solutions that allows you to run LLM locally without encountering technical difficulties.
-
-<blockquote><details>
-<summary>🤖 <b>All Chatbots Models list</b></summary>
-
-- **OpenAI**
-	       - [GPT-4 Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary)
-	       - [GPT-4](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary)
-	       - [GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo) (Proprietary)
-- **Alibaba**
-        - [Qwen1.5-72B-Chat]() (Proprietary)
-        - [Qwen1.5-32B-Chat]() (Proprietary)
-        - [Qwen1.5-14B-Chat]() (Proprietary)
-        - [Qwen1.5-7B-Chat]() (Proprietary)
-        - [Qwen1-4B-Chat]() (Proprietary)
-        - [Qwen1.5-4B-Chat]() (Proprietary)
-- **Anthropic**
-        - [Claude 3 Opus](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
-        - [Claude 3 Sonnet](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
-        - [Claude 3 Haiku](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
-        - [Claude 2.1](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
-        - [Claude 2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
-        - [Claude Instant 1.2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
-- **Cohere**
-	       - [Command R+]() (Open)
-        - [Command R]() (Open)
-- **Databricks**
-        - [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (Proprietary)
-        - [Dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b) (Open)
-- **Google**
-	       - [Bard (Gemini Pro)](https://gemini.google.com/?hl=en) (Proprietary)
-        - [Gemini Pro (API)](https://ai.google.dev/docs/gemini_api_overview) (Proprietary)
-        - [Gemini Pro]() (Proprietary)
-        - [Gemma-1.1-7B-it]() (Proprietary)
-        - [Gemma-1.1-7B]() (Proprietary)
-        - [PaLM-chat-Bison-001]() (Proprietary)
-        - [Gemma-2B-it]() (Proprietary)
-- **Meta**
-        - [Llama-3-140b-chat]() (Proprietary)
-        - [Llama-2-70b-chat]() (Proprietary)
-        - [CodeLlama-70b-Instruct]() (Proprietary)
-        - [Llama-2-13b-chat]() (Proprietary)
-        - [CodeLlama-34b-Instruct]() (Proprietary)
-        - [Llama-2-7b-chat]() (Proprietary)
-- **Microsoft**
-        - [WizardLM-13b-v1.2](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (Proprietary)
-        - [WizardLM-70B-v1.0](https://huggingface.co/databricks/dolly-v2-12b) (Proprietary)  
- - **Mistral**
-        - [Mistral-Next]() (Proprietary)
-        - [Mistral-7B-Instruct-v0.1]() (Open)
-        - [Mistral-7B-Instruct-v0.2]() (Open)
-        - [Mistral Medium]() (Proprietary)
-        - [Mistral Large]() (Proprietary)
-        - [Mistral-8x7b-Instruct-v0.1]() (Open)
-        - [Mistral-8x22b]() (Open)
-</details></blockquote> 
 
 ## Image Generation and Editing
 
