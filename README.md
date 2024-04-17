@@ -126,7 +126,7 @@ AI tools for data analysis automate routine tasks, identify patterns and trends,
 | [Rows AI](https://www.rows.com/) | An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.              | Proprietary | Freemium    |
 | [Vizly](https://vizly.fyi/)  | A tool for creating interactive data visualizations.                                                            | Proprietary | Free        |
 
-If you are using Excel or Google Sheets, you can benefit from AI tools that help you write formulas.  👇
+If you are using **Excel** or **Google Sheets**, you can benefit from AI tools that help you write formulas.  👇
 
 | Tool                                             | Description                                                                                                                 | Licence     | Pricing     |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
