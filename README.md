@@ -165,8 +165,9 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [ChatGPT](https://chat.openai.com/) | Powerful language model by OpenAI for natural and contextually relevant conversations.       | Proprietary   | OpenAI         | 2021-09      | Freemium |
 | [Claude](https://claude.ai/) | Advanced language model by Anthropic for understanding and generating human-like text.              | Proprietary   | Anthropic      | 2023-08      | Freemium |
 | [Command-R](https://cohere.com/) | A scalable AI model designed for enterprise-grade retrieval augmented generation (RAG) and tool use. | Open   | Cohere      | unknown     | Freemium |
-| [DeepSeek](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat) | A state-of-the-art language model developed by Deepseek AI. | Proprietary | Deepseek | unknown     | None |
 | [DBRX](https://huggingface.co/databricks/dbrx-instruct) | A new standard that outperforms existing open models on various benchmarks, It is designed to be easily customizable. | Open   | Databricks | unknown     | Freemium |
+| [DeepSeek](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat) | A state-of-the-art language model developed by Deepseek AI. | Proprietary | Deepseek | unknown     | None |
+| [Dolphin](https://erichartford.com/dolphin) | An advanced, open-source AI model focused on natural language interaction and empathy. | Open | Cognitive Computations | unknown     | Free |
 | [Gemini](https://gemini.google.com/) | State-of-the-art language model by Google with advanced natural language understanding.     | Proprietary   | Google         | Online       | Freemium |
 | [Grok](https://github.com/xai-org/grok-1) | A chatbot developed by Elon Musk's xAI. It is designed to respond to user queries and provide real-time knowledge.| Open | 𝕏 | Online | None |
 | [Llama](https://github.com/facebookresearch/llama) | Large-scale language model by Meta designed to handle diverse conversational contexts. | Proprietary | Meta    | 2023-07      | Free     |
@@ -213,6 +214,9 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [Claude 2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
 - [Claude Instant 1.2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
   
+**Cognitive Computations**
+- [dolphin-2.2.1-mistral-7b](https://huggingface.co/cognitivecomputations/dolphin-2.2.1-mistral-7b) (Open)
+
 **Cohere**
 - [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/) (Open)
 - [Command R](https://txt.cohere.com/command-r/) (Open)
