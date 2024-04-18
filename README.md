@@ -29,6 +29,8 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
   - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
   - [Presentation slides](#presentation-slides)
   - [Video transcription and summaries](#video-transcription-and-summaries)
+    
+<br>
 
 ## Pros and Cons of AI Usage in Work Tasks
 
@@ -51,6 +53,8 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 > [!TIP]
 > To effectively mitigate risks associated with generative AI technologies, it's essential to have a solid understanding of their fundamentals. By educating yourself, you'll be better equipped to identify and correct errors and biases, ensuring more accurate and reliable results.
 > Microsoft offers [helpful lessons](https://microsoft.github.io/generative-ai-for-beginners/#/) on this subject that can provide you with valuable knowledge. 
+
+<br>
 
 ## AI Agents
 
@@ -78,6 +82,8 @@ LMFC enables language models to execute specific functions directly on the devic
 > Retrieval-Augmented Generation (RAG) is a technique that retrieves relevant information from a database and injects it into the language model's context, allowing the model to focus on what is most relevant for a given query.
 > Learn more on that subject on the [Nvidia's blog](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/).
 
+<br>
+
 ## Automation
 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
@@ -88,6 +94,8 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [N8N](https://n8n.io/) | A free and open-source fair-code licensed workflow automation tool. It allows users to create workflows using a visual editor and connect various services to automate tasks. N8N can be self-hosted, providing users with more control over their data. | Open | Free |
 | [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | Proprietary | Paid |
 | [Zapier](https://zapier.com/) | A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps. | Proprietary | Paid |
+
+<br>
 
 ## Code Suggestions and Autocompletion
 
@@ -109,6 +117,8 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 
 > [!CAUTION]
 > [This video](https://www.youtube.com/watch?v=tNmgmwEtoWE) raises questions about the communication tactics employed in the promotion of **Devin by Cognition Labs**, suggesting that these strategies might be misleading. It's crucial to clarify that this does not imply any definitive wrongdoing, but rather emphasizes the need for transparency and accuracy in promoting new technologies.
+
+<br>
 
 ## Data Analysis 
 
@@ -137,12 +147,18 @@ If you are using **Excel** or **Google Sheets**, you can benefit from AI tools t
 | [GPTExcel](https://gptexcel.uk/)                | An AI tool designed to generate and explain Microsoft Excel and Google Sheets formulas efficiently.                            | Proprietary | Freemium    |
 | [Sheety](https://sheety.ai/formula-generator)   | A tool designed to streamline the process of creating Google Sheets formulas using artificial intelligence.                  | Proprietary | Free        |
 
+<br>
+
 ## Generalist conversational AI
 
 Generalist conversational AI tools (or chatbots) optimize daily work tasks by offering valuable information, automating repetitive processes, aiding content creation, and fostering collaboration, leading to improved productivity and efficiency.
 
 > [!TIP]
 > *Optimizing your interactions with chatbots through prompt engineering can significantly enhance their performance. Here's a useful [prompt engineering cheat sheet](https://medium.com/@mdsatriaalamshah/chatgpt-prompt-engineering-cheat-sheet-8ee73a81d2bc) to help you improve your LLM skills. For those who strive for more , this [awesome Course](https://learn.codesignal.com/preview/course-paths/16/prompt-engineering-for-everyone) form CodeSignal will make you a lot better at prompting.*
+
+> [!Note]
+> If you're concerned about privacy issues related to LLM tools or you want to experiment with chatbots on your local device, I recommend using [Ollama](https://ollama.com/) (Cli) or [LM Studio](https://lmstudio.ai/) (GUI) .
+> They are easy-to-use solutions that allows you to run LLM locally without encountering technical difficulties.
 
 | Tool       | Description                                                                                                           | Licence     | Organization | Knowledge Cutoff | Pricing model |
 |:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:------------:|:----------------:|:-------------:|
@@ -251,7 +267,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
 </details></blockquote> 
 
-> If you're concerned about privacy issues related to LLM tools or you want to experiment with chatbots on your local device, I recommend using [Ollama](https://ollama.com/) (Cli) or [LM Studio](https://lmstudio.ai/) (GUI) .Thery are easy-to-use solutions that allows you to run LLM locally without encountering technical difficulties.
+<br>
 
 ## Image Generation and Editing
 
@@ -303,6 +319,8 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 | [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | Proprietary | None (Preview) |
 | [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | Proprietary | Freemium |
 
+<br>
+
 ## Music and Audio Generation
 
 ### Music Generation
@@ -335,6 +353,8 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
 | [Speechki](https://speechki.org/)                          | An advanced AI Realistic Voice Generator that offers over 1100 voices in more than 80 languages.            | Proprietary | Freemium  |
 | [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium |
 | [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | Open | Free |
+
+<br>
 
 ## Productivity
 
