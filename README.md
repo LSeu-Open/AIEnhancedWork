@@ -182,6 +182,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Vicuna](https://qwenlm.github.io/) | A series of open-source, fine-tuned language models developed by LMSYS based on the LLaMA model. | Proprietary | LMSYS | unkown | None |
 | [WizardLM](https://github.com/nlpxucan/WizardLM) | Language model by Microsoft known for robust performance in generating relevant responses. | Proprietary | Microsoft | 2023-08  | None |
 | [Yi](https://www.01.ai/) | Language model by 01.ai equipped with state-of-the-art conversational capabilities.                     | Proprietary   | 01.ai          | 2023-06      | None |
+| [Zephyr](https://www.01.ai/) | An advanced, open-source language model designed for helpful and engaging conversational interactions. | Open   | Hugging Face       | unkown    | Free |
 
 <blockquote><details>
 <summary>🤖 <b>A list of all Public Chatbot Models</b></summary>
@@ -233,6 +234,10 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [Gemma-7B-it](https://huggingface.co/google/gemma-7b-it) (Proprietary)
 - [PaLM-chat-Bison-001](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models) (Proprietary)
 - [Gemma-2B-it](https://huggingface.co/google/gemma-2b-it) (Proprietary)
+
+**Hugging Face**
+- [zephyr-7b-alpha](https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha) (Open)
+- [zephyr-7b-beta](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta) (Open)
   
 **LMSYS**
 - [Vicuna-33B](https://huggingface.co/lmsys/vicuna-33b-v1.3) (Non Commercial)
