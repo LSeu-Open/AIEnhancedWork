@@ -72,7 +72,7 @@ LMFC enables language models to execute specific functions directly on the devic
 |:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
 | [Octopus-V2](https://huggingface.co/NexaAIDev/Octopus-v2) | An open-source language model with 2B parameters, developed by Nexa AI for Android API function calling, representing a research breakthrough in LLM application | Open        | Free |
 | [Llama-7B with RAG](https://agi-sphere.com/retrieval-augmented-generation-llama2/) | Use the Llama-7B language model in a Retrieval-Augmented Generation (RAG) setup.                                                        | Proprietary | Free |
-| [GPT-3.5-turbo-0613 and GPT-4-0613](https://chat.openai.com/) |   OpenAI now feature the capability of "Function Calling", which allows developers to define functions and guide the model to generate arguments for those functions. | Proprietary | Freemium |
+| [GPT-3.5-turbo and GPT-4](https://chat.openai.com/) |   OpenAI now feature the capability of "Function Calling", which allows developers to define functions and guide the model to generate arguments for those functions. | Proprietary | Freemium |
 
 > [!Note]
 > Retrieval-Augmented Generation (RAG) is a technique that retrieves relevant information from a database and injects it into the language model's context, allowing the model to focus on what is most relevant for a given query.
