@@ -157,7 +157,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 > *Optimizing your interactions with chatbots through prompt engineering can significantly enhance their performance. Here's a useful [prompt engineering cheat sheet](https://medium.com/@mdsatriaalamshah/chatgpt-prompt-engineering-cheat-sheet-8ee73a81d2bc) to help you improve your LLM skills. For those who strive for more , this [awesome Course](https://learn.codesignal.com/preview/course-paths/16/prompt-engineering-for-everyone) form CodeSignal will make you a lot better at prompting.*
 
 > [!Note]
-> If you're concerned about privacy issues related to LLM tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on how to set up and run your own model.
+> If you're concerned about privacy issues related to cloud based LLM tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on how to set up and run your own model on your local machine.
 
 | Tool       | Description                                                                                                                                                        | Licence       | Organization   | Knowledge Cutoff | Pricing model |
 |:-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:--------------:|:------------:|:-----------:|
