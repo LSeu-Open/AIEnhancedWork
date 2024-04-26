@@ -180,7 +180,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Qwen](https://qwenlm.github.io/) | Language model by Alibaba specialized in understanding and generating text with high accuracy.                                              | Proprietary   | Alibaba        | 2023-08      | None |
 | [Reka Core](https://chat.reka.ai/auth/login) | An advanced and capable multimodal language model, designed to tackle complex tasks                                              | Proprietary   | Reka           | Online       | None |
 | [Vicuna](https://qwenlm.github.io/) | A series of open-source, fine-tuned language models developed by LMSYS based on the LLaMA model.                                          | Proprietary   | LMSYS          | 2023-08      | None |
-| [WizardLM](https://github.com/nlpxucan/WizardLM) | Language model by Microsoft known for robust performance in generating relevant responses.                                   | Proprietary   | Microsoft      | 2023-08  | None |
+| [WizardLM](https://github.com/nlpxucan/WizardLM) and [Phi](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/) | Language models by Microsoft known for robust performance in generating relevant responses. | Proprietary   | Microsoft      | 2024-03  | None |
 | [Yi](https://www.01.ai/) | Language model by 01.ai equipped with state-of-the-art conversational capabilities.                                                                  | Proprietary   | 01.ai          | 2023-06      | None |
 | [Zephyr](https://www.01.ai/) | An advanced, open-source language model designed for helpful and engaging conversational interactions.                                           | Open          | Hugging Face   | 2023-08    | Free |
 
@@ -261,6 +261,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [Llama-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) (Proprietary) 🔴
   
 **Microsoft**
+- [Phi-3-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) (Proprietary) 
 - [WizardLM-13b-v1.2](https://huggingface.co/WizardLM/WizardLM-13B-V1.2) (Proprietary) 🔴
 - [WizardLM-70B-v1.0](https://huggingface.co/WizardLM/WizardLM-70B-V1.0) (Proprietary) 🟢
    
