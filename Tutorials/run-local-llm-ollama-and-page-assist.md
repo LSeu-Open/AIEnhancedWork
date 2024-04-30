@@ -25,16 +25,27 @@ Running Large Language Model (LLM) models locally offers several advantages, par
 
 ### Quickstart
 
+> [!Note]
+> You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
+> Depending on your hardware specifications The model might take a long time to generate text or process requests.
+
 To run and chat with [Llama 3](https://ollama.com/library/llama3) write the following input in a terminal:
 
 ```
 ollama run llama3
 ```
-This will allow you to chat with the **llama3:8B model** within the command-line interface (CLI). See the list of models available on [ollama.com/library](https://ollama.com/library 'ollama model library').
+This will allow you to chat with the **llama3:8B model** within the command-line interface (CLI). See the list of models available on [ollama.com/library](https://ollama.com/library 'ollama model library'). 
 
-> [!Note]
-> You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
-> Depending on your hardware specifications The model might take a long time to generate text or process requests.
+To download a model without launching it, simply enter the following command:
+
+```
+ollama pull llama3
+```
+To view the list of models you've downloaded, simply use the following command:
+
+```
+ollama list
+```
 
 ## Step 2 : Use Ollama in your browser using Page assist extension.
 
