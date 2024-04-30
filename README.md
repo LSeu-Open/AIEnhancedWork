@@ -9,7 +9,7 @@ While this repository provides a diverse array of resources, it's important to n
 Feel free to contribute to this repository by opening a pull request (PR) to enhance its contents.
 
  ## Table of Contents
-
+* [Academic and Scientific Research](#academic-and-scientific-research)
 * [AI Agents](#ai-agents)
   - [Autonomous Agents](#autonomous-agents)
   - [Language Models for Function Calling](#language-models-for-function-calling)
@@ -53,6 +53,20 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 > [!TIP]
 > To effectively mitigate risks associated with generative AI technologies, it's essential to have a solid understanding of their fundamentals. By educating yourself, you'll be better equipped to identify and correct errors and biases, ensuring more accurate and reliable results.
 > Microsoft offers [helpful lessons](https://microsoft.github.io/generative-ai-for-beginners/#/) on this subject that can provide you with valuable knowledge. 
+
+<br>
+
+## Academic and Scientific Research
+
+AI-powered tools designed specifically for academic and research endeavors, enhancing your workflow and insights in the pursuit of knowledge.
+
+> [!CAUTION]
+> **Please exercise caution when using AI tools in scientific research. While these tools can greatly enhance your workflow and insights, they are not a replacement for human judgment, critical thinking, and rigorous methodology. Always critically evaluate the results and consider potential biases, limitations, and uncertainties when interpreting AI-generated outputs.**
+
+| Tool             | Description                                                                                                                 | Licence     | Pricing     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [ResearchRabbit](https://www.researchrabbit.ai/) | AI-powered platform that aims to streamline the literature review process for researchers and academics by providing intelligent discovery, recommendation, and visualization capabilities | Proprietary | Free    |
+| [Scispace](https://typeset.io/) | AI-powered platform that aims to simplify and enhance the research and literature review process for academics and researchers | Proprietary | Freemium    |
 
 <br>
 
