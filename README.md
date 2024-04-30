@@ -2,9 +2,9 @@
 
 👋 Welcome to our repository !
 
-Here you'll find a curated collection of AI-driven tools crafted to enhance productivity, streamline task automation, and make your daily work more manageable.
+This carefully curated collection features AI-powered tools designed to improve productivity, automate tasks, and simplify daily work. 
 
-While this repository provides a diverse array of resources, it's important to note that it may not cover every individual tool available. Inclusion in this collection does not imply full endorsement of every item listed.
+Kindly be aware that, although our aim is to offer a comprehensive selection of resources, it is possible that not every available tool will be included in the repository.  Inclusion in this collection does not imply full endorsement of every item listed.
 
 Feel free to contribute to this repository by opening a pull request (PR) to enhance its contents.
 
@@ -34,25 +34,29 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 
 ## Pros and Cons of AI Usage in Work Tasks
 
-🟢 Leveraging AI-powered tools can bring numerous advantages to your work tasks, such as:
+🟢 ***Employing AI-powered tools can yield significant benefits for your work tasks, including***:
 
-* Automating mundane and repetitive tasks, freeing up time for more strategic work.
-* Providing valuable insights and analytics that can inform decision-making and drive better outcomes.
-* Optimizing workflows and streamlining processes, leading to increased productivity and efficiency.
-* Enhancing the overall work experience by creating a more intuitive, personalized, and enjoyable work environment.
+* **Automating repetitive and mundane tasks**: By delegating routine chores to AI systems, you gain valuable time to focus on more strategic initiatives.
+* **Delivering data-driven insights**: Utilize analytics provided by AI tools to make informed decisions and drive optimal results.
+* **Optimizing workflows and processes**: Enhance productivity and efficiency with streamlined operations powered by AI technologies.
+* **Creating an engaging and intuitive workspace**: Foster a more personalized, enjoyable, and intellectually stimulating environment through AI implementations.
 
-🔴 However, potential downsides should be considered:
+🔴 ***However, potential downsides should be considered***:
 
-* Over-reliance on AI may diminish human skills like problem-solving, critical thinking, and creativity.
-* AI systems can occasionally **make errors or generate biased results, negatively affecting decisions and outcomes.**
-* **Privacy and security risks** may emerge from AI usage, as sensitive data could be processed, stored, or shared, leading to potential breaches or unauthorized access.
+* **Dependence on AI may undermine human skills**: Overreliance on AI systems could lead to diminished problem-solving abilities, critical thinking, and creativity.
+* **Potential errors or biased outcomes**: AI systems can occasionally produce inaccuracies or generate prejudiced results, which might negatively impact decision-making processes and outcomes.
+* **Risks to privacy and security**: AI usage may introduce vulnerabilities related to the processing, storage, and sharing of sensitive data, potentially resulting in breaches or unauthorized access.
 
 > [!CAUTION]
 > **Balancing the benefits of AI with an awareness of these potential drawbacks is crucial. Taking appropriate measures to mitigate risks is essential for successful integration into workflows.**
-
-> [!TIP]
+>
 > To effectively mitigate risks associated with generative AI technologies, it's essential to have a solid understanding of their fundamentals. By educating yourself, you'll be better equipped to identify and correct errors and biases, ensuring more accurate and reliable results.
-> Microsoft offers [helpful lessons](https://microsoft.github.io/generative-ai-for-beginners/#/) on this subject that can provide you with valuable knowledge. 
+> Microsoft offers [helpful lessons](https://microsoft.github.io/generative-ai-for-beginners/#/) on this subject that can provide you with valuable knowledge.
+
+> [!Note]
+> **This repository now features a new section dedicated solely to **tutorials**. In this section, I will provide detailed guides aimed at enhancing specific uses of these AI tools.**
+>
+> Learn to set up a local LLM chatbot with our first tutorial, "[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)", and address privacy concerns of cloud-based AI tools.
 
 <br>
 
@@ -61,7 +65,9 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 AI-powered tools designed specifically for academic and research endeavors, enhancing your workflow and insights in the pursuit of knowledge.
 
 > [!CAUTION]
-> **Please exercise caution when using AI tools in scientific research. While these tools can greatly enhance your workflow and insights, they are not a replacement for human judgment, critical thinking, and rigorous methodology. Always critically evaluate the results and consider potential biases, limitations, and uncertainties when interpreting AI-generated outputs.**
+> **Please exercise caution when using AI tools in scientific research. While these tools can greatly enhance your workflow and insights, they are not a replacement for human judgment, critical thinking, and rigorous methodology.**
+>
+> **Always critically evaluate the results and consider potential biases, limitations, and uncertainties when interpreting AI-generated outputs.**
 
 | Tool             | Description                                                                                                                 | Licence     | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -139,7 +145,7 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 AI tools for data analysis automate routine tasks, identify patterns and trends, and provide intuitive visualizations, enabling analysts to extract valuable insights from complex data sets with ease and efficiency.
 
 > [!CAUTION]
-> Exercise caution with fully automated analysis results, as errors and biases may occur. Use AI tools as a complement to human judgment for more reliable insights.
+> **Exercise caution with fully automated analysis results, as errors and biases may occur. Use AI tools as a complement to human judgment for more reliable insights.**
 
 | Tool             | Description                                                                                                                 | Licence     | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
