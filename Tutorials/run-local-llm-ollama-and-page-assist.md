@@ -61,32 +61,50 @@ It is not comfortable working directly in the command-line interface (CLI) for m
 
 Page Assist is an open-source Chrome Extension that provides a Sidebar and Web UI for your Local AI model. It allows you to interact with your model from any webpage.
 
-### Installation
+### Installation and setup 
 
 You can install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo)
 
-> [!Note]
-> You can install the extension on any Chromium-based browser. It is not limited to Chrome.
-> Other type of browser support is planned.
+#### Browser Support
+
+| Browser  | Sidebar | Chat With Webpage | Web UI |
+| -------- | ------- | ----------------- | ------ |
+| Chrome   | ✅      | ✅                | ✅     |
+| Brave    | ✅      | ✅                | ✅     |
+| Edge     | ✅      | ❌                | ✅     |
+| Opera GX | ❌      | ❌                | ✅     |
+| Arc      | ❌      | ❌                | ✅     |
+| Firefox  | ❌      | ❌                | ❌     |
 
 If needed, see the [Manual Installation](https://github.com/n4ze3m/page-assist) instructions on their github repository.
 
-### Usage
+Once the extension is installed Just click on the extension icon and it'll take you straight to the chatGPT-like UI.
 
-Now that you've got the extension installed, you can easily access your Ollama models from anywhere in your browser. Just click on the extension icon and it'll take you straight to the Web UI page.
+To verify after installation process, I would suggest the following steps :
 
-<p align="center">
-  <br>
-    <img width="1000" src="WebUI.png" alt="WebUI">
- <br>
-</p>
-
-* **1. The Running Indicator** : A center message letting you know that Ollama is running in the background, ready to handle your requests.
-* **2. Model Selection Toggle** : A list of all the models you've installed and are available for use. Select the model you want to discuss with.
-* **3. Input Box** : This is where the magic happens! Type away (or upload images with multimodal models like LLava) to start a conversation with your model.
-* **4 Conversation Management**: Keep track of your different conversations or create new ones.
-* **5 Settings Access**: Need to tweak some settings? You'll find the access point for that here.
+- A center message **must letting you know that Ollama is running in the background**, ready to handle your requests.
+- To the top left corner, a **dropdown menu** awaits, listing all models you've installed and are currently available for interaction. Simply **select the model with which you wish to engage.**
+- In the **top left icon**, click to open a sidebar that enables Conversation Management. This feature allows you to **manage and organize your conversations**.
 
 > [!Note]
 > When you first interact with your model, there might be a brief delay as it loads into memory. But once you're chatting away, responses should come quickly !
 > Just remember that processing time can vary depending on your computer's specs.
+
+## Usage
+
+### Sidebar
+
+Once the extension is installed, you can **open the sidebar via context menu or keyboard shortcut**.  By exploiting this sidebar functionality, you can engage in seamless conversations with your model while **leveraging the current web page as contextual reference (website, documentation, PDF...).**
+
+▶️ in order to use `chat with the current page` option you need to set a Embedding Model in the `RAG Settings`.
+
+> Default Keyboard Shortcut: `Ctrl+Shift+P`
+
+### Web UI
+
+You can open the Web UI by clicking on the extension icon which will open a new tab with the Web UI.
+
+> Default Keyboard Shortcut: `Ctrl+Shift+L`
+
+> [!Note]
+> You can change the keyboard shortcuts from the extension settings on the Chrome Extension Management page.
