@@ -12,7 +12,7 @@ The complexity of the algorithms used to train these models also poses a problem
 
 Finally, the sheer scale of cloud-based LLMs means that even minor issues can result in massive data breaches, compromising the privacy and security of countless users
 
-### 🟢 Control in Your Hands: Advantagesof Running LLM Models Locally
+### 🟢 Control in Your Hands: Advantage sof Running LLM Models Locally
 
 Running Large Language Model (LLM) models locally offers several benefits. One major advantage is that it allows you to maintain complete control over your input data and ensure its confidentiality - no sensitive information will be shared with third-party providers.
 
