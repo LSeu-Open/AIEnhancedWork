@@ -112,6 +112,7 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-------------:|:-------------:|
 | [Bardeen](https://www.bardeen.ai/) | An AI-powered automation platform that enables users to automate repetitive tasks across various applications without writing code. It offers pre-built integrations with popular tools and allows users to create custom workflows. | Proprietary | Paid |
 | [N8N](https://n8n.io/) | A free and open-source fair-code licensed workflow automation tool. It allows users to create workflows using a visual editor and connect various services to automate tasks. N8N can be self-hosted, providing users with more control over their data. | Open | Free |
+| [ProFlow](https://useproflow.com/) | an AI-powered workflow automation and optimization platform that helps businesses streamline their sales, marketing, and operations processes. | Proprietary | Freemium |
 | [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | Proprietary | Paid |
 | [Zapier](https://zapier.com/) | A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps. | Proprietary | Paid |
 
@@ -154,6 +155,7 @@ AI tools for data analysis automate routine tasks, identify patterns and trends,
 | [Grapha AI](https://grapha.ai/) | An AI-powered platform for automating data analysis and generating insights.                                 | Proprietary | Freemium    |
 | [Hal9](https://hal9.com/) | Data analytics leveraging generative AI to get insights from databases.                                            | Proprietary | Freemium    |
 | [Julius](https://julius.ai/) | An AI-powered tool for automating data entry and document processing tasks.                                     | Proprietary | Freemium    |
+| [Monitr](https://www.monitr.space/) | An AI-powered data extraction and analysis tool.                                                         | Proprietary | Freemium    |
 | [Pi Exchange](https://www.pi.exchange/) | A platform for building and deploying AI models.                                                     | Proprietary | Paid        |
 | [Research Studio](https://researchstudio.ai/)  | An AI-powered research assistant that helps users find, analyze, and summarize information.   | Proprietary | Paid        |
 | [Rows AI](https://www.rows.com/) | An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.              | Proprietary | Freemium    |
@@ -400,10 +402,11 @@ Enhance productivity and accuracy across domains with these versatile AI tools. 
    
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
-| [BeeyondAI](https://www.beeyondai.com/)                     | AI digital assistant that offers a wide range of tools to enhance productivity and creativity across various aspects of life. | Proprietary | Paid      |
+| [BeeyondAI](https://www.beeyondai.com/)                    | AI digital assistant that offers a wide range of tools to enhance productivity and creativity across various aspects of life. | Proprietary | Paid      |
 | [Copilot](https://www.microsoft.com/fr-fr/microsoft-copilot) |  An AI assistant developed by Microsoft, designed to enhance productivity and creativity for users.       | Proprietary | Freemium  |
 | [Hyperis](https://hyperis.com/welcome)                     | AI-driven assistant app designed to help users prioritize tasks, focus on important work, and boost creativity. | Proprietary | Freemium  |
-| [KPU](https://maisa.ai/)                                    | A revolutionary Knowledge Processing Unit by Maisa AI that enhances the reasoning capabilities of large language models. | Proprietary | None (Preview) |
+| [KPU](https://maisa.ai/)                                   | A revolutionary Knowledge Processing Unit by Maisa AI that enhances the reasoning capabilities of large language models. | Proprietary | None (Preview) |
+| [Odyssey](https://odysseyapp.io/)                          |a macOS application that allows users to visually connect and run various AI models and other tools without coding, making it a versatile platform for creative and automation tasks.| Proprietary | Paid |
 | [Ultra-Attention](https://ultra-attention.com/)            |  AI-powered software solution designed specifically for freelancers and remote workers to help them conquer distractions, boost focus, and enhance productivity. | Proprietary | Freemium  |
 
 ### Meeting transcription and summaries
