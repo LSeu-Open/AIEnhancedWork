@@ -13,10 +13,10 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 * [AI Agents](#ai-agents)
   - [Autonomous Agents](#autonomous-agents)
   - [Language Models for Function Calling](#language-models-for-function-calling)
-* [Automation](#automation)  
+* [Automation](#automation)
+* [Chatbots and conversational AI](#generalist-conversational-ai)  
 * [Code Suggestions and Autocompletion](#code-suggestions-and-autocompletion)
 * [Data Analysis](#data-analysis)
-* [Generalist conversational AI](#generalist-conversational-ai)
 * [Image Generation and Editing](#image-generation-and-editing)
   - [Image Generation](#image-generation)
   - [Image Editing](#image-editing)
@@ -118,60 +118,7 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 
 <br>
 
-## Code Suggestions and Autocompletion
-
-AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
-
-| Tool       | Description                                                                                                           | Licence     | Pricing model |
-|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
-| [AskCodi](https://www.askcodi.com/)    | An AI-powered coding assistant that offers code suggestions, debugging help, and explanations for code snippets. | Proprietary |Freemium |
-| [Blackbox](https://www.blackbox.ai/)   | An AI platform that helps businesses automate processes, make predictions, and optimize decision-making. | Proprietary |Free |
-| [Boxy](https://codesandbox.io/blog/meet-boxy-ai-coding-assistant)       | An AI coding assistant by CodeSandbox providing real-time code suggestions and completions. | Proprietary |Freemium |
-| [Codeium](https://codeium.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Free |
-| [CodeWhisperer](https://aws.amazon.com/codewhisperer/)    | Developed by Amazon, provide real-time code suggestions and completions. | Proprietary |Freemium |
-| [Codium](https://www.codium.ai/)     | An AI-powered tool that analyze your code, docstring, and comments and suggests tests as you code. | Proprietary |Freemium |
-| ~~[Devin](https://preview.devin.ai/)~~     | ~~The world's first fully autonomous AI software engineer, capable of autonomously handling complex engineering tasks.~~ | ~~Proprietary~~ | ~~None (Preview)~~ |
-| [Github Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | Proprietary |Paid |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | Proprietary |Paid        |
-| [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | Proprietary |Freemium |
-| [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Freemium |
-
-> [!CAUTION]
-> [This video](https://www.youtube.com/watch?v=tNmgmwEtoWE) raises questions about the communication tactics employed in the promotion of **Devin by Cognition Labs**, suggesting that these strategies might be misleading. It's crucial to clarify that this does not imply any definitive wrongdoing, but rather emphasizes the need for transparency and accuracy in promoting new technologies.
-
-<br>
-
-## Data Analysis 
-
-AI tools for data analysis automate routine tasks, identify patterns and trends, and provide intuitive visualizations, enabling analysts to extract valuable insights from complex data sets with ease and efficiency.
-
-> [!CAUTION]
-> **Exercise caution with fully automated analysis results, as errors and biases may occur. Use AI tools as a complement to human judgment for more reliable insights.**
-
-| Tool             | Description                                                                                                                 | Licence     | Pricing     |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [AskCSV](https://askcsv.com/) | An AI-powered tool that allows users to ask questions about CSV data files in natural language and receive answers. | Proprietary | Freemium    |
-| [DataSquirrel](https://datasquirrel.ai/) | An AI-powered data extraction and analysis tool.                                                    | Proprietary | Freemium    |
-| [Grapha AI](https://grapha.ai/) | An AI-powered platform for automating data analysis and generating insights.                                 | Proprietary | Freemium    |
-| [Hal9](https://hal9.com/) | Data analytics leveraging generative AI to get insights from databases.                                            | Proprietary | Freemium    |
-| [Julius](https://julius.ai/) | An AI-powered tool for automating data entry and document processing tasks.                                     | Proprietary | Freemium    |
-| [Monitr](https://www.monitr.space/) | An AI-powered data extraction and analysis tool.                                                         | Proprietary | Freemium    |
-| [Pi Exchange](https://www.pi.exchange/) | A platform for building and deploying AI models.                                                     | Proprietary | Paid        |
-| [Research Studio](https://researchstudio.ai/)  | An AI-powered research assistant that helps users find, analyze, and summarize information.   | Proprietary | Paid        |
-| [Rows AI](https://www.rows.com/) | An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.              | Proprietary | Freemium    |
-| [Vizly](https://vizly.fyi/)  | A tool for creating interactive data visualizations.                                                            | Proprietary | Free        |
-
-If you are using **Excel** or **Google Sheets**, you can benefit from AI tools that help you write formulas.  👇
-
-| Tool                                             | Description                                                                                                                 | Licence     | Pricing     |
-|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
-| [Formulabot](https://formulabot.com/)           | A virtual assistant designed to streamline the process of creating Excel formulas by understanding natural language instructions. | Proprietary | Paid        |
-| [GPTExcel](https://gptexcel.uk/)                | An AI tool designed to generate and explain Microsoft Excel and Google Sheets formulas efficiently.                            | Proprietary | Freemium    |
-| [Sheety](https://sheety.ai/formula-generator)   | A tool designed to streamline the process of creating Google Sheets formulas using artificial intelligence.                  | Proprietary | Free        |
-
-<br>
-
-## Generalist conversational AI
+## Chatbots and conversational AI
 
 Generalist conversational AI tools (or chatbots) optimize daily work tasks by offering valuable information, automating repetitive processes, aiding content creation, and fostering collaboration, leading to improved productivity and efficiency.
 
@@ -304,6 +251,60 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [pplx-7b-online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) (Proprietary) 🔴
 
 </details></blockquote> 
+
+<br>
+
+
+## Code Suggestions and Autocompletion
+
+AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
+
+| Tool       | Description                                                                                                           | Licence     | Pricing model |
+|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
+| [AskCodi](https://www.askcodi.com/)    | An AI-powered coding assistant that offers code suggestions, debugging help, and explanations for code snippets. | Proprietary |Freemium |
+| [Blackbox](https://www.blackbox.ai/)   | An AI platform that helps businesses automate processes, make predictions, and optimize decision-making. | Proprietary |Free |
+| [Boxy](https://codesandbox.io/blog/meet-boxy-ai-coding-assistant)       | An AI coding assistant by CodeSandbox providing real-time code suggestions and completions. | Proprietary |Freemium |
+| [Codeium](https://codeium.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Free |
+| [CodeWhisperer](https://aws.amazon.com/codewhisperer/)    | Developed by Amazon, provide real-time code suggestions and completions. | Proprietary |Freemium |
+| [Codium](https://www.codium.ai/)     | An AI-powered tool that analyze your code, docstring, and comments and suggests tests as you code. | Proprietary |Freemium |
+| ~~[Devin](https://preview.devin.ai/)~~     | ~~The world's first fully autonomous AI software engineer, capable of autonomously handling complex engineering tasks.~~ | ~~Proprietary~~ | ~~None (Preview)~~ |
+| [Github Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | Proprietary |Paid |
+| [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | Proprietary |Paid        |
+| [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | Proprietary |Freemium |
+| [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Freemium |
+
+> [!CAUTION]
+> [This video](https://www.youtube.com/watch?v=tNmgmwEtoWE) raises questions about the communication tactics employed in the promotion of **Devin by Cognition Labs**, suggesting that these strategies might be misleading. It's crucial to clarify that this does not imply any definitive wrongdoing, but rather emphasizes the need for transparency and accuracy in promoting new technologies.
+
+<br>
+
+## Data Analysis 
+
+AI tools for data analysis automate routine tasks, identify patterns and trends, and provide intuitive visualizations, enabling analysts to extract valuable insights from complex data sets with ease and efficiency.
+
+> [!CAUTION]
+> **Exercise caution with fully automated analysis results, as errors and biases may occur. Use AI tools as a complement to human judgment for more reliable insights.**
+
+| Tool             | Description                                                                                                                 | Licence     | Pricing     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [AskCSV](https://askcsv.com/) | An AI-powered tool that allows users to ask questions about CSV data files in natural language and receive answers. | Proprietary | Freemium    |
+| [DataSquirrel](https://datasquirrel.ai/) | An AI-powered data extraction and analysis tool.                                                    | Proprietary | Freemium    |
+| [Grapha AI](https://grapha.ai/) | An AI-powered platform for automating data analysis and generating insights.                                 | Proprietary | Freemium    |
+| [Hal9](https://hal9.com/) | Data analytics leveraging generative AI to get insights from databases.                                            | Proprietary | Freemium    |
+| [Julius](https://julius.ai/) | An AI-powered tool for automating data entry and document processing tasks.                                     | Proprietary | Freemium    |
+| [Monitr](https://www.monitr.space/) | An AI-powered data extraction and analysis tool.                                                         | Proprietary | Freemium    |
+| [Pi Exchange](https://www.pi.exchange/) | A platform for building and deploying AI models.                                                     | Proprietary | Paid        |
+| [Research Studio](https://researchstudio.ai/)  | An AI-powered research assistant that helps users find, analyze, and summarize information.   | Proprietary | Paid        |
+| [Rows AI](https://www.rows.com/) | An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.              | Proprietary | Freemium    |
+| [Vizly](https://vizly.fyi/)  | A tool for creating interactive data visualizations.                                                            | Proprietary | Free        |
+
+If you are using **Excel** or **Google Sheets**, you can benefit from AI tools that help you write formulas.  👇
+
+| Tool                                             | Description                                                                                                                 | Licence     | Pricing     |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
+| [Formulabot](https://formulabot.com/)           | A virtual assistant designed to streamline the process of creating Excel formulas by understanding natural language instructions. | Proprietary | Paid        |
+| [GPTExcel](https://gptexcel.uk/)                | An AI tool designed to generate and explain Microsoft Excel and Google Sheets formulas efficiently.                            | Proprietary | Freemium    |
+| [Sheety](https://sheety.ai/formula-generator)   | A tool designed to streamline the process of creating Google Sheets formulas using artificial intelligence.                  | Proprietary | Free        |
 
 <br>
 
