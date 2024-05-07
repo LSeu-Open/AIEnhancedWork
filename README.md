@@ -14,7 +14,7 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
   - [Autonomous Agents](#autonomous-agents)
   - [Language Models for Function Calling](#language-models-for-function-calling)
 * [Automation](#automation)
-* [Chatbots and conversational AI](#generalist-conversational-ai)  
+* [Chatbots and conversational AI](#chatbots-and-conversational-ai)  
 * [Code Suggestions and Autocompletion](#code-suggestions-and-autocompletion)
 * [Data Analysis](#data-analysis)
 * [Image Generation and Editing](#image-generation-and-editing)
