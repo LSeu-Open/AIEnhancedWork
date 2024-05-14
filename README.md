@@ -165,12 +165,15 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [Yi-34B-Chat](https://huggingface.co/01-ai/Yi-34B-Chat) (Proprietary)  
  
 **OpenAI**
-- [GPT-4 Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary) 🟢
+- [GPT-4o](https://openai.com/index/hello-gpt-4o/) (Proprietary) 🟢
+- [GPT-4 Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary) 
 - [GPT-4](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary)
 - [GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo) (Proprietary) 🔴
   
 **Alibaba**
-- [Qwen1.5-72B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary) 🟢
+- [Qwen-Max](https://qwenlm.github.io/blog/qwen-max-0428/) (Proprietary) 🟢
+- [Qwen1.5-110B-Chat](https://qwenlm.github.io/blog/qwen1.5-110b/) (Proprietary) 
+- [Qwen1.5-72B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary) 
 - [Qwen1.5-32B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
 - [Qwen1.5-14B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
 - [Qwen1.5-7B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
@@ -240,7 +243,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [Mistral Medium](https://mistral.ai/) (Proprietary)
 - [Mistral Large](https://mistral.ai/news/mistral-large/) (Proprietary) 🟢
 - [Mistral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) (Open)
-- [Mistral-8x22b](Announced) (Open)
+- [Mistral-8x22b](https://mistral.ai/news/mixtral-8x22b/) (Open)
   
 **MosaicML**
 - [MPT-30B-chat](https://huggingface.co/mosaicml/mpt-30b-chat) (Proprietary) 🟢
