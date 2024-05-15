@@ -190,7 +190,11 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
  
  <br>
  
- ➡️ To provide a clearer picture of model performance within an organization, I'll include Elo Rankings: 🔴 Bottom Tier → 🟢 Top Tier, indicating the model's maximum potential.
+ ➡️ To provide a clearer picture of model performance within an organization, I'll include Elo Rankings : 
+ 
+ 🔴 Bottom Tier → 🟢 Top Tier
+
+ ➡️ You can find an overall leaderboard at [chat.lmsys.org](https://chat.lmsys.org/?leaderboard).
  
  <br>
   
@@ -276,8 +280,8 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Open)
 - [Mistral Medium](https://mistral.ai/) (Proprietary)
 - [Mistral Large](https://mistral.ai/news/mistral-large/) (Proprietary) 🟢
-- [Mistral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) (Open)
-- [Mistral-8x22b](https://mistral.ai/news/mixtral-8x22b/) (Open)
+- [Mixtral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) (Open)
+- [Mixtral-8x22b-Instruct-v0.1](https://mistral.ai/news/mixtral-8x22b/) (Open)
   
 **MosaicML**
 - [MPT-30B-chat](https://huggingface.co/mosaicml/mpt-30b-chat) (Proprietary) 🟢
