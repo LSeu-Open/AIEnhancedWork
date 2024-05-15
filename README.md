@@ -204,6 +204,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [Dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b) (Open) 🔴
   
 **Google**
+- [Gemini Flash)](https://deepmind.google/technologies/gemini/flash/) (Proprietary) 
 - [Bard (Gemini Pro)](https://gemini.google.com/?hl=en) (Proprietary) 🟢
 - [Gemini Pro (API)](https://ai.google.dev/docs/gemini_api_overview) (Proprietary)
 - [Gemini Pro](https://blog.google/technology/ai/gemini-api-developers-cloud/) (Proprietary)
@@ -328,7 +329,8 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [Craiyon](https://www.craiyon.com/) | An AI-powered platform for generating artistic images and animations.                             | Proprietary | Paid        |
 | [Dall-E](https://openai.com/research/dall-e) | An AI model developed by OpenAI that generates images from textual descriptions.         | Proprietary | Paid|
-| [Adobe Firefly](https://www.adobe.com/fr/products/firefly.html) | A creative AI tool for generating images, animations, and other visual content. | Proprietary | Paid |
+| [Firefly](https://www.adobe.com/fr/products/firefly.html) | A creative AI tool for generating images, animations, and other visual content. | Proprietary | Paid |
+| [Imagen 3](https://deepmind.google/technologies/imagen-3/) |  A high quality text-to-image model capable of producing images in various formats and styles. | Proprietary |  None (Preview) |
 | [Lexica](https://lexica.art/) | An AI art platform that generates images from textual descriptions.                                     | Proprietary | Free |
 | [Leonardo](https://leonardo.ai/) | An open-source AI model for generating images from textual descriptions.                             | Open        | Free |
 | [Midjourney](https://www.midjourney.com/home) | A world-famous AI platform that generates images and visual content based on user input. | Proprietary| Paid |
@@ -358,6 +360,7 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 | [Runway](https://runwayml.com/) | An AI-powered platform for creatives to use machine learning models in their workflows.               | Proprietary | Paid |
 | [Sora](https://openai.com/sora) | An AI model developed by OpenAI for generating videos from textual descriptions.                      | Proprietary | Paid |
 | [Synthesia](https://www.synthesia.io/) | A synthetic media generation AI tool to create AI-generated video content efficiently.         | Proprietary | Paid |
+| [Veo](https://deepmind.google/technologies/veo/) | A generative video model developed by Google, capable of producing high-quality 1080p videos. | Proprietary | None (Preview) |
 | [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | Proprietary | None (Preview) |
 | [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | Proprietary | Freemium |
 
