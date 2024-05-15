@@ -14,7 +14,11 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
   - [Autonomous Agents](#autonomous-agents)
   - [Language Models for Function Calling](#language-models-for-function-calling)
 * [Automation](#automation)
-* [Chatbots and conversational AI](#chatbots-and-conversational-ai)  
+* [Chatbots and conversational AI](#chatbots-and-conversational-ai)
+  - [Chatbots Providers](#chatbots-providers)
+     - [Cloud-based Providers](#cloud-based-providers)
+     - [Local Providers](#local-providers)
+  - [Public AI Model List](#public-ai-model-list)
 * [Code Suggestions and Autocompletion](#code-suggestions-and-autocompletion)
 * [Data Analysis](#data-analysis)
 * [Image Generation and Editing](#image-generation-and-editing)
@@ -125,9 +129,8 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
 > [!TIP]
 > *Optimizing your interactions with chatbots through prompt engineering can significantly enhance their performance. Here's a useful [prompt engineering cheat sheet](https://medium.com/@mdsatriaalamshah/chatgpt-prompt-engineering-cheat-sheet-8ee73a81d2bc) to help you improve your LLM skills. For those who strive for more , this [awesome Course](https://learn.codesignal.com/preview/course-paths/16/prompt-engineering-for-everyone) form CodeSignal will make you a lot better at prompting.*
-
-> [!Note]
-> If you're concerned about privacy issues related to cloud based LLM tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on how to set up and run your own model on your local machine.
+>
+> You can find an **updated and comprehensive list of public AI models** available at the end of this section  (***large list, unrolled on click***).
 
 | Tool       | Description                                                                                                                                                        | Licence       | Organization   | Knowledge Cutoff | Pricing model |
 |:-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:--------------:|:------------:|:-----------:|
@@ -153,8 +156,37 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Yi](https://www.01.ai/) | Language model by 01.ai equipped with state-of-the-art conversational capabilities.                                                                  | Proprietary   | 01.ai          | 2023-06      | None |
 | [Zephyr](https://www.01.ai/) | An advanced, open-source language model designed for helpful and engaging conversational interactions.                                           | Open          | Hugging Face   | 2023-08    | Free |
 
+### Chatbots Providers
+
+#### Cloud-based Providers
+
+| Tool             | Description                                                                                                                 | Pricing     | Models     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [AI21 Labs](https://www.ai21.com/) |  Known for their language models like Jurassic-1 Jumbo focused on quality, safety, and controllability. | Freemium | Jurassic-2 / Jamba |
+| [Amazon Web Services (AWS)](https://aws.amazon.com/what-is/large-language-model/) | Offers models like Amazon CodeWhisperer for code generation and understanding through their SageMaker platform. | Paid |  CodeWhisperer |
+| [Anthropic](https://www.anthropic.com/claude) | Known for their constitutional AI model Claude, focused on being helpful, harmless, and honest. | Freemium | Claude 3 (opus, sonnet..)    |
+| [Cohere](https://cohere.com/) | Provides an enterprise AI platform with models like Cohere Generate for custom content creation. | Freemium | Command R and R+    |
+| [Google Cloud](https://gemini.google.com/) |  Provides models like LaMBDA, PaLM, and Bard for language understanding, generation, and multimodal AI tasks. | Freemium | Gemini / PaLM |
+| [Groq](https://groq.com/) | Specializes in high-performance AI inference with custom LPU (Language Processing Unit) hardware, offering models like Meta's Llama 3. | Freemium | Llama 3 / Mixtral / Gemma |
+| [Hugging Face](https://huggingface.co/models) | The AI dedicated github, Offers a platform with many open-source models like BERT, GPT-Neo, and Llama for various AI tasks. | Free | Public (limited)|
+| [OpenAI](chat.openai.com) | Offers models like GPT-3, GPT-4, DALL-E, and Whisper for natural language processing, image generation, and speech recognition. | Freemium | GPT3.5 / GPT4    |
+| [Perplexity Labs](https://labs.perplexity.ai/) | An online platform that provides free access to various powerful open-source large language models (LLMs) for experimentation and use in a wide range of applications. | Free | Llama 3 / Mixtral / Gemma |
+
+#### Local Providers
+
+> [!Note]
+> If you're concerned about privacy issues related to cloud based LLM tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on how to set up and run your own model on your local machine.
+
+| Tool             | Description                                                                                                                 | OS     | Models     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
+| [LM Studio](https://superagi.com/) |  Elegant UI with the ability to run every Hugging Face repository | All | Open sources Models |
+| [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Open sources Models |
+
+### Public AI Model List
+
 <blockquote><details>
-<summary>🤖 <b>A list of all Public Chatbot Models</b></summary>
+<summary>🤖 <b>**Click to expand**</b></summary>
  
  <br>
  
@@ -205,7 +237,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [Dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b) (Open) 🔴
   
 **Google**
-- [Gemini Flash)](https://deepmind.google/technologies/gemini/flash/) (Proprietary) 
+- [Gemini Flash](https://deepmind.google/technologies/gemini/flash/) (Proprietary) 
 - [Bard (Gemini Pro)](https://gemini.google.com/?hl=en) (Proprietary) 🟢
 - [Gemini Pro (API)](https://ai.google.dev/docs/gemini_api_overview) (Proprietary)
 - [Gemini Pro](https://blog.google/technology/ai/gemini-api-developers-cloud/) (Proprietary)
