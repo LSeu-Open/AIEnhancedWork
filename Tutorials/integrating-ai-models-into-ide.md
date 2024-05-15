@@ -21,7 +21,7 @@ The integration of AI into software development has revolutionized the way we wr
 
 ## Cursor.sh , the dedicated IDE for seamless AI integration
 
-[Cursor.sh](https://cursor.sh/) is an AI-driven code editor designed to assist developers in writing code more efficiently and quickly. It leverages LLM like **GPT-4** to provide a unique set of features and functionalities, making it a prominent competitor in the coding tool market.
+***[Cursor.sh](https://cursor.sh/)*** is an AI-driven code editor designed to assist developers in writing code more efficiently and quickly. It leverages LLM like **GPT-4** to provide a unique set of features and functionalities, making it a prominent competitor in the coding tool market.
 
 Some key features of Cursor.sh include:
 
@@ -36,4 +36,20 @@ Cursor.sh has received **positive reviews from developers**, with many praising 
  
 ## Code Dedicated providers and models
 
+In addition to **AI-powered IDE**, there are several ***dedicated code suggestion and autocompletion models*** that can further enhance your coding experience.
+
+Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful features such as:
+
+* Intelligent code completion.
+* Real-time suggestions based on context and syntax.
+* Code refactoring and rewriting.
+* Collaboration tools for real-time feedback.
+* These models are designed to work seamlessly with your IDE, providing a more efficient and effective coding experience.
+
+For more information on these models, please refer to the ***[table](https://github.com/LSeu-Open/AIEnhancedWork/tree/main?tab=readme-ov-file#code-suggestions-and-autocompletion)*** in the main page of this GitHub repository.
+
 ## Generalist Providers and Models
+
+### Prerequisites
+### Setup
+### Usage
