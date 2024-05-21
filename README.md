@@ -95,17 +95,18 @@ AI agents are intelligent software entities that can perform tasks autonomously 
 
 ### Language Models for Function Calling
 
-LMFC enables language models to execute specific functions directly on the device, eliminating the need for cloud processing, resulting in improved performance and reduced latency.
+Function Calling allows language models to interact with external functions or APIs within conversations. It generates JSON objects with function names and arguments, enabling actions like querying databases, sending emails, or making API calls based on conversation context. This expands capabilities beyond text responses, allowing dynamic and reactive interactions.
 
 | Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
 |:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
 | [Octopus-V2](https://huggingface.co/NexaAIDev/Octopus-v2) | An open-source language model with 2B parameters, developed by Nexa AI for Android API function calling, representing a research breakthrough in LLM application | Open        | Free |
-| [Llama-7B with RAG](https://agi-sphere.com/retrieval-augmented-generation-llama2/) | Use the Llama-7B language model in a Retrieval-Augmented Generation (RAG) setup.                                                        | Proprietary | Free |
-| [GPT-3.5-turbo and GPT-4](https://chat.openai.com/) |   OpenAI now feature the capability of "Function Calling", which allows developers to define functions and guide the model to generate arguments for those functions. | Proprietary | Freemium |
+| [GPT-3.5-turbo, GPT-4 and GPT-4](https://chat.openai.com/) |   OpenAI now feature the capability of "Function Calling", which allows developers to define functions and guide the model to generate arguments for those functions. | Proprietary | Freemium |
 
 > [!Note]
-> Retrieval-Augmented Generation (RAG) is a technique that retrieves relevant information from a database and injects it into the language model's context, allowing the model to focus on what is most relevant for a given query.
-> Learn more on that subject on the [Nvidia's blog](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/).
+> Do not confond Function Calling with Retrieval-Augmented Generation (RAG) which is a technique that retrieves relevant information from a database and injects it into the language model's context, allowing the model to focus on what is most relevant for a given query.
+> 
+> RAG augments the model's knowledge, while function calling augments its capabilities and actions.
+
 
 <br>
 
@@ -426,7 +427,7 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
 | [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | Proprietary | Paid      |
-| [Bark](https://github.com/suno-ai/bark)                    | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
+| [Suno](https://suno.com/)                                  | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
 | [Coqui](https://github.com/coqui-ai/TTS)                   | A pioneering project that focused on advancing generative voice technology.                                 | Open        | Free      |
 | [Eleven Labs](https://elevenlabs.io/)                      | Industry leader proprietary tool for generating speech from text using deep learning.                       | Proprietary | Freemium  |
 | [Listnr](https://listnr.ai/)                               | A cutting-edge AI voice generator that seamlessly converts text into natural-sounding speech.               | Proprietary | Freemium  |
