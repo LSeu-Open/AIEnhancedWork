@@ -77,6 +77,7 @@ AI-powered tools designed specifically for academic and research endeavors, enha
 | Tool             | Description                                                                                                                 | Licence     | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [ResearchRabbit](https://www.researchrabbit.ai/) | AI-powered platform that aims to streamline the literature review process for researchers and academics by providing intelligent discovery, recommendation, and visualization capabilities | Proprietary | Free    |
+| [Semantic Scholar](https://www.semanticscholar.org/) | A free, AI-powered research tool for scientific literature , with now Semantic Reader, an augmented reader with the potential to revolutionize scientific reading by making it more accessible and richly contextual| Proprietary | Free    |
 | [Scispace](https://typeset.io/) | AI-powered platform that aims to simplify and enhance the research and literature review process for academics and researchers | Proprietary | Freemium    |
 
 <br>
