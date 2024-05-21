@@ -199,6 +199,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
  <br>
   
 **01.ai**
+- [Yi-Large](https://www.01.ai/) (Proprietary) (preview)
 - [Yi-34B-Chat](https://huggingface.co/01-ai/Yi-34B-Chat) (Proprietary)  
  
 **OpenAI**
@@ -242,7 +243,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
   
 **Google**
 - [Gemini Flash](https://deepmind.google/technologies/gemini/flash/) (Proprietary) 
-- [Bard (Gemini Pro)](https://gemini.google.com/?hl=en) (Proprietary) 🟢
+- [Gemini 1.5 Pro](https://gemini.google.com/?hl=en) (Proprietary) 🟢
 - [Gemini Pro (API)](https://ai.google.dev/docs/gemini_api_overview) (Proprietary)
 - [Gemini Pro](https://blog.google/technology/ai/gemini-api-developers-cloud/) (Proprietary)
 - [Gemma-1.1-7B-it](https://huggingface.co/google/gemma-1.1-7b-it) (Proprietary)
