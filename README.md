@@ -414,11 +414,13 @@ AI tools for music generation use machine learning to create original compositio
 
 | Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
 |:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
-| [Stable Audio](https://stability.ai/stable-audio) |  A generative AI system developed by Stability AI for creating high-quality audio and music.                                                                           | Proprietary   | Freemium   |
-| [Mubert](https://mubert.com/)                     |  A generative AI platform that allows users to create and stream original, AI-generated music and audio.                                                               | Proprietary   | Freemium   |
-| [Magenta](https://magenta.tensorflow.org/)        |  AI  project developed by Google that explores the use of machine learning as a tool for creative applications, particularly in music and art.                         | Open          | Free       |
-| [MuseNet](https://openai.com/research/musenet)    |  An AI model developed by OpenAI that can generate original 4-minute musical compositions with up to 10 different instruments.                                         | Proprietary   | None (Research)   |
 | [Jukebox](https://jukebox.openai.com/)            | A generative AI model developed by OpenAI that can create original music, including rudimentary singing, in a variety of genres and artist styles.                     | Proprietary   | None (Research)   |
+| [Magenta](https://magenta.tensorflow.org/)        |  AI  project developed by Google that explores the use of machine learning as a tool for creative applications, particularly in music and art.                         | Open          | Free       |
+| [Mubert](https://mubert.com/)                     |  A generative AI platform that allows users to create and stream original, AI-generated music and audio.                                                               | Proprietary   | Freemium   |
+| [MuseNet](https://openai.com/research/musenet)    |  An AI model developed by OpenAI that can generate original 4-minute musical compositions with up to 10 different instruments.                                         | Proprietary   | None (Research)   |
+| [Stable Audio](https://stability.ai/stable-audio) |  A generative AI system developed by Stability AI for creating high-quality audio and music.                                                                           | Proprietary   | Freemium   |
+| [Suno](https://suno.com/)                         |  A cutting-edge AI-powered music generator that lets users create custom songs in various genres using text prompts.                                                   | Proprietary   | Free       |
+
 
 ### Text to speech
 
@@ -427,7 +429,7 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
 | [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | Proprietary | Paid      |
-| [Suno](https://suno.com/)                                  | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
+| [Bark](https://github.com/suno-ai/bark)                    | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
 | [Coqui](https://github.com/coqui-ai/TTS)                   | A pioneering project that focused on advancing generative voice technology.                                 | Open        | Free      |
 | [Eleven Labs](https://elevenlabs.io/)                      | Industry leader proprietary tool for generating speech from text using deep learning.                       | Proprietary | Freemium  |
 | [Listnr](https://listnr.ai/)                               | A cutting-edge AI voice generator that seamlessly converts text into natural-sounding speech.               | Proprietary | Freemium  |
