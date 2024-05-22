@@ -77,9 +77,9 @@ For those who prioritize keeping everything local and private, I'll be using ***
 
 ##### **2.1 Create a Modelfile**
   
- * Now, let’s create a Modelfile by selecting the CodeLlama model to load it as a custom model in CodeGPT.
+ * Now, let’s create a Modelfile by selecting the deepseek-coder model to load it as a custom model in CodeGPT.
 
-* Create a folder named CodeLLama and then create a file called Modelfile, add the following code:
+* Create a folder named CodeLLama and then create a file called Modelfile in VSCode, add the following code:
 
 ```
 FROM deepseek-coder:33b-instruct
@@ -93,6 +93,9 @@ PARAMETER num_ctx 1500
 # sets a custom system message to specify the behavior of the chat assistant
 SYSTEM You are expert Code Assistant
 ```
+> [!CAUTION]
+> Ensure that the ModelFile is saved without file extension; otherwise you won't be able to use it.
+
 > [!Note]
 > In this tutorial, I am utilizing the ```deepseek-coder:33b-instruct``` model. This particular model is specialized for coding and has been meticulously trained on vast datasets by DeepSeek.ai.
 >
@@ -138,6 +141,11 @@ If you **don't have the necessary hardware to run models locally** or want to ta
 * Create a new API key and copy it to your clipboard.
 * Return to the CodeGPT window and paste your API key into the dedicated input field.
 * Select the AI model you want to use from the available options. For this example, I'll choose the "Llama-3-70b Model".
+
+> [!Note]
+> In this tutorial, I'll be leveraging **Groq**, but feel free to substitute it with your preferred provider - whether that's OpenAI, Anthropic, or another that suits your needs.
+>
+>  When choosing your model, Keep in mind that each model has its strengths and weaknesses, so choose carefully.
 
  #### **Step3: Use Groq as Code completion and Generation.***
 
