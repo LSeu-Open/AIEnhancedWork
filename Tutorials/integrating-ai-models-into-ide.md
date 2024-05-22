@@ -1,17 +1,28 @@
-# Integrating AI Models into Your Integrated Development Environment (IDE) (IN PROGRESS)
+# Integrating AI Models into Your Integrated Development Environment (IDE)
+
+## Table of Contents
+
+* [Introduction](#introduction)
+* [Cursor the dedicated IDE for seamless AI integration](#cursor-the-dedicated-ide-for-seamless-ai-integration)
+* [Code dedicated providers and models](#code-dedicated-providers-and-models)
+* [Generalist Providers and Models](#generalist-providers-and-models)
+  * [Prerequisites](#prerequisites)
+  * [Install CodeGPT extension](#install-codegpt-extension)
+  * [Setup Ollama as the Local Model Provider](#setup-ollama-as-the-local-model-provider)
+  * [Setup Groq as the Cloud-based Model Provider](#setup-groq-as-the-cloud-based-model-provider)
 
 ## Introduction
 
 The integration of AI into software development has revolutionized the way we write code, collaborate, and innovate. As AI models become increasingly sophisticated, they're empowering developers to automate repetitive tasks, optimize workflows, and make data-driven decisions. By integrating AI tools into your Integrated Development Environment (IDE), you can unlock a new world of possibilities for accelerated development, improved collaboration, and enhanced decision-making.
 
-### The Pros: Boosting Productivity and Innovation
+### 🟢 The Pros: Boosting Productivity and Innovation
 
 * **Increased productivity** : AI tools can automate repetitive coding tasks, generate code snippets, and provide intelligent code suggestions, allowing developers to focus on more complex problems and accelerate development cycles.
 * **Improved code quality** : AI-powered code analysis can detect bugs, security vulnerabilities, and code smells, helping developers write cleaner and more maintainable code.
 * **Enhanced learning experience** : AI assistants can provide real-time guidance, explanations, and best practice recommendations, facilitating the learning process for novice developers.
 * **Accessibility** : AI tools can make coding more accessible to non-experts by bridging the gap between novice and experienced developers, enabling a broader range of individuals to participate in software development.
 
-### The Cons: Challenges and Considerations
+### 🔴 The Cons: Challenges and Considerations
 
 * **Potential bias and errors** : AI models can inherit biases from their training data or make mistakes, leading to incorrect code suggestions or flawed analysis.
 * **Over-reliance and loss of skills** : Excessive dependence on AI tools may hinder developers' ability to write code independently and erode their problem-solving skills over time.
@@ -19,9 +30,11 @@ The integration of AI into software development has revolutionized the way we wr
 * **Integration challenges** : Integrating AI tools into existing development workflows and IDEs can be complex, requiring additional configuration and compatibility considerations.
 * **Cost and accessibility** : Advanced AI tools may come with significant licensing costs or require specialized hardware, making them less accessible to individual developers or smaller organizations.
 
-## Cursor.sh , the dedicated IDE for seamless AI integration
+> [!CAUTION]
+> **AI models for coding aren't here to replace the expertise of a seasoned dev**. They can turbocharge your workflow, helping you crank out code faster and more efficiently. Plus, they can even serve as a mentor, guiding you through learning new programming languages and techniques.
 
-***[Cursor.sh](https://cursor.sh/)*** is an AI-driven code editor designed to assist developers in writing code more efficiently and quickly. It leverages LLM like **GPT-4** to provide a unique set of features and functionalities, making it a prominent competitor in the coding tool market.
+## Cursor the dedicated IDE for seamless AI integration 
+<img src="https://cursor.sh/brand/icon.svg" width="30"> ***[Cursor.sh](https://cursor.sh/)*** is an AI-driven code editor designed to assist developers in writing code more efficiently and quickly. It leverages LLM like **GPT-4** to provide a unique set of features and functionalities, making it a prominent competitor in the coding tool market.
 
 Some key features of Cursor.sh include:
 
@@ -32,9 +45,12 @@ Some key features of Cursor.sh include:
 * **Integration with VSCode** : Cursor.sh is ***a fork of VSCode***, allowing users to import all their extensions, themes, and keybindings with a single click.
 * **Privacy options** : Cursor.sh ***offers a privacy mode*** where none of your code is stored on their servers or logs, catering to security-critical work.
 
-Cursor.sh has received **positive reviews from developers**, with many praising its ability to save time and increase productivity by reducing the need for manual coding and code navigation. However, some users have reported **compatibility issues** with certain ***VSCode extensions or versions***, which may impact the support for specific languages or frameworks.
+> [!Note]
+> ***Cursor.sh*** has received **positive reviews from developers**, with many praising its ability to save time and increase productivity by reducing the need for manual coding and code navigation.
+>
+> However, some users have reported **compatibility issues** with certain ***VSCode extensions or versions***, which may impact the support for specific languages or frameworks.
  
-## Code Dedicated providers and models
+## Code dedicated providers and models
 
 In addition to **AI-powered IDE**, there are several ***dedicated code suggestion and autocompletion models*** that can further enhance your coding experience.
 
@@ -46,7 +62,7 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
 * Collaboration tools for real-time feedback.
 * These models are designed to work seamlessly with your IDE, providing a more efficient and effective coding experience.
 
-For more information on these models, please refer to the ***[table](https://github.com/LSeu-Open/AIEnhancedWork/tree/main?tab=readme-ov-file#code-suggestions-and-autocompletion)*** in the main page of this GitHub repository.
+> For more information on these models, please refer to the dedicated ***[table](https://github.com/LSeu-Open/AIEnhancedWork/tree/main?tab=readme-ov-file#code-suggestions-and-autocompletion)*** in the main page of this GitHub repository.
 
 ## Generalist Providers and Models
 
@@ -60,7 +76,7 @@ For more information on these models, please refer to the ***[table](https://git
 
 > Keep in mind that each model has its strengths and weaknesses, so choose carefully - the right model can greatly impact the usability of the code provided.
 
-***Step 1: Install CodeGPT extension***
+### Install CodeGPT extension
 
 * Click on the Extensions icon in the left sidebar or use the keyboard shortcut: Ctrl + Shift + X (Windows/Linux) or Cmd + Shift + X (macOS).
 * In the Extensions marketplace, search for "CodeGPT" to find the extension.
@@ -69,17 +85,13 @@ For more information on these models, please refer to the ***[table](https://git
 * Wait for the extension to download and install. This might take a few seconds.
 * Once the installation is complete, click on the "Reload Required" button to reload VS Code.
 
-### Local Model Provider
+### Setup Ollama as the Local Model Provider
 
 For those who prioritize keeping everything local and private, I'll be using ***[Ollama](https://ollama.com/)*** as the provider in this tutorial. If you haven't already, be sure to check out our **[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to learn how to install Ollama and get started.
-
-#### ***Step 2: Setup Ollama as the Model Provider***
-
-##### **2.1 Create a Modelfile**
   
- * Now, let’s create a Modelfile by selecting the deepseek-coder model to load it as a custom model in CodeGPT.
+ * First, We need create a Modelfile by selecting the deepseek-coder model to load it as a custom model in CodeGPT.
 
-* Create a folder named CodeLLama and then create a file called Modelfile in VSCode, add the following code:
+* Create a folder named CodeGPT and then create a file inside called Modelfile in VSCode, add the following code:
 
 ```
 FROM deepseek-coder:33b-instruct
@@ -101,8 +113,6 @@ SYSTEM You are expert Code Assistant
 >
 >  Keep in mind that each model has its strengths and weaknesses, so choose carefully.
 
-##### **2.2 Create your dedicated Model**
-
 * Run the following command in your terminal to activate this new configuration. In this case, we will create the configuration model “codegpt-deepseek-coder:33b”
 
 ```
@@ -111,41 +121,34 @@ ollama create codegpt-deepseek-coder:33b -f ./CodeGPT/Modelfile
 
 * If we run ```ollama list```, we’ll be able to see that the new model is already in our list.
 
- * Test this new configuration by using ```ollama run codegpt-deepseek-coder:33b``` with our model set up to be a code assistant.
+* Test this new configuration by using ```ollama run codegpt-deepseek-coder:33b``` with our model set up to be a code assistant.
 
-##### **2.3 Configure your model as provider in VSCode**
+* Once you have your new model configuration up and running, let’s connect it with Visual Studio Code using the **CodeGPT extension and linking it with Ollama**.
 
-* Once you have your new model configuration up and running, let’s connect it with Visual Studio Code using the CodeGPT extension and linking it with Ollama.
+* From the extensions menu, click on the **CodeGPT icon**, then expand the provider selector and choose Ollama.
 
-* From the extensions menu, click on the CodeGPT icon, then expand the provider selector and choose Ollama.
+* Once the provider is selected, in the model selector, type the name of the model we just created, in this case, **codegpt-deepseek-coder:33b**.
 
-* Once the provider is selected, in the model selector, type the name of the model we just created, in this case, codegpt-deepseek-coder:33b.
+* You now have this new model, created by you, **ready to be used** as a programming assistant within Visual Studio Code thanks to Ollama and CodeGPT.
 
-* You now have this new model, created by you, ready to be used as a programming assistant Copilot within Visual Studio Code thanks to Ollama and CodeGPT.
-
- #### **Step3: Use your Ollama model as Code completion and Generation.***
-
-### Cloud-based Model Provider
+### Setup Groq as the Cloud-based Model Provider
 
 If you **don't have the necessary hardware to run models locally** or want to tap into more powerful capabilities, this tutorial is for you. I'll be using ***[Groq](https://groq.com/)*** as the provider, leveraging their infrastructure's fast inference capabilities. 
-
-> Before we get started, make sure you have a Groq account set up - if you haven't already, take a moment to create one.
-
-
- #### **Step 2: Setup Groq as the Model Provider***
-
-* Click on the CodeGPT icon in the left sidebar to open the CodeGPT panel.
-* Click on the "Select AI Menu" at the top of the panel.
-* From the dropdown menu, select "Groq" as your preferred AI provider and Click the "Connect" button to proceed.
-* Head to the GroqCloud section of the Groq website (look for the icon at the bottom).
-* Create a new API key and copy it to your clipboard.
-* Return to the CodeGPT window and paste your API key into the dedicated input field.
-* Select the AI model you want to use from the available options. For this example, I'll choose the "Llama-3-70b Model".
 
 > [!Note]
 > In this tutorial, I'll be leveraging **Groq**, but feel free to substitute it with your preferred provider - whether that's OpenAI, Anthropic, or another that suits your needs.
 >
 >  When choosing your model, Keep in mind that each model has its strengths and weaknesses, so choose carefully.
 
- #### **Step3: Use Groq as Code completion and Generation.***
+> Before we get started, make sure you have a Groq account set up - if you haven't already, take a moment to create one.
 
+* Click on the **CodeGPT icon** in the left sidebar to open the CodeGPT panel.
+* Click on the **"Select AI Menu"** at the top of the panel.
+* From the dropdown menu, select "Groq" as your preferred AI provider and Click the **"Connect" button** to proceed.
+* Head to the **GroqCloud section** of the Groq website (look for the icon at the bottom).
+* Create a new **API key** and copy it to your clipboard.
+* Return to the CodeGPT window and **paste your API key into the dedicated input field**.
+* **Select the AI model** you want to use from the available options. Here on Groq, I'll choose the "Llama-3-70b Model".
+* You now have access to a capable model, **ready to be used** as a programming assistant within Visual Studio Code thanks to Groq and CodeGPT.
+  
+👏 **That's it for this tutorial ! You now have an AI model integrated into your VSCode setup. For a comprehensive overview of CodeGPT features and capabilities, please refer to the CodeGPT page. Enjoy coding !**
