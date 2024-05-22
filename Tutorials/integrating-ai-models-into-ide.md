@@ -10,7 +10,7 @@
   * [Install CodeGPT extension](#install-codegpt-extension)
   * [Setup Ollama as the Local Model Provider](#setup-ollama-as-the-local-model-provider)
   * [Setup Groq as the Cloud-based Model Provider](#setup-groq-as-the-cloud-based-model-provider)
-
+* [Help me pick a model !](#models-for-coding)
 ## Introduction
 
 The integration of AI into software development has revolutionized the way we write code, collaborate, and innovate. As AI models become increasingly sophisticated, they're empowering developers to automate repetitive tasks, optimize workflows, and make data-driven decisions. By integrating AI tools into your Integrated Development Environment (IDE), you can unlock a new world of possibilities for accelerated development, improved collaboration, and enhanced decision-making.
@@ -75,6 +75,14 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
   * On Groq, I personally prefer the ***Llama3-70b*** model.
 
 > Keep in mind that each model has its strengths and weaknesses, so choose carefully - the right model can greatly impact the usability of the code provided.
+
+<div align="center">
+ 
+**👉 [Help me pick a model !](#models-for-coding) 👈**
+  
+</div>
+
+
 
 ### Install CodeGPT extension
 
@@ -152,3 +160,48 @@ If you **don't have the necessary hardware to run models locally** or want to ta
 * You now have access to a capable model, **ready to be used** as a programming assistant within Visual Studio Code thanks to Groq and CodeGPT.
   
 👏 **That's it for this tutorial ! You now have an AI model integrated into your VSCode setup. For a comprehensive overview of CodeGPT features and capabilities, please refer to the CodeGPT page. Enjoy coding !**
+
+## Models for Coding
+
+This section is designed to assist those who require **guidance in selecting the ideal model for coding purposes.** To facilitate this process, I have prepared **two tables** for your reference.
+
+The first table highlights **Open-source models**, which are typically run **locally on your machine**. To ensure a smooth experience running these models locally, I will provide the necessary hardware requirements for optimal performance. Please note that while you may be able to run certain models with lower hardware specifications, you can expect slower output and performance as a result.
+
+The second table features **Proprietary models** that usually operate on **cloud-based providers**.
+
+### Open Source Models (50+ HumanEval score)
+
+| Model                       | Organisation  | HumanEval score (/100) | Hardware requirement                                | Ollama libraries | Cloud-based providers |
+|:----------------------------|:------------- |:----------------------:|:---------------------------------------------------:|:----------------:|:----------------------:|
+| [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct) | Deepseek      | 75                     | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   | Yes              | None                   |
+| [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)  | m-a-p         | 73.8                   | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   | No               | None                   |
+| [WizardCoder-33B-V1.1](https://ollama.com/library/wizardcoder:33b-v1.1)        | TheBloke      | 73.2                   | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better    | Yes              | None                   |
+| [Llama3-70B-instruct](https://ollama.com/library/llama3:70b-instruct)         | Meta          | 72                     | 40GB+ VRAM GPU (2xRTX 4090 or better)               | Yes              | Groq/Perplexity Labs   |
+| [Mixtral-8x22B-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | Mistral       | 72                     | 80GB+ VRAM GPU (4xRTX 4090 or better)               | Yes              | Perplexity Labs        |
+| [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | m-a-p         | 72                     | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       | No               | None                   |
+| [DeepSeek-Coder-6.7B-instruct](https://ollama.com/library/deepseek-coder:6.7b-instruct) | Deepseek     | 71.3                   | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       | Yes              | None                   |
+| [dbrx-instruct](https://ollama.com/library/dbrx:instruct)               | Databricks    | 70.1                   | 80GB+ VRAM GPU (4xRTX 4090 or better)               | Yes              | None                   |
+| [CodeLlama-70B-Instruct](https://ollama.com/library/codellama:70b-instruct)      | Meta          | 65.9                   | 40GB+ VRAM GPU (2xRTX 4090 or better)               | Yes              | None                   |
+| [DeepSeek-Coder-1.3B-instruct](https://ollama.com/library/deepseek-coder:1.3b-instruct) | Deepseek     | 60.4                   | 1GB+ VRAM GPU (RX 550 or GT 1030 or better)         | Yes              | None                   |
+| [starcoder2-15b-instruct-v0.1](https://ollama.com/library/starcoder2:15b-instruct) | BigCode      | 60.4                   | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)      | Yes              | None                   |
+| [Phi-3-mini-4k-instruct](https://ollama.com/library/phi3:instruct)      | Microsoft     | 59.1                   | 3GB+ VRAM GPU (RX 6500 or RTX 3050 or better)       | Yes              | None                   |
+| [Command-R+](https://ollama.com/library/command-r:35b)                  | Cohere        | 56.7                   | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   | Yes              | None                   |
+| [Llama3-8B-instruct](https://ollama.com/library/llama3:instruct)          | Meta          | 56.7                   | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)       | Yes              | Groq/Perplexity Labs   |
+| [WizardCoder-15B-V1.0](https://huggingface.co/WizardLMTeam/WizardCoder-15B-V1.0)       | TheBloke      | 50.6                   | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       | No              | None                   |
+
+
+### Proprietary Models (50+ HumanEval score)
+
+| Model             | Provider     | HumanEval score (/100) | Pricing |
+|:------------------|:-------------|:----------------------:|:-------:|
+| [GPT-4 Turbo](https://chat.openai.com/)       | OpenAI       | 86.6                   | Paid    |
+| [GPT-4](https://chat.openai.com/)             | OpenAI       | 79.3                   | Paid    |
+| [Claude-3 Opus](https://claude.ai/)     | Anthropic    | 77.4                   | Paid    |
+| [GPT-3.5 Turbo](https://chat.openai.com/)     | OpenAI       | 70.7                   | Free    |
+| [Claude-3 Haiku](https://claude.ai/)   | Anthropic    | 77.4                   | Paid    |
+| [Claude-3 Sonnet](https://claude.ai/)   | Anthropic    | 64                     | Paid    |
+| [Mistral-Large](https://mistral.ai/)     | Mistral      | 62.2                   | Paid    |
+| [Gemini Pro 1.5](https://gemini.google.com/)    | Google       | 61                     | Paid    |
+| [Gemini Pro 1.0](https://gemini.google.com/)   | Google       | 55.5                   | Paid    |
+| [claude-instant-1](https://claude.ai/)  | Anthropic       | 50.6                   | Paid    |
+
