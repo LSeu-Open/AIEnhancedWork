@@ -160,6 +160,9 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
 ### Chatbots Providers
 
+> [!Note]
+> If you're concerned about privacy issues related to cloud based LLM tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on how to set up and run your own model on your local machine.
+
 #### Cloud-based Providers
 
 | Tool             | Description                                                                                                                 | Pricing     | Models     |
@@ -175,9 +178,6 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Perplexity Labs](https://labs.perplexity.ai/) | An online platform that provides free access to various powerful open-source large language models (LLMs) for experimentation and use in a wide range of applications. | Free | Llama 3 / Mixtral / Gemma |
 
 #### Local Providers
-
-> [!Note]
-> If you're concerned about privacy issues related to cloud based LLM tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on how to set up and run your own model on your local machine.
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -320,10 +320,10 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | Proprietary |Freemium |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Freemium |
 
-> [!TIP]
-> Integrate AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, directly into your coding environment. With this integration, you can perform tasks such as code explanation, refactoring, and generating new code.
->
-> For a [step-by-step guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) on integrating preferred proprietary or open-source models into your IDE, refer to the tutorial section.
+> [!Note]
+> Want **more control over your AI model choices when coding** ? We've got you covered !
+> 
+> For a **guide** to integrate  AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into your coding environment** check out our [tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md).
 
 <br>
 
