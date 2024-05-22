@@ -51,5 +51,93 @@ For more information on these models, please refer to the ***[table](https://git
 ## Generalist Providers and Models
 
 ### Prerequisites
-### Setup
-### Usage
+
+* **A code editor or Integrated Development Environment (IDE)** - I'll be using ***VSCode*** in this tutorial.
+* **A model provider** - in this tutorial, I'll be working with ***Ollama and Groq***.
+* **A reliable model to work with**.
+  * As a local provider, I suggest deploying the ***deepseek-coder:33b-instruct*** model through Ollama. Please note that this may necessitate expensive hardware resources. However, for those working with smaller computers, ***Llama3-8b-instruct*** or ***Phi3-Medium-instruct*** can also be quite competent alternatives.
+  * On Groq, I personally prefer the ***Llama3-70b*** model.
+
+> Keep in mind that each model has its strengths and weaknesses, so choose carefully - the right model can greatly impact the usability of the code provided.
+
+***Step 1: Install CodeGPT extension***
+
+* Click on the Extensions icon in the left sidebar or use the keyboard shortcut: Ctrl + Shift + X (Windows/Linux) or Cmd + Shift + X (macOS).
+* In the Extensions marketplace, search for "CodeGPT" to find the extension.
+* Click on the "CodeGPT" extension to open its page.
+* Click the "Install" button to begin the installation process.
+* Wait for the extension to download and install. This might take a few seconds.
+* Once the installation is complete, click on the "Reload Required" button to reload VS Code.
+
+### Local Model Provider
+
+For those who prioritize keeping everything local and private, I'll be using ***[Ollama](https://ollama.com/)*** as the provider in this tutorial. If you haven't already, be sure to check out our **[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to learn how to install Ollama and get started.
+
+#### ***Step 2: Setup Ollama as the Model Provider***
+
+##### **2.1 Create a Modelfile**
+  
+ * Now, let’s create a Modelfile by selecting the CodeLlama model to load it as a custom model in CodeGPT.
+
+* Create a folder named CodeLLama and then create a file called Modelfile, add the following code:
+
+```
+FROM deepseek-coder:33b-instruct
+
+# sets the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER temperature 1
+
+# sets the context window size to 1500, this controls how many tokens the LLM can use as context to generate the next token
+PARAMETER num_ctx 1500
+
+# sets a custom system message to specify the behavior of the chat assistant
+SYSTEM You are expert Code Assistant
+```
+> [!Note]
+> In this tutorial, I am utilizing the ```deepseek-coder:33b-instruct``` model. This particular model is specialized for coding and has been meticulously trained on vast datasets by DeepSeek.ai.
+>
+>  Keep in mind that each model has its strengths and weaknesses, so choose carefully.
+
+##### **2.2 Create your dedicated Model**
+
+* Run the following command in your terminal to activate this new configuration. In this case, we will create the configuration model “codegpt-deepseek-coder:33b”
+
+```
+ollama create codegpt-deepseek-coder:33b -f ./CodeGPT/Modelfile
+```
+
+* If we run ```ollama list```, we’ll be able to see that the new model is already in our list.
+
+ * Test this new configuration by using ```ollama run codegpt-deepseek-coder:33b``` with our model set up to be a code assistant.
+
+##### **2.3 Configure your model as provider in VSCode**
+
+* Once you have your new model configuration up and running, let’s connect it with Visual Studio Code using the CodeGPT extension and linking it with Ollama.
+
+* From the extensions menu, click on the CodeGPT icon, then expand the provider selector and choose Ollama.
+
+* Once the provider is selected, in the model selector, type the name of the model we just created, in this case, codegpt-deepseek-coder:33b.
+
+* You now have this new model, created by you, ready to be used as a programming assistant Copilot within Visual Studio Code thanks to Ollama and CodeGPT.
+
+ #### **Step3: Use your Ollama model as Code completion and Generation.***
+
+### Cloud-based Model Provider
+
+If you **don't have the necessary hardware to run models locally** or want to tap into more powerful capabilities, this tutorial is for you. I'll be using ***[Groq](https://groq.com/)*** as the provider, leveraging their infrastructure's fast inference capabilities. 
+
+> Before we get started, make sure you have a Groq account set up - if you haven't already, take a moment to create one.
+
+
+ #### **Step 2: Setup Groq as the Model Provider***
+
+* Click on the CodeGPT icon in the left sidebar to open the CodeGPT panel.
+* Click on the "Select AI Menu" at the top of the panel.
+* From the dropdown menu, select "Groq" as your preferred AI provider and Click the "Connect" button to proceed.
+* Head to the GroqCloud section of the Groq website (look for the icon at the bottom).
+* Create a new API key and copy it to your clipboard.
+* Return to the CodeGPT window and paste your API key into the dedicated input field.
+* Select the AI model you want to use from the available options. For this example, I'll choose the "Llama-3-70b Model".
+
+ #### **Step3: Use Groq as Code completion and Generation.***
+
