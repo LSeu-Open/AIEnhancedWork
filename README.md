@@ -140,21 +140,21 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Claude](https://claude.ai/) | Advanced language model by Anthropic for understanding and generating human-like text.                                                           | Proprietary   | Anthropic      | 2023-08      | Freemium |
 | [Command-R](https://cohere.com/) | A scalable AI model designed for enterprise-grade retrieval augmented generation (RAG) and tool use.                                         | Open          | Cohere         | 2023-03      | Freemium |
 | [DBRX](https://huggingface.co/databricks/dbrx-instruct) | A new standard that outperforms existing open models on various benchmarks, It is designed to be easily customizable. | Open          | Databricks     | 2023-12      | Freemium |
-| [DeepSeek](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat) | A state-of-the-art language model developed by Deepseek AI.                                              | Proprietary   | Deepseek       | 2023-11      | None |
+| [DeepSeek](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat) | A state-of-the-art language model developed by Deepseek AI.                                              | Open          | Deepseek       | 2023-11      | None |
 | [Dolphin](https://erichartford.com/dolphin) | An advanced, open-source AI model focused on natural language interaction and empathy.                                            | Open          | Cognitive Computations | 2023-10     | Free |
 | [Gemini](https://gemini.google.com/) | State-of-the-art language model by Google with advanced natural language understanding.                                                  | Proprietary   | Google         | Online       | Freemium |
 | [Grok](https://github.com/xai-org/grok-1) | A chatbot developed by Elon Musk's xAI. It is designed to respond to user queries and provide real-time knowledge.                  | Open          | 𝕏              | Online       | None |
-| [Llama](https://github.com/facebookresearch/llama) | Large-scale language model by Meta designed to handle diverse conversational contexts.                                     | Proprietary   | Meta           | 2023-12      | Free     |
+| [Llama](https://github.com/facebookresearch/llama) | Large-scale language model by Meta designed to handle diverse conversational contexts.                                     | Open (Permissive) | Meta           | 2023-12      | Free     |
 | [Mistral](https://mistral.ai/) | Open-source language model by Mistral AI offering transparency and flexibility in deployment.                                                  | Open          | Mistral AI     | 2023-04      | Freemium |
 | [MPT](https://huggingface.co/mosaicml/mpt-30b-chat) | A series of advanced language models available in different sizes, with a focus on performance, stability.                | Proprietary   | MosaicML       | 2023-06      | None |
 | [OLMo](https://huggingface.co/allenai/OLMo-7B) | A pioneering open-source large language modelthat aims to advance the scientific understanding of how such models work.        | Open          | Allen AI       | 2023-02      | Free |
 | [Openchat](https://github.com/imoneoi/openchat) | Open-source project fostering collaboration and innovation in the AI community.                                               | Open          | Community      | 2024-01      | Free |
 | [Perplexity](https://www.perplexity.ai/) | Unique model by Perplexity AI combining a search engine and conversational agent for seamless integration.                           | Proprietary   | Perplexity AI  | Online       | Freemium |
-| [Phi](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/) | Language models by Microsoft known for robust performance in generating relevant responses. | Open   | Microsoft      | 2024-03  | None |
+| [Phi](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/) | Language models by Microsoft known for robust performance in generating relevant responses. | Open (Permissive) | Microsoft      | 2024-03  | None |
 | [Pi](https://inflection.ai/) | A chatbot by Inflection, It is designed to be empathetic, helpful, and safe, providing information on various topics                             | Proprietary   | Inflection AI  | unkown       | Free |
-| [Qwen](https://qwenlm.github.io/) | Language model by Alibaba specialized in understanding and generating text with high accuracy.                                              | Proprietary   | Alibaba        | 2023-08      | None |
+| [Qwen](https://qwenlm.github.io/) | Language model by Alibaba specialized in understanding and generating text with high accuracy.                                              | Open (Permissive) | Alibaba        | 2023-08      | None |
 | [Reka Core](https://chat.reka.ai/auth/login) | An advanced and capable multimodal language model, designed to tackle complex tasks                                              | Proprietary   | Reka           | Online       | None |
-| [Vicuna](https://qwenlm.github.io/) | A series of open-source, fine-tuned language models developed by LMSYS based on the LLaMA model.                                          | Proprietary   | LMSYS          | 2023-08      | None |
+| [Vicuna](https://qwenlm.github.io/) | A series of open-source, fine-tuned language models developed by LMSYS based on the LLaMA model.                                          | Open          | LMSYS          | 2023-08      | None |
 | [Yi](https://www.01.ai/) | Language model by 01.ai equipped with state-of-the-art conversational capabilities.                                                                  | Proprietary   | 01.ai          | 2023-06      | None |
 | [Zephyr](https://www.01.ai/) | An advanced, open-source language model designed for helpful and engaging conversational interactions.                                           | Open          | Hugging Face   | 2023-08    | Free |
 
@@ -211,14 +211,14 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo) (Proprietary) 🔴
   
 **Alibaba**
-- [Qwen-Max](https://qwenlm.github.io/blog/qwen-max-0428/) (Proprietary) 🟢
-- [Qwen1.5-110B-Chat](https://qwenlm.github.io/blog/qwen1.5-110b/) (Proprietary) 
-- [Qwen1.5-72B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary) 
-- [Qwen1.5-32B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
-- [Qwen1.5-14B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
-- [Qwen1.5-7B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary)
-- [Qwen-14B-Chat](https://huggingface.co/Qwen/Qwen-14B-Chat) (Proprietary)
-- [Qwen1.5-4B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Proprietary) 🔴
+- [Qwen-Max](https://qwenlm.github.io/blog/qwen-max-0428/) (Open) 🟢
+- [Qwen1.5-110B-Chat](https://qwenlm.github.io/blog/qwen1.5-110b/) (Open) 
+- [Qwen1.5-72B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Open) 
+- [Qwen1.5-32B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Open)
+- [Qwen1.5-14B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Open)
+- [Qwen1.5-7B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Open)
+- [Qwen-14B-Chat](https://huggingface.co/Qwen/Qwen-14B-Chat) (Open)
+- [Qwen1.5-4B-Chat](https://qwenlm.github.io/blog/qwen1.5/) (Open) 🔴
   
 **Allen AI**
 - [OLMo-7B-Instruct](https://huggingface.co/allenai/OLMo-7B-Instruct) (Open) 🔴
@@ -248,10 +248,10 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [Gemini 1.5 Pro](https://gemini.google.com/?hl=en) (Proprietary) 🟢
 - [Gemini Pro (API)](https://ai.google.dev/docs/gemini_api_overview) (Proprietary)
 - [Gemini Pro](https://blog.google/technology/ai/gemini-api-developers-cloud/) (Proprietary)
-- [Gemma-1.1-7B-it](https://huggingface.co/google/gemma-1.1-7b-it) (Proprietary)
-- [Gemma-7B-it](https://huggingface.co/google/gemma-7b-it) (Proprietary)
+- [Gemma-1.1-7B-it](https://huggingface.co/google/gemma-1.1-7b-it) (Open)
+- [Gemma-7B-it](https://huggingface.co/google/gemma-7b-it) (Open)
 - [PaLM-chat-Bison-001](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models) (Proprietary)
-- [Gemma-2B-it](https://huggingface.co/google/gemma-2b-it) (Proprietary) 🔴
+- [Gemma-2B-it](https://huggingface.co/google/gemma-2b-it) (Open) 🔴
 
 **Hugging Face**
 - [zephyr-7b-alpha](https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha) (Open) 🔴
@@ -264,13 +264,13 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 - [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) (open) 🔴
   
 **Meta**
-- [Llama-3-70b-Instruct](https://llama.meta.com/llama3/) (Proprietary) 🟢
-- [Llama-3-8b-Instruct](https://llama.meta.com/llama3/) (Proprietary)
-- [Llama-2-70b-chat](https://huggingface.co/meta-llama/Llama-2-70b-chat-hf) (Proprietary)
-- [CodeLlama-70b-Instruct](https://huggingface.co/codellama/CodeLlama-70b-hf) (Proprietary)
-- [Llama-2-13b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf) (Proprietary)
-- [CodeLlama-34b-Instruct](https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf) (Proprietary)
-- [Llama-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) (Proprietary) 🔴
+- [Llama-3-70b-Instruct](https://llama.meta.com/llama3/) (Open) 🟢
+- [Llama-3-8b-Instruct](https://llama.meta.com/llama3/) (Open)
+- [Llama-2-70b-chat](https://huggingface.co/meta-llama/Llama-2-70b-chat-hf) (Open)
+- [CodeLlama-70b-Instruct](https://huggingface.co/codellama/CodeLlama-70b-hf) (Open)
+- [Llama-2-13b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf) (Open)
+- [CodeLlama-34b-Instruct](https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf) (Open)
+- [Llama-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) (Open) 🔴
   
 **Microsoft**
 
