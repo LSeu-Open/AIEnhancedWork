@@ -1,4 +1,4 @@
-# Integrating AI Models into Your Integrated Development Environment (IDE)
+![Header](https://capsule-render.vercel.app/api?type=venom&height=250&color=timeGradient&text=Using%20AI%20Models-nl-into%20Your%20Integrated-nl-Development%20Environment%20(IDE)&fontColor=141414&fontSize=40)
 
 ## Table of Contents
 
