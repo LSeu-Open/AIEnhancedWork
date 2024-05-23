@@ -165,9 +165,11 @@ If you **don't have the necessary hardware to run models locally** or want to ta
 
 This section is designed to assist those who require **guidance in selecting the ideal model for coding purposes.** To facilitate this process, I have prepared **two tables** for your reference.
 
-The first table highlights **Open-source models**, which are typically run **locally on your machine**. To ensure a smooth experience running these models locally, I will provide the necessary hardware requirements for optimal performance. Please note that while you may be able to run certain models with lower hardware specifications, you can expect slower output and performance as a result.
+The first table highlights **Open-source models**, which you can typically run **locally on your machine**. To ensure a smooth experience running these models locally, I will provide the necessary hardware requirements for optimal performance. Please note that while you may be able to run certain models with lower hardware specifications, you can expect slower output and performance as a result.
 
 The second table features **Proprietary models** that usually operate on **cloud-based providers**.
+
+I rank Models according to their **HumanEval scores (Higher is better)** from the [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html). HumanEval Scores can change, and I'll try to **keep them up-to-date as frequently as possible**.
 
 ### Open Source Models (50+ HumanEval score)
 
