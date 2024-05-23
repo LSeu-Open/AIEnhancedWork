@@ -200,10 +200,10 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 | [GPT-4](https://chat.openai.com/)            | **OpenAI**       | 79.3 | Paid    |
 | [Claude-3 Opus](https://claude.ai/)          | **Anthropic**    | 77.4 | Paid    |
 | [GPT-3.5 Turbo](https://chat.openai.com/)    | **OpenAI**       | 70.7 | Free    |
-| [Claude-3 Haiku](https://claude.ai/)         | **Anthropic**    | 77.4 | Paid    |
-| [Claude-3 Sonnet](https://claude.ai/)        | **Anthropic**    | 64   | Paid    |
-| [Mistral-Large](https://mistral.ai/)         | **Mistral**      | 62.2 | Paid    |
+| [Claude-3 Haiku](https://claude.ai/)         | **Anthropic**    | 77.4 | Free    |
+| [Claude-3 Sonnet](https://claude.ai/)        | **Anthropic**    | 64   | Free    |
+| [Mistral-Large](https://mistral.ai/)         | **Mistral**      | 62.2 | Free    |
 | [Gemini Pro 1.5](https://gemini.google.com/) | **Google**       | 61   | Paid    |
 | [Gemini Pro 1.0](https://gemini.google.com/) | **Google**       | 55.5 | Paid    |
-| [claude-instant-1](https://claude.ai/)       | **Anthropic**    | 50.6 | Paid    |
+| [claude-instant-1](https://claude.ai/)       | **Anthropic**    | 50.6 | Free    |
 
