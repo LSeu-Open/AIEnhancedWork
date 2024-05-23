@@ -37,6 +37,13 @@ Ultimately, running LLM models locally provides a high degree of privacy and con
 > You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
 > Depending on your hardware specifications The model might take a long time to generate text or process requests.
 
+<div align="center">
+ 
+**👉 [Help me pick a model !](#find-the-llm-model-that-is-right-for-you) 👈**
+  
+</div>
+
+
 To run and chat with [Llama 3](https://ollama.com/library/llama3) write the following input in a terminal:
 
 ```
@@ -108,3 +115,55 @@ You can open the Web UI by clicking on the extension icon which will open a new 
 
 > [!Note]
 > You can change the keyboard shortcuts from the extension settings on the Chrome Extension Management page.
+
+## Find the LLM model that is right for you
+
+This section is designed to assist you with the knowledge and resources needed **to make informed decisions about the right model for your specific requirements.** To support your search, To facilitate this process, I have prepared **two tables** for your reference.
+
+* The first table highlights **Open-source models**, which you can typically run **locally on your machine**. To ensure a smooth experience running these models locally, I will provide the necessary hardware requirements for optimal performance. Please note that while you may be able to run certain models with lower hardware specifications, you can expect slower output and performance as a result. 
+
+For **users with limited system resources or older hardware** configurations, **I'll provide additional insights on cloud-based providers that can efficiently run these models.**
+
+* The second table features **Proprietary models** that usually operate on **cloud-based providers**.
+
+I rank Models according to their **Elo scores (Higher is better)** from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Elo Scores update constantly based on user votes, and I'll try to **keep them up-to-date as frequently as possible**.
+
+### Open Source Models (1100+ Elo score)
+
+| Model                                         | Organization | Elo score  |  Hardware requirement | Ollama libraries | Cloud-based providers |
+|:----------------------------------------------|:-------------|:----------:|:---------------------:|:----------------:|:---------------------:|
+| [Llama-3-70b-Instruct](https://ollama.com/library/llama3:70b-instruct) | Meta | 1203 |40GB+ VRAM GPU (2xRTX 4090 or better) | Yes | [Groq](https://groq.com/)/[Perplexity Labs](https://labs.perplexity.ai/)  |
+| [Command R+](https://ollama.com/library/command-r-plus) | Cohere | 1188 |  60GB+ VRAM GPU (3xRTX 4090 or better) | Yes | [Cohere](https://cohere.com/command) |
+| [Qwen1.5-110B-Chat](https://ollama.com/library/qwen:110b-chat) | Alibaba | 1169 | 70GB+ VRAM GPU (4xRTX 4090 or better) | Yes | None |
+| [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)  | Meta | 1154 | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | Yes |[Groq](https://groq.com/)/[Perplexity Labs](https://labs.perplexity.ai/) |
+| [Qwen1.5-72B-Chat](https://ollama.com/library/qwen:72b-chat) | Alibaba | 1153 | 40GB+ VRAM GPU (2xRTX 4090 or better) | Yes | None |
+| [Command R](https://ollama.com/library/command-r) | Cohere | 1149 | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | Yes | [Cohere](https://cohere.com/command) |
+| [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | Mistral | 1144 | 80GB+ VRAM GPU (4xRTX 4090 or better) | Yes | [Perplexity Labs](https://labs.perplexity.ai/) |
+| [Qwen1.5-32B-Chat](https://ollama.com/library/qwen:32b-chat) | Alibaba | 1134 | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | Yes | None |
+| [Zephyr-141b-v0.1](https://ollama.com/library/zephyr:141b-v0.1) | Hugging Face | 1129 | 80GB+ VRAM GPU (4xRTX 4090 or better) | Yes | [Hugging Face](https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1) |
+| [Starling-LM-7B-beta](https://ollama.com/library/starling-lm:beta) | AI feedback | 1118 | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | Yes | [Hugging Face](https://huggingface.co/Nexusflow/Starling-LM-7B-beta)                  |
+| [Qwen1.5-14B-Chat](https://ollama.com/library/qwen:14b-chat) | Alibaba | 1116 | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better) | Yes | None |
+
+### Proprietary Model (1100+ Elo score)
+
+| Model                                         | Provider     | Elo score  | Pricing |
+|:----------------------------------------------|:-------------|:----------:|:-------:|
+| [GPT-4o](https://chat.openai.com/)            | OpenAI       | 1287       | Paid    |
+| [GPT-4 Turbo](https://chat.openai.com/)       | OpenAI       | 1252       | Paid    |
+| [GPT-4](https://chat.openai.com/)             | OpenAI       | 1250       | Paid    |
+| [Gemini Pro 1.5](https://gemini.google.com/)  | Google       | 1248       | Paid    |
+| [Claude-3 Opus](https://claude.ai/)           | Anthropic    | 1246       | Paid    |
+| [Yi-Large](https://www.01.ai/)                | 01.ai        | 1236       | Preview |
+| [Claude-3 Sonnet](https://claude.ai/)         | Anthropic    | 1199       | Paid    |
+| [Gemini Pro (Bard)](https://gemini.google.com/) | Google     | 1199       | Paid    |
+| [Reka-Core](https://www.reka.ai/)             | Reka         | 1195       | Freemium |
+| [Qwen-Max](https://help.aliyun.com/zh/dashscope/developer-reference/api-details) | Alibaba | 1186 | Preview |
+| [Claude-3 Haiku](https://claude.ai/)          | Anthropic    | 1181       | Paid    |
+| [Reka-Flash](https://www.reka.ai/)            | Reka         | 1155       | Freemium |
+| [Mistral-Large](https://mistral.ai/)          | Mistral      | 1153       | Free    |
+| [claude-1](https://claude.ai/)                | Anthropic    | 1151       | Paid    |
+| [Mistral-Medium](https://mistral.ai/)         | Mistral      | 1146       | Free    |
+| [claude-2](https://claude.ai/)                | Anthropic    | 1133       | Paid    |
+| [Mistral-Next](https://mistral.ai/)           | Mistral      | 1127       | Free    |
+| [claude-instant-1](https://claude.ai/)        | Anthropic    | 1112       | Paid    |
+| [GPT-3.5 Turbo](https://chat.openai.com/)     | OpenAI       | 1110       | Free    |
