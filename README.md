@@ -389,6 +389,7 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [BRIA AI](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4) | An AI-powered model to automatically remove backgrounds from images.    | Open        | Free        |
+| [Clarity AI](https://github.com/philz1337x/clarity-upscaler)  |AI Image Upscaler & Enhancer - free and open-source Magnific Alternative | Open        | Free        |
 | [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) | An AI-powered tool for applying various image effects and filters.     | Proprietary | Paid |
 | [Lensa](https://prisma-ai.com/lensa) | An AI-powered mobile app for editing and enhancing photos, particularly for portrait editing.    | Proprietary | Paid |
 | [Luminar Neo](https://skylum.com/fr/luminar) | An AI-powered photo editing software developed by Skylum.                                | Proprietary | Paid |
