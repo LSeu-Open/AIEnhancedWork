@@ -175,19 +175,19 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 | Model                                                                                   | Organisation      | HumanEval score (/100) | Ollama libraries | Cloud-based providers | Hardware requirement  | 
 |:---------------------------------------------------------------------------------------:|:-----------------:|:----:|:----:|:----:|:---------------------------------------------------:|
-| [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct)   | **Deepseek**      | 75   |  Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
+| [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct)   | **Deepseek**      | 75   |  Yes | [Hugging Face](https://huggingface.co/spaces/deepseek-ai/deepseek-coder-33b-instruct) | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
 | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)   |**m-a-p**          | 73.8 |  No  | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
 | [WizardCoder-33B-V1.1](https://ollama.com/library/wizardcoder:33b-v1.1)                 | **TheBloke**      | 73.2 |  Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better    |
 | [Llama3-70B-instruct](https://ollama.com/library/llama3:70b-instruct)                   | **Meta**          | 72   |  Yes | [Groq](https://groq.com/) / [Perplexity Labs](https://labs.perplexity.ai/) | 40GB+ VRAM GPU (2xRTX 4090 or better) |
 | [Mixtral-8x22B-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct)        | **Mistral**       | 72   |  Yes | [Perplexity Labs](https://labs.perplexity.ai/) | 80GB+ VRAM GPU (4xRTX 4090 or better) |
 | [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | **m-a-p**         | 72   |  No  | None | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       |
-| [DeepSeek-Coder-6.7B-instruct](https://ollama.com/library/deepseek-coder:6.7b-instruct) | **Deepseek**      | 71.3 | Yes  | None |  8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)      |
-| [dbrx-instruct](https://ollama.com/library/dbrx:instruct)                               | **Databricks**    | 70.1 |  Yes | None | 80GB+ VRAM GPU (4xRTX 4090 or better)               |
+| [DeepSeek-Coder-6.7B-instruct](https://ollama.com/library/deepseek-coder:6.7b-instruct) | **Deepseek**      | 71.3 | Yes  | [Hugging Face](https://huggingface.co/spaces/deepseek-ai/deepseek-coder-7b-instruct) |  8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)      |
+| [dbrx-instruct](https://ollama.com/library/dbrx:instruct)                               | **Databricks**    | 70.1 |  Yes | [Hugging Face](https://huggingface.co/spaces/databricks/dbrx-instruct) | 80GB+ VRAM GPU (4xRTX 4090 or better)               |
 | [CodeLlama-70B-Instruct](https://ollama.com/library/codellama:70b-instruct)             | **Meta**          | 65.9 |  Yes | None | 40GB+ VRAM GPU (2xRTX 4090 or better)               |
-| [DeepSeek-Coder-1.3B-instruct](https://ollama.com/library/deepseek-coder:1.3b-instruct) | **Deepseek**      | 60.4 |  Yes | None | 1GB+ VRAM GPU (RX 550 or GT 1030 or better)         |
+| [DeepSeek-Coder-1.3B-instruct](https://ollama.com/library/deepseek-coder:1.3b-instruct) | **Deepseek**      | 60.4 |  Yes | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 1GB+ VRAM GPU (RX 550 or GT 1030 or better)         |
 | [starcoder2-15b-instruct-v0.1](https://ollama.com/library/starcoder2:15b-instruct)      | **BigCode**       | 60.4 |  Yes | None | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)      |
 | [Phi-3-mini-4k-instruct](https://ollama.com/library/phi3:instruct)                      | **Microsoft**     | 59.1 |  Yes | None | 3GB+ VRAM GPU (RX 6500 or RTX 3050 or better)       |
-| [Command-R+](https://ollama.com/library/command-r:35b)                                  | **Cohere**        | 56.7 |  Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
+| [Command-R+](https://ollama.com/library/command-r:35b)                                  | **Cohere**        | 56.7 |  Yes | [Hugging Face](https://huggingface.co/spaces/CohereForAI/c4ai-command-r-v01) | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
 | [Llama3-8B-instruct](https://ollama.com/library/llama3:instruct)                        | **Meta**          | 56.7 |  Yes | [Groq](https://groq.com/) / [Perplexity Labs](https://labs.perplexity.ai/) | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)       |
 | [WizardCoder-15B-V1.0](https://huggingface.co/WizardLMTeam/WizardCoder-15B-V1.0)        | **TheBloke**      | 50.6 |  No  | None | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       |
 
