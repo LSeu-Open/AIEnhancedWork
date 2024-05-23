@@ -154,16 +154,16 @@ I rank Models according to their **Elo scores (Higher is better)** from the [LMS
 | [Gemini Pro 1.5](https://gemini.google.com/)  | **Google**       | 1248       | Paid    |
 | [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | 1246       | Paid    |
 | [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1236       | Preview |
-| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**    | 1199       | Paid    |
+| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**    | 1199       | Freemium    |
 | [Gemini Pro (Bard)](https://gemini.google.com/) | **Google**     | 1199       | Paid    |
 | [Reka-Core](https://www.reka.ai/)             | **Reka**         | 1195       | Freemium |
 | [Qwen-Max](https://help.aliyun.com/zh/dashscope/developer-reference/api-details) | **Alibaba** | 1186 | Preview |
-| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | 1181       | Paid    |
+| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | 1181       | Freemium    |
 | [Reka-Flash](https://www.reka.ai/)            | **Reka**         | 1155       | Freemium |
 | [Mistral-Large](https://mistral.ai/)          | **Mistral**      | 1153       | Free    |
-| [claude-1](https://claude.ai/)                | **Anthropic**    | 1151       | Paid    |
+| [claude-1](https://claude.ai/)                | **Anthropic**    | 1151       | Free    |
 | [Mistral-Medium](https://mistral.ai/)         | **Mistral**      | 1146       | Free    |
-| [claude-2](https://claude.ai/)                | **Anthropic**    | 1133       | Paid    |
+| [claude-2](https://claude.ai/)                | **Anthropic**    | 1133       | Free    |
 | [Mistral-Next](https://mistral.ai/)           | **Mistral**      | 1127       | Free    |
-| [claude-instant-1](https://claude.ai/)        | **Anthropic**    | 1112       | Paid    |
+| [claude-instant-1](https://claude.ai/)        | **Anthropic**    | 1112       | Free    |
 | [GPT-3.5 Turbo](https://chat.openai.com/)     | **OpenAI**       | 1110       | Free    |
