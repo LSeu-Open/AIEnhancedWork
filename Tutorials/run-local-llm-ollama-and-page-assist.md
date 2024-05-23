@@ -1,4 +1,4 @@
-# LLM, Just for You: A Practical Tutorial to Run a Local Model
+![header](https://capsule-render.vercel.app/api?type=venom&height=300&color=timeGradient&text=A%20Practical%20Tutorial%20to-nl-Run%20a%20Local%20Model&fontColor=141414)
 
 ## Introduction (***Sorry for the long intro***)
 
