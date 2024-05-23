@@ -92,6 +92,7 @@ AI agents are intelligent software entities that can perform tasks autonomously 
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [AgentGPT](https://agentgpt.reworkd.ai/) | A generative artificial intelligence tool that allows users to create autonomous AI agents capable of performing various tasks autonomously. | Open | Freemium    |
 | [Godmode](https://godmode.space/) |  A web platform that provides access to innovative AI agents like autoGPT and babyAGI, allowing users to harness the power of autonomous AI agents. | Open | Free    |
+| [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer) |  An open-source AI-powered application builder that generates codebases from natural language project descriptions. | Open | Free    |
 | [Super AGI](https://superagi.com/) | An open-source autonomous AI agent framework that enables developers to build, manage, and run useful autonomous agents efficiently and reliably. | Open | Free    |
 
 ### Language Models for Function Calling
