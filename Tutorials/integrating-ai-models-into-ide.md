@@ -173,37 +173,37 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 ### Open Source Models (50+ HumanEval score)
 
-| Model                       | Organisation  | HumanEval score (/100) | Hardware requirement                                | Ollama libraries | Cloud-based providers |
-|:----------------------------|:------------- |:----------------------:|:---------------------------------------------------:|:----------------:|:----------------------:|
-| [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct) | Deepseek      | 75                     | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   | Yes              | None                   |
-| [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)  | m-a-p         | 73.8                   | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   | No               | None                   |
-| [WizardCoder-33B-V1.1](https://ollama.com/library/wizardcoder:33b-v1.1)        | TheBloke      | 73.2                   | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better    | Yes              | None                   |
-| [Llama3-70B-instruct](https://ollama.com/library/llama3:70b-instruct)         | Meta          | 72                     | 40GB+ VRAM GPU (2xRTX 4090 or better)               | Yes              | Groq/Perplexity Labs   |
-| [Mixtral-8x22B-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | Mistral       | 72                     | 80GB+ VRAM GPU (4xRTX 4090 or better)               | Yes              | Perplexity Labs        |
-| [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | m-a-p         | 72                     | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       | No               | None                   |
-| [DeepSeek-Coder-6.7B-instruct](https://ollama.com/library/deepseek-coder:6.7b-instruct) | Deepseek     | 71.3                   | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       | Yes              | None                   |
-| [dbrx-instruct](https://ollama.com/library/dbrx:instruct)               | Databricks    | 70.1                   | 80GB+ VRAM GPU (4xRTX 4090 or better)               | Yes              | None                   |
-| [CodeLlama-70B-Instruct](https://ollama.com/library/codellama:70b-instruct)      | Meta          | 65.9                   | 40GB+ VRAM GPU (2xRTX 4090 or better)               | Yes              | None                   |
-| [DeepSeek-Coder-1.3B-instruct](https://ollama.com/library/deepseek-coder:1.3b-instruct) | Deepseek     | 60.4                   | 1GB+ VRAM GPU (RX 550 or GT 1030 or better)         | Yes              | None                   |
-| [starcoder2-15b-instruct-v0.1](https://ollama.com/library/starcoder2:15b-instruct) | BigCode      | 60.4                   | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)      | Yes              | None                   |
-| [Phi-3-mini-4k-instruct](https://ollama.com/library/phi3:instruct)      | Microsoft     | 59.1                   | 3GB+ VRAM GPU (RX 6500 or RTX 3050 or better)       | Yes              | None                   |
-| [Command-R+](https://ollama.com/library/command-r:35b)                  | Cohere        | 56.7                   | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   | Yes              | None                   |
-| [Llama3-8B-instruct](https://ollama.com/library/llama3:instruct)          | Meta          | 56.7                   | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)       | Yes              | Groq/Perplexity Labs   |
-| [WizardCoder-15B-V1.0](https://huggingface.co/WizardLMTeam/WizardCoder-15B-V1.0)       | TheBloke      | 50.6                   | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       | No              | None                   |
+| Model                                                                                   | Organisation      | HumanEval score (/100) | Ollama libraries | Cloud-based providers | Hardware requirement  | 
+|:---------------------------------------------------------------------------------------:|:-----------------:|:----:|:----:|:----:|:---------------------------------------------------:|
+| [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct)   | **Deepseek**      | 75   |  Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
+| [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)   |**m-a-p**          | 73.8 |  No  | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
+| [WizardCoder-33B-V1.1](https://ollama.com/library/wizardcoder:33b-v1.1)                 | **TheBloke**      | 73.2 |  Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better    |
+| [Llama3-70B-instruct](https://ollama.com/library/llama3:70b-instruct)                   | **Meta**          | 72   |  Yes | [Groq](https://groq.com/) / [Perplexity Labs](https://labs.perplexity.ai/) | 40GB+ VRAM GPU (2xRTX 4090 or better) |
+| [Mixtral-8x22B-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct)        | **Mistral**       | 72   |  Yes | [Perplexity Labs](https://labs.perplexity.ai/) | 80GB+ VRAM GPU (4xRTX 4090 or better) |
+| [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | **m-a-p**         | 72   |  No  | None | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       |
+| [DeepSeek-Coder-6.7B-instruct](https://ollama.com/library/deepseek-coder:6.7b-instruct) | **Deepseek**      | 71.3 | Yes  | None |  8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)      |
+| [dbrx-instruct](https://ollama.com/library/dbrx:instruct)                               | **Databricks**    | 70.1 |  Yes | None | 80GB+ VRAM GPU (4xRTX 4090 or better)               |
+| [CodeLlama-70B-Instruct](https://ollama.com/library/codellama:70b-instruct)             | **Meta**          | 65.9 |  Yes | None | 40GB+ VRAM GPU (2xRTX 4090 or better)               |
+| [DeepSeek-Coder-1.3B-instruct](https://ollama.com/library/deepseek-coder:1.3b-instruct) | **Deepseek**      | 60.4 |  Yes | None | 1GB+ VRAM GPU (RX 550 or GT 1030 or better)         |
+| [starcoder2-15b-instruct-v0.1](https://ollama.com/library/starcoder2:15b-instruct)      | **BigCode**       | 60.4 |  Yes | None | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)      |
+| [Phi-3-mini-4k-instruct](https://ollama.com/library/phi3:instruct)                      | **Microsoft**     | 59.1 |  Yes | None | 3GB+ VRAM GPU (RX 6500 or RTX 3050 or better)       |
+| [Command-R+](https://ollama.com/library/command-r:35b)                                  | **Cohere**        | 56.7 |  Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
+| [Llama3-8B-instruct](https://ollama.com/library/llama3:instruct)                        | **Meta**          | 56.7 |  Yes | [Groq](https://groq.com/) / [Perplexity Labs](https://labs.perplexity.ai/) | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)       |
+| [WizardCoder-15B-V1.0](https://huggingface.co/WizardLMTeam/WizardCoder-15B-V1.0)        | **TheBloke**      | 50.6 |  No  | None | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)       |
 
 
 ### Proprietary Models (50+ HumanEval score)
 
 | Model             | Provider     | HumanEval score (/100) | Pricing |
-|:------------------|:-------------|:----------------------:|:-------:|
-| [GPT-4 Turbo](https://chat.openai.com/)       | OpenAI       | 86.6                   | Paid    |
-| [GPT-4](https://chat.openai.com/)             | OpenAI       | 79.3                   | Paid    |
-| [Claude-3 Opus](https://claude.ai/)     | Anthropic    | 77.4                   | Paid    |
-| [GPT-3.5 Turbo](https://chat.openai.com/)     | OpenAI       | 70.7                   | Free    |
-| [Claude-3 Haiku](https://claude.ai/)   | Anthropic    | 77.4                   | Paid    |
-| [Claude-3 Sonnet](https://claude.ai/)   | Anthropic    | 64                     | Paid    |
-| [Mistral-Large](https://mistral.ai/)     | Mistral      | 62.2                   | Paid    |
-| [Gemini Pro 1.5](https://gemini.google.com/)    | Google       | 61                     | Paid    |
-| [Gemini Pro 1.0](https://gemini.google.com/)   | Google       | 55.5                   | Paid    |
-| [claude-instant-1](https://claude.ai/)  | Anthropic       | 50.6                   | Paid    |
+|:-----------------:|:------------:|:----------------------:|:-------:|
+| [GPT-4 Turbo](https://chat.openai.com/)      | **OpenAI**       | 86.6 | Paid    |
+| [GPT-4](https://chat.openai.com/)            | **OpenAI**       | 79.3 | Paid    |
+| [Claude-3 Opus](https://claude.ai/)          | **Anthropic**    | 77.4 | Paid    |
+| [GPT-3.5 Turbo](https://chat.openai.com/)    | **OpenAI**       | 70.7 | Free    |
+| [Claude-3 Haiku](https://claude.ai/)         | **Anthropic**    | 77.4 | Paid    |
+| [Claude-3 Sonnet](https://claude.ai/)        | **Anthropic**    | 64   | Paid    |
+| [Mistral-Large](https://mistral.ai/)         | **Mistral**      | 62.2 | Paid    |
+| [Gemini Pro 1.5](https://gemini.google.com/) | **Google**       | 61   | Paid    |
+| [Gemini Pro 1.0](https://gemini.google.com/) | **Google**       | 55.5 | Paid    |
+| [claude-instant-1](https://claude.ai/)       | **Anthropic**    | 50.6 | Paid    |
 
