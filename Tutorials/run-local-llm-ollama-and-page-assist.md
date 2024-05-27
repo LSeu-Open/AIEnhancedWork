@@ -78,10 +78,12 @@ You can install the extension from the [Chrome Web Store](https://chromewebstore
 | -------- | ------- | ----------------- | ------ |
 | Chrome   | ✅      | ✅                | ✅     |
 | Brave    | ✅      | ✅                | ✅     |
+| Firefox  | ✅      | ✅                | ✅     |
+| Vivaldi  | ✅      | ✅                | ✅     |
 | Edge     | ✅      | ❌                | ✅     |
-| Opera GX | ❌      | ❌                | ✅     |
+| Opera    | ❌      | ❌                | ✅     |
 | Arc      | ❌      | ❌                | ✅     |
-| Firefox  | ❌      | ❌                | ❌     |
+
 
 If needed, see the [Manual Installation](https://github.com/n4ze3m/page-assist) instructions on their github repository.
 
