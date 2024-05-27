@@ -31,6 +31,7 @@ If you'd like **to suggest new tools or improvements, please submit a pull reque
   - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
   - [Presentation slides](#presentation-slides)
   - [Video transcription and summaries](#video-transcription-and-summaries)
+  - [Website building](#website-building)
     
 <br>
 
@@ -494,10 +495,34 @@ AI presentation tools enable users to create professional slides with ease, offe
 AI video transcription and summarization tools use NLP and computer vision to quickly and accurately extract insights from video content. They automate the transcription and summary process, saving time and reducing errors, so users can focus on analysis and interpretation.
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------|-----------|
+|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
 | [Eightify](https://eightify.app/)                          | A powerful tool that utilizes YouTube AI technology to summarize videos quickly, providing users with key ideas in seconds.       | Proprietary | Free      |
 | [Exemplary AI](https://exemplary.ai/)                      | A cloud-based tool that harnesses Artificial Intelligence (AI) and LLMs to offer transcription solutions.   | Proprietary | Freemium  |
 | [Riverside](https://riverside.fm/)                         | An online studio that specializes in high-quality podcast and video recording and editing.                  | Proprietary | Freemium  |
 | [SolidPoint](https://solidpoint.ai/)                       | A range of tools that leverage AI technology to enhance productivity and efficiency in various tasks. One of its key features is the Summarize tool. | Proprietary | Free |
 | [Summify](https://summify.io/)                             | A powerful tool that efficiently condenses lengthy videos into concise and informative summaries.           | Proprietary | Freemium  |
 | [Voxweave](https://voxweave.xyz/)                          | An innovative AI-powered tool that revolutionizes the interaction with YouTube videos by transforming them into concise summaries. | Proprietary | Freemium  |
+
+
+### Website building
+
+AI-powered website builders leverage machine learning and natural language processing to simplify website creation and deployment. They automate the design, development, and deployment process, enabling users to quickly build and launch custom websites without extensive coding knowledge, and focus on content creation
+
+
+| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
+|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------|-----------|
+| [10web](https://10web.io/ai-website-builder/)              | An AI-powered website building platform that allows users to create websites quickly and easily using artificial intelligence. | Proprietary | Paid      |
+| [B12](https://www.b12.io/)                                 | An AI-powered website builder platform designed specifically for professional service providers and businesses. | Proprietary | Paid      |
+| [Framer](https://www.framer.com/features/ai/)              | A comprehensive web design and prototyping tool that combines visual design, interactive prototyping, CMS capabilities, AI-powered tools, and collaboration features into a single platform. | Proprietary | Freemium  |
+| [Hostinger](https://www.hostinger.com/website-builder)     | A powerful tool that allows users to create a fully functional website using artificial intelligence in just a few simple steps. | Proprietary | Paid      |
+| [Limecube](https://www.limecube.co/)                       | An AI-driven, code-free solution for small businesses to quickly build a professional, on-brand website .   | Proprietary | Paid      |
+| [Odoo](https://www.odoo.com/app/website)                   | Odoo's AI Website Builder aims to empower businesses of all sizes to easily build a professional, feature-rich online presence leveraging advanced AI capabilities, without any coding or design expertise required. | Proprietary | Free      |
+| [Relume](https://www.relume.io/)                           | An AI-powered website building platform that aims to streamline and accelerate the design process for marketing websites. | Proprietary | Freemium  |
+| [Studio.design](https://studio.design/)                    | An AI-powered web design tool that aims to revolutionize the website building process for designers and creatives. | Proprietary | Freemium  |
+| [Uimagic](https://www.uimagic.io/)                         | A powerful AI-driven web design solution that aims to streamline the website creation process by generating tailored designs, content, and visuals using advanced AI capabilities. | Proprietary | Freemium  |
+| [Webflow](https://webflow.com/)                            | A powerful visual web development platform that allows users to design, build, and launch responsive websites without writing code.| Proprietary | Freemium  |
+| [Wix](https://www.wix.com/ai-website-builder)              | Wix AI Website Builder utilizes advanced artificial intelligence and natural language processing to automatically generate a complete, professional website tailored to the user's specific business needs and preferences. | Proprietary | Freemium  |
+
+<br>
+
+---
