@@ -57,7 +57,7 @@ Feel free to contribute to this repository by opening a pull request (PR) to enh
 > To effectively mitigate risks associated with generative AI technologies, it's essential to have a solid understanding of their fundamentals. By educating yourself, you'll be better equipped to identify and correct errors and biases, ensuring more accurate and reliable results.
 > Microsoft offers [helpful lessons](https://microsoft.github.io/generative-ai-for-beginners/#/) on this subject that can provide you with valuable knowledge.
 
-> [!Note]
+> [!IMPORTANT]
 > **This repository now features a new section dedicated solely to **tutorials**. In this section, I will provide detailed guides aimed at enhancing specific uses of these AI tools.**
 >
 > * Learn to set up a local LLM chatbot with our first tutorial, "[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)", and address privacy concerns of cloud-based AI tools.
@@ -185,6 +185,9 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
 | [LM Studio](https://superagi.com/) |  Elegant UI with the ability to run every Hugging Face repository | All | Open sources Models |
 | [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Open sources Models |
+
+> [!IMPORTANT]
+> **Having trouble choosing a model?** I'm here to help you make an informed decision. [This resource](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-llm-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source models**, their hardware requirements, and **closed-source models**, along with ***estimated performance metrics.***
 
 ### Public AI Model List
 
