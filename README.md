@@ -6,6 +6,8 @@ Please note that while we try to provide a comprehensive selection of resources,
 
 If you'd like **to suggest new tools or improvements, please submit a pull request (PR)** to enhance the repository's contents. Your contributions are valued and appreciated!
 
+Liked it? Please give a ⭐️ to **AIEnhancedWork**.
+
  ## Table of Contents
 * [Academic and Scientific Research](#academic-and-scientific-research)
 * [AI Agents](#ai-agents)
