@@ -162,8 +162,8 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
 ### Chatbots Providers
 
-> [!Note]
-> If you're concerned about privacy issues related to cloud based LLM tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on how to set up and run your own model on your local machine.
+> [!IMPORTANT]
+> If you're concerned about **privacy issues related to cloud based LLM** tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on **how to set up and run your own model on your local machine.**
 
 #### Cloud-based Providers
 
