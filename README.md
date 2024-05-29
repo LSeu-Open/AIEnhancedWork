@@ -144,7 +144,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [DBRX](https://huggingface.co/databricks/dbrx-instruct) | A new standard that outperforms existing open models on various benchmarks, It is designed to be easily customizable. | Open          | Databricks     | 2023-12      | Freemium |
 | [DeepSeek](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat) | A state-of-the-art language model developed by Deepseek AI.                                              | Open          | Deepseek       | 2023-11      | None |
 | [Dolphin](https://erichartford.com/dolphin) | An advanced, open-source AI model focused on natural language interaction and empathy.                                            | Open          | Cognitive Computations | 2023-10     | Free |
-| [Gemini](https://gemini.google.com/) | State-of-the-art language model by Google with advanced natural language understanding.                                                  | Proprietary   | Google         | Online       | Freemium |
+| [Gemini](https://gemini.google.com/) | State-of-the-art language model by Google with advanced natural language understanding.                                                  | Proprietary   | Google         | 2023-11       | Freemium |
 | [Grok](https://github.com/xai-org/grok-1) | A chatbot developed by Elon Musk's xAI. It is designed to respond to user queries and provide real-time knowledge.                  | Open          | 𝕏              | Online       | None |
 | [Llama](https://github.com/facebookresearch/llama) | Large-scale language model by Meta designed to handle diverse conversational contexts.                                     | Open (Permissive) | Meta           | 2023-12      | Free     |
 | [Mistral](https://mistral.ai/) | Open-source language model by Mistral AI offering transparency and flexibility in deployment.                                                  | Open          | Mistral AI     | 2023-04      | Freemium |
@@ -247,8 +247,12 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 **Databricks**
 - [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (Proprietary) 🟢
 - [Dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b) (Open) 🔴
-  
+
+**DeepSeek**
+- [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat) (Open) 🟢
+
 **Google**
+- [Gemini Advanced](https://gemini.google.com/advanced?hl=en) (Proprietary) 
 - [Gemini Flash](https://deepmind.google/technologies/gemini/flash/) (Proprietary) 
 - [Gemini 1.5 Pro](https://gemini.google.com/?hl=en) (Proprietary) 🟢
 - [Gemini Pro (API)](https://ai.google.dev/docs/gemini_api_overview) (Proprietary)
