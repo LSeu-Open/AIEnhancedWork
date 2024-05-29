@@ -11,6 +11,9 @@
   * [Setup Ollama as the Local Model Provider](#setup-ollama-as-the-local-model-provider)
   * [Setup Groq as the Cloud-based Model Provider](#setup-groq-as-the-cloud-based-model-provider)
 * [Help me pick a model !](#models-for-coding)
+
+<br>
+
 ## Introduction
 
 The integration of AI into software development has revolutionized the way we write code, collaborate, and innovate. As AI models become increasingly sophisticated, they're empowering developers to automate repetitive tasks, optimize workflows, and make data-driven decisions. By integrating AI tools into your Integrated Development Environment (IDE), you can unlock a new world of possibilities for accelerated development, improved collaboration, and enhanced decision-making.
@@ -71,10 +74,11 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
 * **A code editor or Integrated Development Environment (IDE)** - I'll be using ***VSCode*** in this tutorial.
 * **A model provider** - in this tutorial, I'll be working with ***Ollama and Groq***.
 * **A reliable model to work with**.
-  * As a local provider, I suggest deploying the ***deepseek-coder:33b-instruct*** model through Ollama. Please note that this may necessitate expensive hardware resources. However, for those working with smaller computers, ***Llama3-8b-instruct*** or ***Phi3-Medium-instruct*** can also be quite competent alternatives.
+  * As a local provider, I suggest deploying the ***deepseek-coder:33b-instruct*** model through Ollama. Please note that this may necessitate expensive hardware resources. However, for those working with smaller computers, ***CodeQwen1.5-7B-Chat*** can also be a very competent alternative.
   * On Groq, I personally prefer the ***Llama3-70b*** model.
-
-> Keep in mind that each model has its strengths and weaknesses, so choose carefully - the right model can greatly impact the usability of the code provided.
+ 
+> [!Note]
+> Carefully selecting a model considering **its strengths and weaknesses is key** for optimal code usability, especially when aligned with **your primary language**, such as ***Python*** in my case.
 
 <div align="center">
  
@@ -117,7 +121,7 @@ SYSTEM You are expert Code Assistant
 > Ensure that the ModelFile is saved without file extension; otherwise you won't be able to use it.
 
 > [!Note]
-> In this tutorial, I am utilizing the ```deepseek-coder:33b-instruct``` model. This particular model is specialized for coding and has been meticulously trained on vast datasets by DeepSeek.ai.
+> In this tutorial, I am using the ***deepseek-coder:33b-instruct*** model. This particular model is specialized for coding and has been meticulously trained on vast datasets by DeepSeek.ai.
 >
 >  Keep in mind that each model has its strengths and weaknesses, so choose carefully.
 
@@ -169,7 +173,12 @@ The first table highlights **Open-source models**, which you can typically run *
 
 The second table features **Proprietary models** that usually operate on **cloud-based providers**.
 
-I rank Models according to their **HumanEval scores (Higher is better)** from the [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html). HumanEval Scores can change, and I'll try to **keep them up-to-date as frequently as possible**.
+I rank Models according to their **HumanEval scores (Higher is better)** from the [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html). HumanEval Scores can change, and I'll try to **keep them up-to-date as frequently as possible**. 
+
+> [!CAUTION]
+> The ***HumanEval*** benchmark exhibits a **Python-centric bias**, This inclination means that assessing functional correctness via this benchmark may yield results **more favorable for the models well-versed in Python** compared to other programming languages.
+>
+> However, it aims at gauging **universally applicable skills** like logical reasoning and problem-solving capabilities that are **valuable across all coding disciplines, not limited by language constraints.**
 
 ### Open Source Models (50+ HumanEval score)
 
