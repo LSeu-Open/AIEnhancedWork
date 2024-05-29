@@ -188,7 +188,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Open sources Models |
 
 > [!IMPORTANT]
-> **Having trouble choosing a model?** I'm here to help you make an informed decision. [This resource](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-llm-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source models**, their hardware requirements, and **closed-source models**, along with ***estimated performance metrics.***
+> **Having trouble choosing a model?** I'm here to help you make an informed decision. [This tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-llm-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source models**, their hardware requirements, and **closed-source models**, along with ***estimated performance metric.***
 
 ### Public AI Model List
 
@@ -329,10 +329,13 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | Proprietary |Freemium |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Freemium |
 
-> [!Note]
-> Want **more control over your AI model choices when coding** ? We've got you covered !
+> [!IMPORTANT]
+> Concerned about **privacy issues** related to cloud based LLM tools or you want to **experiment with chatbots when coding** ? We've got you covered !
 > 
-> For a **guide** to integrate  AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into your coding environment** check out our [tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md).
+> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into your coding environment**.
+>
+> **Having trouble choosing a model?** This Tutorial also provides a comprehensive overview of **the best open-source models**, their hardware requirements, and **closed-source models**, along with ***estimated performance metric.***
+
 
 <br>
 
