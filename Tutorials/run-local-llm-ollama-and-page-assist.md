@@ -134,16 +134,16 @@ I rank Models according to their **Elo scores (Higher is better)** from the [LMS
 
 | Model                                         | Organization | Elo score  |  Ollama libraries |  Cloud-based providers | Hardware requirement  | 
 |:----------------------------------------------|:-------------:|:----------:|:---------------------:|:----------------:|:---------------------:|
-| [Llama-3-70b-Instruct](https://ollama.com/library/llama3:70b-instruct)                        | **Meta**         | 1203 | Yes | [Groq](https://groq.com/)/[Perplexity Labs](https://labs.perplexity.ai/)  | 40GB+ VRAM GPU (2xRTX 4090 or better) |
+| [Llama-3-70b-Instruct](https://ollama.com/library/llama3:70b-instruct)                        | **Meta**         | 1208 | Yes | [Groq](https://groq.com/)/[Perplexity Labs](https://labs.perplexity.ai/)  | 40GB+ VRAM GPU (2xRTX 4090 or better) |
 | [Command R+](https://ollama.com/library/command-r-plus)                                       | **Cohere**       | 1188 | Yes | [Cohere](https://cohere.com/command)                                      | 60GB+ VRAM GPU (3xRTX 4090 or better) |
 | [Qwen1.5-110B-Chat](https://ollama.com/library/qwen:110b-chat)                                | **Alibaba**      | 1169 | Yes | None | 70GB+ VRAM GPU (4xRTX 4090 or better) |
 | [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)                             | **Meta**         | 1154 | Yes |[Groq](https://groq.com/)/[Perplexity Labs](https://labs.perplexity.ai/)   | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |
-| [Qwen1.5-72B-Chat](https://ollama.com/library/qwen:72b-chat)                                  | **Alibaba**      | 1153 | Yes | None | 40GB+ VRAM GPU (2xRTX 4090 or better) |
-| [Command R](https://ollama.com/library/command-r)                                             | **Cohere**       | 1149 | Yes | [Cohere](https://cohere.com/command) | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) |
-| [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct)              | **Mistral**      | 1144 | Yes | [Perplexity Labs](https://labs.perplexity.ai/) | 80GB+ VRAM GPU (4xRTX 4090 or better) |
-| [Qwen1.5-32B-Chat](https://ollama.com/library/qwen:32b-chat)                                  | **Alibaba**      | 1134 | Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) |
-| [Zephyr-ORPO-141b-A35b-v0.1](https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1) | **Hugging Face** | 1129 | No  | [Hugging Face](https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1) |  80GB+ VRAM GPU (4xRTX 4090 or better) |
-| [Starling-LM-7B-beta](https://ollama.com/library/starling-lm:beta)                            | **AI feedback**  | 1118 | Yes | [Hugging Face](https://huggingface.co/Nexusflow/Starling-LM-7B-beta) | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |
+| [Qwen1.5-72B-Chat](https://ollama.com/library/qwen:72b-chat)                                  | **Alibaba**      | 1147 | Yes | None | 40GB+ VRAM GPU (2xRTX 4090 or better) |
+| [Command R](https://ollama.com/library/command-r)                                             | **Cohere**       | 1147 | Yes | [Cohere](https://cohere.com/command) | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) |
+| [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct)              | **Mistral**      | 1146 | Yes | [Perplexity Labs](https://labs.perplexity.ai/) | 80GB+ VRAM GPU (4xRTX 4090 or better) |
+| [Zephyr-ORPO-141b-A35b-v0.1](https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1) | **Hugging Face** | 1127 | No  | [Hugging Face](https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1) |  80GB+ VRAM GPU (4xRTX 4090 or better) |
+| [Qwen1.5-32B-Chat](https://ollama.com/library/qwen:32b-chat)                                  | **Alibaba**      | 1126 | Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) |
+| [Starling-LM-7B-beta](https://ollama.com/library/starling-lm:beta)                            | **AI feedback**  | 1119 | Yes | [Hugging Face](https://huggingface.co/Nexusflow/Starling-LM-7B-beta) | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |
 | [Qwen1.5-14B-Chat](https://ollama.com/library/qwen:14b-chat)                                  | **Alibaba**      | 1116 | Yes | None | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better) |
 
 ### Proprietary Model (1100+ Elo score)
@@ -151,21 +151,25 @@ I rank Models according to their **Elo scores (Higher is better)** from the [LMS
 | Model                                         | Provider     | Elo score  | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|
 | [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | 1287       | Paid    |
-| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | 1252       | Paid    |
-| [GPT-4](https://chat.openai.com/)             | **OpenAI**       | 1250       | Paid    |
-| [Gemini Pro 1.5](https://gemini.google.com/)  | **Google**       | 1248       | Paid    |
-| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | 1246       | Paid    |
-| [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1236       | Preview |
-| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**    | 1199       | Freemium    |
-| [Gemini Pro (Bard)](https://gemini.google.com/) | **Google**     | 1199       | Paid    |
-| [Reka-Core](https://www.reka.ai/)             | **Reka**         | 1195       | Freemium |
-| [Qwen-Max](https://help.aliyun.com/zh/dashscope/developer-reference/api-details) | **Alibaba** | 1186 | Preview |
+| [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**       | 1268       | Paid    |
+| [Gemini Advanced](https://gemini.google.com/advanced?hl=en) | **Google**       | 1267       | Paid    |
+| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | 1256       | Paid    |
+| [GPT-4](https://chat.openai.com/)             | **OpenAI**       | 1252       | Paid    |
+| [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**       | 1248       | Paid    |
+| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | 1248       | Paid    |
+| [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1239       | Preview |
+| [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google**       | 1232       | Paid    |
+| [Gemini Pro (Bard)](https://gemini.google.com/) | **Google**     | 1208       | Paid    |
+| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**    | 1201       | Freemium    |
+| [Reka-Core](https://www.reka.ai/)             | **Reka**         | 1201       | Freemium |
+| [Qwen-Max](https://help.aliyun.com/zh/dashscope/developer-reference/api-details) | **Alibaba** | 1184 | Preview |
 | [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | 1181       | Freemium    |
+| [Mistral-Large](https://mistral.ai/)          | **Mistral**      | 1156       | Free    |
 | [Reka-Flash](https://www.reka.ai/)            | **Reka**         | 1155       | Freemium |
-| [Mistral-Large](https://mistral.ai/)          | **Mistral**      | 1153       | Free    |
 | [claude-1](https://claude.ai/)                | **Anthropic**    | 1151       | Free    |
-| [Mistral-Medium](https://mistral.ai/)         | **Mistral**      | 1146       | Free    |
-| [claude-2](https://claude.ai/)                | **Anthropic**    | 1133       | Free    |
-| [Mistral-Next](https://mistral.ai/)           | **Mistral**      | 1127       | Free    |
-| [claude-instant-1](https://claude.ai/)        | **Anthropic**    | 1112       | Free    |
-| [GPT-3.5 Turbo](https://chat.openai.com/)     | **OpenAI**       | 1110       | Free    |
+| [Mistral-Medium](https://mistral.ai/)         | **Mistral**      | 1148       | Free    |
+| [claude-2](https://claude.ai/)                | **Anthropic**    | 1131       | Free    |
+| [Mistral-Next](https://mistral.ai/)           | **Mistral**      | 1124       | Free    |
+| [GPT-3.5 Turbo](https://chat.openai.com/)     | **OpenAI**       | 1117       | Free    |
+| [claude-instant-1](https://claude.ai/)        | **Anthropic**    | 1111       | Free    |
+
