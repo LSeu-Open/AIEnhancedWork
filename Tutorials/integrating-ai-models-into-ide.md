@@ -7,7 +7,7 @@
 * [Code dedicated providers and models](#code-dedicated-providers-and-models)
 * [Generalist Providers and Models](#generalist-providers-and-models)
   * [Prerequisites](#prerequisites)
-  * [Install CodeGPT extension](#install-codegpt-extension)
+  * [Install Continue.dev extension](#install-continue-extension)
   * [Setup Ollama as the Local Model Provider](#setup-ollama-as-the-local-model-provider)
   * [Setup Groq as the Cloud-based Model Provider](#setup-groq-as-the-cloud-based-model-provider)
 * [Help me pick a model !](#models-for-coding)
@@ -74,7 +74,7 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
 * **A code editor or Integrated Development Environment (IDE)** - I'll be using ***VSCode*** in this tutorial.
 * **A model provider** - in this tutorial, I'll be working with ***Ollama and Groq***.
 * **A reliable model to work with**.
-  * As a local provider, I suggest deploying the ***deepseek-coder:33b-instruct*** model through Ollama. Please note that this may necessitate expensive hardware resources. However, for those working with smaller computers, ***CodeQwen1.5-7B-Chat*** can also be a very competent alternative.
+  * As a local provider, I suggest deploying the ***deepseek-coder:33b-instruct*** or ***Codestral:22b*** models through Ollama. **Please note that this may necessitate expensive hardware resources.** However, for those working with smaller computers, ***CodeQwen1.5-7B-Chat*** can also be a very competent alternative.
   * On Groq, I personally prefer the ***Llama3-70b*** model.
  
 > [!Note]
@@ -86,13 +86,11 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
   
 </div>
 
-
-
-### Install CodeGPT extension
+### Install Continue extension
 
 * Click on the Extensions icon in the left sidebar or use the keyboard shortcut: Ctrl + Shift + X (Windows/Linux) or Cmd + Shift + X (macOS).
-* In the Extensions marketplace, search for "CodeGPT" to find the extension.
-* Click on the "CodeGPT" extension to open its page.
+* In the Extensions marketplace, search for "Continue" to find the extension.
+* Click on the "Continue" extension to open its page.
 * Click the "Install" button to begin the installation process.
 * Wait for the extension to download and install. This might take a few seconds.
 * Once the installation is complete, click on the "Reload Required" button to reload VS Code.
@@ -101,47 +99,47 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
 
 For those who prioritize keeping everything local and private, I'll be using ***[Ollama](https://ollama.com/)*** as the provider in this tutorial. If you haven't already, be sure to check out our **[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to learn how to install Ollama and get started.
   
- * First, We need create a Modelfile by selecting the deepseek-coder model to load it as a custom model in CodeGPT.
-
-* Create a folder named CodeGPT and then create a file inside called Modelfile in VSCode, add the following code:
-
-```
-FROM deepseek-coder:33b-instruct
-
-# sets the temperature to 1 [higher is more creative, lower is more coherent]
-PARAMETER temperature 1
-
-# sets the context window size to 1500, this controls how many tokens the LLM can use as context to generate the next token
-PARAMETER num_ctx 1500
-
-# sets a custom system message to specify the behavior of the chat assistant
-SYSTEM You are expert Code Assistant
-```
-> [!CAUTION]
-> Ensure that the ModelFile is saved without file extension; otherwise you won't be able to use it.
-
 > [!Note]
-> In this tutorial, I am using the ***deepseek-coder:33b-instruct*** model. This particular model is specialized for coding and has been meticulously trained on vast datasets by DeepSeek.ai.
+> In this tutorial, I am using the ***Codestral:22b*** model. This particular model is specialized for coding and has been meticulously trained on vast datasets by Mistral.ai.
 >
->  Keep in mind that each model has its strengths and weaknesses, so choose carefully.
+> This model stands out for its **exceptional size and capabilities, selected specifically for the hardware I use on my PC.** As with any model, it has its unique strengths and weaknesses. To get the most out of this tool, be sure to **[choose wisely](#models-for-coding)** among the available options.
 
-* Run the following command in your terminal to activate this new configuration. In this case, we will create the configuration model “codegpt-deepseek-coder:33b”
+
+* Open the **Continue.dev** extension by clicking on its icon in the left sidebar.
+
+* The extension will prompt you for a Model Provider; select the **Local Provider** option.
+
+* If you have set up Ollama correctly, it should automatically detect your models.
+  
+* At the bottom of the window, you will find a list of all your installed models. For this tutorial, I choose Codestral:22b.
+
+* By default, the extension is set to use **starcoder-2-3b for autocomplete**. If you want to keep using this model, ensure it is installed with your Ollama setup. Otherwise, if you wish to switch to a more capable model, click on the settings icon at the bottom right of the extension window.
+  
+* This will open the **config.json** file, where you can customize the extension's behavior.
+  
+* Navigate to the following snippet:
 
 ```
-ollama create codegpt-deepseek-coder:33b -f ./CodeGPT/Modelfile
+ "tabAutocompleteModel": {
+    "title": "starcoder-2-3b",
+    "provider": "ollama",
+    "model": "starcoder-2-3b"
+  },
 ```
 
-* If we run ```ollama list```, we’ll be able to see that the new model is already in our list.
+* Replace **starcoder-2-3b** with the model you prefer. For example, if you want to use **Codestral:22b**, update the code to:
 
-* Test this new configuration by using ```ollama run codegpt-deepseek-coder:33b``` with our model set up to be a code assistant.
+ ```
+ "tabAutocompleteModel": {
+    "title": "codestral:22b",
+    "provider": "ollama",
+    "model": "codestral:22b"
+  },
+```
+* Save your modifications and close the config file.
 
-* Once you have your new model configuration up and running, let’s connect it with Visual Studio Code using the **CodeGPT extension and linking it with Ollama**.
-
-* From the extensions menu, click on the **CodeGPT icon**, then expand the provider selector and choose Ollama.
-
-* Once the provider is selected, in the model selector, type the name of the model we just created, in this case, **codegpt-deepseek-coder:33b**.
-
-* You now have this new model, created by you, **ready to be used** as a programming assistant within Visual Studio Code thanks to Ollama and CodeGPT.
+* You are now **ready to use your chosen model as a programming assistant within Visual Studio Code**, thanks to Ollama and Continue.dev.
+  
 
 ### Setup Groq as the Cloud-based Model Provider
 
@@ -150,18 +148,18 @@ If you **don't have the necessary hardware to run models locally** or want to ta
 > [!Note]
 > In this tutorial, I'll be leveraging **Groq**, but feel free to substitute it with your preferred provider - whether that's OpenAI, Anthropic, or another that suits your needs.
 >
->  When choosing your model, Keep in mind that each model has its strengths and weaknesses, so choose carefully.
+>  When choosing your model, Keep in mind that each model has its strengths and weaknesses, so **[choose wisely](#models-for-coding)**.
 
 > Before we get started, make sure you have a Groq account set up - if you haven't already, take a moment to create one.
 
-* Click on the **CodeGPT icon** in the left sidebar to open the CodeGPT panel.
-* Click on the **"Select AI Menu"** at the top of the panel.
-* From the dropdown menu, select "Groq" as your preferred AI provider and Click the **"Connect" button** to proceed.
+* Click on the **Continue icon** in the left sidebar to open the Continue panel.
+* If it is the first time you open it, The extension will prompt you for a Model Provider; select the **Cloud Provider** option.
+* Select **Groq** as your preferred AI provider.
 * Head to the **GroqCloud section** of the Groq website (look for the icon at the bottom).
 * Create a new **API key** and copy it to your clipboard.
-* Return to the CodeGPT window and **paste your API key into the dedicated input field**.
+* Return to the window and **paste your API key into the apiKey input field**.
 * **Select the AI model** you want to use from the available options. Here on Groq, I'll choose the "Llama-3-70b Model".
-* You now have access to a capable model, **ready to be used** as a programming assistant within Visual Studio Code thanks to Groq and CodeGPT.
+* You now have access to a capable model, **ready to be used** as a programming assistant within Visual Studio Code.
   
 👏 **That's it for this tutorial ! You now have an AI model integrated into your VSCode setup. For a comprehensive overview of CodeGPT features and capabilities, please refer to the CodeGPT page. Enjoy coding !**
 
@@ -184,8 +182,8 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 | Model                                                                                   | Organisation      | HumanEval score (/100) | Ollama libraries | Cloud-based providers | Hardware requirement  | 
 |:---------------------------------------------------------------------------------------:|:-----------------:|:----:|:----:|:----:|:---------------------------------------------------:|
-| [Codestral-22B](https://ollama.com/library/codestral)                    | **Mistral**       | ??? |  Yes  | [Mistral](https://chat.mistral.ai/) | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better)   |
-| [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)                    | **Alibaba**       | 78.7 |  Yes  | None | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |
+| [Codestral-22B](https://ollama.com/library/codestral)                                   | **Mistral**       | ???  |  Yes | [Mistral](https://chat.mistral.ai/) | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better)   |
+| [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)                    | **Alibaba**       | 78.7 |  Yes | None | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |
 | [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct)   | **Deepseek**      | 75   |  Yes | [Hugging Face](https://huggingface.co/spaces/deepseek-ai/deepseek-coder-33b-instruct) | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
 | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)   |**m-a-p**          | 73.8 |  No  | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
 | [WizardCoder-33B-V1.1](https://ollama.com/library/wizardcoder:33b-v1.1)                 | **TheBloke**      | 73.2 |  Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better    |
