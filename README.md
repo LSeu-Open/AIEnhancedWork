@@ -506,11 +506,12 @@ AI video transcription and summarization tools use NLP and computer vision to qu
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
-| [Eightify](https://eightify.app/)                          | A powerful tool that utilizes YouTube AI technology to summarize videos quickly, providing users with key ideas in seconds.       | Proprietary | Free      |
-| [Exemplary AI](https://exemplary.ai/)                      | A cloud-based tool that harnesses Artificial Intelligence (AI) and LLMs to offer transcription solutions.   | Proprietary | Freemium  |
-| [Riverside](https://riverside.fm/)                         | An online studio that specializes in high-quality podcast and video recording and editing.                  | Proprietary | Freemium  |
+| [Eightify](https://eightify.app/)                          | A powerful tool that utilizes YouTube AI technology to summarize videos quickly, providing users with key ideas in seconds. | Proprietary | Free      |
+| [Exemplary AI](https://exemplary.ai/)                      | A cloud-based tool that harnesses Artificial Intelligence (AI) and LLMs to offer transcription solutions.                   | Proprietary | Freemium  |
+| [Riverside](https://riverside.fm/)                         | An online studio that specializes in high-quality podcast and video recording and editing.                                  | Proprietary | Freemium  |
 | [SolidPoint](https://solidpoint.ai/)                       | A range of tools that leverage AI technology to enhance productivity and efficiency in various tasks. One of its key features is the Summarize tool. | Proprietary | Free |
-| [Summify](https://summify.io/)                             | A powerful tool that efficiently condenses lengthy videos into concise and informative summaries.           | Proprietary | Freemium  |
+| [Summarize.tech](https://www.summarize.tech/)              | An AI-powered tool that automatically generates summaries of long videos from YouTube.                                      | Proprietary | Freemium  |
+| [Summify](https://summify.io/)                             | A powerful tool that efficiently condenses lengthy videos into concise and informative summaries.                           | Proprietary | Freemium  |
 | [Voxweave](https://voxweave.xyz/)                          | An innovative AI-powered tool that revolutionizes the interaction with YouTube videos by transforming them into concise summaries. | Proprietary | Freemium  |
 
 
