@@ -503,9 +503,9 @@ AI presentation tools enable users to create professional slides with ease, offe
 | [PlusAI](https://www.plusdocs.com/)               |  An advanced AI tool that integrates with Google Slides and Google Docs to assist users in creating professional presentations and well-written documents efficiently. | Proprietary   | Paid       |
 | [SlidesPilot](https://www.slidespilot.com/)       | An innovative tool designed to streamline the creation of professional and visually appealing presentation slides.                                                     | Proprietary   | Freemium   |
 
-### Video transcription and summaries
+### Audio and Video transcription and summaries
 
-AI video transcription and summarization tools use NLP and computer vision to quickly and accurately extract insights from video content. They automate the transcription and summary process, saving time and reducing errors, so users can focus on analysis and interpretation.
+AI audio and video transcription and summarization tools use NLP and computer vision to quickly and accurately extract insights from video content. They automate the transcription and summary process, saving time and reducing errors, so users can focus on analysis and interpretation.
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
@@ -516,6 +516,7 @@ AI video transcription and summarization tools use NLP and computer vision to qu
 | [Summarize.tech](https://www.summarize.tech/)              | An AI-powered tool that automatically generates summaries of long videos from YouTube.                                      | Proprietary | Freemium  |
 | [Summify](https://summify.io/)                             | A powerful tool that efficiently condenses lengthy videos into concise and informative summaries.                           | Proprietary | Freemium  |
 | [Voxweave](https://voxweave.xyz/)                          | An innovative AI-powered tool that revolutionizes the interaction with YouTube videos by transforming them into concise summaries. | Proprietary | Freemium  |
+| [WavoAI](https://wavoai.com/)                              | An AI-powered tool that provides accurate transcriptions and insights from audio recordings.                                | Proprietary | Freemium  |
 
 
 ### Website building
