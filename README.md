@@ -441,6 +441,8 @@ AI-powered tools for language learning, providing personalized guidance and feed
 | [Lingolette](https://lingolette.com/en)           | An AI-powered language learning tool that focuses on improving spoken and written fluency through interactive conversations and personalized lessons.                  | Proprietary   | Free       |
 | [Proseable](https://www.proseable.com/)           | An AI-powered language learning tool designed to help users improve their conversational skills and fluency in a new language through interactive practice and personalized feedback.  | Proprietary | Freemium   |
 
+<br>
+
 ## Music and Audio Generation
 
 ### Music Generation
