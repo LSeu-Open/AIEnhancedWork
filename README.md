@@ -25,6 +25,7 @@ Liked it? Please give a ⭐️ to **AIEnhancedWork**.
   - [Image Generation](#image-generation)
   - [Image Editing](#image-editing)
   - [Video Generation](#video-generation)
+* [Language learning](#language-learning)
 * [Music and Audio Generation](#music-and-audio-generation)
   - [Music Generation](#music-generation)
   - [Text to speech](#text-to-speech) 
@@ -32,7 +33,7 @@ Liked it? Please give a ⭐️ to **AIEnhancedWork**.
   - [Versatile Productivity tools](#versatile-productivity-tools)
   - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
   - [Presentation slides](#presentation-slides)
-  - [Video transcription and summaries](#video-transcription-and-summaries)
+  - [Audio and Video transcription and summaries](#audio-and-video-transcription-and-summaries)
   - [Website building](#website-building)
     
 <br>
@@ -427,6 +428,18 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 | [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | Proprietary | Freemium |
 
 <br>
+
+## Language learning
+
+AI-powered tools for language learning, providing personalized guidance and feedback.
+
+| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
+|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
+| [Conversly](https://www.conversly.ai/)            | A language learning app that allows users to practice conversing and improve their speaking and listening skills in a new language.                                    | Proprietary   | Freemium   |
+| [Duolingo max](https://blog.duolingo.com/duolingo-max/) |  New premium subscription tier from Duolingo that incorporates advanced AI technology, specifically OpenAI's GPT-4, to provide enhanced language learning features and exercises. | Proprietary   | Paid   |
+| [Langotalk](https://www.langotalk.org/)           | An AI-powered language learning tool that helps users learn languages like Spanish, English, French, German, Dutch, or Italian.                                        | Proprietary   | Paid       |
+| [Lingolette](https://lingolette.com/en)           | An AI-powered language learning tool that focuses on improving spoken and written fluency through interactive conversations and personalized lessons.                  | Proprietary   | Free       |
+| [Proseable](https://www.proseable.com/)           | An AI-powered language learning tool designed to help users improve their conversational skills and fluency in a new language through interactive practice and personalized feedback.  | Proprietary | Freemium   |
 
 ## Music and Audio Generation
 
