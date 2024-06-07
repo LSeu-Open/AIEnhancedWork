@@ -204,7 +204,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
  ➡️ You can find an overall leaderboard at [chat.lmsys.org](https://chat.lmsys.org/?leaderboard).
 
- TODO : ADD Missing open source model : (LMSYS / DOLPHIN ...)
+ TODO : ADD Missing open source model : (LMSYS / Cognitive Computations ...)
 
  <br>
   
