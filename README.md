@@ -204,8 +204,6 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
  ➡️ You can find an overall leaderboard at [chat.lmsys.org](https://chat.lmsys.org/?leaderboard).
 
- TODO : ADD Missing open source model : (LMSYS / Cognitive Computations ...)
-
  <br>
   
 **01.ai**
@@ -246,10 +244,13 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
   
 **Cognitive Computations**
 - [dolphin-2.2.1-mistral-7b](https://huggingface.co/cognitivecomputations/dolphin-2.2.1-mistral-7b) (Open) 🔴
-- [dolphin-2.9-llama3-8b](https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b) (Open)
+- [dolphin-2.5-mixtral-8x7b](https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b) (Open)
 - [dolphin-2.9.1-mixtral-1x22b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-mixtral-1x22b) (Open)
+- [dolphin-2.9-llama3-8b](https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b) (Open)
 - [dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) (Open) 🟢
-- [dolphin-2.9.2-qwen2-72b-gguf](https://huggingface.co/cognitivecomputations/dolphin-2.9.2-qwen2-72b-gguf) (Open)
+- [dolphin-2.9.2-qwen2-7b](https://huggingface.co/cognitivecomputations/dolphin-2.9.2-qwen2-7b) (Open)
+- [dolphin-2.9.2-qwen2-72b](https://huggingface.co/cognitivecomputations/dolphin-2.9.2-qwen2-72b) (Open)
+- [dolphin-2.9.2-Phi-3-Medium-abliterated](https://huggingface.co/cognitivecomputations/dolphin-2.9.2-Phi-3-Medium-abliterated) (Open) (Uncensored)
 
 **Cohere**
 - [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/) (Open) 🟢
@@ -409,6 +410,8 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 | [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | Proprietary | Freemium    |
 | [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | Open | Free |
 
+> [!TIP]
+> A convenient **local option for using image generation models** is now available. Please check out **[Fooocus](https://github.com/lllyasviel/Fooocus)** for more information.
 ### Image Editing
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
