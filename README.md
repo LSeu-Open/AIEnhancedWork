@@ -184,9 +184,10 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [Enchanted](https://github.com/AugustDev/enchanted) | iOS and macOS app for chatting with private self hosted language models.| MacOS/IOS | Open sources Models |
+| [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Open sources Models. |
+| [LM Studio](https://superagi.com/) |  Elegant UI with the ability to run every Hugging Face repository. | All | Open sources Models |
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
-| [LM Studio](https://superagi.com/) |  Elegant UI with the ability to run every Hugging Face repository | All | Open sources Models |
-| [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Open sources Models |
 
 > [!IMPORTANT]
 > **Having trouble choosing a model?** I'm here to help you make an informed decision. [This tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-llm-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source models**, their hardware requirements, and **closed-source models**, along with ***estimated performance metric.***
