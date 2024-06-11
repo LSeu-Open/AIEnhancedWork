@@ -10,33 +10,24 @@ Liked it? Please give a ⭐️ to **AIEnhancedWork**.
 
  ## Table of Contents
 * [Academic and Scientific Research](#academic-and-scientific-research)
-  
 * [AI Agents](#ai-agents)
   - [Autonomous Agents](#autonomous-agents)
   - [Language Models for Function Calling](#language-models-for-function-calling)
-    
 * [Automation](#automation)
-  
 * [Chatbots and conversational AI](#chatbots-and-conversational-ai)
-  - [Chatbots Providers](#chatbots-providers)
+* [Chatbots Providers](#chatbots-providers)
      - [Cloud-based Providers](#cloud-based-providers)
-     - [Local Providers](#local-providers)
-       
+     - [Local Providers](#local-providers) 
 * [Code Suggestions and Autocompletion](#code-suggestions-and-autocompletion)
-  
 * [Data Analysis](#data-analysis)
-  
 * [Image Generation and Editing](#image-generation-and-editing)
   - [Image Generation](#image-generation)
   - [Image Editing](#image-editing)
   - [Video Generation](#video-generation)
-    
 * [Language learning](#language-learning)
-  
 * [Music and Audio Generation](#music-and-audio-generation)
   - [Music Generation](#music-generation)
   - [Text to speech](#text-to-speech)
-    
 * [Productivity](#productivity)
   - [Versatile Productivity tools](#versatile-productivity-tools)
   - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
