@@ -5,7 +5,6 @@
   + [Proprietary Models](#proprietary-models)
     - [01.ai](#01)
     - [Anthropic](#anthropic)
-    - [Databricks](#databricks)
     - [Google](#google)
     - [Mistral](#mistral)
     - [MosaicML](#mosaicml)
@@ -17,6 +16,7 @@
     - [Alibaba](#alibaba)
     - [Cognitive Computations](#cognitive-computations)
     - [Cohere](#cohere)
+    - [Databricks](#databricks)
     - [Deepseek](#deepseek)
     - [Google](#google)
     - [Hugging Face](#hugging-face)
@@ -53,9 +53,6 @@
 - [Claude 2.1](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
 - [Claude 2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
 - [Claude Instant 1.2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary) 🔴
-
-### **Databricks**
-- [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (Proprietary) 🟢
 
 ### **Google**
 - [Gemini Advanced](https://gemini.google.com/advanced?hl=en) (Proprietary) 
@@ -158,6 +155,9 @@
   
 > Command R
 - [Command R](https://huggingface.co/CohereForAI/c4ai-command-r-v01) (Open) 
+
+### **Databricks**
+- [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (open) 🟢
 
 ### **DeepSeek**
 
