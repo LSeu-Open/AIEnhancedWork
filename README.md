@@ -190,7 +190,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
 
 > [!IMPORTANT]
-> **Having trouble choosing a model?** I'm here to help you make an informed decision. [This tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-llm-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
+> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-llm-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
 
 <br>
 
@@ -218,7 +218,7 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 > 
 > check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into your coding environment**.
 >
-> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding) provides a comprehensive overview of **the best open-source and Proprietary models** for coding, along with ***estimated performance metric.***
+> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding) provides a comprehensive overview of **the best open-source and Proprietary models** for coding, along with ***estimated performance metric.***
 
 
 <br>
