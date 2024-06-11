@@ -2,13 +2,12 @@
 
 ## Table of Contents
 
-* [Introduction](#introduction)
-  
   + [Proprietary Models](#proprietary-models)
     - [01.ai](#01)
     - [Anthropic](#anthropic)
     - [Databricks](#databricks)
     - [Google](#google)
+    - [Mistral](#mistral)
     - [MosaicML](#mosaicml)
     - [OpenAI](#openai)
     - [Perplexity.ai](#perplexity)
@@ -28,7 +27,7 @@
 
 <br>
 
-## Introduction
+# Introduction
 
  ➡️ To provide a clearer picture of model performance within an organization, I'll include Elo Rankings : 
  
@@ -38,13 +37,16 @@
 
  ➡️ You can find an overall leaderboard at [chat.lmsys.org](https://chat.lmsys.org/?leaderboard).
 
-### Proprietary Models
+ > [!IMPORTANT]
+> If you're concerned about **privacy issues related to cloud based LLM providers** or you want to experiment with chatbots check out this ***[practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)*** on how to set up and run your own model on your local machine.
 
-#### **01**
+## Proprietary Models
+
+### **01**
 
 - [Yi-Large](https://www.01.ai/) (Proprietary) 🟢
 
-#### **Anthropic**
+### **Anthropic**
 - [Claude 3 Opus](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary) 🟢
 - [Claude 3 Sonnet](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
 - [Claude 3 Haiku](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
@@ -52,10 +54,10 @@
 - [Claude 2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
 - [Claude Instant 1.2](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary) 🔴
 
-#### **Databricks**
+### **Databricks**
 - [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (Proprietary) 🟢
 
-#### **Google**
+### **Google**
 - [Gemini Advanced](https://gemini.google.com/advanced?hl=en) (Proprietary) 
 - [Gemini Flash](https://deepmind.google/technologies/gemini/flash/) (Proprietary) 
 - [Gemini 1.5 Pro](https://gemini.google.com/?hl=en) (Proprietary) 🟢
@@ -63,23 +65,28 @@
 - [Gemini Pro](https://blog.google/technology/ai/gemini-api-developers-cloud/) (Proprietary)
 - [PaLM-chat-Bison-001](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models) (Proprietary)
 
-#### **MosaicML**
+### **Mistral**
+- [Mistral Large](https://mistral.ai/news/mistral-large/) (Proprietary) 🟢
+- [Mistral Medium](https://mistral.ai/) (Proprietary)
+- [Mistral-Next](https://mistral.ai/) (Proprietary) 🔴
+  
+### **MosaicML**
 - [MPT-30B-chat](https://huggingface.co/mosaicml/mpt-30b-chat) (Proprietary) 🟢
 - [MPT-7B-chat](https://huggingface.co/mosaicml/mpt-7b-chat) (Proprietary) 🔴
 
-#### **OpenAI**
+### **OpenAI**
 - [GPT-4o](https://openai.com/index/hello-gpt-4o/) (Proprietary) 🟢
 - [GPT-4 Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary) 
 - [GPT-4](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) (Proprietary)
 - [GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo) (Proprietary) 🔴
 
-#### **Perplexity**
+### **Perplexity**
 - [pplx-70b-online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) (Proprietary) 🟢
 - [pplx-7b-online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) (Proprietary) 🔴
 
-### Open source Models
+## Open source Models
 
-#### **01**
+### **01**
 
 > Yi-1.5 (upgraded version of Yi)
 - [Yi-1.5-34B-Chat](https://huggingface.co/01-ai/Yi-1.5-34B-Chat) (Open) 🟢
@@ -94,7 +101,7 @@
 - [Yi-VL-34B](https://huggingface.co/01-ai/Yi-VL-34B) (Open)
 - [Yi-VL-6B](https://huggingface.co/01-ai/Yi-VL-6B) (Open)
   
-#### **Alibaba**
+### **Alibaba**
 
 - [Qwen-Max](https://qwenlm.github.io/blog/qwen-max-0428/) (Open) ❓
 
@@ -122,7 +129,7 @@
 > CodeQwen
 - [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat) (Open) 🟢
   
-#### **Cognitive Computations**
+### **Cognitive Computations**
 
 > Qwen
 - [dolphin-2.9.2-qwen2-7b](https://huggingface.co/cognitivecomputations/dolphin-2.9.2-qwen2-7b) (Open)
@@ -140,7 +147,7 @@
 > Phi
 - [dolphin-2.9.2-Phi-3-Medium-abliterated](https://huggingface.co/cognitivecomputations/dolphin-2.9.2-Phi-3-Medium-abliterated) (Open)
 
-#### **Cohere**
+### **Cohere**
 
 > Aya 23
 - [aya-23-35B](https://huggingface.co/CohereForAI/aya-23-35B) (Open) 
@@ -152,7 +159,7 @@
 > Command R
 - [Command R](https://huggingface.co/CohereForAI/c4ai-command-r-v01) (Open) 
 
-#### **DeepSeek**
+### **DeepSeek**
 
 > LLM
 - [DeepSeek-LLM-67b-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat) (Open) 🟢
@@ -174,7 +181,7 @@
 > MoE
 - [DeepSeek-moe-16b-Chat](https://huggingface.co/deepseek-ai/deepseek-moe-16b-chat) 
 
-#### **Google**
+### **Google**
 
 > Gemma
 - [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it) 🟢
@@ -192,7 +199,7 @@
 - [Codegemma-2b](https://huggingface.co/google/codegemma-2b-GGUF) 🔴
 
   
-#### **Hugging Face**
+### **Hugging Face**
 
 > Zephyr ORPO
 - [Zephyr-orpo-141b-A35b-v0.1](https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1) (Open) 🟢
@@ -205,44 +212,41 @@
 > Starchat (Coding)
 - [Starchat2-15b-v0.1](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1) (Open)
   
-#### **LMSYS**
+### **LMSYS**
 - [Vicuna-33B](https://huggingface.co/lmsys/vicuna-33b-v1.3) (open) 🟢
 - [Vicuna-13B](https://huggingface.co/lmsys/vicuna-13b-v1.5) (open)
 - [Vicuna-7B](https://huggingface.co/lmsys/vicuna-7b-v1.5) (open)
 - [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) (open) 🔴
   
-#### **Meta**
+### **Meta**
 - [Llama-3-70b-Instruct](https://llama.meta.com/llama3/) (Open) 🟢
 - [Llama-3-8b-Instruct](https://llama.meta.com/llama3/) (Open)
 - [Llama-2-70b-chat](https://huggingface.co/meta-llama/Llama-2-70b-chat-hf) (Open)
 - [Llama-2-13b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf) (Open)
 - [Llama-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) (Open) 🔴
 
-#### **Microsoft**
+### **Microsoft**
 
 > Phi-3
 - [Phi-3-vision-128k-instruct](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) (Open) 
 - [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) (Open) 🟢
 - [Phi-3-small-128k-instruct](https://huggingface.co/microsoft/Phi-3-small-128k-instruct) (Open)  
-- [Phi-3-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) (Open) 🔴
+- [Phi-3-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) (Open) 
 
 > Phi-1
 - [Phi-1.5](https://huggingface.co/microsoft/phi-1_5) (Open) 
 - [Phi-1](https://huggingface.co/microsoft/phi-1) (Open) 🔴
   
-#### **Mistral**
+### **Mistral**
 
 > Mixtral (MoE)
 - [Mixtral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) (Open)
-- [Mixtral-8x22b-Instruct-v0.1](https://mistral.ai/news/mixtral-8x22b/) (Open)
+- [Mixtral-8x22b-Instruct-v0.1](https://mistral.ai/news/mixtral-8x22b/) (Open) 🟢
   
 > Mistral
-- [Mistral-Next](https://mistral.ai/) (Proprietary)
 - [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1) (Open) 🔴
 - [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Open)
 - [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) (Open)
-- [Mistral Medium](https://mistral.ai/) (Proprietary)
-- [Mistral Large](https://mistral.ai/news/mistral-large/) (Proprietary) 🟢
 
 > Codestral (Coding)
 - [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1) (Open)
