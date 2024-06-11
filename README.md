@@ -149,21 +149,21 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 
 | Model Familly                                       | Best Model                                                                       | Best Model Licensing | Organization   | Knowledge Cutoff | Pricing model |
 |:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------------:|:------------:|:-----------:|
-| [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | Proprietary   | OpenAI         | 2023-12      | Freemium |
+| [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | Proprietary   | OpenAI         | 2023-10      | Freemium |
 | [Claude](https://claude.ai/)                        | [Claude 3 Opus](https://claude.ai/)                                              | Proprietary   | Anthropic      | 2023-08      | Freemium |
 | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                               | Proprietary   | Google         | 2023-11      | Freemium |
 | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | Proprietary   | 𝕏              | Online       | Freemium |
-| [Mistral](https://mistral.ai/)                      | [Mistral Large](https://chat.mistral.ai/chat)                                    | Proprietary   | Mistral AI     | 2023-04      | Freemium |
+| [Mistral](https://mistral.ai/)                      | [Mistral Large](https://chat.mistral.ai/chat)                                    | Proprietary   | Mistral AI     | ---          | Freemium |
 | [MPT](https://huggingface.co/mosaicml)              | [MPT-30B-chat](https://huggingface.co/mosaicml/mpt-30b-chat)                     | Proprietary   | Perplexity AI  | Online       | Freemium |
 | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | Proprietary   | Reka           | Online       | Free |
-| [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | Proprietary   | 01.ai          | 2023-06      | Free |
+| [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | Proprietary   | 01.ai          | ---          | Free |
 |                                                     |                                                                                  |               |                |              |      |
 | [Command-R](https://cohere.com/)                    | [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/)             | Open          | Cohere         | 2023-03      | Free |
-| [DBRX](https://www.databricks.com/)                 | [dbrx-instruct ](https://huggingface.co/databricks/dbrx-instruct)                | Open          | Databricks     | 2023-12      | Free |
+| [DBRX](https://www.databricks.com/)                 | [dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | Open          | Databricks     | 2023-12      | Free |
 | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| Open          | Deepseek       | 2023-11      | Free     |
 | [Dolphin](https://erichartford.com/dolphin)         | [dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | Open | Cognitive Computations | 2023-10 | Free |
 | [Llama](https://github.com/facebookresearch/llama)  | [Llama-3-70b-Instruct](https://llama.meta.com/llama3/)                           | Open          | Meta           | 2023-12      | Free |
-| [OLMo](https://huggingface.co/allenai/OLMo-7B)      | [Tulu-2-DP0-70B](https://huggingface.co/allenai/tulu-2-dpo-70b)                  | Open          | Allen AI       | 2023-02      | Free |
+| [Mixtral](https://huggingface.co/allenai/OLMo-7B)   | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) | Open | Mistral AI   | 2024-04 | Free |
 | [Openchat](https://github.com/imoneoi/openchat)     | [OpenChat-3.5-0106](https://huggingface.co/openchat/openchat-3.5-0106)           | Open          | Community      | 2024-01      | Free |
 | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | Open | Microsoft      | 2024-03      | Free |
 | [Qwen](https://qwenlm.github.io/)                   | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)             | Open          | Alibaba        | 2023-08      | Free |
