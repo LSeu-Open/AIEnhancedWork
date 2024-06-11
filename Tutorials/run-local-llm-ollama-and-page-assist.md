@@ -1,10 +1,28 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&height=300&color=timeGradient&text=A%20Practical%20Tutorial%20to-nl-Run%20a%20Local%20Model&fontColor=141414)
 
-## Introduction (***Sorry for the long intro***)
+## Table of Contents
+
+* [Introduction](#introduction)
+  + [The Privacy and security issue of Cloud based Providers](#the-privacy-and-security-issue-of-cloud-based-providers)
+  + [Benefits of Running LLM Models Locally](#benefits-of-running-llm-locally)
+    
+* [Step 1 Install and Setup Ollama](#step-1-install-and-setup-ollama)
+  + [Installation](#installation)
+  + [Quickstart](#quickstart)
+* [Step 2 Use Ollama in your browser using Page assist extension](#step-2-use-ollama-in-your-browser-using-page-assist-extension)
+  + [Installation and setup](#installation-and-setup)
+  + [Browser Support](#browser-support)
+  + [Usage](#usage)
+
+ * [Find the LLM that is right for you](#find-the-llm-that-is-right-for-you)
+
+<br>
+
+## Introduction
 
 This tutorial is designed for ***individuals seeking greater control and transparency*** in their data processing, regardless of their background or expertise. I will provide a step-by-step guide on how to set up a local LLM environment using Ollama as the backend and Page Assist extension in your browser.
 
-### 🔴 The Privacy and security issue of Cloud based LLM services
+### The Privacy and security issue of Cloud based Providers
 
 Using Large Language Model (LLM) services online raises significant privacy concerns. One major issue is that your data is stored and processed by third-party providers, which can lead to unintended consequences. For example, your input data may be shared with other users or used for purposes beyond what you initially intended.
 
@@ -12,7 +30,7 @@ The complexity of the algorithms used to train these models also poses a problem
 
 Finally, the sheer scale of cloud-based LLMs means that even minor issues can result in massive data breaches, compromising the privacy and security of countless users
 
-### 🟢 Control in Your Hands: Advantage sof Running LLM Models Locally
+### Benefits of Running LLM Locally
 
 Running Large Language Model (LLM) models locally offers several benefits. One major advantage is that it allows you to maintain complete control over your input data and ensure its confidentiality - no sensitive information will be shared with third-party providers.
 
@@ -20,7 +38,7 @@ This approach also enables faster processing times and reduced latency, making i
 
 Ultimately, running LLM models locally provides a high degree of privacy and control, allowing you to tailor the model's training and deployment to meet your specific goals and objectives
 
-## Step 1 : Install and Setup Ollama
+## Step 1 Install and Setup Ollama
 
 ### Installation
 
@@ -62,7 +80,7 @@ To view the list of models you've downloaded, simply use the following command:
 ollama list
 ```
 
-## Step 2 : Use Ollama in your browser using Page assist extension.
+## Step 2 Use Ollama in your browser using Page assist extension
 
 It is not comfortable working directly in the command-line interface (CLI) for most, so i will show you how to interact with your Ollama model using a browser-based interface. We will be using the [Page assist extension](https://github.com/n4ze3m/page-assist).
 
@@ -118,7 +136,7 @@ You can open the Web UI by clicking on the extension icon which will open a new 
 > [!Note]
 > You can change the keyboard shortcuts from the extension settings on the Chrome Extension Management page.
 
-## Find the LLM model that is right for you
+## Find the LLM that is right for you
 
 This section is designed to assist you with the knowledge and resources needed **to make informed decisions about the right model for your specific requirements.** To support your search, To facilitate this process, I have prepared **two tables** for your reference.
 
