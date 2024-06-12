@@ -10,10 +10,9 @@ Liked it? Please give a ⭐️ to **AIEnhancedWork**.
 
  ## Table of Contents
 * [Academic and Scientific Research](#academic-and-scientific-research)
-* [AI Agents](#ai-agents)
-  - [Autonomous Agents](#autonomous-agents)
-  - [Language Models for Function Calling](#language-models-for-function-calling)
 * [Automation](#automation)
+   - [Autonomous Agents](#autonomous-agents)
+   - [Automation tools](#automation-tools)
 * [Chatbots and conversational AI](#chatbots-and-conversational-ai)
 * [Chatbots Providers](#chatbots-providers)
      - [Cloud-based Providers](#cloud-based-providers)
@@ -77,49 +76,37 @@ AI-powered tools designed specifically for academic and research endeavors, enha
 
 | Tool             | Description                                                                                                                 | Licence     | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [Epsilon](https://www.epsilon-ai.com/search) | an AI-powered search engine designed specifically for academic research.  | Proprietary | Free    |
 | [ResearchRabbit](https://www.researchrabbit.ai/) | AI-powered platform that aims to streamline the literature review process for researchers and academics by providing intelligent discovery, recommendation, and visualization capabilities | Proprietary | Free    |
 | [Semantic Scholar](https://www.semanticscholar.org/) | A free, AI-powered research tool for scientific literature , with now Semantic Reader, an augmented reader with the potential to revolutionize scientific reading by making it more accessible and richly contextual| Open | Free    |
 | [Scispace](https://typeset.io/) | AI-powered platform that aims to simplify and enhance the research and literature review process for academics and researchers | Proprietary | Freemium    |
 
 <br>
 
-## AI Agents
-
-AI agents are intelligent software entities that can perform tasks autonomously or semi-autonomously on behalf of a user or system. These agents can learn from experience, adapt to new situations, and communicate with other agents or systems to achieve their goals.
+## Automation
 
 ### Autonomous Agents
 
-| Tool             | Description                                                                                                                 | Licence     | Pricing     |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [AgentGPT](https://agentgpt.reworkd.ai/) | A generative artificial intelligence tool that allows users to create autonomous AI agents capable of performing various tasks autonomously. | Open | Freemium    |
-| [Godmode](https://godmode.space/) |  A web platform that provides access to innovative AI agents like autoGPT and babyAGI, allowing users to harness the power of autonomous AI agents. | Open | Free    |
-| [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer) |  An open-source AI-powered application builder that generates codebases from natural language project descriptions. | Open | Free    |
-| [Super AGI](https://superagi.com/) | An open-source autonomous AI agent framework that enables developers to build, manage, and run useful autonomous agents efficiently and reliably. | Open | Free    |
+AI agents are intelligent software entities that can perform tasks autonomously or semi-autonomously on behalf of a user or system. These agents can adapt to new situations, and communicate with other agents or systems to achieve their goals.
 
-### Language Models for Function Calling
+| Tool                                     | Description                                                                                                                                  | Licence     | Pricing     |
+|:-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [AgentGPT](https://agentgpt.reworkd.ai/) | A generative artificial intelligence tool that allows users to create autonomous AI agents capable of performing various tasks autonomously. | Open        | Freemium    |
+| [Cognosys](https://www.cognosys.ai/)     | An AI assistant that can help you automate tasks, organize your work, and perform research.                                                  | Proprietary | Freemium    |
+| [Evo.ninja](https://evo.ninja/)          | a generalist agent that can flow between multiple agent personas to solve any task.                                                          | Open       | Freemium    |
+| [Godmode](https://godmode.space/)        |  A web platform that provides access to innovative AI agents like autoGPT and babyAGI, allowing users to harness the power of autonomous AI agents. | Open | Free    |
+| [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer) |  An open-source AI-powered application builder that generates codebases from natural language project descriptions.  | Open        | Free    |
+| [Super AGI](https://superagi.com/)       | An open-source autonomous AI agent framework that enables developers to build, manage, and run useful autonomous agents efficiently and reliably. | Open   | Free    |
 
-Function Calling allows language models to interact with external functions or APIs within conversations. It generates JSON objects with function names and arguments, enabling actions like querying databases, sending emails, or making API calls based on conversation context. This expands capabilities beyond text responses, allowing dynamic and reactive interactions.
-
-| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
-|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
-| [Octopus-V2](https://huggingface.co/NexaAIDev/Octopus-v2) | An open-source language model with 2B parameters, developed by Nexa AI for Android API function calling, representing a research breakthrough in LLM application | Open        | Free |
-| [GPT-3.5-turbo, GPT-4 and GPT-4](https://chat.openai.com/) |   OpenAI now feature the capability of "Function Calling", which allows developers to define functions and guide the model to generate arguments for those functions. | Proprietary | Freemium |
-
-> [!Note]
-> Do not confond Function Calling with Retrieval-Augmented Generation (RAG) which is a technique that retrieves relevant information from a database and injects it into the language model's context, allowing the model to focus on what is most relevant for a given query.
-> 
-> RAG augments the model's knowledge, while function calling augments its capabilities and actions.
-
-
-<br>
-
-## Automation
+## Automation tools
 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
 
 | Tool             | Description                                                                                                                   | Licence       | Pricing       |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-------------:|:-------------:|
 | [Bardeen](https://www.bardeen.ai/) | An AI-powered automation platform that enables users to automate repetitive tasks across various applications without writing code. It offers pre-built integrations with popular tools and allows users to create custom workflows. | Proprietary | Paid |
+| [Cykel](https://www.cykel.ai/) | an AI company focused on developing intelligent automation solutions that can understand natural language and interact with various software and websites to automate complex digital tasks for businesses. | Proprietary | Paid |
+| [Gumloop](https://www.gumloop.com/) | AI-native workflow automation platform that allows users to build complex automations by visually connecting modular components on a canvas | Proprietary | Freemium |
 | [N8N](https://n8n.io/) | A free and open-source fair-code licensed workflow automation tool. It allows users to create workflows using a visual editor and connect various services to automate tasks. N8N can be self-hosted, providing users with more control over their data. | Open | Free |
 | [ProFlow](https://useproflow.com/) | an AI-powered workflow automation and optimization platform that helps businesses streamline their sales, marketing, and operations processes. | Proprietary | Freemium |
 | [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | Proprietary | Paid |
