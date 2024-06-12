@@ -13,11 +13,13 @@ Liked it? Please give a ⭐️ to **AIEnhancedWork**.
 * [Automation](#automation)
    - [Autonomous Agents](#autonomous-agents)
    - [Automation tools](#automation-tools)
-* [Chatbots and conversational AI](#chatbots-and-conversational-ai)
-* [Chatbots Providers](#chatbots-providers)
-     - [Cloud-based Providers](#cloud-based-providers)
-     - [Local Providers](#local-providers) 
-* [Code Suggestions and Autocompletion](#code-suggestions-and-autocompletion)
+* [Large Language Models](#large-language-models)
+  - [Generalist LLMs](#generalist-llms)
+  - [Coding LLMs](#coding-llms)
+  - [LLMs Providers](#llms-providers)
+     + [Cloud-based Providers](#cloud-based-providers)
+     + [Local Providers](#local-providers) 
+     + [Coding LLMs Providers](#coding-llms-providers)
 * [Data Analysis](#data-analysis)
 * [Image Generation and Editing](#image-generation-and-editing)
   - [Image Generation](#image-generation)
@@ -114,14 +116,14 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 
 <br>
 
-## Chatbots and conversational AI
+## Large Language Models
 
-Generalist conversational AI tools (or chatbots) optimize daily work tasks by offering valuable information, automating repetitive processes, aiding content creation, and fostering collaboration, leading to improved productivity and efficiency.
+Large Language Models (LLMs) are sophisticated AI systems trained on enormous datasets of text to craft human-like language, capable of comprehending and generating natural language forms.
+
+### Generalist LLMs
 
 > [!TIP]
-> *Optimizing your interactions with chatbots through prompt engineering can significantly enhance their performance. Here's a useful [prompt engineering cheat sheet](https://medium.com/@mdsatriaalamshah/chatgpt-prompt-engineering-cheat-sheet-8ee73a81d2bc) to help you improve your LLM skills. For those who strive for more , this [awesome Course](https://learn.codesignal.com/preview/course-paths/16/prompt-engineering-for-everyone) form CodeSignal will make you a lot better at prompting.*
->
-> To make it easy for you to get an **overview of this market**, we're providing a ***[thorough and regularly updated directory of all chatbot models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/List-of-all-Models.md)***.
+> To make it easy for you to get an **overview of this market**, we're providing a ***[thorough and regularly updated directory of all LLMs models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/List-of-all-Models.md)***.
 >
 > If you're ready to dive deeper into these models, we'd be happy **to walk you through the process of selecting a model**. You can find our ***[detailed guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-llm-model-that-is-right-for-you)***.
 
@@ -148,8 +150,27 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 | [Qwen](https://qwenlm.github.io/)                   | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)             | Open          | Alibaba        | 2023-08      | Free |
 | [Vicuna](https://huggingface.co/lmsys)              | [vicuna-33b-v1.3](https://huggingface.co/lmsys/vicuna-33b-v1.3)                  | Open          | LMSYS          | 2023-08      | Free |
 
+### Coding LLMs
 
-### Chatbots Providers
+> [!IMPORTANT]
+> Concerned about **privacy issues** related to cloud based LLM tools or you want to **experiment with chatbots when coding** ? We've got you covered !
+> 
+> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into your coding environment**.
+>
+> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding) provides a comprehensive overview of **the best open-source and Proprietary models** for coding, along with ***estimated performance metric.***
+
+| Model Familly                                       | Best Model                                                                       | Best Model Licensing | Organization   |
+|:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------------:|
+| [Codestral](https://mistral.ai/news/codestral/)     | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | Open          | Misral AI      |
+| [Deepseek-coder](https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4) | [Deepseek-coder-33b-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct) | Open | Deepseek | 
+| [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/) | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | Open          | Alibaba        | 
+| [CodeLlama](https://github.com/meta-llama/codellama)| [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | Open | Meta           |
+| [Starcoder](https://huggingface.co/blog/starcoder)  | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | Open          | BigCode        |
+| [Codegemma](https://huggingface.co/blog/codegemma)  | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | Open          | Google         | 
+| [Starchat](https://huggingface.co/collections/HuggingFaceH4/starchat2-15b-65f068417b330fafad751fce) | [starchat2-15b-v0.1 ](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1)   | Open          | Hugging Face   |
+| [OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)   | Open   | Multimodal Art Projection  | 
+
+### LLMs Providers
 
 > [!IMPORTANT]
 > If you're concerned about **privacy issues related to cloud based LLM** tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on **how to set up and run your own model on your local machine.**
@@ -180,10 +201,7 @@ Generalist conversational AI tools (or chatbots) optimize daily work tasks by of
 > [!IMPORTANT]
 > **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-llm-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
 
-<br>
-
-
-## Code Suggestions and Autocompletion
+### Coding LLMs Providers
 
 AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
 
@@ -200,14 +218,6 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 | [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | Proprietary |Paid        |
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | Proprietary |Freemium |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Freemium |
-
-> [!IMPORTANT]
-> Concerned about **privacy issues** related to cloud based LLM tools or you want to **experiment with chatbots when coding** ? We've got you covered !
-> 
-> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into your coding environment**.
->
-> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding) provides a comprehensive overview of **the best open-source and Proprietary models** for coding, along with ***estimated performance metric.***
-
 
 <br>
 
