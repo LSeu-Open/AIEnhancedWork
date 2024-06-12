@@ -23,7 +23,7 @@
     - [LMSYS](#lmsys)
     - [Meta](#meta)
     - [Microsoft](#microsoft)
-    - [Mistral](#mistral)
+    - [Mixtral](#mixtral)
 
 <br>
 
@@ -237,7 +237,7 @@
 - [Phi-1.5](https://huggingface.co/microsoft/phi-1_5) (Open) 
 - [Phi-1](https://huggingface.co/microsoft/phi-1) (Open) 🔴
   
-### **Mistral**
+### **Mixtral**
 
 > Mixtral (MoE)
 - [Mixtral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) (Open)
