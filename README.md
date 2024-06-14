@@ -12,6 +12,8 @@
 
 
  ## Table of Contents
+ 
+* [AI Tutorials](#ai-tutorials)
 * [Academic and Scientific Research](#academic-and-scientific-research)
 * [Automation](#automation)
    - [Autonomous Agents](#autonomous-agents)
@@ -62,12 +64,15 @@
 > To effectively mitigate risks associated with generative AI technologies, it's essential to have a solid understanding of their fundamentals. By educating yourself, you'll be better equipped to identify and correct errors and biases, ensuring more accurate and reliable results.
 > Microsoft offers [helpful lessons](https://microsoft.github.io/generative-ai-for-beginners/#/) on this subject that can provide you with valuable knowledge.
 
-> [!IMPORTANT]
-> **This repository now features a new section dedicated solely to **tutorials**. In this section, I will provide detailed guides aimed at enhancing specific uses of these AI tools.**
->
-> * Learn to set up a local LLM chatbot with our first tutorial, "[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)", and address privacy concerns of cloud-based AI tools.
-> * Learn to set up your IDE to integrate your preferred AI provider with this second tutorial, "[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md), and enhance your overall coding experience.
+<br>
 
+## AI Tutorials
+
+Learn how to harness the power of artificial intelligence with practical tutorials.
+
+ * Learn to **set up a local LLM chatbot** with our first tutorial, ***[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)***, and address privacy concerns of cloud-based AI tools.
+ * Learn to **set up your IDE to integrate your preferred AI provider** with this second tutorial, ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)***, and enhance your overall coding experience.
+   
 <br>
 
 ## Academic and Scientific Research
