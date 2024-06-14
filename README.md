@@ -300,9 +300,10 @@ AI tools for image generation, editing, and enhancement, offering text-to-image 
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [Dream Machine](https://lumalabs.ai/dream-machine) | A groundbreaking text-to-video AI tool that enables users to generate high-quality, realistic video clips from simple text prompts in just minutes. | Proprietary | Preview |
 | [Elai](https://elai.io/) | A video creation platform that enables users to produce  videos by inputting text that is then narrated by AI-generated avatars. | Proprietary | Paid |
 | [Heygen](https://www.heygen.com/) | An innovative video platform that harnesses the power of generative AI to streamline the video creation process. | Proprietary | Paid |
-| [Higgsfield](https://higgsfield.ai/) | A pioneering foundational model company that specializes in democratizing social media content creation through AI-powered video generation and editing tools. | Proprietary | None (Preview) |
+| [Higgsfield](https://higgsfield.ai/) | A pioneering foundational model company that specializes in democratizing social media content creation through AI-powered video generation and editing tools. | Proprietary | Preview |
 | [Runway](https://runwayml.com/) | An AI-powered platform for creatives to use machine learning models in their workflows.               | Proprietary | Paid |
 | [Sora](https://openai.com/sora) | An AI model developed by OpenAI for generating videos from textual descriptions.                      | Proprietary | Paid |
 | [Synthesia](https://www.synthesia.io/) | A synthetic media generation AI tool to create AI-generated video content efficiently.         | Proprietary | Paid |
