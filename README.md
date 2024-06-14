@@ -15,9 +15,18 @@
  
 * [AI Tutorials](#ai-tutorials)
 * [Academic and Scientific Research](#academic-and-scientific-research)
+* [Audio Processing](#audio-processing)
+  - [Audio and Video transcription and summaries](#audio-and-video-transcription-and-summaries)
+  - [Music Generation](#music-generation)
+  - [Text to speech](#text-to-speech)
 * [Automation](#automation)
    - [Autonomous Agents](#autonomous-agents)
    - [Automation tools](#automation-tools)
+* [Computer Vision](#computer-vision)
+  - [Image Generation](#image-generation)
+  - [Image Editing](#image-editing)
+  - [Video Generation](#video-generation)
+* [Data Analysis](#data-analysis)
 * [Large Language Models](#large-language-models)
   - [Generalist LLMs](#generalist-llms)
   - [Coding LLMs](#coding-llms)
@@ -25,20 +34,11 @@
      + [Cloud-based Providers](#cloud-based-providers)
      + [Local Providers](#local-providers) 
      + [Coding LLMs Providers](#coding-llms-providers)
-* [Data Analysis](#data-analysis)
-* [Image Generation and Editing](#image-generation-and-editing)
-  - [Image Generation](#image-generation)
-  - [Image Editing](#image-editing)
-  - [Video Generation](#video-generation)
-* [Language learning](#language-learning)
-* [Music and Audio Generation](#music-and-audio-generation)
-  - [Music Generation](#music-generation)
-  - [Text to speech](#text-to-speech)
-* [Productivity](#productivity)
-  - [Versatile Productivity tools](#versatile-productivity-tools)
+* [Other](#other)
+  - [Language learning](#language-learning)
   - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
   - [Presentation slides](#presentation-slides)
-  - [Audio and Video transcription and summaries](#audio-and-video-transcription-and-summaries)
+  - [Versatile Productivity tools](#versatile-productivity-tools)
   - [Website building](#website-building)
     
 <br>
@@ -93,6 +93,57 @@ AI-powered tools designed specifically for academic and research endeavors, enha
 
 <br>
 
+## Audio Processing
+
+### Audio and Video transcription and summaries
+
+AI audio and video transcription and summarization tools use NLP and computer vision to quickly and accurately extract insights from video content. They automate the transcription and summary process, saving time and reducing errors, so users can focus on analysis and interpretation.
+
+| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
+|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
+| [Eightify](https://eightify.app/)                          | A powerful tool that utilizes YouTube AI technology to summarize videos quickly, providing users with key ideas in seconds. | Proprietary | Free      |
+| [Exemplary AI](https://exemplary.ai/)                      | A cloud-based tool that harnesses Artificial Intelligence (AI) and LLMs to offer transcription solutions.                   | Proprietary | Freemium  |
+| [Riverside](https://riverside.fm/)                         | An online studio that specializes in high-quality podcast and video recording and editing.                                  | Proprietary | Freemium  |
+| [SolidPoint](https://solidpoint.ai/)                       | A range of tools that leverage AI technology to enhance productivity and efficiency in various tasks. One of its key features is the Summarize tool. | Proprietary | Free |
+| [Summarize.tech](https://www.summarize.tech/)              | An AI-powered tool that automatically generates summaries of long videos from YouTube.                                      | Proprietary | Freemium  |
+| [Summify](https://summify.io/)                             | A powerful tool that efficiently condenses lengthy videos into concise and informative summaries.                           | Proprietary | Freemium  |
+| [Voxweave](https://voxweave.xyz/)                          | An innovative AI-powered tool that revolutionizes the interaction with YouTube videos by transforming them into concise summaries. | Proprietary | Freemium  |
+| [WavoAI](https://wavoai.com/)                              | An AI-powered tool that provides accurate transcriptions and insights from audio recordings.                                | Proprietary | Freemium  |
+
+### Music Generation
+
+AI tools for music generation use machine learning to create original compositions in various styles, aiding musicians and generating customizable background music.
+
+| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
+|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
+| [Jukebox](https://jukebox.openai.com/)            | A generative AI model developed by OpenAI that can create original music, including rudimentary singing, in a variety of genres and artist styles.                     | Proprietary   | None (Research)   |
+| [Magenta](https://magenta.tensorflow.org/)        |  AI  project developed by Google that explores the use of machine learning as a tool for creative applications, particularly in music and art.                         | Open          | Free       |
+| [Mubert](https://mubert.com/)                     |  A generative AI platform that allows users to create and stream original, AI-generated music and audio.                                                               | Proprietary   | Freemium   |
+| [MuseNet](https://openai.com/research/musenet)    |  An AI model developed by OpenAI that can generate original 4-minute musical compositions with up to 10 different instruments.                                         | Proprietary   | None (Research)   |
+| [Stable Audio](https://stability.ai/stable-audio) |  A generative AI system developed by Stability AI for creating high-quality audio and music.                                                                           | Proprietary   | Freemium   |
+| [Suno](https://suno.com/)                         |  A cutting-edge AI-powered music generator that lets users create custom songs in various genres using text prompts.                                                   | Proprietary   | Free       |
+
+### Text to speech
+
+Text-to-speech AI tools convert written text into natural-sounding speech, improving accessibility and creating engaging experiences. They use deep learning algorithms to synthesize speech with customizable features such as voice, accent, and speaking style.
+
+| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
+|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
+| [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | Proprietary | Paid      |
+| [Bark](https://github.com/suno-ai/bark)                    | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
+| [Coqui](https://github.com/coqui-ai/TTS)                   | A pioneering project that focused on advancing generative voice technology.                                 | Open        | Free      |
+| [Eleven Labs](https://elevenlabs.io/)                      | Industry leader proprietary tool for generating speech from text using deep learning.                       | Proprietary | Freemium  |
+| [Listnr](https://listnr.ai/)                               | A cutting-edge AI voice generator that seamlessly converts text into natural-sounding speech.               | Proprietary | Freemium  |
+| [MeloTTS](https://github.com/myshell-ai/MeloTTS)           | An open-source text-to-speech tool that uses deep learning to generate high-quality speech synthesis.       | Open        | Free      |
+| [Metavoice](https://github.com/metavoiceio/metavoice-src)  | A groundbreaking model that has been developed to create human-like speech with emotional nuances.          | Proprietary | Free      |
+| [Murf](https://murf.ai/)                                   | A n innovative voice generator tool that revolutionizes the process of creating voiceovers.                 | Proprietary | Freemium  |
+| [SpeechT5](https://github.com/microsoft/SpeechT5/)         | A cutting-edge model in speech synthesis and natural language processing that offers a unified approach to various speech-related tasks. | Proprietary | Free |
+| [Speechki](https://speechki.org/)                          | An advanced AI Realistic Voice Generator that offers over 1100 voices in more than 80 languages.            | Proprietary | Freemium  |
+| [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium |
+| [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | Open | Free |
+
+<br>
+
 ## Automation
 
 ### Autonomous Agents
@@ -121,6 +172,97 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [ProFlow](https://useproflow.com/) | an AI-powered workflow automation and optimization platform that helps businesses streamline their sales, marketing, and operations processes. | Proprietary | Freemium |
 | [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | Proprietary | Paid |
 | [Zapier](https://zapier.com/) | A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps. | Proprietary | Paid |
+
+<br>
+
+## Computer Vision
+
+AI tools for image generation, editing, and enhancement, offering text-to-image creation, filters, quality improvement, and multimedia capabilities for creative and professional projects.
+
+> [!CAUTION]
+> Use AI-generated images responsibly: **Always disclose that they were generated by AI.**
+> Be mindful of **intellectual property rights.**
+
+> [!TIP]
+> *To get the most out of image generative AI models, it's important to refine your prompts and inputs. Check out this helpful [twitter/X account](https://twitter.com/nickfloats) to learn how to improve your skills and create more impressive results. By optimizing your prompts, you can unlock new levels of creativity and achieve your desired outcomes more effectively.*
+
+### Image Generation
+
+| Tool              | Description                                                                                                         | Licence     | Pricing     |
+|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [Craiyon](https://www.craiyon.com/) | An AI-powered platform for generating artistic images and animations.                             | Proprietary | Paid        |
+| [Dall-E](https://openai.com/research/dall-e) | An AI model developed by OpenAI that generates images from textual descriptions.         | Proprietary | Paid|
+| [Firefly](https://www.adobe.com/fr/products/firefly.html) | A creative AI tool for generating images, animations, and other visual content. | Proprietary | Paid |
+| [Imagen 3](https://deepmind.google/technologies/imagen-3/) |  A high quality text-to-image model capable of producing images in various formats and styles. | Proprietary |  None (Preview) |
+| [Lexica](https://lexica.art/) | An AI art platform that generates images from textual descriptions.                                     | Proprietary | Free |
+| [Leonardo](https://leonardo.ai/) | An open-source AI model for generating images from textual descriptions.                             | Open        | Free |
+| [Midjourney](https://www.midjourney.com/home) | A world-famous AI platform that generates images and visual content based on user input. | Proprietary| Paid |
+| [Nightcafe](https://creator.nightcafe.studio/) | An open-source AI art platform that generates images from textual descriptions using deep learning models. | Open | Free |
+| [Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) | An AI-powered platform for generating images and animations, developed by NVIDIA. | Proprietary | Paid |
+| [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | Proprietary | Freemium    |
+| [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | Open | Free |
+
+> [!TIP]
+> A convenient **local option for using image generation models** is now available. Please check out **[Fooocus](https://github.com/lllyasviel/Fooocus)** for more information.
+
+### Image Editing
+
+| Tool              | Description                                                                                                         | Licence     | Pricing     |
+|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [BRIA AI](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4) | An AI-powered model to automatically remove backgrounds from images.    | Open        | Free        |
+| [Clarity AI](https://github.com/philz1337x/clarity-upscaler)  |AI Image Upscaler & Enhancer - free and open-source Magnific Alternative | Open        | Free        |
+| [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) | An AI-powered tool for applying various image effects and filters.     | Proprietary | Paid |
+| [Lensa](https://prisma-ai.com/lensa) | An AI-powered mobile app for editing and enhancing photos, particularly for portrait editing.    | Proprietary | Paid |
+| [Luminar Neo](https://skylum.com/fr/luminar) | An AI-powered photo editing software developed by Skylum.                                | Proprietary | Paid |
+| [Magnific AI](https://magnific.ai/) | an AI-powered image upscaler and enhancer designed for professionals and enthusiasts in photography, graphic design, digital art, and illustration. | Proprietary | Paid |
+| [Pixlr](https://pixlr.com/) | An AI-powered online photo editing tool.                                                                  | Proprietary | Freemium |
+| [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | Proprietary | Freemium    |
+
+### Video Generation
+
+| Tool              | Description                                                                                                         | Licence     | Pricing     |
+|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [Dream Machine](https://lumalabs.ai/dream-machine) | A groundbreaking text-to-video AI tool that enables users to generate high-quality, realistic video clips from simple text prompts in just minutes. | Proprietary | Preview |
+| [Elai](https://elai.io/) | A video creation platform that enables users to produce  videos by inputting text that is then narrated by AI-generated avatars. | Proprietary | Paid |
+| [Heygen](https://www.heygen.com/) | An innovative video platform that harnesses the power of generative AI to streamline the video creation process. | Proprietary | Paid |
+| [Higgsfield](https://higgsfield.ai/) | A pioneering foundational model company that specializes in democratizing social media content creation through AI-powered video generation and editing tools. | Proprietary | Preview |
+| [Runway](https://runwayml.com/) | An AI-powered platform for creatives to use machine learning models in their workflows.               | Proprietary | Paid |
+| [Sora](https://openai.com/sora) | An AI model developed by OpenAI for generating videos from textual descriptions.                      | Proprietary | Paid |
+| [Synthesia](https://www.synthesia.io/) | A synthetic media generation AI tool to create AI-generated video content efficiently.         | Proprietary | Paid |
+| [Veo](https://deepmind.google/technologies/veo/) | A generative video model developed by Google, capable of producing high-quality 1080p videos. | Proprietary | None (Preview) |
+| [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | Proprietary | None (Preview) |
+| [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | Proprietary | Freemium |
+
+<br>
+
+
+## Data Analysis 
+
+AI tools for data analysis automate routine tasks, identify patterns and trends, and provide intuitive visualizations, enabling analysts to extract valuable insights from complex data sets with ease and efficiency.
+
+> [!CAUTION]
+> **Exercise caution with fully automated analysis results, as errors and biases may occur. Use AI tools as a complement to human judgment for more reliable insights.**
+
+| Tool             | Description                                                                                                                 | Licence     | Pricing     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [AskCSV](https://askcsv.com/) | An AI-powered tool that allows users to ask questions about CSV data files in natural language and receive answers. | Proprietary | Freemium    |
+| [DataSquirrel](https://datasquirrel.ai/) | An AI-powered data extraction and analysis tool.                                                    | Proprietary | Freemium    |
+| [Grapha AI](https://grapha.ai/) | An AI-powered platform for automating data analysis and generating insights.                                 | Proprietary | Freemium    |
+| [Hal9](https://hal9.com/) | Data analytics leveraging generative AI to get insights from databases.                                            | Proprietary | Freemium    |
+| [Julius](https://julius.ai/) | An AI-powered tool for automating data entry and document processing tasks.                                     | Proprietary | Freemium    |
+| [Monitr](https://www.monitr.space/) | An AI-powered data extraction and analysis tool.                                                         | Proprietary | Freemium    |
+| [Pi Exchange](https://www.pi.exchange/) | A platform for building and deploying AI models.                                                     | Proprietary | Paid        |
+| [Research Studio](https://researchstudio.ai/)  | An AI-powered research assistant that helps users find, analyze, and summarize information.   | Proprietary | Paid        |
+| [Rows AI](https://www.rows.com/) | An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.              | Proprietary | Freemium    |
+| [Vizly](https://vizly.fyi/)  | A tool for creating interactive data visualizations.                                                            | Proprietary | Free        |
+
+If you are using **Excel** or **Google Sheets**, you can benefit from AI tools that help you write formulas.  👇
+
+| Tool                                             | Description                                                                                                                 | Licence     | Pricing     |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
+| [Formulabot](https://formulabot.com/)           | A virtual assistant designed to streamline the process of creating Excel formulas by understanding natural language instructions. | Proprietary | Paid        |
+| [GPTExcel](https://gptexcel.uk/)                | An AI tool designed to generate and explain Microsoft Excel and Google Sheets formulas efficiently.                            | Proprietary | Freemium    |
+| [Sheety](https://sheety.ai/formula-generator)   | A tool designed to streamline the process of creating Google Sheets formulas using artificial intelligence.                  | Proprietary | Free        |
 
 <br>
 
@@ -229,96 +371,9 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 
 <br>
 
-## Data Analysis 
+## Other
 
-AI tools for data analysis automate routine tasks, identify patterns and trends, and provide intuitive visualizations, enabling analysts to extract valuable insights from complex data sets with ease and efficiency.
-
-> [!CAUTION]
-> **Exercise caution with fully automated analysis results, as errors and biases may occur. Use AI tools as a complement to human judgment for more reliable insights.**
-
-| Tool             | Description                                                                                                                 | Licence     | Pricing     |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [AskCSV](https://askcsv.com/) | An AI-powered tool that allows users to ask questions about CSV data files in natural language and receive answers. | Proprietary | Freemium    |
-| [DataSquirrel](https://datasquirrel.ai/) | An AI-powered data extraction and analysis tool.                                                    | Proprietary | Freemium    |
-| [Grapha AI](https://grapha.ai/) | An AI-powered platform for automating data analysis and generating insights.                                 | Proprietary | Freemium    |
-| [Hal9](https://hal9.com/) | Data analytics leveraging generative AI to get insights from databases.                                            | Proprietary | Freemium    |
-| [Julius](https://julius.ai/) | An AI-powered tool for automating data entry and document processing tasks.                                     | Proprietary | Freemium    |
-| [Monitr](https://www.monitr.space/) | An AI-powered data extraction and analysis tool.                                                         | Proprietary | Freemium    |
-| [Pi Exchange](https://www.pi.exchange/) | A platform for building and deploying AI models.                                                     | Proprietary | Paid        |
-| [Research Studio](https://researchstudio.ai/)  | An AI-powered research assistant that helps users find, analyze, and summarize information.   | Proprietary | Paid        |
-| [Rows AI](https://www.rows.com/) | An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.              | Proprietary | Freemium    |
-| [Vizly](https://vizly.fyi/)  | A tool for creating interactive data visualizations.                                                            | Proprietary | Free        |
-
-If you are using **Excel** or **Google Sheets**, you can benefit from AI tools that help you write formulas.  👇
-
-| Tool                                             | Description                                                                                                                 | Licence     | Pricing     |
-|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
-| [Formulabot](https://formulabot.com/)           | A virtual assistant designed to streamline the process of creating Excel formulas by understanding natural language instructions. | Proprietary | Paid        |
-| [GPTExcel](https://gptexcel.uk/)                | An AI tool designed to generate and explain Microsoft Excel and Google Sheets formulas efficiently.                            | Proprietary | Freemium    |
-| [Sheety](https://sheety.ai/formula-generator)   | A tool designed to streamline the process of creating Google Sheets formulas using artificial intelligence.                  | Proprietary | Free        |
-
-<br>
-
-## Image Generation and Editing
-
-AI tools for image generation, editing, and enhancement, offering text-to-image creation, filters, quality improvement, and multimedia capabilities for creative and professional projects.
-
-> [!CAUTION]
-> Use AI-generated images responsibly: **Always disclose that they were generated by AI.**
-> Be mindful of **intellectual property rights.**
-
-> [!TIP]
-> *To get the most out of image generative AI models, it's important to refine your prompts and inputs. Check out this helpful [twitter/X account](https://twitter.com/nickfloats) to learn how to improve your skills and create more impressive results. By optimizing your prompts, you can unlock new levels of creativity and achieve your desired outcomes more effectively.*
-
-### Image Generation
-
-| Tool              | Description                                                                                                         | Licence     | Pricing     |
-|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [Craiyon](https://www.craiyon.com/) | An AI-powered platform for generating artistic images and animations.                             | Proprietary | Paid        |
-| [Dall-E](https://openai.com/research/dall-e) | An AI model developed by OpenAI that generates images from textual descriptions.         | Proprietary | Paid|
-| [Firefly](https://www.adobe.com/fr/products/firefly.html) | A creative AI tool for generating images, animations, and other visual content. | Proprietary | Paid |
-| [Imagen 3](https://deepmind.google/technologies/imagen-3/) |  A high quality text-to-image model capable of producing images in various formats and styles. | Proprietary |  None (Preview) |
-| [Lexica](https://lexica.art/) | An AI art platform that generates images from textual descriptions.                                     | Proprietary | Free |
-| [Leonardo](https://leonardo.ai/) | An open-source AI model for generating images from textual descriptions.                             | Open        | Free |
-| [Midjourney](https://www.midjourney.com/home) | A world-famous AI platform that generates images and visual content based on user input. | Proprietary| Paid |
-| [Nightcafe](https://creator.nightcafe.studio/) | An open-source AI art platform that generates images from textual descriptions using deep learning models. | Open | Free |
-| [Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) | An AI-powered platform for generating images and animations, developed by NVIDIA. | Proprietary | Paid |
-| [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | Proprietary | Freemium    |
-| [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | Open | Free |
-
-> [!TIP]
-> A convenient **local option for using image generation models** is now available. Please check out **[Fooocus](https://github.com/lllyasviel/Fooocus)** for more information.
-### Image Editing
-
-| Tool              | Description                                                                                                         | Licence     | Pricing     |
-|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [BRIA AI](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4) | An AI-powered model to automatically remove backgrounds from images.    | Open        | Free        |
-| [Clarity AI](https://github.com/philz1337x/clarity-upscaler)  |AI Image Upscaler & Enhancer - free and open-source Magnific Alternative | Open        | Free        |
-| [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) | An AI-powered tool for applying various image effects and filters.     | Proprietary | Paid |
-| [Lensa](https://prisma-ai.com/lensa) | An AI-powered mobile app for editing and enhancing photos, particularly for portrait editing.    | Proprietary | Paid |
-| [Luminar Neo](https://skylum.com/fr/luminar) | An AI-powered photo editing software developed by Skylum.                                | Proprietary | Paid |
-| [Magnific AI](https://magnific.ai/) | an AI-powered image upscaler and enhancer designed for professionals and enthusiasts in photography, graphic design, digital art, and illustration. | Proprietary | Paid |
-| [Pixlr](https://pixlr.com/) | An AI-powered online photo editing tool.                                                                  | Proprietary | Freemium |
-| [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | Proprietary | Freemium    |
-
-### Video Generation
-
-| Tool              | Description                                                                                                         | Licence     | Pricing     |
-|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [Dream Machine](https://lumalabs.ai/dream-machine) | A groundbreaking text-to-video AI tool that enables users to generate high-quality, realistic video clips from simple text prompts in just minutes. | Proprietary | Preview |
-| [Elai](https://elai.io/) | A video creation platform that enables users to produce  videos by inputting text that is then narrated by AI-generated avatars. | Proprietary | Paid |
-| [Heygen](https://www.heygen.com/) | An innovative video platform that harnesses the power of generative AI to streamline the video creation process. | Proprietary | Paid |
-| [Higgsfield](https://higgsfield.ai/) | A pioneering foundational model company that specializes in democratizing social media content creation through AI-powered video generation and editing tools. | Proprietary | Preview |
-| [Runway](https://runwayml.com/) | An AI-powered platform for creatives to use machine learning models in their workflows.               | Proprietary | Paid |
-| [Sora](https://openai.com/sora) | An AI model developed by OpenAI for generating videos from textual descriptions.                      | Proprietary | Paid |
-| [Synthesia](https://www.synthesia.io/) | A synthetic media generation AI tool to create AI-generated video content efficiently.         | Proprietary | Paid |
-| [Veo](https://deepmind.google/technologies/veo/) | A generative video model developed by Google, capable of producing high-quality 1080p videos. | Proprietary | None (Preview) |
-| [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | Proprietary | None (Preview) |
-| [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | Proprietary | Freemium |
-
-<br>
-
-## Language learning
+### Language learning
 
 AI-powered tools for language learning, providing personalized guidance and feedback.
 
@@ -329,60 +384,6 @@ AI-powered tools for language learning, providing personalized guidance and feed
 | [Langotalk](https://www.langotalk.org/)           | An AI-powered language learning tool that helps users learn languages like Spanish, English, French, German, Dutch, or Italian.                                        | Proprietary   | Paid       |
 | [Lingolette](https://lingolette.com/en)           | An AI-powered language learning tool that focuses on improving spoken and written fluency through interactive conversations and personalized lessons.                  | Proprietary   | Free       |
 | [Proseable](https://www.proseable.com/)           | An AI-powered language learning tool designed to help users improve their conversational skills and fluency in a new language through interactive practice and personalized feedback.  | Proprietary | Freemium   |
-
-<br>
-
-## Music and Audio Generation
-
-### Music Generation
-
-AI tools for music generation use machine learning to create original compositions in various styles, aiding musicians and generating customizable background music.
-
-| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
-|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
-| [Jukebox](https://jukebox.openai.com/)            | A generative AI model developed by OpenAI that can create original music, including rudimentary singing, in a variety of genres and artist styles.                     | Proprietary   | None (Research)   |
-| [Magenta](https://magenta.tensorflow.org/)        |  AI  project developed by Google that explores the use of machine learning as a tool for creative applications, particularly in music and art.                         | Open          | Free       |
-| [Mubert](https://mubert.com/)                     |  A generative AI platform that allows users to create and stream original, AI-generated music and audio.                                                               | Proprietary   | Freemium   |
-| [MuseNet](https://openai.com/research/musenet)    |  An AI model developed by OpenAI that can generate original 4-minute musical compositions with up to 10 different instruments.                                         | Proprietary   | None (Research)   |
-| [Stable Audio](https://stability.ai/stable-audio) |  A generative AI system developed by Stability AI for creating high-quality audio and music.                                                                           | Proprietary   | Freemium   |
-| [Suno](https://suno.com/)                         |  A cutting-edge AI-powered music generator that lets users create custom songs in various genres using text prompts.                                                   | Proprietary   | Free       |
-
-
-### Text to speech
-
-Text-to-speech AI tools convert written text into natural-sounding speech, improving accessibility and creating engaging experiences. They use deep learning algorithms to synthesize speech with customizable features such as voice, accent, and speaking style.
-
-| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
-| [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | Proprietary | Paid      |
-| [Bark](https://github.com/suno-ai/bark)                    | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | Open        | Free      |
-| [Coqui](https://github.com/coqui-ai/TTS)                   | A pioneering project that focused on advancing generative voice technology.                                 | Open        | Free      |
-| [Eleven Labs](https://elevenlabs.io/)                      | Industry leader proprietary tool for generating speech from text using deep learning.                       | Proprietary | Freemium  |
-| [Listnr](https://listnr.ai/)                               | A cutting-edge AI voice generator that seamlessly converts text into natural-sounding speech.               | Proprietary | Freemium  |
-| [MeloTTS](https://github.com/myshell-ai/MeloTTS)           | An open-source text-to-speech tool that uses deep learning to generate high-quality speech synthesis.       | Open        | Free      |
-| [Metavoice](https://github.com/metavoiceio/metavoice-src)  | A groundbreaking model that has been developed to create human-like speech with emotional nuances.          | Proprietary | Free      |
-| [Murf](https://murf.ai/)                                   | A n innovative voice generator tool that revolutionizes the process of creating voiceovers.                 | Proprietary | Freemium  |
-| [SpeechT5](https://github.com/microsoft/SpeechT5/)         | A cutting-edge model in speech synthesis and natural language processing that offers a unified approach to various speech-related tasks. | Proprietary | Free |
-| [Speechki](https://speechki.org/)                          | An advanced AI Realistic Voice Generator that offers over 1100 voices in more than 80 languages.            | Proprietary | Freemium  |
-| [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | Proprietary | Freemium |
-| [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | Open | Free |
-
-<br>
-
-## Productivity
-
-### Versatile Productivity tools
-
-Enhance productivity and accuracy across domains with these versatile AI tools. (yes, These tools could fit into multiple categories.)
-   
-| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
-| [BeeyondAI](https://www.beeyondai.com/)                    | AI digital assistant that offers a wide range of tools to enhance productivity and creativity across various aspects of life. | Proprietary | Paid      |
-| [Copilot](https://www.microsoft.com/fr-fr/microsoft-copilot) |  An AI assistant developed by Microsoft, designed to enhance productivity and creativity for users.       | Proprietary | Freemium  |
-| [Hyperis](https://hyperis.com/welcome)                     | AI-driven assistant app designed to help users prioritize tasks, focus on important work, and boost creativity. | Proprietary | Freemium  |
-| [KPU](https://maisa.ai/)                                   | A revolutionary Knowledge Processing Unit by Maisa AI that enhances the reasoning capabilities of large language models. | Proprietary | None (Preview) |
-| [Odyssey](https://odysseyapp.io/)                          |a macOS application that allows users to visually connect and run various AI models and other tools without coding, making it a versatile platform for creative and automation tasks.| Proprietary | Paid |
-| [Ultra-Attention](https://ultra-attention.com/)            |  AI-powered software solution designed specifically for freelancers and remote workers to help them conquer distractions, boost focus, and enhance productivity. | Proprietary | Freemium  |
 
 ### Meeting transcription and summaries
 
@@ -407,21 +408,18 @@ AI presentation tools enable users to create professional slides with ease, offe
 | [PlusAI](https://www.plusdocs.com/)               |  An advanced AI tool that integrates with Google Slides and Google Docs to assist users in creating professional presentations and well-written documents efficiently. | Proprietary   | Paid       |
 | [SlidesPilot](https://www.slidespilot.com/)       | An innovative tool designed to streamline the creation of professional and visually appealing presentation slides.                                                     | Proprietary   | Freemium   |
 
-### Audio and Video transcription and summaries
+### Versatile Productivity tools
 
-AI audio and video transcription and summarization tools use NLP and computer vision to quickly and accurately extract insights from video content. They automate the transcription and summary process, saving time and reducing errors, so users can focus on analysis and interpretation.
-
+Enhance productivity and accuracy across domains with these versatile AI tools. (yes, These tools could fit into multiple categories.)
+   
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
-| [Eightify](https://eightify.app/)                          | A powerful tool that utilizes YouTube AI technology to summarize videos quickly, providing users with key ideas in seconds. | Proprietary | Free      |
-| [Exemplary AI](https://exemplary.ai/)                      | A cloud-based tool that harnesses Artificial Intelligence (AI) and LLMs to offer transcription solutions.                   | Proprietary | Freemium  |
-| [Riverside](https://riverside.fm/)                         | An online studio that specializes in high-quality podcast and video recording and editing.                                  | Proprietary | Freemium  |
-| [SolidPoint](https://solidpoint.ai/)                       | A range of tools that leverage AI technology to enhance productivity and efficiency in various tasks. One of its key features is the Summarize tool. | Proprietary | Free |
-| [Summarize.tech](https://www.summarize.tech/)              | An AI-powered tool that automatically generates summaries of long videos from YouTube.                                      | Proprietary | Freemium  |
-| [Summify](https://summify.io/)                             | A powerful tool that efficiently condenses lengthy videos into concise and informative summaries.                           | Proprietary | Freemium  |
-| [Voxweave](https://voxweave.xyz/)                          | An innovative AI-powered tool that revolutionizes the interaction with YouTube videos by transforming them into concise summaries. | Proprietary | Freemium  |
-| [WavoAI](https://wavoai.com/)                              | An AI-powered tool that provides accurate transcriptions and insights from audio recordings.                                | Proprietary | Freemium  |
-
+|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
+| [BeeyondAI](https://www.beeyondai.com/)                    | AI digital assistant that offers a wide range of tools to enhance productivity and creativity across various aspects of life. | Proprietary | Paid      |
+| [Copilot](https://www.microsoft.com/fr-fr/microsoft-copilot) |  An AI assistant developed by Microsoft, designed to enhance productivity and creativity for users.       | Proprietary | Freemium  |
+| [Hyperis](https://hyperis.com/welcome)                     | AI-driven assistant app designed to help users prioritize tasks, focus on important work, and boost creativity. | Proprietary | Freemium  |
+| [KPU](https://maisa.ai/)                                   | A revolutionary Knowledge Processing Unit by Maisa AI that enhances the reasoning capabilities of large language models. | Proprietary | None (Preview) |
+| [Odyssey](https://odysseyapp.io/)                          |a macOS application that allows users to visually connect and run various AI models and other tools without coding, making it a versatile platform for creative and automation tasks.| Proprietary | Paid |
+| [Ultra-Attention](https://ultra-attention.com/)            |  AI-powered software solution designed specifically for freelancers and remote workers to help them conquer distractions, boost focus, and enhance productivity. | Proprietary | Freemium  |
 
 ### Website building
 
