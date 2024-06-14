@@ -108,7 +108,7 @@ AI agents are intelligent software entities that can perform tasks autonomously 
 | [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer) |  An open-source AI-powered application builder that generates codebases from natural language project descriptions.  | Open        | Free    |
 | [Super AGI](https://superagi.com/)       | An open-source autonomous AI agent framework that enables developers to build, manage, and run useful autonomous agents efficiently and reliably. | Open   | Free    |
 
-## Automation tools
+### Automation tools
 
 Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
 
