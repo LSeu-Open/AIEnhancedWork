@@ -180,17 +180,17 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 #### Cloud-based Providers
 
-| Tool             | Description                                                                                                                 | Pricing     | Models     |
+| Tool             | Description                                                                                                                 | Models      | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [AI21 Labs](https://www.ai21.com/) |  Known for their language models like Jurassic-1 Jumbo focused on quality, safety, and controllability. | Freemium | Jurassic-2 / Jamba |
-| [Amazon Web Services (AWS)](https://aws.amazon.com/what-is/large-language-model/) | Offers models like Amazon CodeWhisperer for code generation and understanding through their SageMaker platform. | Paid |  CodeWhisperer |
-| [Anthropic](https://www.anthropic.com/claude) | Known for their constitutional AI model Claude, focused on being helpful, harmless, and honest. | Freemium | Claude 3 (opus, sonnet..)    |
-| [Cohere](https://cohere.com/) | Provides an enterprise AI platform with models like Cohere Generate for custom content creation. | Freemium | Command R and R+    |
-| [Google Cloud](https://gemini.google.com/) |  Provides models like LaMBDA, PaLM, and Bard for language understanding, generation, and multimodal AI tasks. | Freemium | Gemini / PaLM |
-| [Groq](https://groq.com/) | Specializes in high-performance AI inference with custom LPU (Language Processing Unit) hardware, offering models like Meta's Llama 3. | Freemium | Llama 3 / Mixtral / Gemma |
-| [Hugging Face](https://huggingface.co/models) | The AI dedicated github, Offers a platform with many open-source models like BERT, GPT-Neo, and Llama for various AI tasks. | Free | Public (limited)|
-| [OpenAI](chat.openai.com) | Offers models like GPT-3, GPT-4, DALL-E, and Whisper for natural language processing, image generation, and speech recognition. | Freemium | GPT3.5 / GPT4    |
-| [Perplexity Labs](https://labs.perplexity.ai/) | An online platform that provides free access to various powerful open-source large language models (LLMs) for experimentation and use in a wide range of applications. | Free | Llama 3 / Mixtral / Gemma |
+| [AI21 Labs](https://www.ai21.com/) |  Known for their language models like Jurassic-1 Jumbo focused on quality, safety, and controllability. |  Jurassic-2 / Jamba | Freemium |
+| [Amazon Web Services (AWS)](https://aws.amazon.com/what-is/large-language-model/) | Offers models like Amazon CodeWhisperer for code generation and understanding through their SageMaker platform. | CodeWhisperer | Paid |  
+| [Anthropic](https://www.anthropic.com/claude) | Known for their constitutional AI model Claude, focused on being helpful, harmless, and honest. | Claude 3 (opus, sonnet..)    | Freemium | 
+| [Cohere](https://cohere.com/) | Provides an enterprise AI platform with models like Cohere Generate for custom content creation. | Command R and R+    | Freemium | 
+| [Google Cloud](https://gemini.google.com/) |  Provides models like LaMBDA, PaLM, and Bard for language understanding, generation, and multimodal AI tasks. | Gemini / PaLM | Freemium | 
+| [Groq](https://groq.com/) | Specializes in high-performance AI inference with custom LPU (Language Processing Unit) hardware, offering models like Meta's Llama 3. |  Llama 3 / Mixtral / Gemma | Freemium |
+| [Hugging Face](https://huggingface.co/models) | The AI dedicated github, Offers a platform with many open-source models like BERT, GPT-Neo, and Llama for various AI tasks. | Public (limited)| Free | 
+| [OpenAI](chat.openai.com) | Offers models like GPT-3, GPT-4, DALL-E, and Whisper for natural language processing, image generation, and speech recognition. |  GPT3.5 / GPT4    | Freemium |
+| [Perplexity Labs](https://labs.perplexity.ai/) | An online platform that provides free access to various powerful open-source large language models (LLMs) for experimentation and use in a wide range of applications. | Llama 3 / Mixtral / Gemma | Free | 
 
 #### Local Providers
 
