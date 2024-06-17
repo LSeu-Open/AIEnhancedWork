@@ -52,7 +52,9 @@ Some key features of Cursor.sh include:
 > ***Cursor.sh*** has received **positive reviews from developers**, with many praising its ability to save time and increase productivity by reducing the need for manual coding and code navigation.
 >
 > However, some users have reported **compatibility issues** with certain ***VSCode extensions or versions***, which may impact the support for specific languages or frameworks.
- 
+
+<br>
+
 ## Code dedicated providers and models
 
 In addition to **AI-powered IDE**, there are several ***dedicated code suggestion and autocompletion models*** that can further enhance your coding experience.
@@ -66,6 +68,8 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
 * These models are designed to work seamlessly with your IDE, providing a more efficient and effective coding experience.
 
 > For more information on these models, please refer to the dedicated ***[table](https://github.com/LSeu-Open/AIEnhancedWork/tree/main?tab=readme-ov-file#code-suggestions-and-autocompletion)*** in the main page of this GitHub repository.
+
+<br>
 
 ## Generalist Providers and Models
 
@@ -88,6 +92,8 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
 
 ### Install Continue extension
 
+> [Official Continue.dev website](https://www.continue.dev/)
+
 * Click on the Extensions icon in the left sidebar or use the keyboard shortcut: Ctrl + Shift + X (Windows/Linux) or Cmd + Shift + X (macOS).
 * In the Extensions marketplace, search for "Continue" to find the extension.
 * Click on the "Continue" extension to open its page.
@@ -104,14 +110,17 @@ For those who prioritize keeping everything local and private, I'll be using ***
 >
 > This model stands out for its **exceptional size and capabilities, selected specifically for the hardware I use on my PC.** As with any model, it has its unique strengths and weaknesses. To get the most out of this tool, be sure to **[choose wisely](#models-for-coding)** among the available options.
 
+#### Sidebar chat Model
 
 * Open the **Continue.dev** extension by clicking on its icon in the left sidebar.
 
 * The extension will prompt you for a Model Provider; select the **Local Provider** option.
 
-* If you have set up Ollama correctly, it should automatically detect your models.
+* If you have set up Ollama correctly, **it should automatically detect your models.**
   
-* At the bottom of the window, you will find a list of all your installed models. For this tutorial, I choose Codestral:22b.
+* At the bottom of the window, you will find a list of all your installed models. For this tutorial, I choose ***Codestral:22b***.
+
+#### Inline autocomplete Model
 
 * By default, the extension is set to use **starcoder-2-3b for autocomplete**. If you want to keep using this model, ensure it is installed with your Ollama setup. Otherwise, if you wish to switch to a more capable model, click on the settings icon at the bottom right of the extension window.
   
@@ -162,6 +171,8 @@ If you **don't have the necessary hardware to run models locally** or want to ta
 * You now have access to a capable model, **ready to be used** as a programming assistant within Visual Studio Code.
   
 👏 **That's it for this tutorial ! You now have an AI model integrated into your VSCode setup. For a comprehensive overview of CodeGPT features and capabilities, please refer to the CodeGPT page. Enjoy coding !**
+
+<br>
 
 ## Models for Coding
 
