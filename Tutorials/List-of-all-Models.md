@@ -100,7 +100,7 @@
   
 ### **Alibaba**
 
-- [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-Max-0428) (Proprietary) 🟢❓
+- [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-Max-0428) (Proprietary) 
 
 > Qwen2
 - [Qwen2-72B-instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct) (Open) 🟢
