@@ -312,7 +312,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | Model Familly                                       | Best Model                                                                       | Best Model Licensing | Organization   |
 |:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------------:|
 | [Codestral](https://mistral.ai/news/codestral/)     | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | Open          | Misral AI      |
-| [Deepseek-coder](https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4) | [Deepseek-coder-33b-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct) | Open | Deepseek | 
+| [Deepseek-coder](https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | Open | Deepseek | 
 | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/) | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | Open          | Alibaba        | 
 | [CodeLlama](https://github.com/meta-llama/codellama)| [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | Open | Meta           |
 | [Starcoder](https://huggingface.co/blog/starcoder)  | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | Open          | BigCode        |
