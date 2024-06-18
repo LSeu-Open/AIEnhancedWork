@@ -193,9 +193,9 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 | Model                                                                                   | Organisation      | HumanEval score (/100) | Ollama libraries | Cloud-based providers | Hardware requirement  | 
 |:---------------------------------------------------------------------------------------:|:-----------------:|:----:|:----:|:----:|:---------------------------------------------------:|
-| [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | **Deepseek**      | [90.2]   |  No | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 80GB+ VRAM GPU (4xRTX 4090 or better)   |
-| [Codestral-22B](https://ollama.com/library/codestral)                                   | **Mistral**       | [81.1] |  Yes | [Mistral](https://chat.mistral.ai/) | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better)   |
-| [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | **Deepseek**      | [79.3]   |  No | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)    |
+| [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | **Deepseek**  | [90.2]|  No | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 80GB+ VRAM GPU (4xRTX 4090 or better)   |
+| [Codestral-22B](https://ollama.com/library/codestral)                                   | **Mistral**       | [81.1]|  Yes | [Mistral](https://chat.mistral.ai/) | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better)   |
+| [DeepSeek-Coder-V2-Lite-Instruct](https://ollama.com/library/deepseek-coder-v2)         | **Deepseek**      | [79.3]|  Yes | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)    |
 | [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)                    | **Alibaba**       | 78.7 |  Yes | None | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |
 | [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct)   | **Deepseek**      | 75   |  Yes | [Hugging Face](https://huggingface.co/spaces/deepseek-ai/deepseek-coder-33b-instruct) | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
 | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)   |**m-a-p**          | 73.8 |  No  | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
