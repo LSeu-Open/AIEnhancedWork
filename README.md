@@ -293,8 +293,9 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| Open          | Deepseek       | 2023-11      | Free     |
 | [Dolphin](https://erichartford.com/dolphin)         | [dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | Open | Cognitive Computations | 2023-10 | Free |
 | [Llama](https://github.com/facebookresearch/llama)  | [Llama-3-70b-Instruct](https://llama.meta.com/llama3/)                           | Open          | Meta           | 2023-12      | Free |
-| [Mistral](https://mistral.ai/news/announcing-mistral-7b/) | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | Open | Mistral AI   | 2023-12 | Free |
-| [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) | Open | Mistral AI   | 2024-04 | Free |
+| [Mistral](https://mistral.ai/news/announcing-mistral-7b/) | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | Open | Mistral AI   | 2023-12      | Free |
+| [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) | Open | Mistral AI | 2024-04   | Free |
+| [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | Open        | Nvidia         | ---          | Free |
 | [Openchat](https://github.com/imoneoi/openchat)     | [OpenChat-3.5-0106](https://huggingface.co/openchat/openchat-3.5-0106)           | Open          | Community      | 2024-01      | Free |
 | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | Open | Microsoft      | 2024-03      | Free |
 | [Qwen](https://qwenlm.github.io/)                   | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)             | Open          | Alibaba        | 2023-08      | Free |
