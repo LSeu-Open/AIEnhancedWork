@@ -280,7 +280,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | Model Familly                                       | Best Model                                                                       | Best Model Licensing | Organization   | Knowledge Cutoff | Pricing model |
 |:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------------:|:------------:|:-----------:|
 | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | Proprietary   | OpenAI         | 2023-10      | Freemium |
-| [Claude](https://claude.ai/)                        | [Claude 3 Opus](https://claude.ai/)                                              | Proprietary   | Anthropic      | 2023-08      | Freemium |
+| [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | Proprietary   | Anthropic      | 2024-04      | Freemium |
 | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                               | Proprietary   | Google         | 2023-11      | Freemium |
 | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | Proprietary   | 𝕏              | Online       | Freemium |
 | [Mistral](https://mistral.ai/)                      | [Mistral Large](https://chat.mistral.ai/chat)                                    | Proprietary   | Mistral AI     | ---          | Freemium |
