@@ -262,6 +262,7 @@ If you are using **Excel** or **Google Sheets**, you can benefit from AI tools t
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
 | [Formulabot](https://formulabot.com/)           | A virtual assistant designed to streamline the process of creating Excel formulas by understanding natural language instructions. | Proprietary | Paid        |
 | [GPTExcel](https://gptexcel.uk/)                | An AI tool designed to generate and explain Microsoft Excel and Google Sheets formulas efficiently.                            | Proprietary | Freemium    |
+| [Numerous](https://numerous.ai/)                | An AI-powered tool designed to enhance productivity and automate tasks in spreadsheet applications like Google Sheets and Microsoft Excel. | Proprietary | Freemium    |
 | [Sheety](https://sheety.ai/formula-generator)   | A tool designed to streamline the process of creating Google Sheets formulas using artificial intelligence.                  | Proprietary | Free        |
 
 <br>
@@ -419,6 +420,7 @@ Enhance productivity and accuracy across domains with these versatile AI tools. 
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
 | [BeeyondAI](https://www.beeyondai.com/)                    | AI digital assistant that offers a wide range of tools to enhance productivity and creativity across various aspects of life. | Proprietary | Paid      |
 | [Copilot](https://www.microsoft.com/fr-fr/microsoft-copilot) |  An AI assistant developed by Microsoft, designed to enhance productivity and creativity for users.       | Proprietary | Freemium  |
+| [GitMind](https://gitmind.com/)                            |  An AI-powered mind mapping and brainstorming tool that helps users create visual representations of ideas, concepts, and information. | Proprietary | Paid  |
 | [Hyperis](https://hyperis.com/welcome)                     | AI-driven assistant app designed to help users prioritize tasks, focus on important work, and boost creativity. | Proprietary | Freemium  |
 | [KPU](https://maisa.ai/)                                   | A revolutionary Knowledge Processing Unit by Maisa AI that enhances the reasoning capabilities of large language models. | Proprietary | None (Preview) |
 | [Odyssey](https://odysseyapp.io/)                          |a macOS application that allows users to visually connect and run various AI models and other tools without coding, making it a versatile platform for creative and automation tasks.| Proprietary | Paid |
@@ -441,6 +443,7 @@ AI-powered website builders leverage machine learning and natural language proce
 | [Studio.design](https://studio.design/)                    | An AI-powered web design tool that aims to revolutionize the website building process for designers and creatives. | Proprietary | Freemium  |
 | [Uimagic](https://www.uimagic.io/)                         | A powerful AI-driven web design solution that aims to streamline the website creation process by generating tailored designs, content, and visuals using advanced AI capabilities. | Proprietary | Freemium  |
 | [Webflow](https://webflow.com/)                            | A powerful visual web development platform that allows users to design, build, and launch responsive websites without writing code.| Proprietary | Freemium  |
+| [Wegic](https://wegic.ai/)                                 | An innovative AI-powered web design and development tool that simplifies the process of creating websites through a conversational interface | Proprietary | Freemium  |
 | [Wix](https://www.wix.com/ai-website-builder)              | Wix AI Website Builder utilizes advanced artificial intelligence and natural language processing to automatically generate a complete, professional website tailored to the user's specific business needs and preferences. | Proprietary | Freemium  |
 
 <br>
