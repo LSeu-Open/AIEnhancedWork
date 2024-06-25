@@ -340,6 +340,8 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | [Hugging Face](https://huggingface.co/models) | The AI dedicated github, Offers a platform with many open-source models like BERT, GPT-Neo, and Llama for various AI tasks. | Public (limited)| Free | 
 | [OpenAI](chat.openai.com) | Offers models like GPT-3, GPT-4, DALL-E, and Whisper for natural language processing, image generation, and speech recognition. |  GPT3.5 / GPT4    | Freemium |
 | [Perplexity Labs](https://labs.perplexity.ai/) | An online platform that provides free access to various powerful open-source large language models (LLMs) for experimentation and use in a wide range of applications. | Llama 3 / Mixtral / Gemma | Free | 
+| [Poe](https://poe.com/login) | An AI chatbot aggregator platform developed by Quora that provides users access to multiple advanced language models and chatbots within a single interface. | GPT4o / Claude3 / DallE 3 | Freemium | 
+| [Vercel](https://sdk.vercel.ai/) | A powerful tool for developers looking to explore and integrate various AI models into their applications efficiently. |  Claude 3.5 / GPT4o / Gemini / Llamma3    | Freemium |
 
 #### Local Providers
 
