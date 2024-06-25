@@ -193,7 +193,7 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 | Model                                                                                   | Organisation      | HumanEval score (/100) | Ollama libraries | Cloud-based providers | Hardware requirement  | 
 |:---------------------------------------------------------------------------------------:|:-----------------:|:----:|:----:|:----:|:---------------------------------------------------:|
-| [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | **Deepseek**  | [90.2]|  No | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 80GB+ VRAM GPU (4xRTX 4090 or better)   |
+| [DeepSeek-Coder-V2-Instruct](https://ollama.com/library/deepseek-coder-v2)              | **Deepseek**      | 82.3 |  Yes | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 130GB+ VRAM GPU (6xRTX 4090 or better)   |
 | [Codestral-22B](https://ollama.com/library/codestral)                                   | **Mistral**       | [81.1]|  Yes | [Mistral](https://chat.mistral.ai/) | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better)   |
 | [DeepSeek-Coder-V2-Lite-Instruct](https://ollama.com/library/deepseek-coder-v2)         | **Deepseek**      | [79.3]|  Yes | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)    |
 | [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)                    | **Alibaba**       | 78.7 |  Yes | None | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |
@@ -219,6 +219,7 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 | Model             | Provider     | HumanEval score (/100) | Pricing |
 |:-----------------:|:------------:|:----------------------:|:-------:|
+| [Claude-3.5 Sonnet](https://claude.ai//)     | **Anthropic**    | [92] | Freemium    |
 | [GPT-4 Turbo](https://chat.openai.com/)      | **OpenAI**       | 88.2 | Paid    |
 | [GPT-4](https://chat.openai.com/)            | **OpenAI**       | 79.3 | Paid    |
 | [Claude-3 Opus](https://claude.ai/)          | **Anthropic**    | 77.4 | Paid    |
@@ -230,3 +231,4 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 | [Gemini Pro 1.0](https://gemini.google.com/) | **Google**       | 55.5 | Paid    |
 | [claude-instant-1](https://claude.ai/)       | **Anthropic**    | 50.6 | Free    |
 
+> [XX] Score subject to verification by independent third-party metrics.
