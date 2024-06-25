@@ -170,13 +170,14 @@ I rank Models according to their **Elo scores (Higher is better)** from the [LMS
 
 | Model                                         | Provider     | Elo score  | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|
-| [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | 1287       | Paid    |
+| [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | 1287       | Freemium    |
+| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic**    | 1272       | Freemium    |
 | [Gemini Advanced](https://gemini.google.com/advanced?hl=en) | **Google** | 1267 | Paid    |
 | [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**       | 1265       | Paid    |
 | [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | 1256       | Paid    |
 | [GPT-4](https://chat.openai.com/)             | **OpenAI**       | 1251       | Paid    |
 | [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | 1249       | Paid    |
-| [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1239       | Preview |
+| [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1239       | Freemium |
 | [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google** | 1234 | Paid |
 | [Gemini Pro (Bard)](https://gemini.google.com/) | **Google**     | 1208       | Paid    |
 | [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**    | 1201       | Freemium    |
