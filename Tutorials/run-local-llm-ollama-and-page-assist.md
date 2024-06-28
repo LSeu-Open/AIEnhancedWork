@@ -138,15 +138,17 @@ You can open the Web UI by clicking on the extension icon which will open a new 
 
 ## Find the LLM that is right for you
 
-This section is designed to assist you with the knowledge and resources needed **to make informed decisions about the right model for your specific requirements.** To support your search, To facilitate this process, I have prepared **two tables** for your reference.
+This section is designed to provide you with the **necessary knowledge and resources to make informed decisions about selecting the right model for your specific needs**. To facilitate this process, I have prepared **two reference tables to support your search**.
 
-* The first table highlights **Open-source models**, which you can typically run **locally on your machine**. To ensure a smooth experience running these models locally, I will provide the necessary hardware requirements for optimal performance. Please note that while you may be able to run certain models with lower hardware specifications, you can expect slower output and performance as a result. 
+> The first table showcases **open-source models**, which can be **run locally on your machine.** To ensure optimal performance, I have outlined the **recommended hardware requirements for each model**. Please note that while it may be possible to run certain models with lower hardware specifications, this may result in slower output and performance. 
 
-For **users with limited system resources or older hardware** configurations, **I'll provide additional insights on cloud-based providers that can efficiently run these models.**
+> For **users with limited system resources** or older hardware configurations, I will also provide guidance on **cloud-based providers that can efficiently run these models**.
 
-* The second table features **Proprietary models** that usually operate on **cloud-based providers**.
+> The second table features **proprietary models**, which typically operate on cloud-based providers.
 
-I rank Models according to their **Elo scores (Higher is better)** from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Elo Scores update constantly based on user votes, and I'll try to **keep them up-to-date as frequently as possible**.
+> [!NOTE]
+> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+
 
 ### Open Source Models (1100+ Elo score)
 
