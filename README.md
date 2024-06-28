@@ -293,6 +293,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | [DBRX](https://www.databricks.com/)                 | [dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | Open          | Databricks     | 2023-12      | Free |
 | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| Open          | Deepseek       | 2023-11      | Free     |
 | [Dolphin](https://erichartford.com/dolphin)         | [dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | Open | Cognitive Computations | 2023-10 | Free |
+| [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | Open          | Google         | 2024-06      | Free |
 | [Llama](https://github.com/facebookresearch/llama)  | [Llama-3-70b-Instruct](https://llama.meta.com/llama3/)                           | Open          | Meta           | 2023-12      | Free |
 | [Mistral](https://mistral.ai/news/announcing-mistral-7b/) | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | Open | Mistral AI   | 2023-12      | Free |
 | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) | Open | Mistral AI | 2024-04     | Free |
