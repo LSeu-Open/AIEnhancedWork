@@ -238,6 +238,9 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 Vision language models (VLMs) are **AI models that combine computer vision and natural language processing capabilities** to understand and process both images and text together.
 
+> [!NOTE]
+> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [Wildvision Vision Arena leaderboard](https://huggingface.co/spaces/WildVision/vision-arena). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+
 | Model                                         | Provider      | Licence  | Elo score  | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|:-------:|
 | [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | Proprietary       | 1208       | Freemium    |
