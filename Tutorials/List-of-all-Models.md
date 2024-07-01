@@ -47,7 +47,8 @@
 - [Yi-Large](https://www.01.ai/) (Proprietary) 🟢
 
 ### **Anthropic**
-- [Claude 3 Opus](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary) 🟢
+- [Claude 3.5 Sonnet](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary) 🟢
+- [Claude 3 Opus](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary) 
 - [Claude 3 Sonnet](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
 - [Claude 3 Haiku](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
 - [Claude 2.1](https://docs.anthropic.com/claude/docs/models-overview#model-comparison) (Proprietary)
@@ -166,7 +167,9 @@
 - [DeepSeek-LLM-7b-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat) (Open) 🔴
   
 > Coder
-- [DeepSeek-Coder-33B-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct) (Open) 🟢
+- [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) (Open) 🟢
+- [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) (Open)
+- [DeepSeek-Coder-33B-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct) (Open) 
 - [DeepSeek-Coder-6.7B-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct) (Open)
 - [DeepSeek-Coder-7B-instruct-v1.5](https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5) (Open)
 - [DeepSeek-Coder-1.3B-instruct](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct) (Open) 🔴
@@ -184,7 +187,9 @@
 ### **Google**
 
 > Gemma
-- [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it) 🟢
+- [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it) 🟢
+- [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)
+- [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it)
 - [Gemma-1.1-2b-it](https://huggingface.co/google/gemma-1.1-2b-it)
 - [Gemma-7b-it](https://huggingface.co/google/gemma-7b-it)
 - [Gemma-2b-it](https://huggingface.co/google/gemma-2b-it) 🔴
