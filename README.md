@@ -205,7 +205,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 | [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | Open | Free |
 
 > [!TIP]
-> A convenient **local option for using image generation models** is now available. Please check out **[Fooocus](https://github.com/lllyasviel/Fooocus)** for more information.
+> **Take control of your data and models** - With **Fooocus** you can generate locally, see our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
 
 ### Image Editing
 
