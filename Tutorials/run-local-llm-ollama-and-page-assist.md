@@ -154,9 +154,9 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Model                                         | Organization | Elo score  |  Ollama libraries |  Cloud-based providers | Hardware requirement  | 
 |:----------------------------------------------|:-------------:|:----------:|:---------------------:|:----------------:|:---------------------:|
-| [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                                | **Google**       | 1212 | Yes | [Hugging Face](https://huggingface.co/google/gemma-2-27b-it)                 | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) |
-| [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct)            | **Nvidia**       | 1208 | No  | [Nvidia](https://build.nvidia.com/nvidia/nemotron-4-340b-instruct)           | 160GB+ VRAM GPU ( 8xRTX 4090 or better) |
+| [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                                | **Google**       | 1214 | Yes | [Hugging Face](https://huggingface.co/google/gemma-2-27b-it)                 | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) |
 | [Llama-3-70b-Instruct](https://ollama.com/library/llama3:70b-instruct)                        | **Meta**         | 1207 | Yes | [Groq](https://groq.com/)/[Perplexity Labs](https://labs.perplexity.ai/)     | 40GB+ VRAM GPU (2xRTX 4090 or better) |
+| [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct)            | **Nvidia**       | 1205 | No  | [Nvidia](https://build.nvidia.com/nvidia/nemotron-4-340b-instruct)           | 160GB+ VRAM GPU ( 8xRTX 4090 or better) |
 | [Command R+](https://ollama.com/library/command-r-plus)                                       | **Cohere**       | 1189 | Yes | [Cohere](https://cohere.com/command)                                         | 60GB+ VRAM GPU (3xRTX 4090 or better) |
 | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)                          | **Cohere**       | 1187 | Yes | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct)        | 60GB+ VRAM GPU (3xRTX 4090 or better) |
 | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-27b-it)                                 | **Google**       | 1185 | Yes | [Hugging Face](https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it) | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) |
@@ -175,20 +175,20 @@ This section is designed to provide you with the **necessary knowledge and resou
 | Model                                         | Provider     | Elo score  | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|
 | [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | 1287       | Freemium    |
-| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic**    | 1272       | Freemium    |
-| [Gemini Advanced](https://gemini.google.com/advanced?hl=en) | **Google** | 1267 | Paid    |
-| [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**       | 1265       | Paid    |
-| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | 1256       | Paid    |
-| [GPT-4](https://chat.openai.com/)             | **OpenAI**       | 1251       | Paid    |
-| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | 1249       | Paid    |
-| [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1239       | Freemium |
+| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic**    | 1271       | Freemium    |
+| [Gemini Advanced](https://gemini.google.com/advanced?hl=en) | **Google** | 1266 | Paid    |
+| [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**       | 1263       | Paid    |
+| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | 1257       | Paid    |
+| [GPT-4](https://chat.openai.com/)             | **OpenAI**       | 1250       | Paid    |
+| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | 1247       | Paid    |
+| [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1238       | Freemium |
 | [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google** | 1234 | Paid |
 | [Gemini Pro (Bard)](https://gemini.google.com/) | **Google**     | 1208       | Paid    |
-| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**    | 1201       | Freemium    |
-| [Reka-Core](https://www.reka.ai/)             | **Reka**         | 1200       | Freemium |
-| [Qwen-Max](https://help.aliyun.com/zh/dashscope/developer-reference/api-details) | **Alibaba** | 1183 | Preview |
-| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | 1178       | Freemium    |
-| [Mistral-Large](https://mistral.ai/)          | **Mistral**      | 1156       | Free    |
+| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**    | 1200       | Freemium    |
+| [Reka-Core](https://www.reka.ai/)             | **Reka**         | 1199       | Freemium |
+| [Qwen-Max](https://help.aliyun.com/zh/dashscope/developer-reference/api-details) | **Alibaba** | 1182 | Preview |
+| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | 1179       | Freemium    |
+| [Mistral-Large](https://mistral.ai/)          | **Mistral**      | 1157       | Free    |
 | [Reka-Flash](https://www.reka.ai/)            | **Reka**         | 1155       | Freemium |
 | [claude-1](https://claude.ai/)                | **Anthropic**    | 1151       | Free    |
 | [Mistral-Medium](https://mistral.ai/)         | **Mistral**      | 1148       | Free    |
