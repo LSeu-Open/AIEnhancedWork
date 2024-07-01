@@ -26,6 +26,7 @@
   - [Image Generation](#image-generation)
   - [Image Editing](#image-editing)
   - [Video Generation](#video-generation)
+  - [Vision Language Models](#vision-language-models)
 * [Data Analysis](#data-analysis)
 * [Large Language Models](#large-language-models)
   - [Generalist LLMs](#generalist-llms)
@@ -232,6 +233,29 @@ The Computer Vision section includes AI models and tools designed to process, an
 | [Veo](https://deepmind.google/technologies/veo/) | A generative video model developed by Google, capable of producing high-quality 1080p videos. | Proprietary | None (Preview) |
 | [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | Proprietary | None (Preview) |
 | [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | Proprietary | Freemium |
+
+### Vision Language Models
+
+Vision language models (VLMs) are **AI models that combine computer vision and natural language processing capabilities** to understand and process both images and text together.
+
+| Model                                         | Provider      | Licence  | Elo score  | Pricing |
+|:----------------------------------------------|:------------:|:----------:|:-------:|:-------:|
+| [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | Proprietary       | 1208       | Freemium    |
+| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic**    | Proprietary       | 1183       | Freemium    |
+| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | Proprietary       | 1150       | Paid    |
+| [GPT-4-vision](https://chat.openai.com/)      | **OpenAI**       | Proprietary       | 1107       | Paid    |
+| [Reka-Flash](https://www.reka.ai/)            | **Reka**         | Proprietary       | 1081       | Freemium |
+| [Gemini 1.5 Flash](https://gemini.google.com/)  | **Google**     | Proprietary       | 1075       | Paid |
+| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | Proprietary       | 1074       | Paid    |
+| [Yi-vl-plus](https://www.01.ai/)              | **01.ai**      | Proprietary       | 1052       | Freemium |
+| [Gemini Pro vision](https://gemini.google.com/) | **Google**     | Proprietary       | 1040       | Freemium |
+| [llava-v1.6-34b](https://huggingface.co/liuhaotian/llava-v1.6-34b) | **Haotian Liu** | Open       | 1036       | Free |
+| [Claude-3 Sonnet](https://claude.ai/)           | **Anthropic**    | Proprietary       | 1036       | Paid    |
+| [MiniCPM-Llama3-V-2_5](https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5) | **OpenBMB** | Open       | 1023       | Free |
+| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | Proprietary       | 1003       | Paid    |
+| [cogvlm-chat-hf](https://huggingface.co/THUDM/cogvlm-chat-hf) | **THUDM** | Open       | 991       | Free |
+| [deepseek-vl-7b-chat](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat) | **Deepseek** | Open       | 966       | Free |
+| [llava-v1.6-vicuna-7b](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b) | **Haotian Liu** | Open       | 966       | Free |
 
 <br>
 
