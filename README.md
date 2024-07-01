@@ -238,8 +238,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 Vision language models (VLMs) are **AI models that combine computer vision and natural language processing capabilities** to understand and process both images and text together.
 
-> [!NOTE]
-> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [Wildvision Vision Arena leaderboard](https://huggingface.co/spaces/WildVision/vision-arena). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+Take control of your data and models - all Open-source models in this list can be run locally, with our ***[Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)***.
 
 | Model                                         | Provider      | Licence  | Elo score  | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|:-------:|
@@ -259,6 +258,9 @@ Vision language models (VLMs) are **AI models that combine computer vision and n
 | [cogvlm-chat-hf](https://huggingface.co/THUDM/cogvlm-chat-hf) | **THUDM** | Open       | 991       | Free |
 | [deepseek-vl-7b-chat](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat) | **Deepseek** | Open       | 966       | Free |
 | [llava-v1.6-vicuna-7b](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b) | **Haotian Liu** | Open       | 966       | Free |
+
+> [!NOTE]
+> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [Wildvision Vision Arena leaderboard](https://huggingface.co/spaces/WildVision/vision-arena). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 
 <br>
 
