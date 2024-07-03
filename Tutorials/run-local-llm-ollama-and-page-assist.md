@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=venom&height=300&color=timeGradient&text=A%20Practical%20Tutorial%20to-nl-Run%20a%20Local%20Model&fontColor=141414)
+![header](Header_local_llms.png)
 
 ## Table of Contents
 
