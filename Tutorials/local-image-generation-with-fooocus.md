@@ -1,4 +1,4 @@
-# Local Image Generation with Fooocus: A Comprehensive Tutorial
+![header](Header_Fooocus.png)
 
 ## Table of Contents
 
