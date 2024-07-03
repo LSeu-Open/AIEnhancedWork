@@ -1,4 +1,4 @@
-![Header](Header_Fooocus)
+![Header](Header_Fooocus.png)
 
 ## Table of Contents
 
