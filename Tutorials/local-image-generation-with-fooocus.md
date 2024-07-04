@@ -5,9 +5,25 @@
 - [Introduction](#introduction)
 - [Hardware Requirement](#hardware-requirement)
 - [Download and Setup](#download-and-setup)
+  - [Windows](#windows)
+  - [MacOS](#macos)
+  - [Linux](#linux)
 - [Usage](#usage)
+    - [Before Starting](#before-starting)
+    - [Basic Mode](#basic-mode)
+    - [Advanced Mode](#advanced-mode)
+        - [Settings](#settings)
+        - [Style](#style)
+        - [Model](#model)
+        - [Advanced](#advanced)     
+    - [Input Image](#input-image)
+        - [Upscaling](#upscaling)
+        - [Variation](#variation)
+        - [Image Prompting](#image-prompting)
+        - [Describe Image](#describe-image)
+        - [Inpainting and Outpainting](#inpainting-and-outpainting)
 
-TODO (COMPLETE THE ToC)
+<br>
 
 # Introduction
 
@@ -281,7 +297,7 @@ Once you've completed these steps, click the "Generate" button to create your en
 
 When you choose the upscale option (2x), your generated image will have x2 more pixels than the original. This means that if your original image has 1000x1000 pixels, the upscaled image will have 2000x2000 pixels.
 
-### Variation Generation
+### Variation
 
 Want to create a variation of an existing image? This feature allows you to build upon a starting point and generate new and interesting variations. Here's how to do it:
 
@@ -324,7 +340,7 @@ When you generate an image prompt, you can expect to see a new image that is inf
   
 These elements will be combined in unique ways to create a new and creative image that's inspired by your starting prompt.
 
-### Describe Images 
+### Describe Image
 
 Want to know more about what's in an image? The Image Description feature allows you to upload an image and receive a detailed description of its contents. Here's how to do it:
 
@@ -343,7 +359,7 @@ Once you've completed these steps, click the "Generate" button to receive your i
 
 This feature can also inspire new prompt ideas by revealing what makes an image compelling.
 
-### Inpainting/Outpainting 
+### Inpainting and Outpainting 
 
 TODO
 
