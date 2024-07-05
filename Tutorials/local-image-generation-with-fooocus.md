@@ -361,6 +361,14 @@ This feature can also inspire new prompt ideas by revealing what makes an image 
 
 ### Inpainting and Outpainting 
 
-TODO
+Inpainting
+
+Inpainting is a process that allows you to modify or replace specific parts of an existing image. 
+
+Outpainting
+
+Outpainting is a technique that allows you to extend an image beyond its original borders
+
+TODO : Finish the tutorial 
 
 <br>
