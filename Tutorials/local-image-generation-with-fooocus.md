@@ -321,6 +321,8 @@ These changes will be applied in various ways, resulting in a set of new images 
 
 ### Image Prompting 
 
+TODO : EXPLAIN ADVANCED MODE IN IMAGE PROMPTING
+
 Want to use an existing image as inspiration for a new creation ? Image prompting is a powerful feature that allows you to generate a new image based on an existing one. Here's how to do it:
 
 Step 1: Upload Your Prompt Image
@@ -369,6 +371,6 @@ Outpainting
 
 Outpainting is a technique that allows you to extend an image beyond its original borders
 
-TODO : Finish the tutorial 
+TODO : FINSIH TUTORIAL FOR INPAINTING AND OUTPAINTING
 
 <br>
