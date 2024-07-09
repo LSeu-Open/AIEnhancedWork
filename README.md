@@ -415,6 +415,7 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 | [Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | Proprietary |Paid |
 | [Continue](https://www.continue.dev/)     | An open-source autopilot for software development that enables developers to create their own AI code assistant within their integrated development environment (IDE) like VS Code or JetBrains IDEs. | Open |Free |
 | [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | Proprietary |Paid        |
+| **[Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)** | Open Interpreter is an innovative open-source project that allows language models to execute code on a user's computer to complete various tasks. | Open  | Free |
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | Proprietary |Freemium |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Freemium |
 
