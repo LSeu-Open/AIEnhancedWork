@@ -347,7 +347,8 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 | Model Familly                                       | Best Model                                                                       | Best Model Licensing | Organization   |
 |:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------------:|
-| [Codegemma](https://huggingface.co/blog/codegemma)  | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | Open          | Google         | 
+| [Codegemma](https://huggingface.co/blog/codegemma)  | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | Open          | Google         |
+| [CodeGeex](https://github.com/THUDM/CodeGeeX4)      | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | Open          | THUDM         | 
 | [CodeLlama](https://github.com/meta-llama/codellama)| [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | Open | Meta           |
 | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/) | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | Open          | Alibaba        | 
 | [Codestral](https://mistral.ai/news/codestral/)     | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | Open          | Misral AI      |
