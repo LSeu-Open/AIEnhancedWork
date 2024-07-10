@@ -83,7 +83,7 @@ Learn how to harness the power of artificial intelligence with practical tutoria
 
  * Learn to **set up a local LLM chatbot** with our first tutorial, ***[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)***, and address privacy concerns of cloud-based AI tools.
  * Learn to **set up your IDE to integrate your preferred AI provider** with this second tutorial, ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)***, and enhance your overall coding experience.
- * **[NEW - IN PROGRESS]** Learn to ***create images locally with Midjourney-like Technology*** with this third tutorial, ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***,  and address privacy concerns of cloud-based AI tools.
+ * **[NEW]** Learn to ***create images locally with Midjourney-like Technology*** with this third tutorial, ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***,  and address privacy concerns of cloud-based AI tools.
    
 <br>
 
