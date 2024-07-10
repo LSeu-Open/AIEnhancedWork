@@ -363,14 +363,43 @@ This feature can also inspire new prompt ideas by revealing what makes an image 
 
 ### Inpainting and Outpainting 
 
-Inpainting
+**Inpainting**
 
-Inpainting is a process that allows you to modify or replace specific parts of an existing image. 
+Inpainting is a process that allows you to modify or replace specific parts of an existing image. Here's how to do it:
 
-Outpainting
+Step 1: Upload Your Image
+Begin by uploading the image you want to modify in the designated box.
 
-Outpainting is a technique that allows you to extend an image beyond its original borders
+Step 2: Define the Inpaint Area
+Carefully select the area to modify. Avoid large zones that can alter the image's structure.
 
-TODO : FINSIH TUTORIAL FOR INPAINTING AND OUTPAINTING
+Step 3: Describe want you want to change (3 Method)
+* (default) Describe what you want to achieve in the input box.
+* (Improve details) Add more indications for improving details or refining the image using the Inpaint Additional Prompt box.
+* (Modify Content) To simply add object or change the image background, describe the wanted change in the Inpaint Additional Prompt box.
+
+Step 4: Generate Your Modification
+Click "Generate" to create your prompted inpaint. You'll receive a new set of images based on your selection and guidance.
+
+> [!TIP]
+> Be patient and refine your approach if needed.
+> Inpainting may require multiple iterations before achieving the desired result. 
+
+**Outpainting**
+
+Outpainting lets you take an image beyond its original borders. Here's how to do it:
+
+Step 1: Upload Your Image
+Begin by uploading the image you want to modify in the designated box.
+
+Step 2: Choose the directions
+Choose where you want your image to expand by selecting from the dedicated buttons (Left, Right, Top, Bottom). For a comprehensive expansion, select all four options!
+
+Step 3: Generate Your Modification
+Once you've completed these steps, click the "Generate" button to create your desired outpaint. You'll receive a new set of images that have been modified based on your chosen directions.
+
+> [!TIP]
+> Keep in mind that outpainting may require multiple iterations before achieving the desired result.
+> Be patient and refine your approach as needed!
 
 <br>
