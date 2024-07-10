@@ -25,6 +25,8 @@
 
 <br>
 
+
+
 # Introduction
 
 This **tutorial** will guide you through the process of running **Fooocus**, a local image generation software, on your machine. Fooocus is a tool that allows you to **create custom images** using various styles. 
@@ -403,3 +405,5 @@ Once you've completed these steps, click the "Generate" button to create your de
 > Be patient and refine your approach as needed!
 
 <br>
+
+// TODO : Improve overall structure and readability
