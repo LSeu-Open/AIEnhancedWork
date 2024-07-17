@@ -354,7 +354,8 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | [CodeLlama](https://github.com/meta-llama/codellama)| [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | Open | Meta           |
 | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/) | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | Open          | Alibaba        | 
 | [Codestral](https://mistral.ai/news/codestral/)     | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | Open          | Misral AI      |
-| [Deepseek-coder](https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | Open | Deepseek | 
+| [Deepseek-coder](https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | Open | Deepseek |
+| [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//) | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)        | Open          | Misral AI      |
 | [OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)   | Open   | Multimodal Art Projection  | 
 | [Starchat](https://huggingface.co/collections/HuggingFaceH4/starchat2-15b-65f068417b330fafad751fce) | [starchat2-15b-v0.1 ](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1)   | Open          | Hugging Face   |
 | [Starcoder](https://huggingface.co/blog/starcoder)  | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | Open          | BigCode        |
