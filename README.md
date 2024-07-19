@@ -253,21 +253,21 @@ Take control of your data and models - all Open-source models in this list can b
 
 | Model                                         | Provider      | Licence  | Elo score  | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|:-------:|
-| [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | Proprietary       | 1208       | Freemium    |
-| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic**    | Proprietary       | 1183       | Freemium    |
-| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | Proprietary       | 1150       | Paid    |
-| [GPT-4-vision](https://chat.openai.com/)      | **OpenAI**       | Proprietary       | 1107       | Paid    |
+| [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | Proprietary       | 1212       | Freemium    |
+| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic**    | Proprietary       | 1195       | Freemium    |
+| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | Proprietary       | 1134       | Paid    |
+| [GPT-4-vision](https://chat.openai.com/)      | **OpenAI**       | Proprietary       | 1108       | Paid    |
 | [Reka-Flash](https://www.reka.ai/)            | **Reka**         | Proprietary       | 1081       | Freemium |
-| [Gemini 1.5 Flash](https://gemini.google.com/)  | **Google**     | Proprietary       | 1075       | Paid |
-| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | Proprietary       | 1074       | Paid    |
-| [Yi-vl-plus](https://www.01.ai/)              | **01.ai**      | Proprietary       | 1052       | Freemium |
+| [Gemini 1.5 Flash](https://gemini.google.com/)  | **Google**     | Proprietary       | 1077       | Paid |
+| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | Proprietary       | 1076       | Paid    |
+| [Yi-vl-plus](https://www.01.ai/)              | **01.ai**        | Proprietary       | 1049       | Freemium |
 | [Gemini Pro vision](https://gemini.google.com/) | **Google**     | Proprietary       | 1040       | Freemium |
 | [llava-v1.6-34b](https://huggingface.co/liuhaotian/llava-v1.6-34b) | **Haotian Liu** | Open       | 1036       | Free |
-| [Claude-3 Sonnet](https://claude.ai/)           | **Anthropic**    | Proprietary       | 1036       | Paid    |
-| [MiniCPM-Llama3-V-2_5](https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5) | **OpenBMB** | Open       | 1023       | Free |
-| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | Proprietary       | 1003       | Paid    |
+| [Claude-3 Sonnet](https://claude.ai/)           | **Anthropic**    | Proprietary       | 1034       | Paid    |
+| [MiniCPM-Llama3-V-2_5](https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5) | **OpenBMB** | Open       | 1025      | Free |
+| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | Proprietary       | 1001       | Paid    |
 | [cogvlm-chat-hf](https://huggingface.co/THUDM/cogvlm-chat-hf) | **THUDM** | Open       | 991       | Free |
-| [deepseek-vl-7b-chat](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat) | **Deepseek** | Open       | 966       | Free |
+| [deepseek-vl-7b-chat](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat) | **Deepseek** | Open       | 967       | Free |
 | [llava-v1.6-vicuna-7b](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b) | **Haotian Liu** | Open       | 966       | Free |
 
 > [!NOTE]
