@@ -154,12 +154,12 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Model                                         | Organization | Elo score  |  Ollama libraries |  Cloud-based providers | Hardware requirement  | 
 |:----------------------------------------------|:-------------:|:----------:|:---------------------:|:----------------:|:---------------------:|
-| [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                                | **Google**       | 1214 | Yes | [Hugging Face](https://huggingface.co/google/gemma-2-27b-it)                 | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) |
+| [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                                | **Google**       | 1216 | Yes | [Hugging Face](https://huggingface.co/google/gemma-2-27b-it)                 | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) |
+| [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct)            | **Nvidia**       | 1209 | No  | [Nvidia](https://build.nvidia.com/nvidia/nemotron-4-340b-instruct)           | 160GB+ VRAM GPU ( 8xRTX 4090 or better) |
 | [Llama-3-70b-Instruct](https://ollama.com/library/llama3:70b-instruct)                        | **Meta**         | 1207 | Yes | [Groq](https://groq.com/)/[Perplexity Labs](https://labs.perplexity.ai/)     | 40GB+ VRAM GPU (2xRTX 4090 or better) |
-| [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct)            | **Nvidia**       | 1205 | No  | [Nvidia](https://build.nvidia.com/nvidia/nemotron-4-340b-instruct)           | 160GB+ VRAM GPU ( 8xRTX 4090 or better) |
-| [Command R+](https://ollama.com/library/command-r-plus)                                       | **Cohere**       | 1189 | Yes | [Cohere](https://cohere.com/command)                                         | 60GB+ VRAM GPU (3xRTX 4090 or better) |
+| [Command R+](https://ollama.com/library/command-r-plus)                                       | **Cohere**       | 1190 | Yes | [Cohere](https://cohere.com/command)                                         | 60GB+ VRAM GPU (3xRTX 4090 or better) |
+| [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-27b-it)                                 | **Google**       | 1187 | Yes | [Hugging Face](https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it) | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) |
 | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)                          | **Cohere**       | 1187 | Yes | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct)        | 60GB+ VRAM GPU (3xRTX 4090 or better) |
-| [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-27b-it)                                 | **Google**       | 1185 | Yes | [Hugging Face](https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it) | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) |
 | [Qwen1.5-110B-Chat](https://ollama.com/library/qwen:110b-chat)                                | **Alibaba**      | 1169 | Yes | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen1.5-110B-Chat-demo)    | 70GB+ VRAM GPU (4xRTX 4090 or better) |
 | [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)                             | **Meta**         | 1154 | Yes | [Groq](https://groq.com/)/[Perplexity Labs](https://labs.perplexity.ai/)     | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |
 | [Qwen1.5-72B-Chat](https://ollama.com/library/qwen:72b-chat)                                  | **Alibaba**      | 1147 | Yes | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat)          | 40GB+ VRAM GPU (2xRTX 4090 or better) |
@@ -176,13 +176,14 @@ This section is designed to provide you with the **necessary knowledge and resou
 |:----------------------------------------------|:------------:|:----------:|:-------:|
 | [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | 1287       | Freemium    |
 | [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic**    | 1271       | Freemium    |
-| [Gemini Advanced](https://gemini.google.com/advanced?hl=en) | **Google** | 1266 | Paid    |
-| [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**       | 1263       | Paid    |
+| [Gemini Advanced](https://gemini.google.com/advanced?hl=en) | **Google** | 1267 | Paid    |
+| [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**       | 1262       | Paid    |
 | [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | 1257       | Paid    |
-| [GPT-4](https://chat.openai.com/)             | **OpenAI**       | 1250       | Paid    |
-| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | 1247       | Paid    |
-| [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1238       | Freemium |
-| [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google** | 1234 | Paid |
+| [GPT-4](https://chat.openai.com/)             | **OpenAI**       | 1251       | Paid    |
+| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | 1248       | Paid    |
+| [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1240       | Freemium |
+| [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google** | 1228 | Paid |
+| [Deepseek-v2-API-0628](https://platform.deepseek.com/sign_in)  | **Deepseek** | 1222 | Paid(API) |
 | [Gemini Pro (Bard)](https://gemini.google.com/) | **Google**     | 1208       | Paid    |
 | [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**    | 1200       | Freemium    |
 | [Reka-Core](https://www.reka.ai/)             | **Reka**         | 1199       | Freemium |
