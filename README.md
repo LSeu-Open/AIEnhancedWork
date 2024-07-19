@@ -318,7 +318,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 ### Generalist LLMs
 
-| Model Familly                                       | Best Model                                                                       | Best Model Licensing | Organization   | Knowledge Cutoff | Pricing model |
+| Model Familly                                       | Best Model (across various tasks and metrics)                                    | Best Model Licensing | Organization   | Knowledge Cutoff | Pricing model |
 |:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------------:|:------------:|:-----------:|
 | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | Proprietary   | OpenAI         | 2023-10      | Freemium |
 | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | Proprietary   | Anthropic      | 2024-04      | Freemium |
@@ -337,7 +337,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | [GLM](https://github.com/THUDM/GLM-4)               | [Glm-4-9b-chat](https://huggingface.co/THUDM/glm-4-9b-chat)                      | Open          | THUDM          | ---     | Free |
 | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | Open          | InterLM        | ---     | Free |
 | [Llama](https://github.com/facebookresearch/llama)  | [Llama-3-70b-Instruct](https://llama.meta.com/llama3/)                           | Open          | Meta           | 2023-12      | Free |
-| [Mistral](https://mistral.ai/news/announcing-mistral-7b/) | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | Open | Mistral AI   | 2023-12      | Free |
+| [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | Open | Mistral AI   | 2023-12      | Free |
 | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) | Open | Mistral AI | 2024-04     | Free |
 | [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | Open        | Nvidia         | 2023-06      | Free |
 | [Openchat](https://github.com/imoneoi/openchat)     | [OpenChat-3.5-0106](https://huggingface.co/openchat/openchat-3.5-0106)           | Open          | Community      | 2024-01      | Free |
@@ -347,7 +347,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 ### Coding LLMs
 
-| Model Familly                                       | Best Model                                                                       | Best Model Licensing | Organization   |
+| Model Familly                                       | Best Model (across various tasks and metrics)                                    | Best Model Licensing | Organization   |
 |:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------------:|
 | [Codegemma](https://huggingface.co/blog/codegemma)  | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | Open          | Google         |
 | [CodeGeex](https://github.com/THUDM/CodeGeeX4)      | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | Open          | THUDM         | 
