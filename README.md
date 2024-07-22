@@ -329,6 +329,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | Proprietary   | Reka           | Online       | Free |
 | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | Proprietary   | 01.ai          | ---          | Free |
 |                                                     |                                                                                  |               |                |              |      |
+| [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | Open          | Nexusflow      | 2023-12      | Free |
 | [Command-R](https://cohere.com/)                    | [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/)             | Open          | Cohere         | 2023-03      | Free |
 | [DBRX](https://www.databricks.com/)                 | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | Open          | Databricks     | 2023-12      | Free |
 | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| Open          | Deepseek       | 2023-11      | Free     |
