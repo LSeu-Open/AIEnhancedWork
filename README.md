@@ -393,6 +393,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [AnythingLLM](https://anythingllm.com/) | an open-source, full-stack application that allows users to chat with their documents in a private and enterprise-friendly environment. | All | Open source Models and Proprietary models via API |
 | [Enchanted](https://github.com/AugustDev/enchanted) | iOS and macOS app for chatting with private self hosted language models.| MacOS/IOS | Open source Models |
 | [GPT4ALL](https://www.nomic.ai/gpt4all) | An open-source software ecosystem developed by Nomic AI that enables users to run powerful large language models (LLMs) locally on their personal computers. | All | Open source Models |
 | [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Open source Models. |
