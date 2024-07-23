@@ -318,48 +318,54 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 ### Generalist LLMs
 
-| Model Familly                                       | Best Model (across various tasks and metrics)                                    | Best Model Licensing | Organization   | Knowledge Cutoff | Pricing model |
-|:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------------:|:------------:|:-----------:|
-| [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | Proprietary   | OpenAI         | 2023-10      | Freemium |
-| [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | Proprietary   | Anthropic      | 2024-04      | Freemium |
-| [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                               | Proprietary   | Google         | 2023-11      | Freemium |
-| [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | Proprietary   | 𝕏              | Online       | Freemium |
-| [Mistral](https://mistral.ai/)                      | [Mistral Large](https://chat.mistral.ai/chat)                                    | Proprietary   | Mistral AI     | ---          | Freemium |
-| [MPT](https://huggingface.co/mosaicml)              | [MPT-30B-chat](https://huggingface.co/mosaicml/mpt-30b-chat)                     | Proprietary   | Perplexity AI  | Online       | Freemium |
-| [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | Proprietary   | Reka           | Online       | Free |
-| [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | Proprietary   | 01.ai          | ---          | Free |
-|                                                     |                                                                                  |               |                |              |      |
-| [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | Open          | Nexusflow      | 2023-12      | Free |
-| [Command-R](https://cohere.com/)                    | [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/)             | Open          | Cohere         | 2023-03      | Free |
-| [DBRX](https://www.databricks.com/)                 | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | Open          | Databricks     | 2023-12      | Free |
-| [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| Open          | Deepseek       | 2023-11      | Free     |
-| [Dolphin](https://erichartford.com/dolphin)         | [dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | Open | Cognitive Computations | 2023-10 | Free |
-| [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | Open          | Google         | 2024-06      | Free |
-| [GLM](https://github.com/THUDM/GLM-4)               | [Glm-4-9b-chat](https://huggingface.co/THUDM/glm-4-9b-chat)                      | Open          | THUDM          | ---     | Free |
-| [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | Open          | InterLM        | ---     | Free |
-| [Llama](https://github.com/facebookresearch/llama)  | [Llama-3-70b-Instruct](https://llama.meta.com/llama3/)                           | Open          | Meta           | 2023-12      | Free |
-| [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | Open | Mistral AI   | 2023-12      | Free |
-| [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) | Open | Mistral AI | 2024-04     | Free |
-| [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | Open        | Nvidia         | 2023-06      | Free |
-| [Openchat](https://github.com/imoneoi/openchat)     | [OpenChat-3.5-0106](https://huggingface.co/openchat/openchat-3.5-0106)           | Open          | Community      | 2024-01      | Free |
-| [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | Open | Microsoft      | 2024-03      | Free |
-| [Qwen](https://qwenlm.github.io/)                   | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)             | Open          | Alibaba        | 2023-08      | Free |
-| [Vicuna](https://huggingface.co/lmsys)              | [vicuna-33b-v1.3](https://huggingface.co/lmsys/vicuna-33b-v1.3)                  | Open          | LMSYS          | 2023-08      | Free |
+#### Proprietary Models
+
+| Model Familly                                       | Best Model (across various tasks and metrics)                                    |  Organization   | Knowledge Cutoff | Pricing model |
+|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:-----------:|
+| [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | OpenAI         | 2023-10      | Freemium |
+| [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | Anthropic      | 2024-04      | Freemium |
+| [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                               | Google         | 2023-11      | Freemium |
+| [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | 𝕏              | Online       | Freemium |
+| [Mistral](https://mistral.ai/)                      | [Mistral Large](https://chat.mistral.ai/chat)                                    | Mistral AI     | ---          | Freemium |
+| [MPT](https://huggingface.co/mosaicml)              | [MPT-30B-chat](https://huggingface.co/mosaicml/mpt-30b-chat)                     | Perplexity AI  | Online       | Freemium |
+| [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | Reka           | Online       | Free |
+| [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 01.ai          | ---          | Free |
+
+#### Open source Models
+
+| Model Familly                                       | Best Model (across various tasks and metrics)                                    | Model Sizes   |  Organization   | Knowledge Cutoff |
+|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:--------------:|:------------:|
+| [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B          | Nexusflow      | 2023-12      |
+| [Command-R](https://cohere.com/)                    | [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/)             | 104B          | Cohere         | 2023-03      |
+| [DBRX](https://www.databricks.com/)                 | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | 132B          | Databricks     | 2023-12      |
+| [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| 67B          | Deepseek       | 2023-11      |
+| [Dolphin](https://erichartford.com/dolphin)         | [dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | 70B | Cognitive Computations | 2023-10 |
+| [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B          | Google         | 2024-06      |
+| [GLM](https://github.com/THUDM/GLM-4)               | [Glm-4-9b-chat](https://huggingface.co/THUDM/glm-4-9b-chat)                      | 9B          | THUDM          | ---     |
+| [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B          | InterLM        | ---     |
+| [Llama](https://github.com/facebookresearch/llama)  | [Llama-3-70b-Instruct](https://llama.meta.com/llama3/)                           | 70B          | Meta           | 2023-12      |
+| [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | 12.2B | Mistral AI   | 2023-12      |
+| [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) | 141B | Mistral AI | 2024-04     |
+| [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B        | Nvidia         | 2023-06      |
+| [Openchat](https://github.com/imoneoi/openchat)     | [OpenChat-3.5-0106](https://huggingface.co/openchat/openchat-3.5-0106)           | 7B          | Community      | 2024-01      |
+| [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B | Microsoft      | 2024-03      |
+| [Qwen](https://qwenlm.github.io/)                   | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)             | 72B          | Alibaba        | 2023-08      |
+| [Vicuna](https://huggingface.co/lmsys)              | [vicuna-33b-v1.3](https://huggingface.co/lmsys/vicuna-33b-v1.3)                  | 33B          | LMSYS          | 2023-08      |
 
 ### Coding LLMs
 
-| Model Familly                                       | Best Model (across various tasks and metrics)                                    | Best Model Licensing | Organization   |
+| Model Familly                                       | Best Model (across various tasks and metrics)                                    | Model Sizes| Organization   |
 |:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------------:|
-| [Codegemma](https://huggingface.co/blog/codegemma)  | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | Open          | Google         |
-| [CodeGeex](https://github.com/THUDM/CodeGeeX4)      | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | Open          | THUDM         | 
-| [CodeLlama](https://github.com/meta-llama/codellama)| [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | Open | Meta           |
-| [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/) | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | Open          | Alibaba        | 
-| [Codestral](https://mistral.ai/news/codestral/)     | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | Open          | Misral AI      |
-| [Deepseek-coder](https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | Open | Deepseek |
-| [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//) | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)        | Open          | Misral AI      |
-| [OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)   | Open   | Multimodal Art Projection  | 
-| [Starchat](https://huggingface.co/collections/HuggingFaceH4/starchat2-15b-65f068417b330fafad751fce) | [starchat2-15b-v0.1 ](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1)   | Open          | Hugging Face   |
-| [Starcoder](https://huggingface.co/blog/starcoder)  | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | Open          | BigCode        |
+| [Codegemma](https://huggingface.co/blog/codegemma)  | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B          | Google         |
+| [CodeGeex](https://github.com/THUDM/CodeGeeX4)      | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B          | THUDM         | 
+| [CodeLlama](https://github.com/meta-llama/codellama)| [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B | Meta           |
+| [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/) | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B          | Alibaba        | 
+| [Codestral](https://mistral.ai/news/codestral/)     | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B          | Misral AI      |
+| [Deepseek-coder](https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | Deepseek |
+| [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//) | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)        | 7B          | Misral AI      |
+| [OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)   | 33B   | Multimodal Art Projection  | 
+| [Starchat](https://huggingface.co/collections/HuggingFaceH4/starchat2-15b-65f068417b330fafad751fce) | [starchat2-15b-v0.1 ](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1)   | 15B          | Hugging Face   |
+| [Starcoder](https://huggingface.co/blog/starcoder)  | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B          | BigCode        |
 
 > [!IMPORTANT]
 > Concerned about **privacy issues** related to cloud based LLM tools or you want to **experiment with chatbots when coding** ? We've got you covered !
