@@ -77,9 +77,24 @@
 
 <br>
 
+🔵 ***Helpful definition for this repository***
+
+When referring to the ***Licensing*** of a project or software, we use the following terms :
+
+- ***Proprietary*** : Indicates that the project or software is owned and controlled by a single entity, and its use is subject to specific restrictions and terms.
+- ***Open Source*** : Denotes that the project or software is made available under a license that allows users to view, modify, and distribute the source code.
+
+Regarding the ***Pricing model***, we categorize projects or software as follows :
+
+- ***Free*** : Completely free to use, with no costs or fees associated.
+- ***Freemium*** : Offers a basic version or limited features for free, with optional paid upgrades or premium features.
+- ***Paid*** : Requires a one-time or recurring payment to access or use the project or software.
+
+<br>
+
 ## AI Tutorials
 
-Learn how to harness the power of artificial intelligence with practical tutorials.
+Understand and Apply Artificial Intelligence through Interactive Tutorials.
 
  * Learn to **set up a local LLM chatbot** with our first tutorial, ***[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)***, and address privacy concerns of cloud-based AI tools.
  * Learn to **set up your IDE to integrate your preferred AI provider** with this second tutorial, ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)***, and enhance your overall coding experience.
