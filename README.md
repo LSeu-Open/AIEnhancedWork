@@ -328,9 +328,11 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 1240           | ---          | Freemium |
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1222           | ---          | Paid |
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1200           | Online       | Freemium |
+| **Alibaba**         | [Qwen](https://qwenlm.github.io/)                  | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | 1183           | --           | Freemium |
 | **Mistral AI**     | [Mistral](https://mistral.ai/)                      | [Mistral Large](https://chat.mistral.ai/chat)                                    | 1157           | ---          | Freemium |
-| **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077        | Online        | Freemium |
+| **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077         | Online       | Freemium |
 | **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | ----           | Online       | Freemium |
+
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
@@ -380,6 +382,42 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| 67B            | 1076         | 2023-11      |
 | **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B             | ---          | ---     |
 | **Nexusflow**      | [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B            | ---          | 2023-12      |
+
+<details>
+<summary><b>View Model Family Variants</b></summary>
+
+<br>
+
+| Organization       | Model Familly                                       | Best Model                                                                                | Model Sizes    |  Elo Score*  | Knowledge Cutoff |
+|:------------------:|:----------------------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|
+| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct)   | 70B            | ---          | 2023-12          |
+|                    |                                                     | [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct)     | 8B             | ---          | 2023-12          |
+|                    |                                                     | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)       | 70B            | 1207         | 2023-12          |
+|                    |                                                     | [Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)         | 8B             | 1152         | 2023-12          |
+| **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)                              | 9B             | 1188         | 2024-06          |
+|                    |                                                     | [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it)                          | 7B             | 1084         | 2024-02          |
+|                    |                                                     | [Gemma-1.1-2b-it](https://huggingface.co/google/gemma-1.1-2b-it)                          | 2B             | 1021         | 2024-02          |
+|                    |                                                     | [Gemma-7b-it](https://huggingface.co/google/gemma-7b-it)                                  | 7B             | 1037         | 2024-02          |
+|                    |                                                     | [Gemma-2b-it](https://huggingface.co/google/gemma-2b-it)                                  | 2B             | 989          | 2024-02          |
+| **Cohere**         | [Command-R](https://cohere.com/)                    | [Command R](https://cohere.com/blog/command-r)                                            | 35B            | 1190         | 2023-03          |
+| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen2-57B-A14B-Instruct](https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct)            | 57B            | ---          | 2023-04          |
+|                    |                                                     | [Qwen2-7B-Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct)                        | 7B             | ---          | 2024-04          |
+|                    |                                                     | [Qwen2-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2-1.5B-Instruct)                    | 1.5B           | ---          | 2024-04          |
+|                    |                                                     | [Qwen2-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2-0.5B-Instruct)                    | 0.5B           | ---          | 2024-04          |
+| **Mistral AI**     | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 46.7B       | 1114         | 2023-12          |
+| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-small-128k-instruct](https://huggingface.co/microsoft/Phi-3-small-128k-instruct)   | 7B             | 1102         | 2023-10          |
+|                    |                                                     | [Phi-3-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)     | 3.8B           | 1066         | 2023-10          |
+| **LMSYS**          | [Vicuna](https://huggingface.co/lmsys)              | [vicuna-13b-v1.5](https://huggingface.co/lmsys/vicuna-13b-v1.5)                           | 13B            | 1042         | 2023-07          |
+|                    |                                                     | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5)                             | 7B             | 1005         | 2023-07          |
+|                    |                                                     | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5)                             | 7B             | 1005         | 2023-07          |
+| **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)     | 7B             | ---          | 2024-04          | 
+|                    |                                                     | [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)     | 7B             | 1072         | 2023-12          |
+|                    |                                                     | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)     | 7B             | 1008         | 2023-09          |
+| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-7B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)          | 7B             | 1076         | 2023-11          |
+
+</details>
+
+<br>
 
 > The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard).
 
