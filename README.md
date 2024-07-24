@@ -322,15 +322,41 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 | Organization   | Model Familly                                       | Best Model                                 | Elo Score      |  Knowledge Cutoff | Pricing model |
 |:--------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:-----------:|
-| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | 1287           | 2023-10      | Freemium |
-| **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | 1271           | 2024-04      | Freemium |
-| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                               | 1267           | 2023-11      | Freemium |
+| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | 1287           | 2023-10      | Paid |
+| **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | 1271           | 2024-04      | Paid |
+| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Advanced](https://gemini.google.com/?hl=en)                          | 1267           | 2023-11      | Paid |
 | **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 1240           | ---          | Freemium |
-| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1222           | ---          | Freemium |
+| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1222           | ---          | Paid |
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1200           | Online       | Freemium |
 | **Mistral AI**     | [Mistral](https://mistral.ai/)                      | [Mistral Large](https://chat.mistral.ai/chat)                                    | 1157           | ---          | Freemium |
-| **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077        | Online       | Freemium |
+| **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077        | Online        | Freemium |
 | **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | ----           | Online       | Freemium |
+
+<details>
+<summary><b>View Model Family Variants</b></summary>
+
+<br>
+
+| Organization   | Model Familly                                       | Best Model                                                                       | Elo Score      |  Knowledge Cutoff | Pricing model |
+|:--------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:-----------:|
+| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | 1280 | 2023-10  | Free |
+|                    |                                                     | [GPT-4-Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) | 1257           | 2023-12      | Paid |
+|                    |                                                     | [GPT-4](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4)       | 1251           | 2023-12      | Paid |
+|                    |                                                     | [GPT-3.5-Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo)       | 1117           | 2021-09      | Free |
+| **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3 Opus](https://claude.ai/)                                          | 1248           | 2023-08      | Paid |
+|                    |                                                     | [Claude 3 Sonnet](https://claude.ai/)                                        | 1201           | 2023-08      | Paid |
+|                    |                                                     | [Claude 3 Haiku](https://claude.ai/)                                         | 1179           | 2023-08      | Paid |
+| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                           | 1261           | 2023-11      | Paid |
+|                    |                                                     | [Gemini 1.5 Flash](https://gemini.google.com/?hl=en)                         | 1228           | 2023-11      | Freemium |
+| **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                 | 1200           | Online       | Freemium |
+|                    |                                                     | [Reka-Flash-21B-Online](https://chat.reka.ai/auth/login)                     | 1156           | Online       | Freemium |
+|                    |                                                     | [Reka-Flash-21B](https://chat.reka.ai/auth/login)                            | 1147           | 2023-11      | Freemium |
+| **Mistral AI**     | [Mistral](https://mistral.ai/)                      | [Mistral Medium](https://chat.mistral.ai/chat)                               | 1157           | ---          | Free |
+|                    |                                                     | [Mistral Next](https://chat.mistral.ai/chat)                                 | 1147           | ---          | Free |
+
+</details>
+
+<br>
 
 > The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard).
 
