@@ -329,7 +329,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1222           | ---          | Freemium |
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1200           | Online       | Freemium |
 | **Mistral AI**     | [Mistral](https://mistral.ai/)                      | [Mistral Large](https://chat.mistral.ai/chat)                                    | 1157           | ---          | Freemium |
-| **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [pplx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077        | Online       | Freemium |
+| **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077        | Online       | Freemium |
 | **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | ----           | Online       | Freemium |
 
 > The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard).
@@ -339,10 +339,10 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 | Organization   | Model Familly                                       | Best Model                                 | Model Sizes    |  Elo Score*   | Knowledge Cutoff |
 |:--------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|
+| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B | ---         | 2023-12      |
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 1216         | 2024-06      |
 | **Nvidia**         | [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B         | 1209         | 2023-06      |
-| **Meta**           | [Llama](https://github.com/facebookresearch/llama)  | [Llama-3-70b-Instruct](https://llama.meta.com/llama3/)                           | 70B            | 1207         | 2023-12      |
-| **Cognitive Computations** | [Dolphin](https://erichartford.com/dolphin) | [dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | 70B | 1207 | 2023-10 |
+| **Cognitive Computations** | [Dolphin](https://erichartford.com/dolphin) | [Dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | 70B | 1207 | 2023-10 |
 | **Cohere**         | [Command-R](https://cohere.com/)                    | [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/)             | 104B           | 1190         | 2023-03      |
 | **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)             | 72B            | 1187         | 2023-08      |
 | **Mistral AI**     | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1)    | 141B | 1146  | 2024-04     |
