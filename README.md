@@ -251,24 +251,24 @@ Vision language models (VLMs) are **AI models that combine computer vision and n
 
 Take control of your data and models - all Open-source models in this list can be run locally, with our ***[Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)***.
 
-| Model                                         | Provider      | Licence  | Elo score  | Pricing |
-|:----------------------------------------------|:------------:|:----------:|:-------:|:-------:|
-| [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | Proprietary       | 1212       | Freemium    |
-| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic**    | Proprietary       | 1195       | Freemium    |
-| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | Proprietary       | 1134       | Paid    |
-| [GPT-4-vision](https://chat.openai.com/)      | **OpenAI**       | Proprietary       | 1108       | Paid    |
-| [Reka-Flash](https://www.reka.ai/)            | **Reka**         | Proprietary       | 1081       | Freemium |
-| [Gemini 1.5 Flash](https://gemini.google.com/)  | **Google**     | Proprietary       | 1077       | Paid |
-| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | Proprietary       | 1076       | Paid    |
-| [Yi-vl-plus](https://www.01.ai/)              | **01.ai**        | Proprietary       | 1049       | Freemium |
-| [Gemini Pro vision](https://gemini.google.com/) | **Google**     | Proprietary       | 1040       | Freemium |
-| [llava-v1.6-34b](https://huggingface.co/liuhaotian/llava-v1.6-34b) | **Haotian Liu** | Open       | 1036       | Free |
-| [Claude-3 Sonnet](https://claude.ai/)           | **Anthropic**    | Proprietary       | 1034       | Paid    |
-| [MiniCPM-Llama3-V-2_5](https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5) | **OpenBMB** | Open       | 1025      | Free |
-| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | Proprietary       | 1001       | Paid    |
-| [cogvlm-chat-hf](https://huggingface.co/THUDM/cogvlm-chat-hf) | **THUDM** | Open       | 991       | Free |
-| [deepseek-vl-7b-chat](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat) | **Deepseek** | Open       | 967       | Free |
-| [llava-v1.6-vicuna-7b](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b) | **Haotian Liu** | Open       | 966       | Free |
+| Provider         | Model                                                                         | Elo score  | Licence     | Pricing   |
+|:-----------------|:-----------------------------------------------------------------------------:|:----------:|:-----------:|:---------:|
+| **OpenAI**       | [GPT-4o](https://chat.openai.com/)                                            | 1212       | Proprietary | Paid      |
+| **Anthropic**    | [Claude-3.5 Sonnet](https://claude.ai//)                                      | 1195       | Proprietary | Freemium  |
+| **OpenAI**       | [GPT-4 Turbo](https://chat.openai.com/)                                       | 1134       | Proprietary | Paid      |
+| **OpenAI**       | [GPT-4-vision](https://chat.openai.com/)                                      | 1108       | Proprietary | Paid      |
+| **Reka**         | [Reka-Flash](https://www.reka.ai/)                                            | 1081       | Proprietary | Freemium  |
+| **Google**       | [Gemini 1.5 Flash](https://gemini.google.com/)                                | 1077       | Proprietary | Paid      |
+| **Anthropic**    | [Claude-3 Opus](https://claude.ai/)                                           | 1076       | Proprietary | Paid      |
+| **01.ai**        | [Yi-vl-plus](https://www.01.ai/)                                              | 1049       | Proprietary | Freemium  |
+| **Google**       | [Gemini Pro vision](https://gemini.google.com/)                               | 1040       | Proprietary | Freemium  |
+| **Haotian Liu**  | [llava-v1.6-34b](https://huggingface.co/liuhaotian/llava-v1.6-34b)            | 1036       | Open        | Free      |
+| **Anthropic**    | [Claude-3 Sonnet](https://claude.ai/)                                         | 1034       | Proprietary | Paid      |
+| **OpenBMB**      | [MiniCPM-Llama3-V-2_5](https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5)   | 1025       | Open        | Free      |
+| **Anthropic**    | [Claude-3 Haiku](https://claude.ai/)                                          | 1001       | Proprietary | Paid      |
+| **THUDM**        | [cogvlm-chat-hf](https://huggingface.co/THUDM/cogvlm-chat-hf)                 | 991        | Open        | Free      |
+| **Deepseek**     | [deepseek-vl-7b-chat](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat) | 967        | Open        | Free      |
+| **Haotian Liu**  | [llava-v1.6-vicuna-7b](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b) | 966       | Open        | Free      |
 
 > [!NOTE]
 > The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [Wildvision Vision Arena leaderboard](https://huggingface.co/spaces/WildVision/vision-arena). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
