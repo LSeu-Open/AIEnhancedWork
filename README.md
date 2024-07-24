@@ -40,7 +40,7 @@
 * [Data Analysis](#data-analysis)
 * [Large Language Models](#large-language-models)
   - [Generalist LLMs](#generalist-llms)
-  - [Coding LLMs](#coding-llms)
+  - [Open Source Coding LLMs](#open-source-coding-llms)
   - [LLMs Providers](#llms-providers)
      + [Cloud-based Providers](#cloud-based-providers)
      + [Local Providers](#local-providers) 
@@ -357,7 +357,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 > The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard).
 
-### Coding LLMs
+### Open Source Coding LLMs
 
 | Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                    | Model Sizes|
 |:--------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|
