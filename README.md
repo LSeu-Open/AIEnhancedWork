@@ -383,6 +383,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|
 | **Mistral AI**     | [Mistral Large](https://mistral.ai/)                | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407)  | 123B           | --- (Soon)   | Unknown            |
 | **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B  | --- (Soon)   | 2023-12            |
+| **Nexusflow**      | [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B            | 1240         | 2023-12            |
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 1216         | 2024-06            |
 | **Nvidia**         | [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B         | 1209         | 2023-06            |
 | **Cognitive Computations** | [Dolphin](https://erichartford.com/dolphin) | [Dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | 70B | 1207 | 2023-10            |
@@ -396,7 +397,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | 12.2B | 1080         | 2023-12            |
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| 67B            | 1076         | 2023-11            |
 | **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B             | Unrated      | Unknown        |
-| **Nexusflow**      | [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B            | --- (Soon)   | 2023-12            |
+
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
