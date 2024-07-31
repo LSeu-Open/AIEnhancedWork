@@ -193,12 +193,15 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 | Model                                                                                   | Organisation      | HumanEval score (/100) | Ollama libraries | Cloud-based providers | Hardware requirement  | 
 |:---------------------------------------------------------------------------------------:|:-----------------:|:----:|:----:|:----:|:---------------------------------------------------:|
+| [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)                    | **Mistral**       | 92.1 | Yes  | [Mistral](https://mistral.ai/) | 70GB+ VRAM GPU (4xRTX 4090 or better) |
+| [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)                    | **Meta**          | 89.0 | Yes  | [Groq](https://groq.com/)      | 405GB+ VRAM GPU (5xH100 or better) |
 | [DeepSeek-Coder-V2-Instruct](https://ollama.com/library/deepseek-coder-v2)              | **Deepseek**      | 82.3 |  Yes | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 130GB+ VRAM GPU (6xRTX 4090 or better)   |
-| [CodeGeeX4-All-9B](https://ollama.com/library/codegeex4:9b-all-q4_0)                    | **THUDM**         | [82.3] |  Yes | [Hugging Face](https://huggingface.co/spaces/vilarin/glm-chat) | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)  |
+| [CodeGeeX4-All-9B](https://ollama.com/library/codegeex4:9b-all-q4_0)                    | **THUDM**         | 82.3 |  Yes | [Hugging Face](https://huggingface.co/spaces/vilarin/glm-chat) | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)  |
 | [Codestral-22B](https://ollama.com/library/codestral)                                   | **Mistral**       | 81.1 |  Yes | [Mistral](https://chat.mistral.ai/) | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better)   |
-| [DeepSeek-Coder-V2-Lite-Instruct](https://ollama.com/library/deepseek-coder-v2)         | **Deepseek**      | [79.3]|  Yes | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)    |
+| [DeepSeek-Coder-V2-Lite-Instruct](https://ollama.com/library/deepseek-coder-v2)         | **Deepseek**      | 79.3 |  Yes | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)    |
+| [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0)         | **Meta**          | 78.8 | Yes  | [Groq](https://groq.com/)     | 40GB+ VRAM GPU (2xRTX 4090 or better)  |
 | [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)                    | **Alibaba**       | 78.7 |  Yes | None | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |
-| [Mamba-codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)     | **Mistral**       | [75] |  Yes | [Mistral](https://chat.mistral.ai/) | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |
+| [Mamba-codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)     | **Mistral**       | 75   |  Yes | [Mistral](https://chat.mistral.ai/) | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |
 | [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct)   | **Deepseek**      | 75   |  Yes | [Hugging Face](https://huggingface.co/spaces/deepseek-ai/deepseek-coder-33b-instruct) | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
 | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B)   |**m-a-p**          | 73.8 |  No  | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better)   |
 | [WizardCoder-33B-V1.1](https://ollama.com/library/wizardcoder:33b-v1.1)                 | **TheBloke**      | 73.2 |  Yes | None | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better    |
@@ -221,7 +224,8 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 | Model             | Provider     | HumanEval score (/100) | Pricing |
 |:-----------------:|:------------:|:----------------------:|:-------:|
-| [Claude-3.5 Sonnet](https://claude.ai//)     | **Anthropic**    | [92] | Freemium    |
+| [GPT-40](https://chat.openai.com/)           | **OpenAI**       | 93.3 | Paid    |
+| [Claude-3.5 Sonnet](https://claude.ai//)     | **Anthropic**    | 92   | Freemium    |
 | [GPT-4 Turbo](https://chat.openai.com/)      | **OpenAI**       | 88.2 | Paid    |
 | [GPT-4](https://chat.openai.com/)            | **OpenAI**       | 79.3 | Paid    |
 | [Claude-3 Opus](https://claude.ai/)          | **Anthropic**    | 77.4 | Paid    |
@@ -233,4 +237,3 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 | [Gemini Pro 1.0](https://gemini.google.com/) | **Google**       | 55.5 | Paid    |
 | [claude-instant-1](https://claude.ai/)       | **Anthropic**    | 50.6 | Free    |
 
-> [XX] Score subject to verification by independent third-party metrics.
