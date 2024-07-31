@@ -240,6 +240,11 @@ The Computer Vision section includes AI models and tools designed to process, an
 >
 > For a comprehensive view of the generative image models landscape, **fine-tuned models** have been **excluded** from these rankings.
 
+> [!TIP]
+> **Take control of your data and models** - With **Fooocus** you can generate locally, see our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
+>
+> **Fooocus** use fine-tuned version of the Stable Diffusion XL model. These models reach 1100 to 1120 Elo score.
+
 #### Cloud-based Providers
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
@@ -255,9 +260,6 @@ The Computer Vision section includes AI models and tools designed to process, an
 | [Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) | An AI-powered platform for generating images and animations, developed by NVIDIA. | Proprietary | Paid |
 | [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | Proprietary | Freemium    |
 | [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | Open | Free |
-
-> [!TIP]
-> **Take control of your data and models** - With **Fooocus** you can generate locally, see our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
 
 ### Image Editing
 
