@@ -194,7 +194,7 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 | Model                                                                                   | Organisation      | HumanEval score (/100) | Ollama libraries | Cloud-based providers | Hardware requirement  | 
 |:---------------------------------------------------------------------------------------:|:-----------------:|:----:|:----:|:----:|:---------------------------------------------------:|
 | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)                    | **Mistral**       | 92.1 | Yes  | [Mistral](https://mistral.ai/) | 70GB+ VRAM GPU (4xRTX 4090 or better) |
-| [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)                    | **Meta**          | 89.0 | Yes  | [Groq](https://groq.com/)      | 405GB+ VRAM GPU (5xH100 or better) |
+| [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405b)                    | **Meta**          | 89.0 | Yes  | [Groq](https://groq.com/)      | 235GB+ VRAM GPU (3xH100 or better) |
 | [DeepSeek-Coder-V2-Instruct](https://ollama.com/library/deepseek-coder-v2)              | **Deepseek**      | 82.3 |  Yes | [Deepseek](https://chat.deepseek.com/sign_in?from=coder) | 130GB+ VRAM GPU (6xRTX 4090 or better)   |
 | [CodeGeeX4-All-9B](https://ollama.com/library/codegeex4:9b-all-q4_0)                    | **THUDM**         | 82.3 |  Yes | [Hugging Face](https://huggingface.co/spaces/vilarin/glm-chat) | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)  |
 | [Codestral-22B](https://ollama.com/library/codestral)                                   | **Mistral**       | 81.1 |  Yes | [Mistral](https://chat.mistral.ai/) | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better)   |
