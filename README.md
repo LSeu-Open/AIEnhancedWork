@@ -226,7 +226,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 | **Playground**       | [Playground v2.5](https://playground.com/blog/playground-v2-5)                | 1097       | Open        | Free      |
 | **OpenAI**           | [DALLE 3 HD](https://openai.com/index/dall-e-3/)                              | 1091       | Proprietary | Freemium  |
 | **OpenAI**           | [DALLE 3](https://openai.com/index/dall-e-3/)                                 | 1071       | Proprietary | Freemium  |
-| **Stable Diffusion** | [PixArt-Σ](https://pixart-alpha.github.io/PixArt-sigma-project/)              | 1043       | Open        | Free      |
+| **PixArt**           | [PixArt-Σ](https://pixart-alpha.github.io/PixArt-sigma-project/)              | 1043       | Open        | Free      |
 | **Stable Diffusion** | [Stable Cascade](https://huggingface.co/stabilityai/stable-cascade)           | 1035       | Open        | Free      |
 | **Stable Diffusion** | [Stable Diffusion 3 Turbo](https://stability.ai/stable-image)                 | 1035       | Open        | Free      |
 | **Stable Diffusion** | [Stable Diffusion 1.6](https://stability.ai/stable-image)                     | 1030       | Open        | Free      |
