@@ -221,7 +221,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 | Provider             | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:---------------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
-| **Midjourney**       | [Midjourney v6](https://www.midjourney.com/home)                              | 1165       | Proprietary | Paid      |
+| **Midjourney**       | [Midjourney v6.1](https://www.midjourney.com/home)                            | 1165       | Proprietary | Paid      |
 | **Stable Diffusion** | [Stable Diffusion 3](https://stability.ai/stable-image)                       | 1151       | Open        | Free      |
 | **Playground**       | [Playground v2.5](https://playground.com/blog/playground-v2-5)                | 1097       | Open        | Free      |
 | **OpenAI**           | [DALLE 3 HD](https://openai.com/index/dall-e-3/)                              | 1091       | Proprietary | Freemium  |
