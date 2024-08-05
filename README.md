@@ -23,7 +23,9 @@
 
  ## Table of Contents
  
-* [AI Tutorials](#ai-tutorials)
+* [AI Resources](#ai-resources)
+  - [Tutorials](#tutorials)
+  - [Learning Resources](#learning-resources)
 * [Academic and Scientific Research](#academic-and-scientific-research)
 * [Audio Processing](#audio-processing)
   - [Audio and Video transcription and summaries](#audio-and-video-transcription-and-summaries)
@@ -95,14 +97,18 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 <br>
 
-## AI Tutorials
+## AI Resources
+
+### Tutorials
 
 Understand and Apply Artificial Intelligence through Interactive Tutorials.
 
  * Learn to **set up a local LLM chatbot** with our first tutorial, ***[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)***, and address privacy concerns of cloud-based AI tools.
  * Learn to **set up your IDE to integrate your preferred AI provider** with this second tutorial, ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)***, and enhance your overall coding experience.
  * **[NEW]** Learn to ***create images locally with Midjourney-like Technology*** with this third tutorial, ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***,  and address privacy concerns of cloud-based AI tools.
-   
+
+### Learning Resources
+
 <br>
 
 ## Academic and Scientific Research
@@ -387,7 +393,6 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1200           | Online       | Freemium |
 | **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | 1183           | Unknown      | Freemium |
 | **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077         | Online       | Freemium |
-| **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | Unrated        | Online       | Freemium |
 
 
 <details>
@@ -439,8 +444,8 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **THUDM**          | [GLM](https://github.com/THUDM/GLM-4)               | [Glm-4-9b-chat](https://huggingface.co/THUDM/glm-4-9b-chat)                      | 9B             | 1088         | Unknown            |
 | **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | 12.2B | 1080         | 2023-12            |
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| 67B            | 1076         | 2023-11            |
-| **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B             | Unrated      | Unknown        |
-
+| **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B             | Unrated      | Unknown            |
+| **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | 314B           | Unrated      | Unknown            |
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
