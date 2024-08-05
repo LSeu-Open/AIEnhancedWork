@@ -234,6 +234,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 | **Stable Diffusion** | [Stable Diffusion XL base 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) | 997    | Open      | Free      |
 | **Adobe**            | [Firefly Image 3](https://www.adobe.com/fr/products/firefly.html)             | None       | Proprietary | Paid      |
 | **Google**           | [Imagen 3](https://deepmind.google/technologies/imagen-3/)                    | None       | Proprietary | Freemium  |
+| **Black Forest Labs** | [Flux.1](https://huggingface.co/black-forest-labs/FLUX.1-dev)                | (Soon)     | Open        | Free  |
 
 > [!NOTE]
 > The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [artificialanalysis.ai text to Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
@@ -366,15 +367,15 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Elo Score      |  Knowledge Cutoff | Pricing model |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:-----------:|
-| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | 1287           | 2023-10      | Paid |
+| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro- Exp](https://gemini.google.com/?hl=en)                          | 1300           | Unknown      | Paid |
+| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | 1286           | 2023-10      | Paid |
 | **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | 1271           | 2024-04      | Paid |
-| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Advanced](https://gemini.google.com/?hl=en)                          | 1267           | 2023-11      | Paid |
 | **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 1240           | Unknown      | Freemium |
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1222           | Unknown      | Paid |
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1200           | Online       | Freemium |
 | **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | 1183           | Unknown      | Freemium |
 | **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077         | Online       | Freemium |
-| **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | Unrated           | Online       | Freemium |
+| **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | Unrated        | Online       | Freemium |
 
 
 <details>
@@ -391,7 +392,8 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3 Opus](https://claude.ai/)                                          | 1248           | 2023-08      | Paid |
 |                    |                                                     | [Claude 3 Sonnet](https://claude.ai/)                                        | 1201           | 2023-08      | Paid |
 |                    |                                                     | [Claude 3 Haiku](https://claude.ai/)                                         | 1179           | 2023-08      | Paid |
-| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                           | 1261           | 2023-11      | Paid |
+| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Advanced](https://gemini.google.com/?hl=en)                      | 1267           | 2023-11      | Paid |
+|                    |                                                     | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                           | 1261           | 2023-11      | Paid |
 |                    |                                                     | [Gemini 1.5 Flash](https://gemini.google.com/?hl=en)                         | 1228           | 2023-11      | Freemium |
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                 | 1200           | Online       | Freemium |
 |                    |                                                     | [Reka-Flash-21B-Online](https://chat.reka.ai/auth/login)                     | 1156           | Online       | Freemium |
@@ -440,6 +442,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 |                    |                                                     | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)       | 70B            | 1207         | 2023-12          |
 |                    |                                                     | [Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)         | 8B             | 1152         | 2023-12          |
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)                              | 9B             | 1188         | 2024-06          |
+|                    |                                                     | [Gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)                              | 2B             | 1130         | 2024-02          |
 |                    |                                                     | [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it)                          | 7B             | 1084         | 2024-02          |
 |                    |                                                     | [Gemma-1.1-2b-it](https://huggingface.co/google/gemma-1.1-2b-it)                          | 2B             | 1021         | 2024-02          |
 |                    |                                                     | [Gemma-7b-it](https://huggingface.co/google/gemma-7b-it)                                  | 7B             | 1037         | 2024-02          |
