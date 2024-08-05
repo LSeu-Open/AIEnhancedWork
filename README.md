@@ -35,7 +35,8 @@
 * [Computer Vision](#computer-vision)
   - [Image Generation](#image-generation)
      + [Text to Image Model](#text-to-image-model)
-     + [Cloud-based Providers](#cloud-based-providers) 
+     + [Cloud-based Providers](#cloud-based-providers)
+     + [Local Providers](#local-providers-image-generation) 
   - [Image Editing](#image-editing)
   - [Video Generation](#video-generation)
   - [Vision Language Models](#vision-language-models)
@@ -45,7 +46,7 @@
   - [Open Source Coding LLMs](#open-source-coding-llms)
   - [LLMs Providers](#llms-providers)
      + [Cloud-based Providers](#cloud-based-providers)
-     + [Local Providers](#local-providers) 
+     + [Local Providers](#local-providers-llms-providers) 
      + [Coding LLMs Providers](#coding-llms-providers)
 * [Other](#other)
   - [Language learning](#language-learning)
@@ -241,11 +242,6 @@ The Computer Vision section includes AI models and tools designed to process, an
 >
 > For a comprehensive view of the generative image models landscape, **fine-tuned models** have been **excluded** from these rankings.
 
-> [!TIP]
-> **Take control of your data and models** - With **Fooocus** you can generate locally, see our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
->
-> **Fooocus** use fine-tuned version of the Stable Diffusion XL model. These models reach 1100 to 1120 Elo score.
-
 #### Cloud-based Providers
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
@@ -261,6 +257,22 @@ The Computer Vision section includes AI models and tools designed to process, an
 | [Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) | An AI-powered platform for generating images and animations, developed by NVIDIA. | Proprietary | Paid |
 | [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | Proprietary | Freemium    |
 | [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | Open | Free |
+
+#### Local Providers
+
+| Tool             | Description                                                                                                                 | OS     | Models     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | A powerful and modular graphical user interface (GUI) for Stable Diffusion, provide users with precise control over image generation workflows. | All | All Stable Diffusion Models + Flux.1 |
+| [Diffusion Bee](https://msty.app/) | A free, offline AI art generation tool designed specifically for macOS users. | MacOS/IOS | All Stable Diffusion Models. |
+| [Draw Things](https://superagi.com/) | A free AI-assisted image generation app available for iOS devices, including iPhones and iPads. | MacOS/IOS | All Stable Diffusion Models. |
+| [Fooocus](https://github.com/lllyasviel/Fooocus) | An open-source AI image generation tool designed to simplify the process of creating images using Stable Diffusion technology. | All | Stable Diffusion XL models. |
+| [Invoke](https://github.com/invoke-ai/InvokeAI) | A leading creative engine for Stable Diffusion models. | All | All Stable Diffusion Models. |
+| [Stable Diffusion web UI by Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | a popular graphical user interface (GUI) for interacting with the Stable Diffusion models. | All | All Stable Diffusion Models. |
+
+> [!TIP]
+> **Take control of your data and models** - With **Fooocus** you can generate locally, see our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
+>
+> **Fooocus** use fine-tuned version of the Stable Diffusion XL model. These models reach 1100 to 1120 Elo score.
 
 ### Image Editing
 
