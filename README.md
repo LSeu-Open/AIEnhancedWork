@@ -110,27 +110,27 @@ Understand and Apply Artificial Intelligence through Interactive Tutorials.
 
 ![Amazon](https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=Amazon&logoColor=000000&style=flat)
 
-- [What is Generative AI?](https://aws.amazon.com/what-is/generative-ai/) : General overview of basics concepts around generative AI.
-- [What is Conversational AI?](https://aws.amazon.com/what-is/conversational-ai/) :  General overview of basics concepts around Conversational AI.
-- [What is Prompt Engineering?](https://aws.amazon.com/what-is/prompt-engineering/) : General overview of basics concepts of prompt engineering.
+- [What is Generative AI?](https://aws.amazon.com/what-is/generative-ai/) : Overview of foundational ideas and principles in generative AI.
+- [What is Conversational AI?](https://aws.amazon.com/what-is/conversational-ai/) :  Basic understanding of how conversational AI works, including core concepts and applications.
+- [What is Prompt Engineering?](https://aws.amazon.com/what-is/prompt-engineering/) : A concise guide to the key concepts, considerations, and methodologies behind prompt engineering.
 
 <br>
 
 ![Google](https://img.shields.io/badge/Google%20Cloud-4285F4.svg?style=for-the-badge&logo=Google-Cloud&logoColor=white&style=flat )
 
-- [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118/course_templates/536) :  What Generative AI is, how it is used, and how it differs from traditional machine learning methods.
-- [Introduction to Large Language Models](https://www.cloudskillsboost.google/paths/118/course_templates/539) : What large language models (LLM) are, the use cases where they can be utilized, and how you can use prompt tuning to enhance LLM performance.
-- [Introduction to Responsible AI](https://www.cloudskillsboost.google/paths/118/course_templates/554) : What responsible AI is, why it's important.
-- [Introduction to Image Generation](https://www.cloudskillsboost.google/paths/183/course_templates/541) : introduces diffusion models, a family of machine learning models that recently showed promise in the image generation space.
+- [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118/course_templates/536) :  An introduction to the capabilities, applications, and distinct characteristics of generative artificial intelligence (AI).
+- [Introduction to Large Language Models](https://www.cloudskillsboost.google/paths/118/course_templates/539) : Introduction to large language models (LLMs) and the opportunities they present for natural language processing: use cases, limitations, and optimization strategies.
+- [Introduction to Responsible AI](https://www.cloudskillsboost.google/paths/118/course_templates/554) : The case for responsible AI: understanding its significance in ensuring that machine learning systems align with human values and promote social good.
+- [Introduction to Image Generation](https://www.cloudskillsboost.google/paths/183/course_templates/541) : Introduces diffusion models: a novel approach to machine learning that has generated remarkable results in image creation and manipulation.
 
 <br>
 
 <img alt="Static Badge" src="https://research.ibm.com/_next/static/media/IBM-8bar-logo--h23.8bbea713.svg" height="15px">
 
-- [What is generative AI?](https://research.ibm.com/blog/what-is-generative-AI) : IBM introduction to Generative AI.
-- [What is AI inferencing?](https://research.ibm.com/blog/AI-inference-explained) : Introduction to AI inference.
-- [What is retrieval-augmented generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) : Learn what is retrieval-augmented generation (RAG).
-- [What’s an LLM context window and why is it getting larger?](https://research.ibm.com/blog/larger-context-window) : Learn about Context windows.
+- [What is generative AI?](https://research.ibm.com/blog/what-is-generative-AI) : into Generative AI by Understanding its Potential and Applications.
+- [What is AI inferencing?](https://research.ibm.com/blog/AI-inference-explained) : A Clear Introduction to the Principles and Methods of AI Inference.
+- [What is retrieval-augmented generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) : Learn what is retrieval-augmented generation (RAG) and why it is usefull.
+- [What’s an LLM context window and why is it getting larger?](https://research.ibm.com/blog/larger-context-window) : Understanding the Role of LLM Context Windows in AI.
 
 <br>
 
