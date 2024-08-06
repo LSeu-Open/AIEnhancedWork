@@ -78,7 +78,6 @@
 > **Balancing the benefits of AI with an awareness of these potential drawbacks is crucial. Taking appropriate measures to mitigate risks is essential for successful integration into workflows.**
 >
 > To effectively mitigate risks associated with generative AI technologies, it's essential to have a solid understanding of their fundamentals. By educating yourself, you'll be better equipped to identify and correct errors and biases, ensuring more accurate and reliable results.
-> Microsoft offers [helpful lessons](https://microsoft.github.io/generative-ai-for-beginners/#/) on this subject that can provide you with valuable knowledge.
 
 <br>
 
@@ -108,6 +107,47 @@ Understand and Apply Artificial Intelligence through Interactive Tutorials.
  * **[NEW]** Learn to ***create images locally with Midjourney-like Technology*** with this third tutorial, ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***,  and address privacy concerns of cloud-based AI tools.
 
 ### Learning Resources
+
+![Amazon](https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=Amazon&logoColor=000000&style=flat)
+
+- [What is Generative AI?](https://aws.amazon.com/what-is/generative-ai/) : General overview of basics concepts around generative AI.
+- [What is Conversational AI?](https://aws.amazon.com/what-is/conversational-ai/) :  General overview of basics concepts around Conversational AI.
+- [What is Prompt Engineering?](https://aws.amazon.com/what-is/prompt-engineering/) : General overview of basics concepts of prompt engineering.
+
+<br>
+
+![Google](https://img.shields.io/badge/Google%20Cloud-4285F4.svg?style=for-the-badge&logo=Google-Cloud&logoColor=white&style=flat )
+
+- [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118/course_templates/536) :  What Generative AI is, how it is used, and how it differs from traditional machine learning methods.
+- [Introduction to Large Language Models](https://www.cloudskillsboost.google/paths/118/course_templates/539) : What large language models (LLM) are, the use cases where they can be utilized, and how you can use prompt tuning to enhance LLM performance.
+- [Introduction to Responsible AI](https://www.cloudskillsboost.google/paths/118/course_templates/554) : What responsible AI is, why it's important.
+- [Introduction to Image Generation](https://www.cloudskillsboost.google/paths/183/course_templates/541) : introduces diffusion models, a family of machine learning models that recently showed promise in the image generation space.
+
+<br>
+
+<img alt="Static Badge" src="https://research.ibm.com/_next/static/media/IBM-8bar-logo--h23.8bbea713.svg" height="15px">
+
+- [What is generative AI?](https://research.ibm.com/blog/what-is-generative-AI) : IBM introduction to Generative AI.
+- [What is AI inferencing?](https://research.ibm.com/blog/AI-inference-explained) : Introduction to AI inference.
+- [What is retrieval-augmented generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) : Learn what is retrieval-augmented generation (RAG).
+- [What’s an LLM context window and why is it getting larger?](https://research.ibm.com/blog/larger-context-window) : Learn about Context windows.
+
+<br>
+
+![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=black&style=flat) 
+
+- [Fundamentals of Generative AI](https://microsoft.github.io/generative-ai-for-beginners/#/01-introduction-to-genai/README?wt.mc_id=academic-105485-koreyst) : Introduction to Generative AI and LLMs.
+- [Evaluation of generative AI applications](https://microsoft.github.io/generative-ai-for-beginners/#/02-exploring-and-comparing-different-llms/README?wt.mc_id=academic-105485-koreyst) : Exploring and comparing different LLMs.
+- [Fundamentals of Responsible Generative AI](https://microsoft.github.io/generative-ai-for-beginners/#/03-using-generative-ai-responsibly/README?wt.mc_id=academic-105485-koreyst) :  Using Generative AI Responsibly.
+- [Introduction to prompt engineering](https://microsoft.github.io/generative-ai-for-beginners/#/04-prompt-engineering-fundamentals/README?wt.mc_id=academic-105485-koreyst) : Learn hands-on Prompt Engineering Best Practices.
+- [Prompt engineering techniques](https://microsoft.github.io/generative-ai-for-beginners/#/05-advanced-prompts/README?wt.mc_id=academic-105485-koreyst) : Learn how to apply prompt engineering techniques that improve the outcome of your prompts.
+
+<br>
+
+![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=NVIDIA&logoColor=FFFFFF&style=flat)
+
+- [Generative AI Explained](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1) : Generative AI concepts, applications, as well as the challenges and opportunities.
+- [Augment your LLM Using Retrieval Augmented Generation](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-16+V1) : High-level overview of Retrieval Augmented Generation and how it improves Generative AI (GenAI).
 
 <br>
 
