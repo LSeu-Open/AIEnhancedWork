@@ -423,40 +423,40 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 #### Proprietary Models
 
-| Organization       | Model Familly                                       | Best Model                                                                       | Elo Score      |  Knowledge Cutoff | Pricing model |
-|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:-----------:|
-| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro- Exp](https://gemini.google.com/?hl=en)                          | 1300           | Unknown      | Paid |
-| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | 1286           | 2023-10      | Paid |
-| **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | 1271           | 2024-04      | Paid |
-| **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 1240           | Unknown      | Freemium |
-| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1222           | Unknown      | Paid |
-| **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1200           | Online       | Freemium |
-| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | 1183           | Unknown      | Freemium |
-| **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077         | Online       | Freemium |
+| Organization       | Model Familly                                       | Best Model                                                                       | Elo Score      | Context Window* |  Knowledge Cutoff | Pricing model |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|
+| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro- Exp](https://gemini.google.com/?hl=en)                          | 1300           | 2M              | Unknown      | Paid |
+| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | 1286           | 128K            | 2023-10      | Paid |
+| **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | 1271           | 200k            | 2024-04      | Paid |
+| **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 1240           | 32k             | Unknown      | Freemium |
+| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1222           | 128k            | Unknown      | Paid |
+| **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1200           | 128k            | Online       | Freemium |
+| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | 1183           | 128k            | Unknown      | Freemium |
+| **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077         | 128k            | Online       | Freemium |
 
+> ***Context Window*** : maximum number of tokens the model can process and consider simultaneously when generating responses. Learn more in about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
 
 <br>
 
-| Organization   | Model Familly                                       | Best Model                                                                       | Elo Score      |  Knowledge Cutoff | Pricing model |
-|:--------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:-----------:|
-| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | 1280 | 2023-10  | Free |
-|                    |                                                     | [GPT-4-Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) | 1257           | 2023-12      | Paid |
-|                    |                                                     | [GPT-4](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4)       | 1251           | 2023-12      | Paid |
-|                    |                                                     | [GPT-3.5-Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo)       | 1117           | 2021-09      | Free |
-| **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3 Opus](https://claude.ai/)                                          | 1248           | 2023-08      | Paid |
-|                    |                                                     | [Claude 3 Sonnet](https://claude.ai/)                                        | 1201           | 2023-08      | Paid |
-|                    |                                                     | [Claude 3 Haiku](https://claude.ai/)                                         | 1179           | 2023-08      | Paid |
-| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Advanced](https://gemini.google.com/?hl=en)                      | 1267           | 2023-11      | Paid |
-|                    |                                                     | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                           | 1261           | 2023-11      | Paid |
-|                    |                                                     | [Gemini 1.5 Flash](https://gemini.google.com/?hl=en)                         | 1228           | 2023-11      | Freemium |
-| **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                 | 1200           | Online       | Freemium |
-|                    |                                                     | [Reka-Flash-21B-Online](https://chat.reka.ai/auth/login)                     | 1156           | Online       | Freemium |
-|                    |                                                     | [Reka-Flash-21B](https://chat.reka.ai/auth/login)                            | 1147           | 2023-11      | Freemium |
-| **Mistral AI**     | [Mistral](https://mistral.ai/)                      | [Mistral Medium](https://chat.mistral.ai/chat)                               | 1157           | Unknown      | Free |
-|                    |                                                     | [Mistral Next](https://chat.mistral.ai/chat)                                 | 1147           | Unknown      | Free |
+| Organization   | Model Familly                                       | Best Model                                                                       | Elo Score      | Context Window* |  Knowledge Cutoff | Pricing model |
+|:--------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|
+| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | 1280 | 128K        | 2023-10           | Free |
+|                    |                                                     | [GPT-4-Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) | 1257           | 128K            | 2023-12           |  Paid |
+|                    |                                                     | [GPT-4](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4)       | 1251           | 8K              | 2023-12           | Paid |
+|                    |                                                     | [GPT-3.5-Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo)       | 1117           | 4K              | 2021-09           | Free |
+| **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3 Opus](https://claude.ai/)                                          | 1248           | 200k            | 2023-08           | Paid |
+|                    |                                                     | [Claude 3 Sonnet](https://claude.ai/)                                        | 1201           | 200k            | 2023-08           | Paid |
+|                    |                                                     | [Claude 3 Haiku](https://claude.ai/)                                         | 1179           | 200k            | 2023-08           | Paid |
+| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Advanced](https://gemini.google.com/?hl=en)                      | 1267           | 2M              | 2023-11           | Paid |
+|                    |                                                     | [Gemini 1.5 Pro](https://gemini.google.com/?hl=en)                           | 1261           | 2M              | 2023-11           | Paid |
+|                    |                                                     | [Gemini 1.5 Flash](https://gemini.google.com/?hl=en)                         | 1228           | 1M              | 2023-11           | Freemium |
+| **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka-Flash-21B-Online](https://chat.reka.ai/auth/login)                     | 1200           | 128K            | Online            | Freemium |
+|                    |                                                     | [Reka-Flash-21B](https://chat.reka.ai/auth/login)                            | 1147           | 64K             | 2023-11           | Freemium |
+| **Mistral AI**     | [Mistral](https://mistral.ai/)                      | [Mistral Medium](https://chat.mistral.ai/chat)                               | 1157           | 33k             | Unknown           | Free |
+|                    |                                                     | [Mistral Next](https://chat.mistral.ai/chat)                                 | 1147           | 33k             | Unknown           | Free |
 
 </details>
 
@@ -467,58 +467,60 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 #### Open source Models
 
-| Organization       | Model Familly                                       | Best Model                                                                       | Model Sizes    |  Elo Score*   | Knowledge Cutoff |
-|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|
-| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B  | 1262         | 2023-12            |
-| **Mistral AI**     | [Mistral Large](https://mistral.ai/)                | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407)  | 123B           | 1248         | 2024-07            |
-| **Nexusflow**      | [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B            | 1240         | 2023-12            |
-| **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 1216         | 2024-06            |
-| **Nvidia**         | [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B         | 1209         | 2023-06            |
-| **Cognitive Computations** | [Dolphin](https://erichartford.com/dolphin) | [Dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | 70B | 1207 | 2023-10            |
-| **Cohere**         | [Command-R](https://cohere.com/)                    | [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/)             | 104B           | 1190         | 2023-03            |
-| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)             | 72B            | 1187         | 2023-08            |
-| **Mistral AI**     | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1)    | 141B | 1146  | 2024-04            |
-| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B   | 1123         | 2024-03            |
-| **LMSYS**          | [Vicuna](https://huggingface.co/lmsys)              | [vicuna-33b-v1.3](https://huggingface.co/lmsys/vicuna-33b-v1.3)                  | 33B            | 1090         | 2023-08            |
-| **Databricks**     | [DBRX](https://www.databricks.com/)                 | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | 132B           | 1103         | 2023-12            |
-| **THUDM**          | [GLM](https://github.com/THUDM/GLM-4)               | [Glm-4-9b-chat](https://huggingface.co/THUDM/glm-4-9b-chat)                      | 9B             | 1088         | Unknown            |
-| **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | 12.2B | 1080         | 2023-12            |
-| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| 67B            | 1076         | 2023-11            |
-| **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B             | Unrated      | Unknown            |
-| **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | 314B           | Unrated      | Unknown            |
+| Organization       | Model Familly                                       | Best Model                                                                       | Model Sizes    |  Elo Score*   | Context Window* |  Knowledge Cutoff |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:------------------:|
+| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B  | 1262         | 128K               | 2023-12            |
+| **Mistral AI**     | [Mistral Large](https://mistral.ai/)                | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407)  | 123B           | 1248         | 128K               | 2024-07            |
+| **Nexusflow**      | [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B            | 1240         |  8K                | 2023-12            |
+| **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 1216         |  8K                | 2024-06            |
+| **Nvidia**         | [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B         | 1209         |  4K                | 2023-06            |
+| **Cognitive Computations** | [Dolphin](https://erichartford.com/dolphin) | [Dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | 70B | 1207 |  8K                | 2023-10            |
+| **Cohere**         | [Command-R](https://cohere.com/)                    | [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/)             | 104B           | 1190         |  128k              | 2023-03            |
+| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)             | 72B            | 1187         |  128K              | 2023-08            |
+| **Mistral AI**     | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1)    | 141B | 1146  |  65k               | 2024-04            |
+| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B   | 1123         |  128k              | 2024-03            |
+| **LMSYS**          | [Vicuna](https://huggingface.co/lmsys)              | [vicuna-33b-v1.3](https://huggingface.co/lmsys/vicuna-33b-v1.3)                  | 33B            | 1090         |  8K                | 2023-08            |
+| **Databricks**     | [DBRX](https://www.databricks.com/)                 | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | 132B           | 1103         |  33k               | 2023-12            |
+| **THUDM**          | [GLM](https://github.com/THUDM/GLM-4)               | [Glm-4-9b-chat](https://huggingface.co/THUDM/glm-4-9b-chat)                      | 9B             | 1088         |  8k                | Unknown            |
+| **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | 12.2B | 1080         |  128K              | 2023-12            |
+| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| 67B            | 1076         |  128K              | 2023-11            |
+| **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B             | Unrated      |  1M                | Unknown            |
+| **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | 314B           | Unrated      |  8K                | Unknown            |
+
+> ***Context Window*** : maximum number of tokens the model can process and consider simultaneously when generating responses. Learn more in about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
 
 <br>
 
-| Organization       | Model Familly                                       | Best Model                                                                                | Model Sizes    |  Elo Score*  | Knowledge Cutoff |
-|:------------------:|:----------------------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|
-| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct)   | 70B            | 1244         | 2023-12          |
-|                    |                                                     | [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct)     | 8B             | 1170         | 2023-12          |
-|                    |                                                     | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)       | 70B            | 1207         | 2023-12          |
-|                    |                                                     | [Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)         | 8B             | 1152         | 2023-12          |
-| **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)                              | 9B             | 1188         | 2024-06          |
-|                    |                                                     | [Gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)                              | 2B             | 1130         | 2024-02          |
-|                    |                                                     | [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it)                          | 7B             | 1084         | 2024-02          |
-|                    |                                                     | [Gemma-1.1-2b-it](https://huggingface.co/google/gemma-1.1-2b-it)                          | 2B             | 1021         | 2024-02          |
-|                    |                                                     | [Gemma-7b-it](https://huggingface.co/google/gemma-7b-it)                                  | 7B             | 1037         | 2024-02          |
-|                    |                                                     | [Gemma-2b-it](https://huggingface.co/google/gemma-2b-it)                                  | 2B             | 989          | 2024-02          |
-| **Cohere**         | [Command-R](https://cohere.com/)                    | [Command R](https://cohere.com/blog/command-r)                                            | 35B            | 1190         | 2023-03          |
-| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen2-57B-A14B-Instruct](https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct)            | 57B            | Unrated      | 2023-04          |
-|                    |                                                     | [Qwen2-7B-Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct)                        | 7B             | Unrated      | 2024-04          |
-|                    |                                                     | [Qwen2-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2-1.5B-Instruct)                    | 1.5B           | Unrated      | 2024-04          |
-|                    |                                                     | [Qwen2-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2-0.5B-Instruct)                    | 0.5B           | Unrated      | 2024-04          |
-| **Mistral AI**     | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 46.7B       | 1114         | 2023-12          |
-| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-small-128k-instruct](https://huggingface.co/microsoft/Phi-3-small-128k-instruct)   | 7B             | 1102         | 2023-10          |
-|                    |                                                     | [Phi-3-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)     | 3.8B           | 1066         | 2023-10          |
-| **LMSYS**          | [Vicuna](https://huggingface.co/lmsys)              | [vicuna-13b-v1.5](https://huggingface.co/lmsys/vicuna-13b-v1.5)                           | 13B            | 1042         | 2023-07          |
-|                    |                                                     | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5)                             | 7B             | 1005         | 2023-07          |
-|                    |                                                     | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5)                             | 7B             | 1005         | 2023-07          |
-| **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)     | 7B             | --- (Soon)   | 2024-04          | 
-|                    |                                                     | [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)     | 7B             | 1072         | 2023-12          |
-|                    |                                                     | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)     | 7B             | 1008         | 2023-09          |
-| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-7B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)           | 7B              | 1076         | 2023-11          |
+| Organization       | Model Familly                                       | Best Model                                                                                | Model Sizes    |  Elo Score*  | Context Window*  | Knowledge Cutoff |
+|:------------------:|:----------------------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|
+| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct)   | 70B            | 1244         | 128K             | 2023-12          |
+|                    |                                                     | [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct)     | 8B             | 1170         | 128K             | 2023-12          |
+|                    |                                                     | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)       | 70B            | 1207         | 8K               | 2023-12          |
+|                    |                                                     | [Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)         | 8B             | 1152         | 8K               | 2023-12          |
+| **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)                              | 9B             | 1188         | 8K               | 2024-06          |
+|                    |                                                     | [Gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)                              | 2B             | 1130         | 8K               | 2024-02          |
+|                    |                                                     | [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it)                          | 7B             | 1084         | 4K               | 2024-02          |
+|                    |                                                     | [Gemma-1.1-2b-it](https://huggingface.co/google/gemma-1.1-2b-it)                          | 2B             | 1021         | 4K               | 2024-02          |
+|                    |                                                     | [Gemma-7b-it](https://huggingface.co/google/gemma-7b-it)                                  | 7B             | 1037         | 4K               | 2024-02          |
+|                    |                                                     | [Gemma-2b-it](https://huggingface.co/google/gemma-2b-it)                                  | 2B             | 989          | 4K               | 2024-02          |
+| **Cohere**         | [Command-R](https://cohere.com/)                    | [Command R](https://cohere.com/blog/command-r)                                            | 35B            | 1190         | 128K             | 2023-03          |
+| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen2-57B-A14B-Instruct](https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct)            | 57B            | Unrated      | 65k              | 2023-04          |
+|                    |                                                     | [Qwen2-7B-Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct)                        | 7B             | Unrated      | 132K             | 2024-04          |
+|                    |                                                     | [Qwen2-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2-1.5B-Instruct)                    | 1.5B           | Unrated      | 132K             | 2024-04          |
+|                    |                                                     | [Qwen2-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2-0.5B-Instruct)                    | 0.5B           | Unrated      | 132K             | 2024-04          |
+| **Mistral AI**     | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 46.7B       | 1114         | 33k              | 2023-12          |
+| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-small-128k-instruct](https://huggingface.co/microsoft/Phi-3-small-128k-instruct)   | 7B             | 1102         | 128K             | 2023-10          |
+|                    |                                                     | [Phi-3-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)     | 3.8B           | 1066         | 128K             | 2023-10          |
+| **LMSYS**          | [Vicuna](https://huggingface.co/lmsys)              | [vicuna-13b-v1.5](https://huggingface.co/lmsys/vicuna-13b-v1.5)                           | 13B            | 1042         | 32K              | 2023-07          |
+|                    |                                                     | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5)                             | 7B             | 1005         | 32K              | 2023-07          |
+|                    |                                                     | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5)                             | 7B             | 1005         | 32K              | 2023-07          |
+| **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)     | 7B             | --- (Soon)   | 32K              | 2024-04          | 
+|                    |                                                     | [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)     | 7B             | 1072         | 32K              | 2023-12          |
+|                    |                                                     | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)     | 7B             | 1008         | 32K              | 2023-09          |
+| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-7B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)           | 7B             | 1076         | 64K              | 2023-11          |
 
 </details>
 
@@ -528,18 +530,18 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 ### Open Source Coding LLMs
 
-| Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                                     | Model Sizes   | Perf Score* |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|
-| **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 90.2      |
-| **Mistral AI**     | [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 89.4        |
-| **Alibaba**        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 83.5        |
-| **THUDM**          | [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 82.3        |
-| **Google**         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 60.4        |
-| **Multimodal Art Projection**  | [OpenCodeInterpreter](https://huggingface.co/m-a-p)  | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 79.3        |
-| **BigCode**        | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 78.7        |
-| **Mistral AI**     | [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 75.5        |
-| **Hugging Face**   | [Starchat](https://huggingface.co/HuggingFaceH4)                 | [Starchat2-15b-v0.1 ](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1)   | 15B           | 71.3        |
-| **Meta**           | [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 65.9        |
+| Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                                     | Model Sizes   | Perf Score* | Context Window*  |
+|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
+| **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 90.2      | 128K             |
+| **Mistral AI**     | [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 89.4        | 33K              |
+| **Alibaba**        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 83.5        | 64K              |
+| **THUDM**          | [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 82.3        | 128K             |
+| **Google**         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 60.4        | 8K               |
+| **Multimodal Art Projection**  | [OpenCodeInterpreter](https://huggingface.co/m-a-p)  | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 79.3        | 8K               |
+| **BigCode**        | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 78.7        | 4K               |
+| **Mistral AI**     | [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 75.5        | 256k             |
+| **Hugging Face**   | [Starchat](https://huggingface.co/HuggingFaceH4)                 | [Starchat2-15b-v0.1](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1)   | 15B           | 71.3         | 8K              |
+| **Meta**           | [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 65.9        | 16K              |
 
 > The models are ranked according to HumanEval scores (with higher scores indicating better performance). Given that the HumanEval benchmark tends to favor Python code performance, the benchmark chosen here for performance indication could potentially change in the future.
 
