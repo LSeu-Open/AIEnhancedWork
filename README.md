@@ -434,7 +434,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | 1183           | 128k            | Unknown      | Freemium |
 | **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077         | 128k            | Online       | Freemium |
 
-> ***Context Window*** : maximum number of tokens the model can process and consider simultaneously when generating responses. Learn more in about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
+> ***Context Window*** : maximum number of tokens the model can process and consider simultaneously when generating responses. Learn about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
@@ -487,7 +487,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B             | Unrated      |  1M                | Unknown            |
 | **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | 314B           | Unrated      |  8K                | Unknown            |
 
-> ***Context Window*** : maximum number of tokens the model can process and consider simultaneously when generating responses. Learn more in about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
+> ***Context Window*** : maximum number of tokens the model can process and consider simultaneously when generating responses. Learn about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
