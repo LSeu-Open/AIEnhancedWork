@@ -429,8 +429,8 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Model Sizes    |  Elo Score*   | Knowledge Cutoff |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|
-| **Mistral AI**     | [Mistral Large](https://mistral.ai/)                | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407)  | 123B           | --- (Soon)   | Unknown            |
 | **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B  | 1262         | 2023-12            |
+| **Mistral AI**     | [Mistral Large](https://mistral.ai/)                | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407)  | 123B           | 1248         | Unknown            |
 | **Nexusflow**      | [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B            | 1240         | 2023-12            |
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 1216         | 2024-06            |
 | **Nvidia**         | [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B         | 1209         | 2023-06            |
