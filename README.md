@@ -414,10 +414,13 @@ If you are using **Excel** or **Google Sheets**, you can benefit from AI tools t
 
 Large Language Models (LLMs) are sophisticated AI systems trained on enormous datasets of text to craft human-like language, capable of comprehending and generating natural language forms.
 
-> [!TIP]
-> To make it easy for you to get an **overview of this market**, we're providing a ***[thorough and regularly updated directory of all LLMs models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/List-of-all-Models.md)***.
->
-> If you're ready to dive deeper into these models, we'd be happy **to walk you through the process of selecting a model**. You can find our ***[detailed guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-llm-model-that-is-right-for-you)***.
+🔵 ***Helpful definition for this Section***
+
+When referring to a Model , we use the following terms :
+
+- ***Elo Score*** : A dynamic score that estimates the strength and capabilities of a large language model based on its performance.
+- ***Context Window*** : Maximum number of tokens the model can process and consider simultaneously when generating responses. Learn about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
+- ***Knowledge Cutoff*** : A specific point in time, after which new information or updates are no longer incorporated into the model's training data. This can help to prevent overfitting and ensure that the model remains accurate and relevant over time.
 
 ### Generalist LLMs
 
@@ -433,8 +436,6 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1200           | 128k            | Online       | Freemium |
 | **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | 1183           | 128k            | Unknown      | Freemium |
 | **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077         | 128k            | Online       | Freemium |
-
-> ***Context Window*** : maximum number of tokens the model can process and consider simultaneously when generating responses. Learn about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
@@ -486,8 +487,6 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)| 67B            | 1076         |  128K              | 2023-11            |
 | **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B             | Unrated      |  1M                | Unknown            |
 | **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | 314B           | Unrated      |  8K                | Unknown            |
-
-> ***Context Window*** : maximum number of tokens the model can process and consider simultaneously when generating responses. Learn about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
