@@ -356,25 +356,24 @@ Take control of your data and models - all Open-source models in this list can b
 
 | Provider         | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:-----------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
-| **OpenAI**       | [GPT-4o](https://chat.openai.com/)                                            | 1212       | Proprietary | Paid      |
-| **Anthropic**    | [Claude-3.5 Sonnet](https://claude.ai//)                                      | 1195       | Proprietary | Freemium  |
-| **OpenAI**       | [GPT-4 Turbo](https://chat.openai.com/)                                       | 1134       | Proprietary | Paid      |
-| **OpenAI**       | [GPT-4-vision](https://chat.openai.com/)                                      | 1108       | Proprietary | Paid      |
-| **Reka**         | [Reka-Flash](https://www.reka.ai/)                                            | 1081       | Proprietary | Freemium  |
+| **Google**       | [Gemini 1.5 Pro-Exp](https://gemini.google.com/)                              | 1220       | Proprietary | Paid      |
+| **OpenAI**       | [GPT-4o](https://chat.openai.com/)                                            | 1216       | Proprietary | Paid      |
+| **Anthropic**    | [Claude-3.5 Sonnet](https://claude.ai//)                                      | 1199       | Proprietary | Freemium  |
+| **OpenAI**       | [GPT-4 Turbo](https://chat.openai.com/)                                       | 1158       | Proprietary | Paid      |
+| **Google**       | [Gemini 1.5 Pro](https://gemini.google.com/)                                  | 1155       | Proprietary | Paid      |
+| **OpenAI**       | [GPT-4o-mini](https://chat.openai.com/)                                       | 1120       | Proprietary | Paid      |
 | **Google**       | [Gemini 1.5 Flash](https://gemini.google.com/)                                | 1077       | Proprietary | Paid      |
 | **Anthropic**    | [Claude-3 Opus](https://claude.ai/)                                           | 1076       | Proprietary | Paid      |
-| **01.ai**        | [Yi-vl-plus](https://www.01.ai/)                                              | 1049       | Proprietary | Freemium  |
-| **Google**       | [Gemini Pro vision](https://gemini.google.com/)                               | 1040       | Proprietary | Freemium  |
-| **Haotian Liu**  | [llava-v1.6-34b](https://huggingface.co/liuhaotian/llava-v1.6-34b)            | 1036       | Open        | Free      |
-| **Anthropic**    | [Claude-3 Sonnet](https://claude.ai/)                                         | 1034       | Proprietary | Paid      |
-| **OpenBMB**      | [MiniCPM-Llama3-V-2_5](https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5)   | 1025       | Open        | Free      |
-| **Anthropic**    | [Claude-3 Haiku](https://claude.ai/)                                          | 1001       | Proprietary | Paid      |
-| **THUDM**        | [cogvlm-chat-hf](https://huggingface.co/THUDM/cogvlm-chat-hf)                 | 991        | Open        | Free      |
-| **Deepseek**     | [deepseek-vl-7b-chat](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat) | 967        | Open        | Free      |
-| **Haotian Liu**  | [llava-v1.6-vicuna-7b](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b) | 966       | Open        | Free      |
+| **OpenGVLab**    | [InternVL2](https://huggingface.co/spaces/OpenGVLab/InternVL)                 | 1071       | Proprietary | Freemium  |
+| **Anthropic**    | [Claude-3 Sonnet](https://claude.ai/)                                         | 1051       | Proprietary | Paid      |
+| **Reka**         | [Reka-Flash](https://www.reka.ai/)                                            | 1018       | Proprietary | Freemium  |
+| **Reka**         | [Reka-Core](https://www.reka.ai/)                                             | 1017       | Proprietary | Freemium  |
+| **Haotian Liu**  | [llava-v1.6-34b](https://huggingface.co/liuhaotian/llava-v1.6-34b)            | 1004       | Open        | Free      |
+| **Anthropic**    | [Claude-3 Haiku](https://claude.ai/)                                          | 1000       | Proprietary | Paid      |
+| **THUDM**        | [Cogvlm2-llama3-chat-19B](https://huggingface.co/THUDM/cogvlm2-llama3-chat-19B) | 993      | Open        | Free      |
 
 > [!NOTE]
-> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [Wildvision Vision Arena leaderboard](https://huggingface.co/spaces/WildVision/vision-arena). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+> The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena (Vision) Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 
 <br>
 
@@ -463,7 +462,8 @@ When referring to a Model , we use the following terms :
 
 <br>
 
-> The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard).
+> [!NOTE]
+> The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 
 
 #### Open source Models
@@ -525,7 +525,8 @@ When referring to a Model , we use the following terms :
 
 <br>
 
-> The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard).
+> [!NOTE]
+> The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 
 ### Open Source Coding LLMs
 
