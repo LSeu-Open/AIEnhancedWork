@@ -4,8 +4,7 @@
 
 * [Introduction](#introduction)
   + [The Privacy and security issue of Cloud based Providers](#the-privacy-and-security-issue-of-cloud-based-providers)
-  + [Benefits of Running LLM Models Locally](#benefits-of-running-llm-locally)
-    
+  + [Benefits of Running LLM Models Locally](#benefits-of-running-llm-locally) 
 * [Step 1 Install and Setup Ollama](#step-1-install-and-setup-ollama)
   + [Installation](#installation)
   + [Quickstart](#quickstart)
@@ -13,8 +12,7 @@
   + [Installation and setup](#installation-and-setup)
   + [Browser Support](#browser-support)
   + [Usage](#usage)
-
- * [Find the LLM that is right for you](#find-the-llm-that-is-right-for-you)
+ * [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
 
 <br>
 
@@ -36,7 +34,9 @@ Running Large Language Model (LLM) models locally offers several benefits. One m
 
 This approach also enables faster processing times and reduced latency, making it well-suited for applications where real-time feedback is crucial. By keeping your data and model on-premises, you can avoid potential issues related to data sovereignty, such as data localization requirements and regulatory compliance.
 
-Ultimately, running LLM models locally provides a high degree of privacy and control, allowing you to tailor the model's training and deployment to meet your specific goals and objectives
+Ultimately, running LLM models locally provides a high degree of privacy and control, allowing you to tailor the model's training and deployment to meet your specific goals and objectives.
+
+<br>
 
 ## Step 1 Install and Setup Ollama
 
@@ -52,27 +52,28 @@ Ultimately, running LLM models locally provides a high degree of privacy and con
 ### Quickstart
 
 > [!Note]
-> You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
+> You should have at least 6 GB of VRAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
 > Depending on your hardware specifications The model might take a long time to generate text or process requests.
 
 <div align="center">
  
-**👉 [Help me pick a model !](#find-the-llm-model-that-is-right-for-you) 👈**
+**👉 [Help me pick a model !](#find-the-model-that-is-right-for-you) 👈**
   
 </div>
 
+<br>
 
-To run and chat with [Llama 3](https://ollama.com/library/llama3) write the following input in a terminal:
+To run and chat with [Llama 3.1](https://ollama.com/library/llama3.1) write the following input in a terminal:
 
 ```
-ollama run llama3
+ollama run llama3.1
 ```
-This will allow you to chat with the **llama3:8B model** within the command-line interface (CLI). See the list of models available on [ollama.com/library](https://ollama.com/library 'ollama model library'). 
+This will allow you to chat with the **llama3.1:8B model** within the command-line interface (CLI). See the list of models available on [ollama.com/library](https://ollama.com/library 'ollama model library'). 
 
 To download a model without launching it, simply enter the following command:
 
 ```
-ollama pull llama3
+ollama pull llama3.1
 ```
 To view the list of models you've downloaded, simply use the following command:
 
@@ -80,11 +81,15 @@ To view the list of models you've downloaded, simply use the following command:
 ollama list
 ```
 
+<br>
+
 ## Step 2 Use Ollama in your browser using Page assist extension
 
 It is not comfortable working directly in the command-line interface (CLI) for most, so i will show you how to interact with your Ollama model using a browser-based interface. We will be using the [Page assist extension](https://github.com/n4ze3m/page-assist).
 
 Page Assist is an open-source Chrome Extension that provides a Sidebar and Web UI for your Local AI model. It allows you to interact with your model from any webpage.
+
+Want to explore other possibilities? Take a look at the alternative solutions available in our [Local Providers section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/README.md#local-providers-1).
 
 ### Installation and setup 
 
@@ -136,7 +141,9 @@ You can open the Web UI by clicking on the extension icon which will open a new 
 > [!Note]
 > You can change the keyboard shortcuts from the extension settings on the Chrome Extension Management page.
 
-## Find the LLM that is right for you
+<br>
+
+## Find the Model that is right for you
 
 This section is designed to provide you with the **necessary knowledge and resources to make informed decisions about selecting the right model for your specific needs**. To facilitate this process, I have prepared **two reference tables to support your search**.
 
