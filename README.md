@@ -423,6 +423,14 @@ When referring to a Model , we use the following terms :
 
 ### Generalist LLMs
 
+> [!Tip]
+>  check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to set up a local LLM environment with Ollama and the Page Assist extension, and take back the control over your data.
+>
+> Running models locally gives you complete control over your data, ensuring both its **security and privacy.** This means your information isn't shared with external servers or third parties, safeguarding it from potential breaches or misuse.
+
+> [!NOTE]
+> The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+
 #### Proprietary Models
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Elo Score      | Context Window* |  Knowledge Cutoff | Pricing model |
@@ -459,12 +467,6 @@ When referring to a Model , we use the following terms :
 |                    |                                                     | [Mistral Next](https://chat.mistral.ai/chat)                                 | 1147           | 33k             | Unknown           | Free |
 
 </details>
-
-<br>
-
-> [!NOTE]
-> The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
-
 
 #### Open source Models
 
@@ -522,11 +524,6 @@ When referring to a Model , we use the following terms :
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-7B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)           | 7B             | 1076         | 64K              | 2023-11          |
 
 </details>
-
-<br>
-
-> [!NOTE]
-> The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 
 ### Open Source Coding LLMs
 
