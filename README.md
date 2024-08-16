@@ -268,20 +268,23 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 | Provider             | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:---------------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
-| **Midjourney**       | [Midjourney v6.1](https://www.midjourney.com/home)                            | 1165       | Proprietary | Paid      |
-| **Stable Diffusion** | [Stable Diffusion 3](https://stability.ai/stable-image)                       | 1151       | Open        | Free      |
-| **Playground**       | [Playground v2.5](https://playground.com/blog/playground-v2-5)                | 1097       | Open        | Free      |
-| **OpenAI**           | [DALLE 3 HD](https://openai.com/index/dall-e-3/)                              | 1091       | Proprietary | Freemium  |
-| **OpenAI**           | [DALLE 3](https://openai.com/index/dall-e-3/)                                 | 1071       | Proprietary | Freemium  |
+| **Black Forest Labs** | [Flux.1 Pro](https://blackforestlabs.ai/)                                    | 1146       | Proprietary | Paid      |
+| **Midjourney**        | [Midjourney v6.1](https://www.midjourney.com/home)                           | 1109       | Proprietary | Paid      |
+| **Black Forest Labs** | [Flux.1 Dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)            | 1108       | Open        | Free      |
+| **Stable Diffusion** | [Stable Diffusion 3 Large](https://stability.ai/stable-image)                 | 1092       | Open        | Free      |
+| **Black Forest Labs** | [Flux.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell)    | 1087       | Open        | Free      |
+| **Playground**       | [Playground v2.5](https://playground.com/blog/playground-v2-5)                | 1047       | Open        | Free      |
+| **OpenAI**           | [DALLE 3 HD](https://openai.com/index/dall-e-3/)                              | 1044       | Proprietary | Freemium  |
+| **OpenAI**           | [DALLE 3](https://openai.com/index/dall-e-3/)                                 | 1026       | Proprietary | Freemium  |
 | **PixArt**           | [PixArt-Σ](https://pixart-alpha.github.io/PixArt-sigma-project/)              | 1043       | Open        | Free      |
 | **Stable Diffusion** | [Stable Cascade](https://huggingface.co/stabilityai/stable-cascade)           | 1035       | Open        | Free      |
-| **Stable Diffusion** | [Stable Diffusion 3 Turbo](https://stability.ai/stable-image)                 | 1035       | Open        | Free      |
-| **Stable Diffusion** | [Stable Diffusion 1.6](https://stability.ai/stable-image)                     | 1030       | Open        | Free      |
-| **Stable Diffusion** | [Stable Diffusion 3 Medium](https://stability.ai/stable-image)                | 1027       | Open        | Free      |
-| **Stable Diffusion** | [Stable Diffusion XL base 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) | 997    | Open      | Free      |
+| **Stable Diffusion** | [Stable Diffusion 3 Large Turbo](https://stability.ai/stable-image)           | 994        | Open        | Free      |
+| **Stable Diffusion** | [Stable Diffusion 3 Medium](https://stability.ai/stable-image)                | 992       | Open        | Free      |
+| **Stable Diffusion** | [Stable Diffusion 1.6](https://stability.ai/stable-image)                     | 986       | Open        | Free      |
+| **Stable Diffusion** | [Stable Diffusion XL base 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) | 950    | Open      | Free      |
 | **Adobe**            | [Firefly Image 3](https://www.adobe.com/fr/products/firefly.html)             | None       | Proprietary | Paid      |
 | **Google**           | [Imagen 3](https://deepmind.google/technologies/imagen-3/)                    | None       | Proprietary | Freemium  |
-| **Black Forest Labs** | [Flux.1](https://huggingface.co/black-forest-labs/FLUX.1-dev)                | (Soon)     | Open        | Free  |
+
 
 > [!NOTE]
 > The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [artificialanalysis.ai text to Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
