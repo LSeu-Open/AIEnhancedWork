@@ -353,7 +353,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 ### Vision Language Models
 
-Vision language models (VLMs) are **AI models that combine computer vision and natural language processing capabilities** to understand and process both images and text together.
+Vision language models (VLMs) are **AI models that combine computer vision and natural language processing capabilities** to understand and process both images and text together. Learn more on [Huggingface.co](https://huggingface.co/blog/vlms).
 
 Take control of your data and models - all Open-source models in this list can be run locally, with our ***[Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)***.
 
