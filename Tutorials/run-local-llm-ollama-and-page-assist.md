@@ -163,7 +163,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              |  Elo score  |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (4xH100 or better)  |  1262       | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |          
+| **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (4xH100 or better)  |  1263       | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |          
 | **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (3xRTX 4090 or better) | 1248    | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
 | **NexusFlow**      | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)             | 70B         | 40GB+ VRAM GPU (2xRTX 4090 or better) | 1248    | No                                              | [Hugging Face](https://huggingface.co/Nexusflow/Athene-70B) |
 | **Meta**           | [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0) | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | 1240  | [Yes](https://ollama.com/library/llama3.1:70b)  | [Groq](https://groq.com/) |
@@ -199,29 +199,30 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Model                                         | Provider     | Elo score  | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|
-| [Gemini 1.5 Pro Exp](https://gemini.google.com/advanced?hl=en) | **Google** | 1299 | Paid    |
-| [GPT-4o](https://chat.openai.com/)            | **OpenAI**       | 1287       | Paid    |
-| [GPT-4o-mini](https://chat.openai.com/)       | **OpenAI**       | 1280       | Freemium    |
-| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic**    | 1271       | Paid    |
-| [Gemini Advanced](https://gemini.google.com/advanced?hl=en) | **Google** | 1267 | Paid    |
-| [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**       | 1262       | Paid    |
-| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**       | 1257       | Paid    |
-| [GPT-4](https://chat.openai.com/)             | **OpenAI**       | 1251       | Paid    |
-| [Claude-3 Opus](https://claude.ai/)           | **Anthropic**    | 1248       | Paid    |
-| [Yi-Large](https://www.01.ai/)                | **01.ai**        | 1240       | Freemium |
+| [GPT-4o-latest](https://chat.openai.com/)     | **OpenAI**   | 1314       | Paid    |
+| [Gemini 1.5 Pro Exp](https://gemini.google.com/advanced?hl=en) | **Google** | 1297 | Paid    |
+| [GPT-4o](https://chat.openai.com/)            | **OpenAI**    | 1286       | Paid    |
+| [GPT-4o-mini](https://chat.openai.com/)       | **OpenAI**    | 1274       | Freemium    |
+| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic** | 1271       | Paid    |
+| [Gemini Advanced](https://gemini.google.com/advanced?hl=en) | **Google** | 1266 | Paid    |
+| [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**    | 1260       | Paid    |
+| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**    | 1257       | Paid    |
+| [GPT-4](https://chat.openai.com/)             | **OpenAI**    | 1251       | Paid    |
+| [Claude-3 Opus](https://claude.ai/)           | **Anthropic** | 1248       | Paid    |
+| [Yi-Large](https://www.01.ai/)                | **01.ai**     | 1240       | Freemium |
 | [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google** | 1228 | Paid |
 | [Deepseek-v2-API-0628](https://platform.deepseek.com/sign_in)  | **Deepseek** | 1222 | Paid(API) |
-| [Gemini Pro (Bard)](https://gemini.google.com/) | **Google**     | 1208       | Paid    |
-| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**    | 1200       | Freemium    |
-| [Reka-Core](https://www.reka.ai/)             | **Reka**         | 1199       | Freemium |
+| [Gemini Pro (Bard)](https://gemini.google.com/) | **Google**   | 1208       | Paid    |
+| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**  | 1200       | Freemium    |
+| [Reka-Core](https://www.reka.ai/)             | **Reka**       | 1199       | Freemium |
 | [Qwen-Max](https://help.aliyun.com/zh/dashscope/developer-reference/api-details) | **Alibaba** | 1182 | Preview |
-| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**    | 1179       | Freemium    |
-| [Mistral-Large](https://mistral.ai/)          | **Mistral**      | 1157       | Free    |
-| [Reka-Flash](https://www.reka.ai/)            | **Reka**         | 1155       | Freemium |
-| [claude-1](https://claude.ai/)                | **Anthropic**    | 1151       | Free    |
-| [Mistral-Medium](https://mistral.ai/)         | **Mistral**      | 1148       | Free    |
-| [claude-2](https://claude.ai/)                | **Anthropic**    | 1131       | Free    |
-| [Mistral-Next](https://mistral.ai/)           | **Mistral**      | 1124       | Free    |
-| [GPT-3.5 Turbo](https://chat.openai.com/)     | **OpenAI**       | 1117       | Free    |
-| [claude-instant-1](https://claude.ai/)        | **Anthropic**    | 1111       | Free    |
+| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**  | 1179       | Freemium    |
+| [Mistral-Large](https://mistral.ai/)          | **Mistral**    | 1157       | Free    |
+| [Reka-Flash](https://www.reka.ai/)            | **Reka**       | 1155       | Freemium |
+| [claude-1](https://claude.ai/)                | **Anthropic**  | 1151       | Free    |
+| [Mistral-Medium](https://mistral.ai/)         | **Mistral**    | 1148       | Free    |
+| [claude-2](https://claude.ai/)                | **Anthropic**  | 1131       | Free    |
+| [Mistral-Next](https://mistral.ai/)           | **Mistral**    | 1124       | Free    |
+| [GPT-3.5 Turbo](https://chat.openai.com/)     | **OpenAI**     | 1117       | Free    |
+| [claude-instant-1](https://claude.ai/)        | **Anthropic**  | 1111       | Free    |
 
