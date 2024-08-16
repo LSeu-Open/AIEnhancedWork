@@ -125,10 +125,24 @@ Understand and Apply Artificial Intelligence through Interactive Tutorials.
 
 <br>
 
+<img alt="Static Badge" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="25px"> ***Hugging face***
+
+- [Introduction to Quantization](https://huggingface.co/blog/merve/quantization) :  An introduction to Quantization, a technique to reduce the model size to improve training and inference speed.
+- [Mixture of Experts Explained](https://huggingface.co/blog/moe) :  An overview of MoEs, how they’re trained, and the tradeoffs to consider.
+- [Vision Language Models Explained](https://huggingface.co/blog/vlms) : An overview  of vision language models, how they work and how to use them.
+
+<br>
+
 <img alt="Static Badge" src="https://research.ibm.com/_next/static/media/IBM-8bar-logo--h23.8bbea713.svg" height="15px">
 
-- [What is generative AI?](https://research.ibm.com/blog/what-is-generative-AI) : into Generative AI by Understanding its Potential and Applications.
-- [What is AI inferencing?](https://research.ibm.com/blog/AI-inference-explained) : A Clear Introduction to the Principles and Methods of AI Inference.
+- [What are foundation models?](https://research.ibm.com/blog/what-are-foundation-models) : Discover how Foundation models are revolutionizing AI with their cutting-edge capabilities.
+- [What are large language models (LLMs)?](https://www.ibm.com/topics/large-language-models) : Quick introduction to LLMs and their use cases.
+- [What is NLP (natural language processing)?](https://www.ibm.com/topics/natural-language-processing) : Understand how Models understand our Language.
+- [What is generative AI?](https://research.ibm.com/blog/what-is-generative-AI) : Introduction to Generative AI by Understanding its Potential and Applications.
+- [What is prompt-tuning?](https://research.ibm.com/blog/what-is-ai-prompt-tuning) : A lightweight method for fine-tuning AI foundation models on downstream tasks.
+- [What are AI hallucinations?](https://www.ibm.com/topics/ai-hallucinations) : Learn why AI systems can generate nonsensical outputs by perceiving non-existent patterns or objects.
+- [What is instruction tuning?](https://www.ibm.com/topics/instruction-tuning) : Learn how Instruction tuning enhances pre-trained LLMs by improving their ability to follow and execute instructions accurately.
+- [What is AI inferencing?](https://research.ibm.com/blog/AI-inference-explained) : Introduction to the Principles and Methods of AI Inference.
 - [What is retrieval-augmented generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) : Learn what is retrieval-augmented generation (RAG) and why it is usefull.
 - [What’s an LLM context window and why is it getting larger?](https://research.ibm.com/blog/larger-context-window) : Understanding the Role of LLM Context Windows in AI.
 
