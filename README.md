@@ -438,14 +438,16 @@ When referring to a Model , we use the following terms :
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Elo Score      | Context Window* |  Knowledge Cutoff | Pricing model |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|
-| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro- Exp](https://gemini.google.com/?hl=en)                          | 1300           | 2M              | Unknown      | Paid |
-| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                                 | 1286           | 128K            | 2023-10      | Paid |
+| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o-latest](https://openai.com/index/hello-gpt-4o/)                          | 1314           | 128K            | 2023-10      | Paid |
+| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro- Exp](https://gemini.google.com/?hl=en)                          | 1297           | 2M              | Unknown      | Paid |
+| **𝕏**              | [Grok](https://x.ai/)                               | [Grok-2 Beta](https://x.ai/blog/grok-2)                                          | (1280)         | 25k             | Unknown       | Paid |
 | **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | 1271           | 200k            | 2024-04      | Paid |
 | **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 1240           | 32k             | Unknown      | Freemium |
-| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1222           | 128k            | Unknown      | Paid |
-| **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1200           | 128k            | Online       | Freemium |
+| **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1227           | 128k            | Online       | Freemium |
+| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1218           | 128k            | Unknown      | Paid |
 | **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | 1183           | 128k            | Unknown      | Freemium |
 | **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [PPlx-70b-Online](https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms) | 1077         | 128k            | Online       | Freemium |
+
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
@@ -454,7 +456,8 @@ When referring to a Model , we use the following terms :
 
 | Organization   | Model Familly                                       | Best Model                                                                       | Elo Score      | Context Window* |  Knowledge Cutoff | Pricing model |
 |:--------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|
-| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | 1280 | 128K        | 2023-10           | Free |
+| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o](https://openai.com/index/hello-gpt-4o/)                             | 1286 | 128K        | 2023-10           | Free |
+|                    |                                                     | [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | 1274 | 128K        | 2023-10           | Free |
 |                    |                                                     | [GPT-4-Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) | 1257           | 128K            | 2023-12           |  Paid |
 |                    |                                                     | [GPT-4](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4)       | 1251           | 8K              | 2023-12           | Paid |
 |                    |                                                     | [GPT-3.5-Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo)       | 1117           | 4K              | 2021-09           | Free |
@@ -468,17 +471,17 @@ When referring to a Model , we use the following terms :
 |                    |                                                     | [Reka-Flash-21B](https://chat.reka.ai/auth/login)                            | 1147           | 64K             | 2023-11           | Freemium |
 | **Mistral AI**     | [Mistral](https://mistral.ai/)                      | [Mistral Medium](https://chat.mistral.ai/chat)                               | 1157           | 33k             | Unknown           | Free |
 |                    |                                                     | [Mistral Next](https://chat.mistral.ai/chat)                                 | 1147           | 33k             | Unknown           | Free |
-
+| **𝕏**              | [Grok](https://x.ai/)                               | [Grok-1.5](https://x.ai/blog/grok-1.5)                                       | None           | 128K             | Unknown          | Paid |
 </details>
 
 #### Open source Models
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Model Sizes    |  Elo Score*   | Context Window* |  Knowledge Cutoff |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:------------------:|
-| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B  | 1262         | 128K               | 2023-12            |
-| **Mistral AI**     | [Mistral Large](https://mistral.ai/)                | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407)  | 123B           | 1248         | 128K               | 2024-07            |
-| **Nexusflow**      | [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B            | 1240         |  8K                | 2023-12            |
-| **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 1216         |  8K                | 2024-06            |
+| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B  | 1263         | 128K               | 2023-12            |
+| **Mistral AI**     | [Mistral Large](https://mistral.ai/)                | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407)  | 123B           | 1249         | 128K               | 2024-07            |
+| **Nexusflow**      | [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B            | 1247         |  8K                | 2023-12            |
+| **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 1217         |  8K                | 2024-06            |
 | **Nvidia**         | [Nemotron](https://huggingface.co/nvidia)           | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B         | 1209         |  4K                | 2023-06            |
 | **Cognitive Computations** | [Dolphin](https://erichartford.com/dolphin) | [Dolphin-2.9.1-llama-3-70b](https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b) | 70B | 1207 |  8K                | 2023-10            |
 | **Cohere**         | [Command-R](https://cohere.com/)                    | [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/)             | 104B           | 1190         |  128k              | 2023-03            |
