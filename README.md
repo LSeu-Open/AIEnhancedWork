@@ -45,10 +45,11 @@
 * [Data Analysis](#data-analysis)
 * [Large Language Models](#large-language-models)
   - [Generalist LLMs](#generalist-llms)
-  - [Open Source Coding LLMs](#open-source-coding-llms)
-  - [LLMs Providers](#llms-providers)
-     + [Cloud-based Providers](#cloud-based-providers)
-     + [Local Providers](#local-providers-llms-providers) 
+     + [Providers](#providers)
+       * [Cloud-based Providers](#cloud-based-providers)
+       * [Local Providers](#local-providers-llms-providers)
+  - [Coding LLMs](#coding-llms)
+     + [Coding Open Source Models](#coding-open-source-models) 
      + [Coding LLMs Providers](#coding-llms-providers)
 * [Other](#other)
   - [Language learning](#language-learning)
@@ -557,28 +558,7 @@ When referring to a Model , we use the following terms :
 
 </details>
 
-### Open Source Coding LLMs
-
-| Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                                     | Model Sizes   | Perf Score* | Context Window*  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
-| **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 90.2      | 128K             |
-| **Mistral AI**     | [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 89.4        | 33K              |
-| **Alibaba**        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 83.5        | 64K              |
-| **THUDM**          | [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 82.3        | 128K             |
-| **Google**         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 60.4        | 8K               |
-| **Multimodal Art Projection**  | [OpenCodeInterpreter](https://huggingface.co/m-a-p)  | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 79.3        | 8K               |
-| **BigCode**        | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 78.7        | 4K               |
-| **Mistral AI**     | [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 75.5        | 256k             |
-| **Hugging Face**   | [Starchat](https://huggingface.co/HuggingFaceH4)                 | [Starchat2-15b-v0.1](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1)   | 15B           | 71.3         | 8K              |
-| **Meta**           | [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 65.9        | 16K              |
-
-> The models are ranked according to HumanEval scores (with higher scores indicating better performance). Given that the HumanEval benchmark tends to favor Python code performance, the benchmark chosen here for performance indication could potentially change in the future.
-
-> [!Tip]
-> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into your coding environment**.
-
-
-### LLMs Providers
+#### Providers
 
 > [!IMPORTANT]
 > If you're concerned about **privacy issues related to cloud based LLM** tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on **how to set up and run your own model on your local machine.**
@@ -616,7 +596,32 @@ When referring to a Model , we use the following terms :
 > [!IMPORTANT]
 > **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
 
-### Coding LLMs Providers
+### Coding LLMs
+
+> [!Tip]
+> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into your coding environment**.
+
+#### Coding Open Source Models
+
+| Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                                     | Model Sizes   | Perf Score* | Context Window*  |
+|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
+| **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 90.2      | 128K             |
+| **Mistral AI**     | [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 89.4        | 33K              |
+| **Alibaba**        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 83.5        | 64K              |
+| **THUDM**          | [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 82.3        | 128K             |
+| **Google**         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 60.4        | 8K               |
+| **Multimodal Art Projection**  | [OpenCodeInterpreter](https://huggingface.co/m-a-p)  | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 79.3        | 8K               |
+| **BigCode**        | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 78.7        | 4K               |
+| **Mistral AI**     | [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 75.5        | 256k             |
+| **Hugging Face**   | [Starchat](https://huggingface.co/HuggingFaceH4)                 | [Starchat2-15b-v0.1](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1)   | 15B           | 71.3         | 8K              |
+| **Meta**           | [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 65.9        | 16K              |
+
+> The models are ranked according to HumanEval scores (with higher scores indicating better performance). Given that the HumanEval benchmark tends to favor Python code performance, the benchmark chosen here for performance indication could potentially change in the future.
+
+> [!Tip]
+> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding)** to access a comprehensive leaderboard of LLM performance, **covering both Generalist and Coding models**.
+
+#### Coding LLMs Providers
 
 AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
 
@@ -631,7 +636,8 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 | [Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | Proprietary |Paid |
 | [Continue](https://www.continue.dev/)     | An open-source autopilot for software development that enables developers to create their own AI code assistant within their integrated development environment (IDE) like VS Code or JetBrains IDEs. | Open |Free |
 | [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | Proprietary |Paid        |
-| **[Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)** | Open Interpreter is an innovative open-source project that allows language models to execute code on a user's computer to complete various tasks. | Open  | Free |
+| [Llamacoder](https://llamacoder.together.ai/) | An open source Claude Artifacts – generate small apps with one prompt. | Open  | Free |
+| [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | Open Interpreter is an innovative open-source project that allows language models to execute code on a user's computer to complete various tasks. | Open  | Free |
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | Proprietary |Freemium |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | Proprietary |Freemium |
 
