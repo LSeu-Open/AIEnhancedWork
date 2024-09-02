@@ -116,6 +116,12 @@ Understand and Apply Artificial Intelligence through Interactive Tutorials.
 
 <br>
 
+<img alt="Static Badge" src="https://avatars.githubusercontent.com/u/76263028?s=200&v=4" height="25px"> ***Anthropic***
+
+- [Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629) : A comprehensive step-by-step understanding of how to engineer optimal prompts.
+
+<br>
+
 ![Google](https://img.shields.io/badge/Google%20Cloud-4285F4.svg?style=for-the-badge&logo=Google-Cloud&logoColor=white&style=flat )
 
 - [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118/course_templates/536) :  An introduction to the capabilities, applications, and distinct characteristics of generative artificial intelligence (AI).
