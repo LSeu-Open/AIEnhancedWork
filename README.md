@@ -390,6 +390,8 @@ Take control of your data and models - all Open-source models in this list can b
 | **Haotian Liu**  | [llava-v1.6-34b](https://huggingface.co/liuhaotian/llava-v1.6-34b)            | 1004       | Open        | Free      |
 | **Anthropic**    | [Claude-3 Haiku](https://claude.ai/)                                          | 1000       | Proprietary | Paid      |
 | **THUDM**        | [Cogvlm2-llama3-chat-19B](https://huggingface.co/THUDM/cogvlm2-llama3-chat-19B) | 993      | Open        | Free      |
+| **Microsoft**    | [Phi-3.5-vision-instruct](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) | None      | Open        | Free      |
+| **Alibaba**      | [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)            | None      | Open        | Free      |
 
 > [!NOTE]
 > The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena (Vision) Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
@@ -537,6 +539,8 @@ When referring to a Model , we use the following terms :
 | **Mistral AI**     | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 46.7B       | 1114         | 33k              | 2023-12          |
 | **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-small-128k-instruct](https://huggingface.co/microsoft/Phi-3-small-128k-instruct)   | 7B             | 1102         | 128K             | 2023-10          |
 |                    |                                                     | [Phi-3-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)     | 3.8B           | 1066         | 128K             | 2023-10          |
+|                    |                                                     | [Phi-3.5-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct)       |  3.8B          | ----         | 128K             | 2023-10          |
+|                    |                                                     | [Phi-3.5-MoE-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)         | 41.9B          | ----         | 128K             | 2023-10          |
 | **LMSYS**          | [Vicuna](https://huggingface.co/lmsys)              | [vicuna-13b-v1.5](https://huggingface.co/lmsys/vicuna-13b-v1.5)                           | 13B            | 1042         | 32K              | 2023-07          |
 |                    |                                                     | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5)                             | 7B             | 1005         | 32K              | 2023-07          |
 |                    |                                                     | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5)                             | 7B             | 1005         | 32K              | 2023-07          |
