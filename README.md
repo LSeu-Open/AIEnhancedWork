@@ -282,16 +282,17 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 | Provider             | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:---------------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
-| **Black Forest Labs** | [Flux.1 Pro](https://blackforestlabs.ai/)                                    | 1146       | Proprietary | Paid      |
-| **Midjourney**        | [Midjourney v6.1](https://www.midjourney.com/home)                           | 1109       | Proprietary | Paid      |
-| **Black Forest Labs** | [Flux.1 Dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)            | 1108       | Open        | Free      |
-| **Stable Diffusion** | [Stable Diffusion 3 Large](https://stability.ai/stable-image)                 | 1092       | Open        | Free      |
-| **Black Forest Labs** | [Flux.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell)    | 1087       | Open        | Free      |
+| **Black Forest Labs** | [Flux.1 Pro](https://blackforestlabs.ai/)                                    | 1153       | Proprietary | Paid      |
+| **Midjourney**        | [Midjourney v6.1](https://www.midjourney.com/home)                           | 1125       | Proprietary | Paid      |
+| **Black Forest Labs** | [Flux.1 Dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)            | 1119       | Open        | Free      |
+| **Ideogram**         | [Ideogram v2](https://ideogram.ai/login)                                      | 1118       | Proprietary | Freemium  |
+| **Stable Diffusion** | [Stable Diffusion 3 Large](https://stability.ai/stable-image)                 | 1098       | Open        | Free      |
+| **Black Forest Labs** | [Flux.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell)    | 1093       | Open        | Free      |
 | **Playground**       | [Playground v2.5](https://playground.com/blog/playground-v2-5)                | 1047       | Open        | Free      |
-| **OpenAI**           | [DALLE 3 HD](https://openai.com/index/dall-e-3/)                              | 1044       | Proprietary | Freemium  |
-| **OpenAI**           | [DALLE 3](https://openai.com/index/dall-e-3/)                                 | 1026       | Proprietary | Freemium  |
-| **PixArt**           | [PixArt-Σ](https://pixart-alpha.github.io/PixArt-sigma-project/)              | 1043       | Open        | Free      |
-| **Stable Diffusion** | [Stable Cascade](https://huggingface.co/stabilityai/stable-cascade)           | 1035       | Open        | Free      |
+| **OpenAI**           | [DALLE 3 HD](https://openai.com/index/dall-e-3/)                              | 1041       | Proprietary | Freemium  |
+| **OpenAI**           | [DALLE 3](https://openai.com/index/dall-e-3/)                                 | 1023       | Proprietary | Freemium  |
+| **PixArt**           | [PixArt-Σ](https://pixart-alpha.github.io/PixArt-sigma-project/)              | 1013       | Open        | Free      |
+| **Stable Diffusion** | [Stable Cascade](https://huggingface.co/stabilityai/stable-cascade)           | 1005       | Open        | Free      |
 | **Stable Diffusion** | [Stable Diffusion 3 Large Turbo](https://stability.ai/stable-image)           | 994        | Open        | Free      |
 | **Stable Diffusion** | [Stable Diffusion 3 Medium](https://stability.ai/stable-image)                | 992       | Open        | Free      |
 | **Stable Diffusion** | [Stable Diffusion 1.6](https://stability.ai/stable-image)                     | 986       | Open        | Free      |
@@ -373,16 +374,17 @@ Take control of your data and models - all Open-source models in this list can b
 
 | Provider         | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:-----------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
+| **Google**       | [Gemini 1.5 Pro](https://gemini.google.com/)                                  | 1232       | Proprietary | Paid      |
 | **Google**       | [Gemini 1.5 Pro-Exp](https://gemini.google.com/)                              | 1220       | Proprietary | Paid      |
-| **OpenAI**       | [GPT-4o](https://chat.openai.com/)                                            | 1216       | Proprietary | Paid      |
-| **Anthropic**    | [Claude-3.5 Sonnet](https://claude.ai//)                                      | 1199       | Proprietary | Freemium  |
-| **OpenAI**       | [GPT-4 Turbo](https://chat.openai.com/)                                       | 1158       | Proprietary | Paid      |
-| **Google**       | [Gemini 1.5 Pro](https://gemini.google.com/)                                  | 1155       | Proprietary | Paid      |
-| **OpenAI**       | [GPT-4o-mini](https://chat.openai.com/)                                       | 1120       | Proprietary | Paid      |
-| **Google**       | [Gemini 1.5 Flash](https://gemini.google.com/)                                | 1077       | Proprietary | Paid      |
+| **OpenAI**       | [GPT-4o](https://chat.openai.com/)                                            | 1210       | Proprietary | Paid      |
+| **Anthropic**    | [Claude-3.5 Sonnet](https://claude.ai//)                                      | 1193       | Proprietary | Freemium  |
+| **OpenAI**       | [GPT-4 Turbo](https://chat.openai.com/)                                       | 1153       | Proprietary | Paid      |
+| **Google**       | [Gemini 1.5 Pro](https://gemini.google.com/)                                  | 1152       | Proprietary | Paid      |
+| **OpenAI**       | [GPT-4o-mini](https://chat.openai.com/)                                       | 1121       | Proprietary | Paid      |
 | **Anthropic**    | [Claude-3 Opus](https://claude.ai/)                                           | 1076       | Proprietary | Paid      |
-| **OpenGVLab**    | [InternVL2](https://huggingface.co/spaces/OpenGVLab/InternVL)                 | 1071       | Proprietary | Freemium  |
-| **Anthropic**    | [Claude-3 Sonnet](https://claude.ai/)                                         | 1051       | Proprietary | Paid      |
+| **Google**       | [Gemini 1.5 Flash](https://gemini.google.com/)                                | 1074       | Proprietary | Paid      |
+| **OpenGVLab**    | [InternVL2](https://huggingface.co/spaces/OpenGVLab/InternVL)                 | 1067       | Proprietary | Freemium  |
+| **Anthropic**    | [Claude-3 Sonnet](https://claude.ai/)                                         | 1049       | Proprietary | Paid      |
 | **Reka**         | [Reka-Flash](https://www.reka.ai/)                                            | 1018       | Proprietary | Freemium  |
 | **Reka**         | [Reka-Core](https://www.reka.ai/)                                             | 1017       | Proprietary | Freemium  |
 | **Haotian Liu**  | [llava-v1.6-34b](https://huggingface.co/liuhaotian/llava-v1.6-34b)            | 1004       | Open        | Free      |
@@ -452,10 +454,10 @@ When referring to a Model , we use the following terms :
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Elo Score      | Context Window* |  Knowledge Cutoff | Pricing model |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|
-| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o-latest](https://openai.com/index/hello-gpt-4o/)                          | 1314           | 128K            | 2023-10      | Paid |
-| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro- Exp](https://gemini.google.com/?hl=en)                          | 1297           | 2M              | Unknown      | Paid |
-| **𝕏**              | [Grok](https://x.ai/)                               | [Grok-2 Beta](https://x.ai/blog/grok-2)                                          | (1280)         | 25k             | Unknown       | Paid |
-| **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | 1271           | 200k            | 2024-04      | Paid |
+| **OpenAI**         | [ChatGPT](https://chat.openai.com/)                 | [GPT-4o-latest](https://openai.com/index/hello-gpt-4o/)                          | 1316           | 128K            | 2023-10      | Paid |
+| **Google**         | [Gemini](https://gemini.google.com/)                | [Gemini 1.5 Pro- Exp](https://gemini.google.com/?hl=en)                          | 1301           | 2M              | Unknown      | Paid |
+| **𝕏**              | [Grok](https://x.ai/)                               | [Grok-2 Beta](https://x.ai/blog/grok-2)                                          | 1295         | 25k             | Unknown       | Paid |
+| **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | 1270           | 200k            | 2024-04      | Paid |
 | **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 1240           | 32k             | Unknown      | Freemium |
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 1227           | 128k            | Online       | Freemium |
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [Deepseek-v2](https://platform.deepseek.com/sign_in)                             | 1218           | 128k            | Unknown      | Paid |
@@ -492,7 +494,7 @@ When referring to a Model , we use the following terms :
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Model Sizes    |  Elo Score*   | Context Window* |  Knowledge Cutoff |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:------------------:|
-| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B  | 1263         | 128K               | 2023-12            |
+| **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B  | 1266         | 128K               | 2023-12            |
 | **Mistral AI**     | [Mistral Large](https://mistral.ai/)                | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407)  | 123B           | 1249         | 128K               | 2024-07            |
 | **Nexusflow**      | [Athene](https://nexusflow.ai/blogs/athene)         | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)                        | 70B            | 1247         |  8K                | 2023-12            |
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 1217         |  8K                | 2024-06            |
