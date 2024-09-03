@@ -191,7 +191,7 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 ### Open Source Models (50+ HumanEval score)
 
-***Massive models*** : Challenging for local deployment due to computational requirements.
+***Massive models*** : Challenging for local deployment due to computational requirements. Use them via any of the [listed Cloud-based Providers](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#cloud-based-providers-1) (e.g. Groq / Together / Mistral or OpenRouter).
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | HumanEval score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
