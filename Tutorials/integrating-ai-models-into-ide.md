@@ -233,6 +233,8 @@ I rank Models according to their **HumanEval scores (Higher is better)** from th
 
 ### Proprietary Models (50+ HumanEval score)
 
+***Proprietary models*** : typically accessible through a paid API or web interface.
+
 | Model             | Provider     | HumanEval score (/100) | Pricing |
 |:-----------------:|:------------:|:----------------------:|:-------:|
 | [GPT-40](https://chat.openai.com/)           | **OpenAI**       | 93.3 | Paid    |
