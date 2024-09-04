@@ -4,9 +4,8 @@
  
 <strong> 🤖 Welcome to our repository, carefully curated to enhance productivity, automate tasks, and simplify daily workflows. </strong>
 
-![Last Updated](https://img.shields.io/github/last-commit/LSeu-Open/AIEnhancedWork?label=Last%20Updated&style=flat)
 ![License](https://img.shields.io/github/license/LSeu-Open/AIEnhancedWork?style=flat)
-![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-160-blue?style=flat)
+![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-164-blue?style=flat)
 ![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-17-blue?style=flat)
 ![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-18-blue?style=flat)
 ![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-69-blue?style=flat)
@@ -61,6 +60,7 @@
   - [Coding LLMs](#coding-llms)
      + [Coding Open Source Models](#coding-open-source-models) 
      + [Coding LLMs Providers](#coding-llms-providers)
+     + [AI Augmented IDE](#ai-augmented-ide)
 * [Other](#other)
   - [Language learning](#language-learning)
   - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
@@ -638,6 +638,7 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 
 | Tool       | Description                                                                                                           | Licence     | Pricing model |
 |:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
+| [Aider](https://aider.chat/)    | an AI-powered pair programming tool designed to assist developers in writing and editing code directly from the command line.  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | [AskCodi](https://www.askcodi.com/)    | An AI-powered coding assistant that offers code suggestions, debugging help, and explanations for code snippets. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | [Blackbox](https://www.blackbox.ai/)   | An AI platform that helps businesses automate processes, make predictions, and optimize decision-making. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | [Boxy](https://codesandbox.io/blog/meet-boxy-ai-coding-assistant)       | An AI coding assistant by CodeSandbox providing real-time code suggestions and completions. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
@@ -652,7 +653,28 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 
+#### AI Integrated IDE
+
+IDE combining AI-powered coding tools with Large Language Model (LLM) engines enables developers to write reliable, efficient code in real-time, accelerated by the ability to generate entire code sections with precision and scalability further augmenting real-time code review, syntax checks, and optimization suggestions for streamlined software development and deployment.
+
+| Tool             | Description                                                                                                                 | OS     | Models     | Licence       | Pricing    |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|:-----------:|:-----------:|
+| [Avante](https://github.com/yetone/avante.nvim) | a Neovim plugin designed to emulate the behaviour of the Cursor AI IDE. | All | Claude 3.5 Sonnet / GPT4-o / Locally provided Models  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)  | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| [Cursor](https://www.cursor.com/) | A new generation of AI-integrated development environments, aiming to streamline the coding process and boost developer productivity through intelligent assistance and code generation capabilities. | All | Claude 3.5 Sonnet / GPT4-o / Cursor-small  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Visual Studio Code with Extensions](https://code.visualstudio.com/) | A popular, free source-code editor developed by Microsoft. | All | Claude 3.5 Sonnet / GPT4-o / Locally provided Models | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| [Zed](https://zed.dev/) | A high-performance, next-generation code editor designed for collaborative coding and integration with AI.  | All | Claude 3.5 Sonnet / GPT4-o / Locally provided Models | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)  | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+
+ > [!NOTE]
+> Integrations with proprietary Large Language Models (LLMs) such as GPT-4O and CLaude 3.5 are made available through external APIs subject to a **per-call/usage subscription**.
+
+> [!Tip]
+> Various VS Code extensions enable  integration with LLMs for coding assistance. Notably, Codeium, GitHub Copilot, and Continue.dev are reputable options (see table above).
+> 
+> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into vs code**.
+
 <br>
+
+
 
 ## Other
 
