@@ -4,13 +4,13 @@
  
 <strong> 🤖 Welcome to our repository, carefully curated to enhance productivity, automate tasks, and simplify daily workflows. </strong>
 
-![Last Updated](https://img.shields.io/github/last-commit/LSeu-Open/AIEnhancedWork?label=Last%20Updated&style=flat-square)
-![License](https://img.shields.io/github/license/LSeu-Open/AIEnhancedWork?style=flat-square)
-![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-160-blue?style=flat-square)
-![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-17-blue?style=flat-square)
-![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-18-blue?style=flat-square)
-![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-69-blue?style=flat-square)
-![Coding Large Language Models](https://img.shields.io/badge/Coding%20LLMs-10-blue?style=flat-square)
+![Last Updated](https://img.shields.io/github/last-commit/LSeu-Open/AIEnhancedWork?label=Last%20Updated&style=flat)
+![License](https://img.shields.io/github/license/LSeu-Open/AIEnhancedWork?style=flat)
+![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-160-blue?style=flat)
+![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-17-blue?style=flat)
+![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-18-blue?style=flat)
+![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-69-blue?style=flat)
+![Coding Large Language Models](https://img.shields.io/badge/Coding%20LLMs-10-blue?style=flat)
 
 </div>
 
