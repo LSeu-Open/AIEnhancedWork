@@ -614,23 +614,22 @@ When referring to a Model , we use the following terms :
 
 #### Coding Open Source Models
 
-| Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                                     | Model Sizes   | Perf Score* | Context Window*  |
+| Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                                     | Model Sizes   | Pass@1* | Context Window*  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
-| **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 90.2      | 128K             |
-| **Mistral AI**     | [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 89.4        | 33K              |
-| **Alibaba**        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 83.5        | 64K              |
-| **THUDM**          | [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 82.3        | 128K             |
-| **Google**         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 60.4        | 8K               |
-| **Multimodal Art Projection**  | [OpenCodeInterpreter](https://huggingface.co/m-a-p)  | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 79.3        | 8K               |
-| **BigCode**        | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 78.7        | 4K               |
-| **Mistral AI**     | [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 75.5        | 256k             |
-| **Hugging Face**   | [Starchat](https://huggingface.co/HuggingFaceH4)                 | [Starchat2-15b-v0.1](https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1)   | 15B           | 71.3         | 8K              |
-| **Meta**           | [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 65.9        | 16K              |
+| **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 44.7      | 128K             |
+| **Mistral AI**     | [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 32.9        | 33K              |
+| **Multimodal Art Projection**  | [OpenCodeInterpreter](https://huggingface.co/m-a-p)  | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 22.3       | 8K               |
+| **Mistral AI**     | [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 21.1        | 256k             |
+| **Alibaba**        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 19.6        | 64K              |
+| **THUDM**          | [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 17.8        | 128K             |
+| **BigCode**        | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 14.8        | 4K               |
+| **Meta**           | [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 13.3        | 16K              |
+| **Google**         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 13.1        | 8K               |
 
-> The models are ranked according to HumanEval scores (with higher scores indicating better performance). Given that the HumanEval benchmark tends to favor Python code performance, the benchmark chosen here for performance indication could potentially change in the future.
+> The models are ranked according to LiveCodeBench Pass@1 Code Generation scores (with higher scores indicating better performance). Pass@1 is the probability of passing a given problem in one attempt. LiveCodeBench offers a more comprehensive, up-to-date, and contamination-aware evaluation of code-related capabilities compared to HumanEval.
 
 > [!Tip]
-> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding)** to access a comprehensive leaderboard of LLM performance, **covering both Generalist and Coding models**.
+> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding)** to access a comprehensive Ranking of LLM performance, **covering both Generalist and Coding models**.
 
 #### Coding LLMs Providers
 
