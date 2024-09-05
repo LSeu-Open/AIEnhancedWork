@@ -184,6 +184,9 @@ The second table features **Proprietary models** that usually operate on **cloud
 
 The models are ranked according to **LiveCodeBench Pass@1** Code Generation scores (with higher scores indicating better performance). ***Pass@1 is the probability of passing a given problem in one attempt***. [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) offers a more comprehensive, up-to-date, and contamination-aware evaluation of code-related capabilities compared to HumanEval.
 
+> [!CAUTION]
+> Please note that the hardware requirements provided are only indicative, and the specified VRAM requirements in the tables below apply specifically to the default Ollama Q4_0 quantization version of the models. [Learn more about LLMs Quantization](https://huggingface.co/blog/merve/quantization).
+
 ### Open Source Models (10+ Pass@1 score)
 
 ***Massive models*** : Challenging for local deployment due to computational requirements. Use them via any of the [listed Cloud-based Providers](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#cloud-based-providers-1) (e.g. Groq / Together / Mistral or OpenRouter).
@@ -209,10 +212,12 @@ The models are ranked according to **LiveCodeBench Pass@1** Code Generation scor
 | **DeepSeek**       | [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct) | 33B  | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 22.3    | [Yes](https://ollama.com/library/deepseek-coder:33b-instruct) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
 | **m-a-p**          | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B  | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 18.9 |  [Yes](https://ollama.com/wojtek/opencodeinterpreter)  | No |
 
+
 ***Small models*** : Lightweight and deployable on most local machines.
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **01.ai**        | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  | 9B        | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 31.2   | [Yes](https://ollama.com/library/yi-coder:9b-chat)  | [Hugging Face](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  |
 | **Mistral**        | [Mamba-codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)  | 7B        | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 21.1   | No | [Mistral](https://mistral.ai/)  |
 | **Alibaba**        | [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)  | 7B          | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |  19.6 |  [Yes](https://ollama.com/library/codeqwen:v1.5-chat) | No |
 | **Meta**           | [Llama3.1-8B-instruct](https://ollama.com/library/llama3.1:8b)        | 8B         | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |   19.2      | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
