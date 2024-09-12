@@ -409,7 +409,9 @@ Take control of your data and models - all Open-source models in this list can b
 | **Anthropic**    | [Claude-3 Haiku](https://claude.ai/)                                          | 1000       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
 | **THUDM**        | [Cogvlm2-llama3-chat-19B](https://huggingface.co/THUDM/cogvlm2-llama3-chat-19B) | 993      | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)        | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
 | **Microsoft**    | [Phi-3.5-vision-instruct](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) | None      | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)        | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **Alibaba**      | [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)            | None      | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)        | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Alibaba**      | [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)     | None      | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)   | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Mistral AI**   | [Pixtral-12B](https://huggingface.co/mistralai/Pixtral-12B-2409)             | None      | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)   | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+
 
 > [!NOTE]
 > The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena (Vision) Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
