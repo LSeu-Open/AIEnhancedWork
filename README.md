@@ -5,7 +5,8 @@
 <strong> 🤖 Welcome to our repository, carefully curated to enhance productivity, automate tasks, and simplify daily workflows. </strong>
 
 ![License](https://img.shields.io/github/license/LSeu-Open/AIEnhancedWork?style=flat)
-![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-176-blue?style=flat)
+![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-189-blue?style=flat)
+![Speech2text Models](https://img.shields.io/badge/Speech2text%20Models-7-blue?style=flat)
 ![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-17-blue?style=flat)
 ![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-19-blue?style=flat)
 ![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-73-blue?style=flat)
@@ -40,6 +41,7 @@
   - [Audio and Video transcription and summaries](#audio-and-video-transcription-and-summaries)
   - [Music Generation](#music-generation)
   - [Text to speech](#text-to-speech)
+  - [Speech to text](#speech-to-text)
 * [Automation](#automation)
    - [Autonomous Agents](#autonomous-agents)
    - [Automation tools](#automation-tools)
@@ -250,6 +252,43 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
 | [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
+### Speech to text
+
+Speech to text is a technology that converts spoken words into written text. It allows users to enter data, communicate with devices, or access information through voice commands.
+
+#### Speech to text Models
+
+> [!NOTE]
+> The models are ranked according to their Word Error Rate (%) (with Lower scores indicating better performance) from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
+
+| Organization       | Model Familly                                       | Best Model                                                                       | Word Error Rate (%) | Licence     | Pricing   |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:---------------:|
+| **Speechmatics**   | [Speechmatics](https://www.speechmatics.com/)      | [Speechmatics Enhanced](https://www.speechmatics.com/)    | 8.6 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **AssemblyAI**     | [Universal](https://www.assemblyai.com/research/universal-1) | [Universal-1](https://www.assemblyai.com/research/universal-1)    | 8.7 |  ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **OpenAI**         | [Whisper](https://openai.com/index/whisper/)        | [Whisper Large V3](https://huggingface.co/openai/whisper-large-v3)               | 10.3 |  ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Amazon**         | [transcribe](https://aws.amazon.com/transcribe/)      | [Tanscribe](https://aws.amazon.com/transcribe/)    | 11.2 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **Google**         | [Chirp](https://cloud.google.com/speech-to-text?hl=en)      | [Chirp](https://cloud.google.com/speech-to-text?hl=en)    | 12.4 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **Distil-Whisper** | [distil-whisper](https://github.com/huggingface/distil-whisper) | [distil-large-v3](https://huggingface.co/openai/whisper-large-v3)    | 13.0 | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Deepgram**       | [Nova](https://deepgram.com/)      | [Nova-2](https://deepgram.com/learn/nova-2-speech-to-text-api)    | 15.1 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+
+#### Speech to text Providers
+
+ Tool             | Description                                                                                                                 | Models      | Pricing     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [Amazon Web Services (AWS)](https://aws.amazon.com/bedrock/) | A fully managed service provided by Amazon Web Services (AWS) designed to facilitate the development of generative AI applications. | Amazon Transcribe | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [AssemblyAI](https://www.assemblyai.com/products/speech-to-text) | A powerful speech recognition and audio intelligence platform. | Universal-1 | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Deepgram](https://deepgram.com/) | A powerful accurate speech recognition with advanced AI capabilities and developer-friendly tools. | Nova-2 and Whisper Large V2 | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [DeepInfra](https://deepinfra.com/chat) | A platform that provides scalable and cost-effective infrastructure for deploying machine learning models. | Whisper Large V3 and distil-large-v3| ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Fal.ai](https://fal.ai/) | A powerful cloud platform designed for deploying and integrating AI models into applications. |  Whisper Large V3 | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Gladia](https://www.gladia.io/) | An advanced AI platform that specializes in real-time transcription, translation, and audio intelligence. | Whisper Large V2 | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Google](https://cloud.google.com/speech-to-text?hl=en) |  A powerful service offered by Google Cloud that utilizes advanced machine learning techniques to convert spoken language into written text. | Google Chirp | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Groq](https://groq.com/) | Specializes in high-performance AI inference with custom LPU (Language Processing Unit) hardware, offering models like Meta's Llama 3. |  Whisper Large V3 and distil-large-v3  | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Microsoft Azure](https://azure.microsoft.com/) | A comprehensive suite of AI services and tools designed to help developers and organizations build, deploy, and manage AI applications at scale. |  Whisper Large V2 and Azure speech | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [OpenAI](https://www.ai21.com/) |  ahahahahahahahahahahaha | Whisper Large V2 | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Replicate](https://replicate.com/home) | A cloud platform that allows developers to easily run and deploy open-source machine learning models. | All Whisper Familly | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Rev AI](https://www.rev.ai/) | A sophisticated speech recognition platform that provides automatic speech-to-text transcription services.  | Rev AI | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Speechmatics](https://www.speechmatics.com/) | A powerful AI-driven speech recognition and transcription platform. | Universal-1 | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+
 <br>
 
 ## Automation
@@ -326,7 +365,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 #### Cloud-based Providers
 
-| Tool              | Description                                                                                                         | Licence     | Pricing     |
+| Tool              | Description                                                                                                         |  Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [Craiyon](https://www.craiyon.com/) | An AI-powered platform for generating artistic images and animations.                             | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)        |
 | [Dall-E](https://openai.com/research/dall-e) | An AI model developed by OpenAI that generates images from textual descriptions.         | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)|
