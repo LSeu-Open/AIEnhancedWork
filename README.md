@@ -259,7 +259,7 @@ Speech to text is a technology that converts spoken words into written text. It 
 #### Speech to text Models
 
 > [!NOTE]
-> The models are ranked according to their Word Error Rate (%) (with Lower scores indicating better performance) from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
+> The models are ranked according to their Word Error Rate (%) (% of words transcribed incorrectly. Lower is better) from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Word Error Rate (%) | Licence     | Pricing   |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:---------------:|
