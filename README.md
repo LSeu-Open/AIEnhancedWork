@@ -583,6 +583,9 @@ When referring to a Model , we use the following terms :
 
 #### Cloud-based Providers
 
+> [!Tip]
+>  You can compare providers' performance on the [dedicated Artificial Analysis' Leaderboard](https://artificialanalysis.ai/leaderboards/providers). This includes a comprehensive comparison and ranking of provider performance based on key metrics such as price, output speed, latency, context window, and more.
+
 | Tool             | Description                                                                                                                 | Models      | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [AI21 Labs](https://www.ai21.com/) |  Known for their language models like Jurassic-1 Jumbo focused on quality, safety, and controllability. |  Jamba 1.5 Large and mini | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
