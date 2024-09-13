@@ -5,7 +5,7 @@
 <strong> 🤖 Welcome to our repository, carefully curated to enhance productivity, automate tasks, and simplify daily workflows. </strong>
 
 ![License](https://img.shields.io/github/license/LSeu-Open/AIEnhancedWork?style=flat)
-![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-164-blue?style=flat)
+![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-176-blue?style=flat)
 ![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-17-blue?style=flat)
 ![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-19-blue?style=flat)
 ![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-73-blue?style=flat)
@@ -585,19 +585,31 @@ When referring to a Model , we use the following terms :
 
 | Tool             | Description                                                                                                                 | Models      | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [AI21 Labs](https://www.ai21.com/) |  Known for their language models like Jurassic-1 Jumbo focused on quality, safety, and controllability. |  Jamba 1.5 | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-| [Amazon Web Services (AWS)](https://aws.amazon.com/ai/generative-ai/) | Offers models like Amazon CodeWhisperer for code generation and understanding through their SageMaker platform. | CodeWhisperer | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |  
-| [Anthropic](https://www.anthropic.com/claude) | Known for their constitutional AI model Claude, focused on being helpful, harmless, and honest. | Claude 3 and 3.5 (opus, sonnet..)    | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | 
-| [Cohere](https://cohere.com/) | Provides an enterprise AI platform with models like Cohere Generate for custom content creation. | Command R and R+ | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | 
-| [Google Gemini](https://gemini.google.com/) |  Provides models like LaMBDA, PaLM, and Bard for language understanding, generation, and multimodal AI tasks. | all Gemini | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | 
+| [AI21 Labs](https://www.ai21.com/) |  Known for their language models like Jurassic-1 Jumbo focused on quality, safety, and controllability. |  Jamba 1.5 Large and mini | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Amazon Web Services (AWS)](https://aws.amazon.com/bedrock/) | Offers models like Amazon CodeWhisperer for code generation and understanding through their SageMaker platform. | Large Panel of Open source and Proprietary Models | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |  
+| [Anthropic](https://www.anthropic.com/claude) | Known for their constitutional AI model Claude, focused on being helpful, harmless, and honest. | Claude 3 and 3.5 Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | 
+| [Cerebras](https://inference.cerebras.ai/) | An AI company that has developed innovative hardware and software solutions for AI computing. | Llama 3.1 70B and 8B| ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | 
+| [Cohere](https://cohere.com/) | Provides an enterprise AI platform with models like Cohere Generate for custom content creation. | Command R and R+ | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Databricks](https://www.databricks.com/) | A unified, open analytics platform that provides tools and services for data processing, analytics, and artificial intelligence at scale. | DBRX and Llama 3.1 Models | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [DeepInfra](https://deepinfra.com/chat) | A platform that provides scalable and cost-effective infrastructure for deploying machine learning models. | Large Panel of Open source Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Deepseek](https://chat.deepseek.com/) | An AI company that has developed several notable AI models and technologies | Deepseek-V2 and V2.5 | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Fireworks](https://fireworks.ai/) | A comprehensive solution for companies looking to deploy AI into production, focusing on performance, cost-effectiveness, and developer experience. | Large Panel of Open source Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | 
+| [Google](https://gemini.google.com/) |  Provides models like LaMBDA, PaLM, and Bard for language understanding, generation, and multimodal AI tasks. | all Gemini Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | 
 | [Groq](https://groq.com/) | Specializes in high-performance AI inference with custom LPU (Language Processing Unit) hardware, offering models like Meta's Llama 3. |  Llama 3.1 / Mixtral / Gemma | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-| [Hugging Face](https://huggingface.co/models) | The AI dedicated github, Offers a platform with many open-source models like BERT, GPT-Neo, and Llama for various AI tasks. | Public (limited)| ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) | 
-| [OpenAI](https://chatgpt.com/) | Offers models like GPT-4, DALL-E, and Whisper for natural language processing, image generation, and speech recognition. |  GPT4 / GPT4-o / Dall-E    | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Hugging Face Spaces](https://huggingface.co/spaces) | The AI dedicated github, Offers a platform with most open-source models like BERT, GPT-Neo, and Llama for various AI tasks. | All Open source Models | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) | 
+| [LeptonAI](https://www.lepton.ai/) | A platform that provides cloud-based infrastructure and tools for deploying and running AI applications efficiently. | Large Panel of Open source Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Microsoft Azure](https://azure.microsoft.com/) | A comprehensive suite of AI services and tools designed to help developers and organizations build, deploy, and manage AI applications at scale. | Large Panel of Open source and Proprietary Models | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Mistral AI](https://mistral.ai/) | A French artificial intelligence company that specializes in developing large language models (LLMs) and AI products. | Mistral Large / Codestral / Mixtral / Mistral 7B | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [OctoAI](https://octoai.cloud/) | A full-stack inference platform designed specifically for generative AI applications. | Large Panel of Open source Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [OpenAI](https://chatgpt.com/) | Offers models like GPT-4, DALL-E, and Whisper for natural language processing, image generation, and speech recognition. |  GPT4 / GPT4-o / o-1 / Dall-E    | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | [OpenRouter](https://openrouter.ai/) |  A versatile platform designed to provide access to a wide range of large language models (LLMs) from both proprietary and open-source sources. |  Large Panel of Open source and Proprietary Models | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | [Perplexity Labs](https://labs.perplexity.ai/) | An online platform that provides free access to various powerful open-source large language models (LLMs) for experimentation and use in a wide range of applications. | Llama 3.1 /  | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) | 
 | [Poe](https://poe.com/login) | An AI chatbot aggregator platform developed by Quora that provides users access to multiple advanced language models and chatbots within a single interface. | Large Panel of Open source and Proprietary Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-| [Together](https://www.together.ai/) | A cloud platform designed for building and running generative AI applications. | any model | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) | 
-| [Vercel](https://sdk.vercel.ai/) | A powerful tool for developers looking to explore and integrate various AI models into their applications efficiently. |  Claude 3.5 / GPT4o / Gemini / Llamma3.1    | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Reka](https://octoai.cloud/) | An AI company that develops advanced multimodal AI models and technologies. | Reka Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Replicate](https://replicate.com/home) | A cloud platform that allows developers to easily run and deploy open-source machine learning models. | Large Panel of Open source Models | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [SambaNova](https://sambanova.ai/) | An artificial intelligence company that provides a comprehensive AI platform for enterprises. | Llama 3.1 Models | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Together](https://www.together.ai/) | A cloud platform designed for building and running generative AI applications. | Large Panel of Open source Models | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) | 
+| [Vercel](https://sdk.vercel.ai/) | A powerful tool for developers looking to explore and integrate various AI models into their applications efficiently. | Panel of Open source and Proprietary Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 
 #### Local Providers
 
