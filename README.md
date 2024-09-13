@@ -472,6 +472,9 @@ When referring to a Model , we use the following terms :
 > [!NOTE]
 > The models are ranked according to their Elo scores (with higher scores indicating better performance) from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 
+> [!IMPORTANT]
+> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
+
 #### Proprietary Models
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Elo Score      | Context Window* |  Knowledge Cutoff | Pricing model |
@@ -578,9 +581,6 @@ When referring to a Model , we use the following terms :
 
 #### Providers
 
-> [!IMPORTANT]
-> If you're concerned about **privacy issues related to cloud based LLM** tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on **how to set up and run your own model on your local machine.**
-
 #### Cloud-based Providers
 
 > [!Tip]
@@ -616,6 +616,9 @@ When referring to a Model , we use the following terms :
 
 #### Local Providers
 
+> [!IMPORTANT]
+> If you're concerned about **privacy issues related to cloud based LLM** tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on **how to set up and run your own model on your local machine.**
+
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [AnythingLLM](https://anythingllm.com/) | an open-source, full-stack application that allows users to chat with their documents in a private and enterprise-friendly environment. | All | Open source Models and Proprietary models via API |
@@ -626,8 +629,7 @@ When referring to a Model , we use the following terms :
 | [Msty](https://msty.app/) |  an AI chat application that offers a user-friendly interface for interacting with both local and online AI language models. | All | Open source Models and Proprietary models via API |
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
 
-> [!IMPORTANT]
-> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
+<br>
 
 ### Coding LLMs
 
