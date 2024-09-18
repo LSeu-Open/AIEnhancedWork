@@ -15,14 +15,16 @@
 * [Introduction](#introduction)
   + [The Privacy and security issue of Cloud based Providers](#the-privacy-and-security-issue-of-cloud-based-providers)
   + [Benefits of Running LLM Models Locally](#benefits-of-running-llm-locally) 
-* [Install and Setup Ollama](#step-1-install-and-setup-ollama)
+* [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
+* [Find the Provider that is right for you](#find-the-provider-that-is-right-for-you)
+* [Ollama](#ollama)
   + [Installation](#installation)
   + [Quickstart](#quickstart)
-* [Use Ollama in your browser using Page assist extension](#step-2-use-ollama-in-your-browser-using-page-assist-extension)
-  + [Installation and setup](#installation-and-setup)
-  + [Browser Support](#browser-support)
-  + [Usage](#usage)
- * [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
+  + [User Friendly Ollama Models Interaction](#user-friendly-ollama-models-interaction)
+    + [Installation and setup](#installation-and-setup)
+    + [Browser Support](#browser-support)
+    + [Usage](#usage)
+
 
 <br>
 
@@ -52,17 +54,21 @@ Ultimately, running LLM models locally provides a high degree of privacy and con
 
 This section is designed to provide you with the **necessary knowledge and resources to make informed decisions about selecting the right model for your specific needs**. To facilitate this process, I have prepared **two reference tables to support your search**.
 
-> The first table showcases **open-source models**, which can be **run locally on your machine.** To ensure optimal performance, I have outlined the **recommended hardware requirements for each model**. Please note that while it may be possible to run certain models with lower hardware specifications, this may result in slower output and performance. 
-
-> For **users with limited system resources** or older hardware configurations, I will also provide guidance on **cloud-based providers that can efficiently run these models**.
-
-> The second table features **proprietary models**, which typically operate on cloud-based providers.
+* **The first table showcases open-source models**, which can be **run locally on your machine.** To ensure optimal performance, I have outlined the **recommended hardware requirements for each model**.
+* **The second table features proprietary models**, which typically operate on cloud-based providers.
 
 > [!NOTE]
-> The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet). Please note that **Quality Index is subject to change** based on daily test-run and will be updated regularly to reflect the latest rankings. I consider this **benchmarking methodology to be less biased** than the Elo score method employed by LMSys. Furthermore, the **LMSys leaderboard does not address datasets contamination , model quantization and model overfitting issues.**
+> Please note that while it may be **possible to run certain models with lower hardware specifications**, this may result in **slower inference speed**.
+>
+> For **users with limited system resources** or older hardware configurations, I will also provide guidance on **cloud-based providers that can efficiently run these models**.
 
 > [!IMPORTANT]
 > The VRAM requirements listed in the tables are indicative estimates, calculated for a **Q4_0 quantization** that represents a **balance between model precision and inference speed** as recommended by the **default Ollama configuration.**
+
+> [!NOTE]
+> The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet). Please note that **Quality Index is subject to change** based on daily test-run and will be updated regularly to reflect the latest rankings.
+>
+> We consider this **benchmarking methodology to be less biased** than the Elo score method employed by LMSys. Furthermore, the **LMSys leaderboard does not address datasets contamination , model quantization and model overfitting issues.**
 
 ### Open Source Models
 
@@ -116,8 +122,22 @@ This section is designed to provide you with the **necessary knowledge and resou
 | [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**  | 54.2       | Freemium    |
 | [Reka-Flash](https://www.reka.ai/)            | **Reka**       | 46.2       | Freemium |
 
+<br>
 
 ## Find the Provider that is right for you
+
+This section is designed to provide you with the **necessary knowledge and resources to make informed decisions about selecting the right provider for your specific needs**.
+
+
+| Provider        | User Interface      | Ease of use               | Model customization      | Built-in chat interface  | Model discovery/download | Multi-platform support        | Open-source   | Integration with other tools |
+|:----------------|:-------------------:|:-------------------------:|:------------------------:|:------------------------:|:------------------------:|:---------------------------:|:-------------:|:-------------------------:|
+| [Ollama](https://ollama.com/) | Command-line & API  | Simple      | Yes                      | No (requires client)     | Limited                  | Windows, macOS, Linux       | Yes           | Extensive                |
+| [LM Studio](https://lmstudio.ai/) | GUI | User-friendly           | Yes                      | Yes                      | Extensive                | Windows, macOS, Linux       | No            | Limited                  |
+| [Jan](https://jan.ai/) | GUI          | User-friendly             | Limited                  | Yes                      | Limited                  | Windows, macOS, Linux       | Yes           | Limited                  |
+| [MSTY](https://msty.app/) | GUI       | User-friendly             | Limited                  | Yes                      | Limited                  |macOS                        | No            | Limited                  |
+| [Enchanted](https://github.com/AugustDev/enchanted) | GUI | User-friendly |  Limited         | Yes                      | Limited                  | macOS                       | No            | Yes (macOS)              |
+| [AnythingLLM](https://anythingllm.com/) | Web-based | User-friendly | Yes                    | Yes                      | Limited                  |Cross-platform (web-based)   | Yes           | Yes                      |
+
 
 ## Ollama
 
@@ -126,9 +146,9 @@ This section is designed to provide you with the **necessary knowledge and resou
 | Platform          | Installation Method |
 |:-----------------:|:--------------------:|
 | **macOS**         | [Download](https://ollama.com/download/Ollama-darwin.zip) |
-| **Windows** | [Download](https://ollama.com/download/OllamaSetup.exe)  |
-| **Linux**          | [Manual install instructions](https://github.com/ollama/ollama/blob/main/docs/linux.md) |
-| **Docker**         | [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) is available on Docker Hub.  |
+| **Windows**       | [Download](https://ollama.com/download/OllamaSetup.exe)  |
+| **Linux**         | [Manual install instructions](https://github.com/ollama/ollama/blob/main/docs/linux.md) |
+| **Docker**        | [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) is available on Docker Hub.  |
 
 ### Quickstart
 
@@ -164,9 +184,9 @@ ollama list
 
 <br>
 
-### Improved Usage
+### User Friendly Ollama Models Interaction
 
-It is not comfortable working directly in the command-line interface (CLI) for most, so i will show you how to interact with your Ollama model using a browser-based interface. We will be using the [Page assist extension](https://github.com/n4ze3m/page-assist).
+For those who prefer a more user-friendly experience, We'll demonstrate how to interact with your Ollama model through our browser-based interface, which provides a graphical and intuitive way of working with your LLM. We will be using the [Page assist extension](https://github.com/n4ze3m/page-assist).
 
 Page Assist is an open-source Chrome Extension that provides a Sidebar and Web UI for your Local AI model. It allows you to interact with your model from any webpage.
 
