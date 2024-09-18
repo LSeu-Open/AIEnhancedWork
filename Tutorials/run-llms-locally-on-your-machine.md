@@ -1,4 +1,4 @@
-![header](Header_local_llms.png)
+# How to run LLMs locally on your machine
 
 <div align="center">
  
@@ -15,8 +15,8 @@
 * [Introduction](#introduction)
   + [The Privacy and security issue of Cloud based Providers](#the-privacy-and-security-issue-of-cloud-based-providers)
   + [Benefits of Running LLM Models Locally](#benefits-of-running-llm-locally) 
-* [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
 * [Find the Provider that is right for you](#find-the-provider-that-is-right-for-you)
+* [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
 * [Ollama](#ollama)
   + [Installation](#installation)
   + [Quickstart](#quickstart)
@@ -50,7 +50,27 @@ Ultimately, running LLM models locally provides a high degree of privacy and con
 
 <br>
 
+## Find the Provider that is right for you
+
+To get started, **select a local model provider** that streamlines the process of hosting and deploying a LLM.
+
+This section is designed to provide you with the **necessary knowledge and resources to make informed decisions about selecting the right provider for your specific needs**.
+
+
+| Provider        | User Interface      | Ease of use               | Model customization      | Built-in chat interface  | Model discovery/download | Multi-platform support        | Open-source   | Integration with other tools |
+|:----------------|:-------------------:|:-------------------------:|:------------------------:|:------------------------:|:------------------------:|:---------------------------:|:-------------:|:-------------------------:|
+| [Ollama](https://ollama.com/) | Command-line & API  | Simple      | Yes                      | No (requires client)     | Limited                  | Windows, macOS, Linux       | Yes           | Extensive                |
+| [LM Studio](https://lmstudio.ai/) | GUI | User-friendly           | Yes                      | Yes                      | Extensive                | Windows, macOS, Linux       | No            | Limited                  |
+| [Jan](https://jan.ai/) | GUI          | User-friendly             | Limited                  | Yes                      | Limited                  | Windows, macOS, Linux       | Yes           | Limited                  |
+| [MSTY](https://msty.app/) | GUI       | User-friendly             | Limited                  | Yes                      | Limited                  |macOS                        | No            | Limited                  |
+| [Enchanted](https://github.com/AugustDev/enchanted) | GUI | User-friendly |  Limited         | Yes                      | Limited                  | macOS                       | No            | Yes (macOS)              |
+| [AnythingLLM](https://anythingllm.com/) | Web-based | User-friendly | Yes                    | Yes                      | Limited                  |Cross-platform (web-based)   | Yes           | Yes                      |
+
+<br>
+
 ## Find the Model that is right for you
+
+Once you have selected your local model provider, you'll need to **decide which Model** to run. For **users with limited system resources** or older hardware configurations, I will also provide **cloud-based providers that can efficiently run these models**.
 
 This section is designed to provide you with the **necessary knowledge and resources to make informed decisions about selecting the right model for your specific needs**. To facilitate this process, I have prepared **two reference tables to support your search**.
 
@@ -59,8 +79,6 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 > [!NOTE]
 > Please note that while it may be **possible to run certain models with lower hardware specifications**, this may result in **slower inference speed**.
->
-> For **users with limited system resources** or older hardware configurations, I will also provide guidance on **cloud-based providers that can efficiently run these models**.
 
 > [!IMPORTANT]
 > The VRAM requirements listed in the tables are indicative estimates, calculated for a **Q4_0 quantization** that represents a **balance between model precision and inference speed** as recommended by the **default Ollama configuration.**
@@ -124,22 +142,9 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 <br>
 
-## Find the Provider that is right for you
-
-This section is designed to provide you with the **necessary knowledge and resources to make informed decisions about selecting the right provider for your specific needs**.
-
-
-| Provider        | User Interface      | Ease of use               | Model customization      | Built-in chat interface  | Model discovery/download | Multi-platform support        | Open-source   | Integration with other tools |
-|:----------------|:-------------------:|:-------------------------:|:------------------------:|:------------------------:|:------------------------:|:---------------------------:|:-------------:|:-------------------------:|
-| [Ollama](https://ollama.com/) | Command-line & API  | Simple      | Yes                      | No (requires client)     | Limited                  | Windows, macOS, Linux       | Yes           | Extensive                |
-| [LM Studio](https://lmstudio.ai/) | GUI | User-friendly           | Yes                      | Yes                      | Extensive                | Windows, macOS, Linux       | No            | Limited                  |
-| [Jan](https://jan.ai/) | GUI          | User-friendly             | Limited                  | Yes                      | Limited                  | Windows, macOS, Linux       | Yes           | Limited                  |
-| [MSTY](https://msty.app/) | GUI       | User-friendly             | Limited                  | Yes                      | Limited                  |macOS                        | No            | Limited                  |
-| [Enchanted](https://github.com/AugustDev/enchanted) | GUI | User-friendly |  Limited         | Yes                      | Limited                  | macOS                       | No            | Yes (macOS)              |
-| [AnythingLLM](https://anythingllm.com/) | Web-based | User-friendly | Yes                    | Yes                      | Limited                  |Cross-platform (web-based)   | Yes           | Yes                      |
-
-
 ## Ollama
+
+Ollama is our top recommendation for running LLMs locally due to its robust integration capabilities and adaptability. Below is a step-by-step guide on setting up Ollama as a local model provider via an accessible and user-friendly interface.
 
 ### Installation
 
