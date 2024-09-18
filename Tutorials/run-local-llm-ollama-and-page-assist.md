@@ -1,14 +1,24 @@
 ![header](Header_local_llms.png)
 
+<div align="center">
+ 
+ ⚠️ **OVERALL STRUCTURE IMPROVEMENT IN PROGRESS** ⚠️ 
+
+**We are currently enhancing this page to provide better content. We appreciate your patience as you wait for the finalized version.**
+
+**Please note that this is a work-in-progress tutorial and may contain inaccuracies or incomplete information.**
+  
+</div>
+
 ## Table of Contents
 
 * [Introduction](#introduction)
   + [The Privacy and security issue of Cloud based Providers](#the-privacy-and-security-issue-of-cloud-based-providers)
   + [Benefits of Running LLM Models Locally](#benefits-of-running-llm-locally) 
-* [Step 1 Install and Setup Ollama](#step-1-install-and-setup-ollama)
+* [Install and Setup Ollama](#step-1-install-and-setup-ollama)
   + [Installation](#installation)
   + [Quickstart](#quickstart)
-* [Step 2 Use Ollama in your browser using Page assist extension](#step-2-use-ollama-in-your-browser-using-page-assist-extension)
+* [Use Ollama in your browser using Page assist extension](#step-2-use-ollama-in-your-browser-using-page-assist-extension)
   + [Installation and setup](#installation-and-setup)
   + [Browser Support](#browser-support)
   + [Usage](#usage)
@@ -38,111 +48,6 @@ Ultimately, running LLM models locally provides a high degree of privacy and con
 
 <br>
 
-## Step 1 Install and Setup Ollama
-
-### Installation
-
-| Platform          | Installation Method |
-|:-----------------:|:--------------------:|
-| **macOS**         | [Download](https://ollama.com/download/Ollama-darwin.zip) |
-| **Windows** | [Download](https://ollama.com/download/OllamaSetup.exe)  |
-| **Linux**          | [Manual install instructions](https://github.com/ollama/ollama/blob/main/docs/linux.md) |
-| **Docker**         | [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) is available on Docker Hub.  |
-
-### Quickstart
-
-> [!Note]
-> You should have at least 6 GB of VRAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
-> Depending on your hardware specifications The model might take a long time to generate text or process requests.
-
-<div align="center">
- 
-**👉 [Help me pick a model !](#find-the-model-that-is-right-for-you) 👈**
-  
-</div>
-
-<br>
-
-To run and chat with [Llama 3.1](https://ollama.com/library/llama3.1) write the following input in a terminal:
-
-```
-ollama run llama3.1
-```
-This will allow you to chat with the **llama3.1:8B model** within the command-line interface (CLI). See the list of models available on [ollama.com/library](https://ollama.com/library 'ollama model library'). 
-
-To download a model without launching it, simply enter the following command:
-
-```
-ollama pull llama3.1
-```
-To view the list of models you've downloaded, simply use the following command:
-
-```
-ollama list
-```
-
-<br>
-
-## Step 2 Use Ollama in your browser using Page assist extension
-
-It is not comfortable working directly in the command-line interface (CLI) for most, so i will show you how to interact with your Ollama model using a browser-based interface. We will be using the [Page assist extension](https://github.com/n4ze3m/page-assist).
-
-Page Assist is an open-source Chrome Extension that provides a Sidebar and Web UI for your Local AI model. It allows you to interact with your model from any webpage.
-
-Want to explore other possibilities? Take a look at the alternative solutions available in our [Local Providers section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/README.md#local-providers-1).
-
-### Installation and setup 
-
-You can install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo)
-
-#### Browser Support
-
-| Browser  | Sidebar | Chat With Webpage | Web UI |
-| -------- | ------- | ----------------- | ------ |
-| Chrome   | ✅      | ✅                | ✅     |
-| Brave    | ✅      | ✅                | ✅     |
-| Firefox  | ✅      | ✅                | ✅     |
-| Vivaldi  | ✅      | ✅                | ✅     |
-| Edge     | ✅      | ❌                | ✅     |
-| Opera    | ❌      | ❌                | ✅     |
-| Arc      | ❌      | ❌                | ✅     |
-
-
-If needed, see the [Manual Installation](https://github.com/n4ze3m/page-assist) instructions on their github repository.
-
-Once the extension is installed Just click on the extension icon and it'll take you straight to the chatGPT-like UI.
-
-To verify after installation process, I would suggest the following steps :
-
-- A center message **must letting you know that Ollama is running in the background**, ready to handle your requests.
-- To the top left corner, a **dropdown menu** awaits, listing all models you've installed and are currently available for interaction. Simply **select the model with which you wish to engage.**
-- In the **top left icon**, click to open a sidebar that enables Conversation Management. This feature allows you to **manage and organize your conversations**.
-
-> [!Note]
-> When you first interact with your model, there might be a brief delay as it loads into memory. But once you're chatting away, responses should come quickly !
-> Just remember that processing time can vary depending on your computer's specs.
-
-## Usage
-
-### Sidebar
-
-Once the extension is installed, you can **open the sidebar via context menu or keyboard shortcut**.  By exploiting this sidebar functionality, you can engage in seamless conversations with your model while **leveraging the current web page as contextual reference (website, documentation, PDF...).**
-
-▶️ in order to use `chat with the current page` option you need to set a Embedding Model in the `RAG Settings`.
-
-> Default Keyboard Shortcut: `Ctrl+Shift+P`
-
-### Web UI
-
-You can open the Web UI by clicking on the extension icon which will open a new tab with the Web UI.
-
-> Default Keyboard Shortcut: `Ctrl+Shift+L`
-
-> [!Note]
-> You can change the keyboard shortcuts from the extension settings on the Chrome Extension Management page.
-
-<br>
-
 ## Find the Model that is right for you
 
 This section is designed to provide you with the **necessary knowledge and resources to make informed decisions about selecting the right model for your specific needs**. To facilitate this process, I have prepared **two reference tables to support your search**.
@@ -158,7 +63,6 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 > [!IMPORTANT]
 > The VRAM requirements listed in the tables are indicative estimates, calculated for a **Q4_0 quantization** that represents a **balance between model precision and inference speed** as recommended by the **default Ollama configuration.**
-
 
 ### Open Source Models
 
@@ -212,3 +116,110 @@ This section is designed to provide you with the **necessary knowledge and resou
 | [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**  | 54.2       | Freemium    |
 | [Reka-Flash](https://www.reka.ai/)            | **Reka**       | 46.2       | Freemium |
 
+
+## Find the Provider that is right for you
+
+## Ollama
+
+### Installation
+
+| Platform          | Installation Method |
+|:-----------------:|:--------------------:|
+| **macOS**         | [Download](https://ollama.com/download/Ollama-darwin.zip) |
+| **Windows** | [Download](https://ollama.com/download/OllamaSetup.exe)  |
+| **Linux**          | [Manual install instructions](https://github.com/ollama/ollama/blob/main/docs/linux.md) |
+| **Docker**         | [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) is available on Docker Hub.  |
+
+### Quickstart
+
+> [!Note]
+> You should have at least 6 GB of VRAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
+> Depending on your hardware specifications The model might take a long time to generate text or process requests.
+
+<div align="center">
+ 
+**👉 [Help me pick a model !](#find-the-model-that-is-right-for-you) 👈**
+  
+</div>
+
+<br>
+
+To run and chat with [Llama 3.1](https://ollama.com/library/llama3.1) write the following input in a terminal:
+
+```
+ollama run llama3.1
+```
+This will allow you to chat with the **llama3.1:8B model** within the command-line interface (CLI). See the list of models available on [ollama.com/library](https://ollama.com/library 'ollama model library'). 
+
+To download a model without launching it, simply enter the following command:
+
+```
+ollama pull llama3.1
+```
+To view the list of models you've downloaded, simply use the following command:
+
+```
+ollama list
+```
+
+<br>
+
+### Improved Usage
+
+It is not comfortable working directly in the command-line interface (CLI) for most, so i will show you how to interact with your Ollama model using a browser-based interface. We will be using the [Page assist extension](https://github.com/n4ze3m/page-assist).
+
+Page Assist is an open-source Chrome Extension that provides a Sidebar and Web UI for your Local AI model. It allows you to interact with your model from any webpage.
+
+Want to explore other possibilities? Take a look at the alternative solutions available in our [Local Providers section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/README.md#local-providers-1).
+
+#### Installation and setup 
+
+You can install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo)
+
+#### Browser Support
+
+| Browser  | Sidebar | Chat With Webpage | Web UI |
+| -------- | ------- | ----------------- | ------ |
+| Chrome   | ✅      | ✅                | ✅     |
+| Brave    | ✅      | ✅                | ✅     |
+| Firefox  | ✅      | ✅                | ✅     |
+| Vivaldi  | ✅      | ✅                | ✅     |
+| Edge     | ✅      | ❌                | ✅     |
+| Opera    | ❌      | ❌                | ✅     |
+| Arc      | ❌      | ❌                | ✅     |
+
+
+If needed, see the [Manual Installation](https://github.com/n4ze3m/page-assist) instructions on their github repository.
+
+Once the extension is installed Just click on the extension icon and it'll take you straight to the chatGPT-like UI.
+
+To verify after installation process, I would suggest the following steps :
+
+- A center message **must letting you know that Ollama is running in the background**, ready to handle your requests.
+- To the top left corner, a **dropdown menu** awaits, listing all models you've installed and are currently available for interaction. Simply **select the model with which you wish to engage.**
+- In the **top left icon**, click to open a sidebar that enables Conversation Management. This feature allows you to **manage and organize your conversations**.
+
+> [!Note]
+> When you first interact with your model, there might be a brief delay as it loads into memory. But once you're chatting away, responses should come quickly !
+> Just remember that processing time can vary depending on your computer's specs.
+
+#### Usage
+
+##### Sidebar
+
+Once the extension is installed, you can **open the sidebar via context menu or keyboard shortcut**.  By exploiting this sidebar functionality, you can engage in seamless conversations with your model while **leveraging the current web page as contextual reference (website, documentation, PDF...).**
+
+▶️ in order to use `chat with the current page` option you need to set a Embedding Model in the `RAG Settings`.
+
+> Default Keyboard Shortcut: `Ctrl+Shift+P`
+
+##### Web UI
+
+You can open the Web UI by clicking on the extension icon which will open a new tab with the Web UI.
+
+> Default Keyboard Shortcut: `Ctrl+Shift+L`
+
+> [!Note]
+> You can change the keyboard shortcuts from the extension settings on the Chrome Extension Management page.
+
+<br>
