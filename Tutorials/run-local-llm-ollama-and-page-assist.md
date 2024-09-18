@@ -154,75 +154,61 @@ This section is designed to provide you with the **necessary knowledge and resou
 > The second table features **proprietary models**, which typically operate on cloud-based providers.
 
 > [!NOTE]
-> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [LMSys Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+> The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet). Please note that **Quality Index is subject to change** based on daily test-run and will be updated regularly to reflect the latest rankings. I consider this **benchmarking methodology to be less biased** than the Elo score method employed by LMSys. Furthermore, the **LMSys leaderboard does not address datasets contamination , model quantization and model overfitting issues.**
+
+> [!IMPORTANT]
+> The VRAM requirements listed in the tables are indicative estimates, calculated for a **Q4_0 quantization** that represents a **balance between model precision and inference speed** as recommended by the **default Ollama configuration.**
 
 
-### Open Source Models (1100+ Elo score)
+### Open Source Models
 
 ***Massive models*** : Challenging for local deployment due to computational requirements.
 
-| Organization       | Model                                                                 | Model Size  | Hardware requirement              |  Elo score  |  Ollama libraries |  Cloud-based providers |
+| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (4xH100 or better)  |  1263       | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |          
-| **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (3xRTX 4090 or better) | 1248    | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
-| **NexusFlow**      | [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B)             | 70B         | 40GB+ VRAM GPU (2xRTX 4090 or better) | 1248    | No                                              | [Hugging Face](https://huggingface.co/Nexusflow/Athene-70B) |
-| **Meta**           | [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0) | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | 1240  | [Yes](https://ollama.com/library/llama3.1:70b)  | [Groq](https://groq.com/) |
-| **Nvidia**         | [Nemotron-4-340B-Instruct](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B | 160GB+ VRAM GPU ( 2xH100 or better) |  1206 | No                                            | [Nvidia](https://build.nvidia.com/nvidia/nemotron-4-340b-instruct) |
-| **Meta**           | [Llama-3-70b-Instruct](https://ollama.com/library/llama3:70b-instruct) | 70B        | 40GB+ VRAM GPU (2xRTX 4090 or better) | 1190    | [Yes](https://ollama.com/library/llama3:70b-instruct) | [Groq](https://groq.com/) |
-| **Cohere**         | [Command R+](https://ollama.com/library/command-r-plus)               | 104B        | 60GB+ VRAM GPU (3xRTX 4090 or better) | 1187 | [Yes](https://ollama.com/library/command-r-plus)   | [Cohere](https://cohere.com/command) |
-| **Alibaba**        | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)  | 72B         | 40GB+ VRAM GPU (2xRTX 4090 or better) |  1162 | [Yes](https://ollama.com/library/qwen2:72b-instruct) | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct) |
-| **Alibaba**        | [Qwen1.5-110B-Chat](https://ollama.com/library/qwen:110b-chat)        | 110B        | 70GB+ VRAM GPU (4xRTX 4090 or better) |  1159 | [Yes](https://ollama.com/library/qwen:110b-chat) | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen1.5-110B-Chat-demo)  |
-| **Alibaba**        | [Qwen1.5-72B-Chat](https://ollama.com/library/qwen:72b-chat)          | 72B         | 40GB+ VRAM GPU (2xRTX 4090 or better) |  1149 | [Yes](https://ollama.com/library/qwen:72b-chat) | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat)   |
-| **Mistral**        | [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | 141B | 80GB+ VRAM GPU (1xH100 or better) | 1246    | [Yes](https://ollama.com/library/mixtral:8x22b-instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
-| **Databricks**     | [DBRX-Instruct](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) | 132B | 80GB+ VRAM GPU (1xH100 or better) | 1103    | [Yes](https://ollama.com/library/dbrx:instruct) | No | 
+| **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (3xRTX 4090 or better) | 73    | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
+| **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (4xH100 or better)  |  71.9       | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |          
+| **Alibaba**        | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)  | 72B         | 40GB+ VRAM GPU (2xRTX 4090 or better) |  68.9 | [Yes](https://ollama.com/library/qwen2:72b-instruct) | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct) |
+| **Deepseek**       | [Deepseek-v2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5)     | 236B        | 133GB+ VRAM GPU (2xH100 or better) |  65.8 | [Yes](https://ollama.com/library/deepseek-v2.5) | [Deepseek](https://platform.deepseek.com/sign_in) |
+| **Meta**           | [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0) | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | 65.3  | [Yes](https://ollama.com/library/llama3.1:70b)  | [Groq](https://groq.com/) |
+| **Meta**           | [Llama-3-70b-Instruct](https://ollama.com/library/llama3:70b-instruct) | 70B        | 40GB+ VRAM GPU (2xRTX 4090 or better) | 61.9    | [Yes](https://ollama.com/library/llama3:70b-instruct) | [Groq](https://groq.com/) |
+| **Mistral**        | [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | 141B | 80GB+ VRAM GPU (1xH100 or better) | 61.4    | [Yes](https://ollama.com/library/mixtral:8x22b-instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
+| **Cohere**         | [Command R+](https://ollama.com/library/command-r-plus)               | 104B        | 60GB+ VRAM GPU (3xRTX 4090 or better) | 55.9 | [Yes](https://ollama.com/library/command-r-plus)   | [Cohere](https://cohere.com/command) |
+| **Databricks**     | [DBRX-Instruct](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) | 132B | 80GB+ VRAM GPU (1xH100 or better) | 49.6    | [Yes](https://ollama.com/library/dbrx:instruct) | No | 
  
 **Mid-sized models** : Suitable for deployment on a high-performance local workstation.
 
-| Organization       | Model                                                                 | Model Size  | Hardware requirement              |  Elo score  |  Ollama libraries |  Cloud-based providers |
+| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Google**         | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)        | 27B         | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) | 1218 | [Yes](https://ollama.com/library/gemma2:27b-instruct-q4_0) | [Hugging Face](https://huggingface.co/google/gemma-2-27b-it) |
-| **Cohere**         | [Command R](https://ollama.com/library/command-r)                     | 35B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 1149 | [Yes](https://ollama.com/library/command-r)   | [Cohere](https://cohere.com/command) |
-| **Mistral**        | [Mixtral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) | 46.7B   | 26GB+ VRAM GPU (1xH100 or better) | 1114    | [Yes](https://ollama.com/library/mixtral:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
+| **Cohere**         | [Command R](https://ollama.com/library/command-r)                     | 35B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 51.1 | [Yes](https://ollama.com/library/command-r)   | [Cohere](https://cohere.com/command) |
+| **Google**         | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)        | 27B         | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) | 48.55 | [Yes](https://ollama.com/library/gemma2:27b-instruct-q4_0) | [Hugging Face](https://huggingface.co/google/gemma-2-27b-it) |
+| **Mistral**        | [Mixtral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) | 46.7B   | 26GB+ VRAM GPU (1xH100 or better) | 41.9    | [Yes](https://ollama.com/library/mixtral:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
 
 ***Small models*** : Lightweight and deployable on most local machines.
 
-| Organization       | Model                                                                 | Model Size  | Hardware requirement              |  Elo score  |  Ollama libraries |  Cloud-based providers |
+| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Google**         | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)          | 9B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 1187 | [Yes](https://ollama.com/library/gemma2:9b-instruct-q4_0) | [Hugging Face](https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it) |
-| **Meta**           | [Llama-3.1-8b-Instruct](https://ollama.com/library/llama3.1:8b)       | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 1161 | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
-| **Meta**           | [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)     | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 1152 | [Yes](https://ollama.com/library/llama3:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
-| **Google**         | [Gemma-2-2b-it](https://ollama.com/library/gemma2:2b-instruct-q4_0)   | 2B          | 2GB+ VRAM GPU (rx 6500 or RTX 3050 or better) | 1127 | [Yes](https://ollama.com/library/gemma2:2b-instruct-q4_0) | [Hugging Face](https://huggingface.co/google/gemma-2-2b-it) |
-| **Microsoft**      | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 1123 | [Yes](https://ollama.com/library/phi3:14b-instruct) | No |
-| **Microsoft**      | [Phi-3-small-8k-instruct](https://huggingface.co/microsoft/Phi-3-small-8k-instruct) | 7B | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 1101 | No | No |
+| **Google**         | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)          | 9B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.650 | [Yes](https://ollama.com/library/gemma2:9b-instruct-q4_0) | [Hugging Face](https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it) |
+| **Meta**           | [Llama-3.1-8b-Instruct](https://ollama.com/library/llama3.1:8b)       | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.1 | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
+| **Meta**           | [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)     | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.15 | [Yes](https://ollama.com/library/llama3:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
+| **Microsoft**      | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | None | [Yes](https://ollama.com/library/phi3:14b-instruct) | No |
+| **Microsoft**      | [Phi-3-small-8k-instruct](https://huggingface.co/microsoft/Phi-3-small-8k-instruct) | 7B | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | None | No | No |
 
-### Proprietary Model (1100+ Elo score)
+### Proprietary Model
 
-| Model                                         | Provider     | Elo score  | Pricing |
+| Model                                         | Provider     | Quality Index | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|
-| [GPT-4o-latest](https://chat.openai.com/)     | **OpenAI**   | 1314       | Paid    |
-| [Gemini 1.5 Pro Exp](https://gemini.google.com/advanced?hl=en) | **Google** | 1297 | Paid    |
-| [GPT-4o](https://chat.openai.com/)            | **OpenAI**    | 1286       | Paid    |
-| [GPT-4o-mini](https://chat.openai.com/)       | **OpenAI**    | 1274       | Freemium    |
-| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic** | 1271       | Paid    |
-| [Gemini Advanced](https://gemini.google.com/advanced?hl=en) | **Google** | 1266 | Paid    |
-| [Gemini 1.5 Pro](https://gemini.google.com/)  | **Google**    | 1260       | Paid    |
-| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**    | 1257       | Paid    |
-| [GPT-4](https://chat.openai.com/)             | **OpenAI**    | 1251       | Paid    |
-| [Claude-3 Opus](https://claude.ai/)           | **Anthropic** | 1248       | Paid    |
-| [Yi-Large](https://www.01.ai/)                | **01.ai**     | 1240       | Freemium |
-| [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google** | 1228 | Paid |
-| [Deepseek-v2-API-0628](https://platform.deepseek.com/sign_in)  | **Deepseek** | 1222 | Paid(API) |
-| [Gemini Pro (Bard)](https://gemini.google.com/) | **Google**   | 1208       | Paid    |
-| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**  | 1200       | Freemium    |
-| [Reka-Core](https://www.reka.ai/)             | **Reka**       | 1199       | Freemium |
-| [Qwen-Max](https://help.aliyun.com/zh/dashscope/developer-reference/api-details) | **Alibaba** | 1182 | Preview |
-| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**  | 1179       | Freemium    |
-| [Mistral-Large](https://mistral.ai/)          | **Mistral**    | 1157       | Free    |
-| [Reka-Flash](https://www.reka.ai/)            | **Reka**       | 1155       | Freemium |
-| [claude-1](https://claude.ai/)                | **Anthropic**  | 1151       | Free    |
-| [Mistral-Medium](https://mistral.ai/)         | **Mistral**    | 1148       | Free    |
-| [claude-2](https://claude.ai/)                | **Anthropic**  | 1131       | Free    |
-| [Mistral-Next](https://mistral.ai/)           | **Mistral**    | 1124       | Free    |
-| [GPT-3.5 Turbo](https://chat.openai.com/)     | **OpenAI**     | 1117       | Free    |
-| [claude-instant-1](https://claude.ai/)        | **Anthropic**  | 1111       | Free    |
+| [GPT-o1-preview](https://chat.openai.com/)    | **OpenAI**   | 84.6       | Paid    |
+| [GPT-4o-latest](https://chat.openai.com/)     | **OpenAI**   | 77.2       | Paid    |
+| [Gemini 1.5 Pro](https://gemini.google.com/advanced?hl=en) | **Google** | 71.5 | Paid    |
+| [GPT-4o-mini](https://chat.openai.com/)       | **OpenAI**    | 71.4       | Freemium    |
+| [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic** | 76.9       | Paid    |
+| [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**    | 74.3       | Paid    |
+| [Claude-3 Opus](https://claude.ai/)           | **Anthropic** | 70.3       | Paid    |
+| [Yi-Large](https://www.01.ai/)                | **01.ai**     | 58.3       | Freemium |
+| [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google** | 60.0 | Paid |
+| [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**  | 57.2       | Freemium    |
+| [Reka-Core](https://www.reka.ai/)             | **Reka**       | 56.8       | Freemium |
+| [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**  | 54.2       | Freemium    |
+| [Reka-Flash](https://www.reka.ai/)            | **Reka**       | 46.2       | Freemium |
 
