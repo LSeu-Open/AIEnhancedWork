@@ -231,14 +231,14 @@ The models are ranked according to **LiveCodeBench Pass@1** Code Generation scor
 
 | Model             | Provider     | Pass@1 score (/100) | Pricing |
 |:-----------------:|:------------:|:----------------------:|:-------:|
-| [Claude-3.5 Sonnet](https://claude.ai//)     | **Anthropic**    | 54.1   | Freemium    |
-| [GPT-4O](https://chat.openai.com/)           | **OpenAI**       | 48 | Paid    |
+| [GPT-o1-preview](https://chat.openai.com/)   | **OpenAI**       | 59.0 | Paid    |
+| [Claude-3.5 Sonnet](https://claude.ai//)     | **Anthropic**    | 54.1   | Paid    |
+| [GPT-4o](https://chat.openai.com/)           | **OpenAI**       | 48 | Paid    |
 | [GPT-4 Turbo](https://chat.openai.com/)      | **OpenAI**       | 43.7 | Paid    |
 | [Gemini Pro 1.5](https://gemini.google.com/) | **Google**       | 42.2   | Paid    |
 | [GPT-4O-mini](https://chat.openai.com/)      | **OpenAI**       | 40.7 | Paid    |
 | [Claude-3 Opus](https://claude.ai/)          | **Anthropic**    | 35.3 | Paid    |
 | [GPT-4](https://chat.openai.com/)            | **OpenAI**       | 34.9 | Paid    |
 | [Gemini Flash 1.5](https://gemini.google.com/) | **Google**       | 29.6 | Paid    |
-| [Claude-3 Sonnet](https://claude.ai/)        | **Anthropic**    | 26.3 | Free    |
-| [Claude-3 Haiku](https://claude.ai/)         | **Anthropic**    | 23.9 | Free    |
+
 
