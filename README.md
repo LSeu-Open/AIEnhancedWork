@@ -116,7 +116,7 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 Understand and Apply Artificial Intelligence through Interactive Tutorials.
 
- * Learn to **set up a local LLM chatbot** with our first tutorial, ***[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)***, and address privacy concerns of cloud-based AI tools.
+ * Learn **run LLMs locally on your machine** with our first tutorial, ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***, and address privacy concerns of cloud-based AI tools.
  * Learn to **set up your IDE to integrate your preferred AI provider** with this second tutorial, ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)***, and enhance your overall coding experience.
  * **[NEW]** Learn to ***create images locally with Midjourney-like Technology*** with this third tutorial, ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***,  and address privacy concerns of cloud-based AI tools.
 
@@ -427,7 +427,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 Vision language models (VLMs) are **AI models that combine computer vision and natural language processing capabilities** to understand and process both images and text together. Learn more on [Huggingface.co](https://huggingface.co/blog/vlms).
 
-Take control of your data and models - all Open-source models in this list can be run locally, with our ***[Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)***.
+Take control of your data and models - all Open-source models in this list can be run locally, with our **[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***.
 
 | Provider         | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:-----------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
@@ -504,7 +504,7 @@ When referring to a Model , we use the following terms :
 ### Generalist LLMs
 
 > [!Tip]
->  check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to set up a local LLM environment with Ollama and the Page Assist extension, and take back the control over your data.
+>  check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to set up a local LLM environment with Ollama and the Page Assist extension, and take back the control over your data.
 >
 > Running models locally gives you complete control over your data, ensuring both its **security and privacy.** This means your information isn't shared with external servers or third parties, safeguarding it from potential breaches or misuse.
 
@@ -512,7 +512,7 @@ When referring to a Model , we use the following terms :
 > The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet). Please note that **Quality Index is subject to change** based on daily test-run and will be updated regularly to reflect the latest rankings. I consider this **benchmarking methodology to be less biased** than the Elo score method employed by LMSys. Furthermore, the **LMSys leaderboard does not address datasets contamination , model quantization and model overfitting issues.**
 
 > [!IMPORTANT]
-> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md#find-the-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
+> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
 
 #### Proprietary Models
 
@@ -640,7 +640,7 @@ When referring to a Model , we use the following terms :
 #### Local Providers
 
 > [!IMPORTANT]
-> If you're concerned about **privacy issues related to cloud based LLM** tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md) on **how to set up and run your own model on your local machine.**
+> If you're concerned about **privacy issues related to cloud based LLM** tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md) on **how to set up and run your own model on your local machine.**
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
