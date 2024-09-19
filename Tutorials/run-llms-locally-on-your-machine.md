@@ -30,23 +30,37 @@
 
 ## Introduction
 
-This tutorial is designed for ***individuals seeking greater control and transparency*** in their data processing, regardless of their background or expertise. I will provide a step-by-step guide on how to set up a local LLM environment using Ollama as the backend and Page Assist extension in your browser.
+This tutorial is designed for ***individuals seeking greater control and transparency*** in their data processing, regardless of their background or expertise. We will provide a step-by-step guide on how to set up a local LLM environment using Ollama as the backend and the Page Assist extension in your browser.
 
 ### The Privacy and security issue of Cloud based Providers
 
-Using Large Language Model (LLM) services online raises significant privacy concerns. One major issue is that your data is stored and processed by third-party providers, which can lead to unintended consequences. For example, your input data may be shared with other users or used for purposes beyond what you initially intended.
+The use of Large Language Model (LLM) services online presents significant privacy concerns:
 
-The complexity of the algorithms used to train these models also poses a problem. These algorithms are often opaque, making it difficult to understand how your data is being processed and potentially leading to biased or discriminatory outcomes.
+* ***Data Storage and Processing by Third Parties***: Your data is stored and processed by third-party providers, which can result in unintended consequences such as:
+  * Sharing your input data with other users.
+  * Using your data for purposes beyond your initial intent.
 
-Finally, the sheer scale of cloud-based LLMs means that even minor issues can result in massive data breaches, compromising the privacy and security of countless users
+* ***Algorithm Complexity***: The complexity of the algorithms used to train these models poses challenges:
+  * **Opacity**: Algorithms are often opaque, making it difficult to understand how your data is being processed.
+  * **Bias and Discrimination**: This lack of transparency can lead to biased or discriminatory outcomes.
+
+* ***Scale and Data Breaches***: The large scale of cloud-based LLMs means that even minor issues can result in:
+  * Massive data breaches.
+  * Compromising the privacy and security of countless users.
 
 ### Benefits of Running LLM Locally
 
-Running Large Language Model (LLM) models locally offers several benefits. One major advantage is that it allows you to maintain complete control over your input data and ensure its confidentiality - no sensitive information will be shared with third-party providers.
+Running Large Language Model (LLM) models locally offers several compelling benefits:
 
-This approach also enables faster processing times and reduced latency, making it well-suited for applications where real-time feedback is crucial. By keeping your data and model on-premises, you can avoid potential issues related to data sovereignty, such as data localization requirements and regulatory compliance.
+* ***Complete Control Over Input Data***: Maintain complete control over your input data and ensure its confidentiality – no sensitive information will be shared with third-party providers.
 
-Ultimately, running LLM models locally provides a high degree of privacy and control, allowing you to tailor the model's training and deployment to meet your specific goals and objectives.
+* ***Faster Processing Times and Reduced Latency***: Enjoy faster processing times and reduced latency, making it well-suited for applications where real-time feedback is crucial.
+
+* ***Avoidance of Data Sovereignty Issues***: Keeping your data and model on-premises helps you avoid potential issues related to:
+  * Compliance with data localization requirements.
+  * Regulatory standards.
+    
+Ultimately, running LLM models locally provides a high degree of **privacy and control**, allowing you to tailor the model's training and deployment to meet your specific goals and objectives.
 
 <br>
 
@@ -77,11 +91,10 @@ This section is designed to provide you with the **necessary knowledge and resou
 * **The first table showcases open-source models**, which can be **run locally on your machine.** To ensure optimal performance, I have outlined the **recommended hardware requirements for each model**.
 * **The second table features proprietary models**, which typically operate on cloud-based providers.
 
-> [!NOTE]
-> Please note that while it may be **possible to run certain models with lower hardware specifications**, this may result in **slower inference speed**.
-
 > [!IMPORTANT]
 > The VRAM requirements listed in the tables are indicative estimates, calculated for a **Q4_0 quantization** that represents a **balance between model precision and inference speed** as recommended by the **default Ollama configuration.**
+>
+> Please note that while it may be **possible to run certain models with lower hardware specifications**, this may result in **slower inference speed**. If the model does not fit entirely within the VRAM, it will need to transfer some data to system memory, which is significantly slower. This can greatly impact the inference speed.
 
 > [!NOTE]
 > The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet). Please note that **Quality Index is subject to change** based on daily test-run and will be updated regularly to reflect the latest rankings.
@@ -147,7 +160,11 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 ## Ollama
 
-Ollama is our top recommendation for running LLMs locally due to its robust integration capabilities and adaptability. Below is a step-by-step guide on setting up Ollama as a local model provider via an accessible and user-friendly interface.
+Ollama is our top recommendation for running LLMs locally due to its robust integration capabilities and adaptability. 
+
+As an example, you will find below a step-by-step guide on setting up Ollama as a local model provider through an accessible and user-friendly interface. 
+
+Please follow  official documentations if you wish to use other providers, or open an issue on this repository if you want a dedicated section for your preferred provider in this file.
 
 ### Installation
 
@@ -159,10 +176,6 @@ Ollama is our top recommendation for running LLMs locally due to its robust inte
 | **Docker**        | [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) is available on Docker Hub.  |
 
 ### Quickstart
-
-> [!Note]
-> You should have at least 6 GB of VRAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
-> Depending on your hardware specifications The model might take a long time to generate text or process requests.
 
 <div align="center">
  
