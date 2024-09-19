@@ -193,15 +193,15 @@ The models are ranked according to **LiveCodeBench Pass@1** Code Generation scor
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **DeepSeek**       | [DeepSeek-Coder-V2-Instruct](https://ollama.com/library/deepseek-coder-v2:236b) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 44.7    | [Yes](https://ollama.com/library/deepseek-coder-v2:236b) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
+| **DeepSeek**       | [DeepSeek-V2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 41.8    | [Yes](https://ollama.com/library/deepseek-v2.5) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
 | **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (3XH100 or better)  | 41.6   | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |
 | **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (1XH100 or better) | 41.3   | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
+| **DeepSeek**       | [DeepSeek-Coder-V2-Instruct](https://ollama.com/library/deepseek-coder-v2:236b) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 39.7   | [Yes](https://ollama.com/library/deepseek-coder-v2:236b) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
 | **Meta**           | [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0) | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | 32.1 | [Yes](https://ollama.com/library/llama3.1:70b) | [Groq](https://groq.com/)     |
 | **Meta**           | [Llama3-70B-instruct](https://ollama.com/library/llama3:70b-instruct) | 70B |  40GB+ VRAM GPU (2xRTX 4090 or better) | 27.1   |  [Yes](https://ollama.com/library/llama3:70b-instruct) | [Groq](https://groq.com/)|
 | **Mistral**        | [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | 141B | 80GB+ VRAM GPU (1xH100 or better) | 25.8   | [Yes](https://ollama.com/library/mixtral:8x22b-instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
 | **Cohere**         | [Command R+](https://ollama.com/library/command-r-plus)               | 104B        | 60GB+ VRAM GPU (3xRTX 4090 or better) | 20 | [Yes](https://ollama.com/library/command-r-plus)   | [Cohere](https://cohere.com/command) |
 | **Meta**           | [CodeLlama-70B-Instruct](https://ollama.com/library/codellama:70b-instruct) | 70B |  40GB+ VRAM GPU (2xRTX 4090 or better) | 12.6|  [Yes](https://ollama.com/library/codellama:70b-instruct) | No |
-
 
 **Mid-sized models** : Suitable for deployment on a high-performance local workstation.
 
@@ -217,13 +217,14 @@ The models are ranked according to **LiveCodeBench Pass@1** Code Generation scor
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **01.ai**        | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  | 9B        | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 31.2   | [Yes](https://ollama.com/library/yi-coder:9b-chat)  | [Hugging Face](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  |
-| **Mistral**        | [Mamba-codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)  | 7B        | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 21.1   | No | [Mistral](https://mistral.ai/)  |
-| **Alibaba**        | [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)  | 7B          | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |  19.6 |  [Yes](https://ollama.com/library/codeqwen:v1.5-chat) | No |
-| **Meta**           | [Llama3.1-8B-instruct](https://ollama.com/library/llama3.1:8b)        | 8B         | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   |   19.2      | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
-| **DeepSeek**       | [DeepSeek-Coder-6.7B-instruct](https://ollama.com/library/deepseek-coder:6.7b-instruct)    | 7B  | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   | 18.9  | [Yes](https://ollama.com/library/deepseek-coder:6.7b-instruct) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
-| **m-a-p**          | [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | 6.7B   | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better)   | 18.7 | No | [Hugging Face](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) |
-| **THUDM**          | [CodeGeeX4-All-9B](https://ollama.com/library/codegeex4:9b-all-q4_0)  | 9B          | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better)  | 17.8 |  [Yes](https://ollama.com/library/codegeex4:9b-all-q4_0) | [Hugging Face](https://huggingface.co/spaces/vilarin/glm-chat) |
+| **Alibaba**        | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |  35.9 |  [Yes](https://ollama.com/library/qwen2.5-coder:7b-instruct) | No |
+| **01.ai**          | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  | 9B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 31.2        | [Yes](https://ollama.com/library/yi-coder:9b-chat)  | [Hugging Face](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  |
+| **Mistral**        | [Mamba-codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 21.1   | No | [Mistral](https://mistral.ai/)  |
+| **Alibaba**        | [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |  19.6    |  [Yes](https://ollama.com/library/codeqwen:v1.5-chat) | No |
+| **Meta**           | [Llama3.1-8B-instruct](https://ollama.com/library/llama3.1:8b)        | 8B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |   19.2   | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
+| **DeepSeek**       | [DeepSeek-Coder-6.7B-instruct](https://ollama.com/library/deepseek-coder:6.7b-instruct) | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 18.9  | [Yes](https://ollama.com/library/deepseek-coder:6.7b-instruct) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
+| **m-a-p**          | [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | 6.7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 18.7 | No | [Hugging Face](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) |
+| **THUDM**          | [CodeGeeX4-All-9B](https://ollama.com/library/codegeex4:9b-all-q4_0)  | 9B | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better) | 17.8     |  [Yes](https://ollama.com/library/codegeex4:9b-all-q4_0) | [Hugging Face](https://huggingface.co/spaces/vilarin/glm-chat) |
 
 ### Proprietary Models (10+ Pass@1 score)
 
