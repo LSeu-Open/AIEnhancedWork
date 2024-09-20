@@ -107,6 +107,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Alibaba**        | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)  | 72.2B         | 47GB+ VRAM GPU (2xRTX 4090 or better) |  75.25 | [Yes](https://ollama.com/library/qwen2.5:72b-instruct) | No |
 | **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (3xRTX 4090 or better) | 73    | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
 | **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (4xH100 or better)  |  71.9       | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |          
 | **Alibaba**        | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)  | 72B         | 40GB+ VRAM GPU (2xRTX 4090 or better) |  68.9 | [Yes](https://ollama.com/library/qwen2:72b-instruct) | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct) |
@@ -116,7 +117,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 | **Mistral**        | [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | 141B | 80GB+ VRAM GPU (1xH100 or better) | 61.4    | [Yes](https://ollama.com/library/mixtral:8x22b-instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
 | **Cohere**         | [Command R+](https://ollama.com/library/command-r-plus)               | 104B        | 60GB+ VRAM GPU (3xRTX 4090 or better) | 55.9 | [Yes](https://ollama.com/library/command-r-plus)   | [Cohere](https://cohere.com/command) |
 | **Databricks**     | [DBRX-Instruct](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) | 132B | 80GB+ VRAM GPU (1xH100 or better) | 49.6    | [Yes](https://ollama.com/library/dbrx:instruct) | No | 
-| **Alibaba**        | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)  | 72.2B         | 47GB+ VRAM GPU (2xRTX 4090 or better) |  Inc | [Yes](https://ollama.com/library/qwen2.5:72b-instruct) | No |
+
 
 **Mid-sized models** : Suitable for deployment on a high-performance local workstation.
 
