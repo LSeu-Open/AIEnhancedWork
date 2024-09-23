@@ -41,15 +41,19 @@
   - [Audio and Video transcription and summaries](#audio-and-video-transcription-and-summaries)
   - [Music Generation](#music-generation)
   - [Text to speech](#text-to-speech)
+    - [Text to speech Models](#text-to-speech-models)
+    - [Text to speech Providers](#text-to-speech-providers)
   - [Speech to text](#speech-to-text)
+    - [Speech to text Models](#speech-to-text-models)
+    - [Speech to text Providers](#speech-to-text-providers) 
 * [Automation](#automation)
    - [Autonomous Agents](#autonomous-agents)
    - [Automation tools](#automation-tools)
 * [Computer Vision](#computer-vision)
   - [Image Generation](#image-generation)
      + [Text to Image Model](#text-to-image-model)
-     + [Cloud-based Providers](#cloud-based-providers)
-     + [Local Providers](#local-providers-image-generation) 
+     + [Text to Image Cloud-based Providers](#text-to-image-cloud-based-providers)
+     + [Text to Image Local Providers](#text-to-image-local-providers) 
   - [Image Editing](#image-editing)
   - [Video Generation](#video-generation)
   - [Vision Language Models](#vision-language-models)
@@ -57,8 +61,8 @@
 * [Large Language Models](#large-language-models)
   - [Generalist LLMs](#generalist-llms)
      + [Providers](#providers)
-       * [Cloud-based Providers](#cloud-based-providers)
-       * [Local Providers](#local-providers-llms-providers)
+       * [LLMs Cloud-based Providers](#llms-cloud-based-providers)
+       * [LLMs Local Providers](#llms-local-providers)
   - [Coding LLMs](#coding-llms)
      + [Coding Open Source Models](#coding-open-source-models) 
      + [Coding LLMs Providers](#coding-llms-providers)
@@ -237,6 +241,11 @@ AI tools for music generation use machine learning to create original compositio
 
 Text-to-speech AI tools convert written text into natural-sounding speech, improving accessibility and creating engaging experiences. They use deep learning algorithms to synthesize speech with customizable features such as voice, accent, and speaking style.
 
+#### Text to speech Models
+
+***(Soon)***
+
+#### Text to speech Providers
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
 | [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
@@ -363,7 +372,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 >
 > For a comprehensive view of the generative image models landscape, **fine-tuned models** have been **excluded** from these rankings.
 
-#### Cloud-based Providers
+#### Text to Image Cloud-based Providers
 
 | Tool              | Description                                                                                                         |  Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -379,7 +388,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 | [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)    |
 | [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
-#### Local Providers
+#### Text to Image Local Providers
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -612,7 +621,7 @@ When referring to a Model , we use the following terms :
 
 #### Providers
 
-#### Cloud-based Providers
+#### LLMs Cloud-based Providers
 
 > [!Tip]
 >  You can compare providers' performance on the [dedicated Artificial Analysis' Leaderboard](https://artificialanalysis.ai/leaderboards/providers). This includes a comprehensive comparison and ranking of provider performance based on key metrics such as price, output speed, latency, context window, and more.
@@ -645,7 +654,7 @@ When referring to a Model , we use the following terms :
 | [Together](https://www.together.ai/) | A cloud platform designed for building and running generative AI applications. | Large Panel of Open source Models | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) | 
 | [Vercel](https://sdk.vercel.ai/) | A powerful tool for developers looking to explore and integrate various AI models into their applications efficiently. | Panel of Open source and Proprietary Models | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 
-#### Local Providers
+#### LLMs Local Providers
 
 > [!IMPORTANT]
 > If you're concerned about **privacy issues related to cloud based LLM** tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md) on **how to set up and run your own model on your local machine.**
