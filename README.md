@@ -50,12 +50,15 @@
    - [Autonomous Agents](#autonomous-agents)
    - [Automation tools](#automation-tools)
 * [Computer Vision](#computer-vision)
+  - [Image Edition](#image-edition)
   - [Image Generation](#image-generation)
-     + [Text to Image Model](#text-to-image-model)
+     + [Text to Image Models](#text-to-image-models)
      + [Text to Image Cloud-based Providers](#text-to-image-cloud-based-providers)
      + [Text to Image Local Providers](#text-to-image-local-providers) 
-  - [Image Editing](#image-editing)
   - [Video Generation](#video-generation)
+    - [Image to Video Models](#image-to-video-models)
+    - [Text to Video Models](#text-to-video-models)
+    - [Video Generation Providers](#video-generation-providers)
   - [Vision Language Models](#vision-language-models)
 * [Data Analysis](#data-analysis)
 * [Large Language Models](#large-language-models)
@@ -342,9 +345,22 @@ The Computer Vision section includes AI models and tools designed to process, an
 > [!TIP]
 > *To get the most out of image generative AI models, it's important to refine your prompts and inputs. Check out this helpful [twitter/X account](https://twitter.com/nickfloats) to learn how to improve your skills and create more impressive results. By optimizing your prompts, you can unlock new levels of creativity and achieve your desired outcomes more effectively.*
 
+### Image Edition
+
+| Tool              | Description                                                                                                         | Licence     | Pricing     |
+|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [BRIA AI](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4) | An AI-powered model to automatically remove backgrounds from images.    | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)        | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)        |
+| [Clarity AI](https://github.com/philz1337x/clarity-upscaler)  |AI Image Upscaler & Enhancer - free and open-source Magnific Alternative | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)        | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)        |
+| [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) | An AI-powered tool for applying various image effects and filters.     | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Lensa](https://prisma-ai.com/lensa) | An AI-powered mobile app for editing and enhancing photos, particularly for portrait editing.    | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Luminar Neo](https://skylum.com/fr/luminar) | An AI-powered photo editing software developed by Skylum.                                | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Magnific AI](https://magnific.ai/) | an AI-powered image upscaler and enhancer designed for professionals and enthusiasts in photography, graphic design, digital art, and illustration. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| [Pixlr](https://pixlr.com/) | An AI-powered online photo editing tool.                                                                  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)    |
+
 ### Image Generation
 
-#### Text to Image Model
+#### Text to Image Models
 
 | Provider             | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:---------------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
@@ -404,20 +420,17 @@ The Computer Vision section includes AI models and tools designed to process, an
 >
 > **Fooocus** use fine-tuned version of the Stable Diffusion XL model. These models reach 1100 to 1120 Elo score.
 
-### Image Editing
-
-| Tool              | Description                                                                                                         | Licence     | Pricing     |
-|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [BRIA AI](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4) | An AI-powered model to automatically remove backgrounds from images.    | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)        | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)        |
-| [Clarity AI](https://github.com/philz1337x/clarity-upscaler)  |AI Image Upscaler & Enhancer - free and open-source Magnific Alternative | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat)        | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)        |
-| [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) | An AI-powered tool for applying various image effects and filters.     | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
-| [Lensa](https://prisma-ai.com/lensa) | An AI-powered mobile app for editing and enhancing photos, particularly for portrait editing.    | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
-| [Luminar Neo](https://skylum.com/fr/luminar) | An AI-powered photo editing software developed by Skylum.                                | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
-| [Magnific AI](https://magnific.ai/) | an AI-powered image upscaler and enhancer designed for professionals and enthusiasts in photography, graphic design, digital art, and illustration. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
-| [Pixlr](https://pixlr.com/) | An AI-powered online photo editing tool.                                                                  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-| [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)    |
-
 ### Video Generation
+
+#### Image to Video Models
+
+***(soon)***
+
+#### Text to Video Models
+
+***(soon)***
+
+#### Video Generation Providers
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
