@@ -522,7 +522,6 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 When referring to a Model , we use the following terms :
 
-- ***Elo Score*** : A dynamic score that estimates the strength and capabilities of a large language model based on its performance.
 - ***Context Window*** : Maximum number of tokens the model can process and consider simultaneously when generating responses. Learn about [Context Windows](https://research.ibm.com/blog/larger-context-window) from IBM.
 - ***Knowledge Cutoff*** : A specific point in time, after which new information or updates are no longer incorporated into the model's training data. This can help to prevent overfitting and ensure that the model remains accurate and relevant over time.
 
@@ -537,7 +536,7 @@ When referring to a Model , we use the following terms :
 > The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet). Please note that **Quality Index is subject to change** based on daily test-run and will be updated regularly to reflect the latest rankings. I consider this **benchmarking methodology to be less biased** than the Elo score method employed by LMSys. Furthermore, the **LMSys leaderboard does not address datasets contamination , model quantization and model overfitting issues.**
 
 > [!IMPORTANT]
-> **Having trouble choosing a model ?** I'm here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
+> **Having trouble choosing a model ?** We are here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
 
 #### Proprietary Models
 
