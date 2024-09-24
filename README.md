@@ -344,7 +344,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 #### Text to Image Models
 
-| Provider             | Model                                                                         | Elo score  | Licence     | Pricing   |
+| Organization         | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:---------------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
 | **Black Forest Labs** | [Flux.1 Pro](https://blackforestlabs.ai/)                                    | 1134       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
 | **Ideogram**         | [Ideogram v2](https://ideogram.ai/login)                                      | 1112       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
@@ -404,14 +404,34 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 ### Video Generation
 
+> [!NOTE]
+> As video generation models are still in their early stages of development, primarily driven by large companies like OpenAI with Sora or Runway with Gen3, we have limited information on how each model functions.
+>
+> For now, we can only offer a limited selection of open-source models available on Hugging Face.
+
 #### Image to Video Models
 
-***(soon)***
+An image-to-video AI model is a sophisticated machine learning system designed to generate short video clips from a single input image. 
+
+| Organization       | Model Familly                                       | Best Model                                                                       | Licence     | Pricing   |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
+| **Stable Diffusion** | [Stable Video Diffusion (SVD)](https://stability.ai/stable-video)       | [img2vid-xt](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Stable Diffusion** | [Stable Video Diffusion (SV3D)](https://stability.ai/stable-video)      | [sv3d](https://huggingface.co/stabilityai/sv3d)             | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Stable Diffusion** | [Stable Video Diffusion (SV4D)](https://stability.ai/stable-video)      | [sv4d](https://huggingface.co/stabilityai/sv4d)             | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **THUDM**            | [CogVideo](https://github.com/THUDM/CogVideo)     | [CogVideoX-5B-I2V](https://huggingface.co/THUDM/CogVideoX-5b-I2V)                | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
 
 #### Text to Video Models
 
-***(soon)***
+A Text-to-Video model is an advanced artificial intelligence system designed to generate video content based on text descriptions.
 
+| Organization       | Model Familly                                       | Best Model                                                                       | Licence     | Pricing   |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
+| **Cerspense**      | [Zeroscope](https://huggingface.co/cerspense)       | [zeroscope-v2-576w](https://huggingface.co/cerspense/zeroscope_v2_576w)          | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **THUDM**          | [CogVideo](https://github.com/THUDM/CogVideo)       | [CogVideoX-5B](https://huggingface.co/THUDM/CogVideoX-5b)                        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **ByteDance**      | [AnimateDiff](https://github.com/guoyww/animatediff/) | [AnimateDiff-Lightning](https://huggingface.co/ByteDance/AnimateDiff-Lightning) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **MMLab**          | [AnimateLCM](https://arxiv.org/abs/2402.00769)      | [AnimateLCM](https://huggingface.co/wangfuyun/AnimateLCM) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Modelscope**     | [text-to-video-ms](https://modelscope.cn/models/iic/text-to-video-synthesis/summary) | [text-to-video-ms-1.7b](https://huggingface.co/ali-vilab/text-to-video-ms-1.7b) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+ 
 #### Video Generation Providers
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
@@ -438,7 +458,7 @@ Take control of your data and models - all Open-source models in this list can b
 >
 >  This benchmark use different method to evaluate various VLMs capabilities, later used to calculate the Overall score. However, **the top-ranked model might not be number one in all specific capacities.**
 
-| Provider         | Model                                                                         | Overall score  | Licence     | Pricing   |
+| Organization     | Model                                                                         | Overall score  | Licence     | Pricing   |
 |:-----------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
 | **Alibaba**      | [Qwen-VL-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                 | 86.0       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | **OpenGVLab**    | [InternVL2-Llama3-76B](https://huggingface.co/OpenGVLab/InternVL2-Llama3-76B) | 85.5       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
