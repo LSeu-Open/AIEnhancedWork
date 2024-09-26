@@ -692,6 +692,10 @@ When referring to a Model , we use the following terms :
 
 #### Coding Open Source Models
 
+> [!NOTE]
+> The models are ranked according to **LiveCodeBench Pass@1 Code Generation scores** (with higher scores indicating better performance). Pass@1 is the probability of passing a given problem in one attempt. [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) offers a more comprehensive, up-to-date, and contamination-aware evaluation of code-related capabilities compared to HumanEval.
+
+
 | Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                                     | Model Sizes   | Pass@1* | Context Window*  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
 | **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 44.7      | 128K             |
@@ -704,8 +708,6 @@ When referring to a Model , we use the following terms :
 | **BigCode**        | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 14.8        | 4K               |
 | **Meta**           | [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 13.3        | 16K              |
 | **Google**         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 13.1        | 8K               |
-
-> The models are ranked according to LiveCodeBench Pass@1 Code Generation scores (with higher scores indicating better performance). Pass@1 is the probability of passing a given problem in one attempt. LiveCodeBench offers a more comprehensive, up-to-date, and contamination-aware evaluation of code-related capabilities compared to HumanEval.
 
 > [!Tip]
 > check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding)** to access a comprehensive Ranking of LLM performance, **covering both Generalist and Coding models**.
