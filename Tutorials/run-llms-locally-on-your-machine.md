@@ -113,6 +113,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 | **Alibaba**        | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)  | 72B         | 40GB+ VRAM GPU (2xRTX 4090 or better) |  68.9 | [Yes](https://ollama.com/library/qwen2:72b-instruct) | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct) |
 | **Deepseek**       | [Deepseek-v2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5)     | 236B        | 133GB+ VRAM GPU (2xH100 or better) |  65.8 | [Yes](https://ollama.com/library/deepseek-v2.5) | [Deepseek](https://platform.deepseek.com/sign_in) |
 | **Meta**           | [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0) | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | 65.3  | [Yes](https://ollama.com/library/llama3.1:70b)  | [Groq](https://groq.com/) |
+| **Meta**           | [Llama-3.2-90B-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct)  | 88.6B        | 40GB+ VRAM GPU (2xRTX 4090 or better)   |  Inc (~65)     | No | [Fireworks](https://fireworks.ai/) | 
 | **Meta**           | [Llama-3-70b-Instruct](https://ollama.com/library/llama3:70b-instruct) | 70B        | 40GB+ VRAM GPU (2xRTX 4090 or better) | 61.9    | [Yes](https://ollama.com/library/llama3:70b-instruct) | [Groq](https://groq.com/) |
 | **Mistral**        | [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | 141B | 80GB+ VRAM GPU (1xH100 or better) | 61.4    | [Yes](https://ollama.com/library/mixtral:8x22b-instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
 | **Cohere**         | [Command R+](https://ollama.com/library/command-r-plus)               | 104B        | 60GB+ VRAM GPU (3xRTX 4090 or better) | 55.9 | [Yes](https://ollama.com/library/command-r-plus)   | [Cohere](https://cohere.com/command) |
@@ -140,7 +141,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 | **Meta**           | [Llama-3.2-3b-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)       | 3B          | 2GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 45.35 | [Yes](https://ollama.com/library/llama3.2:3b-instruct-q4_K_M) | [Groq](https://groq.com/) |
 | **Microsoft**      | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | None | [Yes](https://ollama.com/library/phi3:14b-instruct) | No |
 | **Alibaba**        | [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)  | 7.62B         | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) |  Inc | [Yes](https://ollama.com/library/qwen2.5:7b-instruct) | No |
-
+| **Alibaba**        | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct)  | 14.8B         | 9GB+ VRAM GPU (rx 7800 or RTX 4070 or better) |  Inc | [Yes](https://ollama.com/library/qwen2.5:14b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) |
 
 ### Proprietary Model
 
