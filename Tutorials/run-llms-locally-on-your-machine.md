@@ -133,25 +133,28 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Meta**           | [Llama-3.2-11b-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)       | 10.7B          | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.20 | No | [Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)|
+| **Meta**           | [Llama-3.1-8b-Instruct](https://ollama.com/library/llama3.1:8b)       | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.15 | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
 | **Google**         | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)          | 9B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.650 | [Yes](https://ollama.com/library/gemma2:9b-instruct-q4_0) | [Hugging Face](https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it) |
-| **Meta**           | [Llama-3.1-8b-Instruct](https://ollama.com/library/llama3.1:8b)       | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.1 | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
-| **Meta**           | [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)     | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.15 | [Yes](https://ollama.com/library/llama3:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
+| **Meta**           | [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)     | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.1 | [Yes](https://ollama.com/library/llama3:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
+| **Meta**           | [Llama-3.2-3b-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)       | 3B          | 2GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 45.35 | [Yes](https://ollama.com/library/llama3.2:3b-instruct-q4_K_M) | [Groq](https://groq.com/) |
 | **Microsoft**      | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | None | [Yes](https://ollama.com/library/phi3:14b-instruct) | No |
 | **Alibaba**        | [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)  | 7.62B         | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) |  Inc | [Yes](https://ollama.com/library/qwen2.5:7b-instruct) | No |
+
 
 ### Proprietary Model
 
 | Model                                         | Provider     | Quality Index | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|
 | [GPT-o1-preview](https://chat.openai.com/)    | **OpenAI**   | 84.6       | Paid    |
+| [Gemini 1.5 Pro](https://gemini.google.com/advanced?hl=en) | **Google** | 79.7 | Paid    |
 | [GPT-4o-latest](https://chat.openai.com/)     | **OpenAI**   | 77.2       | Paid    |
-| [Gemini 1.5 Pro](https://gemini.google.com/advanced?hl=en) | **Google** | 71.5 | Paid    |
 | [GPT-4o-mini](https://chat.openai.com/)       | **OpenAI**    | 71.4       | Freemium    |
 | [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic** | 76.9       | Paid    |
 | [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**    | 74.3       | Paid    |
 | [Claude-3 Opus](https://claude.ai/)           | **Anthropic** | 70.3       | Paid    |
+| [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google** | 68.0 | Paid |
 | [Yi-Large](https://www.01.ai/)                | **01.ai**     | 58.3       | Freemium |
-| [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/)  | **Google** | 60.0 | Paid |
 | [Claude-3 Sonnet](https://claude.ai/)         | **Anthropic**  | 57.2       | Freemium    |
 | [Reka-Core](https://www.reka.ai/)             | **Reka**       | 56.8       | Freemium |
 | [Claude-3 Haiku](https://claude.ai/)          | **Anthropic**  | 54.2       | Freemium    |
