@@ -232,7 +232,7 @@ The models are ranked according to **LiveCodeBench Pass@1** Code Generation scor
 
 | Model             | Provider     | Pass@1 score (/100) | Pricing |
 |:-----------------:|:------------:|:----------------------:|:-------:|
-| [GPT-o1-preview](https://chat.openai.com/)   | **OpenAI**       | 59.0 | Paid    |
+| [o1-preview](https://chat.openai.com/)   | **OpenAI**       | 59.0 | Paid    |
 | [Claude-3.5 Sonnet](https://claude.ai//)     | **Anthropic**    | 54.1   | Paid    |
 | [GPT-4o](https://chat.openai.com/)           | **OpenAI**       | 48 | Paid    |
 | [GPT-4 Turbo](https://chat.openai.com/)      | **OpenAI**       | 43.7 | Paid    |
