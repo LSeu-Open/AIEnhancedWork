@@ -534,6 +534,8 @@ When referring to a Model , we use the following terms :
 
 > [!NOTE]
 > The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet). Please note that **Quality Index is subject to change** based on daily test-run and will be updated regularly to reflect the latest rankings. I consider this **benchmarking methodology to be less biased** than the Elo score method employed by LMSys. Furthermore, the **LMSys leaderboard does not address datasets contamination , model quantization and model overfitting issues.**
+>
+> Please note that **Artifical Analysis do not benchmark all the models** available in the market. For reference, we offer an estimated score based on various other benchmarks, denoted by ***None (~estimated score)***.
 
 > [!IMPORTANT]
 > **Having trouble choosing a model ?** We are here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
@@ -549,8 +551,8 @@ When referring to a Model , we use the following terms :
 | **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [Sonar Large](https://www.perplexity.ai)                                         | 62.1           | 128k            | Online            | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 58.3           | 32k             | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 56.8           | 128k            | Online            | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | None           | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-| **𝕏**              | [Grok](https://x.ai/)                               | [Grok-2](https://x.ai/blog/grok-2)                                               | None           | 25k             | Unknown           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **𝕏**              | [Grok](https://x.ai/)                               | [Grok-2](https://x.ai/blog/grok-2)                                               | None (~76)     | 25k             | Unknown           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | None (~55)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
@@ -569,7 +571,7 @@ When referring to a Model , we use the following terms :
 | **Google**         | [Gemini](https://gemini.google.com/)            |[Gemini 1.5 Flash](https://gemini.google.com/?hl=en)                              | 68.0           | 2M              | 2023-11           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | **Reka**           | [Reka](https://www.reka.ai/)                    | [Reka-Flash-21B-Online](https://chat.reka.ai/auth/login)                         | 46.2           | 128K            | Online            | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 |                    |                                                 | [Reka-Flash-21B](https://chat.reka.ai/auth/login)                                | 46.2           | 64K             | 2023-11           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-| **𝕏**              | [Grok](https://x.ai/)                           | [Grok-1.5](https://x.ai/blog/grok-1.5)                                           | None          | 128K             | Unknown          | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **𝕏**              | [Grok](https://x.ai/)                           | [Grok-2-mini](https://x.ai/blog/grok-2)                                          | None (~66)     | 128K             | Unknown          | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 </details>
 
 #### Open source Models
@@ -586,9 +588,8 @@ When referring to a Model , we use the following terms :
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 48.55        | 8K                 | 2024-06            |
 | **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | 12.2B | 51.9         | 128K               | 2023-12            |
 | **Databricks**     | [DBRX](https://www.databricks.com/)                 | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | 132B           | 49.6         | 33k                | 2023-12            |
-| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B   | None         | 128k               | 2024-03            |
-| **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)       | 7B             | None         | 1M                 | Unknown            |
-| **𝕏**              | [Grok](https://github.com/xai-org/grok-1)           | [Grok-1](https://github.com/xai-org/grok-1)                                      | 314B           | None         | 8K                 | Unknown            |
+| **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-20b-chat](https://huggingface.co/internlm/internlm2_5-20b-chat)     | 7B           | None (~46)   | 1M                 | Unknown            |
+| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B   | None (~45)   | 128k               | 2024-03            |
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
@@ -603,11 +604,11 @@ When referring to a Model , we use the following terms :
 |                    |                                                     | [Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)         | 8B             | 46.1         | 8K               | 2023-12          |
 | **AI21 Labs**      | [Jamba](https://www.ai21.com/jamba)                 | [Jamba 1.5 mini](https://huggingface.co/ai21labs/AI21-Jamba-1.5-Mini)                     | 51.6B          | 45.6         | 256K             | 2024-03          |
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)                              | 9B             | 46.65        | 8K               | 2024-06          |
-|                    |                                                     | [Gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)                              | 2B             | None         | 8K               | 2024-02          |
-|                    |                                                     | [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it)                          | 7B             | None         | 4K               | 2024-02          |
-|                    |                                                     | [Gemma-1.1-2b-it](https://huggingface.co/google/gemma-1.1-2b-it)                          | 2B             | None         | 4K               | 2024-02          |
+|                    |                                                     | [Gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)                              | 2B             | None (~44)   | 8K               | 2024-02          |
+|                    |                                                     | [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it)                          | 7B             | None (~36)   | 4K               | 2024-02          |
+|                    |                                                     | [Gemma-1.1-2b-it](https://huggingface.co/google/gemma-1.1-2b-it)                          | 2B             | None (~36)   | 4K               | 2024-02          |
 |                    |                                                     | [Gemma-7b-it](https://huggingface.co/google/gemma-7b-it)                                  | 7B             | 28.05        | 4K               | 2024-02          |
-|                    |                                                     | [Gemma-2b-it](https://huggingface.co/google/gemma-2b-it)                                  | 2B             | None         | 4K               | 2024-02          |
+|                    |                                                     | [Gemma-2b-it](https://huggingface.co/google/gemma-2b-it)                                  | 2B             | None (~25)   | 4K               | 2024-02          |
 | **Cohere**         | [Command-R](https://cohere.com/)                    | [Command R](https://cohere.com/blog/command-r)                                            | 35B            | 51.1         | 128K             | 2023-03          |
 | **Alibaba**        | [Qwen2.5](https://qwenlm.github.io/)                | [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct)                  | 32B            | None         | 132K             | 2023-04          |
 |                    |                                                     | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct)                  | 14B            | None         | 132K             | 2024-04          |
