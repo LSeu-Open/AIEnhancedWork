@@ -107,13 +107,13 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Alibaba**        | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)  | 72.2B         | 47GB+ VRAM GPU (2xRTX 4090 or better) |  75.25 | [Yes](https://ollama.com/library/qwen2.5:72b-instruct) | No |
+| **Alibaba**        | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)  | 72.2B         | 47GB+ VRAM GPU (2xRTX 4090 or better) |  75.2 | [Yes](https://ollama.com/library/qwen2.5:72b-instruct) | No |
 | **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (3xRTX 4090 or better) | 73    | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
 | **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (4xH100 or better)  |  71.9       | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |          
 | **Alibaba**        | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)  | 72B         | 40GB+ VRAM GPU (2xRTX 4090 or better) |  68.9 | [Yes](https://ollama.com/library/qwen2:72b-instruct) | [Hugging Face](https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct) |
 | **Deepseek**       | [Deepseek-v2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5)     | 236B        | 133GB+ VRAM GPU (2xH100 or better) |  65.8 | [Yes](https://ollama.com/library/deepseek-v2.5) | [Deepseek](https://platform.deepseek.com/sign_in) |
+| **Meta**           | [Llama-3.2-90B-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct)  | 88.6B        | 40GB+ VRAM GPU (2xRTX 4090 or better)   |  65.5    | No | [Fireworks](https://fireworks.ai/) | 
 | **Meta**           | [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0) | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | 65.3  | [Yes](https://ollama.com/library/llama3.1:70b)  | [Groq](https://groq.com/) |
-| **Meta**           | [Llama-3.2-90B-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct)  | 88.6B        | 40GB+ VRAM GPU (2xRTX 4090 or better)   |  Inc (~65)     | No | [Fireworks](https://fireworks.ai/) | 
 | **Meta**           | [Llama-3-70b-Instruct](https://ollama.com/library/llama3:70b-instruct) | 70B        | 40GB+ VRAM GPU (2xRTX 4090 or better) | 61.9    | [Yes](https://ollama.com/library/llama3:70b-instruct) | [Groq](https://groq.com/) |
 | **Mistral**        | [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | 141B | 80GB+ VRAM GPU (1xH100 or better) | 61.4    | [Yes](https://ollama.com/library/mixtral:8x22b-instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
 | **Cohere**         | [Command R+](https://ollama.com/library/command-r-plus)               | 104B        | 60GB+ VRAM GPU (3xRTX 4090 or better) | 55.9 | [Yes](https://ollama.com/library/command-r-plus)   | [Cohere](https://cohere.com/command) |
@@ -134,7 +134,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Meta**           | [Llama-3.2-11b-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)       | 10.7B          | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.20 | No | [Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)|
+| **Meta**           | [Llama-3.2-11b-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)       | 10.7B          | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.30 | No | [Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)|
 | **Meta**           | [Llama-3.1-8b-Instruct](https://ollama.com/library/llama3.1:8b)       | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.15 | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
 | **Google**         | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)          | 9B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.650 | [Yes](https://ollama.com/library/gemma2:9b-instruct-q4_0) | [Hugging Face](https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it) |
 | **Meta**           | [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)     | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.1 | [Yes](https://ollama.com/library/llama3:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
@@ -147,7 +147,8 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Model                                         | Provider     | Quality Index | Pricing |
 |:----------------------------------------------|:------------:|:----------:|:-------:|
-| [GPT-o1-preview](https://chat.openai.com/)    | **OpenAI**   | 84.6       | Paid    |
+| [o1-preview](https://chat.openai.com/)        | **OpenAI**   | 84.6       | Paid    |
+| [o1-mini](https://chat.openai.com/)           | **OpenAI**   | 81.6       | Paid    |
 | [Gemini 1.5 Pro](https://gemini.google.com/advanced?hl=en) | **Google** | 79.7 | Paid    |
 | [GPT-4o-latest](https://chat.openai.com/)     | **OpenAI**   | 77.2       | Paid    |
 | [GPT-4o-mini](https://chat.openai.com/)       | **OpenAI**    | 71.4       | Freemium    |
