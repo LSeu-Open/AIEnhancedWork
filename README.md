@@ -401,7 +401,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 > [!TIP]
 > **Take control of your data and models** - With **Fooocus** you can generate locally, see our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
 >
-> **Fooocus** use fine-tuned version of the Stable Diffusion XL model. These models reach 1100 to 1120 Elo score.
+> **Fooocus** use fine-tuned version of the Stable Diffusion XL model. These models reach 900 to 1020 Elo score.
 
 ### Video Generation
 
