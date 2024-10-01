@@ -37,7 +37,12 @@ The integration of AI into software development has revolutionized the way we wr
 > **AI models for coding aren't here to replace the expertise of a seasoned dev**. They can turbocharge your workflow, helping you crank out code faster and more efficiently. Plus, they can even serve as a mentor, guiding you through learning new programming languages and techniques.
 
 ## Cursor the dedicated IDE for seamless AI integration 
-<img src="https://cursor.sh/brand/icon.svg" width="30"> ***[Cursor.sh](https://cursor.sh/)*** is an AI-driven code editor designed to assist developers in writing code more efficiently and quickly. It leverages LLM like **GPT-4** to provide a unique set of features and functionalities, making it a prominent competitor in the coding tool market.
+<img src="https://cursor.sh/brand/icon.svg" width="30"> ***[Cursor.sh](https://cursor.sh/)*** is an AI-driven code editor designed to assist developers in writing code more efficiently and quickly. It utilizes LLMs such as top-tier proprietary models to offer a unique set of features and functionalities, positioning it as a prominent competitor in the coding tool market
+
+**Currently Supported Models** :
+
+- ***Claude 3.5 Sonnet*** by Anthropic
+- ***o1-preview / o1-mini and gpt4-o*** by OpenAI
 
 Some key features of Cursor.sh include:
 
@@ -78,8 +83,11 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
 * **A code editor or Integrated Development Environment (IDE)** - I'll be using ***VSCode*** in this tutorial.
 * **A model provider** - in this tutorial, I'll be working with ***Ollama and Groq***.
 * **A reliable model to work with**.
-  * As a local provider, I suggest deploying the ***deepseek-coder:33b-instruct*** or ***Codestral:22b*** models through Ollama. **Please note that this may necessitate expensive hardware resources.** However, for those working with smaller computers, ***CodeQwen1.5-7B-Chat*** can also be a very competent alternative.
-  * On Groq, I personally prefer the ***Llama3-70b*** model.
+  * As a local provider, I suggest deploying the ***DeepSeek-Coder-V2-Lite-Instruct*** or ***Codestral:22b*** models through Ollama. **Please note that this may necessitate expensive hardware resources.**
+  * However, for those working with smaller computers, ***Qwen2.5-Coder-7B-Instruct*** can also be a very competent alternative.
+  * On Groq, I personally prefer the ***Llama3.1-70b*** model.
+  * Currently, the general consensus is that the best model for writing code is ***Claude-3.5 Sonnet*** by Anthropic. You can access it either directly through **Cursor** or via **API in Continue.dev**.
+
  
 > [!Note]
 > Carefully selecting a model considering **its strengths and weaknesses is key** for optimal code usability, especially when aligned with **your primary language**, such as ***Python*** in my case.
@@ -145,6 +153,16 @@ For those who prioritize keeping everything local and private, I'll be using ***
     "model": "codestral:22b"
   },
 ```
+or by **Qwen2.5-Coder-7B-Instruct** for less powerfull computers : 
+
+ ```
+ "tabAutocompleteModel": {
+    "title": "qwen2.5-coder:7b-instruct",
+    "provider": "ollama",
+    "model": "qwen2.5-coder:7b-instruct"
+  },
+```
+
 * Save your modifications and close the config file.
 
 * You are now **ready to use your chosen model as a programming assistant within Visual Studio Code**, thanks to Ollama and Continue.dev.
