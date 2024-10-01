@@ -592,8 +592,9 @@ When referring to a Model , we use the following terms :
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 48.55        | 8K                 | 2024-06            |
 | **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | 12.2B | 51.9         | 128K               | 2023-12            |
 | **Databricks**     | [DBRX](https://www.databricks.com/)                 | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | 132B           | 49.6         | 33k                | 2023-12            |
+| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B   | None (~51)   | 128k               | 2024-03            |
 | **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-20b-chat](https://huggingface.co/internlm/internlm2_5-20b-chat)     | 7B           | None (~46)   | 1M                 | Unknown            |
-| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B   | None (~45)   | 128k               | 2024-03            |
+
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
@@ -606,7 +607,7 @@ When referring to a Model , we use the following terms :
 |                    |                                                     | [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct)     | 8B             | 53.15        | 128K             | 2023-12          |
 |                    |                                                     | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)       | 70B            | 61.9         | 8K               | 2023-12          |
 |                    |                                                     | [Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)         | 8B             | 46.1         | 8K               | 2023-12          |
-| **AI21 Labs**      | [Jamba](https://www.ai21.com/jamba)                 | [Jamba 1.5 mini](https://huggingface.co/ai21labs/AI21-Jamba-1.5-Mini)                     | 51.6B          | 45.6         | 256K             | 2024-03          |
+| **AI21 Labs**      | [Jamba1.5](https://www.ai21.com/jamba)              | [Jamba 1.5 mini](https://huggingface.co/ai21labs/AI21-Jamba-1.5-Mini)                     | 51.6B          | 45.6         | 256K             | 2024-03          |
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)                              | 9B             | 46.65        | 8K               | 2024-06          |
 |                    |                                                     | [Gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)                              | 2B             | None (~44)   | 8K               | 2024-02          |
 |                    |                                                     | [Gemma-1.1-7b-it](https://huggingface.co/google/gemma-1.1-7b-it)                          | 7B             | None (~36)   | 4K               | 2024-02          |
@@ -626,15 +627,15 @@ When referring to a Model , we use the following terms :
 |                    |                                                     | [Qwen2-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2-1.5B-Instruct)                    | 1.5B           | None         | 132K             | 2024-04          |
 |                    |                                                     | [Qwen2-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2-0.5B-Instruct)                    | 0.5B           | None         | 132K             | 2024-04          |
 | **Mistral AI**     | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 46.7B       | 41.9         | 33k              | 2023-12          |
-| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-small-128k-instruct](https://huggingface.co/microsoft/Phi-3-small-128k-instruct)   | 7B             | None         | 128K             | 2023-10          |
-|                    |                                                     | [Phi-3-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)     | 3.8B           | None         | 128K             | 2023-10          |
-|                    |                                                     | [Phi-3.5-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct)       |  3.8B          | None         | 128K             | 2023-10          |
-|                    |                                                     | [Phi-3.5-MoE-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)         | 41.9B          | None         | 128K             | 2023-10          |
-| **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)     | 7B             | 24.2         | 32K              | 2024-04          | 
-|                    |                                                     | [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)     | 7B             | None         | 32K              | 2023-12          |
-|                    |                                                     | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)     | 7B             | None         | 32K              | 2023-09          |
-| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)         | 67B            | None         | 128K             | 2023-11          |
-| **Deepseek**       |                                                     | [DeepSeek-LLM-7B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)           | 7B             | None         | 64K              | 2023-11          |
+| **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-small-128k-instruct](https://huggingface.co/microsoft/Phi-3-small-128k-instruct)   | 7B             | None (~42)   | 128K             | 2023-10          |
+|                    |                                                     | [Phi-3-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)     | 3.8B           | None (~39)   | 128K             | 2023-10          |
+|                    |                                                     | [Phi-3.5-mini-128k-instruct](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct)       |  3.8B          | None (?)     | 128K             | 2023-10          |
+|                    |                                                     | [Phi-3.5-MoE-instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)         | 41.9B          | None (?)     | 128K             | 2023-10          |
+| **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)     | 7B             | 34.2         | 32K              | 2024-04          | 
+|                    |                                                     | [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)     | 7B             | None (~31)   | 32K              | 2023-12          |
+|                    |                                                     | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)     | 7B             | None (~29)   | 32K              | 2023-09          |
+| **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)         | 67B            | None (~31)   | 128K             | 2023-11          |
+| **Deepseek**       |                                                     | [DeepSeek-LLM-7B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)           | 7B             | None (~24)   | 64K              | 2023-11          |
 
 </details>
 
