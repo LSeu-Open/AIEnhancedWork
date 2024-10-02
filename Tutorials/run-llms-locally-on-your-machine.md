@@ -124,24 +124,25 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Mistral**        | [Mistral-Small-Instruct](https://huggingface.co/mistralai/Mistral-Small-Instruct-2409) | 22.2B  | 13GB+ VRAM GPU (RX 7800 or RTX 4080 or better | 60.40    | [Yes](https://ollama.com/library/mistral-small) | [Mistral](https://mistral.ai/)  |
+| **Alibaba**        | [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct)  | 32.8B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | (~62) | [Yes](https://ollama.com/library/qwen2.5:32b-instruct) | No |
+| **Mistral**        | [Mistral-Small-Instruct](https://huggingface.co/mistralai/Mistral-Small-Instruct-2409) | 22.2B  | 13GB+ VRAM GPU (RX 7800 or RTX 4080 or better | 60.40 | [Yes](https://ollama.com/library/mistral-small) | [Mistral](https://mistral.ai/)  |
 | **Cohere**         | [Command R](https://ollama.com/library/command-r)                     | 35B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 51.1 | [Yes](https://ollama.com/library/command-r)   | [Cohere](https://cohere.com/command) |
 | **Google**         | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)        | 27B         | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) | 48.55 | [Yes](https://ollama.com/library/gemma2:27b-instruct-q4_0) | [Hugging Face](https://huggingface.co/google/gemma-2-27b-it) |
 | **Mistral**        | [Mixtral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) | 46.7B   | 26GB+ VRAM GPU (1xH100 or better) | 41.9    | [Yes](https://ollama.com/library/mixtral:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
-| **Alibaba**        | [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct)  | 32.8B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) |  Inc | [Yes](https://ollama.com/library/qwen2.5:32b-instruct) | No |
+
 
 ***Small models*** : Lightweight and deployable on most local machines.
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Alibaba**        | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct)  | 14.8B         | 9GB+ VRAM GPU (rx 7800 or RTX 4070 or better) |  (~58) | [Yes](https://ollama.com/library/qwen2.5:14b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) |
 | **Meta**           | [Llama-3.2-11b-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)       | 10.7B          | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.30 | No | [Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)|
 | **Meta**           | [Llama-3.1-8b-Instruct](https://ollama.com/library/llama3.1:8b)       | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.15 | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
+| **Alibaba**        | [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)  | 7.62B         | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) |  (~48) | [Yes](https://ollama.com/library/qwen2.5:7b-instruct) | No |
 | **Google**         | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)          | 9B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.650 | [Yes](https://ollama.com/library/gemma2:9b-instruct-q4_0) | [Hugging Face](https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it) |
 | **Meta**           | [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)     | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.1 | [Yes](https://ollama.com/library/llama3:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
 | **Meta**           | [Llama-3.2-3b-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)       | 3B          | 2GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 45.35 | [Yes](https://ollama.com/library/llama3.2:3b-instruct-q4_K_M) | [Groq](https://groq.com/) |
 | **Microsoft**      | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | None | [Yes](https://ollama.com/library/phi3:14b-instruct) | No |
-| **Alibaba**        | [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)  | 7.62B         | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) |  Inc | [Yes](https://ollama.com/library/qwen2.5:7b-instruct) | No |
-| **Alibaba**        | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct)  | 14.8B         | 9GB+ VRAM GPU (rx 7800 or RTX 4070 or better) |  Inc | [Yes](https://ollama.com/library/qwen2.5:14b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) |
 
 ### Proprietary Model
 
