@@ -228,7 +228,21 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
 
 #### Text to speech Models
 
-***(Soon)***
+> [!NOTE]
+> The models are ranked according to their **Arena Elo score (with higher scores indicating better performance)** from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
+
+| Organization       | Model Familly                                       | Best Model                                                                       | Arena Elo | Licence     | Pricing   |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:---------------:|
+| **OpenAI**         | [TTS](https://platform.openai.com/docs/guides/text-to-speech) | [HD](https://platform.openai.com/docs/models/tts)                      | 1167 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **Cartesia**       | [Sonic](https://cartesia.ai/sonic)                  | [Sonic English](https://docs.cartesia.ai/getting-started/available-models)       | 1182 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **Amazon**         | [Polly](https://aws.amazon.com/polly/)              | [Long-form](https://aws.amazon.com/polly/)                                       | 1083 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **Microsoft**      | [Neural](https://speech.microsoft.com/portal)       | [Neural](https://speech.microsoft.com/portal)                                    | 1067 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **LMNT**           | [LMNT](https://www.lmnt.com/)                       | [LMNT](https://www.lmnt.com/)                                                    | 1067 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **Google**         | [TTS](https://cloud.google.com/text-to-speech?hl=en) | [Studio](https://cloud.google.com/text-to-speech?hl=en)                         | 1013 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **OpenVoice**      | [OpenVoice](https://research.myshell.ai/open-voice) | [OpenVoice V2](https://cloud.google.com/text-to-speech?hl=en)                    | 960  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| **Coqui**          | [XTTS](https://huggingface.co/coqui)                | [XTTS V2](https://huggingface.co/coqui/XTTS-v2)                                  | 942  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| **StyleTTS**       | [StyleTTS](https://github.com/yl4579)               | [StyleTTS 2](https://huggingface.co/spaces/styletts2/styletts2)                  | 883  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| **MetaVoice**      | [MetaVoice](https://github.com/metavoiceio)         | [MetaVoice V1](https://github.com/metavoiceio/metavoice-src)                     | 818  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
 #### Text to speech Providers
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
