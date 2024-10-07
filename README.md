@@ -573,6 +573,7 @@ When referring to a Model , we use the following terms :
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 56.8           | 128k            | Online            | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | **𝕏**              | [Grok](https://x.ai/)                               | [Grok-2](https://x.ai/blog/grok-2)                                               | None (~76)     | 25k             | Unknown           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | None (~55)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| **Liquid**         | [LFM](https://www.liquid.ai/liquid-foundation-models) | [LFM 40B MoE](https://www.liquid.ai/liquid-foundation-models)                  | None (~xx)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 
 <details>
 <summary><b>View Model Family Variants</b></summary>
@@ -592,6 +593,8 @@ When referring to a Model , we use the following terms :
 | **Reka**           | [Reka](https://www.reka.ai/)                    | [Reka-Flash-21B-Online](https://chat.reka.ai/auth/login)                         | 46.2           | 128K            | Online            | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 |                    |                                                 | [Reka-Flash-21B](https://chat.reka.ai/auth/login)                                | 46.2           | 64K             | 2023-11           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | **𝕏**              | [Grok](https://x.ai/)                           | [Grok-2-mini](https://x.ai/blog/grok-2)                                          | None (~66)     | 128K             | Unknown          | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **Liquid**         | [LFM](https://www.liquid.ai/liquid-foundation-models) | [LFM 3B](https://www.liquid.ai/liquid-foundation-models)                   | None (~xx)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+|                    |                                                 | [LFM 1B](https://www.liquid.ai/liquid-foundation-models)                   | None (~xx)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 </details>
 
 #### Open source Models
