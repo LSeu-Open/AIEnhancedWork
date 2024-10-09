@@ -5,10 +5,13 @@
 <strong> 🤖 Welcome to our repository, carefully curated to enhance productivity, automate tasks, and simplify daily workflows. </strong>
 
 ![License](https://img.shields.io/github/license/LSeu-Open/AIEnhancedWork?style=flat)
-![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-189-blue?style=flat)
+![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-193-blue?style=flat)
+![text2Speech Models](https://img.shields.io/badge/text2Speech%20Models-10-blue?style=flat)
 ![Speech2text Models](https://img.shields.io/badge/Speech2text%20Models-7-blue?style=flat)
 ![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-17-blue?style=flat)
-![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-19-blue?style=flat)
+
+
+![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-21-blue?style=flat)
 ![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-73-blue?style=flat)
 ![Coding Large Language Models](https://img.shields.io/badge/Coding%20LLMs-10-blue?style=flat)
 
