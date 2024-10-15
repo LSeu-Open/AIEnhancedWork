@@ -5,7 +5,7 @@
 <strong> 🤖 Welcome to our repository, carefully curated to enhance productivity, automate tasks, and simplify daily workflows. </strong>
 
 ![License](https://img.shields.io/github/license/LSeu-Open/AIEnhancedWork?style=flat)
-![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-193-blue?style=flat)
+![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-195-blue?style=flat)
 ![text2Speech Models](https://img.shields.io/badge/text2Speech%20Models-10-blue?style=flat)
 ![Speech2text Models](https://img.shields.io/badge/Speech2text%20Models-7-blue?style=flat)
 ![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-17-blue?style=flat)
@@ -188,7 +188,8 @@ AI-powered tools designed specifically for academic and research endeavors, enha
 
 | Tool             | Description                                                                                                                 | Licence     | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [Epsilon](https://www.epsilon-ai.com/search) | an AI-powered search engine designed specifically for academic research.  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Free](https://img.shields.io/badge/Free-brightgreen?style=flat)    |
+| [Epsilon](https://www.epsilon-ai.com/search) | An AI-powered search engine designed specifically for academic research.  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Free](https://img.shields.io/badge/Free-brightgreen?style=flat)    |
+| [Papers](https://www.papersapp.com/) | An advanced reference management software designed to streamline the research process for students, academics, and professionals.  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | [ResearchRabbit](https://www.researchrabbit.ai/) | AI-powered platform that aims to streamline the literature review process for researchers and academics by providing intelligent discovery, recommendation, and visualization capabilities | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Free](https://img.shields.io/badge/Free-brightgreen?style=flat)    |
 | [Semantic Scholar](https://www.semanticscholar.org/) | A free, AI-powered research tool for scientific literature , with now Semantic Reader, an augmented reader with the potential to revolutionize scientific reading by making it more accessible and richly contextual| ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)    |
 | [Scispace](https://typeset.io/) | AI-powered platform that aims to simplify and enhance the research and literature review process for academics and researchers | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-yellow?style=flat) |
@@ -825,11 +826,14 @@ AI presentation tools enable users to create professional slides with ease, offe
 
 ### Versatile Productivity tools
 
+a versatile tool for organizing and designing content, brainstorming ideas, writing, researching, and creating visuals
+
 Enhance productivity and accuracy across domains with these versatile AI tools. (yes, These tools could fit into multiple categories.)
    
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
 | [BeeyondAI](https://www.beeyondai.com/)                    | AI digital assistant that offers a wide range of tools to enhance productivity and creativity across various aspects of life. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
+| [Cerebrella](https://cerebrella.com/)                      | A versatile tool for organizing and designing content, brainstorming ideas, writing, researching, and creating visuals.       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
 | [Copilot](https://www.microsoft.com/fr-fr/microsoft-copilot) |  An AI assistant developed by Microsoft, designed to enhance productivity and creativity for users.       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
 | [GitMind](https://gitmind.com/)                            |  An AI-powered mind mapping and brainstorming tool that helps users create visual representations of ideas, concepts, and information. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)  |
 | [Hyperis](https://hyperis.com/welcome)                     | AI-driven assistant app designed to help users prioritize tasks, focus on important work, and boost creativity. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
