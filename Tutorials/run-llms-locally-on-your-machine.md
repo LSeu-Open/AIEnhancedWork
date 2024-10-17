@@ -107,6 +107,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Nvidia**         | [Llama-3.1-Nemotron-70B-Instruct-HF](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF)  | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | None (~76.5)  | [Yes](https://ollama.com/library/nemotron)  | [Nvidia](https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct) |
 | **Alibaba**        | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)  | 72.2B         | 47GB+ VRAM GPU (2xRTX 4090 or better) |  75.2 | [Yes](https://ollama.com/library/qwen2.5:72b-instruct) | No |
 | **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (3xRTX 4090 or better) | 73    | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
 | **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (4xH100 or better)  |  71.9       | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |          
@@ -136,6 +137,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
 | **Alibaba**        | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct)  | 14.8B         | 9GB+ VRAM GPU (rx 7800 or RTX 4070 or better) |  (~58) | [Yes](https://ollama.com/library/qwen2.5:14b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) |
+| **Mistral AI**     | [Ministral-8B-Instruct](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) | 8B  | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better)       | None (~55)   | No | [Mistral](https://mistral.ai/)  |
 | **Meta**           | [Llama-3.2-11b-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)       | 10.7B          | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.30 | No | [Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct)|
 | **Meta**           | [Llama-3.1-8b-Instruct](https://ollama.com/library/llama3.1:8b)       | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 53.15 | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
 | **Alibaba**        | [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)  | 7.62B         | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) |  (~48) | [Yes](https://ollama.com/library/qwen2.5:7b-instruct) | No |
@@ -152,6 +154,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 | [o1-mini](https://chat.openai.com/)           | **OpenAI**   | 81.6       | Paid    |
 | [Gemini 1.5 Pro](https://gemini.google.com/advanced?hl=en) | **Google** | 79.7 | Paid    |
 | [GPT-4o-latest](https://chat.openai.com/)     | **OpenAI**   | 77.2       | Paid    |
+| [Yi-Lightning](https://www.01.ai/)            | **01.ai**     | None (~76.5) | Freemium |
 | [GPT-4o-mini](https://chat.openai.com/)       | **OpenAI**    | 71.4       | Freemium    |
 | [Claude-3.5 Sonnet](https://claude.ai//)      | **Anthropic** | 76.9       | Paid    |
 | [GPT-4 Turbo](https://chat.openai.com/)       | **OpenAI**    | 74.3       | Paid    |
