@@ -12,7 +12,7 @@
 
 
 ![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-21-blue?style=flat)
-![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-73-blue?style=flat)
+![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-77-blue?style=flat)
 ![Coding Large Language Models](https://img.shields.io/badge/Coding%20LLMs-10-blue?style=flat)
 
 </div>
