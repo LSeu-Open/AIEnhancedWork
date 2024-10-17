@@ -573,10 +573,10 @@ When referring to a Model , we use the following terms :
 | **OpenAI**         | [ChatGPT](https://chatgpt.com/)                     | [GPT-4o-latest](https://openai.com/index/hello-gpt-4o/)                          | 77.2           | 128K            | 2023-10           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | **Anthropic**      | [Claude](https://claude.ai/)                        | [Claude 3.5 Sonnet](https://claude.ai/)                                          | 76.9           | 200k            | 2024-04           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | **Perplexity AI**  | [pplx](https://huggingface.co/mosaicml)             | [Sonar Large](https://www.perplexity.ai)                                         | 62.1           | 128k            | Online            | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-| **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Large](https://www.01.ai/)                                                   | 58.3           | 32k             | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | **Reka**           | [Reka](https://www.reka.ai/)                        | [Reka Core](https://chat.reka.ai/auth/login)                                     | 56.8           | 128k            | Online            | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| **01.ai**          | [Yi](https://www.01.ai/)                            | [Yi-Lightning](https://www.01.ai/)                                               | None (~76.5)   | 32k             | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | **𝕏**              | [Grok](https://x.ai/)                               | [Grok-2](https://x.ai/blog/grok-2)                                               | None (~76)     | 25k             | Unknown           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
-| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | None (~55)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | None (~55)      | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | **Liquid**         | [LFM](https://www.liquid.ai/liquid-foundation-models) | [LFM 40B MoE](https://www.liquid.ai/liquid-foundation-models)                  | None (~xx)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 
 <details>
@@ -596,9 +596,12 @@ When referring to a Model , we use the following terms :
 | **Google**         | [Gemini](https://gemini.google.com/)            |[Gemini 1.5 Flash](https://gemini.google.com/?hl=en)                              | 68.0           | 2M              | 2023-11           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | **Reka**           | [Reka](https://www.reka.ai/)                    | [Reka-Flash-21B-Online](https://chat.reka.ai/auth/login)                         | 46.2           | 128K            | Online            | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 |                    |                                                 | [Reka-Flash-21B](https://chat.reka.ai/auth/login)                                | 46.2           | 64K             | 2023-11           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-| **𝕏**              | [Grok](https://x.ai/)                           | [Grok-2-mini](https://x.ai/blog/grok-2)                                          | None (~66)     | 128K             | Unknown          | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
+| **𝕏**              | [Grok](https://x.ai/)                           | [Grok-2-mini](https://x.ai/blog/grok-2)                                          | None (~66)     | 128K             Unknown          | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | **Liquid**         | [LFM](https://www.liquid.ai/liquid-foundation-models) | [LFM 3B](https://www.liquid.ai/liquid-foundation-models)                   | None (~xx)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
-|                    |                                                 | [LFM 1B](https://www.liquid.ai/liquid-foundation-models)                   | None (~xx)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+|                    |                                                 | [LFM 1B](https://www.liquid.ai/liquid-foundation-models)                         | None (~xx)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| **01.ai**          | [Yi](https://www.01.ai/)                        | [Yi-Large](https://www.01.ai/)                                                   | 58.3           | 32k             | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+|                    |                                                 | [Yi-Lightning-lite](https://www.01.ai/)                                          | None (~70)     | 32k             | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+
 </details>
 
 #### Open source Models
@@ -615,8 +618,10 @@ When referring to a Model , we use the following terms :
 | **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 48.55        | 8K                 | 2024-06            |
 | **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | 12.2B | 51.9         | 128K               | 2023-12            |
 | **Databricks**     | [DBRX](https://www.databricks.com/)                 | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | 132B           | 49.6         | 33k                | 2023-12            |
+| **Nvidia**         | [Nemotron](https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct) | [Llama-3.1-Nemotron-70B-Instruct-HF ](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF)   | 70B | None (~76) | 128K   | 2023-12            |
+| **Mistral AI**     | [Ministral](https://mistral.ai/news/ministraux/)    | [Ministral-8B-Instruct](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) | 8B         | None (~55)   | 128K               | 2024-07            |
 | **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B   | None (~51)   | 128k               | 2024-03            |
-| **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-20b-chat](https://huggingface.co/internlm/internlm2_5-20b-chat)     | 7B           | None (~46)   | 1M                 | Unknown            |
+| **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-20b-chat](https://huggingface.co/internlm/internlm2_5-20b-chat)     | 7B             | None (~46)   | 1M                   | Unknown            |
 
 
 <details>
@@ -657,6 +662,7 @@ When referring to a Model , we use the following terms :
 | **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)     | 7B             | 34.2         | 32K              | 2024-04          | 
 |                    |                                                     | [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)     | 7B             | None (~31)   | 32K              | 2023-12          |
 |                    |                                                     | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)     | 7B             | None (~29)   | 32K              | 2023-09          |
+| **Mistral AI**     | [Ministral](https://mistral.ai/news/ministraux/)    | [Ministral-3B-Instruct](https://mistral.ai/news/ministraux/)                              | 3B             | None (~46)   | 128K             | 2024-07            |
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)         | 67B            | None (~31)   | 128K             | 2023-11          |
 | **Deepseek**       |                                                     | [DeepSeek-LLM-7B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)           | 7B             | None (~24)   | 64K              | 2023-11          |
 
