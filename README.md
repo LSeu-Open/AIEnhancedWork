@@ -2,16 +2,19 @@
 
 <div align="center"> 
  
-<strong> 🤖 Welcome to our repository, carefully curated to enhance productivity, automate tasks, and simplify daily workflows. </strong>
+<strong> 🤖 Welcome to our repository, carefully curated to enhance productivity, automate tasks, and simplify daily workflows. 🤖 </strong>
 
 ![License](https://img.shields.io/github/license/LSeu-Open/AIEnhancedWork?style=flat)
 ![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-195-blue?style=flat)
+
 ![text2Speech Models](https://img.shields.io/badge/text2Speech%20Models-10-blue?style=flat)
 ![Speech2text Models](https://img.shields.io/badge/Speech2text%20Models-7-blue?style=flat)
-![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-17-blue?style=flat)
 
+![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-24-blue?style=flat)
+![Image2Video Models](https://img.shields.io/badge/Image2Video%20Models-4-blue?style=flat)
+![Text2Video Models](https://img.shields.io/badge/Text2Videoe%20Models-5-blue?style=flat)
 
-![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-21-blue?style=flat)
+![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-22-blue?style=flat)
 ![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-77-blue?style=flat)
 ![Coding Large Language Models](https://img.shields.io/badge/Coding%20LLMs-10-blue?style=flat)
 
@@ -365,21 +368,28 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 | Organization         | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:---------------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
-| **Black Forest Labs** | [Flux.1 Pro](https://blackforestlabs.ai/)                                    | 1134       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
-| **Ideogram**         | [Ideogram v2](https://ideogram.ai/login)                                      | 1112       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
-| **Midjourney**        | [Midjourney v6.1](https://www.midjourney.com/home)                           | 1106       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
-| **Black Forest Labs** | [Flux.1 Dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)            | 1100       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **Stable Diffusion** | [Stable Diffusion 3 Large](https://stability.ai/stable-image)                 | 1077       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **Black Forest Labs** | [Flux.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell)    | 1073       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **Playground**       | [Playground v2.5](https://playground.com/blog/playground-v2-5)                | 1026       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **OpenAI**           | [DALLE 3 HD](https://openai.com/index/dall-e-3/)                              | 1019       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
-| **OpenAI**           | [DALLE 3](https://openai.com/index/dall-e-3/)                                 | 1002       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
-| **PixArt**           | [PixArt-Σ](https://pixart-alpha.github.io/PixArt-sigma-project/)              | 1000       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **Stable Diffusion** | [Stable Cascade](https://huggingface.co/stabilityai/stable-cascade)           | 998       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **Stable Diffusion** | [Stable Diffusion 3 Large Turbo](https://stability.ai/stable-image)           | 994        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **Stable Diffusion** | [Stable Diffusion 3 Medium](https://stability.ai/stable-image)                | 967        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **Stable Diffusion** | [Stable Diffusion 1.6](https://stability.ai/stable-image)                     | 958        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
-| **Stable Diffusion** | [Stable Diffusion XL base 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) | 916    | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Black Forest Labs** | [Flux1.1 Pro](https://blackforestlabs.ai/)                                   | 1151       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
+| **Black Forest Labs** | [Flux.1 Pro](https://blackforestlabs.ai/)                                    | 1127       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
+| **Ideogram**         | [Ideogram v2](https://ideogram.ai/login)                                      | 1104       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
+| **Midjourney**       | [Midjourney v6.1](https://www.midjourney.com/home)                            | 1097       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
+| **Black Forest Labs** | [Flux.1 Dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)            | 1094       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Ideogram**         | [Ideogram v2 Turbo](https://ideogram.ai/login)                                | 1093       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
+| **Midjourney**       | [Midjourney v6](https://www.midjourney.com/home)                              | 1085       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
+| **Ideogram**         | [Ideogram v1](https://ideogram.ai/login)                                      | 1073       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
+| **Stable Diffusion** | [Stable Diffusion 3 Large](https://stability.ai/stable-image)                 | 1065       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Black Forest Labs** | [Flux.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell)    | 1057       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Playground**       | [Playground v3 (beta)](https://playground.com/pg-v3)                          | 1054       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Recraft**          | [Recraft 20B](https://www.recraft.ai/blog/recraft-20b)                        | 1029       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
+| **Playground**       | [Playground v2.5](https://playground.com/blog/playground-v2-5)                | 1009       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **OpenAI**           | [DALLE 3 HD](https://openai.com/index/dall-e-3/)                              | 1002       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
+| **OpenAI**           | [DALLE 3](https://openai.com/index/dall-e-3/)                                 | 985       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
+| **Stable Diffusion** | [Stable Diffusion 3 Medium](https://stability.ai/stable-image)                | 955        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Stable Diffusion** | [Stable Diffusion 3 Large Turbo](https://stability.ai/stable-image)           | 951        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Stable Diffusion** | [Stable Diffusion 1.6](https://stability.ai/stable-image)                     | 941        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Stable Diffusion** | [Stable Diffusion XL base 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) | 900    | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **OpenAI**           | [DALLE 2](https://openai.com/index/dall-e-2/)                                 | 749       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
+| **Stable Diffusion** | [Stable Diffusion 2.1](https://stability.ai/stable-image)                     | 746        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Stable Diffusion** | [Stable Diffusion 1.5](https://stability.ai/stable-image)                     | 629        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
 | **Adobe**            | [Firefly Image 3](https://www.adobe.com/fr/products/firefly.html)             | None       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
 | **Google**           | [Imagen 3](https://deepmind.google/technologies/imagen-3/)                    | None       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
 
@@ -493,7 +503,7 @@ Take control of your data and models - all Open-source models in this list can b
 | **ByteDance**    | [LLaVA-OneVision-72B](https://huggingface.co/lmms-lab/llava-onevision-qwen2-72b-ov-sft) | 76.6 | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **Google**       | [Gemini 1.5 Flash](https://gemini.google.com/)                                | 75.1       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | **Alibaba**      | [Qwen-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)                | 73.7       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
-| **ByteDance**    | [LLaVA-OneVision-7B](https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov) | 72   | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| **ByteDance**    | [LLaVA-OneVision-7B](https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov) | 72     | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **OpenAI**       | [GPT-4V](https://chat.openai.com/)                                            | 71.1       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | **Meta**         | [Llama-3.2-90B-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct) | 70.1 | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **Mistral AI**   | [Pixtral-12B](https://huggingface.co/mistralai/Pixtral-12B-2409)              | 69.5       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
@@ -503,9 +513,9 @@ Take control of your data and models - all Open-source models in this list can b
 | **Anthropic**    | [Claude-3 Haiku](https://claude.ai/)                                          | 65.3       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
 | **Meta**         | [Llama-3.2-11B-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) | 64.3 | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **Microsoft**    | [Phi-3.5-vision-instruct](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) | 59.7 | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| **Deepseek**    | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B)                   | Soon        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
 <br>
-
 
 ## Data Analysis 
 
@@ -611,15 +621,15 @@ When referring to a Model , we use the following terms :
 | **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)         | 72B            | 75.25        | 131K               | 2023-08            |
 | **Mistral AI**     | [Mistral Large](https://mistral.ai/)                | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407)  | 123B           | 73           | 128K               | 2024-07            |
 | **Meta**           | [Llama](https://llama.meta.com/llama3/)             | [Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct) | 405B  | 71.9         | 128K               | 2023-12            |
+| **Nvidia**         | [Nemotron](https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct) | [Llama-3.1-Nemotron-70B-Instruct-HF ](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF)   | 70B | 69.9 | 128K   | 2023-12            |
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-V2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5)                | 236B           | 65.8         | 128K               | 2023-11            |
 | **AI21 Labs**      | [Jamba](https://www.ai21.com/jamba)                 | [Jamba 1.5 Large](https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large)          | 399B           | 63.75        | 256K               | 2024-03            |
 | **Mistral AI**     | [Mixtral](https://mistral.ai/news/mixtral-of-experts/) | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1)    | 141B | 61.1  | 65k                | 2024-04            |
 | **Cohere**         | [Command-R](https://cohere.com/)                    | [Command R+](https://txt.cohere.com/command-r-plus-microsoft-azure/)             | 104B           | 55.9         | 128k               | 2023-03            |
-| **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 48.55        | 8K                 | 2024-06            |
+| **Mistral AI**     | [Ministral](https://mistral.ai/news/ministraux/)    | [Ministral-8B-Instruct](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) | 8B         | 53.3   | 128K               | 2024-07            |
 | **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | 12.2B | 51.9         | 128K               | 2023-12            |
 | **Databricks**     | [DBRX](https://www.databricks.com/)                 | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct)                 | 132B           | 49.6         | 33k                | 2023-12            |
-| **Nvidia**         | [Nemotron](https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct) | [Llama-3.1-Nemotron-70B-Instruct-HF ](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF)   | 70B | None (~76) | 128K   | 2023-12            |
-| **Mistral AI**     | [Ministral](https://mistral.ai/news/ministraux/)    | [Ministral-8B-Instruct](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) | 8B         | None (~55)   | 128K               | 2024-07            |
+| **Google**         | [Gemma](https://ai.google.dev/gemma/docs)           | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)                   | 27B            | 48.55        | 8K                 | 2024-06            |
 | **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B   | None (~51)   | 128k               | 2024-03            |
 | **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-20b-chat](https://huggingface.co/internlm/internlm2_5-20b-chat)     | 7B             | None (~46)   | 1M                   | Unknown            |
 
@@ -662,7 +672,7 @@ When referring to a Model , we use the following terms :
 | **Mistral AI**     | [Mistral](https://mistral.ai/news/mistral-nemo/)    | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)     | 7B             | 34.2         | 32K              | 2024-04          | 
 |                    |                                                     | [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)     | 7B             | None (~31)   | 32K              | 2023-12          |
 |                    |                                                     | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)     | 7B             | None (~29)   | 32K              | 2023-09          |
-| **Mistral AI**     | [Ministral](https://mistral.ai/news/ministraux/)    | [Ministral-3B-Instruct](https://mistral.ai/news/ministraux/)                              | 3B             | None (~46)   | 128K             | 2024-07            |
+| **Mistral AI**     | [Ministral](https://mistral.ai/news/ministraux/)    | [Ministral-3B-Instruct](https://mistral.ai/news/ministraux/)                              | 3B             | 50.9   | 128K             | 2024-07            |
 | **Deepseek**       | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-LLM-67B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat)         | 67B            | None (~31)   | 128K             | 2023-11          |
 | **Deepseek**       |                                                     | [DeepSeek-LLM-7B-Chat](https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat)           | 7B             | None (~24)   | 64K              | 2023-11          |
 
