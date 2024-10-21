@@ -1,11 +1,21 @@
 # How to Use AI Privately
 
+<div align="center">
+ 
+ ⚠️ **IN PROGRESS** ⚠️ 
+
+**We are currently writing the content of this page.  We appreciate your patience as you wait for the finalized version.**
+
+**Please note that this is a work-in-progress tutorial and may contain inaccuracies or incomplete information.**
+  
+</div>
+
+
 ## Table of Contents
 
 * [Introduction](#introduction)
 * [How Your Data is Used by AI Providers](#how-your-data-is-used-by-ai-providers)
 * [Why It is a Problem](#why-it-is-a-problem)
-* [Challenges](#challenges)
 * [How to Correctly Handle Your Data When Using AI](#how-to-correctly-handle-your-data-when-using-ai)
 * [Privately Use LLMs](#privately-use-llms)
     * [Run LLMs locally on your machine](#run-llms-locally-on-your-machine)
