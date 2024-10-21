@@ -1,5 +1,3 @@
-![Header](Header_Fooocus.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
