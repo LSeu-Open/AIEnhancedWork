@@ -129,9 +129,10 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 Understand and Apply Artificial Intelligence through Interactive Tutorials.
 
- * **Run LLMs locally on your machine** with our first tutorial, ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***, and address privacy concerns of cloud-based AI tools.
+ * **Run LLMs locally on your machine** with our first tutorial, ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***.
  * **Set up your IDE to integrate your preferred AI provider** with this second tutorial, ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)***, and enhance your overall coding experience.
- * **[NEW]** **Create images locally with Midjourney-like Technology** with this third tutorial, ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***,  and address privacy concerns of cloud-based AI tools.
+ * **Create images locally with Midjourney-like Technology** with this third tutorial, ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***.
+ * **[NEW]** **Discover how to address privacy concerns when using AI** in this fourth tutorial, ***[How to Use AI Privately](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/How-to-Use-AI-Privately.md)***.
 
 ### Learning Resources
 
