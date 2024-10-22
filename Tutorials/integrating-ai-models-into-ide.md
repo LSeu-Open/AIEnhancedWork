@@ -209,10 +209,11 @@ The models are ranked according to **LiveCodeBench Pass@1** Code Generation scor
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Alibaba**        | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)  | 72.2B         | 47GB+ VRAM GPU (2xRTX 4090 or better) | 48.5 | [Yes](https://ollama.com/library/qwen2.5:72b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) |
 | **DeepSeek**       | [DeepSeek-V2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 41.8    | [Yes](https://ollama.com/library/deepseek-v2.5) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
-| **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (3XH100 or better)  | 41.6   | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |
-| **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (1XH100 or better) | 41.3   | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
-| **DeepSeek**       | [DeepSeek-Coder-V2-Instruct](https://ollama.com/library/deepseek-coder-v2:236b) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 39.7   | [Yes](https://ollama.com/library/deepseek-coder-v2:236b) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
+| **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (3XH100 or better)  | 39.7   | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |
+| **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (1XH100 or better) | 39.1   | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
+| **DeepSeek**       | [DeepSeek-Coder-V2-Instruct](https://ollama.com/library/deepseek-coder-v2:236b) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 37.7   | [Yes](https://ollama.com/library/deepseek-coder-v2:236b) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
 | **Meta**           | [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0) | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | 32.1 | [Yes](https://ollama.com/library/llama3.1:70b) | [Groq](https://groq.com/)     |
 | **Meta**           | [Llama3-70B-instruct](https://ollama.com/library/llama3:70b-instruct) | 70B |  40GB+ VRAM GPU (2xRTX 4090 or better) | 27.1   |  [Yes](https://ollama.com/library/llama3:70b-instruct) | [Groq](https://groq.com/)|
 | **Mistral**        | [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | 141B | 80GB+ VRAM GPU (1xH100 or better) | 25.8   | [Yes](https://ollama.com/library/mixtral:8x22b-instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
@@ -223,8 +224,9 @@ The models are ranked according to **LiveCodeBench Pass@1** Code Generation scor
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Alibaba**        | [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct)  | 32.8B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 46.3 | [Yes](https://ollama.com/library/qwen2.5:32b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct) |
 | **DeepSeek**       | [DeepSeek-Coder-V2-Lite-Instruct](https://ollama.com/library/deepseek-coder-v2)    | 16B  | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)| 41.1   | [Yes](https://ollama.com/library/deepseek-coder-v2) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
-| **Mistral**        | [Codestral-22B](https://ollama.com/library/codestral)                 | 22B       | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better) | 32.9 |  [Yes](https://ollama.com/library/codestral) | [Mistral](https://chat.mistral.ai/) | 
+| **Mistral**        | [Codestral-22B](https://ollama.com/library/codestral)                 | 22B       | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better) | 31.8 |  [Yes](https://ollama.com/library/codestral) | [Mistral](https://chat.mistral.ai/) | 
 | **DeepSeek**       | [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct) | 33B  | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 22.3    | [Yes](https://ollama.com/library/deepseek-coder:33b-instruct) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
 | **m-a-p**          | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B  | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 18.9 |  [Yes](https://ollama.com/wojtek/opencodeinterpreter)  | No |
 
@@ -233,7 +235,7 @@ The models are ranked according to **LiveCodeBench Pass@1** Code Generation scor
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Alibaba**        | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |  35.9 |  [Yes](https://ollama.com/library/qwen2.5-coder:7b-instruct) | No |
+| **Alibaba**        | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |  34 |  [Yes](https://ollama.com/library/qwen2.5-coder:7b-instruct) | No |
 | **01.ai**          | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  | 9B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 31.2        | [Yes](https://ollama.com/library/yi-coder:9b-chat)  | [Hugging Face](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  |
 | **Mistral**        | [Mamba-codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 21.1   | No | [Mistral](https://mistral.ai/)  |
 | **Alibaba**        | [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) |  19.6    |  [Yes](https://ollama.com/library/codeqwen:v1.5-chat) | No |
@@ -248,14 +250,15 @@ The models are ranked according to **LiveCodeBench Pass@1** Code Generation scor
 
 | Model             | Provider     | Pass@1 score (/100) | Pricing |
 |:-----------------:|:------------:|:----------------------:|:-------:|
-| [o1-preview](https://chat.openai.com/)   | **OpenAI**       | 59.0 | Paid    |
-| [Claude-3.5 Sonnet](https://claude.ai//)     | **Anthropic**    | 54.1   | Paid    |
-| [GPT-4o](https://chat.openai.com/)           | **OpenAI**       | 48 | Paid    |
-| [GPT-4 Turbo](https://chat.openai.com/)      | **OpenAI**       | 43.7 | Paid    |
-| [Gemini Pro 1.5](https://gemini.google.com/) | **Google**       | 42.2   | Paid    |
-| [GPT-4O-mini](https://chat.openai.com/)      | **OpenAI**       | 40.7 | Paid    |
-| [Claude-3 Opus](https://claude.ai/)          | **Anthropic**    | 35.3 | Paid    |
+| [o1-preview](https://chat.openai.com/)   | **OpenAI**       | 56.7 | Paid    |
+| [Claude-3.5 Sonnet](https://claude.ai//)     | **Anthropic**    | 50.9   | Paid    |
+| [GPT-4o](https://chat.openai.com/)           | **OpenAI**       | 47.7 | Paid    |
+| [Gemini Pro 1.5](https://gemini.google.com/) | **Google**       | 43   | Paid    |
+| [GPT-4 Turbo](https://chat.openai.com/)      | **OpenAI**       | 41.8 | Paid    |
+| [GPT-4O-mini](https://chat.openai.com/)      | **OpenAI**       | 38.7| Paid    |
+| [Gemini Flash 1.5](https://gemini.google.com/) | **Google**       | 37.2| Paid    ||
+[Claude-3 Opus](https://claude.ai/)          | **Anthropic**    | 35.3 | Paid    |
 | [GPT-4](https://chat.openai.com/)            | **OpenAI**       | 34.9 | Paid    |
-| [Gemini Flash 1.5](https://gemini.google.com/) | **Google**       | 29.6 | Paid    |
+
 
 
