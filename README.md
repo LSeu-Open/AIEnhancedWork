@@ -740,14 +740,18 @@ When referring to a Model , we use the following terms :
 
 > [!NOTE]
 > The models are ranked according to **LiveCodeBench Pass@1 Code Generation scores** (with higher scores indicating better performance). Pass@1 is the probability of passing a given problem in one attempt. [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) offers a more comprehensive, up-to-date, and contamination-aware evaluation of code-related capabilities compared to HumanEval.
+>
+> Please note that non-specialized models may perform better than the specialized ones described below. To see the Pass@1 scores for all major models, please refer to the [dedicated tables](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
 
 
 | Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                                     | Model Sizes   | Pass@1* | Context Window*  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
-| **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 44.7      | 128K             |
-| **Mistral AI**     | [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 32.9        | 33K              |
-| **01.ai**          | [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)        | 9B           | 31.2       | 128K              |
-| **Multimodal Art Projection**  | [OpenCodeInterpreter](https://huggingface.co/m-a-p)  | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 22.3       | 8K               |
+| **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 37.7      | 128K             |
+| **Alibaba**        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) | 32B         | 34          | 132K             | 
+| **Mistral AI**     | [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 31.8        | 33K              |
+| **01.ai**          | [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat) | 9B | 29.2 | 128K           |
+| **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | 16B | 28.3 | 128K         |
+| **Multimodal Art Projection**  | [OpenCodeInterpreter](https://huggingface.co/m-a-p)  | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 26.7        | 8K               |
 | **Mistral AI**     | [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 21.1        | 256k             |
 | **Alibaba**        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 19.6        | 64K              |
 | **THUDM**          | [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 17.8        | 128K             |
