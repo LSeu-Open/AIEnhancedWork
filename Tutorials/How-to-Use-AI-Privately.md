@@ -22,7 +22,7 @@
     * [Run LLMs locally on your machine](#run-llms-locally-on-your-machine)
     * [Use Brave browser AI solutions](#use-brave-browser-ai-solutions)
     * [Venice A Private Cloud-based Provider](#venice-a-private-cloud-based-provider)
-* [Conclusion](#conclusion)
+* [What option do you recommend](#what-option-do-you-recommend)
 
 <br>
   
@@ -240,5 +240,79 @@ If you have an older or less powerful computer, or if you're not very familiar w
 
 ### Use Brave browser AI solutions
 
+Brave Browser is a **privacy-focused web browser** developed by Brave Software, Inc., founded by Brendan Eich, who is also the creator of JavaScript. It aims to provide users with **a secure and fast browsing experience while minimizing online tracking and intrusive advertisements.**
+
+Brave Browser **includes a built-in content blocker and privacy features, many of which are enabled by default.** Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+
+**[Leo is Brave's AI assistant](https://brave.com/leo/)** integrated directly into the Brave Browser, designed to enhance user experience while prioritizing privacy.
+
+
+
+**Leo can be accessed easily within the Brave Browser (both on Dektop and Mobile version):**
+
+- Users can type queries **directly into the address bar** and **select "Ask Leo"** from the dropdown menu.
+- Alternatively, Leo can be summoned from a **sidebar chat interface**.
+
+***Key Features of Leo***
+
+- **Real-Time Interaction**: Leo allows users to create **real-time summaries of webpages or videos**, answer **questions about content**, generate new content, translate pages, and even engage in casual conversations.
+- **Privacy-Centric Design**:
+  - **Anonymity**: All user requests are **proxied through anonymized servers, ensuring that IP addresses cannot be linked to user queries**.
+  - **Data Handling**: Leo **does not store conversations or use them for model training**; responses are discarded immediately after generation.
+  - **No Account Required**: Users can access Leo **without needing to create a Brave account, enhancing privacy further**.
+
+**Leo doesn't log user data; conversations are deleted upon browser closure. Leo uses open-source models and employs a proxy server to strip IP addresses from queries, enhancing privacy.**
+
+***Models currently usable wiht Leo AI***
+
+- **Llama 3.1 8B**
+- **Mixtral**
+- **Claude 3 Haiku**
+- **Claude 3.5 Sonnet** (Only with a [premium subscription](https://account.brave.com/?intent=checkout&product=leo))
+
+You also can use any model provided by Ollama via Leo **[Bring Your Own Model (BYOM)](https://brave.com/blog/byom-nightly/)**   
+
 ### Venice A Private Cloud-based Provider
 
+[Venice.ai](https://venice.ai/) is a new AI platform that launched in 2024, offering a **unique approach to AI interactions with a focus on privacy, uncensored content, and decentralization**. 
+
+***It offers text generation, image creation, and document analysis capabilities..** The platform integrates blockchain technology for enhanced security and decentralized payments.
+
+**Venice.ai prioritizes user privacy by**:
+- Not storing conversation history or associating it with user accounts. (Conversation history is encrypted and stored locally on the user's device, rather than on Venice AI's servers.)
+- Using end-to-end encryption for all interactions.
+- Processing user inputs on a decentralized GPU network without personal identifiers.
+- Allowing use without registration (though limited free access is available).
+- Venice AI does not store or log user conversations on its own servers, significantly reducing the risk of data breaches or unauthorized access.
+
+**Unlike many AI platforms, Venice.ai does not censor or filter content**:
+- It provides unfiltered, unbiased information without restrictions on topics.
+- Users have total freedom in the subjects they can address.
+
+**Venice.ai offers various access options**:
+- Free use without registration (limited to 15 text queries and 5 images per day).
+- Free registration increases limits to 25 text requests and 15 images daily.
+- A paid version is available for $50 per year with unlimited access.
+
+## What option do you recommend
+
+Before making a decision, it's essential to acknowledge that **each option has its pros and cons**. The best choice ultimately **depends on how you intend to utilize the AI**.
+
+To illustrate this, I'll provide a **specific example to consider**.
+
+***You want the most private, secure and uncensored solution*** : Run your model locally using Ollama or other providers. 
+
+- 🟢 This approach relies on **no trust assumptions and ensures that data remains on your computer**. You can run any open source models your hardware can support. It allows you to create and use any integration and software with your local model.  No rate limitation and no subscription.
+- 🔴 However, **it may require powerful and expensive hardware** to effectively run larger models. Find the model that is righ for you in the [dedicated Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you).
+
+***You want the easiest and interactive solution*** : Use the seamless Leo AI integration directly into Brave Web browser.
+
+- 🟢 No hardware or expertise required. **Seamless integration as real-time summaries of web pages or videos, or inquiries about content.** With the **BYOM** feature, you can utilize any open-source model that can be run locally on your computer.
+- 🔴 Rely on Brave Software, Inc. to securely handle your requests. **You can be rate limited (# of Requests per day) and Subscription is needed to use advanced  models.**
+
+***You want it to be easy, private and uncensored*** : Use Venice.ai services.
+
+- 🟢 No Hardaware and expertise needed. **you gain access to both language models and image generation models.**
+- 🔴 Rely on Venice.ai to securely handle your requests. **You are rate limited (# of Requests per day) and Subscription is needed to use advanced models and unlimited requests.**
+
+<br>  
