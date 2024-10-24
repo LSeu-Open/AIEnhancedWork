@@ -12,7 +12,7 @@
 
 ![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-24-blue?style=flat)
 ![Image2Video Models](https://img.shields.io/badge/Image2Video%20Models-4-blue?style=flat)
-![Text2Video Models](https://img.shields.io/badge/Text2Videoe%20Models-5-blue?style=flat)
+![Text2Video Models](https://img.shields.io/badge/Text2Videoe%20Models-7-blue?style=flat)
 
 ![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-22-blue?style=flat)
 ![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-77-blue?style=flat)
@@ -448,10 +448,10 @@ An image-to-video AI model is a sophisticated machine learning system designed t
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Licence     | Pricing   |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
+| **THUDM**            | [CogVideo](https://github.com/THUDM/CogVideo)     | [CogVideoX-5B-I2V](https://huggingface.co/THUDM/CogVideoX-5b-I2V)                | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
 | **Stable Diffusion** | [Stable Video Diffusion (SVD)](https://stability.ai/stable-video)       | [img2vid-xt](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
 | **Stable Diffusion** | [Stable Video Diffusion (SV3D)](https://stability.ai/stable-video)      | [sv3d](https://huggingface.co/stabilityai/sv3d)             | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
 | **Stable Diffusion** | [Stable Video Diffusion (SV4D)](https://stability.ai/stable-video)      | [sv4d](https://huggingface.co/stabilityai/sv4d)             | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
-| **THUDM**            | [CogVideo](https://github.com/THUDM/CogVideo)     | [CogVideoX-5B-I2V](https://huggingface.co/THUDM/CogVideoX-5b-I2V)                | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
 
 #### Text to Video Models
 
@@ -459,12 +459,14 @@ A Text-to-Video model is an advanced artificial intelligence system designed to 
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Licence     | Pricing   |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
-| **Cerspense**      | [Zeroscope](https://huggingface.co/cerspense)       | [zeroscope-v2-576w](https://huggingface.co/cerspense/zeroscope_v2_576w)          | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
-| **THUDM**          | [CogVideo](https://github.com/THUDM/CogVideo)       | [CogVideoX-5B](https://huggingface.co/THUDM/CogVideoX-5b)                        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Rhymes AI**      | [Allegro](https://github.com/rhymes-ai/Allegro)     | [Allegro](https://huggingface.co/rhymes-ai/Allegro)                              | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
 | **ByteDance**      | [AnimateDiff](https://github.com/guoyww/animatediff/) | [AnimateDiff-Lightning](https://huggingface.co/ByteDance/AnimateDiff-Lightning) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
 | **MMLab**          | [AnimateLCM](https://arxiv.org/abs/2402.00769)      | [AnimateLCM](https://huggingface.co/wangfuyun/AnimateLCM) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
-| **Modelscope**     | [text-to-video-ms](https://modelscope.cn/models/iic/text-to-video-synthesis/summary) | [text-to-video-ms-1.7b](https://huggingface.co/ali-vilab/text-to-video-ms-1.7b) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
- 
+| **THUDM**          | [CogVideo](https://github.com/THUDM/CogVideo)       | [CogVideoX-5B](https://huggingface.co/THUDM/CogVideoX-5b)                        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Genmo**          | [Mochi](https://www.genmo.ai/)                      | [Mochi-1-preview](https://huggingface.co/genmo/mochi-1-preview)                  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Modelscope**     | [text-to-video-ms](https://modelscope.cn/models/iic/text-to-video-synthesis/summary) | [text-to-video-ms-1.7b](https://huggingface.co/ali-vilab/text-to-video-ms-1.7b) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     | 
+| **Cerspense**      | [Zeroscope](https://huggingface.co/cerspense)       | [zeroscope-v2-576w](https://huggingface.co/cerspense/zeroscope_v2_576w)          | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+
 #### Video Generation Providers
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
