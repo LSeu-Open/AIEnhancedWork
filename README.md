@@ -12,7 +12,7 @@
 
 ![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-24-blue?style=flat)
 ![Image2Video Models](https://img.shields.io/badge/Image2Video%20Models-4-blue?style=flat)
-![Text2Video Models](https://img.shields.io/badge/Text2Videoe%20Models-7-blue?style=flat)
+![Text2Video Models](https://img.shields.io/badge/Text2Video%20Models-7-blue?style=flat)
 
 ![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-22-blue?style=flat)
 ![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-77-blue?style=flat)
