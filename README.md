@@ -12,7 +12,7 @@
 
 ![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-29-blue?style=flat)
 ![Image2Video Models](https://img.shields.io/badge/Image2Video%20Models-4-blue?style=flat)
-![Text2Video Models](https://img.shields.io/badge/Text2Video%20Models-7-blue?style=flat)
+![Text2Video Models](https://img.shields.io/badge/Text2Video%20Models-13-blue?style=flat)
 
 ![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-23-blue?style=flat)
 ![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-77-blue?style=flat)
@@ -444,7 +444,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 > [!NOTE]
 > As video generation models are still in their early stages of development, primarily driven by large companies like OpenAI with Sora or Runway with Gen3, we have limited information on how each model functions.
 >
-> For now, we can only offer a limited selection of open-source models available on Hugging Face.
+> For now, we can only offer a limited selection of models available.
 
 #### Image to Video Models
 
@@ -461,15 +461,24 @@ An image-to-video AI model is a sophisticated machine learning system designed t
 
 A Text-to-Video model is an advanced artificial intelligence system designed to generate video content based on text descriptions.
 
-| Organization       | Model Familly                                       | Best Model                                                                       | Licence     | Pricing   |
-|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
-| **Rhymes AI**      | [Allegro](https://github.com/rhymes-ai/Allegro)     | [Allegro](https://huggingface.co/rhymes-ai/Allegro)                              | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
-| **ByteDance**      | [AnimateDiff](https://github.com/guoyww/animatediff/) | [AnimateDiff-Lightning](https://huggingface.co/ByteDance/AnimateDiff-Lightning) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
-| **MMLab**          | [AnimateLCM](https://arxiv.org/abs/2402.00769)      | [AnimateLCM](https://huggingface.co/wangfuyun/AnimateLCM) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
-| **THUDM**          | [CogVideo](https://github.com/THUDM/CogVideo)       | [CogVideoX-5B](https://huggingface.co/THUDM/CogVideoX-5b)                        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
-| **Genmo**          | [Mochi](https://www.genmo.ai/)                      | [Mochi-1-preview](https://huggingface.co/genmo/mochi-1-preview)                  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
-| **Modelscope**     | [text-to-video-ms](https://modelscope.cn/models/iic/text-to-video-synthesis/summary) | [text-to-video-ms-1.7b](https://huggingface.co/ali-vilab/text-to-video-ms-1.7b) | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     | 
-| **Cerspense**      | [Zeroscope](https://huggingface.co/cerspense)       | [zeroscope-v2-576w](https://huggingface.co/cerspense/zeroscope_v2_576w)          | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| Organization       | Model Familly                                       | Best Model                                                                       | Elo score       | Licence         | Pricing   |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|:---------------:|
+| **Hailou AI**      | [MiniMax](https://hailuoai.com/)                    | [MiniMax](https://hailuoai.com/)                                                 | 1106 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| **Runway**         | [Runway](https://runwayml.com/)                     | [Gen-3 Alpha](https://runwayml.com/research/introducing-gen-3-alpha)             | 1063 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| **Kling**          | [Kling](https://klingai.com/)                       | [Kling 1.0](https://klingai.com/)                                                | 1048 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| **Lumalabs**       | [Dream Machine](https://lumalabs.ai/dream-machine)  | [Dream Machine](https://lumalabs.ai/dream-machine)                               | 1044 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| **Pika Art**       | [Pika](https://pika.art/try)                        | [Pika 1.5](https://pika.art/try)                                                 | 1020 | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
+| **Zhipu AI**       | [CogVideo](https://github.com/THUDM/CogVideo)       | [CogVideoX-5B](https://huggingface.co/THUDM/CogVideoX-5b)                        | 862 | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Research**       | [Pyramid-flow](https://pyramid-flow.github.io/)     | [Pyramid-flow](https://huggingface.co/rain1011/pyramid-flow-sd3)                 | 823 | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Rhymes AI**      | [Allegro](https://github.com/rhymes-ai/Allegro)     | [Allegro](https://huggingface.co/rhymes-ai/Allegro)                              | None | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **ByteDance**      | [AnimateDiff](https://github.com/guoyww/animatediff/) | [AnimateDiff-Lightning](https://huggingface.co/ByteDance/AnimateDiff-Lightning) | None | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **MMLab**          | [AnimateLCM](https://arxiv.org/abs/2402.00769)      | [AnimateLCM](https://huggingface.co/wangfuyun/AnimateLCM)                        | None | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Genmo**          | [Mochi](https://www.genmo.ai/)                      | [Mochi-1-preview](https://huggingface.co/genmo/mochi-1-preview)                  | None | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+| **Modelscope**     | [text-to-video-ms](https://modelscope.cn/models/iic/text-to-video-synthesis/summary) | [text-to-video-ms-1.7b](https://huggingface.co/ali-vilab/text-to-video-ms-1.7b) | None | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     | 
+| **Cerspense**      | [Zeroscope](https://huggingface.co/cerspense)       | [zeroscope-v2-576w](https://huggingface.co/cerspense/zeroscope_v2_576w)          | None | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)     |
+
+> [!NOTE]
+> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [artificialanalysis.ai text to Video Arena](https://artificialanalysis.ai/text-to-video/arena?tab=Leaderboard). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 
 #### Video Generation Providers
 
