@@ -10,11 +10,11 @@
 ![text2Speech Models](https://img.shields.io/badge/text2Speech%20Models-10-blue?style=flat)
 ![Speech2text Models](https://img.shields.io/badge/Speech2text%20Models-7-blue?style=flat)
 
-![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-24-blue?style=flat)
+![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-25-blue?style=flat)
 ![Image2Video Models](https://img.shields.io/badge/Image2Video%20Models-4-blue?style=flat)
 ![Text2Video Models](https://img.shields.io/badge/Text2Video%20Models-7-blue?style=flat)
 
-![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-22-blue?style=flat)
+![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-23-blue?style=flat)
 ![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-77-blue?style=flat)
 ![Coding Large Language Models](https://img.shields.io/badge/Coding%20LLMs-10-blue?style=flat)
 
@@ -251,6 +251,7 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
 | **Coqui**          | [XTTS](https://huggingface.co/coqui)                | [XTTS V2](https://huggingface.co/coqui/XTTS-v2)                                  | 942  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **StyleTTS**       | [StyleTTS](https://github.com/yl4579)               | [StyleTTS 2](https://huggingface.co/spaces/styletts2/styletts2)                  | 883  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **MetaVoice**      | [MetaVoice](https://github.com/metavoiceio)         | [MetaVoice V1](https://github.com/metavoiceio/metavoice-src)                     | 818  | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| **Swivid**         | [TTS](https://huggingface.co/SWivid)                | [F5-TTS](https://huggingface.co/SWivid/F5-TTS)                                   | None | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
 #### Text to speech Providers
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
@@ -395,6 +396,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 | **Stable Diffusion** | [Stable Diffusion 1.5](https://stability.ai/stable-image)                     | 629        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
 | **Adobe**            | [Firefly Image 3](https://www.adobe.com/fr/products/firefly.html)             | None       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
 | **Google**           | [Imagen 3](https://deepmind.google/technologies/imagen-3/)                    | None       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
+| **Xiao Shitao**      | [OmniGen-v1](https://huggingface.co/Shitao/OmniGen-v1)                        | None       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
 | **Stable Diffusion** | [Stable Diffusion 3.5 medium](https://stability.ai/stable-image)              | Soon       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
 
 > [!NOTE]
@@ -495,8 +497,8 @@ Take control of your data and models - all Open-source models in this list can b
 >
 >  This benchmark use different method to evaluate various VLMs capabilities, later used to calculate the Overall score. However, **the top-ranked model might not be number one in all specific capacities.**
 
-| Organization     | Model                                                                         | Overall score  | Licence     | Pricing   |
-|:-----------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
+| Organization     | Model                                                                         | Score      | Licence                                                                    | Pricing                                                      |
+|:-----------------|:------------------------------------------------------------------------------|:----------:|:--------------------------------------------------------------------------:|:------------------------------------------------------------:|
 | **AllenAI**      | [Molmo-72B](https://huggingface.co/allenai/Molmo-72B-0924)                    | 81.2       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **Alibaba**      | [Qwen2-VL-72B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct)    | 79.4       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **Nvidia**       | [NVLM-D-72B](https://huggingface.co/nvidia/NVLM-D-72B)                        | 79.2       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
@@ -518,7 +520,8 @@ Take control of your data and models - all Open-source models in this list can b
 | **Anthropic**    | [Claude-3 Haiku](https://claude.ai/)                                          | 65.3       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
 | **Meta**         | [Llama-3.2-11B-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) | 64.3 | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **Microsoft**    | [Phi-3.5-vision-instruct](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) | 59.7 | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
-| **Deepseek**    | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B)                   | Soon        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| **Deepseek**     | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B)                   | Soon        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
+| **Rhymes AI**    | [Aria](https://huggingface.co/rhymes-ai/Aria)                                 | Soon        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
 <br>
 
