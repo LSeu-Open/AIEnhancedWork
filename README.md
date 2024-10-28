@@ -379,6 +379,13 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 #### Text to Image Models
 
+> [!NOTE]
+> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [artificialanalysis.ai text to Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+>
+> To provide a comprehensive overview of the generative image model landscape, only **pre-trained versions of the listed models are included in this ranking.**
+>
+> Due to the continuous evolution and **vast number of possible fine-tuned configurations, it is impractical to comprehensively list every variant here.**
+
 | Organization         | Model                                                                         | Elo score  | Licence     | Pricing   |
 |:---------------------|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
 | **Black Forest Labs** | [Flux1.1 Pro](https://blackforestlabs.ai/)                                   | 1145       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)      |
@@ -411,12 +418,6 @@ The Computer Vision section includes AI models and tools designed to process, an
 | **Xiao Shitao**      | [OmniGen-v1](https://huggingface.co/Shitao/OmniGen-v1)                        | None       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
 | **MeissonFlow**      | [Meissonic](https://huggingface.co/MeissonFlow/Meissonic)                     | None       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
 
-
-> [!NOTE]
-> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [artificialanalysis.ai text to Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
->
-> For a comprehensive view of the generative image models landscape, **fine-tuned models** have been **excluded** from these rankings.
-
 #### Text to Image Cloud-based Providers
 
 | Tool              | Description                                                                                                         |  Licence     | Pricing     |
@@ -436,6 +437,10 @@ The Computer Vision section includes AI models and tools designed to process, an
 
 #### Text to Image Local Providers
 
+> [!TIP]
+> **Take control of your data and models** - With **Fooocus, you can generate them locally in a beginner-friendly manner**., see our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
+
+
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | A powerful and modular graphical user interface (GUI) for Stable Diffusion, provide users with precise control over image generation workflows. | All | All Stable Diffusion Models + Flux.1 |
@@ -445,10 +450,6 @@ The Computer Vision section includes AI models and tools designed to process, an
 | [Invoke](https://github.com/invoke-ai/InvokeAI) | A leading creative engine for Stable Diffusion models. | All | All Stable Diffusion Models. |
 | [Stable Diffusion web UI by Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | a popular graphical user interface (GUI) for interacting with the Stable Diffusion models. | All | All Stable Diffusion Models. |
 
-> [!TIP]
-> **Take control of your data and models** - With **Fooocus** you can generate locally, see our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
->
-> **Fooocus** use fine-tuned version of the Stable Diffusion XL model. These models reach 900 to 1020 Elo score.
 
 ### Video Generation
 
