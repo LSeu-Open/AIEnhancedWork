@@ -130,7 +130,6 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 - ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) : Completely free to use, with no costs or fees associated.
 - ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) : Offers a basic version or limited features for free, with optional paid upgrades or premium features.
 - ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) : Requires a one-time or recurring payment to access or use the project or software.
-- ![None (Research)](https://img.shields.io/badge/None%20(Research)-lightgrey?style=flat) : No pricing model is available, as this tool was created as a research project and not intended for commercial use.
 
 <br>
 
