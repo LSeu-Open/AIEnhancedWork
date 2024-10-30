@@ -416,6 +416,8 @@ The Computer Vision section includes AI models and tools designed to process, an
 | **Google**           | [Imagen 3](https://deepmind.google/technologies/imagen-3/)                    | None       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | **Xiao Shitao**      | [OmniGen-v1](https://huggingface.co/Shitao/OmniGen-v1)                        | None       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
 | **MeissonFlow**      | [Meissonic](https://huggingface.co/MeissonFlow/Meissonic)                     | None       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Fal.ai**           | [AuraFlow-v0.3](https://huggingface.co/fal/AuraFlow-v0.3)                     | None       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
+| **Kwai**             | [Kolors](https://huggingface.co/Kwai-Kolors/Kolors)                           | None       | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)      |
 
 #### Text to Image Cloud-based Providers
 
@@ -423,6 +425,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [Craiyon](https://www.craiyon.com/) | An AI-powered platform for generating artistic images and animations.                             | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)        |
 | [Dall-E](https://openai.com/research/dall-e) | An AI model developed by OpenAI that generates images from textual descriptions.         | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)|
+| [Fal.ai](https://fal.ai/) | Fal.ai is a cutting-edge generative media platform designed for developers to build advanced AI applications. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)|
 | [Firefly](https://www.adobe.com/fr/products/firefly.html) | A creative AI tool for generating images, animations, and other visual content. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | [Ideogram](https://ideogram.ai/) |  An advanced text-to-image generator that creates high-quality images based on text prompts.         | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | [Krea](https://www.krea.ai/home) | An advanced AI-powered platform designed for generating and enhancing visual content, including images and videos. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
@@ -448,7 +451,6 @@ The Computer Vision section includes AI models and tools designed to process, an
 | [Fooocus](https://github.com/lllyasviel/Fooocus) | An open-source AI image generation tool designed to simplify the process of creating images using Stable Diffusion technology. | All | Stable Diffusion XL models. |
 | [Invoke](https://github.com/invoke-ai/InvokeAI) | A leading creative engine for Stable Diffusion models. | All | All Stable Diffusion Models. |
 | [Stable Diffusion web UI by Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | a popular graphical user interface (GUI) for interacting with the Stable Diffusion models. | All | All Stable Diffusion Models. |
-
 
 ### Video Generation
 
