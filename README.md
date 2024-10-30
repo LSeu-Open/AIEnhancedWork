@@ -144,11 +144,12 @@ Understand and Apply Artificial Intelligence through Interactive Tutorials.
  * **Run LLMs locally on your machine** with our first tutorial, ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***.
  * **Set up your IDE to integrate your preferred AI provider** with this second tutorial, ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)***, and enhance your overall coding experience.
  * **Create images locally with Midjourney-like Technology** with this third tutorial, ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***.
- * **Discover how to address privacy concerns when using AI** in this fourth tutorial, ***[How to Use AI Privately](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/How-to-Use-AI-Privately.md)***. ⚠️
+ * **Discover how to address privacy concerns when using AI** in this fourth tutorial, ***[How to Use AI Privately](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/How-to-Use-AI-Privately.md)***.
 
 ***Online tutorials***
 
-* ⚠️ **[NEW]** ***Master advanced prompt engineering techniques*** through an engaging, hands-on learning process. Check out the **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** on Hugging Face Spaces.
+* ⚠️ **[NEW]** ***Master advanced prompt engineering techniques*** through an engaging, hands-on learning process. Check out the **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** by Loic Baconnier.
+* ⚠️ **[NEW]** ***Learn how to engineer optimal prompts*** via a comprehensive step-by-step tutorial.  Check out the **[Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629)** by ***Anthropic*** 
   
 ### Learning Resources
 
@@ -176,7 +177,6 @@ Understand and Apply Artificial Intelligence through Interactive Tutorials.
 | [Evaluation of generative AI applications](https://microsoft.github.io/generative-ai-for-beginners/#/02-exploring-and-comparing-different-llms/README?wt.mc_id=academic-105485-koreyst) | Exploring and comparing different LLMs.                      | ***Microsoft***      |
 | [Generative AI Explained](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1) | Concepts, applications, challenges, and opportunities in Generative AI. | ***Nvidia***         |
 | [Introduction to prompt engineering](https://microsoft.github.io/generative-ai-for-beginners/#/04-prompt-engineering-fundamentals/README?wt.mc_id=academic-105485-koreyst) | Hands-on best practices for prompt engineering.              | ***Microsoft***      |
-| [Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629) | A comprehensive step-by-step understanding of how to engineer optimal prompts.        | ***Anthropic***      |
 | [Vision Language Models Explained](https://huggingface.co/blog/vlms) | An overview of vision language models, their functionality, and usage. |  ***Hugging Face***   |
 | [What are AI hallucinations?](https://www.ibm.com/topics/ai-hallucinations) | Learn why AI systems can generate nonsensical outputs by perceiving non-existent patterns or objects. | ***IBM***            |
 | [What is Prompt Engineering?](https://aws.amazon.com/what-is/prompt-engineering/) | A concise guide to the key concepts, considerations, and methodologies behind prompt engineering. | ***Amazon***         |
