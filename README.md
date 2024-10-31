@@ -11,7 +11,7 @@
 📜
 
 💬
-![text2Speech Models](https://img.shields.io/badge/text2Speech%20Models-10-blue?style=flat)
+[![text2Speech Models](https://img.shields.io/badge/text2Speech%20Models-10-blue?style=flat)](#text-to-speech-models)
 ![Speech2text Models](https://img.shields.io/badge/Speech2text%20Models-7-blue?style=flat)
 💬
 
