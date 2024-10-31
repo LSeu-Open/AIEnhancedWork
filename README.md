@@ -629,12 +629,15 @@ When referring to a Model , we use the following terms :
 | **Alibaba**        | [Qwen](https://qwenlm.github.io/)                   | [Qwen-Max](https://huggingface.co/spaces/Qwen/Qwen-VL-Max)                       | None (~55)     | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
 | **Liquid**         | [LFM](https://www.liquid.ai/liquid-foundation-models) | [LFM 40B MoE](https://www.liquid.ai/liquid-foundation-models)                  | None (~60+)    | 128k            | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
 
-##### Other Proprietary Model Family Variants
+<details>
+<summary> 🔒 <b>Other Other Proprietary Model Family Variants</b></summary> 
+
+<br>
 
 | Organization   | Model Familly                                       | Best Model                                                                       | Quality Index  | Context Window* |  Knowledge Cutoff | Pricing model | Licence |
 |:--------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|:-------------:|
 | **OpenAI**         | [o](https://chatgpt.com/)                       | [o1-mini](https://openai.com/o1/)                                                | 81.6           | 128K            | 2023-10           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
-|                    |                                                 | [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | 71.4 | 128K            | 2023-10           | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
+|                    | [ChatGPT](https://chatgpt.com/)                 | [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | 71.4 | 128K            | 2023-10           | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
 |                    |                                                 | [GPT-4-Turbo](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4)     | 74.3           | 128K            | 2023-12           |  ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
 |                    |                                                 | [GPT-3.5-Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo)           | 52.8           | 4K              | 2021-09           | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
 | **Anthropic**      | [Claude](https://claude.ai/)                    | [Claude 3 Opus](https://claude.ai/)                                              | 70.3           | 200k            | 2023-08           | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
@@ -649,7 +652,9 @@ When referring to a Model , we use the following terms :
 | **01.ai**          | [Yi](https://www.01.ai/)                        | [Yi-Large](https://www.01.ai/)                                                   | 58.3           | 32k             | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
 |                    |                                                 | [Yi-Lightning-lite](https://www.01.ai/)                                          | None (~70)     | 32k             | Unknown           | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) |
 
-[⬆️ Return to the beginning of the Proprietary Models list](https://github.com/LSeu-Open/AIEnhancedWork/tree/main?tab=readme-ov-file#proprietary-models)
+</details>
+
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
 
 <br>
 
@@ -675,8 +680,10 @@ When referring to a Model , we use the following terms :
 | **IBM**            | [Granite 3.0](https://github.com/ibm-granite/granite-3.0-language-models) | [Granite-3.0-8b-instruct](https://huggingface.co/ibm-granite/granite-3.0-8b-instruct) | 8B | None (~51) | 128k  | Unknown            | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) |
 | **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-20b-chat](https://huggingface.co/internlm/internlm2_5-20b-chat)     | 7B             | None (~46)   | 1M                 | Unknown            | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) |
 
+<details>
+<summary> 🔓 <b>Other Open source Models Family Variants</b></summary> 
 
-##### Other Open source Models Family Variants
+<br>
 
 | Organization       | Model Familly                                       | Best Model                                                                                | Model Sizes    | Quality Index | Context Window*  | Knowledge Cutoff | Licence |
 |:------------------:|:----------------------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
@@ -726,7 +733,9 @@ When referring to a Model , we use the following terms :
 |                    |                                                     | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)     | 7B             | None (~29)   | 32K              | 2023-09          | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) |
 |                    | [Ministral](https://mistral.ai/news/ministraux/)    | [Ministral-3B-Instruct](https://mistral.ai/news/ministraux/)                              | 3B             | 50.9         | 128K             | 2024-07          | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) |
 
-[⬆️ Return to the beginning of the Open Source Models list](https://github.com/LSeu-Open/AIEnhancedWork/tree/main?tab=readme-ov-file#open-source-models)
+</details>
+
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
 
 <br>
 
@@ -780,6 +789,8 @@ When referring to a Model , we use the following terms :
 | [Msty](https://msty.app/) |  an AI chat application that offers a user-friendly interface for interacting with both local and online AI language models. | All | Open source Models and Proprietary models via API |
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 <br>
 
 ### Coding LLMs
@@ -854,7 +865,7 @@ IDE combining AI-powered coding tools with Large Language Model (LLM) engines en
 
 <br>
 
-
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
 
 ## Other
 
