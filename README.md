@@ -214,6 +214,8 @@ AI-powered tools designed specifically for academic and research endeavors, enha
 | [Semantic Scholar](https://www.semanticscholar.org/) | A free, AI-powered research tool for scientific literature , with now Semantic Reader, an augmented reader with the potential to revolutionize scientific reading by making it more accessible and richly contextual| ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)    |
 | [Scispace](https://typeset.io/) | AI-powered platform that aims to simplify and enhance the research and literature review process for academics and researchers | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-yellow?style=flat) |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 <br>
 
 ## Audio Processing
@@ -246,6 +248,8 @@ AI tools for music generation use machine learning to create original compositio
 | [Stable Audio](https://stability.ai/stable-audio) |  A generative AI system developed by Stability AI for creating high-quality audio and music.                                                                           | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat)   | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)   |
 | [Suno](https://suno.com/)                         |  A cutting-edge AI-powered music generator that lets users create custom songs in various genres using text prompts.                                                   | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat)   | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)       |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 ### Text to speech
 
 Text-to-speech AI tools convert written text into natural-sounding speech, improving accessibility and creating engaging experiences. They use deep learning algorithms to synthesize speech with customizable features such as voice, accent, and speaking style.
@@ -285,6 +289,8 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
 | [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 ### Speech to text
 
 Speech to text is a technology that converts spoken words into written text. It allows users to enter data, communicate with devices, or access information through voice commands.
@@ -322,6 +328,8 @@ Speech to text is a technology that converts spoken words into written text. It 
 | [Rev AI](https://www.rev.ai/) | A sophisticated speech recognition platform that provides automatic speech-to-text transcription services.  | Rev AI | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | [Speechmatics](https://www.speechmatics.com/) | A powerful AI-driven speech recognition and transcription platform. | Universal-1 | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 <br>
 
 ## Automation
@@ -354,6 +362,8 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | [Zapier](https://zapier.com/) | A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 <br>
 
 ## Computer Vision
@@ -458,6 +468,8 @@ The Computer Vision section includes AI models and tools designed to process, an
 | [Invoke](https://github.com/invoke-ai/InvokeAI) | A leading creative engine for Stable Diffusion models. | All | All Stable Diffusion Models. |
 | [Stable Diffusion web UI by Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | a popular graphical user interface (GUI) for interacting with the Stable Diffusion models. | All | All Stable Diffusion Models. |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 ### Video Generation
 
 > [!NOTE]
@@ -516,6 +528,8 @@ A Text-to-Video model is an advanced artificial intelligence system designed to 
 | [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![None (Research)](https://img.shields.io/badge/None%20(Research)-lightgrey?style=flat) |
 | [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 ### Vision Language Models
 
 Vision language models (VLMs) are **AI models that combine computer vision and natural language processing capabilities** to understand and process both images and text together. Learn more on [Huggingface.co](https://huggingface.co/blog/vlms).
@@ -553,6 +567,8 @@ Take control of your data and models - all Open-source models in this list can b
 | **Deepseek**     | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B)                   | Soon        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 | **Rhymes AI**    | [Aria](https://huggingface.co/rhymes-ai/Aria)                                 | Soon        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 <br>
 
 ## Data Analysis 
@@ -584,6 +600,8 @@ If you are using **Excel** or **Google Sheets**, you can benefit from AI tools t
 | [Numerous](https://numerous.ai/)                | An AI-powered tool designed to enhance productivity and automate tasks in spreadsheet applications like Google Sheets and Microsoft Excel. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)    |
 | [Sheety](https://sheety.ai/formula-generator)   | A tool designed to streamline the process of creating Google Sheets formulas using artificial intelligence.                  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)        |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 <br>
 
 ## Large Language Models
@@ -883,6 +901,8 @@ AI-powered tools for language learning, providing personalized guidance and feed
 | [Lingolette](https://lingolette.com/en)           | An AI-powered language learning tool that focuses on improving spoken and written fluency through interactive conversations and personalized lessons.                  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat)   | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)       |
 | [Proseable](https://www.proseable.com/)           | An AI-powered language learning tool designed to help users improve their conversational skills and fluency in a new language through interactive practice and personalized feedback.  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)   |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 ### Meeting transcription and summaries
 
 AI meeting transcription and summarization tools automatically transcribe and summarize meetings, helping teams stay organized and informed. They use NLP and machine learning to identify key topics and action items, saving time and reducing errors.
@@ -895,6 +915,8 @@ AI meeting transcription and summarization tools automatically transcribe and su
 | [Tactiq](https://tactiq.io/)                               | A powerful tool that provides live transcriptions and insightful AI summaries for meetings conducted on platforms like Google Meet, Zoom, and MS Teams. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 | [Tldv](https://tldv.io/)                                   | A powerful tool designed to record, transcribe, and share online meetings on platforms like Google Meet and Zoom.                                       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 ### Presentation slides
 
 AI presentation tools enable users to create professional slides with ease, offering automatic layout, design, and content suggestions for impactful presentations.
@@ -906,6 +928,8 @@ AI presentation tools enable users to create professional slides with ease, offe
 | [PlusAI](https://www.plusdocs.com/)               |  An advanced AI tool that integrates with Google Slides and Google Docs to assist users in creating professional presentations and well-written documents efficiently. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat)   | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat)       |
 | [SlidesPilot](https://www.slidespilot.com/)       | An innovative tool designed to streamline the creation of professional and visually appealing presentation slides.                                                     | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat)   | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)   |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 ### Versatile Productivity tools
 
 a versatile tool for organizing and designing content, brainstorming ideas, writing, researching, and creating visuals
@@ -923,6 +947,8 @@ Enhance productivity and accuracy across domains with these versatile AI tools. 
 | [Odyssey](https://odysseyapp.io/)                          |a macOS application that allows users to visually connect and run various AI models and other tools without coding, making it a versatile platform for creative and automation tasks.| ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 | [Ultra-Attention](https://ultra-attention.com/)            |  AI-powered software solution designed specifically for freelancers and remote workers to help them conquer distractions, boost focus, and enhance productivity. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 ### Website building
 
 AI-powered website builders leverage machine learning and natural language processing to simplify website creation and deployment. They automate the design, development, and deployment process, enabling users to quickly build and launch custom websites without extensive coding knowledge, and focus on content creation
@@ -945,6 +971,8 @@ AI-powered website builders leverage machine learning and natural language proce
 | [Wegic](https://wegic.ai/)                                 | An innovative AI-powered web design and development tool that simplifies the process of creating websites through a conversational interface | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
 | [Wix](https://www.wix.com/ai-website-builder)              | Wix AI Website Builder utilizes advanced artificial intelligence and natural language processing to automatically generate a complete, professional website tailored to the user's specific business needs and preferences. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat)  |
 
+<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+ 
 <br>
 
 <h3 align="center">  Any kind of positive contribution to AIEnhancedWork is welcome ! </h3>
