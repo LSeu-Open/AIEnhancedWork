@@ -87,6 +87,9 @@
      + [Coding Open Source Models](#coding-open-source-models) 
      + [Coding LLMs Providers](#coding-llms-providers)
      + [AI Augmented IDE](#ai-augmented-ide)
+  - [Finetuned LLMs](#finetuned-llms)
+     + [Math](#math)
+     + [Uncensored](#uncensored) 
 * [Other](#other)
   - [Language learning](#language-learning)
   - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
@@ -848,7 +851,7 @@ When referring to a Model , we use the following terms :
 > Please note that **non-specialized models may perform better than the specialized ones described below**. To see the Pass@1 scores for **both Generalist and Coding models**, please refer to the [dedicated tables](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
 
 
-| Organization   | Model Familly                                       | Best Model (across various tasks and metrics)                                                     | Model Sizes   | Pass@1* | Context Window*  |
+| Organization   | Model Familly                                                        | Best Model (across various tasks and metrics)                                    | Model Sizes   | Pass@1*     | Context Window*  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
 | **Deepseek**       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 41.7      | 128K             |
 | **Alibaba**        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) | 7B          | 34          | 132K             | 
@@ -908,6 +911,79 @@ IDE combining AI-powered coding tools with Large Language Model (LLM) engines en
 <br>
 
 <p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+
+<br>
+
+### Finetuned LLMs
+
+**Fine-tuned Large Language Models (LLMs)** refer to AI models that have been **specifically adapted for a particular domain, task, or dataset.** This adaptation significantly **enhances their performance and accuracy within that specific context**, compared to training them on more general-purpose datasets.
+
+#### Math
+
+These models are **specifically trained to solve mathematical problems and answer questions related to mathematics**.
+
+> [!NOTE]
+> The models are ranked based on their **GSM8K and MATH benchmark scores** (where higher scores indicate better performance). Since **one benchmark might not accurately reflect the actual performance** of certain models, we calculate the **mean score across both benchmarks.**
+
+##### Top Performing Open source Models (by Model Family)
+
+| Organization       | Model Familly                                                    | Best Model (across various tasks and metrics)                                                        | Model Sizes   | Score        | Context Window*  |
+|:------------------:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------:|:------------:|:----------------:|
+| **Alibaba**        | [Qwen2.5 Math](https://qwenlm.github.io/blog/qwen2.5-math/)      | [Qwen2.5-Math-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-72B-Instruct)                   | 72B           | 90.35        | 132K             | 
+| **Numina**         | [NuminaMath](https://www.projectnumina.ai/)                      | [NuminaMath-72B-CoT](https://huggingface.co/AI-MO/NuminaMath-72B-CoT)                                | 72B           | 78.75        | 128K             |
+| **InterLM**        | [InternLM2-Math-Plus](https://mistral.ai/news/mathstral/)        | [Internlm2-math-plus-mixtral8x22b](https://huggingface.co/internlm/internlm2-math-plus-mixtral8x22b) | 141B          | 74.95        | 65K              |
+| **Deepseek**       | [Deepseek-math](https://github.com/deepseek-ai/DeepSeek-Math)    | [Deepseek-math-7b-instruct](https://huggingface.co/deepseek-ai/deepseek-math-7b-instruct)            | 7B            | 69.95        | 4K               |
+| **Mistral AI**     | [Mathstral](https://mistral.ai/news/mathstral/)                  | [Mathstral-7B-v0.1](https://huggingface.co/mistralai/Mathstral-7B-v0.1)                              | 7B            | 66.85        | 4K               |
+
+<details>
+<summary> 🔬 <b>Other Other Open source Models Family Variants</b></summary> 
+
+<br>
+
+| Organization       | Model Familly                                                    | Best Model (across various tasks and metrics)                                    | Model Sizes   | Score    | Context Window*  |
+|:------------------:|:-----------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------:|:----------------:|
+| **Alibaba**        | [Qwen2.5 Math](https://qwenlm.github.io/blog/qwen2.5-math/)      | [Qwen2.5-Math-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct) | 7B            | 89.9     | 132K             | 
+|                    |                                                                  | [Qwen2.5-Math-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-1.5B-Instruct) | 1.5B      | 81.8     | 132K             | 
+| **InterLM**        | [InternLM2-Math-Plus](https://mistral.ai/news/mathstral/)        | [Internlm2-math-plus-20B](https://huggingface.co/internlm/internlm2-math-plus-20b) | 20B         | 70.75    | 4K              |
+|                    |                                                                  | [Internlm2-math-plus-7B](https://huggingface.co/internlm/internlm2-math-plus-7b) | 7B            | 69.4     | 4K             | 
+|                    |                                                                  | [Internlm2-math-plus-1.8B](https://huggingface.co/internlm/internlm2-math-plus-1_8b) | 1.8B      | 47.9     | 4K             | 
+| **Numina**         | [NuminaMath](https://www.projectnumina.ai/)                      | [NuminaMath-7B-CoT](https://huggingface.co/AI-MO/NuminaMath-7B-CoT)              | 7B            | 65.3     | 4K              |
+
+</details>
+
+#### Uncensored
+
+These models are **specifically trained to remove censorship mechanisms from language models.** They **can generate responses that would typically be restricted by the built-in refusal behaviors of many LLMs.**
+
+> [!NOTE]
+> The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet).
+> 
+> Please take note that we present the model's Quality Index prior to fine-tuning. Obtaining independent benchmarks for these specialized models can be challenging, making it difficult to accurately assess their performance.
+
+##### Top Performing Open source Models (by Model Family)
+
+| Organization       | Model Familly                                                    | Best Model (across various tasks and metrics)                                                        | Model Sizes   | Quality Index | Context Window*  |
+|:------------------:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------:|:------------:|:----------------:|
+| **NousResearch**   | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-405B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B)               | 405B          | 71.9         | 128K             | 
+| **Maxime Labonne** | [Abliterated](https://huggingface.co/blog/mlabonne/abliteration) | [Llama-3.1-70B-Instruct-lorablated](https://huggingface.co/mlabonne/Llama-3.1-70B-Instruct-lorablated) | 70B         | 65.3         | 128K             |
+| **Cognitive Computations** | [Dolphin 2.9.3](https://erichartford.com/uncensored-models) | [Dolphin-2.9.3-Yi-1.5-34B-32k](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-Yi-1.5-34B-32k) | 34B  | 60.2          | 65K              |
+| **Teknium**        | [OpenHermes-2.5](https://mistral.ai/news/mathstral/)             | [OpenHermes-2.5-Mistral-7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B)                | 7B            | 34           | 32K               |
+
+<details>
+<summary> 🛑 <b>Other Other Open source Models Family Variants</b></summary> 
+
+<br>
+
+| Organization       | Model Familly                                                    | Best Model (across various tasks and metrics)                                    | Model Sizes   | Quality Index | Context Window*  |
+|:------------------:|:-----------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------:|:----------------:|
+| **NousResearch**   | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-70B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B) | 72B       | 65.3     | 128K             | 
+|                    |                                                                  | [Hermes-3-Llama-3.1-8B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B) | 1.5B        | 53.15    | 128K             | 
+| **Maxime Labonne** | [Abliterated](https://huggingface.co/blog/mlabonne/abliteration) | [Meta-Llama-3.1-8B-Instruct-abliterated](https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated) | 8B | 53.15 | 128K |
+|                    |                                                                  | [NeuralLlama-3-8B-Instruct-abliterated](https://huggingface.co/mlabonne/NeuralLlama-3-8B-Instruct-abliterated) | 8B | 53.15 | 128K | 
+|                    |                                                                  | [Daredevil-8B-abliterated](https://huggingface.co/mlabonne/Daredevil-8B-abliterated) | 8B        | 53.15    | 8K | 
+| **Cognitive Computations** | [Dolphin 2.9.3](https://erichartford.com/uncensored-models) | [Dolphin-2.9.3-llama-3-8](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-llama-3-8b) | 8B | 53.15 | 8K |
+|                    |                                                                  | [Dolphin-2.9.3-mistral-nemo-12b](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-mistral-nemo-12b) | 12B | 51.9 | 128K | 
+</details>
 
 <br>
 
