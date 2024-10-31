@@ -12,19 +12,19 @@
 
 💬
 [![text2Speech Models](https://img.shields.io/badge/text2Speech%20Models-10-blue?style=flat)](#text-to-speech-models)
-![Speech2text Models](https://img.shields.io/badge/Speech2text%20Models-7-blue?style=flat)
+[![Speech2text Models](https://img.shields.io/badge/Speech2text%20Models-7-blue?style=flat)](#speech-to-text-models)
 💬
 
 🖼️
-![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-29-blue?style=flat)
-![Image2Video Models](https://img.shields.io/badge/Image2Video%20Models-4-blue?style=flat)
-![Text2Video Models](https://img.shields.io/badge/Text2Video%20Models-13-blue?style=flat)
+[![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-29-blue?style=flat)](#text-to-image-models)
+[![Image2Video Models](https://img.shields.io/badge/Image2Video%20Models-4-blue?style=flat)](#image-to-video-models)
+[![Text2Video Models](https://img.shields.io/badge/Text2Video%20Models-13-blue?style=flat)](#text-to-video-models)
 🖼️
 
 💻
-![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-23-blue?style=flat)
-![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-84-blue?style=flat)
-![Coding Large Language Models](https://img.shields.io/badge/Coding%20LLMs-10-blue?style=flat)
+[![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-23-blue?style=flat)](#vision-language-models)
+[![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-84-blue?style=flat)](#generalist-llms)
+[![Coding Large Language Models](https://img.shields.io/badge/Coding%20LLMs-13-blue?style=flat)](#coding-llms)
 💻
 
 </div>
