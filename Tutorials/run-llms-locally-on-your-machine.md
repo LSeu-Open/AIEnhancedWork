@@ -103,7 +103,7 @@ This section is designed to provide you with the **necessary knowledge and resou
 
 ### Open Source Models
 
-***Massive models*** : Challenging for local deployment due to computational requirements.
+***Massive models*** : Local deployment can be challenging due to high computational requirements. These models are commonly used on cloud-based provider platforms.
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
@@ -121,18 +121,18 @@ This section is designed to provide you with the **necessary knowledge and resou
 | **Databricks**     | [DBRX-Instruct](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) | 132B | 80GB+ VRAM GPU (1xH100 or better) | 49.6    | [Yes](https://ollama.com/library/dbrx:instruct) | No | 
 
 
-**Mid-sized models** : Suitable for deployment on a high-performance local workstation.
+**Mid-sized models** : Suitable for deployment on a high-performance local workstation. These models require high-end consumer configurations with a powerful GPU, which can range from 2,000 to 3,400 ($/£/€ equivalent)
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
 | **Alibaba**        | [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct)  | 32.8B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | (~62) | [Yes](https://ollama.com/library/qwen2.5:32b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct) |
 | **Mistral**        | [Mistral-Small-Instruct](https://huggingface.co/mistralai/Mistral-Small-Instruct-2409) | 22.2B  | 13GB+ VRAM GPU (RX 7800 or RTX 4080 or better | 60.40 | [Yes](https://ollama.com/library/mistral-small) | [Mistral](https://mistral.ai/)  |
 | **Cohere**         | [Command R](https://ollama.com/library/command-r)                     | 35B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 51.1 | [Yes](https://ollama.com/library/command-r)   | [Cohere](https://cohere.com/command) |
+| **OpenGVLab**      | [internlm2_5-20b-chat](https://huggingface.co/internlm/internlm2_5-20b-chat)   | 20B   | 12GB+ VRAM GPU (RX 7800 or RTX 4070 or better) | (~49) | [Yes](https://ollama.com/library/internlm2:20b) | No |
 | **Google**         | [Gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)        | 27B         | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) | 48.55 | [Yes](https://ollama.com/library/gemma2:27b-instruct-q4_0) | [Hugging Face](https://huggingface.co/google/gemma-2-27b-it) |
 | **Mistral**        | [Mixtral-8x7b-Instruct-v0.1](https://mistral.ai/news/mixtral-of-experts/) | 46.7B   | 26GB+ VRAM GPU (1xH100 or better) | 41.9    | [Yes](https://ollama.com/library/mixtral:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
 
-
-***Small models*** : Lightweight and deployable on most local machines.
+***Small models*** : Lightweight and easily deployable on most local machines. These models require mid-range consumer configurations with a GPU, ranging from 600 to 1,200 ($/£/€ equivalent).
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
@@ -143,8 +143,25 @@ This section is designed to provide you with the **necessary knowledge and resou
 | **Alibaba**        | [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)  | 7.62B         | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) |  (~48) | [Yes](https://ollama.com/library/qwen2.5:7b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) |
 | **Google**         | [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)          | 9B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.650 | [Yes](https://ollama.com/library/gemma2:9b-instruct-q4_0) | [Hugging Face](https://huggingface.co/spaces/huggingface-projects/gemma-2-9b-it) |
 | **Meta**           | [Llama-3-8b-Instruct](https://ollama.com/library/llama3:instruct)     | 8B          | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 46.1 | [Yes](https://ollama.com/library/llama3:instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
-| **Meta**           | [Llama-3.2-3b-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)       | 3B          | 2GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | 45.35 | [Yes](https://ollama.com/library/llama3.2:3b-instruct-q4_K_M) | [Groq](https://groq.com/) |
+| **OpenGVLab**      | [internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)   | 7B   | 6GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | (~44) | [Yes](https://ollama.com/library/internlm2:7b) | No |
 | **Microsoft**      | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B | 8GB+ VRAM GPU (rx 7600 or RTX 4060 or better) | None | [Yes](https://ollama.com/library/phi3:14b-instruct) | No |
+
+***Tiny models*** : The smallest models are designed to run on all types of machines, including the oldest ones. These models can be run on most consumer hardware configurations, provided they have at least 6-8 GB of RAM.
+
+| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Quality Index |  Ollama library |  Cloud-based providers |
+|:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Meta**           | [Llama-3.2-3b-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) | 3B | 4GB+ RAM   | 46.7 | [Yes](https://ollama.com/library/llama3.2:3b) | [Groq](https://groq.com/) |
+| **Alibaba**        | [Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)  | 3B        | 4GB+ RAM |  (~41) | [Yes](https://ollama.com/library/qwen2.5:3b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct) |
+| **Hugging Face**   | [SmolLM2-1.7B-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct) | 1.7B   | 2GB+ RAM |  (~28) | [Yes](https://ollama.com/library/smollm2:1.7b) | [Hugging Face](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct) |
+| **Google**         | [Gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it)            | 2B | 2GB+ RAM | 30 | [Yes](https://ollama.com/library/gemma2:2b) | [Hugging Face](https://huggingface.co/google/gemma-2-2b-it) |
+| **Meta**           | [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) | 1B | 2GB+ RAM | 27.1 | [Yes](https://ollama.com/library/llama3.2:1b) | [Groq](https://groq.com/) |
+| **OpenGVLab**      | [Internlm2_5-1_8b-chat](https://huggingface.co/internlm/internlm2_5-1_8b-chat)   | 1.8B   | 2GB+ RAM | (~26) | [Yes](https://ollama.com/library/internlm2:1.8b) | No |
+| **Alibaba**        | [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) | 1.5B   | 2GB+ RAM |  (~25) | [Yes](https://ollama.com/library/qwen2.5:1.5b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) |
+| **Hugging Face**   | [SmolLM2-360M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) | 360M   | 1GB+ RAM |  (~20) | [Yes](https://ollama.com/library/smollm2:360m) | [Hugging Face](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) |
+| **Alibaba**        | [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct) | 0.5B   | 1GB+ RAM |  (~18) | [Yes](https://ollama.com/library/qwen2.5:0.5b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct) |
+| **Hugging Face**   | [SmolLM2-135M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct) | 135M   | 0.5GB+ RAM |  (~15) | [Yes](https://ollama.com/library/smollm2:135m) | [Hugging Face](https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct) |
+
+<br>
 
 ### Proprietary Model
 
