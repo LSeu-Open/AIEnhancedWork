@@ -627,6 +627,9 @@ If you are using **Excel** or **Google Sheets**, you can benefit from AI tools t
 
 ## Large Language Models
 
+> [!CAUTION]
+> ***We estimate that the current form of this section is unsatisfactory, difficult to explore, and insufficiently clear for beginners. Significant modifications are expected within the next few days or weeks.***
+
 Large Language Models (LLMs) are sophisticated AI systems trained on enormous datasets of text to craft human-like language, capable of comprehending and generating natural language forms.
 
 🔵 ***Helpful definition for this Section***
@@ -637,9 +640,6 @@ When referring to a Model , we use the following terms :
 - ***Knowledge Cutoff*** : A specific point in time, after which new information or updates are no longer incorporated into the model's training data. This can help to prevent overfitting and ensure that the model remains accurate and relevant over time.
 
 ### Generalist LLMs
-
-> [!CAUTION]
-> ***We estimate that the current form of this section is unsatisfactory, difficult to explore, and insufficiently clear for beginners. Significant modifications are expected within the next few days or weeks.***
 
 > [!Tip]
 >  check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to set up a local LLM environment with Ollama and the Page Assist extension, and take back the control over your data.
