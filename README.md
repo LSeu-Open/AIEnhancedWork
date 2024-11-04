@@ -638,6 +638,9 @@ When referring to a Model , we use the following terms :
 
 ### Generalist LLMs
 
+> [!CAUTION]
+> ***We estimate that the current form of this section is unsatisfactory, difficult to explore, and insufficiently clear for beginners. Significant modifications are expected within the next few days or weeks.***
+
 > [!Tip]
 >  check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to set up a local LLM environment with Ollama and the Page Assist extension, and take back the control over your data.
 >
