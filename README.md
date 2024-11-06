@@ -723,6 +723,8 @@ When referring to a Model , we use the following terms :
 | **Microsoft**      | [Phi](https://huggingface.co/microsoft)             | [Phi-3-medium-128k-instruct](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct) | 14B   | None (~51)   | 128k               | 2024-03            | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) |
 | **IBM**            | [Granite 3.0](https://github.com/ibm-granite/granite-3.0-language-models) | [Granite-3.0-8b-instruct](https://huggingface.co/ibm-granite/granite-3.0-8b-instruct) | 8B | None (~51) | 128k  | Unknown            | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) |
 | **InterLM**        | [InterLM](https://github.com/InternLM)              | [Internlm2_5-20b-chat](https://huggingface.co/internlm/internlm2_5-20b-chat)     | 7B             | None (~46)   | 1M                 | Unknown            | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) |
+| **Tencent**        | [Hunyuan](https://github.com/Tencent/Tencent-Hunyuan-Large) | [Hunyuan-Large](https://huggingface.co/tencent/Tencent-Hunyuan-Large)    | 389B           | Soon         | 128K               | Unknown            | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) |
+
 
 <details>
 <summary> 🔓 <b>Other Open source Models Family Variants</b></summary> 
