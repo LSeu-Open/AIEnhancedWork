@@ -16,8 +16,6 @@
 
 </div>
 
-## &#8203;
-
  <details>
 		<summary> <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Waving Hand" width="20" height="20" /> <strong>Table of contents</strong> <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left.png" alt="Waving Hand" width="20" height="20" /> </summary>
 
@@ -126,12 +124,12 @@ Understand and Apply Artificial Intelligence through Interactive Tutorials.
 
 ***Online tutorials***
 
-* ⚠️ **[NEW]** ***Master advanced prompt engineering techniques*** through an engaging, hands-on learning process. Check out the **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** by Loic Baconnier.
-* ⚠️ **[NEW]** ***Learn how to engineer optimal prompts*** via a comprehensive step-by-step tutorial.  Check out the **[Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629)** by ***Anthropic*** 
+* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Eight-Pointed%20Star.png" alt="Eight-Pointed Star" width="15" height="15" /> **[NEW]** ***Master advanced prompt engineering techniques*** through an engaging, hands-on learning process. Check out the **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** by Loic Baconnier.
+* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Eight-Pointed%20Star.png" alt="Eight-Pointed Star" width="15" height="15" /> **[NEW]** ***Learn how to engineer optimal prompts*** via a comprehensive step-by-step tutorial.  Check out the **[Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629)** by ***Anthropic*** 
   
 ### Learning Resources
 
-***🟩 Beginner*** 
+***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Square.png" alt="Green Square" width="15" height="15" /> Beginner*** 
 
 | Title | Description | Platform |
 |:----------------------------------------------------------------------------:|--------------------------------------------------------------|:--------------------:|
@@ -148,7 +146,7 @@ Understand and Apply Artificial Intelligence through Interactive Tutorials.
 | [What is Generative AI?](https://research.ibm.com/blog/what-is-generative-AI) | Introduction to Generative AI by Understanding its Potential and Applications. | ***IBM***            |
 | [What is NLP (natural language processing)?](https://www.ibm.com/topics/natural-language-processing) | Understand how Models understand our Language. | ***IBM***            |
 
-***🟨 Intermediate***
+***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Orange%20Square.png" alt="Orange Square" width="15" height="15" /> Intermediate***
 
 | Title | Description | Platform |
 |:----------------------------------------------------------------------------:|--------------------------------------------------------------|:--------------------:|
@@ -160,7 +158,7 @@ Understand and Apply Artificial Intelligence through Interactive Tutorials.
 | [What is Prompt Engineering?](https://aws.amazon.com/what-is/prompt-engineering/) | A concise guide to the key concepts, considerations, and methodologies behind prompt engineering. | ***Amazon***         |
 | [What is prompt-tuning?](https://research.ibm.com/blog/what-is-ai-prompt-tuning) | A lightweight method for fine-tuning AI foundation models on downstream tasks. | ***IBM***            |
 
-***🟧 Advanced***
+***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Square.png" alt="Red Square" width="15" height="15" /> Advanced***
 
 | Title | Description | Platform |
 |:----------------------------------------------------------------------------:|--------------------------------------------------------------|:--------------------:|
@@ -192,10 +190,7 @@ AI-powered tools designed specifically for academic and research endeavors, enha
 | [Semantic Scholar](https://www.semanticscholar.org/) | A free, AI-powered research tool for scientific literature , with now Semantic Reader, an augmented reader with the potential to revolutionize scientific reading by making it more accessible and richly contextual| ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)    |
 | [Scispace](https://typeset.io/) | AI-powered platform that aims to simplify and enhance the research and literature review process for academics and researchers | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-yellow?style=flat) |
 
-<br>
-
-<p align="center"><sup><a href="&#8203;">⬆️ [Back to Top]</a></sub></p>
- 
+<br> 
 <br>
 
 ## Audio Processing
@@ -229,8 +224,6 @@ AI tools for music generation use machine learning to create original compositio
 | [Suno](https://suno.com/)                         |  A cutting-edge AI-powered music generator that lets users create custom songs in various genres using text prompts.                                                   | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat)   | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)       |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 ### Text to speech
 
@@ -272,8 +265,6 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
 | [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 ### Speech to text
 
@@ -313,8 +304,6 @@ Speech to text is a technology that converts spoken words into written text. It 
 | [Speechmatics](https://www.speechmatics.com/) | A powerful AI-driven speech recognition and transcription platform. | Universal-1 | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 <br>
 
@@ -349,8 +338,6 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 | [Zapier](https://zapier.com/) | A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps. | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Paid](https://img.shields.io/badge/Paid-AA3939?style=flat) |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 <br>
 
@@ -457,8 +444,6 @@ The Computer Vision section includes AI models and tools designed to process, an
 | [Stable Diffusion web UI by Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | a popular graphical user interface (GUI) for interacting with the Stable Diffusion models. | All | All Stable Diffusion Models. |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 ### Video Generation
 
@@ -519,8 +504,6 @@ A Text-to-Video model is an advanced artificial intelligence system designed to 
 | [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Freemium](https://img.shields.io/badge/Freemium-FFD300?style=flat) |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 ### Vision Language Models
 
@@ -560,8 +543,6 @@ Take control of your data and models - all Open-source models in this list can b
 | **Rhymes AI**    | [Aria](https://huggingface.co/rhymes-ai/Aria)                                 | Soon        | ![Open Source](https://img.shields.io/badge/Open%20Source-blue?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat) |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 <br>
 
@@ -595,8 +576,6 @@ If you are using **Excel** or **Google Sheets**, you can benefit from AI tools t
 | [Sheety](https://sheety.ai/formula-generator)   | A tool designed to streamline the process of creating Google Sheets formulas using artificial intelligence.                  | ![Proprietary](https://img.shields.io/badge/Proprietary-403075?style=flat) | ![Free](https://img.shields.io/badge/Free-00A20B?style=flat)        |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 <br>
 
