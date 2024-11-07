@@ -16,14 +16,14 @@
 
 </div>
 
-<br>
+## &#8203;
 
  <details>
 		<summary> <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Waving Hand" width="20" height="20" /> <strong>Table of contents</strong> <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left.png" alt="Waving Hand" width="20" height="20" /> </summary>
 
 <br>
 
-* [AI Tutorials and Learning Resources](#ai-resources)
+* [AI Tutorials and Learning Resources](#ai-tutorials-and-learning-resources)
   - [Tutorials](#tutorials)
   - [Learning Resources](#learning-resources)
 * [Academic and Scientific Research](#academic-and-scientific-research)
@@ -111,7 +111,7 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 <br>
 
-## AI Resources
+## AI Tutorials and Learning Resources
 
 ### Tutorials
 
@@ -194,7 +194,7 @@ AI-powered tools designed specifically for academic and research endeavors, enha
 
 <br>
 
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
+<p align="center"><sup><a href="&#8203;">⬆️ [Back to Top]</a></sub></p>
  
 <br>
 
