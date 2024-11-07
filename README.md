@@ -1,54 +1,29 @@
-![header](Header_AI.png)
-
 <div align="center"> 
- 
-<strong> 🤖 Welcome to our repository, carefully curated to enhance productivity, automate tasks, and simplify daily workflows. 🤖 </strong>
 
-📜
-![License](https://img.shields.io/github/license/LSeu-Open/AIEnhancedWork?style=flat)
-![AI Tools Count](https://img.shields.io/badge/AI%20Tools%20Listed-195-blue?style=flat)
-![AI Tools Count](https://img.shields.io/badge/AI%20Tutorials%20Listed-4-blue?style=flat)
-📜
+[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=AIEnhancedWork%20🤖&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
 
-💬
-[![text2Speech Models](https://img.shields.io/badge/text2Speech%20Models-10-blue?style=flat)](#text-to-speech-models)
-[![Speech2text Models](https://img.shields.io/badge/Speech2text%20Models-7-blue?style=flat)](#speech-to-text-models)
-💬
-
-🖼️
-[![Text2Image Models](https://img.shields.io/badge/Text2Image%20Models-29-blue?style=flat)](#text-to-image-models)
-[![Image2Video Models](https://img.shields.io/badge/Image2Video%20Models-4-blue?style=flat)](#image-to-video-models)
-[![Text2Video Models](https://img.shields.io/badge/Text2Video%20Models-13-blue?style=flat)](#text-to-video-models)
-🖼️
-
-💻
-[![Vision Language Models](https://img.shields.io/badge/Vision%20Language%20Models-23-blue?style=flat)](#vision-language-models)
-[![Generalist Large Language Models](https://img.shields.io/badge/Generalist%20LLMs-84-blue?style=flat)](#generalist-llms)
-[![Coding Large Language Models](https://img.shields.io/badge/Coding%20LLMs-13-blue?style=flat)](#coding-llms)
-💻
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Welcome to AI Enhance Work ,a carefully curated repository to enhance productivity, automate tasks, and simplify daily workflows.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
 
 </div>
 
- 
-> [!IMPORTANT]
 > Please note that while we try to provide a comprehensive selection of resources, **this repository may not be exhaustive**, and omission does not imply exclusion. Inclusion in this collection does not constitute an endorsement of any particular tool or service.
->
+
 > If you'd like **to suggest new tools or improvements, please submit a pull request (PR)** to enhance the repository's contents. Your contributions are valued and appreciated !
->
-> **All header images in this repository were generated using image generation models.**
 
 <div align="center"> 
  
- <strong> Liked the content ? Please ⭐️ AIEnhancedWork to show your support! </strong>
+***Liked the content ? Please <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="30" height="30" /> AIEnhancedWork to show your support!***
 
- 
- </div>
+</div>
 
+<br>
 
+ <details>
+		<summary> <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Waving Hand" width="20" height="20" /> <strong>Table of contents</strong> <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left.png" alt="Waving Hand" width="20" height="20" /> </summary>
 
- ## Table of Contents
- 
-* [AI Resources](#ai-resources)
+<br>
+
+* [AI Tutorials and Learning Resources](#ai-resources)
   - [Tutorials](#tutorials)
   - [Learning Resources](#learning-resources)
 * [Academic and Scientific Research](#academic-and-scientific-research)
@@ -96,19 +71,19 @@
   - [Presentation slides](#presentation-slides)
   - [Versatile Productivity tools](#versatile-productivity-tools)
   - [Website building](#website-building)
-    
-<br>
+
+</details>
 
 ## Introduction
 
-🟢 ***Employing AI-powered tools can yield significant benefits for your work tasks, including***:
+ <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Green%20Circle.png" alt="Waving Hand" width="15" height="15" /> ***Employing AI-powered tools can yield significant benefits for your work tasks, including***:
 
 * **Automating repetitive and mundane tasks**: By delegating routine chores to AI systems, you gain valuable time to focus on more strategic initiatives.
 * **Delivering data-driven insights**: Utilize analytics provided by AI tools to make informed decisions and drive optimal results.
 * **Optimizing workflows and processes**: Enhance productivity and efficiency with streamlined operations powered by AI technologies.
 * **Creating an engaging and intuitive workspace**: Foster a more personalized, enjoyable, and intellectually stimulating environment through AI implementations.
 
-🔴 ***However, potential downsides should be considered***:
+ <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Red%20Circle.png" alt="Waving Hand" width="15" height="15" /> ***However, potential downsides should be considered***:
 
 * **Dependence on AI may undermine human skills**: Overreliance on AI systems could lead to diminished problem-solving abilities, critical thinking, and creativity.
 * **Potential errors or biased outcomes**: AI systems can occasionally produce inaccuracies or generate prejudiced results, which might negatively impact decision-making processes and outcomes.
@@ -121,7 +96,7 @@
 
 <br>
 
-🔵 ***Helpful definition for this repository***
+ <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Blue%20Circle.png" width="15" height="15" /> ***Helpful definition for this repository***
 
 When referring to the ***Licensing*** of a project or software, we use the following terms :
 
