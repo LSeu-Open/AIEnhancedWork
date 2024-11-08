@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="146"
+   height="30"
+   viewBox="0 0 146 30"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <path
+     d="M0 15C0 6.71573 6.71573 0 15 0H131C139.284 0 146 6.71573 146 15V15C146 23.2843 139.284 30 131 30H15C6.71573 30 0 23.2843 0 15V15Z"
+     fill="#DAB9FF"
+     id="path1" />
+  <path
+     d="M24.784 19.785C26.8706 19.785 28.128 18.7633 28.128 17.0781C28.128 15.8043 27.2308 14.8821 25.8986 14.7361V14.6831C26.8774 14.5238 27.6454 13.6149 27.6454 12.5999C27.6454 11.1536 26.5036 10.2114 24.7636 10.2114H20.8486V19.785H24.784ZM22.3711 11.4255H24.3966C25.4976 11.4255 26.1229 11.9165 26.1229 12.8055C26.1229 13.7542 25.3957 14.285 24.0771 14.285H22.3711V11.4255V11.4255ZM22.3711 18.5709V15.4195H24.3829C25.8239 15.4195 26.5715 15.9502 26.5715 16.9852C26.5715 18.0202 25.8443 18.5709 24.4713 18.5709H22.3711V18.5709Z"
+     fill="#DAB9FF"
+     id="path4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#470084;fill-opacity:1;stroke-width:1.00157;stroke-linejoin:round"
+     x="24.72908"
+     y="19.958342"
+     id="text4"><tspan
+       id="tspan4"
+       x="24.72908"
+       y="19.958342">Proprietary</tspan></text>
+</svg>
