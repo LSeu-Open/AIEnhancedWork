@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="143"
+   height="30"
+   viewBox="0 0 143 30"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs3"><linearGradient
+       id="swatch7"><stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop7" /></linearGradient></defs><g
+     id="g5"><g
+       id="g7"
+       transform="translate(3.4359901)"><g
+         id="g10"><g
+           id="g24"
+           transform="translate(-9.2399236)"><g
+             id="g35"><path
+               d="m 27.650845,15 c 0,-8.3527728 4.663731,-15.12403533 10.416731,-15.12403533 h 78.472704 c 5.75283,0 10.41674,6.77126253 10.41674,15.12403533 v 0 c 0,8.352803 -4.66391,15.124035 -10.41674,15.124035 H 38.067576 c -5.753,0 -10.416731,-6.771232 -10.416731,-15.124035 z"
+               fill="#1b1b1b"
+               id="path1"
+               style="fill:#e91e63;fill-opacity:1;stroke-width:0.836774" /><text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1"
+               x="40.371578"
+               y="21.300026"
+               id="text3"><tspan
+                 id="tspan3"
+                 x="40.371578"
+                 y="21.300026"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1">AI21labs</tspan></text></g></g></g></g></g></svg>
