@@ -8,6 +8,12 @@
 
 > This repository aims to provide **a curated selection of AI resources**. While we maintain high standards for inclusion, the rapidly evolving nature of AI technology means **this collection represents a subset of available tools**. Inclusion in this repository is based on technical merit and practical utility, and ***does not constitute an official endorsement of any specific tool or service.***
 
+<div align="center"> 
+	
+***This repository prioritizes open-source models to ensure broad accessibility and deployment flexibility.***
+
+</div>
+
 > Contributors are welcome to **enhance this repository through pull requests (PRs)** with new tool submissions or content improvements. **All contributions undergo review to maintain repository quality standards and technical accuracy**.
 
 > [!TIP]
@@ -120,69 +126,77 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 ### Tutorials
 
-Understand and Apply Artificial Intelligence through Interactive Tutorials.
+Master AI concepts through **hands-on tutorials and practical implementations.**
 
 ***Local tutorials***
 
- * **Run LLMs locally on your machine** with our first tutorial, ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***.
- * **Set up your IDE to integrate your preferred AI provider** with this second tutorial, ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)***, and enhance your overall coding experience.
- * **Create images locally with Midjourney-like Technology** with this third tutorial, ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***.
- * **Discover how to address privacy concerns when using AI** in this fourth tutorial, ***[How to Use AI Privately](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/How-to-Use-AI-Privately.md)***.
+* ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)*** - Deploy and operate Large Language Models on local hardware.
+* ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)*** - Configure development environments for seamless AI model integration.
+* ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***- Implement local image generation using open-source AI models.
+* ***[How to Use AI Privately](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/How-to-Use-AI-Privately.md)*** - Implement privacy-preserving practices for AI implementation.
+
+<br> 
 
 ***Online tutorials***
 
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Eight-Pointed%20Star.png" alt="Eight-Pointed Star" width="15" height="15" /> **[NEW]** ***Master advanced prompt engineering techniques*** through an engaging, hands-on learning process. Check out the **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** by Loic Baconnier.
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Eight-Pointed%20Star.png" alt="Eight-Pointed Star" width="15" height="15" /> **[NEW]** ***Learn how to engineer optimal prompts*** via a comprehensive step-by-step tutorial.  Check out the **[Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629)** by ***Anthropic*** 
-  
+* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Eight-Pointed%20Star.png" alt="Eight-Pointed Star" width="15" height="15" /> **[NEW]** **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** - Interactive platform for mastering prompt engineering methodologies. Developed by Loic Baconnier.
+* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Eight-Pointed%20Star.png" alt="Eight-Pointed Star" width="15" height="15" /> **[NEW]** **[Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629)** - Systematic guide to prompt optimization techniques. Created by Anthropic.
+
+<br> 
+
 ### Learning Resources
 
 ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Square.png" alt="Green Square" width="15" height="15" /> Beginner*** 
 
 | Title | Description | Platform |
 |:----------------------------------------------------------------------------:|--------------------------------------------------------------|:--------------------:|
-| [Fundamentals of Generative AI](https://microsoft.github.io/generative-ai-for-beginners/#/01-introduction-to-genai/README?wt.mc_id=academic-105485-koreyst) | Introduction to Generative AI and Large Language Models (LLMs). | ***Microsoft***      |
-| [Fundamentals of Responsible Generative AI](https://microsoft.github.io/generative-ai-for-beginners/#/03-using-generative-ai-responsibly/README?wt.mc_id=academic-105485-koreyst) | Using Generative AI responsibly.                             | ***Microsoft***      |
-| [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118/course_templates/536) | An introduction to the capabilities, applications, and distinct characteristics of generative artificial intelligence (AI). | ***Google***         |
-| [Introduction to Image Generation](https://www.cloudskillsboost.google/paths/183/course_templates/541) | Introduces diffusion models: a novel approach to machine learning that has generated remarkable results in image creation and manipulation. | ***Google***         |
-| [Introduction to Large Language Models](https://www.cloudskillsboost.google/paths/118/course_templates/539) | Introduction to large language models (LLMs) and the opportunities they present for natural language processing: use cases, limitations, and optimization strategies. | ***Google***         |
-| [Introduction to Responsible AI](https://www.cloudskillsboost.google/paths/118/course_templates/554) | The case for responsible AI: understanding its significance in ensuring that machine learning systems align with human values and promote social good.| ***Google***         |
-| [What are foundation models?](https://research.ibm.com/blog/what-are-foundation-models) | Discover how Foundation models are revolutionizing AI with their cutting-edge capabilities. | ***IBM***            |
-| [What are large language models (LLMs)?](https://www.ibm.com/topics/large-language-models) | Quick introduction to LLMs and their use cases. | ***IBM***            |
+| [Fundamentals of Generative AI](https://microsoft.github.io/generative-ai-for-beginners/#/01-introduction-to-genai/README?wt.mc_id=academic-105485-koreyst) | Introduction to Generative AI and Large Language Models (LLMs). | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)      |
+| [Fundamentals of Responsible Generative AI](https://microsoft.github.io/generative-ai-for-beginners/#/03-using-generative-ai-responsibly/README?wt.mc_id=academic-105485-koreyst) | Using Generative AI responsibly. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)     |
+| [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118/course_templates/536) | An introduction to the capabilities, applications, and distinct characteristics of generative artificial intelligence (AI). | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)         |
+| [Introduction to Image Generation](https://www.cloudskillsboost.google/paths/183/course_templates/541) | Introduces diffusion models: a novel approach to machine learning that has generated remarkable results in image creation and manipulation. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)        |
+| [Introduction to Large Language Models](https://www.cloudskillsboost.google/paths/118/course_templates/539) | Introduction to large language models (LLMs) and the opportunities they present for natural language processing: use cases, limitations, and optimization strategies. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)        |
+| [Introduction to Responsible AI](https://www.cloudskillsboost.google/paths/118/course_templates/554) | The case for responsible AI: understanding its significance in ensuring that machine learning systems align with human values and promote social good.| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)        |
+| [What are foundation models?](https://research.ibm.com/blog/what-are-foundation-models) | Discover how Foundation models are revolutionizing AI with their cutting-edge capabilities. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)            |
+| [What are large language models (LLMs)?](https://www.ibm.com/topics/large-language-models) | Quick introduction to LLMs and their use cases. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)            |
 | [What is Conversational AI?](https://aws.amazon.com/what-is/conversational-ai/) | Basic understanding of how conversational AI works.          | ***Amazon***         |
 | [What is Generative AI?](https://aws.amazon.com/what-is/generative-ai/)     | Overview of foundational ideas and principles in generative AI. | ***Amazon***         |
-| [What is Generative AI?](https://research.ibm.com/blog/what-is-generative-AI) | Introduction to Generative AI by Understanding its Potential and Applications. | ***IBM***            |
-| [What is NLP (natural language processing)?](https://www.ibm.com/topics/natural-language-processing) | Understand how Models understand our Language. | ***IBM***            |
+| [What is Generative AI?](https://research.ibm.com/blog/what-is-generative-AI) | Introduction to Generative AI by Understanding its Potential and Applications. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)           |
+| [What is NLP (natural language processing)?](https://www.ibm.com/topics/natural-language-processing) | Understand how Models understand our Language. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)            |
+
+<br> 
 
 ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Orange%20Square.png" alt="Orange Square" width="15" height="15" /> Intermediate***
 
 | Title | Description | Platform |
 |:----------------------------------------------------------------------------:|--------------------------------------------------------------|:--------------------:|
-| [Evaluation of generative AI applications](https://microsoft.github.io/generative-ai-for-beginners/#/02-exploring-and-comparing-different-llms/README?wt.mc_id=academic-105485-koreyst) | Exploring and comparing different LLMs.                      | ***Microsoft***      |
-| [Generative AI Explained](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1) | Concepts, applications, challenges, and opportunities in Generative AI. | ***Nvidia***         |
-| [Introduction to prompt engineering](https://microsoft.github.io/generative-ai-for-beginners/#/04-prompt-engineering-fundamentals/README?wt.mc_id=academic-105485-koreyst) | Hands-on best practices for prompt engineering.              | ***Microsoft***      |
+| [Evaluation of generative AI applications](https://microsoft.github.io/generative-ai-for-beginners/#/02-exploring-and-comparing-different-llms/README?wt.mc_id=academic-105485-koreyst) | Exploring and comparing different LLMs. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/) |
+| [Generative AI Explained](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1) | Concepts, applications, challenges, and opportunities in Generative AI. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)         |
+| [Introduction to prompt engineering](https://microsoft.github.io/generative-ai-for-beginners/#/04-prompt-engineering-fundamentals/README?wt.mc_id=academic-105485-koreyst) | Hands-on best practices for prompt engineering. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)     |
 | [Vision Language Models Explained](https://huggingface.co/blog/vlms) | An overview of vision language models, their functionality, and usage. |  ***Hugging Face***   |
-| [What are AI hallucinations?](https://www.ibm.com/topics/ai-hallucinations) | Learn why AI systems can generate nonsensical outputs by perceiving non-existent patterns or objects. | ***IBM***            |
+| [What are AI hallucinations?](https://www.ibm.com/topics/ai-hallucinations) | Learn why AI systems can generate nonsensical outputs by perceiving non-existent patterns or objects. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)            |
 | [What is Prompt Engineering?](https://aws.amazon.com/what-is/prompt-engineering/) | A concise guide to the key concepts, considerations, and methodologies behind prompt engineering. | ***Amazon***         |
-| [What is prompt-tuning?](https://research.ibm.com/blog/what-is-ai-prompt-tuning) | A lightweight method for fine-tuning AI foundation models on downstream tasks. | ***IBM***            |
+| [What is prompt-tuning?](https://research.ibm.com/blog/what-is-ai-prompt-tuning) | A lightweight method for fine-tuning AI foundation models on downstream tasks. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)           |
+
+<br> 
 
 ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Square.png" alt="Red Square" width="15" height="15" /> Advanced***
 
 | Title | Description | Platform |
 |:----------------------------------------------------------------------------:|--------------------------------------------------------------|:--------------------:|
-| [Augment your LLM Using Retrieval Augmented Generation](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-16+V1)  | High-level overview of Retrieval Augmented Generation and its benefits for Generative AI (GenAI). |  ***Nvidia***         |
+| [Augment your LLM Using Retrieval Augmented Generation](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-16+V1)  | High-level overview of Retrieval Augmented Generation and its benefits for Generative AI (GenAI). |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)        |
 | [Introduction to Quantization](https://huggingface.co/blog/merve/quantization) | An introduction to Quantization, a technique to reduce model size to improve training and inference speed. |  ***Hugging Face***   |
 | [Mixture of Experts Explained](https://huggingface.co/blog/moe) | Overview of MoEs, how they’re trained, and the tradeoffs to consider. |  ***Hugging Face***   |
-| [Prompt engineering techniques](https://microsoft.github.io/generative-ai-for-beginners/#/05-advanced-prompts/README?wt.mc_id=academic-105485-koreyst) | Techniques that improve the outcome of your prompts.         | ***Microsoft***      |
-| [What is AI inferencing?](https://research.ibm.com/blog/AI-inference-explained) | Introduction to the Principles and Methods of AI Inference. |  ***IBM***            |
-| [What is instruction tuning?](https://www.ibm.com/topics/instruction-tuning) | Learn how Instruction tuning enhances pre-trained LLMs by improving their ability to follow and execute instructions accurately. | ***IBM***            |
-| [What’s an LLM context window and why is it getting larger?](https://research.ibm.com/blog/larger-context-window) | Understanding the Role of LLM Context Windows in AI. |  ***IBM***            |
-| [What is retrieval-augmented generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) | Learn what is retrieval-augmented generation (RAG) and why it is usefull. |  ***IBM***            |
+| [Prompt engineering techniques](https://microsoft.github.io/generative-ai-for-beginners/#/05-advanced-prompts/README?wt.mc_id=academic-105485-koreyst) | Techniques that improve the outcome of your prompts.         | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)     |
+| [What is AI inferencing?](https://research.ibm.com/blog/AI-inference-explained) | Introduction to the Principles and Methods of AI Inference. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)           |
+| [What is instruction tuning?](https://www.ibm.com/topics/instruction-tuning) | Learn how Instruction tuning enhances pre-trained LLMs by improving their ability to follow and execute instructions accurately. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)           |
+| [What’s an LLM context window and why is it getting larger?](https://research.ibm.com/blog/larger-context-window) | Understanding the Role of LLM Context Windows in AI. |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)            |
+| [What is retrieval-augmented generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) | Learn what is retrieval-augmented generation (RAG) and why it is usefull. |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)            |
 
 <br>
 
 ## Academic and Scientific Research
 
-AI-powered tools designed specifically for academic and research endeavors, enhancing your workflow and insights in the pursuit of knowledge.
+AI solutions **optimized for academic research and scientific workflows**, enabling advanced insights in the pursuit of knowledge.
 
 > [!CAUTION]
 > **Please exercise caution when using AI tools in scientific research. While these tools can greatly enhance your workflow and insights, they are not a replacement for human judgment, critical thinking, and rigorous methodology.**
@@ -204,7 +218,7 @@ AI-powered tools designed specifically for academic and research endeavors, enha
 
 ### Audio and Video transcription and summaries
 
-AI audio and video transcription and summarization tools use NLP and computer vision to quickly and accurately extract insights from video content. They automate the transcription and summary process, saving time and reducing errors, so users can focus on analysis and interpretation.
+AI-powered media processing tools**leverage Natural Language Processing (NLP) and computer vision algorithms to automate transcription and content summarization** from audio-visual sources. These solutions streamline content analysis by **generating accurate text outputs and key insights from multimedia data.**
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
@@ -219,7 +233,7 @@ AI audio and video transcription and summarization tools use NLP and computer vi
 
 ### Music Generation
 
-AI tools for music generation use machine learning to create original compositions in various styles, aiding musicians and generating customizable background music.
+Music generation algorithms utilize deep learning models to **synthesize original compositions, enabling style-specific audio creation and adaptive soundtrack generation.**
 
 | Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
 |:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
@@ -234,7 +248,7 @@ AI tools for music generation use machine learning to create original compositio
  
 ### Text to speech
 
-Text-to-speech AI tools convert written text into natural-sounding speech, improving accessibility and creating engaging experiences. They use deep learning algorithms to synthesize speech with customizable features such as voice, accent, and speaking style.
+Text-to-speech (TTS) systems employ **neural networks for voice synthesis, converting text input into natural speech output.** These models **support voice customization parameters including timbre, prosody, and linguistic variations.**
 
 #### Text to speech Models
 
@@ -275,7 +289,7 @@ Text-to-speech AI tools convert written text into natural-sounding speech, impro
  
 ### Speech to text
 
-Speech to text is a technology that converts spoken words into written text. It allows users to enter data, communicate with devices, or access information through voice commands.
+Speech recognition systems **convert acoustic signals into text through automated speech recognition (ASR) models.** These systems process audio input for text transcription and voice command interpretation.
 
 #### Speech to text Models
 
@@ -318,7 +332,7 @@ Speech to text is a technology that converts spoken words into written text. It 
 
 ### Autonomous Agents
 
-AI agents are intelligent software entities that can perform tasks autonomously or semi-autonomously on behalf of a user or system. These agents can adapt to new situations, and communicate with other agents or systems to achieve their goals.
+AI agents are autonomous software systems that execute predefined tasks through decision-making algorithms and environment interaction protocols. These systems **implement adaptive learning mechanisms and inter-agent communication frameworks to achieve specified objectives.**
 
 | Tool                                     | Description                                                                                                                                  | Licence     | Pricing     |
 |:-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -331,7 +345,7 @@ AI agents are intelligent software entities that can perform tasks autonomously 
 
 ### Automation tools
 
-Automate repetitive, rule-based tasks to improve efficiency and accuracy in processes.
+Execute predefined task sequences through algorithmic workflows to **optimize process efficiency and minimize operational variance.**
 
 | Tool             | Description                                                                                                                   | Licence       | Pricing       |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-------------:|:-------------:|
@@ -350,14 +364,14 @@ Automate repetitive, rule-based tasks to improve efficiency and accuracy in proc
 
 ## Computer Vision
 
-The Computer Vision section includes AI models and tools designed to process, analyze, and generate visual content, such as images and videos.
+Computer Vision (CV) frameworks implement **neural architectures for visual data processing, analysis, and synthesis across image and video domains**.
 
 > [!CAUTION]
 > Use AI-generated images responsibly: **Always disclose that they were generated by AI.**
 > Be mindful of **intellectual property rights.**
 
 > [!TIP]
-> *To get the most out of image generative AI models, it's important to refine your prompts and inputs. Check out this helpful [twitter/X account](https://twitter.com/nickfloats) to learn how to improve your skills and create more impressive results. By optimizing your prompts, you can unlock new levels of creativity and achieve your desired outcomes more effectively.*
+> **Learn prompt engineering techniques for image generation models to enhance output quality and artistic control.** Follow [@nickfloats](https://x.com/nickfloats) on **𝕏** for valuable insights on **crafting prompts that achieve your desired visual outputs.**
 
 ### Image Edition
 
@@ -439,7 +453,7 @@ The Computer Vision section includes AI models and tools designed to process, an
 #### Text to Image Local Providers
 
 > [!TIP]
-> **Take control of your data and models** - With **Fooocus, you can generate them locally in a beginner-friendly manner**., see our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
+> **Generate images locally using Fooocus** - Deploy open-source image generation models on your hardware with our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
 
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
@@ -456,13 +470,13 @@ The Computer Vision section includes AI models and tools designed to process, an
 ### Video Generation
 
 > [!NOTE]
-> As video generation models are still in their early stages of development, primarily driven by large companies like OpenAI with Sora or Runway with Gen3, we have limited information on how each model functions.
+> **Video generation technology remains primarily concentrated among major AI research organizations**, with models like OpenAI's Sora and Runway's Gen3 leading development. Current publicly available implementations are limited due to the computational complexity and proprietary nature of these systems.
 >
-> For now, we can only offer a limited selection of models available.
+> This section will be **updated as more open-source and accessible video generation models emerge.**
 
 #### Image to Video Models
 
-An image-to-video AI model is a sophisticated machine learning system designed to generate short video clips from a single input image. 
+Image-to-video models employ **temporal diffusion algorithms to synthesize video sequences from static image inputs**, generating coherent motion patterns and frame transitions.
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Licence     | Pricing   |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
@@ -473,7 +487,7 @@ An image-to-video AI model is a sophisticated machine learning system designed t
 
 #### Text to Video Models
 
-A Text-to-Video model is an advanced artificial intelligence system designed to generate video content based on text descriptions.
+Text-to-video models **convert natural language descriptions into video sequences through multi-modal generation frameworks**, synthesizing temporal and spatial elements from textual inputs.
 
 | Organization       | Model Familly                                       | Best Model                                                                       | Elo score       | Licence         | Pricing   |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|:---------------:|
@@ -515,9 +529,9 @@ A Text-to-Video model is an advanced artificial intelligence system designed to 
  
 ### Vision Language Models
 
-Vision language models (VLMs) are **AI models that combine computer vision and natural language processing capabilities** to understand and process both images and text together. Learn more on [Huggingface.co](https://huggingface.co/blog/vlms).
+Vision Language Models (VLMs) **integrate visual perception and language processing architectures to enable multi-modal understanding and generation.** Technical details available on [Huggingface.co](https://huggingface.co/blog/vlms).
 
-Take control of your data and models - all Open-source models in this list can be run locally, with our **[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***.
+**Deploy these open-source models locally** using our Local LLM Deployment Guide : ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***.
 
 > [!NOTE]
 > The models are ranked according to their **Overall score** (with higher scores indicating better performance) from multiple benchmarks.
@@ -556,7 +570,7 @@ Take control of your data and models - all Open-source models in this list can b
 
 ## Data Analysis 
 
-The Data Analysis section includes AI models and tools designed to process, analyze, and extract insights from structured and unstructured data, such as datasets and text documents.
+Data Analysis frameworks implement **machine learning models for processing structured and unstructured datasets**, enabling pattern recognition and statistical inference across diverse data formats.
 
 > [!CAUTION]
 > **Exercise caution with fully automated analysis results, as errors and biases may occur. Use AI tools as a complement to human judgment for more reliable insights.**
@@ -574,7 +588,7 @@ The Data Analysis section includes AI models and tools designed to process, anal
 | [Rows AI](https://www.rows.com/) | An AI-powered spreadsheet tool that helps users automate data analysis and manipulation tasks.              | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
 | [Vizly](https://vizly.fyi/)  | A tool for creating interactive data visualizations.                                                            | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/free.svg" alt="Eight-Pointed Star" width="80" height="20" />        |
 
-If you are using **Excel** or **Google Sheets**, you can benefit from AI tools that help you write formulas.  👇
+**Enhance spreadsheet functionality in Excel and Google Sheets** through AI-assisted formula generation and optimization.  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" />
 
 | Tool                                             | Description                                                                                                                 | Licence     | Pricing     |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
@@ -592,14 +606,14 @@ If you are using **Excel** or **Google Sheets**, you can benefit from AI tools t
 > [!CAUTION]
 > ***We estimate that the current form of this section is unsatisfactory, difficult to explore, and insufficiently clear for beginners. Significant modifications are expected within the next few days or weeks.***
 
-Large Language Models (LLMs) are sophisticated AI systems trained on enormous datasets of text to craft human-like language, capable of comprehending and generating natural language forms.
+Large Language Models (LLMs) are **advanced AI systems trained on vast text collections to understand and generate human language through pattern recognition.**
 
 ### Generalist LLMs
 
 > [!Tip]
->  check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to set up a local LLM environment with Ollama and the Page Assist extension, and take back the control over your data.
->
-> Running models locally gives you complete control over your data, ensuring both its **security and privacy.** This means your information isn't shared with external servers or third parties, safeguarding it from potential breaches or misuse.
+> Follow our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to deploy LLMs locally using Ollama and Page Assist for secure, privacy-focused language processing.
+> 
+> Running models locally gives you **complete control over your data**, ensuring both its **security and privacy.** This means your information isn't shared with external servers or third parties, **safeguarding it from potential breaches or misuse.**
 
 > [!NOTE]
 > The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet). Please note that **Quality Index is subject to change** based on daily test-run and will be updated regularly to reflect the latest rankings. I consider this **benchmarking methodology to be less biased** than the Elo score method employed by LMSys. Furthermore, the **LMSys leaderboard does not address datasets contamination , model quantization and model overfitting issues.**
@@ -822,7 +836,7 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 
 #### Coding LLMs Providers
 
-AI-powered code suggestion and autocompletion tools enhance developer productivity by offering real-time, context-aware code recommendations, minimizing errors, and streamlining the coding process.
+Code assistance models provide **contextual suggestions and autocompletion through real-time syntax analysis**, accelerating development workflows and improving code quality.
 
 | Tool       | Description                                                                                                           | Licence     | Pricing model |
 |:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
@@ -843,7 +857,7 @@ AI-powered code suggestion and autocompletion tools enhance developer productivi
 
 #### AI Augmented IDE
 
-IDE combining AI-powered coding tools with Large Language Model (LLM) engines enables developers to write reliable, efficient code in real-time, accelerated by the ability to generate entire code sections with precision and scalability further augmenting real-time code review, syntax checks, and optimization suggestions for streamlined software development and deployment.
+Integrated Development Environments (IDEs) **leverage LLM capabilities for code generation, real-time analysis, and syntax optimization, enabling automated code review and contextual development assistance.**
 
 | Tool             | Description                                                                                                                 | OS     | Models     | Licence       | Pricing    |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|:-----------:|:-----------:|
@@ -856,7 +870,7 @@ IDE combining AI-powered coding tools with Large Language Model (LLM) engines en
 > Integrations with proprietary Large Language Models (LLMs) such as GPT-4O and CLaude 3.5 are made available through external APIs subject to a **per-call/usage subscription**.
 
 > [!Tip]
-> Various VS Code extensions enable  integration with LLMs for coding assistance. Notably, Codeium, GitHub Copilot, and Continue.dev are reputable options (see table above).
+> Various VS Code extensions enable integration with LLMs for coding assistance. Notably, Codeium, GitHub Copilot, and Continue.dev are reputable options (see table above).
 > 
 > check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into vs code**.
 
