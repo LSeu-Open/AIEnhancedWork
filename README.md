@@ -785,8 +785,6 @@ Large Language Models (LLMs) are sophisticated AI systems trained on enormous da
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 <br>
 
@@ -862,8 +860,6 @@ IDE combining AI-powered coding tools with Large Language Model (LLM) engines en
 > check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into vs code**.
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
 
 <br>
 
@@ -957,8 +953,6 @@ AI-powered tools for language learning, providing personalized guidance and feed
 | [Proseable](https://www.proseable.com/)           | An AI-powered language learning tool designed to help users improve their conversational skills and fluency in a new language through interactive practice and personalized feedback.  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 ### Meeting transcription and summaries
 
@@ -973,8 +967,6 @@ AI meeting transcription and summarization tools automatically transcribe and su
 | [Tldv](https://tldv.io/)                                   | A powerful tool designed to record, transcribe, and share online meetings on platforms like Google Meet and Zoom.                                       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 ### Presentation slides
 
@@ -988,8 +980,6 @@ AI presentation tools enable users to create professional slides with ease, offe
 | [SlidesPilot](https://www.slidespilot.com/)       | An innovative tool designed to streamline the creation of professional and visually appealing presentation slides.                                                     | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 ### Versatile Productivity tools
 
@@ -1009,8 +999,6 @@ Enhance productivity and accuracy across domains with these versatile AI tools. 
 | [Ultra-Attention](https://ultra-attention.com/)            |  AI-powered software solution designed specifically for freelancers and remote workers to help them conquer distractions, boost focus, and enhance productivity. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
  
 ### Website building
 
@@ -1035,9 +1023,6 @@ AI-powered website builders leverage machine learning and natural language proce
 | [Wix](https://www.wix.com/ai-website-builder)              | Wix AI Website Builder utilizes advanced artificial intelligence and natural language processing to automatically generate a complete, professional website tailored to the user's specific business needs and preferences. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 
 <br>
-
-<p align="center"><sup><a href="#table-of-contents">⬆️ [Back to Top]</a></sub></p>
- 
 <br>
 
 <h3 align="center">  Any kind of positive contribution to AIEnhancedWork is welcome ! </h3>
