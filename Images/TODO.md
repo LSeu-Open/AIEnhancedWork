@@ -18,24 +18,6 @@ DEFINITION
 
 Organizations
 
-HuggingFace
-Ollama
-
-AUDIO
- Cartesia
- Amazon
- LMNT
- OpenVoice
- Coqui
- StyleTTS
- MetaVoice
- Swivid
- 
- Speechmatics
- AssemblyAI
- Disitl-whisper
- Deepgram
-
 IMAGE 
  Black Forest Labs
  Ideogram
