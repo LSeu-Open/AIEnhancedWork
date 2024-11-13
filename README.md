@@ -11,7 +11,7 @@
 > Contributors are welcome to **enhance this repository through pull requests (PRs)** with new tool submissions or content improvements. **All contributions undergo review to maintain repository quality standards and technical accuracy**.
 
 > [!TIP]
-> **All badges in this repository link to additional documentation and official websites.**
+> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> **All badges link to detailed subject explanations or official organization websites.** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
 
 > [!CAUTION]
 > **Effective AI implementation requires balanced consideration of capabilities and limitations. Risk mitigation strategies should be integral to workflow integration.**
