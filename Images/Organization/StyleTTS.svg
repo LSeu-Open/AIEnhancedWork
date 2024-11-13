@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="143"
+   height="30"
+   viewBox="0 0 143 30"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs3" /><g
+     id="g24"
+     transform="translate(-11.279297)"><path
+       d="m 28.018943,15 c 0,-8.28427 5.143437,-15 11.488188,-15 h 86.544349 c 6.34454,0 11.48817,6.71573 11.48817,15 v 0 c 0,8.2843 -5.14363,15 -11.48817,15 H 39.50713 C 33.16238,30 28.018943,23.2843 28.018943,15 Z"
+       fill="#1B1B1B"
+       id="path1"
+       style="fill:#367307;fill-opacity:1;stroke-width:0.875147" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.07"
+       x="63.761139"
+       y="20.521687"
+       id="text3"><tspan
+         id="tspan3"
+         x="63.761139"
+         y="20.521687">StyleTTS</tspan></text><path
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.213053"
+       d="m 38.977865,18.195801 v -3.1958 H 41.1084 43.238933 V 13.934733 12.869466 H 44.3042 45.369466 V 11.8042 10.738933 H 44.3042 43.238933 V 9.6736648 8.6083982 h 4.261068 4.261067 v 1.0652666 1.0652682 h -1.065267 -1.065267 v 1.065267 1.065266 h 1.065267 1.065267 v 1.065267 1.065268 h 2.130534 2.130533 v 3.1958 3.195801 h -8.522134 -8.522136 z m 10.652669,-1.065267 v -2.130533 h -2.130533 -2.130535 v 2.130533 2.130533 h 2.130535 2.130533 z"
+       id="path24" /></g></svg>
