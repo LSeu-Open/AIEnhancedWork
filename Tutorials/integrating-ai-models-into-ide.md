@@ -86,9 +86,9 @@ Some key features of Cursor include:
 > Reference the [Artificial Analysis Leaderboard](https://artificialanalysis.ai/leaderboards/providers) for **comparative analysis of LLM providers across key performance metrics**: pricing, token generation speed, response latency, and context window capabilities.
 
 > [!CAUTION]
-> **Security Consideration** : Cloud-based code assistance services process codebase data through remote infrastructure, potentially exposing sensitive information to third-party systems. Consider data privacy implications and compliance requirements when implementing proprietary code processing services.
+> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> **Security Consideration** : Cloud-based code assistance services process codebase data through remote infrastructure, potentially exposing sensitive information to third-party systems. Consider data privacy implications and compliance requirements when implementing proprietary code processing services.
 >
-> Proprietary code assistance services **may utilize submitted code for model training and refinement.** Review provider terms of service regarding data collection and model training practices.
+> Proprietary code assistance services **may utilize submitted code for model training and refinement.** Review provider terms of service regarding data collection and model training practices. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
 
 ### Code dedicated providers
 
@@ -188,7 +188,7 @@ The second table features **Proprietary models** that usually operate on **cloud
 The models are ranked according to **LiveCodeBench Pass@1** Code Generation scores (with higher scores indicating better performance). ***Pass@1 is the probability of passing a given problem in one attempt***. [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) offers a more comprehensive, up-to-date, and contamination-aware evaluation of code-related capabilities compared to HumanEval.
 
 > [!CAUTION]
-> Please note that the hardware requirements provided are only indicative, and the specified VRAM requirements in the tables below apply specifically to the default Ollama Q4_0 quantization version of the models. [Learn more about LLMs Quantization](https://huggingface.co/blog/merve/quantization).
+> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> Please note that the hardware requirements provided are only indicative, and the specified VRAM requirements in the tables below apply specifically to the default Ollama Q4_0 quantization version of the models. [Learn more about LLMs Quantization](https://huggingface.co/blog/merve/quantization). <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
 
 ### Open Source Models
 
