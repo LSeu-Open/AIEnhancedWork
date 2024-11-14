@@ -124,7 +124,11 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Orange%20Circle.png" width="15" height="15" />  ***Icon Guide: What Our Emojis Mean***
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Bomb.png" alt="Bomb" width="25" height="25" /> **New** - Recently added content
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Bomb.png" alt="Bomb" width="20" height="20" /> **New** - Recently added content
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="20" height="20" /> **Popular** - Community favorites
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Heart%20on%20Fire.png" alt="Heart on Fire" width="20" height="20" /> **Our Picks** - Personally tested and recommended tools
 
 <br>
 
@@ -155,7 +159,7 @@ Master AI concepts through **hands-on tutorials and practical implementations.**
 ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Square.png" alt="Green Square" width="15" height="15" /> Beginner*** 
 
 | Title | Description | Platform |
-|:----------------------------------------------------------------------------:|--------------------------------------------------------------|:--------------------:|
+|:----------------------------------------------------------------------------|--------------------------------------------------------------|:--------------------:|
 | [Fundamentals of Generative AI](https://microsoft.github.io/generative-ai-for-beginners/#/01-introduction-to-genai/README?wt.mc_id=academic-105485-koreyst) | Introduction to Generative AI and Large Language Models (LLMs). | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)      |
 | [Fundamentals of Responsible Generative AI](https://microsoft.github.io/generative-ai-for-beginners/#/03-using-generative-ai-responsibly/README?wt.mc_id=academic-105485-koreyst) | Using Generative AI responsibly. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)     |
 | [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118/course_templates/536) | An introduction to the capabilities, applications, and distinct characteristics of generative artificial intelligence (AI). | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)         |
@@ -174,7 +178,7 @@ Master AI concepts through **hands-on tutorials and practical implementations.**
 ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Orange%20Square.png" alt="Orange Square" width="15" height="15" /> Intermediate***
 
 | Title | Description | Platform |
-|:----------------------------------------------------------------------------:|--------------------------------------------------------------|:--------------------:|
+|:----------------------------------------------------------------------------|--------------------------------------------------------------|:--------------------:|
 | [Evaluation of generative AI applications](https://microsoft.github.io/generative-ai-for-beginners/#/02-exploring-and-comparing-different-llms/README?wt.mc_id=academic-105485-koreyst) | Exploring and comparing different LLMs. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/) |
 | [Generative AI Explained](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1) | Concepts, applications, challenges, and opportunities in Generative AI. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)         |
 | [Introduction to prompt engineering](https://microsoft.github.io/generative-ai-for-beginners/#/04-prompt-engineering-fundamentals/README?wt.mc_id=academic-105485-koreyst) | Hands-on best practices for prompt engineering. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)     |
@@ -188,7 +192,7 @@ Master AI concepts through **hands-on tutorials and practical implementations.**
 ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Square.png" alt="Red Square" width="15" height="15" /> Advanced***
 
 | Title | Description | Platform |
-|:----------------------------------------------------------------------------:|--------------------------------------------------------------|:--------------------:|
+|:----------------------------------------------------------------------------|--------------------------------------------------------------|:--------------------:|
 | [Augment your LLM Using Retrieval Augmented Generation](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-16+V1)  | High-level overview of Retrieval Augmented Generation and its benefits for Generative AI (GenAI). |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)        |
 | [Introduction to Quantization](https://huggingface.co/blog/merve/quantization) | An introduction to Quantization, a technique to reduce model size to improve training and inference speed. |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="HuggingFace" width="200" height="20" />](https://huggingface.co/)   |
 | [Mixture of Experts Explained](https://huggingface.co/blog/moe) | Overview of MoEs, how they’re trained, and the tradeoffs to consider. |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="HuggingFace" width="200" height="20" />](https://huggingface.co/)   |
