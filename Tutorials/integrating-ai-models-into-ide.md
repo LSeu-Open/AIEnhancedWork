@@ -1,6 +1,6 @@
 <div align="center"> 
  
-[![SVG Banners](https://svg-banners.vercel.app/api?type=typeWriter&text1=Integrating%20AI%20Models%20into%20your%20IDE%20👨‍💻&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
+[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=Integrating%20AI%20Models%20into%20your%20IDE%20👨‍💻&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Welcome to your guide for enhancing your development workflow with AI assistance! Whether you're new to AI-powered coding or looking to optimize your setup, this tutorial will walk you through seamless IDE integration.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
 
