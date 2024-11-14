@@ -1,4 +1,10 @@
-# How to Use AI Privately
+<div align="center"> 
+ 
+[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=How%20to%20use%20AI%20Models%20Privately%20🥷&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Ready to harness AI capabilities while keeping your data secure? This guide walks you through setting up private AI workflows using local models and secure development practices.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+
+</div> 
 
 <div align="center">
  
