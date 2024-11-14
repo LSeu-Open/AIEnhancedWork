@@ -90,7 +90,7 @@
 
 ## Introduction
 
- <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Green%20Circle.png" alt="Waving Hand" width="15" height="15" /> ***AI-powered tools offer key advantages for professional workflows:***:
+ <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Green%20Circle.png" width="15" height="15" /> ***AI-powered tools offer key advantages for professional workflows:***:
 
 - **Task Automation** : Leverage AI systems to handle repetitive operations, allowing focus on strategic and complex initiatives.
 - **Advanced Analytic** s: Extract actionable insights from data through AI-driven analysis, enabling evidence-based decision making.
@@ -99,7 +99,7 @@
 
 <br>
 
- <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Red%20Circle.png" alt="Waving Hand" width="15" height="15" /> ***Key Considerations and Limitations:***:
+ <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Red%20Circle.png" width="15" height="15" /> ***Key Considerations and Limitations:***:
 
 - **Technical Dependencies** : Extended reliance on AI systems **may impact core human competencies** in problem-solving and creative thinking.
 - **Algorithm Limitations** : AI models can produce **inaccurate or biased outputs due to training data quality, model architecture, or algorithmic constraints.**
@@ -122,6 +122,12 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 <br>
 
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Orange%20Circle.png" width="15" height="15" />  ***Icon Guide: What Our Emojis Mean***
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Bomb.png" alt="Bomb" width="25" height="25" /> **New** - Recently added content
+
+<br>
+
 ## AI Tutorials and Learning Resources
 
 ### Tutorials
@@ -139,8 +145,8 @@ Master AI concepts through **hands-on tutorials and practical implementations.**
 
 ***Online tutorials***
 
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Eight-Pointed%20Star.png" alt="Eight-Pointed Star" width="15" height="15" /> **[NEW]** **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** - Interactive platform for mastering prompt engineering methodologies. Developed by Loic Baconnier.
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Eight-Pointed%20Star.png" alt="Eight-Pointed Star" width="15" height="15" /> **[NEW]** **[Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629)** - Systematic guide to prompt optimization techniques. Created by Anthropic.
+* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Bomb.png" alt="Bomb" width="25" height="25" /> **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** - Interactive platform for mastering prompt engineering methodologies. Developed by Loic Baconnier.
+* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Bomb.png" alt="Bomb" width="25" height="25" /> **[Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629)** - Systematic guide to prompt optimization techniques. Created by Anthropic.
 
 <br> 
 
@@ -616,12 +622,12 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 > Running models locally gives you **complete control over your data**, ensuring both its **security and privacy.** This means your information isn't shared with external servers or third parties, **safeguarding it from potential breaches or misuse.**
 
 > [!NOTE]
-> The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet). Please note that **Quality Index is subject to change** based on daily test-run and will be updated regularly to reflect the latest rankings. I consider this **benchmarking methodology to be less biased** than the Elo score method employed by LMSys. Furthermore, the **LMSys leaderboard does not address datasets contamination , model quantization and model overfitting issues.**
->
-> Please note that **Artifical Analysis do not benchmark all the models** available in the market. For reference, we offer an estimated score based on various other benchmarks, denoted by ***None (~estimated score)***.
+> Models are ranked by **Quality Index scores** from [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/), which implements systematic performance evaluation metrics. **This methodology addresses key technical considerations** including dataset contamination, model quantization, and overfitting detection. **Rankings are updated daily through automated testing protocols.**
+> 
+> Quality Index scores are based on Artificial Analysis benchmarks where available. **Models lacking Artificial Analysis benchmarks display estimated scores (~) derived from alternative performance metrics.**
 
 > [!IMPORTANT]
-> **Having trouble choosing a model ?** We are here to help you make an informed decision. [This dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) provides a comprehensive overview of **the best open-source and Proprietary models**, along with ***estimated performance metric.***
+> **Need help choosing a model?** Explore our [model comparison guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) **featuring performance metrics and key features of both open-source and proprietary options.**
 
 #### Proprietary Models 
 
@@ -641,7 +647,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Liquid.svg" alt="Liquid" width="180" height="20" />](https://www.liquid.ai/) | [LFM](https://www.liquid.ai/liquid-foundation-models) | [LFM 40B MoE](https://www.liquid.ai/liquid-foundation-models) | None (~60+) | 128k | Unknown | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" /> |
 
 <details>
-<summary> 🔒 <b>Other Other Proprietary Model Family Variants</b></summary> 
+<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Locked%20with%20Key.png" alt="Locked with Key" width="30" height="30" /> <b>Other Other Proprietary Model Family Variants</b></summary> 
 
 
 | Organization   | Model Familly                                       | Best Model                                                                       | Quality Index  | Context Window* |  Knowledge Cutoff | Pricing model | Licence |
@@ -693,7 +699,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 
 <details>
-<summary> 🔓 <b>Other Open source Models Family Variants</b></summary> 
+<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b>Other Open source Models Family Variants</b></summary> 
 
 <br>
 
@@ -754,7 +760,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 #### LLMs Cloud-based Providers
 
 > [!Tip]
->  You can compare providers' performance on the [dedicated Artificial Analysis' Leaderboard](https://artificialanalysis.ai/leaderboards/providers). This includes a comprehensive comparison and ranking of provider performance based on key metrics such as price, output speed, latency, context window, and more.
+> Reference the [Artificial Analysis Leaderboard](https://artificialanalysis.ai/leaderboards/providers) for **comparative analysis of LLM providers across key performance metrics**: pricing, token generation speed, response latency, and context window capabilities.
 
 | Tool             | Description                                                                                                                 | Models      | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -787,7 +793,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 #### LLMs Local Providers
 
 > [!IMPORTANT]
-> If you're concerned about **privacy issues related to cloud based LLM** tools or you want to experiment with chatbots check out this [practical guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md) on **how to set up and run your own model on your local machine.**
+> **Deploy LLMs locally** with our [implementation guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md) for privacy-focused language processing and model experimentation on your hardware.
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -806,14 +812,14 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 ### Coding LLMs
 
 > [!Tip]
-> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into your coding environment**.
+> Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) to **configure cloud-based and local LLM providers within your development environment.**
 
 #### Coding Open Source Models
 
 > [!NOTE]
-> The models are ranked according to **LiveCodeBench Pass@1 Code Generation scores** (with higher scores indicating better performance). Pass@1 is the probability of passing a given problem in one attempt. [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) offers a more comprehensive, up-to-date, and contamination-aware evaluation of code-related capabilities compared to HumanEval.
+> Models are ranked by **LiveCodeBench Pass@1 metrics, measuring single-attempt problem-solving accuracy.** The [LiveCodeBench framework](https://livecodebench.github.io/leaderboard.html) implements contamination-aware evaluation protocols, providing current performance analytics for code generation capabilities.
 >
-> Please note that **non-specialized models may perform better than the specialized ones described below**. To see the Pass@1 scores for **both Generalist and Coding models**, please refer to the [dedicated tables](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
+> **Performance metrics indicate generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [comparative analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
 
 
 | Organization   | Model Familly                                                        | Best Model (across various tasks and metrics)                                    | Model Sizes   | Pass@1*     | Context Window*  |
@@ -884,10 +890,10 @@ Integrated Development Environments (IDEs) **leverage LLM capabilities for code 
 
 #### Math
 
-These models are **specifically trained to solve mathematical problems and answer questions related to mathematics**.
+Models **optimized for mathematical reasoning and computation** through specialized training architectures.
 
 > [!NOTE]
-> The models are ranked based on their **GSM8K and MATH benchmark scores** (where higher scores indicate better performance). Since **one benchmark might not accurately reflect the actual performance** of certain models, we calculate the **mean score across both benchmarks.**
+> Model rankings utilize combined performance metrics from **GSM8K and MATH benchmarks, averaging scores across both frameworks to provide comprehensive evaluation standards.**
 
 ##### Top Performing Open source Models (by Model Family)
 
@@ -900,7 +906,7 @@ These models are **specifically trained to solve mathematical problems and answe
 | **Mistral AI**     | [Mathstral](https://mistral.ai/news/mathstral/)                  | [Mathstral-7B-v0.1](https://huggingface.co/mistralai/Mathstral-7B-v0.1)                              | 7B            | 66.85        | 4K               |
 
 <details>
-<summary> 🔬 <b>Other Other Open source Models Family Variants</b></summary> 
+<summary> <b>Other Other Open source Models Family Variants</b> </summary> 
 
 <br>
 
@@ -917,12 +923,12 @@ These models are **specifically trained to solve mathematical problems and answe
 
 #### Uncensored
 
-These models are **specifically trained to remove censorship mechanisms from language models.** They **can generate responses that would typically be restricted by the built-in refusal behaviors of many LLMs.**
+Models modified to **operate without standard content filtering mechanisms**, enabling **unrestricted response generation beyond typical LLM safeguards.**
 
 > [!NOTE]
-> The models are ranked according to their **Quality Index (with higher scores indicating better performance)** from the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/models/o1?models_selected=o1%2Co1-mini%2Cgpt-4o-2024-08-06%2Cgpt-4o-mini%2Cgemini-1-5-pro%2Cgemini-1-5-flash%2Cclaude-35-sonnet%2Cclaude-3-opus%2Cclaude-3-haiku%2Creka-core%2Cdeepseek-v2-5%2Cyi-large%2Cclaude-3-sonnet).
+> Models are ranked by **Quality Index scores** from [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/), which implements systematic performance evaluation metrics. **This methodology addresses key technical considerations** including dataset contamination, model quantization, and overfitting detection. **Rankings are updated daily through automated testing protocols.**
 > 
-> Please take note that we present the model's Quality Index prior to fine-tuning. Obtaining independent benchmarks for these specialized models can be challenging, making it difficult to accurately assess their performance.
+> Quality Index scores **reflect base model performance before specialization.**
 
 ##### Top Performing Open source Models (by Model Family)
 
@@ -953,11 +959,11 @@ These models are **specifically trained to remove censorship mechanisms from lan
 
 ## Other
 
-The Other section includes AI models and tools that don't fit into the other categories, such as language learning tools, Versatile tools, and other specialized applications.
+Additional Tools section **features specialized applications and multi-purpose models beyond standard categorization**, including language learning systems and versatile frameworks.
 
 ### Language learning
 
-AI-powered tools for language learning, providing personalized guidance and feedback.
+Language learning systems implementing **adaptive instruction algorithms and automated feedback mechanisms**.
 
 | Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
 |:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
@@ -971,7 +977,7 @@ AI-powered tools for language learning, providing personalized guidance and feed
  
 ### Meeting transcription and summaries
 
-AI meeting transcription and summarization tools automatically transcribe and summarize meetings, helping teams stay organized and informed. They use NLP and machine learning to identify key topics and action items, saving time and reducing errors.
+Meeting analysis systems employ speech recognition and natural language processing (NLP) to **generate transcripts and extract key discussion points through automated summarization algorithms.**
 
 | Tool                                                       | Description                                                                                                                                             | Licence     | Pricing  |
 |:-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|:--------:|
@@ -985,7 +991,7 @@ AI meeting transcription and summarization tools automatically transcribe and su
  
 ### Presentation slides
 
-AI presentation tools enable users to create professional slides with ease, offering automatic layout, design, and content suggestions for impactful presentations.
+Presentation generation systems implement **content structuring algorithms and design optimization frameworks to automate slide creation and layout composition.**
 
 | Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
 |:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
@@ -998,9 +1004,7 @@ AI presentation tools enable users to create professional slides with ease, offe
  
 ### Versatile Productivity tools
 
-a versatile tool for organizing and designing content, brainstorming ideas, writing, researching, and creating visuals
-
-Enhance productivity and accuracy across domains with these versatile AI tools. (yes, These tools could fit into multiple categories.)
+**Multi-modal productivity systems** integrating content generation, research synthesis, and visual design capabilities within unified workflows.
    
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
@@ -1017,7 +1021,7 @@ Enhance productivity and accuracy across domains with these versatile AI tools. 
  
 ### Website building
 
-AI-powered website builders leverage machine learning and natural language processing to simplify website creation and deployment. They automate the design, development, and deployment process, enabling users to quickly build and launch custom websites without extensive coding knowledge, and focus on content creation
+Website generation platforms utilize **automated design frameworks and code synthesis algorithms to transform content inputs into deployed web applications, streamlining development workflows.**
 
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
@@ -1040,5 +1044,5 @@ AI-powered website builders leverage machine learning and natural language proce
 <br>
 <br>
 
-<h3 align="center">  Any kind of positive contribution to AIEnhancedWork is welcome ! </h3>
-<h4 align="center">  A ⭐️ to AIEnhancedWork is must as a motivation booster. </h4>
+<h3 align="center">  We welcome community contributions through pull requests and issue discussions. </h3>
+<h4 align="center">  A <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="30" height="30" /> to AIEnhancedWork is must as a motivation booster. </h4>
