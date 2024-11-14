@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="143"
+   height="30"
+   viewBox="0 0 143 30"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs3" /><g
+     id="g19"
+     transform="translate(-6.6291255)"><path
+       d="m 23.271111,15 c 0,-8.28427 5.15261,-15 11.508674,-15 h 86.698695 c 6.35586,0 11.50866,6.71573 11.50866,15 v 0 c 0,8.2843 -5.1528,15 -11.50866,15 H 34.779785 C 28.423721,30 23.271111,23.2843 23.271111,15 Z"
+       fill="#1B1B1B"
+       id="path1"
+       style="fill:#1d32bc;fill-opacity:1;stroke-width:0.875926" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.07"
+       x="65.013306"
+       y="20.721687"
+       id="text3"><tspan
+         id="tspan3"
+         x="65.013306"
+         y="20.721687">MyShell</tspan></text><path
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.153208"
+       d="m 49.063865,22.729327 c -0.252792,-0.133771 -1.355887,-1.117694 -2.451322,-2.186496 -2.156268,-2.103843 -2.990117,-2.744601 -4.184142,-3.215242 -2.15172,-0.848128 -4.128767,-0.437772 -6.509096,1.351029 -0.572635,0.430331 -1.11489,0.782421 -1.205012,0.782421 -0.363688,0 0.516029,-4.724005 1.338254,-7.186311 0.699739,-2.095499 1.343807,-3.286471 2.299591,-4.25226 0.853369,-0.862301 1.682467,-1.1636745 2.633839,-0.957384 1.296178,0.2810564 2.557265,1.9919142 3.964763,5.378812 1.287022,3.096993 2.407677,4.262269 3.90581,4.061328 0.864726,-0.115984 1.55734,-0.822848 3.108539,-3.172491 1.379487,-2.089547 2.311016,-3.064152 2.928717,-3.064152 0.486809,0 1.113953,0.319489 1.555577,0.792472 0.861143,0.922286 2.172782,4.682016 2.579439,7.393809 0.138399,0.922909 -0.06057,0.910376 -1.096166,-0.06905 -0.447094,-0.422843 -1.121673,-0.901161 -1.499062,-1.062928 -1.310228,-0.56163 -3.87131,-0.836688 -3.985863,-0.428079 -0.02952,0.105331 -0.171748,0.981899 -0.316042,1.94793 -0.534574,3.578917 -1.452247,4.741505 -3.067824,3.886587 z"
+       id="path19" /></g></svg>
