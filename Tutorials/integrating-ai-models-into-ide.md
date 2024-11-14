@@ -1,18 +1,29 @@
+<div align="center"> 
+ 
+[![SVG Banners](https://svg-banners.vercel.app/api?type=typeWriter&text1=Integrating%20AI%20Models%20into%20your%20IDE%20👨‍💻&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Welcome to your guide for enhancing your development workflow with AI assistance! Whether you're new to AI-powered coding or looking to optimize your setup, this tutorial will walk you through seamless IDE integration.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+
+</div> 
+
 ## Table of Contents
 
 * [Introduction](#introduction)
 * [Cursor the dedicated IDE for seamless AI integration](#cursor-the-dedicated-ide-for-seamless-ai-integration)
-* [Code dedicated providers and models](#code-dedicated-providers-and-models)
-* [Generalist Providers and Models](#generalist-providers-and-models)
-  * [Prerequisites](#prerequisites)
-  * [Install Continue.dev extension](#install-continue-extension)
+* [Implementing AI Assistance](#implementing-ai-assistance)
+  * [Model providers](#model-providers)
+    * [Code dedicated providers](#code-dedicated-providers)
+    * [Generalist Models Providers](#generalist-models-providers)
+  * [LLMs Models](#llms-models)
+    * [Open Source Models](#open-source-models)
+    * [Proprietary Models](#proprietary-models)
+* [Hands-on implementation guide using Ollama and Continue](#hands-on-implementation-guide-using-ollama-and-continue)  
   * [Setup Ollama as the Local Model Provider](#setup-ollama-as-the-local-model-provider)
-  * [Setup Groq as the Cloud-based Model Provider](#setup-groq-as-the-cloud-based-model-provider)
-* [Help me pick a model !](#models-for-coding)
+  * [Installation and usage of Continue.dev extension](#install-continue-extension)
 
 <br>
 
-## Introduction
+# Introduction
 
 Modern development environments now **leverage AI capabilities to enhance code synthesis, automate routine operations, and optimize development workflows.** IDE integration of language models enables contextual code assistance, automated testing, and intelligent refactoring while maintaining established development practices.
 
@@ -42,7 +53,7 @@ Modern development environments now **leverage AI capabilities to enhance code s
 
 <br>
 
-## Cursor the dedicated IDE for seamless AI integration 
+# Cursor the dedicated IDE for seamless AI integration 
 
 <img src="https://cursor.sh/brand/icon.svg" width="20" height="20" > ***[Cursor](https://cursor.sh/)*** integrates language models into a VS Code-based editor, **providing contextual code completion, codebase analysis, and natural language editing capabilities.** The platform supports both cloud-based and local AI models.
 
@@ -61,44 +72,197 @@ Some key features of Cursor include:
 * **Privacy options** : Cursor.sh ***offers a privacy mode*** where none of your code is stored on their servers or logs, catering to security-critical work.
 
 <br>
+<br>
 
-## Code dedicated providers and models
+# Implementing AI Assistance
 
-In addition to **AI-powered IDE**, there are several ***dedicated code suggestion and autocompletion models*** that can further enhance your coding experience.
+## Model providers
 
-Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful features such as:
+**First Let's pick the right AI provider** for your coding needs! Consider What features you'll use most, Where your code will live (local or cloud), Your privacy preferences, and How it fits with your favorite IDE.
 
-* Intelligent code completion.
-* Real-time suggestions based on context and syntax.
-* Code refactoring and rewriting.
-* Collaboration tools for real-time feedback.
-* These models are designed to work seamlessly with your IDE, providing a more efficient and effective coding experience.
+> [!TIP]
+> **Take a moment to explore different options - finding the right fit makes all the difference!**
+> 
+> Reference the [Artificial Analysis Leaderboard](https://artificialanalysis.ai/leaderboards/providers) for **comparative analysis of LLM providers across key performance metrics**: pricing, token generation speed, response latency, and context window capabilities.
 
-> For more information on these models, please refer to the dedicated ***[table](https://github.com/LSeu-Open/AIEnhancedWork/tree/main?tab=readme-ov-file#code-suggestions-and-autocompletion)*** in the main page of this GitHub repository.
+> [!CAUTION]
+> **Security Consideration** : Cloud-based code assistance services process codebase data through remote infrastructure, potentially exposing sensitive information to third-party systems. Consider data privacy implications and compliance requirements when implementing proprietary code processing services.
+>
+> Proprietary code assistance services **may utilize submitted code for model training and refinement.** Review provider terms of service regarding data collection and model training practices.
+
+### Code dedicated providers
+
+***Cloud-based Proprietary Providers*** 
+
+| Tool       | Description                                                                                                           | Licence     | Pricing model |
+|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
+| [AskCodi](https://www.askcodi.com/)    | An AI-powered coding assistant that offers code suggestions, debugging help, and explanations for code snippets. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Blackbox](https://www.blackbox.ai/)   | An AI platform that helps businesses automate processes, make predictions, and optimize decision-making. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/free.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [Boxy](https://codesandbox.io/blog/meet-boxy-ai-coding-assistant)       | An AI coding assistant by CodeSandbox providing real-time code suggestions and completions. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Codeium](https://codeium.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/free.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [CodeWhisperer](https://aws.amazon.com/codewhisperer/)    | Developed by Amazon, provide real-time code suggestions and completions. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Codium](https://www.codium.ai/)     | An AI-powered tool that analyze your code, docstring, and comments and suggests tests as you code. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Paid.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Paid.svg" alt="Eight-Pointed Star" width="80" height="20" />        |
+| [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
 <br>
 
-## Generalist Providers and Models
+***Open-Source Providers*** 
 
-### Prerequisites
+| Tool       | Description                                                                                                           | Licence     | Pricing model |
+|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
+| [Aider](https://aider.chat/)    | an AI-powered pair programming tool designed to assist developers in writing and editing code directly from the command line.  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/free.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [Continue](https://www.continue.dev/)     | An open-source autopilot for software development that enables developers to create their own AI code assistant within their integrated development environment (IDE) like VS Code or JetBrains IDEs. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/free.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [Llamacoder](https://llamacoder.together.ai/) | An open source Claude Artifacts – generate small apps with one prompt. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/free.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | Open Interpreter is an innovative open-source project that allows language models to execute code on a user's computer to complete various tasks. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/free.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
 
-* **A code editor or Integrated Development Environment (IDE)** - I'll be using ***VSCode*** in this tutorial.
-* **A model provider** - in this tutorial, I'll be working with ***Ollama and Groq***.
-* **A reliable model to work with**.
-  * As a local provider, I suggest deploying the ***DeepSeek-Coder-V2-Lite-Instruct*** or ***Codestral:22b*** models through Ollama. **Please note that this may necessitate expensive hardware resources.**
-  * However, for those working with smaller computers, ***Qwen2.5-Coder-7B-Instruct*** can also be a very competent alternative.
-  * On Groq, I personally prefer the ***Llama3.1-70b*** model.
-  * Currently, the general consensus is that the best model for writing code is ***Claude-3.5 Sonnet*** by Anthropic. You can access it either directly through **Cursor** or via **API in Continue.dev**.
+<br>
 
- 
-> [!Note]
-> Carefully selecting a model considering **its strengths and weaknesses is key** for optimal code usability, especially when aligned with **your primary language**, such as ***Python*** in my case.
+### Generalist Models Providers
 
-<div align="center">
- 
-**👉 [Help me pick a model !](#models-for-coding) 👈**
+***Cloud-based Providers***
+
+| Tool             | Description                                                                                                                 | Pricing     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|
+| [AI21 Labs](https://www.ai21.com/) |  Known for their language models like Jurassic-1 Jumbo focused on quality, safety, and controllability. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Amazon Web Services (AWS)](https://aws.amazon.com/bedrock/) | Offers models like Amazon CodeWhisperer for code generation and understanding through their SageMaker platform. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Paid.svg" alt="Eight-Pointed Star" width="80" height="20" /> |  
+| [Anthropic](https://www.anthropic.com/claude) | Known for their constitutional AI model Claude, focused on being helpful, harmless, and honest. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) | 
+| [Cerebras](https://inference.cerebras.ai/) | An AI company that has developed innovative hardware and software solutions for AI computing. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) | 
+| [Cohere](https://cohere.com/) | Provides an enterprise AI platform with models like Cohere Generate for custom content creation. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Databricks](https://www.databricks.com/) | A unified, open analytics platform that provides tools and services for data processing, analytics, and artificial intelligence at scale. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Paid.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [DeepInfra](https://deepinfra.com/chat) | A platform that provides scalable and cost-effective infrastructure for deploying machine learning models. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Deepseek](https://chat.deepseek.com/) | An AI company that has developed several notable AI models and technologies | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Fireworks](https://fireworks.ai/) | A comprehensive solution for companies looking to deploy AI into production, focusing on performance, cost-effectiveness, and developer experience. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) | 
+| [Google](https://gemini.google.com/) |  Provides models like LaMBDA, PaLM, and Bard for language understanding, generation, and multimodal AI tasks. |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) | 
+| [Groq](https://groq.com/) | Specializes in high-performance AI inference with custom LPU (Language Processing Unit) hardware, offering models like Meta's Llama 3. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Hugging Face Spaces](https://huggingface.co/spaces) | The AI dedicated github, Offers a platform with most open-source models like BERT, GPT-Neo, and Llama for various AI tasks. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/free.svg" alt="Eight-Pointed Star" width="80" height="20" /> | 
+| [LeptonAI](https://www.lepton.ai/) | A platform that provides cloud-based infrastructure and tools for deploying and running AI applications efficiently. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Microsoft Azure](https://azure.microsoft.com/) | A comprehensive suite of AI services and tools designed to help developers and organizations build, deploy, and manage AI applications at scale. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Paid.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [Mistral AI](https://mistral.ai/) | A French artificial intelligence company that specializes in developing large language models (LLMs) and AI products. |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [OctoAI](https://octoai.cloud/) | A full-stack inference platform designed specifically for generative AI applications. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [OpenAI](https://chatgpt.com/) | Offers models like GPT-4, DALL-E, and Whisper for natural language processing, image generation, and speech recognition. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [OpenRouter](https://openrouter.ai/) |  A versatile platform designed to provide access to a wide range of large language models (LLMs) from both proprietary and open-source sources. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Paid.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [Perplexity Labs](https://labs.perplexity.ai/) | An online platform that provides free access to various powerful open-source large language models (LLMs) for experimentation and use in a wide range of applications. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/free.svg" alt="Eight-Pointed Star" width="80" height="20" /> | 
+| [Poe](https://poe.com) | An AI chatbot aggregator platform developed by Quora that provides users access to multiple advanced language models and chatbots within a single interface. |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Reka](https://chat.reka.ai/) | An AI company that develops advanced multimodal AI models and technologies. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Replicate](https://replicate.com/home) | A cloud platform that allows developers to easily run and deploy open-source machine learning models. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Paid.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [SambaNova](https://sambanova.ai/) | An artificial intelligence company that provides a comprehensive AI platform for enterprises. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Paid.svg" alt="Eight-Pointed Star" width="80" height="20" /> |
+| [Together](https://www.together.ai/) | A cloud platform designed for building and running generative AI applications. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Paid.svg" alt="Eight-Pointed Star" width="80" height="20" /> | 
+| [Vercel](https://sdk.vercel.ai/) | A powerful tool for developers looking to explore and integrate various AI models into their applications efficiently. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+
+<br>
+
+***Local Providers***
+
+> [!IMPORTANT]
+> **Deploy LLMs locally** with our [implementation guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md) for privacy-focused language processing and model experimentation on your hardware.
+
+| Tool             | Description                                                                                                                 | OS     | Models     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [AnythingLLM](https://anythingllm.com/) | an open-source, full-stack application that allows users to chat with their documents in a private and enterprise-friendly environment. | All | Open source Models and Proprietary models via API |
+| [Enchanted](https://github.com/AugustDev/enchanted) | iOS and macOS app for chatting with private self hosted language models.| MacOS/IOS | Open source Models |
+| [GPT4ALL](https://www.nomic.ai/gpt4all) | An open-source software ecosystem developed by Nomic AI that enables users to run powerful large language models (LLMs) locally on their personal computers. | All | Open source Models |
+| [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Open source Models. |
+| [LM Studio](https://superagi.com/) |  Elegant UI with the ability to run every Hugging Face repository. | All | Open source Models |
+| [Msty](https://msty.app/) |  an AI chat application that offers a user-friendly interface for interacting with both local and online AI language models. | All | Open source Models and Proprietary models via API |
+| [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
+
+<br>
+<br>
+
+## LLMs Models
+
+Now that you've chosen your provider, let's find the right model for your coding needs.
+
+> [!TIP]
+> **You can always try different models to find your perfect match. Many developers mix and match based on different tasks!**
+
+We designed **two tables** to assist those who require **guidance in selecting the ideal model for coding purposes.**
+
+The first table highlights **Open-source models**, which you can typically run **locally on your machine** (Probably not hte Massive Models). To ensure a smooth experience running these models locally, I will provide the necessary hardware requirements for optimal performance. Please note that while you may be able to run certain models with lower hardware specifications, you can expect slower output and performance as a result.
+
+The second table features **Proprietary models** that usually operate on **cloud-based providers**.
+
+The models are ranked according to **LiveCodeBench Pass@1** Code Generation scores (with higher scores indicating better performance). ***Pass@1 is the probability of passing a given problem in one attempt***. [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) offers a more comprehensive, up-to-date, and contamination-aware evaluation of code-related capabilities compared to HumanEval.
+
+> [!CAUTION]
+> Please note that the hardware requirements provided are only indicative, and the specified VRAM requirements in the tables below apply specifically to the default Ollama Q4_0 quantization version of the models. [Learn more about LLMs Quantization](https://huggingface.co/blog/merve/quantization).
+
+### Open Source Models
+
+***Massive models*** : Challenging for local deployment due to computational requirements. Use them via any of the [listed Cloud-based Providers](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#cloud-based-providers-1) (e.g. Groq / Together / Mistral or OpenRouter).
+
+| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
+|:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Alibaba**        | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)  | 72.2B         | 47GB+ VRAM GPU (2xRTX 4090 or better) | 48.7 | [Yes](https://ollama.com/library/qwen2.5:72b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) |
+| **DeepSeek**       | [DeepSeek-V2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 41.8    | [Yes](https://ollama.com/library/deepseek-v2.5) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
+| **DeepSeek**       | [DeepSeek-Coder-V2-Instruct](https://ollama.com/library/deepseek-coder-v2:236b) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 41.6   | [Yes](https://ollama.com/library/deepseek-coder-v2:236b) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
+| **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (3XH100 or better)  | 39.9   | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |
+| **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (1XH100 or better) | 39.1   | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
+| **Alibaba**        | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)  | 72.7B         | 47GB+ VRAM GPU (2xRTX 4090 or better) | 30.5 | [Yes](https://ollama.com/library/qwen2:72b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2-72B-Instruct) |
+| **Meta**           | [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0) | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | 30 | [Yes](https://ollama.com/library/llama3.1:70b) | [Groq](https://groq.com/)     |
+| **Meta**           | [Llama3-70B-instruct](https://ollama.com/library/llama3:70b-instruct) | 70B |  40GB+ VRAM GPU (2xRTX 4090 or better) | 25.8   |  [Yes](https://ollama.com/library/llama3:70b-instruct) | [Groq](https://groq.com/)|
+| **Mistral**        | [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | 141B | 80GB+ VRAM GPU (1xH100 or better) | 24.9   | [Yes](https://ollama.com/library/mixtral:8x22b-instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
+| **Cohere**         | [Command R+](https://ollama.com/library/command-r-plus)               | 104B        | 60GB+ VRAM GPU (3xRTX 4090 or better) | 19.2 | [Yes](https://ollama.com/library/command-r-plus)   | [Cohere](https://cohere.com/command) |
+| **Meta**           | [CodeLlama-70B-Instruct](https://ollama.com/library/codellama:70b-instruct) | 70B |  40GB+ VRAM GPU (2xRTX 4090 or better) | 12.6|  [Yes](https://ollama.com/library/codellama:70b-instruct) | No |
+
+**Mid-sized models** : Suitable for deployment on a high-performance local workstation.
+
+| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
+|:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Alibaba**        | [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct)  | 32.8B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 46.6 | [Yes](https://ollama.com/library/qwen2.5:32b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct) |
+| **Mistral**        | [Codestral-22B](https://ollama.com/library/codestral)                 | 22B       | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better) | 31.8 |  [Yes](https://ollama.com/library/codestral) | [Mistral](https://chat.mistral.ai/) | 
+| **DeepSeek**       | [DeepSeek-Coder-V2-Lite-Instruct](https://ollama.com/library/deepseek-coder-v2)    | 16B  | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)| 27.9   | [Yes](https://ollama.com/library/deepseek-coder-v2) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
+| **DeepSeek**       | [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct) | 33B  | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 26.7    | [Yes](https://ollama.com/library/deepseek-coder:33b-instruct) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
+| **m-a-p**          | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B  | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 19 |  [Yes](https://ollama.com/wojtek/opencodeinterpreter)  | No |
+
+***Small models*** : Lightweight and deployable on most local machines.
+
+| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
+|:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
+| **Alibaba**        | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 34 |  [Yes](https://ollama.com/library/qwen2.5-coder:7b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) |
+| **01.ai**          | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)     | 9B          | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 31.2 | [Yes](https://ollama.com/library/yi-coder:9b-chat)  | [Hugging Face](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  |
+| **Alibaba**        | [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)  | 7.62B     | 6GB+ VRAM GPU (RX 7600 or RTX 4060 or better) | 29.9 | [Yes](https://ollama.com/library/qwen2.5:7b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) |
+| **Mistral**        | [Mamba-codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 21.1 | No | [Mistral](https://mistral.ai/)  |
+| **Alibaba**        | [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 19.6 |  [Yes](https://ollama.com/library/codeqwen:v1.5-chat) | No |
+| **Meta**           | [Llama3.1-8B-instruct](https://ollama.com/library/llama3.1:8b)        | 8B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 19.2 | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
+| **DeepSeek**       | [DeepSeek-Coder-6.7B-instruct](https://ollama.com/library/deepseek-coder:6.7b-instruct) | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 18.9 | [Yes](https://ollama.com/library/deepseek-coder:6.7b-instruct) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
+| **m-a-p**          | [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | 6.7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 18.7 | No | [Hugging Face](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) |
+| **THUDM**          | [CodeGeeX4-All-9B](https://ollama.com/library/codegeex4:9b-all-q4_0)  | 9B | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better) | 17.8 |  [Yes](https://ollama.com/library/codegeex4:9b-all-q4_0) | [Hugging Face](https://huggingface.co/spaces/vilarin/glm-chat) |
+
+### Proprietary Models
+
+Typically accessible through a paid API or web interface.
+
+| Model             | Provider     | Pass@1 score (/100) | Pricing |
+|:-----------------:|:------------:|:----------------------:|:-------:|
+| [o1-preview](https://chat.openai.com/) | **OpenAI** | 56.7 | Paid   |
+| [Claude-3.5 Sonnet](https://claude.ai//) | **Anthropic** | 50.9 | Paid    |
+| [GPT-4o](https://chat.openai.com/) | **OpenAI** | 47.7 | Paid    |
+| [Gemini Pro 1.5](https://gemini.google.com/) | **Google** | 43 | Paid    |
+| [GPT-4 Turbo](https://chat.openai.com/) | **OpenAI** | 41.8 | Paid    |
+| [GPT-4O-mini](https://chat.openai.com/) | **OpenAI** | 38.7| Paid    |
+| [Gemini Flash 1.5](https://gemini.google.com/) | **Google** | 37.2 | Paid    |
+| [Claude-3 Opus](https://claude.ai/) | **Anthropic** | 35.3 | Paid    |
+| [GPT-4](https://chat.openai.com/) | **OpenAI** | 34.9 | Paid    |
+
+<br>
+<br>
+
+## Hands-on implementation guide using Ollama and Continue
+
+***Step-by-step guide for privacy-preserving code assistance using open-source solutions.***
+
+### Setup Ollama as the Local Model Provider
+
+For those who prioritize keeping everything local and private, I'll be using ***[Ollama](https://ollama.com/)*** as the provider in this tutorial. If you haven't already, be sure to check out our **[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to learn how to install Ollama and get started.
   
-</div>
+> [!Note]
+> In this tutorial, I am using the ***Codestral:22b*** model. This particular model is specialized for coding and has been meticulously trained on vast datasets by Mistral.ai.
+>
+> This model stands out for its **exceptional size and capabilities, selected specifically for the hardware I use on my PC.** As with any model, it has its unique strengths and weaknesses. To get the most out of this tool, be sure to **[choose wisely](#models-for-coding)** among the available options.
 
 ### Install Continue extension
 
@@ -111,14 +275,6 @@ Models like ***Copilot***, ***Codium***, and ***Replit AI*** offer powerful feat
 * Wait for the extension to download and install. This might take a few seconds.
 * Once the installation is complete, click on the "Reload Required" button to reload VS Code.
 
-### Setup Ollama as the Local Model Provider
-
-For those who prioritize keeping everything local and private, I'll be using ***[Ollama](https://ollama.com/)*** as the provider in this tutorial. If you haven't already, be sure to check out our **[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to learn how to install Ollama and get started.
-  
-> [!Note]
-> In this tutorial, I am using the ***Codestral:22b*** model. This particular model is specialized for coding and has been meticulously trained on vast datasets by Mistral.ai.
->
-> This model stands out for its **exceptional size and capabilities, selected specifically for the hardware I use on my PC.** As with any model, it has its unique strengths and weaknesses. To get the most out of this tool, be sure to **[choose wisely](#models-for-coding)** among the available options.
 
 #### Sidebar chat Model
 
@@ -167,10 +323,15 @@ or by **Qwen2.5-Coder-7B-Instruct** for less powerfull computers :
 
 * Save your modifications and close the config file.
 
-* You are now **ready to use your chosen model as a programming assistant within Visual Studio Code**, thanks to Ollama and Continue.dev.
-  
+<div align="center"> 
+ 
+ <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" />   **That's it for this tutorial ! You now have an AI model integrated into your VSCode setup.** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" />
 
-### Setup Groq as the Cloud-based Model Provider
+</div>
+  
+<br>
+
+## (Bonus) Setup Groq as the Cloud-based Model Provider
 
 If you **don't have the necessary hardware to run models locally** or want to tap into more powerful capabilities, this tutorial is for you. I'll be using ***[Groq](https://groq.com/)*** as the provider, leveraging their infrastructure's fast inference capabilities. 
 
@@ -190,80 +351,6 @@ If you **don't have the necessary hardware to run models locally** or want to ta
 * **Select the AI model** you want to use from the available options. Here on Groq, I'll choose the "Llama-3-70b Model".
 * You now have access to a capable model, **ready to be used** as a programming assistant within Visual Studio Code.
   
-👏 **That's it for this tutorial ! You now have an AI model integrated into your VSCode setup. For a comprehensive overview of CodeGPT features and capabilities, please refer to the CodeGPT page. Enjoy coding !**
 
 <br>
-
-## Models for Coding
-
-This section is designed to assist those who require **guidance in selecting the ideal model for coding purposes.** To facilitate this process, I have prepared **two tables** for your reference.
-
-The first table highlights **Open-source models**, which you can typically run **locally on your machine**. To ensure a smooth experience running these models locally, I will provide the necessary hardware requirements for optimal performance. Please note that while you may be able to run certain models with lower hardware specifications, you can expect slower output and performance as a result.
-
-The second table features **Proprietary models** that usually operate on **cloud-based providers**.
-
-The models are ranked according to **LiveCodeBench Pass@1** Code Generation scores (with higher scores indicating better performance). ***Pass@1 is the probability of passing a given problem in one attempt***. [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) offers a more comprehensive, up-to-date, and contamination-aware evaluation of code-related capabilities compared to HumanEval.
-
-> [!CAUTION]
-> Please note that the hardware requirements provided are only indicative, and the specified VRAM requirements in the tables below apply specifically to the default Ollama Q4_0 quantization version of the models. [Learn more about LLMs Quantization](https://huggingface.co/blog/merve/quantization).
-
-### Open Source Models (10+ Pass@1 score)
-
-***Massive models*** : Challenging for local deployment due to computational requirements. Use them via any of the [listed Cloud-based Providers](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#cloud-based-providers-1) (e.g. Groq / Together / Mistral or OpenRouter).
-
-| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
-|:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Alibaba**        | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)  | 72.2B         | 47GB+ VRAM GPU (2xRTX 4090 or better) | 48.7 | [Yes](https://ollama.com/library/qwen2.5:72b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) |
-| **DeepSeek**       | [DeepSeek-V2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 41.8    | [Yes](https://ollama.com/library/deepseek-v2.5) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
-| **DeepSeek**       | [DeepSeek-Coder-V2-Instruct](https://ollama.com/library/deepseek-coder-v2:236b) | 236B  | 130GB+ VRAM GPU (2XH100 or better) | 41.6   | [Yes](https://ollama.com/library/deepseek-coder-v2:236b) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
-| **Meta**           | [Llama-3.1-405b-Instruct](https://ollama.com/library/llama3.1:405bt)  | 405B        | 230+ VRAM GPU (3XH100 or better)  | 39.9   | [Yes](https://ollama.com/library/llama3.1:405b) | [OpenRouter](https://openrouter.ai/chat?models=meta-llama/llama-3.1-405b) |
-| **Mistral**        | [Mistral-Large-2-Instruct](https://ollama.com/library/mistral-large)  | 123B        | 70GB+ VRAM GPU (1XH100 or better) | 39.1   | [Yes](https://ollama.com/library/mistral-large) | [Mistral](https://mistral.ai/)  |
-| **Alibaba**        | [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)  | 72.7B         | 47GB+ VRAM GPU (2xRTX 4090 or better) | 30.5 | [Yes](https://ollama.com/library/qwen2:72b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2-72B-Instruct) |
-| **Meta**           | [Llama-3.1-70b-Instruct](https://ollama.com/library/llama3.1:70b-instruct-q4_0) | 70B | 40GB+ VRAM GPU (2xRTX 4090 or better) | 30 | [Yes](https://ollama.com/library/llama3.1:70b) | [Groq](https://groq.com/)     |
-| **Meta**           | [Llama3-70B-instruct](https://ollama.com/library/llama3:70b-instruct) | 70B |  40GB+ VRAM GPU (2xRTX 4090 or better) | 25.8   |  [Yes](https://ollama.com/library/llama3:70b-instruct) | [Groq](https://groq.com/)|
-| **Mistral**        | [Mixtral-8x22b-Instruct-v0.1](https://ollama.com/library/mixtral:8x22b-instruct) | 141B | 80GB+ VRAM GPU (1xH100 or better) | 24.9   | [Yes](https://ollama.com/library/mixtral:8x22b-instruct) | [Perplexity Labs](https://labs.perplexity.ai/) |
-| **Cohere**         | [Command R+](https://ollama.com/library/command-r-plus)               | 104B        | 60GB+ VRAM GPU (3xRTX 4090 or better) | 19.2 | [Yes](https://ollama.com/library/command-r-plus)   | [Cohere](https://cohere.com/command) |
-| **Meta**           | [CodeLlama-70B-Instruct](https://ollama.com/library/codellama:70b-instruct) | 70B |  40GB+ VRAM GPU (2xRTX 4090 or better) | 12.6|  [Yes](https://ollama.com/library/codellama:70b-instruct) | No |
-
-**Mid-sized models** : Suitable for deployment on a high-performance local workstation.
-
-| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
-|:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Alibaba**        | [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct)  | 32.8B         | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 46.6 | [Yes](https://ollama.com/library/qwen2.5:32b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct) |
-| **Mistral**        | [Codestral-22B](https://ollama.com/library/codestral)                 | 22B       | 14GB+ VRAM GPU (RX 7800 or RTX 4070 Ti or better) | 31.8 |  [Yes](https://ollama.com/library/codestral) | [Mistral](https://chat.mistral.ai/) | 
-| **DeepSeek**       | [DeepSeek-Coder-V2-Lite-Instruct](https://ollama.com/library/deepseek-coder-v2)    | 16B  | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)| 27.9   | [Yes](https://ollama.com/library/deepseek-coder-v2) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
-| **DeepSeek**       | [DeepSeek-Coder-33B-instruct](https://ollama.com/library/deepseek-coder:33b-instruct) | 33B  | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 26.7    | [Yes](https://ollama.com/library/deepseek-coder:33b-instruct) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
-| **m-a-p**          | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B  | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 19 |  [Yes](https://ollama.com/wojtek/opencodeinterpreter)  | No |
-
-***Small models*** : Lightweight and deployable on most local machines.
-
-| Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
-|:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
-| **Alibaba**        | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 34 |  [Yes](https://ollama.com/library/qwen2.5-coder:7b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) |
-| **01.ai**          | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)     | 9B          | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 31.2 | [Yes](https://ollama.com/library/yi-coder:9b-chat)  | [Hugging Face](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)  |
-| **Alibaba**        | [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)  | 7.62B     | 6GB+ VRAM GPU (RX 7600 or RTX 4060 or better) | 29.9 | [Yes](https://ollama.com/library/qwen2.5:7b-instruct) | [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) |
-| **Mistral**        | [Mamba-codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 21.1 | No | [Mistral](https://mistral.ai/)  |
-| **Alibaba**        | [CodeQwen1.5-7B-Chat](https://ollama.com/library/codeqwen:v1.5-chat)  | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 19.6 |  [Yes](https://ollama.com/library/codeqwen:v1.5-chat) | No |
-| **Meta**           | [Llama3.1-8B-instruct](https://ollama.com/library/llama3.1:8b)        | 8B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 19.2 | [Yes](https://ollama.com/library/llama3.1:8b) | [Groq](https://groq.com/) |
-| **DeepSeek**       | [DeepSeek-Coder-6.7B-instruct](https://ollama.com/library/deepseek-coder:6.7b-instruct) | 7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 18.9 | [Yes](https://ollama.com/library/deepseek-coder:6.7b-instruct) | [Deepseek](https://chat.deepseek.com/sign_in?from=coder)  |
-| **m-a-p**          | [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | 6.7B | 5GB+ VRAM GPU (RX 6500 or RTX 3050 or better) | 18.7 | No | [Hugging Face](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) |
-| **THUDM**          | [CodeGeeX4-All-9B](https://ollama.com/library/codegeex4:9b-all-q4_0)  | 9B | 8GB+ VRAM GPU (RX 7600 or RTX 4060 or better) | 17.8 |  [Yes](https://ollama.com/library/codegeex4:9b-all-q4_0) | [Hugging Face](https://huggingface.co/spaces/vilarin/glm-chat) |
-
-### Proprietary Models (10+ Pass@1 score)
-
-***Proprietary models*** : typically accessible through a paid API or web interface.
-
-| Model             | Provider     | Pass@1 score (/100) | Pricing |
-|:-----------------:|:------------:|:----------------------:|:-------:|
-| [o1-preview](https://chat.openai.com/) | **OpenAI** | 56.7 | Paid   |
-| [Claude-3.5 Sonnet](https://claude.ai//) | **Anthropic** | 50.9 | Paid    |
-| [GPT-4o](https://chat.openai.com/) | **OpenAI** | 47.7 | Paid    |
-| [Gemini Pro 1.5](https://gemini.google.com/) | **Google** | 43 | Paid    |
-| [GPT-4 Turbo](https://chat.openai.com/) | **OpenAI** | 41.8 | Paid    |
-| [GPT-4O-mini](https://chat.openai.com/) | **OpenAI** | 38.7| Paid    |
-| [Gemini Flash 1.5](https://gemini.google.com/) | **Google** | 37.2 | Paid    |
-| [Claude-3 Opus](https://claude.ai/) | **Anthropic** | 35.3 | Paid    |
-| [GPT-4](https://chat.openai.com/) | **OpenAI** | 34.9 | Paid    |
-
-
 
