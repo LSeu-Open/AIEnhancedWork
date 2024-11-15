@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="168"
+   height="30"
+   viewBox="0 0 168 30"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs5" /><g
+     id="g8"><g
+       id="g10"
+       transform="translate(19.473946)"><path
+         d="m -2.8736475,15 c 0,-8.28427 5.3885495,-15 12.0356625,-15 H 119.89009 c 6.6469,0 12.03566,6.71573 12.03566,15 v 0 c 0,8.2843 -5.38875,15 -12.03566,15 H 9.162015 C 2.514902,30 -2.8736475,23.2843 -2.8736475,15 Z"
+         fill="#BFC2FF"
+         id="path1"
+         style="fill:#221a3d;fill-opacity:1;stroke-width:0.895756" /><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fefeff;fill-opacity:1;stroke-width:1.00157;stroke-linejoin:round"
+         x="28.645163"
+         y="20.503416"
+         id="text5"><tspan
+           id="tspan5"
+           x="28.645163"
+           y="20.503416"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fefeff;fill-opacity:1">Playground AI</tspan></text><path
+         style="fill:#ffffff;fill-opacity:1;stroke-width:1.08947"
+         d="M 15.130312,23.499589 C 14.9225,23.37287 14.690844,23.092403 14.61552,22.876329 14.42848,22.339786 14.422176,7.5766 14.60872,7.0413696 14.8519,6.343784 15.786285,6.0545074 16.402412,6.4860592 c 0.618958,0.4335347 0.619794,0.4450363 0.619794,8.5236558 0,8.377388 0.01508,8.212026 -0.779079,8.543845 -0.547531,0.228774 -0.657951,0.223419 -1.112853,-0.05397 z m 3.103208,-8.482123 c 0,-3.230969 0.0465,-5.7007417 0.107323,-5.7007417 0.05903,0 0.438974,0.2214657 0.844322,0.4921461 2.608679,1.7420106 3.5119,5.1533526 2.112452,7.9784546 -0.38672,0.780683 -1.784871,2.234385 -2.549307,2.650595 l -0.51479,0.280286 z m -5.705526,5.287796 C 11.652355,19.766099 10.630812,18.683723 10.196901,17.83535 8.77251,15.050417 9.72717,11.472514 12.346327,9.7796715 c 0.393948,-0.2546216 0.762326,-0.4629472 0.818618,-0.4629472 0.05629,0 0.102345,2.5345917 0.102345,5.6324267 0,4.427207 -0.0324,5.631618 -0.151409,5.628647 -0.08328,-0.0021 -0.347826,-0.12472 -0.58789,-0.272536 z"
+         id="path11" /></g></g></svg>
