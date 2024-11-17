@@ -94,7 +94,7 @@ Some key features of Cursor include:
 
 ***Cloud-based Proprietary Providers*** 
 
-| Tool       | Description                                                                                                           | Licence     | Pricing model |
+| Tool       | Description                                                                                                           | Licence     | Pricing |
 |:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
 | [AskCodi](https://www.askcodi.com/)    | An AI-powered coding assistant that offers code suggestions, debugging help, and explanations for code snippets. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 | [Blackbox](https://www.blackbox.ai/)   | An AI platform that helps businesses automate processes, make predictions, and optimize decision-making. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
@@ -111,7 +111,7 @@ Some key features of Cursor include:
 
 ***Open-Source Providers*** 
 
-| Tool       | Description                                                                                                           | Licence     | Pricing model |
+| Tool       | Description                                                                                                           | Licence     | Pricing |
 |:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
 | [Aider](https://aider.chat/)    | an AI-powered pair programming tool designed to assist developers in writing and editing code directly from the command line.  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="Free" width="80" height="20" /> |
 | [Continue](https://www.continue.dev/)     | An open-source autopilot for software development that enables developers to create their own AI code assistant within their integrated development environment (IDE) like VS Code or JetBrains IDEs. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="Free" width="80" height="20" /> |
