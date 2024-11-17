@@ -6,18 +6,6 @@
 
 </div> 
 
-<div align="center">
- 
- ⚠️ **IN PROGRESS** ⚠️ 
-
-**We are currently writing the content of this page.  We appreciate your patience as you wait for the finalized version.**
-
-**Please note that this is a work-in-progress tutorial and may contain inaccuracies or incomplete information.**
-
-<br>
-
-</div>
-
 ## Table of Contents
 
 * [Introduction](#introduction)
@@ -308,17 +296,17 @@ To illustrate this, I'll provide a **specific example to consider**.
 
 ***You want the most private, secure and uncensored solution*** : Run your model locally using Ollama or other providers. 
 
-- 🟢 This approach relies on **no trust assumptions and ensures that data remains on your computer**. You can run any open source models your hardware can support. It allows you to create and use any integration and software with your local model.  No rate limitation and no subscription.
-- 🔴 However, **it may require powerful and expensive hardware** to effectively run larger models. Find the model that is righ for you in the [dedicated Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you).
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Circle.png" alt="Green Circle" width="20" height="20" /> This approach relies on **no trust assumptions and ensures that data remains on your computer**. You can run any open source models your hardware can support. It allows you to create and use any integration and software with your local model.  No rate limitation and no subscription.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Circle.png" alt="Red Circle" width="20" height="20" /> However, **it may require powerful and expensive hardware** to effectively run larger models. Find the model that is righ for you in the [dedicated Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you).
 
 ***You want the easiest and interactive solution*** : Use the seamless Leo AI integration directly into Brave Web browser.
 
-- 🟢 No hardware or expertise required. **Seamless integration as real-time summaries of web pages or videos, or inquiries about content.** With the **BYOM** feature, you can utilize any open-source model that can be run locally on your computer.
-- 🔴 Rely on Brave Software, Inc. to securely handle your requests. **You can be rate limited (# of Requests per day) and Subscription is needed to use advanced  models.**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Circle.png" alt="Green Circle" width="20" height="20" /> No hardware or expertise required. **Seamless integration as real-time summaries of web pages or videos, or inquiries about content.** With the **BYOM** feature, you can utilize any open-source model that can be run locally on your computer.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Circle.png" alt="Red Circle" width="20" height="20" /> Rely on Brave Software, Inc. to securely handle your requests. **You can be rate limited (# of Requests per day) and Subscription is needed to use advanced  models.**
 
 ***You want it to be easy, private and uncensored*** : Use Venice.ai services.
 
-- 🟢 No Hardaware and expertise needed. **you gain access to both language models and image generation models.**
-- 🔴 Rely on Venice.ai to securely handle your requests. **You are rate limited (# of Requests per day) and Subscription is needed to use advanced models and unlimited requests.**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Circle.png" alt="Green Circle" width="20" height="20" /> No Hardaware and expertise needed. **you gain access to both language models and image generation models.**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Circle.png" alt="Red Circle" width="20" height="20" /> Rely on Venice.ai to securely handle your requests. **You are rate limited (# of Requests per day) and Subscription is needed to use advanced models and unlimited requests.**
 
 <br>  
