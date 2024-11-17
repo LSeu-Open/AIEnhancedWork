@@ -1,3 +1,11 @@
+<div align="center"> 
+
+[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=Local%20image%20generation%20with%20Fooocus%20🖌️&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Ready to create AI art on your own computer? This guide will walk you through setting up Fooocus, a powerful local alternative to Midjourney, giving you complete creative freedom without cloud dependencies.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+
+</div>
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -27,17 +35,13 @@
 
 # Introduction
 
-This **tutorial** will guide you through the process of running **Fooocus**, a local image generation software, on your machine. **Fooocus** is a tool that allows you to **create custom images** using various styles.
+Fooocus provides **stable diffusion image generation capabilities on local hardware**, offering creative control and privacy-focused artwork creation. This offline implementation **enables unrestricted experimentation with styles, prompts, and generation parameters.**
 
-By running Fooocus locally, you'll have **full control over the output** and can experiment with different settings without relying on cloud services or data connections.
-
-In this tutorial, we'll cover the **basics of getting started with Fooocus**, including installing and configuring the software, understanding **its key features**, and experimenting with some simple image generation techniques.
-
-<br>
+> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> **Key Benefit: Generate AI art independently without cloud services or usage limitations.**
 
 # Hardware Requirement
 
-To run Fooocus locally, **ensure your device meets the following minimum requirements**. Meeting these specs ensures a smooth setup and use experience. If your device falls short, you may not be able to use Fooocus locally.
+To run Fooocus locally, Your hardware configuration **must meet these specifications for optimal performance.** Lower specifications may impact generation speed and quality.
 
 | Operating System  | GPU                          | Minimal GPU Memory           | Minimal System Memory     | [System Swap](https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md) | Note                                                                       |
 |:-----------------:|:----------------------------:|:----------------------------:|:-------------------------:|:------------------------------:|:---------------------------------------------------------------------------|
