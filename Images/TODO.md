@@ -19,43 +19,12 @@ DEFINITION
 Organizations
 
 IMAGE 
- Black Forest Labs
- Ideogram
- Midjourney
- Stable Diffusion
- Playground
- Recraft
- Adobe
  Xiao Shitao
  MeissonFlow
  Fal.ai
  Kwai
-
-VIDEO 
- THUDM
- Kwai
- Runway
- Kling
- Lumalabs
- Pika Art
- Zhipu AI
- Research
- Rhymes AI
- ByteDance
- MMLab
- Genmo
- Modelscope
- Cerspense	
- 
- VLM
- AllenAI
- OpenGVLab
  
  LLM
- MAP
- THUDM
- BigCode
- Numina
  NousResearch
  Maxime Labonne
  Cognitive Computations
