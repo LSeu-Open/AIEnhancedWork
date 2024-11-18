@@ -647,7 +647,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Liquid.svg" alt="Liquid" width="180" height="20" />](https://www.liquid.ai/) | [LFM](https://www.liquid.ai/liquid-foundation-models) | [LFM 40B MoE](https://www.liquid.ai/liquid-foundation-models) | None (~60+) | 128k | Unknown | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
 <details>
-<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Locked%20with%20Key.png" alt="Locked with Key" width="30" height="30" /> <b>Other Other Proprietary Model Family Variants</b></summary> 
+<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Locked%20with%20Key.png" alt="Locked with Key" width="30" height="30" /> <b> Other Proprietary Model Family Variants</b></summary> 
 
 <br>
 
@@ -824,7 +824,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 > [!Tip]
 > Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) to **configure cloud-based and local LLM providers within your development environment.**
 
-#### Coding Open Source Models
+#### Top Performing Coding Open source Models (by Model Family)
 
 > [!NOTE]
 > Models are ranked by **LiveCodeBench Pass@1 metrics, measuring single-attempt problem-solving accuracy.** The [LiveCodeBench framework](https://livecodebench.github.io/leaderboard.html) implements contamination-aware evaluation protocols, providing current performance analytics for code generation capabilities.
@@ -835,20 +835,41 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 | Organization   | Model Familly                                                        | Best Model                                    | Model Sizes   | Pass@1*     | Context Window*  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) | 32B          | 46.6 | 132K             | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 41.7      | 128K             |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) | 7B          | 34          | 132K             | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     | [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 31.8        | 33K              |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/)          | [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat) | 9B | 29.2 | 128K           |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)       | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | 16B | 28.3 | 128K         |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) | [OpenCodeInterpreter](https://huggingface.co/m-a-p)  | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 26.7        | 8K               |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     | [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 21.1        | 256k             |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)           | [Granite Code](https://github.com/ibm-granite/granite-3.0-language-models) | [Granite-34b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-34b-code-instruct-8k) | 34B | None (~20+) | 128k          | Unknown         
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 41.7      | 128K             |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     		| [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 31.8        | 33K              |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/)          		| [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat) | 9B | 29.2 | 128K           |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) 			| [OpenCodeInterpreter](https://huggingface.co/m-a-p)  		   | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 26.7        | 8K               |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     		| [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 21.1        | 256k             |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)          | [Granite Code](https://github.com/ibm-granite/granite-3.0-language-models) | [Granite-34b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-34b-code-instruct-8k) | 34B | 19.8 | 8k |  
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 19.6        | 64K              |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="200" height="20" />](https://github.com/THUDM) | [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 17.8        | 128K             |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="200" height="20" />](https://github.com/THUDM) 		| [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 17.8        | 128K             |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BigCode.svg" alt="BigCode" width="200" height="20" />](https://www.bigcode-project.org/) | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 14.8        | 4K               |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/)           | [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 13.3        | 16K              |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)          | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 13.1        | 8K               |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/)           	| [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 13.3        | 16K              |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 13.1        | 8K               |
 
+<details>
+<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b> Other Coding Open source Models Family Variants</b></summary> 
+
+<br>
+
+| Organization   | Model Familly                                                        | Best Model                                    | Model Sizes   | Pass@1*     | Context Window*  |
+|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct) | 14B         | 40          | 132K             |
+|																						|								   | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B           | 34          | 132K             | 
+|																						|								   | [Qwen2.5-Coder-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct)  | 3B           | 26          | 132K             | 
+|																						|								   | [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)  | 1.5B     | 18          | 132K             | 
+|																						|								   | [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)  | 0.5B     | 10          | 132K             | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder-V2](https://huggingface.co/deepseek-ai)            | [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | 16B | 28.3 | 128K         |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/)          		| [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-1.5B-Chat](https://huggingface.co/01-ai/Yi-Coder-1.5B-Chat) | 1.5B | 15 | 128K           |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) 			| [OpenCodeInterpreter](https://huggingface.co/m-a-p)  		   | [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | 6.7B      | 19.8        | 8K               |
+|																						|								   | [OpenCodeInterpreter-DS-1.3B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B) | 1.3B      | 8.6        | 8K               |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)          | [Granite Code](https://github.com/ibm-granite/granite-3.0-language-models) | [Granite-20b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-20b-code-instruct-8k) | 20B | 13 | 8k |       
+|																						|								   | [Granite-8b-code-instruct-128k](https://huggingface.co/ibm-granite/granite-8b-code-instruct-128k) | 8B | 10 | 128k |
+|																						|								   | [Granite-3b-code-instruct-128k](https://huggingface.co/ibm-granite/granite-3b-code-instruct-128k) | 3B | 8 | 128k |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BigCode.svg" alt="BigCode" width="200" height="20" />](https://www.bigcode-project.org/) | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-7b](https://huggingface.co/bigcode/starcoder2-7b)                  | 7B           | 9        | 4K               |
+|																						|								   | [Starcoder2-3b](https://huggingface.co/bigcode/starcoder2-3b)                  | 3B           | 6        | 4K               |
+
+</details>
 
 #### Coding LLMs Providers
 
@@ -910,7 +931,7 @@ Models **optimized for mathematical reasoning and computation** through speciali
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     | [Mathstral](https://mistral.ai/news/mathstral/)                  | [Mathstral-7B-v0.1](https://huggingface.co/mistralai/Mathstral-7B-v0.1)                              | 7B            | 66.85        | 4K               |
 
 <details>
-<summary> <b>Other Other Open source Models Family Variants</b> </summary> 
+<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b>Other Open source Models Family Variants</b> </summary> 
 
 <br>
 
@@ -946,7 +967,7 @@ Models modified to **operate without standard content filtering mechanisms**, en
 | **Teknium**        | [OpenHermes-2.5](https://mistral.ai/news/mathstral/)             | [OpenHermes-2.5-Mistral-7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B)                | 7B            | 34           | 32K               |
 
 <details>
-<summary> 🛑 <b>Other Other Open source Models Family Variants</b></summary> 
+<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b>Other Open source Models Family Variants</b></summary> 
 
 <br>
 
