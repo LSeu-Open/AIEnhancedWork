@@ -56,9 +56,9 @@
 * [Computer Vision](#computer-vision)
   - [Image Edition](#image-edition)
   - [Image Generation](#image-generation)
-     + [Text to Image Models](#text-to-image-models)
-     + [Text to Image Cloud-based Providers](#text-to-image-cloud-based-providers)
-     + [Text to Image Local Providers](#text-to-image-local-providers) 
+     - [Text to Image Models](#text-to-image-models)
+     - [Text to Image Cloud-based Providers](#text-to-image-cloud-based-providers)
+     - [Text to Image Local Providers](#text-to-image-local-providers) 
   - [Video Generation](#video-generation)
     - [Image to Video Models](#image-to-video-models)
     - [Text to Video Models](#text-to-video-models)
@@ -69,16 +69,13 @@
   - [Generalist LLMs](#generalist-llms)
      - [Proprietary Models](#proprietary-models)
      - [Open Source Models](#open-source-models) 
-     + [Providers](#providers)
+     - [Providers](#providers)
        * [LLMs Cloud-based Providers](#llms-cloud-based-providers)
        * [LLMs Local Providers](#llms-local-providers)
-  - [Coding LLMs](#coding-llms)
-     + [Coding Open Source Models](#coding-open-source-models) 
-     + [Coding LLMs Providers](#coding-llms-providers)
-     + [AI Augmented IDE](#ai-augmented-ide)
   - [Finetuned LLMs](#finetuned-llms)
-     + [Math](#math)
-     + [Uncensored](#uncensored) 
+  	- [Coding](#coding)
+	- [Math](#math)
+  	- [Uncensored](#uncensored) 
 * [Other](#other)
   - [Language learning](#language-learning)
   - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
@@ -90,7 +87,7 @@
 
 <br>
 
-## Introduction
+# Introduction
 
  <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Green%20Circle.png" width="15" height="15" /> ***AI-powered tools offer key advantages for professional workflows:***:
 
@@ -134,7 +131,7 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 <br>
 
-## AI Tutorials and Learning Resources
+# AI Tutorials and Learning Resources
 
 ### Tutorials
 
@@ -206,7 +203,7 @@ Master AI concepts through **hands-on tutorials and practical implementations.**
 
 <br>
 
-## Academic and Scientific Research
+# Academic and Scientific Research
 
 AI solutions **optimized for academic research and scientific workflows**, enabling advanced insights in the pursuit of knowledge.
 
@@ -226,7 +223,7 @@ AI solutions **optimized for academic research and scientific workflows**, enabl
 <br> 
 <br>
 
-## Audio Processing
+# Audio Processing
 
 ### Audio and Video transcription and summaries
 
@@ -340,7 +337,7 @@ Speech recognition systems **convert acoustic signals into text through automate
  
 <br>
 
-## Automation
+# Automation
 
 ### Autonomous Agents
 
@@ -374,7 +371,7 @@ Execute predefined task sequences through algorithmic workflows to **optimize pr
  
 <br>
 
-## Computer Vision
+# Computer Vision
 
 Computer Vision (CV) frameworks implement **neural architectures for visual data processing, analysis, and synthesis across image and video domains**.
 
@@ -580,7 +577,7 @@ Vision Language Models (VLMs) **integrate visual perception and language process
  
 <br>
 
-## Data Analysis 
+# Data Analysis 
 
 Data Analysis frameworks implement **machine learning models for processing structured and unstructured datasets**, enabling pattern recognition and statistical inference across diverse data formats.
 
@@ -613,14 +610,11 @@ Data Analysis frameworks implement **machine learning models for processing stru
  
 <br>
 
-## Large Language Models
-
-> [!CAUTION]
-> ***We estimate that the current form of this section is unsatisfactory, difficult to explore, and insufficiently clear for beginners. Significant modifications are expected within the next few days or weeks.***
+# Large Language Models
 
 Large Language Models (LLMs) are **advanced AI systems trained on vast text collections to understand and generate human language through pattern recognition.**
 
-### Generalist LLMs
+## Generalist LLMs
 
 > [!Tip]
 > Follow our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to deploy LLMs locally using Ollama and Page Assist for secure, privacy-focused language processing.
@@ -682,6 +676,11 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 <br>
 
 #### Open source Models 
+
+> [!NOTE]
+> This overview **focuses on base and instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.**
+>
+> See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
 
 ##### Top Performing Open source Models (by Model Family)
 
@@ -813,10 +812,14 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
 
 <br>
- 
+
 <br>
 
-### Coding LLMs
+## Finetuned LLMs
+
+**Fine-tuned Large Language Models (LLMs)** refer to AI models that have been **specifically adapted for a particular domain, task, or dataset.** This adaptation significantly **enhances their performance and accuracy within that specific context**, compared to training them on more general-purpose datasets.
+
+### Coding
 
 > [!Tip]
 > Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) to **configure cloud-based and local LLM providers within your development environment.**
@@ -889,13 +892,7 @@ Integrated Development Environments (IDEs) **leverage LLM capabilities for code 
 
 <br>
 
-<br>
-
-### Finetuned LLMs
-
-**Fine-tuned Large Language Models (LLMs)** refer to AI models that have been **specifically adapted for a particular domain, task, or dataset.** This adaptation significantly **enhances their performance and accuracy within that specific context**, compared to training them on more general-purpose datasets.
-
-#### Math
+### Math
 
 Models **optimized for mathematical reasoning and computation** through specialized training architectures.
 
@@ -928,7 +925,9 @@ Models **optimized for mathematical reasoning and computation** through speciali
 
 </details>
 
-#### Uncensored
+<br>
+
+### Uncensored
 
 Models modified to **operate without standard content filtering mechanisms**, enabling **unrestricted response generation beyond typical LLM safeguards.**
 
@@ -964,7 +963,7 @@ Models modified to **operate without standard content filtering mechanisms**, en
 
 <br>
 
-## Other
+# Other
 
 Additional Tools section **features specialized applications and multi-purpose models beyond standard categorization**, including language learning systems and versatile frameworks.
 
