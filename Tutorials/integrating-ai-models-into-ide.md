@@ -4,6 +4,9 @@
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Welcome to your guide for enhancing your development workflow with AI assistance! Whether you're new to AI-powered coding or looking to optimize your setup, this tutorial will walk you through seamless IDE integration.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
 
+***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Orange%20Square.png" alt="Orange Square" width="15" height="15" /> Level : Intermediate***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 16min***
+
+
 </div> 
 
 ## Table of Contents
