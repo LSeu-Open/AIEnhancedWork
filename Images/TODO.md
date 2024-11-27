@@ -13,19 +13,3 @@ DEFINITION
 * (Pricing) MAYBE
 * (Quantization) MAYBE https://huggingface.co/blog/merve/quantization
 * (AI hallucinations) MAYBE https://www.ibm.com/topics/ai-hallucinations
-
---------------------------------
-
-Organizations
-
-IMAGE 
- Xiao Shitao
- MeissonFlow
- Fal.ai
- Kwai
- 
- LLM
- NousResearch
- Maxime Labonne
- Cognitive Computations
- Teknium
