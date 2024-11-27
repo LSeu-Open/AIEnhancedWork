@@ -591,15 +591,15 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 > 
 > Quality Index scores are based on Artificial Analysis benchmarks where available. **Models lacking Artificial Analysis benchmarks display estimated scores (~) derived from alternative performance metrics.**
 
-> [!IMPORTANT]
-> **Need help choosing a model?** Explore our [model comparison guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) **featuring performance metrics and key features of both open-source and proprietary options.**
-
 ### Open source Models 
 
 > [!NOTE]
 > This overview **focuses on base and instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.**
 >
 > See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
+
+> [!IMPORTANT]
+> Need help choosing? Our [extended model comparison guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) **provides broader coverage than our main overview, featuring detailed performance metrics and comprehensive model comparisons.**
 
 #### Top Performing Open source Models (by Model Family)
 
@@ -985,6 +985,7 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/)         | [Llama-3.2-11B-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) | 11B | 64.3 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)     | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B) | 1.3B                   | 60.2        | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)    | [Phi-3.5-vision-instruct](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) | 4.15B | 59.7 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="HuggingFace" width="200" height="20" />](https://huggingface.co/) | [SmolVLM-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct) | 2.25B | 55.96 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
 ### Proprietary VLMs
 
