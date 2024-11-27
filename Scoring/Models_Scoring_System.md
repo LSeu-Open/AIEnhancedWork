@@ -177,18 +177,38 @@ Where:
 - $$s_i$$ is the score of benchmark i
 - n is the number of available benchmarks
 
-#### Weight Redistribution
+#### Score Adjustment Formula Example
+
+Let's demonstrate the Score Adjustment Formula with a clear example:
+
+| Benchmark | Score | Weight |
+|-----------|--------|---------|
+| MMLU | 85 | 6.0% |
+| MMLU Pro | 90 | 5.5% |
+| Multilingual MMLU | 80 | 5.0% |
+| GSM-8K | 88 | 5.0% |
+| API-Bank | 92 | 4.5% |
+| BFCL | 78 | 10.0% |
+
+When GSM-8K is Missing
+
+Calculation:
+1. Numerator = (85 × 6.0) + (90 × 5.5) + (80 × 5.0) + (92 × 4.5) + (78 × 10.0)
+2. Denominator = 6.0 + 5.5 + 5.0 + 4.5 + 10.0
+3. Final Score = (2601/31) × 100 = 83.84
+
+The final score represents the weighted average of the available benchmarks, automatically adjusting for the missing GSM-8K benchmark.
+
+
+### Weight Redistribution
 
 For missing benchmarks, their weights are redistributed proportionally:
 
-$$ w'_i = w_i \times \frac{100}{\sum_{j=1}^{m} w_j} $$
+![image](https://github.com/user-attachments/assets/3269d940-333c-4819-b65c-20f31b6ac0d9)
 
-Where:
-- $$ w'_i $$ is the adjusted weight
-- m is the number of available benchmarks
-- $$ w_j $$ represents the original weights of available benchmarks
+![image](https://github.com/user-attachments/assets/8deb02f8-a8cf-4ec2-a7ad-0b7e6bc38095)
 
-## Example
+#### Weight Redistribution Example
 
 If we have 3 benchmarks with original weights:
 - A: 40%
@@ -199,13 +219,6 @@ If benchmark C is missing:
 
 $$ w'_A = 40 \times \frac{100}{75} = 53.33\% $$
 $$ w'_B = 35 \times \frac{100}{75} = 46.67\% $$
-
-#### Example Calculation
-
-If a benchmark with 10% weight is missing from a set of benchmarks:
-1. Remove the missing benchmark's weight
-2. Multiply remaining weights by $$\frac{100}{90}$$ to maintain 100% total
-3. Calculate final score using the normalized weights
 
 This approach ensures:
 - Fair comparison between models
