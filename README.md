@@ -121,13 +121,17 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 <br>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Orange%20Circle.png" width="15" height="15" />  ***Icon Guide: What Our Emojis Mean***
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> ***Announcing the alpha of our Comprehensive AI Model Evaluation Framework*** :
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Bomb.png" alt="Bomb" width="20" height="20" /> **New** - Recently added content
+We're excited to introduce a new standardized evaluation framework for assessing AI models across three key dimensions:
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="20" height="20" /> **Popular** - Community favorites
+- External Benchmarks (60 points): Combining entity benchmarks and extensive dev testing across 41 benchmarks for LLMs and VLMs
+- Community Assessment (20 points): Leveraging arena-based Elo ratings for real-world performance evaluation
+- Technical Performance (20 points): Measuring efficiency through pricing, context handling, and size-to-performance ratios
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Heart%20on%20Fire.png" alt="Heart on Fire" width="20" height="20" /> **Our Picks** - Personally tested and recommended tools
+This framework provides a robust 100-point scoring system designed to offer transparent, comprehensive model evaluation while accommodating both established and emerging AI models.
+
+Currently in alpha, we welcome feedback from the AI community to help refine and improve this evaluation methodology.
 
 <br>
 
