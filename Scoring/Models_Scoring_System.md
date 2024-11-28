@@ -10,6 +10,108 @@
 
 ![Scoring_Framework](https://github.com/user-attachments/assets/f705f0d5-2859-4872-8b43-3c772c7ff8b6)
 
+## beta ruleset
+
+### Mandatory Requirements
+- Models must have publicly available benchmark scores
+- Models must be publicly available for testing
+- Models must have at least one verifiable benchmark score in each major category
+
+### Rules with Adjustments
+
+**Benchmark Flexibility**
+- Minimum 50% of required benchmarks must be completed
+- Missing benchmarks trigger weight redistribution
+- Specialized models can substitute domain-specific benchmarks
+
+**Community Assessment**
+- New models get 2-month grace period with weight redistribution
+- Alternative feedback methods accepted during grace period
+- Regional models can use local community metrics
+
+**Technical Performance**
+- Open-source models can use estimated pricing based on deployment costs
+- Research models evaluated on available metrics with adjusted weights
+- Specialized models compared within their category only
+
+### Documentation Requirements
+- Clear marking of missing metrics
+- Justification for weight redistributions
+- Temporary score validity period
+
+<br>
+
+## Limitations of the current Framework 
+
+### Potential Exclusion Scenarios
+
+**External Benchmarks (60 points)**
+- Models without public benchmark scores cannot be evaluated (Will become a exclusion rule in the final framework)
+- Small or specialized models may not have resources to participate in all required benchmarks (Score Adjustment and Weight Redistribution can resolve this)
+- Non-English models might be excluded from primarily English-based benchmarks (this is an issue LT)
+
+**Community Assessment (20 points)**
+- New models without sufficient arena participation would be disadvantaged (Score Adjustment and Weight Redistribution can partially resolve this until participation is sufficient) 
+- Models not publicly available for testing would be excluded (Will become a exclusion rule in the final framework)
+- Regional models might lack sufficient community exposure (this is an issue LT)
+
+**Technical Performance (20 points)**
+- Open-source models might lack standardized pricing metrics (Score Adjustment and Weight Redistribution can resolve this)
+- Research models might not have production-ready context windows (Score Adjustment and Weight Redistribution can resolve this)
+- Specialized models might be unfairly judged on general performance ratios (this is an issue LT)
+
+### Ideas to avoid Exclusion
+- Create tiered evaluation categories (Research, Production, Specialized)
+- Allow partial scoring with clear documentation of missing metrics
+- Implement weighted adjustments for specialized models
+- Temporary score until more metrics are available
+
+<br>
+
+### Exploring Problematic scenarios
+
+#### No Community score (no Elo grading from leaderboard)
+
+**Potential Model Categories for This Scenario**
+
+- Research Models: Models developed by academic institutions or research organizations, often focusing on specific aspects of a larger problem.
+- Niche Models: Models created by specialized entities or small teams, tailored to address unique or particular challenges within the broader context.
+
+**Redistribution Method**
+
+New Point Distribution (100 points total)
+- External Benchmarks: 75 points
+  - Entity Benchmarks: 31.25 points (previously 25)
+  - Dev Benchmarks: 43.75 points (previously 35)
+- Technical Performance: 25 points (previously 20)
+
+**Calculation Formula**
+
+Adjustment Factor = 100/80 = 1.25
+
+For each remaining category
+
+New Score = Original Score × 1.25
+
+**Implementation Example**
+
+If a model scores:
+Entity Benchmarks: 20/25 points
+Dev Benchmarks: 28/35 points
+Technical Performance: 15/20 points
+
+New adjusted scores:
+Entity Benchmarks: 20 × 1.25 = 25/31.25 points
+Dev Benchmarks: 28 × 1.25 = 35/43.75 points
+Technical Performance: 15 × 1.25 = 18.75/25 points
+Total Final Score: 78.75/100 points
+
+This approach maintains the relative importance of each category while ensuring the final score remains on a 100-point scale.
+
+<br>
+<br>
+<br>
+
 ## External Benchmarks (60 points)
 
 ### Entity Benchmarks (25 points)
@@ -243,7 +345,7 @@ Where:
 - $$s_i$$ is the score of benchmark i
 - n is the number of available benchmarks
 
-#### Score Adjustment Formula Example
+#### Score Adjustment Formula Example  
 
 Let's demonstrate the Score Adjustment Formula with a clear example:
 
