@@ -19,6 +19,53 @@
 - Open LLM Leaderboard (when available)
 - MMBench Leaderboard (when available)
 
+**Scaling Formula**
+
+Entity Score = Final Score × (25/100)
+
+When all benchmarks are available:
+Each leaderboard gets equal weight: 16.67% (100% ÷ 6)
+
+ 
+**Example Calculation**
+
+If a model scores:
+Artificial Analysis: 82%
+LiveCodeBench: Not Available
+Big Code Models: 75%
+OpenVLM: 90%
+Open LLM: 85%
+MMBench: 88%
+
+Adjust weights for 5 available benchmarks:
+20% each
+
+Calculate weighted average:
+Final Score = (82×20)+(75×20)+(90×20)+(85×20)+(88×20)/100= 84% 
+​
+Scale to framework points:
+Entity Score = 84 × (25/100) = 21 points
+
+**Interpretation**
+
+Score > 20 points (>80%) = Excellent Performance
+- Indicates strong performance across multiple leaderboards
+- Demonstrates consistent high ranking across different evaluation contexts
+
+Score 15-20 points (60-80%) = Good Performance
+- Shows competitive performance on most benchmarks
+- May have some variation across different evaluation types
+
+
+Score 10-15 points (40-60%) = Average Performance
+- Indicates moderate ranking on leaderboards
+- Performance may be inconsistent across different benchmarks
+
+
+Score < 10 points (<40%) = Below Average Performance
+- Shows weak comparative performance
+- Significant room for improvement across multiple metrics
+  
 <br>
 
 ### Dev Benchmarks (35 points)
@@ -106,7 +153,6 @@ Here's the weighted distribution for LLM benchmarks:
 | Gorilla Benchmark | Yes | 3.5% |
 | Nexus | Yes | 3.5% |
 
-
 <br>
 <br>
 
@@ -143,28 +189,48 @@ Here's the weighted distribution for LLM benchmarks:
 
 Here's the revised VLMs benchmark table with weights prioritizing non-contaminated benchmarks:
 
-| Benchmark Name | Contamination Sensitive | Percentage Weight | Description |
-|----------------|------------------------|-------------------|-------------|
-| MMMU | Yes | 4.0% | Multimodal understanding benchmark testing various visual and language tasks |
-| MathVista | Yes | 4.0% | Tests mathematical reasoning abilities with visual inputs |
-| MMStar | Yes | 4.0% | Evaluates multimodal understanding across diverse visual scenarios |
-| DocVQA | Yes | 4.0% | Question answering tasks on document images |
-| TextVQA | Yes | 4.0% | Visual questions requiring text reading and comprehension in images |
-| InfoVQA | Yes | 4.0% | Information extraction and question answering from visual data |
-| ChartQA | Yes | 4.0% | Question answering tasks specifically for charts and graphs |
-| OCRBench | Yes | 4.0% | Tests optical character recognition capabilities in various contexts |
-| MTVQA | No | 12.0% | Multilingual and multimodal question answering on TV show content |
-| VCR | Yes | 4.0% | Visual Commonsense Reasoning with complex scene understanding |
-| MMBench | Yes | 4.0% | Comprehensive multimodal benchmark testing various capabilities |
-| MMT-Bench | Yes | 4.0% | Multi-turn conversations about visual content |
-| HallBench | Yes | 4.0% | Tests hallucination detection in multimodal responses |
-| AI2 Diagram | Yes | 4.0% | Understanding and reasoning about scientific diagrams |
-| MVBench | Yes | 4.0% | Motion and video understanding benchmark |
-| PerceptionTest | Yes | 4.0% | Tests visual perception and understanding capabilities |
-| EgoSchema | No | 12.0% | Evaluates understanding of egocentric video content |
-| Video-MME | Yes | 4.0% | Multimodal evaluation focusing on video understanding |
+| Benchmark Name | Contamination Sensitive | Percentage Weight |
+|----------------|------------------------|-------------------|
+| MMMU | Yes | 4.0% |
+| MathVista | Yes | 4.0% |
+| MMStar | Yes | 4.0% |
+| DocVQA | Yes | 4.0% |
+| TextVQA | Yes | 4.0% |
+| InfoVQA | Yes | 4.0% |
+| ChartQA | Yes | 4.0% |
+| OCRBench | Yes | 4.0% |
+| MTVQA | No | 12.0% |
+| VCR | Yes | 4.0% |
+| MMBench | Yes | 4.0% |
+| MMT-Bench | Yes | 4.0% |
+| HallBench | Yes | 4.0% |
+| AI2 Diagram | Yes | 4.0% |
+| MVBench | Yes | 4.0% |
+| PerceptionTest | Yes | 4.0% |
+| EgoSchema | No | 12.0% |
+| Video-MME | Yes | 4.0% |
 
-<br>
+
+**Scaling Formula**
+
+Framework Score for dev Benchmarks section = Final Score × (35/100)
+​
+**Complete Example**
+
+Final Dev Benchmarks = 83.84
+Scale to framework points:
+Framework Score = 83.84 × (35/100) = 29.34 points
+
+This means:
+Maximum possible: 35 points
+Achieved score: 29.34 points
+Performance percentage: 83.84%
+
+**Interpretation**
+Score > 30 points: Excellent performance
+Score 25-30 points: Good performance
+Score 20-25 points: Average performance
+Score < 20 points: Below average performance
 
 ### Score Adjustment Formula
 
@@ -224,8 +290,7 @@ This approach ensures:
 - Fair comparison between models
 - Maintenance of relative importance between remaining benchmarks
 - Statistical validity of the final score
-
-
+- 
 <br>
 <br>
 
@@ -233,22 +298,97 @@ This approach ensures:
 
 - Lmsys Arena Elo score (when available)
 - OpenLM arena Elo score (when available)
-- Imgsys Elo score (when available)
+
+**Scoring Formula**
+
+Community Score = Normalized Elo × (20/100)
+ 
+**Elo Score Normalization**
+
+Based on current arena standings:
+
+- Top performers: ~1300-1365 Elo
+- Strong performers: ~1200-1300 Elo
+- Average performers: ~1100-1200 Elo
+- Base rating: 1000 Elo
+
+Normalized Elo = ((Model Elo − 1000) / 365) × 100
+
+**Example**
+
+For a model with 1250 Elo:
+
+first Normalize: $\frac{1250 - 1000}{365} \times 100 = 68.49%$
+
+Final Community Score: 68.49% x 20 = 13.70 points
+
+**Interpretation**
+
+
+Score > 16 points (Elo > 1300) = Elite Performance
+- Consistently outperforms most models
+- Top-tier user preference in blind comparisons
+
+Score 12-16 points (Elo 1200-1300) = Strong Performance
+- Competitive with leading models
+- High user preference
+
+Score 8-12 points (Elo 1100-1200) = Good Performance
+- Above baseline performance
+- Positive user reception
+
+Score < 8 points (Elo ≤ 1000) = Average/Below Average
+- Baseline or lower performance
+- Mixed to negative user preference
+
 
 <br>
 
 ## Technical Performance (20 points)
 
 - Price per USD per 1M Tokens
-- Output Tokens per Second
 - Context window
 - Model size vs. performance ratio
-- Fine-tuning cost and efficiency
+
+**Price per USD per 1M Tokens (8 points)**
+
+| Cost Range (USD/1M tokens) | Points |
+|-----------|--------|
+|< $1 |	8.0 |
+| $1 - $3 |	7.0 |
+| $3 - $5 |	6.0 |
+| $5 - $10 | 5.0 |
+| $10 - $20 |	4.0 |
+| > $20 |	3.0 |
+| > $40 |	2.0 |
+| > $80 |	1.0 |
+
+**Context Window (6 points)**
+
+| Window Size | Points |
+|-----------|--------|
+| > 200K |	6.0 |
+| > 100K |	5.0 |
+| 32K - 100K |	4.0 |
+| 16K - 32K |	3.0 |
+| 8K - 16K |	2.0 |
+| < 8K	| 1.0 |
+
+**Model Size vs Performance Ratio (6 points)**
+
+|Ratio Category | Points |
+|-----------|--------|
+| Exceptional (>90% benchmark score at <70B params) |	6.0 |
+| Strong (>80% benchmark score at <70B params) |	5.0 |
+| Good (>70% benchmark score at <70B params) |	4.0 |
+| Average (>60% benchmark score at any size) |	3.0 |
+| Below Average (<60% benchmark score) |	2.0 |
+
 
 <br>
 <br>
 
-## Final Score Calculation
+## Calculation
 
 FirstFinal Score = (External × 0.6) + (Community × 0.2) + (Technical × 0.2)
 
