@@ -390,7 +390,7 @@ Score < 8 points (Elo ≤ 1000) = Average/Below Average
 
 ## Calculation
 
-FirstFinal Score = (External × 0.6) + (Community × 0.2) + (Technical × 0.2)
+Final Score = (External × 0.6) + (Community × 0.2) + (Technical × 0.2)
 
 <br>
 <br>
