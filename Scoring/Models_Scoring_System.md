@@ -6,7 +6,9 @@
 
 <br>
 
-# Scoring Framework Beta Version (100 points total)
+## Scoring Framework Beta Version (100 points total)
+
+![Scoring_Framework](https://github.com/user-attachments/assets/f705f0d5-2859-4872-8b43-3c772c7ff8b6)
 
 ## External Benchmarks (60 points)
 
@@ -25,7 +27,6 @@ Entity Score = Final Score × (25/100)
 
 When all benchmarks are available:
 Each leaderboard gets equal weight: 16.67% (100% ÷ 6)
-
  
 **Example Calculation**
 
@@ -87,6 +88,15 @@ Score < 10 points (<40%) = Below Average Performance
 - Non-contaminated benchmarks better reflect real-world performance
 - They test genuine learning rather than potential memorization
 
+Here's the weighted distribution for benchmarks:
+
+> **Weight distribution principles**
+>
+> Non-contaminated benchmarks (BFCL): 10%
+> Unknown contamination status (MMLU Pro, AlignBench): 5.5% each
+> Contaminated benchmarks: 3.5% each
+
+
 ***Considered Benchmarks for LLMS***
 
 | Benchmark Name | Contamination Sensitive | Description |
@@ -114,16 +124,6 @@ Score < 10 points (<40%) = Below Average Performance
 | BFCL | No | Berkeley Function-Calling Leaderboard testing function-calling capabilities. [19] |
 | Gorilla Benchmark | Yes | Evaluates API interaction capabilities across multiple frameworks. [20] |
 | Nexus | Yes | Tests model's ability to use tools and APIs |
-
-<br>
-
-Here's the weighted distribution for LLM benchmarks:
-
-> **Weight distribution principles**
->
-> Non-contaminated benchmarks (BFCL): 10%
-> Unknown contamination status (MMLU Pro, AlignBench): 5.5% each
-> Contaminated benchmarks: 3.5% each
 
 <br>
 
