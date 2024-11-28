@@ -1,16 +1,16 @@
 # Proposed Hybrid Scoring Framework
 
 > [!CAUTION]
-> ***Scoring Framework Beta Version***
+> ***Scoring Framework Alpha Version***
 > This evaluation system is **actively being developed and refined.** We welcome **community feedback and contributions through GitHub issues** to improve its accuracy and reliability.
 
 <br>
 
-## Scoring Framework Beta Version (100 points total)
+## Scoring Framework Alpha Version (100 points total)
 
 ![Scoring_Framework](https://github.com/user-attachments/assets/f705f0d5-2859-4872-8b43-3c772c7ff8b6)
 
-## beta ruleset
+## Alpha ruleset
 
 ### Mandatory Requirements
 - Models must have publicly available benchmark scores
