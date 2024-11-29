@@ -121,7 +121,7 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 <br>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> ***Announcing the alpha of our Comprehensive AI Model Evaluation Framework*** :
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> ***Announcing the alpha of our Comprehensive [AI Model Evaluation Framework](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md)*** :
 
 We're excited to introduce a new standardized evaluation framework for assessing AI models across three key dimensions:
 
