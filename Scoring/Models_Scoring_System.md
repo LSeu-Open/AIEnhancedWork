@@ -478,14 +478,22 @@ Score < 8 points (Elo ≤ 1000) = Average/Below Average
 
 **Model Size vs Performance Ratio (6 points)**
 
-|Ratio Category | Points |
+|Performance & Size Category |	Points |
 |-----------|--------|
-| Exceptional (>90% benchmark score at <70B params) |	6.0 |
-| Strong (>80% benchmark score at <70B params) |	5.0 |
-| Good (>70% benchmark score at <70B params) |	4.0 |
-| Average (>60% benchmark score at any size) |	3.0 |
-| Below Average (<60% benchmark score) |	2.0 |
+| Excellent (≥85% benchmark) with Size Efficiency* | 	6.0 |
+| Good (75-84% benchmark) with Size Efficiency* |	5.0 |
+| Decent (65-74% benchmark) with Size Efficiency* |	4.0 |
+| Moderate (55-64% benchmark) |	3.0 |
+| Poor (<55% benchmark) |	2.0 |
 
+Size Efficiency Thresholds:
+- Ultra Efficient (<15B params): No reduction in base score
+- Very Efficient (15-29B params): Max 5.5 points
+- Efficient (30-39B params): Max 5.0 points
+- Moderate (40-69B params): Max 4.0 points
+- Large (≥70B params): Max 3.0 points
+
+*Final score is the minimum between the performance-based score and the size efficiency maximum threshold.
 
 <br>
 <br>
