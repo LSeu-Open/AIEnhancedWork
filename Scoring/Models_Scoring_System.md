@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > ***Scoring Framework Alpha Version***
 > 
-> This evaluation system provides an objective way to assess AI models through standardized metrics.  We welcome **community feedback and contributions through GitHub issues** to improve its accuracy and reliability.
+> This evaluation system provides an objective way to assess LLM models through standardized metrics.  We welcome **community feedback and contributions through GitHub issues** to improve its accuracy and reliability.
 >
 > To use the [framework](https://github.com/LSeu-Open/AIEnhancedWork/tree/main/Scoring) :
 > 
@@ -14,6 +14,17 @@
 > Then Run ```run_scoring.py``` to generate a comprehensive model assessment.
 >
 > ***Note: This is an alpha release. Metrics and scoring criteria may be refined in future versions.***
+
+> [!NOTE]
+> **Current Support:**
+> 
+> General-purpose Large Language Models (LLMs)
+>
+> **Upcoming tailored Scripts:**
+>
+> Vision Language Models (VLMs)
+>
+> Code-specialized Language Models
 
 <br>
 
