@@ -133,6 +133,9 @@ This framework provides a robust 100-point scoring system designed to offer tran
 
 Currently in alpha, we welcome feedback from the AI community to help refine and improve this evaluation methodology.
 
+- For complete scoring transparency : [Detailed assessment breakdowns](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Scoring_Breakdown.md) are available for all evaluated models.
+
+
 <br>
 
 # AI Tutorials and Learning Resources
