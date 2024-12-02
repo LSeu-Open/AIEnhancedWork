@@ -117,16 +117,16 @@ class ModelScorer:
     def calculate_size_perf_ratio(self, benchmark_score, param_count):
         """Calculate performance-to-size ratio score (6 points max)"""
         # Base score from performance - adjusted thresholds
-        if benchmark_score <= 55:         # Changed from <= to <
-            base_score = 2.0            # Poor (<55%)
-        elif benchmark_score >= 85:     
-            base_score = 6.0            # Excellent (85%+)
-        elif benchmark_score >= 75:      # Removed upper bound check
-            base_score = 5.0            # Good (75-84%)
-        elif benchmark_score >= 65:      # Removed upper bound check
-            base_score = 4.0            # Decent (65-74%)
-        else:                           # 55-64%
-            base_score = 3.0            # Moderate
+        if benchmark_score > 85:     
+            base_score = 6.0            # Excellent (>85%)
+        elif benchmark_score > 75:      # Changed >= to >
+            base_score = 5.0            # Good (76-85%)
+        elif benchmark_score > 65:      # Changed >= to >
+            base_score = 4.0            # Decent (66-75%)
+        elif benchmark_score > 55:      # Keep as >
+            base_score = 3.0            # Moderate (56-65%)
+        else:                           
+            base_score = 2.0            # Poor (≤55%)
         
         # Size efficiency multiplier
         if param_count >= 70:           
@@ -138,7 +138,7 @@ class ModelScorer:
         elif param_count >= 15:         
             return min(base_score, 5.5) 
         else:                          
-            return base_score          
+            return min(base_score, 6.0)
 
     def _calculate_ratio_score(self, ratio):
         if ratio is None:
