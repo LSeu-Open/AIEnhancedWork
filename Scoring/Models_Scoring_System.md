@@ -204,8 +204,8 @@ New weighted distribution that accounts for both contamination sensitivity and t
 
 | Benchmark Name | Contamination Sensitive | Weight |
 |----------------|------------------------|---------|
-| MMLU | No | 8.0% |
-| MMLU Pro | Yes | 3.0% |
+| MMLU | No | 3.0% |
+| MMLU Pro | Yes | 8.0% |
 | BigBench | Yes | 3.0% |
 | DROP | No | 7.0% |
 | HellaSwag | No | 7.0% |
