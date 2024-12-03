@@ -32,35 +32,6 @@
 
 ![Scoring_Framework](https://github.com/user-attachments/assets/f705f0d5-2859-4872-8b43-3c772c7ff8b6)
 
-## Alpha ruleset
-
-### Mandatory Requirements
-- Models must have publicly available benchmark scores
-- Models must be publicly available for testing
-- Models must have at least one verifiable benchmark score in each major category
-
-### Rules with Adjustments
-
-**Benchmark Flexibility**
-- Minimum 50% of required benchmarks must be completed
-- Missing benchmarks trigger weight redistribution
-- Specialized models can substitute domain-specific benchmarks
-
-**Community Assessment**
-- New models get 2-month grace period with weight redistribution
-- Alternative feedback methods accepted during grace period
-- Regional models can use local community metrics
-
-**Technical Performance**
-- Open-source models can use estimated pricing based on deployment costs
-- Research models evaluated on available metrics with adjusted weights
-- Specialized models compared within their category only
-
-### Documentation Requirements
-- Clear marking of missing metrics
-- Justification for weight redistributions
-- Temporary score validity period
-
 <br>
 
 ## Limitations of the current Framework 
@@ -90,86 +61,45 @@
 
 <br>
 
-### Exploring Problematic scenarios
-
-#### No Community score (no Elo grading from leaderboard)
-
-**Potential Model Categories for This Scenario**
-
-- Research Models: Models developed by academic institutions or research organizations, often focusing on specific aspects of a larger problem.
-- Niche Models: Models created by specialized entities or small teams, tailored to address unique or particular challenges within the broader context.
-
-**Redistribution Method**
-
-New Point Distribution (100 points total)
-- External Benchmarks: 75 points
-  - Entity Benchmarks: 31.25 points (previously 25)
-  - Dev Benchmarks: 43.75 points (previously 35)
-- Technical Performance: 25 points (previously 20)
-
-**Calculation Formula**
-
-Adjustment Factor = 100/80 = 1.25
-
-For each remaining category
-
-New Score = Original Score × 1.25
-
-**Implementation Example**
-
-If a model scores:
-Entity Benchmarks: 20/25 points
-Dev Benchmarks: 28/35 points
-Technical Performance: 15/20 points
-
-New adjusted scores:
-Entity Benchmarks: 20 × 1.25 = 25/31.25 points
-Dev Benchmarks: 28 × 1.25 = 35/43.75 points
-Technical Performance: 15 × 1.25 = 18.75/25 points
-Total Final Score: 78.75/100 points
-
-This approach maintains the relative importance of each category while ensuring the final score remains on a 100-point scale.
-
-<br>
-<br>
-<br>
 
 ## External Benchmarks (60 points)
 
 ### Entity Benchmarks (25 points)
 
-- Artificial Analysis (when available)
-- LiveCodeBench (when available)
-- Big Code Models Leaderboard (when available)
-- OpenVLM Leaderboard (when available)
-- Open LLM Leaderboard (when available)
-- MMBench Leaderboard (when available)
+#### Considered Entity Benchmarks for LLMS
+
+- [Artificial Analysis](https://artificialanalysis.ai/models)
+- [LiveCodeBench](https://livecodebench.github.io/leaderboard.html)
+- [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)
+- [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
+
+#### Considered Entity Weighting
 
 **Scaling Formula**
 
 Entity Score = Final Score × (25/100)
 
 When all benchmarks are available:
-Each leaderboard gets equal weight: 16.67% (100% ÷ 6)
+Each leaderboard gets equal weight: 25% (100% ÷ 4)
  
 **Example Calculation**
 
 If a model scores:
+
 Artificial Analysis: 82%
 LiveCodeBench: Not Available
 Big Code Models: 75%
-OpenVLM: 90%
 Open LLM: 85%
-MMBench: 88%
 
-Adjust weights for 5 available benchmarks:
-20% each
+
+Adjust weights for 3 available benchmarks:
+33% each
 
 Calculate weighted average:
-Final Score = (82×20)+(75×20)+(90×20)+(85×20)+(88×20)/100= 84% 
+Final Score = (82×20)+(75×20)+(85×20)/100= 80.66%  
 ​
 Scale to framework points:
-Entity Score = 84 × (25/100) = 21 points
+Entity Score = 80.66 × (25/100) = 20.165 points
 
 **Interpretation**
 
@@ -181,11 +111,9 @@ Score 15-20 points (60-80%) = Good Performance
 - Shows competitive performance on most benchmarks
 - May have some variation across different evaluation types
 
-
 Score 10-15 points (40-60%) = Average Performance
 - Indicates moderate ranking on leaderboards
 - Performance may be inconsistent across different benchmarks
-
 
 Score < 10 points (<40%) = Below Average Performance
 - Shows weak comparative performance
@@ -195,7 +123,7 @@ Score < 10 points (<40%) = Below Average Performance
 
 ### Dev Benchmarks (35 points)
 
-**Why Non-Contaminated Benchmarks Should Have Higher Weights**
+#### Why Non-Contaminated Benchmarks Should Have Higher Weights
 
 **Statistical Reliability**
 
@@ -212,127 +140,126 @@ Score < 10 points (<40%) = Below Average Performance
 - Non-contaminated benchmarks better reflect real-world performance
 - They test genuine learning rather than potential memorization
 
-Here's the weighted distribution for benchmarks:
+#### Considered Benchmarks for LLMS
 
-> **Weight distribution principles**
->
-> Non-contaminated benchmarks (BFCL): 10%
-> Unknown contamination status (MMLU Pro, AlignBench): 5.5% each
-> Contaminated benchmarks: 3.5% each
+##### General Reasoning and Comprehension
 
-
-***Considered Benchmarks for LLMS***
-
-| Benchmark Name | Contamination Sensitive | Description |
-|:--------------:|:-----------------------:|-------------|
-| MMLU | Yes | Multiple-choice questions covering 57 subjects across STEM, humanities, and social sciences. [1][2] |
-| MMLU Pro | No | Enhanced version of MMLU with expanded task diversity and increased complexity. [3] |
-| Multilingual MMLU | Yes | Multilingual version of MMLU testing language understanding across different languages. |
-| IFEval | Yes | Evaluates instruction-following capabilities through verifiable instructions. [4] |
-| Arena-Hard | Yes | 500 challenging user queries from Chatbot Arena, designed to robustly separate model capabilities. [5] |
-| GPQA | Yes | Graduate-level questions in biology, physics, and chemistry requiring expert knowledge. [6] |
-| ARC-C | Yes | Multiple-choice questions testing commonsense reasoning and implicit knowledge. [7] |
-| BigBench | Yes | Comprehensive benchmark focusing on tasks beyond current model capabilities. [8] |
-| TruthfulQA | Yes | Evaluates truthfulness and factual accuracy in model responses. [9] |
-| AlignBench | No | Evaluates alignment performance of Chinese language models. [10] |
-| Wild Bench | Yes | 1,024 tasks from real-world user queries testing model capabilities. [11] |
-| MT-bench | Yes | Multi-turn benchmark testing conversation flow and instruction following. [12] |
-| MATH | Yes | Comprehensive evaluation of mathematical problem-solving abilities. [13] |
-| GSM-8K | Yes | 1,319 grade school math word problems requiring multi-step reasoning. [14] |
-| HumanEval | Yes | 164 hand-crafted programming challenges testing code generation. [15] |
-| HumanEval Plus | Yes | Enhanced version of HumanEval with additional test cases |
-| MBPP | Yes | Collection of verified Python programming problems. [16] |
-| MBPP Plus | Yes | Enhanced version of MBPP with additional test cases. [16] |
-| SWE-bench | Yes | Evaluates capability in resolving real-world software issues. [17] |
-| API-Bank | Yes | Tests tool-augmented LLMs through API usage scenarios. [18] |
-| BFCL | No | Berkeley Function-Calling Leaderboard testing function-calling capabilities. [19] |
-| Gorilla Benchmark | Yes | Evaluates API interaction capabilities across multiple frameworks. [20] |
-| Nexus | Yes | Tests model's ability to use tools and APIs |
-
-<br>
-
-| Benchmark Name | Contamination Sensitive | Percentage Weight |
-|----------------|------------------------|-------------------|
+| Benchmark | Handles Contamination | Description |
+|-----------|---------------------|-------------|
 | MMLU | Yes | 3.5% |
 | MMLU Pro | Unknown | 5.5% |
-| Multilingual MMLU | Yes | 3.5% |
-| IFEval | Yes | 3.5% |
-| Arena-Hard | Yes | 3.5% |
-| GPQA | Yes | 3.5% |
-| ARC-C | Yes | 3.5% |
-| BigBench | Yes | 3.5% |
-| TruthfulQA | Yes | 3.5% |
-| AlignBench | Unknown | 5.5% |
-| Wild Bench | Yes | 3.5% | 
-| MT-bench | Yes | 3.5% |
-| MATH | Yes | 3.5% |
-| GSM-8K | Yes | 3.5% |
-| HumanEval | Yes | 3.5% |
-| HumanEval Plus | Yes | 3.5% |
-| MBPP | Yes | 3.5% |
-| MBPP Plus | Yes | 3.5% |
-| SWE-bench | Yes | 3.5% |
-| API-Bank | Yes | 3.5% |
-| BFCL | No | 10.0% |
-| Gorilla Benchmark | Yes | 3.5% |
-| Nexus | Yes | 3.5% |
+| BigBench | No | Large-scale tasks testing model capabilities |
+| DROP | No | Tests numerical reasoning and reading comprehension |
+| HellaSwag | No | Evaluates commonsense completion prediction |
+| GPQA | Yes | Graduate-level science questions with contamination resistance |
+| ARC-C | No | Tests commonsense and implicit knowledge |
+| LiveBench | Yes | Continuously updated questions from recent sources |
+| LatestEval | Yes | Uses recent data to prevent memorization |
+
+##### Instruction Following
+
+| Benchmark | Handles Contamination | Description |
+|-----------|---------------------|-------------|
+| AlignBench | Yes | Tests Chinese language model alignment |
+| Wild Bench | No | Real-world user query evaluation |
+| MT-bench | No | Multi-turn conversation assessment |
+| IFEval | No | Instruction following evaluation |
+| Arena-Hard | No | Challenging user queries from Chatbot Arena |
+| TruthfulQA | No | Tests factual accuracy and truthfulness |
+
+##### Mathematical Reasoning
+
+| Benchmark | Handles Contamination | Description |
+|-----------|---------------------|-------------|
+| MATH | No | Mathematical problem-solving evaluation |
+| GSM-8K | No | Grade school math word problems |
+| MGSM | No | Multilingual grade school math problems |
+
+##### Code Generation
+
+| Benchmark | Handles Contamination | Description |
+|-----------|---------------------|-------------|
+| HumanEval | No | Programming challenges for code generation |
+| HumanEval Plus | No | Extended version with additional tests |
+| MBPP | No | Python programming problems |
+| MBPP Plus | No | Enhanced MBPP with more test cases |
+
+##### Tool Use
+
+| Benchmark | Handles Contamination | Description |
+|-----------|---------------------|-------------|
+| SWE-bench | No | Software engineering problem solving |
+| API-Bank | No | API usage scenario testing |
+| BFCL | Yes | Berkeley Function-Calling evaluation |
+| Gorilla | No | API interaction capability testing |
+| Nexus | No | Tool and API usage assessment |
+
 
 <br>
 <br>
 
-***Considered Benchmarks for VLMS***
+New weighted distribution that accounts for both contamination sensitivity and the different benchmark categories
 
-| Benchmark Name | Contamination Sensitive | Description |
-|:--------------:|:-----------------------:|-------------|
-| MMMU | Yes | Multimodal understanding benchmark testing various visual and language tasks |
-| MathVista | Yes | Tests mathematical reasoning abilities with visual inputs |
-| MMStar | Yes | Evaluates multimodal understanding across diverse visual scenarios |
-| DocVQA | Yes | Question answering tasks on document images |
-| TextVQA | Yes | Visual questions requiring text reading and comprehension in images |
-| InfoVQA | Yes | Information extraction and question answering from visual data |
-| ChartQA | Yes | Question answering tasks specifically for charts and graphs |
-| OCRBench | Yes | Tests optical character recognition capabilities in various contexts |
-| MTVQA | No | Multilingual and multimodal question answering on TV show content |
-| VCR | Yes | Visual Commonsense Reasoning with complex scene understanding |
-| MMBench | Yes | Comprehensive multimodal benchmark testing various capabilities |
-| MMT-Bench | Yes | Multi-turn conversations about visual content |
-| HallBench | Yes | Tests hallucination detection in multimodal responses |
-| AI2 Diagram | Yes | Understanding and reasoning about scientific diagrams |
-| MVBench | Yes | Motion and video understanding benchmark |
-| PerceptionTest | Yes | Tests visual perception and understanding capabilities |
-| EgoSchema | No | Evaluates understanding of egocentric video content |
-| Video-MME | Yes | Multimodal evaluation focusing on video understanding |
+##### General Reasoning and Comprehension (35%)
+
+| Benchmark Name | Contamination Sensitive | Weight |
+|----------------|------------------------|---------|
+| MMLU | No | 8.0% |
+| MMLU Pro | Yes | 3.0% |
+| BigBench | Yes | 3.0% |
+| DROP | No | 7.0% |
+| HellaSwag | No | 7.0% |
+| GPQA | Yes | 2.0% |
+| ARC-C | Yes | 2.0% |
+| LiveBench | Yes | 1.5% |
+| LatestEval | Yes | 1.5% |
+
+##### Instruction Following (25%)
+
+| Benchmark Name | Contamination Sensitive | Weight |
+|----------------|------------------------|---------|
+| AlignBench | Unknown | 4.0% |
+| Wild Bench | Yes | 4.0% |
+| MT-bench | Yes | 4.0% |
+| IFEval | Yes | 4.0% |
+| Arena-Hard | Yes | 4.5% |
+| TruthfulQA | Yes | 4.5% |
+
+##### Mathematical Reasoning (15%)
+
+| Benchmark Name | Contamination Sensitive | Weight |
+|----------------|------------------------|---------|
+| MATH | Yes | 4.0% |
+| GSM-8K | Yes | 4.0% |
+| MGSM | No | 7.0% |
+
+##### Code Generation (12%)
+
+| Benchmark Name | Contamination Sensitive | Weight |
+|----------------|------------------------|---------|
+| HumanEval | Yes | 3.0% |
+| HumanEval Plus | Yes | 3.0% |
+| MBPP | Yes | 3.0% |
+| MBPP Plus | Yes | 3.0% |
+
+##### Tool Use (13%)
+
+| Benchmark Name | Contamination Sensitive | Weight |
+|----------------|------------------------|---------|
+| SWE-bench | Yes | 2.0% |
+| API-Bank | Yes | 2.0% |
+| BFCL | No | 5.0% |
+| Gorilla Benchmark | Yes | 2.0% |
+| Nexus | Yes | 2.0% |
+
+This distribution:
+- Prioritizes non-contaminated benchmarks with higher weights
+- Maintains category importance (General > Instruction > Math > Code/Tool)
+- Allocates more weight to fundamental capabilities
+- Ensures all weights sum to 100%
 
 <br>
-
-> Weight distribution principles
-> 
-> Non-contaminated benchmarks (MTVQA, EgoSchema): 12% each
-> 
-> Contaminated benchmarks: 4% each
-
-Here's the revised VLMs benchmark table with weights prioritizing non-contaminated benchmarks:
-
-| Benchmark Name | Contamination Sensitive | Percentage Weight |
-|----------------|------------------------|-------------------|
-| MMMU | Yes | 4.0% |
-| MathVista | Yes | 4.0% |
-| MMStar | Yes | 4.0% |
-| DocVQA | Yes | 4.0% |
-| TextVQA | Yes | 4.0% |
-| InfoVQA | Yes | 4.0% |
-| ChartQA | Yes | 4.0% |
-| OCRBench | Yes | 4.0% |
-| MTVQA | No | 12.0% |
-| VCR | Yes | 4.0% |
-| MMBench | Yes | 4.0% |
-| MMT-Bench | Yes | 4.0% |
-| HallBench | Yes | 4.0% |
-| AI2 Diagram | Yes | 4.0% |
-| MVBench | Yes | 4.0% |
-| PerceptionTest | Yes | 4.0% |
-| EgoSchema | No | 12.0% |
-| Video-MME | Yes | 4.0% |
+<br>
 
 
 **Scaling Formula**
@@ -448,7 +375,6 @@ Final Community Score: 68.49% x 20 = 13.70 points
 
 **Interpretation**
 
-
 Score > 16 points (Elo > 1300) = Elite Performance
 - Consistently outperforms most models
 - Top-tier user preference in blind comparisons
@@ -464,7 +390,6 @@ Score 8-12 points (Elo 1100-1200) = Good Performance
 Score < 8 points (Elo ≤ 1000) = Average/Below Average
 - Baseline or lower performance
 - Mixed to negative user preference
-
 
 <br>
 
@@ -517,6 +442,50 @@ Size Efficiency Thresholds:
 
 *Final score is the minimum between the performance-based score and the size efficiency maximum threshold.
 
+<br>
+<br>
+
+### Exploring Problematic scenarios
+
+#### No Community score (no Elo grading from leaderboard)
+
+**Potential Model Categories for This Scenario**
+
+- Research Models: Models developed by academic institutions or research organizations, often focusing on specific aspects of a larger problem.
+- Niche Models: Models created by specialized entities or small teams, tailored to address unique or particular challenges within the broader context.
+
+**Redistribution Method**
+
+New Point Distribution (100 points total)
+- External Benchmarks: 75 points
+  - Entity Benchmarks: 31.25 points (previously 25)
+  - Dev Benchmarks: 43.75 points (previously 35)
+- Technical Performance: 25 points (previously 20)
+
+**Calculation Formula**
+
+Adjustment Factor = 100/80 = 1.25
+
+For each remaining category
+
+New Score = Original Score × 1.25
+
+**Implementation Example**
+
+If a model scores:
+Entity Benchmarks: 20/25 points
+Dev Benchmarks: 28/35 points
+Technical Performance: 15/20 points
+
+New adjusted scores:
+Entity Benchmarks: 20 × 1.25 = 25/31.25 points
+Dev Benchmarks: 28 × 1.25 = 35/43.75 points
+Technical Performance: 15 × 1.25 = 18.75/25 points
+Total Final Score: 78.75/100 points
+
+This approach maintains the relative importance of each category while ensuring the final score remains on a 100-point scale.
+
+<br>
 <br>
 <br>
 
