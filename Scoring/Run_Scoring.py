@@ -8,27 +8,29 @@ entity_benchmarks = {
     'artificial_analysis': 79.7/100,
     'live_code_bench': 36.4/100,
     'big_code_models': None,
-    'open_vlm': 64.4/100,
     'open_llm': None,
-    'mm_bench': 74.6/100
 }
 
 dev_benchmarks = {
-    'MMLU': 86.0/100,
-    'MMLU Pro': 75.8/100,
-    'Multilingual MMLU': None,
-    'IFEval': None,
-    'Arena-Hard': 81.2/100,
-    'GPQA': 61.0/100,
-    'ARC-C': None,
+    'MMLU': 78.76/100,
+    'MMLU Pro': 55.63/100,
     'BigBench': None,
-    'TruthfulQA': None,
+    'DROP': None,
+    'HellaSwag': None,
+    'GPQA': None,
+    'ARC-C': 67.24/100,
+    'LiveBench': None,
+    'LatestEval': None,
     'AlignBench': None,
     'Wild Bench': None,
     'MT-bench': None,
-    'MATH': 86.5/100,
-    'GSM-8K': 95.8/100,
-    'HumanEval': 86.6/100,
+    'IFEval': None,
+    'Arena-Hard': None,
+    'TruthfulQA': None,
+    'MATH': None,
+    'GSM-8K': 76.04/100,
+    'MGSM': None,
+    'HumanEval': None,
     'HumanEval Plus': None,
     'MBPP': None,
     'MBPP Plus': None,
@@ -45,7 +47,7 @@ community_score = 1301
 model_specs = {
     'price': 2.188,                # dollars per million tokens
     'context_window': 2000000,    # tokens
-    'param_count': 200            # billions of parameters
+    'param_count': 200           # billions of parameters
 }
 
 # Calculate average benchmark performance
