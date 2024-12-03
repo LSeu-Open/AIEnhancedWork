@@ -586,22 +586,10 @@ Data Analysis frameworks implement **machine learning models for processing stru
 
 Large Language Models (LLMs) are **advanced AI systems trained on vast text collections to understand and generate human language through pattern recognition.**
 
-## Generalist LLMs
-
 > [!Tip]
 > Follow our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to deploy LLMs locally using Ollama and Page Assist for secure, privacy-focused language processing.
 > 
 > Running models locally gives you **complete control over your data**, ensuring both its **security and privacy.** This means your information isn't shared with external servers or third parties, **safeguarding it from potential breaches or misuse.**
-
-> [!NOTE]
-> Models are evaluated and ranked through our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md).
->
-> Our scoring system evaluates AI models through a balanced approach, considering both performance and practical factors. While in active development, **this methodology aims to provide consistent, meaningful comparisons.**
->
-> ***Please Note Rankings are subject to change as we enhance our evaluation methodology.***
-
-
-### Open source Models 
 
 > [!NOTE]
 > This overview **focuses on base and instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.**
@@ -611,9 +599,22 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 > [!IMPORTANT]
 > Need help choosing? Our [extended model comparison guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) **provides broader coverage than our main overview, featuring detailed performance metrics and comprehensive model comparisons.**
 
+## Generalist LLMs
+
+> [!CAUTION]
+> Models are evaluated and ranked through our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md).
+>
+> Our scoring system evaluates AI models through a balanced approach, considering both performance and practical factors. While in active development, **this methodology aims to provide consistent, meaningful comparisons.**
+>
+> ***Please Note Rankings are subject to change as we enhance our evaluation methodology.***
+>
+> ***Current Displayed version is Alpha v0.1***
+
+### Open source Models 
+
 #### Top Performing Open source Models (by Model Family)
 
-| Organization       | Model Familly                                       | Best Model                                                                       | Model Sizes    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.1) | Context Window |  Knowledge Cutoff | Licence |
+| Organization       | Model Familly                                       | Best Model                                                                       | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff | Licence |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:------------------:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen](https://qwenlm.github.io/)                   | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)         | 72B            | 74.23      | 131K               | 2023-08            | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="200" height="20" />](https://github.com/Tencent/) | [Hunyuan](https://github.com/Tencent/Tencent-Hunyuan-Large) | [Hunyuan-Large](https://huggingface.co/tencent/Tencent-Hunyuan-Large)    | 389B         | 69.48         | 128K               | Unknown            | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
@@ -637,7 +638,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 <br>
 
-| Organization       | Model Familly                                       | Best Model                                                                                | Model Sizes    | Quality Index | Context Window*  | Knowledge Cutoff | Licence |
+| Organization       | Model Familly                                       | Best Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
 |:------------------:|:----------------------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen2.5](https://qwenlm.github.io/) | [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct)                  | 32B            | None (~60+)  | 132K             | 2023-04          | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
 |                    |                                                     | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct)                  | 14B            | None (~50+)  | 132K             | 2024-04          | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
@@ -695,7 +696,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 #### Top Performing Proprietary Models (by Model Family)
 
-| Organization       | Model Familly                                       | Best Model                                                                       | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.1) | Context Window |  Knowledge Cutoff |  Licence | Pricing  |
+| Organization       | Model Familly                                       | Best Model                                                                       | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff |  Licence | Pricing  |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [o](https://chatgpt.com/) | [o1-preview](https://openai.com/o1/) | 77.41 | 128K | 2023-10 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [ChatGPT](https://chatgpt.com/) | [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 75.16 | 128K | 2023-10 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
@@ -711,7 +712,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 <br>
 
-| Organization   | Model Familly                                       | Best Model                                                                       | Quality Index  | Context Window* |  Knowledge Cutoff | Pricing  | Licence |
+| Organization   | Model Familly                                       | Best Model                                                                       | Quality Index  | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff | Pricing  | Licence |
 |:--------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [o](https://chatgpt.com/)                       | [o1-mini](https://openai.com/o1/)                                                | 81.6           | 128K            | 2023-10           | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 |                    | [ChatGPT](https://chatgpt.com/)                 | [GPT-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | 71.4 | 128K            | 2023-10           | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
@@ -807,7 +808,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 > **Performance metrics indicate generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [comparative analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
 
 
-| Organization   | Model Familly                                                        | Best Model                                    | Model Sizes   | Pass@1*     | Context Window*  |
+| Organization   | Model Familly                                                        | Best Model                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Pass@1*     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) | 32B          | 46.6 | 132K             | 
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 41.7      | 128K             |
@@ -827,7 +828,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 <br>
 
-| Organization   | Model Familly                                                        | Best Model                                    | Model Sizes   | Pass@1*     | Context Window*  |
+| Organization   | Model Familly                                                        | Best Model                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Pass@1*     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct) | 14B         | 40          | 132K             |
 |																						|								   | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B           | 34          | 132K             | 
@@ -897,7 +898,7 @@ Models **optimized for mathematical reasoning and computation** through speciali
 
 ##### Top Performing Open source Models (by Model Family)
 
-| Organization       | Model Familly                                                    | Best Model                                                        | Model Sizes   | Score        | Context Window*  |
+| Organization       | Model Familly                                                    | Best Model                                                        | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Score        | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:------------------:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------:|:------------:|:----------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)         | [Qwen2.5 Math](https://qwenlm.github.io/blog/qwen2.5-math/)      | [Qwen2.5-Math-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-72B-Instruct)                   | 72B           | 90.35        | 132K             | 
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Numina.svg" alt="Numina" width="200" height="20" />](https://huggingface.co/AI-MO) | [NuminaMath](https://www.projectnumina.ai/)                      | [NuminaMath-72B-CoT](https://huggingface.co/AI-MO/NuminaMath-72B-CoT)                                | 72B           | 78.75        | 128K             |
@@ -910,7 +911,7 @@ Models **optimized for mathematical reasoning and computation** through speciali
 
 <br>
 
-| Organization       | Model Familly                                                    | Best Model                                   | Model Sizes   | Score    | Context Window*  |
+| Organization       | Model Familly                                                    | Best Model                                   | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)  | Score    | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:------------------:|:-----------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------:|:----------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Math](https://qwenlm.github.io/blog/qwen2.5-math/)      | [Qwen2.5-Math-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct) | 7B            | 89.9     | 132K             | 
 |                    |                                                                  | [Qwen2.5-Math-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-1.5B-Instruct) | 1.5B      | 81.8     | 132K             | 
@@ -934,7 +935,7 @@ Models modified to **operate without standard content filtering mechanisms**, en
 
 ##### Top Performing Open source Models (by Model Family)
 
-| Organization       | Model Familly                                                    | Best Model                                                      | Model Sizes   | Quality Index | Context Window*  |
+| Organization       | Model Familly                                                    | Best Model                                                      | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window) |
 |:------------------:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------:|:------------:|:----------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/NousResearch.svg" alt="NousResearch" width="200" height="20" />](https://nousresearch.com/)   | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-405B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B)               | 405B          | 71.9         | 128K             | 
 | **Maxime Labonne** | [Abliterated](https://huggingface.co/blog/mlabonne/abliteration) | [Llama-3.1-70B-Instruct-lorablated](https://huggingface.co/mlabonne/Llama-3.1-70B-Instruct-lorablated) | 70B         | 65.3         | 128K             |
@@ -946,7 +947,7 @@ Models modified to **operate without standard content filtering mechanisms**, en
 
 <br>
 
-| Organization       | Model Familly                                                    | Best Model                                  | Model Sizes   | Quality Index | Context Window*  |
+| Organization       | Model Familly                                                    | Best Model                                  | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:------------------:|:-----------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------:|:----------------:|
 | **NousResearch**   | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-70B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B) | 72B       | 65.3     | 128K             | 
 |                    |                                                                  | [Hermes-3-Llama-3.1-8B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B) | 1.5B        | 53.15    | 128K             | 
@@ -972,7 +973,7 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 
 ### Open source VLMs
 
-| Organization     | Model                                                                         | Model Sizes | Score      | Licence                                                                    | Pricing                                                      |
+| Organization     | Model                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score      | Licence                                                                    | Pricing                                                      |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|--------------------------------------------------------------:|:------------------------------------------------------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="200" height="20" />](https://allenai.org/)      | [Molmo-72B](https://huggingface.co/allenai/Molmo-72B-0924) | 72B                    | 81.2       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)      | [Qwen2-VL-72B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct) | 72B   | 79.4       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
