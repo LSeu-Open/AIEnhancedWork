@@ -9,12 +9,10 @@ class ModelScorer:
             return 0
             
         weights = {
-            'artificial_analysis': 16.67,
-            'live_code_bench': 16.67,
-            'big_code_models': 16.67,
-            'open_vlm': 16.67,
-            'open_llm': 16.67,
-            'mm_bench': 16.67
+            'artificial_analysis': 25,
+            'live_code_bench': 25,
+            'big_code_models': 25,
+            'open_llm': 25,
         }
         
         score = 0
@@ -35,29 +33,33 @@ class ModelScorer:
             return 0
             
         weights = {
-            'MMLU': 3.5,
-            'MMLU Pro': 5.5,
-            'Multilingual MMLU': 3.5,
-            'IFEval': 3.5,
-            'Arena-Hard': 3.5,
-            'GPQA': 3.5,
-            'ARC-C': 3.5,
-            'BigBench': 3.5,
-            'TruthfulQA': 3.5,
-            'AlignBench': 5.5,
-            'Wild Bench': 3.5,
-            'MT-bench': 3.5,
-            'MATH': 3.5,
-            'GSM-8K': 3.5,
-            'HumanEval': 3.5,
-            'HumanEval Plus': 3.5,
-            'MBPP': 3.5,
-            'MBPP Plus': 3.5,
-            'SWE-bench': 3.5,
-            'API-Bank': 3.5,
-            'BFCL': 10.0,
-            'Gorilla Benchmark': 3.5,
-            'Nexus': 3.5
+            'MMLU': 3.0,
+            'MMLU Pro': 8.0,
+            'BigBench': 3.0,
+            'DROP': 7.0,
+            'HellaSwag': 7.0,
+            'GPQA': 2.0,
+            'ARC-C': 2.0,
+            'LiveBench': 1.5,
+            'LatestEval': 1.5,
+            'AlignBench': 4.0,
+            'Wild Bench': 4.0,
+            'MT-bench': 4.0,
+            'IFEval': 4.0,
+            'Arena-Hard': 4.5,
+            'TruthfulQA': 4.5,
+            'MATH': 4.0,
+            'GSM-8K': 4.0,
+            'MGSM': 7.0,
+            'HumanEval': 3.0,
+            'HumanEval Plus': 3.0,
+            'MBPP': 3.0,
+            'MBPP Plus': 3.0,
+            'SWE-bench': 2.0,
+            'API-Bank': 2.0,
+            'BFCL': 5.0,
+            'Gorilla Benchmark': 2.0,
+            'Nexus': 2.0
         }
         
         score = 0
