@@ -72,8 +72,10 @@
        * [LLMs Cloud-based Providers](#llms-cloud-based-providers)
        * [LLMs Local Providers](#llms-local-providers)
   - [Finetuned LLMs](#finetuned-llms)
-  	- [Coding](#coding)
+  	- [Reinforcement Learning ](#reinforcement-learning)
+   	- [Coding](#coding)
 	- [Math](#math)
+  	- [Role Play](#role-play) 
   	- [Uncensored](#uncensored) 
 * [Vision Language Models](#vision-language-models)
 * [Other](#other)
@@ -800,6 +802,18 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 **Fine-tuned Large Language Models (LLMs)** refer to AI models that have been **specifically adapted for a particular domain, task, or dataset.** This adaptation significantly **enhances their performance and accuracy within that specific context**, compared to training them on more general-purpose datasets.
 
+
+### Reinforcement Learning 
+
+Models improved using **[RLHF](https://www.ibm.com/topics/rlhf) other reinforcement learning methods.**
+
+| Organization       |  Reinforcement methods | Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
+|:------------------:|:--------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
+|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [RLHF](https://www.ibm.com/topics/rlhf) |[Llama-3.1-70B](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct) | [Llama-3.1-Nemotron-70B-Instruct-HF](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF) | 70B | 71.9 | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **NexusFlow**  |  [RLHF](https://www.ibm.com/topics/rlhf) | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) | [Athene-V2-Chat](https://huggingface.co/Nexusflow/Athene-V2-Chat) | 70B |  None (~70+)  | 131K | 2023-08 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+
+<br>
+
 ### Coding
 
 > [!Tip]
@@ -894,6 +908,16 @@ Integrated Development Environments (IDEs) **leverage LLM capabilities for code 
 
 <br>
 
+### Function calling
+
+Models **optimized for [Function calling](https://finetunedb.com/blog/what-is-function-calling-simply-explained/) tasks** through specialized training architectures.
+
+| Organization       |Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [BCFL Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
+|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
+|  [Katanemo](https://katanemo.com/)  | [Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) | [Arch-Function-7B](https://huggingface.co/katanemo/Arch-Function-7B) | 7B | 86.83 | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+
+<br>
+
 ### Math
 
 Models **optimized for mathematical reasoning and computation** through specialized training architectures.
@@ -926,6 +950,16 @@ Models **optimized for mathematical reasoning and computation** through speciali
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Numina.svg" alt="Numina" width="200" height="20" />](https://huggingface.co/AI-MO) | [NuminaMath](https://www.projectnumina.ai/)                      | [NuminaMath-7B-CoT](https://huggingface.co/AI-MO/NuminaMath-7B-CoT)              | 7B            | 65.3     | 4K              |
 
 </details>
+
+<br>
+
+### Role Play
+
+Models **optimized for Role Play tasks** through specialized training datasets.
+
+| Organization       |Base Model                                       | Finetuned Model | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
+|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
+|  **Oxygen**  | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) | [Oxy-1-small](https://huggingface.co/oxyapi/oxy-1-small) | 14.8B |  None (~50+)  | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
 
 <br>
 
