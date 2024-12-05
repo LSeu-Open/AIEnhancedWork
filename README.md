@@ -802,10 +802,16 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 **Fine-tuned Large Language Models (LLMs)** refer to AI models that have been **specifically adapted for a particular domain, task, or dataset.** This adaptation significantly **enhances their performance and accuracy within that specific context**, compared to training them on more general-purpose datasets.
 
+> [!NOTE]
+> Models are ranked by **Quality Index scores** from [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/), which implements systematic performance evaluation metrics. **This methodology addresses key technical considerations** including dataset contamination, model quantization, and overfitting detection. **Rankings are updated daily through automated testing protocols.**
+> 
+> Quality Index scores **reflect base model performance before specialization.**
 
 ### Reinforcement Learning 
 
 Models improved using **[RLHF](https://www.ibm.com/topics/rlhf) other reinforcement learning methods.**
+
+Reinforcement Learning goal is to **enhance model responses to align them more closely with human expectations and values.**
 
 | Organization       |  Reinforcement methods | Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
 |:------------------:|:--------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
@@ -910,7 +916,13 @@ Integrated Development Environments (IDEs) **leverage LLM capabilities for code 
 
 ### Function calling
 
-Models **optimized for [Function calling](https://finetunedb.com/blog/what-is-function-calling-simply-explained/) tasks** through specialized training architectures.
+Models **optimized for [Function calling](https://finetunedb.com/blog/what-is-function-calling-simply-explained/) tasks** through specialized training.
+
+Function calling **enables LLMs to interact with external systems and tools through structured interfaces.**
+
+> [!NOTE]
+> Models are ranked by [Berkeley Function Calling Leaderboard V3 Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html), designed to evaluate the function calling capabilities of LLMs. it provides a comprehensive evaluation of LLMs' function calling capabilities, offering insights into their performance, cost-effectiveness, and error patterns in real-world scenarios.
+
 
 | Organization       |Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [BCFL Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
 |:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
@@ -957,6 +969,8 @@ Models **optimized for mathematical reasoning and computation** through speciali
 
 Models **optimized for Role Play tasks** through specialized training datasets.
 
+Role-playing in LLMs is a technique where **the model assumes a specific character, profession, or persona to generate more focused and contextually relevant responses.**
+
 | Organization       |Base Model                                       | Finetuned Model | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
 |:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
 |  **Oxygen**  | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) | [Oxy-1-small](https://huggingface.co/oxyapi/oxy-1-small) | 14.8B |  None (~50+)  | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
@@ -966,11 +980,6 @@ Models **optimized for Role Play tasks** through specialized training datasets.
 ### Uncensored
 
 Models modified to **operate without standard content filtering mechanisms**, enabling **unrestricted response generation beyond typical LLM safeguards.**
-
-> [!NOTE]
-> Models are ranked by **Quality Index scores** from [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/), which implements systematic performance evaluation metrics. **This methodology addresses key technical considerations** including dataset contamination, model quantization, and overfitting detection. **Rankings are updated daily through automated testing protocols.**
-> 
-> Quality Index scores **reflect base model performance before specialization.**
 
 ##### Top Performing Open source Models (by Model Family)
 
