@@ -72,9 +72,10 @@
        * [LLMs Cloud-based Providers](#llms-cloud-based-providers)
        * [LLMs Local Providers](#llms-local-providers)
   - [Finetuned LLMs](#finetuned-llms)
-  	- [Reinforcement Learning ](#reinforcement-learning)
+  	- [Astrophysics](#astrophysics)
    	- [Coding](#coding)
 	- [Math](#math)
+  	- [Reinforcement Learning ](#reinforcement-learning) 
   	- [Role Play](#role-play) 
   	- [Uncensored](#uncensored) 
 * [Vision Language Models](#vision-language-models)
@@ -807,16 +808,15 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 > 
 > Quality Index scores **reflect base model performance before specialization.**
 
-### Reinforcement Learning 
+### Astrophysics
 
-Models improved using **[RLHF](https://www.ibm.com/topics/rlhf) other reinforcement learning methods.**
+Models **optimized for Astrophysics and Astronomy research** through specialized training datasets.
 
-Reinforcement Learning goal is to **enhance model responses to align them more closely with human expectations and values.**
-
-| Organization       |  Reinforcement methods | Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
-|:------------------:|:--------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
-|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [RLHF](https://www.ibm.com/topics/rlhf) |[Llama-3.1-70B](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct) | [Llama-3.1-Nemotron-70B-Instruct-HF](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF) | 70B | 71.9 | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **NexusFlow**  |  [RLHF](https://www.ibm.com/topics/rlhf) | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) | [Athene-V2-Chat](https://huggingface.co/Nexusflow/Athene-V2-Chat) | 70B |  None (~70+)  | 131K | 2023-08 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+| Organization       |Base Model                                       | Finetuned Model | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
+|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
+|  **AstroMLab**  | [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | [AstroSage-8B](https://huggingface.co/AstroMLab/AstroSage-8B) | 8B |  55  | 128K | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **Tijmen de Haan**  | [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | [Cosmosage-v3.1](https://huggingface.co/Tijmen2/cosmosage-v3.1) | 8B |  52  | 128K | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **AstroMLab**  | [Llama-2-70b-hf](https://huggingface.co/meta-llama/Llama-2-70b-hf) | [Astrollama-2-70b-base_aic](https://huggingface.co/AstroMLab/astrollama-2-70b-base_aic) | 8B |  42  | 128K | 2022-09  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
 
 <br>
 
@@ -859,6 +859,7 @@ Reinforcement Learning goal is to **enhance model responses to align them more c
 |																						|								   | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B           | 34          | 132K             | 
 |																						|								   | [Qwen2.5-Coder-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct)  | 3B           | 26          | 132K             | 
 |																						|								   | [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)  | 1.5B     | 18          | 132K             | 
+
 |																						|								   | [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)  | 0.5B     | 10          | 132K             | 
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder-V2](https://huggingface.co/deepseek-ai)            | [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | 16B | 28.3 | 128K         |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/)          		| [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-1.5B-Chat](https://huggingface.co/01-ai/Yi-Coder-1.5B-Chat) | 1.5B | 15 | 128K           |
@@ -962,6 +963,19 @@ Models **optimized for mathematical reasoning and computation** through speciali
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Numina.svg" alt="Numina" width="200" height="20" />](https://huggingface.co/AI-MO) | [NuminaMath](https://www.projectnumina.ai/)                      | [NuminaMath-7B-CoT](https://huggingface.co/AI-MO/NuminaMath-7B-CoT)              | 7B            | 65.3     | 4K              |
 
 </details>
+
+<br>
+
+### Reinforcement Learning 
+
+Models improved using **[RLHF](https://www.ibm.com/topics/rlhf) other reinforcement learning methods.**
+
+Reinforcement Learning goal is to **enhance model responses to align them more closely with human expectations and values.**
+
+| Organization       |  Reinforcement methods | Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
+|:------------------:|:--------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
+|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [RLHF](https://www.ibm.com/topics/rlhf) |[Llama-3.1-70B](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct) | [Llama-3.1-Nemotron-70B-Instruct-HF](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF) | 70B | 71.9 | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **NexusFlow**  |  [RLHF](https://www.ibm.com/topics/rlhf) | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) | [Athene-V2-Chat](https://huggingface.co/Nexusflow/Athene-V2-Chat) | 70B |  None (~70+)  | 131K | 2023-08 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
 
 <br>
 
