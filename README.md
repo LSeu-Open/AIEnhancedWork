@@ -618,7 +618,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 >
 > ***Please Note Rankings are subject to change as we enhance our evaluation methodology.***
 >
-> ***Current Displayed version is Alpha v0.1***
+> ***Current Displayed version is Alpha v0.2***
 
 ### Open source Models 
 
