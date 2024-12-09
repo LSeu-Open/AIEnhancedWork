@@ -74,6 +74,7 @@
   - [Finetuned LLMs](#finetuned-llms)
   	- [Astrophysics](#astrophysics)
    	- [Coding](#coding)
+    - [Function calling](#function-calling) 
 	- [Math](#math)
   	- [Reinforcement Learning ](#reinforcement-learning) 
   	- [Role Play](#role-play) 
