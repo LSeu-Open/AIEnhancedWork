@@ -24,6 +24,13 @@
 >
 > Understanding the fundamental principles of generative AI technologies enables proper validation of outputs and identification of potential biases. This technical knowledge is crucial for maintaining output quality and reliability.
 
+> [!IMPORTANT]
+> **This repository uses dual licensing**.
+>
+> **Documentation**: [Creative Commons Zero v1.0 Universal](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)
+>
+> **Code**: [MIT License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
+
 <div align="center"> 
  
 ***Liked the content ? Please <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="30" height="30" /> AIEnhancedWork to show your support!***
@@ -138,6 +145,10 @@ This framework provides a robust 100-point scoring system designed to offer tran
 **Currently in alpha, we welcome feedback from the AI community to help refine and improve this evaluation methodology.**
 
 ***Current Displayed version is Alpha v0.2***
+
+The scoring framework implementation and all other code files are licensed under MIT, while documentation remains under CC0.
+
+
 
 <br>
 
