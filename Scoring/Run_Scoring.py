@@ -1,3 +1,8 @@
+# Copyright (c) 2024 LSeu-Open
+# 
+# This code is licensed under the MIT License.
+# See LICENSE-CODE file in the root directory
+
 from Models_Scoring_System import ModelScorer
 
 # Initialize scorer with model name
