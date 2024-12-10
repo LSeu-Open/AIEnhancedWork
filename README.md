@@ -617,6 +617,8 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 > Our scoring system evaluates AI models through a balanced approach, considering both performance and practical factors. While in active development, **this methodology aims to provide consistent, meaningful comparisons.**
 >
 > ***Please Note Rankings are subject to change as we enhance our evaluation methodology.***
+> 
+> For complete transparency [Detailed score breakdowns](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Scoring_Breakdown.md) are available for all evaluated models.
 >
 > ***Current Displayed version is Alpha v0.2***
 
