@@ -129,16 +129,15 @@ Regarding the ***Pricing model***, we categorize projects or software as follows
 
 We're excited to introduce a new standardized evaluation framework for assessing AI models across three key dimensions:
 
-- External Benchmarks (60 points): Combining entity benchmarks and extensive dev testing across 41 benchmarks for LLMs and VLMs
-- Community Assessment (20 points): Leveraging arena-based Elo ratings for real-world performance evaluation
-- Technical Performance (20 points): Measuring efficiency through pricing, context handling, and size-to-performance ratios
+- **External Benchmarks (60 points)**: Combining entity benchmarks and extensive dev testing across 41 benchmarks for LLMs and VLMs
+- **Community Assessment (20 points)**: Leveraging arena-based Elo ratings for real-world performance evaluation
+- **Technical Performance (20 points)**: Measuring efficiency through pricing, context handling, and size-to-performance ratios
 
 This framework provides a robust 100-point scoring system designed to offer transparent, comprehensive model evaluation while accommodating both established and emerging AI models.
 
-Currently in alpha, we welcome feedback from the AI community to help refine and improve this evaluation methodology.
+**Currently in alpha, we welcome feedback from the AI community to help refine and improve this evaluation methodology.**
 
-- For complete scoring transparency : [Detailed assessment breakdowns](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Scoring_Breakdown.md) are available for all evaluated models.
-
+***Current Displayed version is Alpha v0.2***
 
 <br>
 
@@ -598,16 +597,14 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 > [!Tip]
 > Follow our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to deploy LLMs locally using Ollama and Page Assist for secure, privacy-focused language processing.
-> 
-> Running models locally gives you **complete control over your data**, ensuring both its **security and privacy.** This means your information isn't shared with external servers or third parties, **safeguarding it from potential breaches or misuse.**
+>
+> Need help choosing ? Our [extended model comparison guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) **provides broader coverage than our main overview**.
+
 
 > [!NOTE]
 > This overview **focuses on base and instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.**
 >
 > See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
-
-> [!IMPORTANT]
-> Need help choosing? Our [extended model comparison guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) **provides broader coverage than our main overview, featuring detailed performance metrics and comprehensive model comparisons.**
 
 ## Generalist LLMs
 
@@ -863,9 +860,8 @@ Models **optimized for Astrophysics and Astronomy research** through specialized
 |																						|								   | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B           | 34          | 132K             | 
 |																						|								   | [Qwen2.5-Coder-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct)  | 3B           | 26          | 132K             | 
 |																						|								   | [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)  | 1.5B     | 18          | 132K             | 
-
 |																						|								   | [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)  | 0.5B     | 10          | 132K             | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder-V2](https://huggingface.co/deepseek-ai)            | [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | 16B | 28.3 | 128K         |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder-V2](https://huggingface.co/deepseek-ai)          | [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | 16B | 28.3 | 128K         |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/)          		| [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-1.5B-Chat](https://huggingface.co/01-ai/Yi-Coder-1.5B-Chat) | 1.5B | 15 | 128K           |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) 			| [OpenCodeInterpreter](https://huggingface.co/m-a-p)  		   | [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | 6.7B      | 19.8        | 8K               |
 |																						|								   | [OpenCodeInterpreter-DS-1.3B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B) | 1.3B      | 8.6        | 8K               |
@@ -1028,12 +1024,12 @@ Models modified to **operate without standard content filtering mechanisms**, en
 
 | Organization       | Model Familly                                                    | Best Model                                  | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:------------------:|:-----------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------:|:----------------:|
-| **NousResearch**   | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-70B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B) | 72B       | 65.3     | 128K             | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/NousResearch.svg" alt="NousResearch" width="200" height="20" />](https://nousresearch.com/)    | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-70B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B) | 72B       | 65.3     | 128K             | 
 |                    |                                                                  | [Hermes-3-Llama-3.1-8B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B) | 1.5B        | 53.15    | 128K             | 
 | **Maxime Labonne** | [Abliterated](https://huggingface.co/blog/mlabonne/abliteration) | [Meta-Llama-3.1-8B-Instruct-abliterated](https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated) | 8B | 53.15 | 128K |
 |                    |                                                                  | [NeuralLlama-3-8B-Instruct-abliterated](https://huggingface.co/mlabonne/NeuralLlama-3-8B-Instruct-abliterated) | 8B | 53.15 | 128K | 
 |                    |                                                                  | [Daredevil-8B-abliterated](https://huggingface.co/mlabonne/Daredevil-8B-abliterated) | 8B        | 53.15    | 8K | 
-| **Cognitive Computations** | [Dolphin 2.9.3](https://erichartford.com/uncensored-models) | [Dolphin-2.9.3-llama-3-8](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-llama-3-8b) | 8B | 53.15 | 8K |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/CognitiveComputations.svg" alt="CognitiveComputations" width="200" height="22" />](https://erichartford.com/) | [Dolphin 2.9.3](https://erichartford.com/uncensored-models) | [Dolphin-2.9.3-llama-3-8](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-llama-3-8b) | 8B | 53.15 | 8K |
 |                    |                                                                  | [Dolphin-2.9.3-mistral-nemo-12b](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-mistral-nemo-12b) | 12B | 51.9 | 128K | 
 </details>
 
