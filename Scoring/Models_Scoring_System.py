@@ -1,3 +1,8 @@
+# Copyright (c) 2024 LSeu-Open
+# 
+# This code is licensed under the MIT License.
+# See LICENSE-CODE file in the root directory
+
 class ModelScorer:
     def __init__(self, model_name="Unnamed Model"):
         self.model_name = model_name
