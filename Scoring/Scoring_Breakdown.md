@@ -17,6 +17,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   15.00/20
 - Final Score:       **71.72/100**
 
+### Score Breakdown for Llama-3.3-70B-Instruct
+
+- External Score:    41.83/60
+- Community Score:   14.25/20
+- Technical Score:   18.00/20
+- Final Score:       **71.08/100**
+
 ### Score Breakdown for Llama-3.1-405B-Instruct
 
 - External Score:    42.54/60
