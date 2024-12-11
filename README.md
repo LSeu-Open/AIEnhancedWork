@@ -64,12 +64,16 @@
   - [Image Edition](#image-edition)
   - [Image Generation](#image-generation)
      - [Text to Image Models](#text-to-image-models)
-     - [Text to Image Cloud-based Providers](#text-to-image-cloud-based-providers)
-     - [Text to Image Local Providers](#text-to-image-local-providers) 
+     - [Image to Image Models](#image-to-image-models)
+     - [Image Generation Cloud-based Providers](#image-generation-cloud-based-providers)
+     - [Image Generation Local Providers](#image-generation-local-providers) 
   - [Video Generation](#video-generation)
     - [Image to Video Models](#image-to-video-models)
     - [Text to Video Models](#text-to-video-models)
     - [Video Generation Providers](#video-generation-providers)
+  - [3D Model Generation](#3d-model-generation)
+    - [Image to 3D Models](#image-to-3d-models)
+    - [Text to 3D Models](#text-to-3d-models)  
 * [Data Analysis](#data-analysis)
 * [Large Language Models](#large-language-models)
   - [Generalist LLMs](#generalist-llms)
@@ -471,7 +475,9 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/fal.svg" alt="fal" width="250" height="20" />](https://fal.ai/)           | [AuraFlow-v0.3](https://huggingface.co/fal/AuraFlow-v0.3)                     | None       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/kolors.svg" alt="Kolors" width="200" height="20" />](https://github.com/Kwai-Kolors/Kolors)             | [Kolors](https://huggingface.co/Kwai-Kolors/Kolors)                           | None       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
 
-#### Text to Image Cloud-based Providers
+#### Image to Image Models
+
+#### Image Generation Cloud-based Providers
 
 | Tool              | Description                                                                                                         |  Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -489,7 +495,7 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 | [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
 | [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
-#### Text to Image Local Providers
+#### Image Generation Local Providers
 
 > [!TIP]
 > **Generate images locally using Fooocus** - Deploy open-source image generation models on your hardware with our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
@@ -565,6 +571,14 @@ Text-to-video models **convert natural language descriptions into video sequence
 | [Veo](https://deepmind.google/technologies/veo/) | A generative video model developed by Google, capable of producing high-quality 1080p videos. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+
+<br>
+
+### 3D Model Generation
+
+#### Image to 3D Models
+
+#### Text to 3D Models
 
 <br>
 <br>
