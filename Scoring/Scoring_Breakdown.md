@@ -152,6 +152,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   14.00/20
 - Final Score:       **71.69/100**
 
+### Score Breakdown for GPT-4o-mini
+
+- External Score:    40.85/60
+- Community Score:   14.96/20
+- Technical Score:   15.00/20
+- Final Score:       **70.81/100**
+
 ### Score Breakdown for Gemini 1.5 Pro
 
 - External Score:    37.57/60
@@ -159,6 +166,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   15.00/20
 - Final Score:       **69.06/100**
 
+### Score Breakdown for Gemini 1.5 Flash
+
+- External Score:    35.75/60
+- Community Score:   14.90/20
+- Technical Score:   16.00/20
+- Final Score:       **66.65/100**
+  
 ### Score Breakdown for Qwen-Max
 
 - External Score:    38.19/60
@@ -172,6 +186,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Community Score:   15.45/20
 - Technical Score:   13.00/20
 - Final Score:       **74.11/100**
+
+### Score Breakdown for Claude 3.5 Haiku
+
+- External Score:    38.04/60
+- Community Score:   13.32/20
+- Technical Score:   15.00/20
+- Final Score:       **66.36/100**
 
 ### Score Breakdown for Grok-2
 
