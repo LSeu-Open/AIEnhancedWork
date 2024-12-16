@@ -44,59 +44,71 @@
 
 <br>
 
-* [AI Tutorials and Learning Resources](#ai-tutorials-and-learning-resources)
-  - [Tutorials](#tutorials)
-  - [Learning Resources](#learning-resources)
-* [Academic and Scientific Research](#academic-and-scientific-research)
-* [Audio Processing](#audio-processing)
-  - [Audio and Video transcription and summaries](#audio-and-video-transcription-and-summaries)
-  - [Music Generation](#music-generation)
-  - [Text to speech](#text-to-speech)
-    - [Text to speech Models](#text-to-speech-models)
-    - [Text to speech Providers](#text-to-speech-providers)
-  - [Speech to text](#speech-to-text)
-    - [Speech to text Models](#speech-to-text-models)
-    - [Speech to text Providers](#speech-to-text-providers) 
-* [Automation](#automation)
-   - [Autonomous Agents](#autonomous-agents)
-   - [Automation tools](#automation-tools)
-* [Computer Vision](#computer-vision)
-  - [Image Edition](#image-edition)
-  - [Image Generation](#image-generation)
-     - [Text to Image Models](#text-to-image-models)
-     - [Image to Image Models](#image-to-image-models)
-     - [Image Generation Cloud-based Providers](#image-generation-cloud-based-providers)
-     - [Image Generation Local Providers](#image-generation-local-providers) 
-  - [Video Generation](#video-generation)
-    - [Image to Video Models](#image-to-video-models)
-    - [Text to Video Models](#text-to-video-models)
-    - [Video Generation Providers](#video-generation-providers)
-  - [3D Model Generation](#3d-model-generation)
-    - [Image to 3D Models](#image-to-3d-models)
-    - [Text to 3D Models](#text-to-3d-models)  
-* [Data Analysis](#data-analysis)
-* [Large Language Models](#large-language-models)
-  - [Generalist LLMs](#generalist-llms)
-     - [Proprietary Models](#proprietary-models)
-     - [Open Source Models](#open-source-models) 
-     - [Providers](#providers)
-       * [LLMs Cloud-based Providers](#llms-cloud-based-providers)
-       * [LLMs Local Providers](#llms-local-providers)
-  - [Finetuned LLMs](#finetuned-llms)
-  	- [Astrophysics](#astrophysics)
-   	- [Coding](#coding)
-    - [Function calling](#function-calling) 
-	- [Math](#math)
-  	- [Reinforcement Learning ](#reinforcement-learning) 
-  	- [Role Play](#role-play) 
-  	- [Uncensored](#uncensored) 
-* [Vision Language Models](#vision-language-models)
-* [Other](#other)
-  - [Language learning](#language-learning)
-  - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
-  - [Presentation slides](#presentation-slides)
-  - [Versatile Productivity tools](#versatile-productivity-tools)
-  - [Website building](#website-building)
+- [Introduction](#introduction)
+- [AI Tutorials and Learning Resources](#ai-tutorials-and-learning-resources)
+    - [Tutorials](#tutorials)
+    - [Learning Resources](#learning-resources)
+- [Academic and Scientific Research](#academic-and-scientific-research)
+- [Audio Processing](#audio-processing)
+    - [Audio and Video transcription and summaries](#audio-and-video-transcription-and-summaries)
+    - [Music Generation](#music-generation)
+    - [Text to speech](#text-to-speech)
+      - [Text to speech Models](#text-to-speech-models)
+      - [Text to speech Providers](#text-to-speech-providers)
+    - [Speech to text](#speech-to-text)
+      - [Speech to text Models](#speech-to-text-models)
+      - [Speech to text Providers](#speech-to-text-providers)
+- [Automation](#automation)
+    - [Autonomous Agents](#autonomous-agents)
+    - [Automation tools](#automation-tools)
+- [Computer Vision](#computer-vision)
+    - [Image Edition](#image-edition)
+    - [Image Generation](#image-generation)
+      - [Text to Image Models](#text-to-image-models)
+      - [Image to Image Models](#image-to-image-models)
+      - [Image Generation Cloud-based Providers](#image-generation-cloud-based-providers)
+      - [Image Generation Local Providers](#image-generation-local-providers)
+    - [Video Generation](#video-generation)
+      - [Image to Video Models](#image-to-video-models)
+      - [Text to Video Models](#text-to-video-models)
+      - [Video Generation Providers](#video-generation-providers)
+    - [3D Model Generation](#3d-model-generation)
+      - [Text/Image to 3D Models](#textimage-to-3d-models)
+- [Data Analysis](#data-analysis)
+- [Foundation Models](#foundation-models)
+  - [Language Only Large Language Models](#language-only-large-language-models)
+    - [Generalist LLMs](#generalist-llms)
+      - [Open source Models](#open-source-models)
+      - [Proprietary Models](#proprietary-models)
+    - [Finetuned LLMs](#finetuned-llms)
+      - [Astrophysics](#astrophysics)
+      - [Coding](#coding)
+      - [Function calling](#function-calling)
+      - [Math](#math)
+      - [Reinforcement Learning](#reinforcement-learning)
+      - [Role Play](#role-play)
+      - [Uncensored](#uncensored)
+    - [Providers](#providers)
+      - [LLMs Cloud-based Providers](#llms-cloud-based-providers)
+      - [LLMs Local Providers](#llms-local-providers)
+      - [Coding LLMs Providers](#coding-llms-providers)
+      - [AI Augmented IDE](#ai-augmented-ide)
+  - [Multimodal Foundation Models](#multimodal-foundation-models) 
+    - [Vision Language Models](#vision-language-models)
+      - [Open source VLMs](#open-source-vlms)
+      - [Proprietary VLMs](#proprietary-vlms)
+    - [Audio Language Models](#audio-language-models)
+      - [Open source ALMs](#open-source-alms)
+      - [Proprietary ALMs](#proprietary-alms)
+    - [Multi Input Models](#multi-input-models)
+      - [Open source MLMs](#open-source-mlms)
+      - [Proprietary MLMs](#proprietary-mlms)
+- [Other](#other)
+    - [Language learning](#language-learning)
+    - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
+    - [Presentation slides](#presentation-slides)
+    - [Versatile Productivity tools](#versatile-productivity-tools)
+    - [Website building](#website-building)
 
 </details>
 
@@ -629,7 +641,9 @@ Data Analysis frameworks implement **machine learning models for processing stru
  
 <br>
 
-# Large Language Models
+# Foundation Models
+
+## Language Only Large Language Models
 
 Large Language Models (LLMs) are **advanced AI systems trained on vast text collections to understand and generate human language through pattern recognition.**
 
@@ -644,7 +658,7 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 >
 > See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
 
-## Generalist LLMs
+### Generalist LLMs
 
 > [!CAUTION]
 > Models are evaluated and ranked through our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md).
@@ -657,9 +671,9 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 >
 > ***Current Displayed version is Alpha v0.2***
 
-### Open source Models 
+#### Open source Models 
 
-#### Top Performing Open source Models (by Model Family)
+##### Top Performing Open source Models (by Model Family)
 
 | Organization       | Model Familly                                       | Best Model                                                                       | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.2) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff | Licence |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:------------------:|:-------------:|
@@ -737,9 +751,9 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 <br>
 
-### Proprietary Models 
+#### Proprietary Models 
 
-#### Top Performing Proprietary Models (by Model Family)
+##### Top Performing Proprietary Models (by Model Family)
 
 | Organization       | Model Familly                                       | Best Model                                                                       | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.2) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff |  Licence | Pricing  |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|:-------------:|
@@ -778,6 +792,204 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/) | [Yi](https://www.01.ai/)                        | [Yi-Large](https://www.01.ai/)                                                   | 58.3           | 32k             | Unknown           | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 |                    |                                                 | [Yi-Lightning-lite](https://www.01.ai/)                                          | None (~70)     | 32k             | Unknown           | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
+</details>
+
+<br>
+<br>
+
+### Finetuned LLMs
+
+**Fine-tuned Large Language Models (LLMs)** refer to AI models that have been **specifically adapted for a particular domain, task, or dataset.** This adaptation significantly **enhances their performance and accuracy within that specific context**, compared to training them on more general-purpose datasets.
+
+> [!NOTE]
+> Models are ranked by **Quality Index scores** from [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/), which implements systematic performance evaluation metrics. **This methodology addresses key technical considerations** including dataset contamination, model quantization, and overfitting detection. **Rankings are updated daily through automated testing protocols.**
+> 
+> Quality Index scores **reflect base model performance before specialization.**
+
+#### Astrophysics
+
+Models **optimized for Astrophysics and Astronomy research** through specialized training datasets.
+
+| Organization       |Base Model                                       | Finetuned Model | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
+|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
+|  **AstroMLab**  | [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | [AstroSage-8B](https://huggingface.co/AstroMLab/AstroSage-8B) | 8B |  55  | 128K | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **Tijmen de Haan**  | [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | [Cosmosage-v3.1](https://huggingface.co/Tijmen2/cosmosage-v3.1) | 8B |  52  | 128K | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **AstroMLab**  | [Llama-2-70b-hf](https://huggingface.co/meta-llama/Llama-2-70b-hf) | [Astrollama-2-70b-base_aic](https://huggingface.co/AstroMLab/astrollama-2-70b-base_aic) | 8B |  42  | 128K | 2022-09  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+
+<br>
+
+#### Coding
+
+> [!Tip]
+> Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) to **configure cloud-based and local LLM providers within your development environment.**
+
+##### Top Performing Coding Open source Models (by Model Family)
+
+> [!NOTE]
+> Models are ranked by **LiveCodeBench Pass@1 metrics, measuring single-attempt problem-solving accuracy.** The [LiveCodeBench framework](https://livecodebench.github.io/leaderboard.html) implements contamination-aware evaluation protocols, providing current performance analytics for code generation capabilities.
+>
+> **Performance metrics indicate generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [comparative analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
+
+
+| Organization   | Model Familly                                                        | Best Model                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Pass@1*     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
+|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) | 32B          | 46.6 | 132K             | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 41.7      | 128K             |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     		| [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 31.8        | 33K              |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/)          		| [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat) | 9B | 29.2 | 128K           |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) 			| [OpenCodeInterpreter](https://huggingface.co/m-a-p)  		   | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 26.7        | 8K               |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     		| [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 21.1        | 256k             |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)          | [Granite Code](https://github.com/ibm-granite/granite-3.0-language-models) | [Granite-34b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-34b-code-instruct-8k) | 34B | 19.8 | 8k |  
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 19.6        | 64K              |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="200" height="20" />](https://github.com/THUDM) 		| [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 17.8        | 128K             |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BigCode.svg" alt="BigCode" width="200" height="20" />](https://www.bigcode-project.org/) | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 14.8        | 4K               |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/)           	| [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 13.3        | 16K              |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 13.1        | 8K               |
+
+<details>
+<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b> Other Coding Open source Models Family Variants</b></summary> 
+
+<br>
+
+| Organization   | Model Familly                                                        | Best Model                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Pass@1*     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
+|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct) | 14B         | 40          | 132K             |
+|																						|								   | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B           | 34          | 132K             | 
+|																						|								   | [Qwen2.5-Coder-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct)  | 3B           | 26          | 132K             | 
+|																						|								   | [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)  | 1.5B     | 18          | 132K             | 
+|																						|								   | [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)  | 0.5B     | 10          | 132K             | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder-V2](https://huggingface.co/deepseek-ai)          | [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | 16B | 28.3 | 128K         |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/)          		| [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-1.5B-Chat](https://huggingface.co/01-ai/Yi-Coder-1.5B-Chat) | 1.5B | 15 | 128K           |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) 			| [OpenCodeInterpreter](https://huggingface.co/m-a-p)  		   | [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | 6.7B      | 19.8        | 8K               |
+|																						|								   | [OpenCodeInterpreter-DS-1.3B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B) | 1.3B      | 8.6        | 8K               |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)          | [Granite Code](https://github.com/ibm-granite/granite-3.0-language-models) | [Granite-20b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-20b-code-instruct-8k) | 20B | 13 | 8k |       
+|																						|								   | [Granite-8b-code-instruct-128k](https://huggingface.co/ibm-granite/granite-8b-code-instruct-128k) | 8B | 10 | 128k |
+|																						|								   | [Granite-3b-code-instruct-128k](https://huggingface.co/ibm-granite/granite-3b-code-instruct-128k) | 3B | 8 | 128k |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BigCode.svg" alt="BigCode" width="200" height="20" />](https://www.bigcode-project.org/) | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-7b](https://huggingface.co/bigcode/starcoder2-7b)                  | 7B           | 9        | 4K               |
+|																						|								   | [Starcoder2-3b](https://huggingface.co/bigcode/starcoder2-3b)                  | 3B           | 6        | 4K               |
+
+</details>
+
+<br>
+
+#### Function calling
+
+Models **optimized for [Function calling](https://finetunedb.com/blog/what-is-function-calling-simply-explained/) tasks** through specialized training.
+
+Function calling **enables LLMs to interact with external systems and tools through structured interfaces.**
+
+> [!NOTE]
+> Models are ranked by [Berkeley Function Calling Leaderboard V3 Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html), designed to evaluate the function calling capabilities of LLMs. it provides a comprehensive evaluation of LLMs' function calling capabilities, offering insights into their performance, cost-effectiveness, and error patterns in real-world scenarios.
+
+
+| Organization       |Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [BCFL Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
+|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
+|  [Meetkai](https://huggingface.co/meetkai)  | [Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [Functionary-medium-v3.1](https://huggingface.co/meetkai/functionary-medium-v3.1) | 70B | 62.53| 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  [Katanemo](https://katanemo.com/)  | [Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) | [Arch-Function-7B](https://huggingface.co/katanemo/Arch-Function-7B) | 7B | 59.62 | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  [Team-ACE](https://huggingface.co/Team-ACE)  | [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | [ToolACE-8B](https://huggingface.co/Team-ACE/ToolACE-8B) | 8B | 58.31 | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  [Salesforce](https://huggingface.co/Salesforce)  | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) | [xLAM-8x22b-r](https://huggingface.co/Salesforce/xLAM-8x22b-r) | 141B | 58.03 | 64K | 2023-?? | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  [MadeAgents](https://github.com/MadeAgents)  | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) | [Hammer2.0-7b](https://huggingface.co/MadeAgents/Hammer2.0-7b) | 7B | 55.19 | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  [Fireworks](https://fireworks.ai/) | [Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [llama-3-firefunction-v2](https://huggingface.co/fireworks-ai/llama-3-firefunction-v2) | 70B | 53.12 | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)  | [Granite-20b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-20b-code-instruct-8k) | [Granite-20b-functioncalling](https://huggingface.co/ibm-granite/granite-20b-functioncalling) | 20B | 49.19 | 8k  | Unknown| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  [Nexusflow](https://nexusflow.ai/)  | [CodeLlama-13b-Instruct-hf](https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf) | [NexusRaven-V2-13B](https://huggingface.co/Nexusflow/NexusRaven-V2-13B) | 13B | 36.98 | 8K | 2023-?? | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+
+
+<br>
+
+#### Math
+
+Models **optimized for mathematical reasoning and computation** through specialized training architectures.
+
+> [!NOTE]
+> Model rankings utilize combined performance metrics from **GSM8K and MATH benchmarks, averaging scores across both frameworks to provide comprehensive evaluation standards.**
+
+##### Top Performing Open source Models (by Model Family)
+
+| Organization       | Model Familly                                                    | Best Model                                                        | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Score        | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
+|:------------------:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------:|:------------:|:----------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)         | [Qwen2.5 Math](https://qwenlm.github.io/blog/qwen2.5-math/)      | [Qwen2.5-Math-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-72B-Instruct)                   | 72B           | 90.35        | 132K             | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Numina.svg" alt="Numina" width="200" height="20" />](https://huggingface.co/AI-MO) | [NuminaMath](https://www.projectnumina.ai/)                      | [NuminaMath-72B-CoT](https://huggingface.co/AI-MO/NuminaMath-72B-CoT)                                | 72B           | 78.75        | 128K             |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)         | [InternLM2-Math-Plus](https://mistral.ai/news/mathstral/)        | [Internlm2-math-plus-mixtral8x22b](https://huggingface.co/internlm/internlm2-math-plus-mixtral8x22b) | 141B          | 74.95        | 65K              |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)       | [Deepseek-math](https://github.com/deepseek-ai/DeepSeek-Math)    | [Deepseek-math-7b-instruct](https://huggingface.co/deepseek-ai/deepseek-math-7b-instruct)            | 7B            | 69.95        | 4K               |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     | [Mathstral](https://mistral.ai/news/mathstral/)                  | [Mathstral-7B-v0.1](https://huggingface.co/mistralai/Mathstral-7B-v0.1)                              | 7B            | 66.85        | 4K               |
+
+<details>
+<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b>Other Open source Models Family Variants</b> </summary> 
+
+<br>
+
+| Organization       | Model Familly                                                    | Best Model                                   | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)  | Score    | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
+|:------------------:|:-----------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------:|:----------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Math](https://qwenlm.github.io/blog/qwen2.5-math/)      | [Qwen2.5-Math-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct) | 7B            | 89.9     | 132K             | 
+|                    |                                                                  | [Qwen2.5-Math-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-1.5B-Instruct) | 1.5B      | 81.8     | 132K             | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)        | [InternLM2-Math-Plus](https://mistral.ai/news/mathstral/)        | [Internlm2-math-plus-20B](https://huggingface.co/internlm/internlm2-math-plus-20b) | 20B         | 70.75    | 4K              |
+|                    |                                                                  | [Internlm2-math-plus-7B](https://huggingface.co/internlm/internlm2-math-plus-7b) | 7B            | 69.4     | 4K             | 
+|                    |                                                                  | [Internlm2-math-plus-1.8B](https://huggingface.co/internlm/internlm2-math-plus-1_8b) | 1.8B      | 47.9     | 4K             | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Numina.svg" alt="Numina" width="200" height="20" />](https://huggingface.co/AI-MO) | [NuminaMath](https://www.projectnumina.ai/)                      | [NuminaMath-7B-CoT](https://huggingface.co/AI-MO/NuminaMath-7B-CoT)              | 7B            | 65.3     | 4K              |
+
+</details>
+
+<br>
+
+#### Reinforcement Learning 
+
+Models improved using **[RLHF](https://www.ibm.com/topics/rlhf) other reinforcement learning methods.**
+
+Reinforcement Learning goal is to **enhance model responses to align them more closely with human expectations and values.**
+
+| Organization       |  Reinforcement methods | Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
+|:------------------:|:--------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
+|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [RLHF](https://www.ibm.com/topics/rlhf) |[Llama-3.1-70B](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct) | [Llama-3.1-Nemotron-70B-Instruct-HF](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF) | 70B | 71.9 | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **NexusFlow**  |  [RLHF](https://www.ibm.com/topics/rlhf) | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) | [Athene-V2-Chat](https://huggingface.co/Nexusflow/Athene-V2-Chat) | 70B |  None (~70+)  | 131K | 2023-08 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="200" height="20" />](https://allenai.org/) | [RLVR](https://allenai.org/blog/tulu-3-technical) | [Llama-3.1-70B](https://huggingface.co/meta-llama/Llama-3.1-70B) | [Llama-3.1-Tulu-3-70B](https://huggingface.co/allenai/Llama-3.1-Tulu-3-70B)    | 70B           | None (~70+)         | 128K               | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="200" height="20" />](https://allenai.org/) | [RLVR](https://allenai.org/blog/tulu-3-technical) | [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | [Llama-3.1-Tulu-3-8B](https://huggingface.co/allenai/Llama-3.1-Tulu-3-8B)    | 8B           | None (~55+)         | 128K               | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+
+<br>
+
+#### Role Play
+
+Models **optimized for Role Play tasks** through specialized training datasets.
+
+Role-playing in LLMs is a technique where **the model assumes a specific character, profession, or persona to generate more focused and contextually relevant responses.**
+
+| Organization       |Base Model                                       | Finetuned Model | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
+|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
+|  **ResplendentAI**  | [Mistral-Small-Instruct-2409](https://huggingface.co/mistralai/Mistral-Small-Instruct-2409) | [Pantheon-RP-Pure-1.6.2-22b-Small](https://huggingface.co/Gryphe/Pantheon-RP-Pure-1.6.2-22b-Small) | 22B |  None (~60+)  | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **Oxygen**  | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) | [Oxy-1-small](https://huggingface.co/oxyapi/oxy-1-small) | 14.8B |  None (~50+)  | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **BosonAI**  | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) | [Higgs-Llama-3-70B](https://huggingface.co/bosonai/Higgs-Llama-3-70B) | 70B |  None (~45+)  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **NeverSleep**  | [lama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B)| [Llama-3-Lumimaid-8B-v0.1](https://huggingface.co/NeverSleep/Llama-3-Lumimaid-8B-v0.1?not-for-all-audiences=true) | 8B |  None (~45+)  | 8K | 2023-12   | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **ResplendentAI**  | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | [DaturaCookie_7B](https://huggingface.co/ResplendentAI/DaturaCookie_7B?not-for-all-audiences=true) | 7B |  None (~30+)  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **Nakodanei**  | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) x2 | [Blue-Orchid-2x7b](https://huggingface.co/nakodanei/Blue-Orchid-2x7b) | 13B |  None (~30+)  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+
+<br> 
+
+#### Uncensored
+
+Models modified to **operate without standard content filtering mechanisms**, enabling **unrestricted response generation beyond typical LLM safeguards.**
+
+##### Top Performing Open source Models (by Model Family)
+
+| Organization       | Model Familly                                                    | Best Model                                                      | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window) |
+|:------------------:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------:|:------------:|:----------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/NousResearch.svg" alt="NousResearch" width="200" height="20" />](https://nousresearch.com/)   | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-405B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B)               | 405B          | 71.9         | 128K             | 
+| **Maxime Labonne** | [Abliterated](https://huggingface.co/blog/mlabonne/abliteration) | [Llama-3.1-70B-Instruct-lorablated](https://huggingface.co/mlabonne/Llama-3.1-70B-Instruct-lorablated) | 70B         | 65.3         | 128K             |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/CognitiveComputations.svg" alt="CognitiveComputations" width="200" height="22" />](https://erichartford.com/)  | [Dolphin 2.9.3](https://erichartford.com/uncensored-models) | [Dolphin-2.9.3-Yi-1.5-34B-32k](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-Yi-1.5-34B-32k) | 34B  | 60.2          | 65K              |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/NousResearch.svg" alt="NousResearch" width="200" height="20" />](https://nousresearch.com/)        | [OpenHermes-2.5](https://mistral.ai/news/mathstral/)             | [OpenHermes-2.5-Mistral-7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B)                | 7B            | 34           | 32K               |
+
+<details>
+<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b>Other Open source Models Family Variants</b></summary> 
+
+<br>
+
+| Organization       | Model Familly                                                    | Best Model                                  | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
+|:------------------:|:-----------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------:|:----------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/NousResearch.svg" alt="NousResearch" width="200" height="20" />](https://nousresearch.com/)    | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-70B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B) | 72B       | 65.3     | 128K             | 
+|                    |                                                                  | [Hermes-3-Llama-3.1-8B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B) | 1.5B        | 53.15    | 128K             | 
+| **Maxime Labonne** | [Abliterated](https://huggingface.co/blog/mlabonne/abliteration) | [Meta-Llama-3.1-8B-Instruct-abliterated](https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated) | 8B | 53.15 | 128K |
+|                    |                                                                  | [NeuralLlama-3-8B-Instruct-abliterated](https://huggingface.co/mlabonne/NeuralLlama-3-8B-Instruct-abliterated) | 8B | 53.15 | 128K | 
+|                    |                                                                  | [Daredevil-8B-abliterated](https://huggingface.co/mlabonne/Daredevil-8B-abliterated) | 8B        | 53.15    | 8K | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/CognitiveComputations.svg" alt="CognitiveComputations" width="200" height="22" />](https://erichartford.com/) | [Dolphin 2.9.3](https://erichartford.com/uncensored-models) | [Dolphin-2.9.3-llama-3-8](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-llama-3-8b) | 8B | 53.15 | 8K |
+|                    |                                                                  | [Dolphin-2.9.3-mistral-nemo-12b](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-mistral-nemo-12b) | 12B | 51.9 | 128K | 
 </details>
 
 <br>
@@ -833,82 +1045,6 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 | [Msty](https://msty.app/) |  an AI chat application that offers a user-friendly interface for interacting with both local and online AI language models. | All | Large Panel of Open source Models |
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | All Open source Models |
 
-<br>
-
-<br>
-
-## Finetuned LLMs
-
-**Fine-tuned Large Language Models (LLMs)** refer to AI models that have been **specifically adapted for a particular domain, task, or dataset.** This adaptation significantly **enhances their performance and accuracy within that specific context**, compared to training them on more general-purpose datasets.
-
-> [!NOTE]
-> Models are ranked by **Quality Index scores** from [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/), which implements systematic performance evaluation metrics. **This methodology addresses key technical considerations** including dataset contamination, model quantization, and overfitting detection. **Rankings are updated daily through automated testing protocols.**
-> 
-> Quality Index scores **reflect base model performance before specialization.**
-
-### Astrophysics
-
-Models **optimized for Astrophysics and Astronomy research** through specialized training datasets.
-
-| Organization       |Base Model                                       | Finetuned Model | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
-|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
-|  **AstroMLab**  | [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | [AstroSage-8B](https://huggingface.co/AstroMLab/AstroSage-8B) | 8B |  55  | 128K | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **Tijmen de Haan**  | [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | [Cosmosage-v3.1](https://huggingface.co/Tijmen2/cosmosage-v3.1) | 8B |  52  | 128K | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **AstroMLab**  | [Llama-2-70b-hf](https://huggingface.co/meta-llama/Llama-2-70b-hf) | [Astrollama-2-70b-base_aic](https://huggingface.co/AstroMLab/astrollama-2-70b-base_aic) | 8B |  42  | 128K | 2022-09  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-
-<br>
-
-### Coding
-
-> [!Tip]
-> Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) to **configure cloud-based and local LLM providers within your development environment.**
-
-#### Top Performing Coding Open source Models (by Model Family)
-
-> [!NOTE]
-> Models are ranked by **LiveCodeBench Pass@1 metrics, measuring single-attempt problem-solving accuracy.** The [LiveCodeBench framework](https://livecodebench.github.io/leaderboard.html) implements contamination-aware evaluation protocols, providing current performance analytics for code generation capabilities.
->
-> **Performance metrics indicate generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [comparative analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
-
-
-| Organization   | Model Familly                                                        | Best Model                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Pass@1*     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) | 32B          | 46.6 | 132K             | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder](https://huggingface.co/deepseek-ai)             | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 41.7      | 128K             |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     		| [Codestral](https://mistral.ai/news/codestral/)                  | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1)        | 22B           | 31.8        | 33K              |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/)          		| [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat) | 9B | 29.2 | 128K           |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) 			| [OpenCodeInterpreter](https://huggingface.co/m-a-p)  		   | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B      | 26.7        | 8K               |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     		| [Mamba-Codestral](https://mistral.ai/news/codestral-mamba//)     | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B         | 21.1        | 256k             |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)          | [Granite Code](https://github.com/ibm-granite/granite-3.0-language-models) | [Granite-34b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-34b-code-instruct-8k) | 34B | 19.8 | 8k |  
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [CodeQwen](https://qwenlm.github.io/blog/codeqwen1.5/)           | [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)           | 7B            | 19.6        | 64K              |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="200" height="20" />](https://github.com/THUDM) 		| [CodeGeex](https://github.com/THUDM/CodeGeeX4)                   | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b)                | 9B            | 17.8        | 128K             |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BigCode.svg" alt="BigCode" width="200" height="20" />](https://www.bigcode-project.org/) | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b)                  | 15B           | 14.8        | 4K               |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/)           	| [CodeLlama](https://github.com/meta-llama/codellama)             | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 13.3        | 16K              |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)         | [Codegemma](https://huggingface.co/blog/codegemma)               | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it)         | 7B            | 13.1        | 8K               |
-
-<details>
-<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b> Other Coding Open source Models Family Variants</b></summary> 
-
-<br>
-
-| Organization   | Model Familly                                                        | Best Model                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Pass@1*     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Coder](https://qwenlm.github.io/)                       | [Qwen2.5-Coder-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct) | 14B         | 40          | 132K             |
-|																						|								   | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)  | 7B           | 34          | 132K             | 
-|																						|								   | [Qwen2.5-Coder-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct)  | 3B           | 26          | 132K             | 
-|																						|								   | [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)  | 1.5B     | 18          | 132K             | 
-|																						|								   | [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)  | 0.5B     | 10          | 132K             | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)      | [Deepseek-coder-V2](https://huggingface.co/deepseek-ai)          | [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | 16B | 28.3 | 128K         |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/)          		| [Yi-Coder](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) | [Yi-Coder-1.5B-Chat](https://huggingface.co/01-ai/Yi-Coder-1.5B-Chat) | 1.5B | 15 | 128K           |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) 			| [OpenCodeInterpreter](https://huggingface.co/m-a-p)  		   | [OpenCodeInterpreter-DS-6.7B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B) | 6.7B      | 19.8        | 8K               |
-|																						|								   | [OpenCodeInterpreter-DS-1.3B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B) | 1.3B      | 8.6        | 8K               |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)          | [Granite Code](https://github.com/ibm-granite/granite-3.0-language-models) | [Granite-20b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-20b-code-instruct-8k) | 20B | 13 | 8k |       
-|																						|								   | [Granite-8b-code-instruct-128k](https://huggingface.co/ibm-granite/granite-8b-code-instruct-128k) | 8B | 10 | 128k |
-|																						|								   | [Granite-3b-code-instruct-128k](https://huggingface.co/ibm-granite/granite-3b-code-instruct-128k) | 3B | 8 | 128k |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BigCode.svg" alt="BigCode" width="200" height="20" />](https://www.bigcode-project.org/) | [Starcoder](https://huggingface.co/blog/starcoder)               | [Starcoder2-7b](https://huggingface.co/bigcode/starcoder2-7b)                  | 7B           | 9        | 4K               |
-|																						|								   | [Starcoder2-3b](https://huggingface.co/bigcode/starcoder2-3b)                  | 3B           | 6        | 4K               |
-
-</details>
 
 #### Coding LLMs Providers
 
@@ -951,130 +1087,13 @@ Integrated Development Environments (IDEs) **leverage LLM capabilities for code 
 > check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into vs code**.
 
 <br>
+<br>
 
-### Function calling
-
-Models **optimized for [Function calling](https://finetunedb.com/blog/what-is-function-calling-simply-explained/) tasks** through specialized training.
-
-Function calling **enables LLMs to interact with external systems and tools through structured interfaces.**
-
-> [!NOTE]
-> Models are ranked by [Berkeley Function Calling Leaderboard V3 Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html), designed to evaluate the function calling capabilities of LLMs. it provides a comprehensive evaluation of LLMs' function calling capabilities, offering insights into their performance, cost-effectiveness, and error patterns in real-world scenarios.
-
-
-| Organization       |Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [BCFL Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
-|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
-|  [Meetkai](https://huggingface.co/meetkai)  | [Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [Functionary-medium-v3.1](https://huggingface.co/meetkai/functionary-medium-v3.1) | 70B | 62.53| 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  [Katanemo](https://katanemo.com/)  | [Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) | [Arch-Function-7B](https://huggingface.co/katanemo/Arch-Function-7B) | 7B | 59.62 | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  [Team-ACE](https://huggingface.co/Team-ACE)  | [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | [ToolACE-8B](https://huggingface.co/Team-ACE/ToolACE-8B) | 8B | 58.31 | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  [Salesforce](https://huggingface.co/Salesforce)  | [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) | [xLAM-8x22b-r](https://huggingface.co/Salesforce/xLAM-8x22b-r) | 141B | 58.03 | 64K | 2023-?? | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  [MadeAgents](https://github.com/MadeAgents)  | [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) | [Hammer2.0-7b](https://huggingface.co/MadeAgents/Hammer2.0-7b) | 7B | 55.19 | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  [Fireworks](https://fireworks.ai/) | [Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct) | [llama-3-firefunction-v2](https://huggingface.co/fireworks-ai/llama-3-firefunction-v2) | 70B | 53.12 | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)  | [Granite-20b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-20b-code-instruct-8k) | [Granite-20b-functioncalling](https://huggingface.co/ibm-granite/granite-20b-functioncalling) | 20B | 49.19 | 8k  | Unknown| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  [Nexusflow](https://nexusflow.ai/)  | [CodeLlama-13b-Instruct-hf](https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf) | [NexusRaven-V2-13B](https://huggingface.co/Nexusflow/NexusRaven-V2-13B) | 13B | 36.98 | 8K | 2023-?? | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-
+## Multimodal Foundation Models
 
 <br>
 
-### Math
-
-Models **optimized for mathematical reasoning and computation** through specialized training architectures.
-
-> [!NOTE]
-> Model rankings utilize combined performance metrics from **GSM8K and MATH benchmarks, averaging scores across both frameworks to provide comprehensive evaluation standards.**
-
-##### Top Performing Open source Models (by Model Family)
-
-| Organization       | Model Familly                                                    | Best Model                                                        | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Score        | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:------------------:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------:|:------------:|:----------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)         | [Qwen2.5 Math](https://qwenlm.github.io/blog/qwen2.5-math/)      | [Qwen2.5-Math-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-72B-Instruct)                   | 72B           | 90.35        | 132K             | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Numina.svg" alt="Numina" width="200" height="20" />](https://huggingface.co/AI-MO) | [NuminaMath](https://www.projectnumina.ai/)                      | [NuminaMath-72B-CoT](https://huggingface.co/AI-MO/NuminaMath-72B-CoT)                                | 72B           | 78.75        | 128K             |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)         | [InternLM2-Math-Plus](https://mistral.ai/news/mathstral/)        | [Internlm2-math-plus-mixtral8x22b](https://huggingface.co/internlm/internlm2-math-plus-mixtral8x22b) | 141B          | 74.95        | 65K              |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)       | [Deepseek-math](https://github.com/deepseek-ai/DeepSeek-Math)    | [Deepseek-math-7b-instruct](https://huggingface.co/deepseek-ai/deepseek-math-7b-instruct)            | 7B            | 69.95        | 4K               |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)     | [Mathstral](https://mistral.ai/news/mathstral/)                  | [Mathstral-7B-v0.1](https://huggingface.co/mistralai/Mathstral-7B-v0.1)                              | 7B            | 66.85        | 4K               |
-
-<details>
-<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b>Other Open source Models Family Variants</b> </summary> 
-
-<br>
-
-| Organization       | Model Familly                                                    | Best Model                                   | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)  | Score    | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:------------------:|:-----------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------:|:----------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5 Math](https://qwenlm.github.io/blog/qwen2.5-math/)      | [Qwen2.5-Math-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct) | 7B            | 89.9     | 132K             | 
-|                    |                                                                  | [Qwen2.5-Math-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-1.5B-Instruct) | 1.5B      | 81.8     | 132K             | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)        | [InternLM2-Math-Plus](https://mistral.ai/news/mathstral/)        | [Internlm2-math-plus-20B](https://huggingface.co/internlm/internlm2-math-plus-20b) | 20B         | 70.75    | 4K              |
-|                    |                                                                  | [Internlm2-math-plus-7B](https://huggingface.co/internlm/internlm2-math-plus-7b) | 7B            | 69.4     | 4K             | 
-|                    |                                                                  | [Internlm2-math-plus-1.8B](https://huggingface.co/internlm/internlm2-math-plus-1_8b) | 1.8B      | 47.9     | 4K             | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Numina.svg" alt="Numina" width="200" height="20" />](https://huggingface.co/AI-MO) | [NuminaMath](https://www.projectnumina.ai/)                      | [NuminaMath-7B-CoT](https://huggingface.co/AI-MO/NuminaMath-7B-CoT)              | 7B            | 65.3     | 4K              |
-
-</details>
-
-<br>
-
-### Reinforcement Learning 
-
-Models improved using **[RLHF](https://www.ibm.com/topics/rlhf) other reinforcement learning methods.**
-
-Reinforcement Learning goal is to **enhance model responses to align them more closely with human expectations and values.**
-
-| Organization       |  Reinforcement methods | Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
-|:------------------:|:--------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
-|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [RLHF](https://www.ibm.com/topics/rlhf) |[Llama-3.1-70B](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct) | [Llama-3.1-Nemotron-70B-Instruct-HF](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF) | 70B | 71.9 | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **NexusFlow**  |  [RLHF](https://www.ibm.com/topics/rlhf) | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) | [Athene-V2-Chat](https://huggingface.co/Nexusflow/Athene-V2-Chat) | 70B |  None (~70+)  | 131K | 2023-08 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="200" height="20" />](https://allenai.org/) | [RLVR](https://allenai.org/blog/tulu-3-technical) | [Llama-3.1-70B](https://huggingface.co/meta-llama/Llama-3.1-70B) | [Llama-3.1-Tulu-3-70B](https://huggingface.co/allenai/Llama-3.1-Tulu-3-70B)    | 70B           | None (~70+)         | 128K               | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="200" height="20" />](https://allenai.org/) | [RLVR](https://allenai.org/blog/tulu-3-technical) | [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) | [Llama-3.1-Tulu-3-8B](https://huggingface.co/allenai/Llama-3.1-Tulu-3-8B)    | 8B           | None (~55+)         | 128K               | 2023-12  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-
-<br>
-
-### Role Play
-
-Models **optimized for Role Play tasks** through specialized training datasets.
-
-Role-playing in LLMs is a technique where **the model assumes a specific character, profession, or persona to generate more focused and contextually relevant responses.**
-
-| Organization       |Base Model                                       | Finetuned Model | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
-|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
-|  **ResplendentAI**  | [Mistral-Small-Instruct-2409](https://huggingface.co/mistralai/Mistral-Small-Instruct-2409) | [Pantheon-RP-Pure-1.6.2-22b-Small](https://huggingface.co/Gryphe/Pantheon-RP-Pure-1.6.2-22b-Small) | 22B |  None (~60+)  | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **Oxygen**  | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) | [Oxy-1-small](https://huggingface.co/oxyapi/oxy-1-small) | 14.8B |  None (~50+)  | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **BosonAI**  | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) | [Higgs-Llama-3-70B](https://huggingface.co/bosonai/Higgs-Llama-3-70B) | 70B |  None (~45+)  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **NeverSleep**  | [lama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B)| [Llama-3-Lumimaid-8B-v0.1](https://huggingface.co/NeverSleep/Llama-3-Lumimaid-8B-v0.1?not-for-all-audiences=true) | 8B |  None (~45+)  | 8K | 2023-12   | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **ResplendentAI**  | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | [DaturaCookie_7B](https://huggingface.co/ResplendentAI/DaturaCookie_7B?not-for-all-audiences=true) | 7B |  None (~30+)  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **Nakodanei**  | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) x2 | [Blue-Orchid-2x7b](https://huggingface.co/nakodanei/Blue-Orchid-2x7b) | 13B |  None (~30+)  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-
-<br> 
-
-### Uncensored
-
-Models modified to **operate without standard content filtering mechanisms**, enabling **unrestricted response generation beyond typical LLM safeguards.**
-
-##### Top Performing Open source Models (by Model Family)
-
-| Organization       | Model Familly                                                    | Best Model                                                      | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window) |
-|:------------------:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------:|:------------:|:----------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/NousResearch.svg" alt="NousResearch" width="200" height="20" />](https://nousresearch.com/)   | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-405B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B)               | 405B          | 71.9         | 128K             | 
-| **Maxime Labonne** | [Abliterated](https://huggingface.co/blog/mlabonne/abliteration) | [Llama-3.1-70B-Instruct-lorablated](https://huggingface.co/mlabonne/Llama-3.1-70B-Instruct-lorablated) | 70B         | 65.3         | 128K             |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/CognitiveComputations.svg" alt="CognitiveComputations" width="200" height="22" />](https://erichartford.com/)  | [Dolphin 2.9.3](https://erichartford.com/uncensored-models) | [Dolphin-2.9.3-Yi-1.5-34B-32k](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-Yi-1.5-34B-32k) | 34B  | 60.2          | 65K              |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/NousResearch.svg" alt="NousResearch" width="200" height="20" />](https://nousresearch.com/)        | [OpenHermes-2.5](https://mistral.ai/news/mathstral/)             | [OpenHermes-2.5-Mistral-7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B)                | 7B            | 34           | 32K               |
-
-<details>
-<summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Unlocked.png" alt="Unlocked" width="30" height="30" /> <b>Other Open source Models Family Variants</b></summary> 
-
-<br>
-
-| Organization       | Model Familly                                                    | Best Model                                  | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:------------------:|:-----------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:--------:|:----------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/NousResearch.svg" alt="NousResearch" width="200" height="20" />](https://nousresearch.com/)    | [Hermes 3](https://huggingface.co/papers/2408.11857)             | [Hermes-3-Llama-3.1-70B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B) | 72B       | 65.3     | 128K             | 
-|                    |                                                                  | [Hermes-3-Llama-3.1-8B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B) | 1.5B        | 53.15    | 128K             | 
-| **Maxime Labonne** | [Abliterated](https://huggingface.co/blog/mlabonne/abliteration) | [Meta-Llama-3.1-8B-Instruct-abliterated](https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated) | 8B | 53.15 | 128K |
-|                    |                                                                  | [NeuralLlama-3-8B-Instruct-abliterated](https://huggingface.co/mlabonne/NeuralLlama-3-8B-Instruct-abliterated) | 8B | 53.15 | 128K | 
-|                    |                                                                  | [Daredevil-8B-abliterated](https://huggingface.co/mlabonne/Daredevil-8B-abliterated) | 8B        | 53.15    | 8K | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/CognitiveComputations.svg" alt="CognitiveComputations" width="200" height="22" />](https://erichartford.com/) | [Dolphin 2.9.3](https://erichartford.com/uncensored-models) | [Dolphin-2.9.3-llama-3-8](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-llama-3-8b) | 8B | 53.15 | 8K |
-|                    |                                                                  | [Dolphin-2.9.3-mistral-nemo-12b](https://huggingface.co/cognitivecomputations/dolphin-2.9.3-mistral-nemo-12b) | 12B | 51.9 | 128K | 
-</details>
-
-<br>
-
-# Vision Language Models
+### Vision Language Models
 
 Vision Language Models (VLMs) **integrate visual perception and language processing architectures to enable multi-modal understanding and generation.** Technical details available on [Huggingface.co](https://huggingface.co/blog/vlms).
 
@@ -1085,7 +1104,8 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 >
 >  This benchmark use different method to evaluate various VLMs capabilities, later used to calculate the Overall score. However, **the top-ranked model might not be number one in all specific capacities.**
 
-### Open source VLMs
+
+#### Open source VLMs
 
 | Organization     | Model                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score      | Licence                                                                    | Pricing                                                      |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|--------------------------------------------------------------:|:------------------------------------------------------------:|
@@ -1113,7 +1133,7 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)    | [Phi-3.5-vision-instruct](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) | 4.15B | 59.7 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="HuggingFace" width="200" height="20" />](https://huggingface.co/) | [SmolVLM-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct) | 2.25B | 55.96 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
-### Proprietary VLMs  
+#### Proprietary VLMs  
 
 | Organization     | Model                                                                         | Score      | Licence                                                                    | Pricing                                                      |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:--------------------------------------------------------------------------:|:------------------------------------------------------------:|
@@ -1124,6 +1144,22 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/)       | [GPT-4V](https://chat.openai.com/)                                            | 71.1       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="200" height="20" />](https://www.anthropic.com/)    | [Claude-3 Opus](https://claude.ai/)                                           | 66.7       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="200" height="20" />](https://www.anthropic.com/)    | [Claude-3 Haiku](https://claude.ai/)                                          | 65.3       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
+
+<br>
+
+### Audio Language Models
+
+#### Open source ALMs
+
+#### Proprietary ALMs
+
+<br>
+
+### Multi Input Models
+
+#### Open source MLMs
+
+#### Proprietary MLMs
 
 <br>
 <br>
