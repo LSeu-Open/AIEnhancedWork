@@ -140,6 +140,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   6.00/20
 - Final Score:       **53.41/100**
 
+### Score Breakdown for Deepseek-V3
+
+- External Score:    41.61/60
+- Community Score:   17.48/20
+- Technical Score:   15.00/20
+- Final Score:       **74.09/100**
+
 
 ## PRORIETARY
 
