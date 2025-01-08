@@ -147,6 +147,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   15.00/20
 - Final Score:       **74.09/100**
 
+### Score Breakdown for Falcon3-10B-Instruct
+
+- External Score:    28.29/60
+- Community Score:   10.96/20
+- Technical Score:   6.00/20
+- Final Score:       **45.25/100**
+
 
 ## PRORIETARY
 
