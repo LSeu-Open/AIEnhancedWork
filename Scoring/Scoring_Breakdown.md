@@ -133,6 +133,12 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   15.00/20
 - Final Score:       **57.27/100**
 
+### Score Breakdown for EXAONE-3.5-32B-Instruct
+
+- External Score:    36.45/60
+- Community Score:   10.96/20
+- Technical Score:   6.00/20
+- Final Score:       **53.41/100**
 
 
 ## PRORIETARY
