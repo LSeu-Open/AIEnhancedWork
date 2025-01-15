@@ -160,7 +160,14 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Community Score:   10.96/20
 - Technical Score:   13.00/20
 - Final Score:       **65.34/100**
-- 
+
+### Score Breakdown for OLMo-2-1124-13B-Instruct
+
+- External Score:    27.09/60
+- Community Score:   13.70/20
+- Technical Score:   11.00/20
+- Final Score:       **51.79/100**
+
 ## PRORIETARY
 
 ### Score Breakdown for o1-Preview
