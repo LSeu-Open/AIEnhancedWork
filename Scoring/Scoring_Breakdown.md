@@ -154,7 +154,6 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   6.00/20
 - Final Score:       **45.25/100**
 
-
 ## PRORIETARY
 
 ### Score Breakdown for o1-Preview
@@ -192,6 +191,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Community Score:   14.90/20
 - Technical Score:   16.00/20
 - Final Score:       **66.65/100**
+
+### Score Breakdown for Gemini 2.0 Flash
+
+- External Score:    40.96/60
+- Community Score:   19.56/20
+- Technical Score:   16.00/20
+- Final Score:       **76.52/100**
   
 ### Score Breakdown for Qwen-Max
 
