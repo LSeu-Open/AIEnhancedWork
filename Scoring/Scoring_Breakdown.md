@@ -154,6 +154,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   6.00/20
 - Final Score:       **45.25/100**
 
+### Score Breakdown for Phi-4
+
+- External Score:    41.38/60
+- Community Score:   10.96/20
+- Technical Score:   13.00/20
+- Final Score:       **65.34/100**
+- 
 ## PRORIETARY
 
 ### Score Breakdown for o1-Preview
