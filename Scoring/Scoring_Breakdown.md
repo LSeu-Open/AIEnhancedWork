@@ -245,4 +245,11 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   12.00/20
 - Final Score:       **62.99/100**
 
+### Score Breakdown for Nova Pro
+
+- External Score:    43.19/60
+- Community Score:   13.42/20
+- Technical Score:   16.00/20
+- Final Score:       **72.62/100**
+
 
