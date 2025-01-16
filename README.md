@@ -380,6 +380,24 @@ Speech recognition systems **convert acoustic signals into text through automate
 | [Speechmatics](https://www.speechmatics.com/) | A powerful AI-driven speech recognition and transcription platform. | [Universal-1](https://www.assemblyai.com/research/universal-1) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 
 <br>
+
+### Voice Assistants
+
+These systems combine multiple AI technologies to create interactive voice experiences.
+
+#### Voice Assistants Models
+
+| Organization       | Model Familly                                       | Best Model                                                                       | Licence     	| Pricing   	  |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Kyutai.svg" alt="Kyutai" width="250" height="25" />](https://kyutai.org/)  | [Moshi](https://moshi.chat/)     | [Moshi v0.1](https://huggingface.co/kyutai/moshiko-pytorch-bf16)                | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
+
+#### Voice Assistants Providers
+
+| Tool             | Description                                                                                                                 | Models      | Pricing     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [OpenAI](https://openai.com/index/chatgpt-can-now-see-hear-and-speak/) | ChatGPT can now see, hear, and speak |  [GPT4-o](https://openai.com/index/hello-gpt-4o/) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />  |
+
+<br>
  
 <br>
 
