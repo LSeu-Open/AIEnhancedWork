@@ -83,6 +83,7 @@
     - [Generalist LLMs](#generalist-llms)
       - [Open source Models](#open-source-models)
       - [Proprietary Models](#proprietary-models)
+    - [Reasoning LLMs](#reasoning-llms)
     - [Finetuned LLMs](#finetuned-llms)
       - [Astrophysics](#astrophysics)
       - [Coding](#coding)
@@ -796,7 +797,6 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 
 | Organization       | Model Familly                                       | Best Model                                                                       | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.2) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff |  Licence | Pricing  |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|:-------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [o](https://chatgpt.com/) | [o1-preview](https://openai.com/o1/) | 76.94 | 128K | 2023-10 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini](https://gemini.google.com/)            | [Gemini 2.0 Flash](https://gemini.google.com/?hl=en) | 76.52          | 1M              | 2024-08           | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="200" height="20" />](https://www.anthropic.com/) | [Claude](https://claude.ai/) | [Claude 3.5 Sonnet](https://claude.ai/) | 74.11 | 200k | 2024-04 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/amazon.svg" alt="Amazon" width="200" height="20" />](https://aws.amazon.com/ai/) | [Nova](https://aws.amazon.com/ai/)            | [Nova Pro](https://aws.amazon.com/ai/) | 72.62          | 300K | Unknown | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)|
@@ -836,6 +836,32 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 |                    |                                                 | [Nova Micro](https://aws.amazon.com/ai/) | Soon          | 300K | Unknown | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)|
 </details>
 </details>
+
+<br>
+<br>
+
+### Reasoning LLMs
+
+Specialized AI models **designed to break down complex problems through step-by-step logical analysis**. This **emerging category** represents models specifically optimized for logical reasoning and problem decomposition, often outperforming standard LLMs on analytical tasks.
+
+> [!NOTE]
+> These reasoning-specialized models **represent a significant shift from traditional LLMs**, focusing on structured analytical thinking and step-by-step problem solving. **Most listed models are currently in research phase or limited release.**
+>
+> Given their fundamentally different approach to problem-solving, we've created **this dedicated section to highlight this new paradigm in AI development.**
+
+#### Open source Models
+
+| Organization       | Model Familly                                       | Best Model                                                                       | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.2) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff | Licence |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:------------------:|:-------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen](https://qwenlm.github.io/)                   | [QwQ-32B-Preview](https://huggingface.co/Qwen/QwQ-32B-Preview)         | 32B            | Soon     | 131K               | 2023-08            | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+| [NovaSky](https://novasky-ai.github.io/) | [Sky](https://novasky-ai.github.io/posts/sky-t1/)                   | [Sky-T1-32B-Preview](https://huggingface.co/NovaSky-AI/Sky-T1-32B-Preview)         | 32B            | Soon     | 132K               | 2023-08            | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+
+
+#### Proprietary Models 
+
+| Organization       | Model Familly                                       | Best Model                                                                       | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.2) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff |  Licence | Pricing  |
+|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|:-------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [o](https://chatgpt.com/) | [o1-preview](https://openai.com/o1/) | 76.94 | 128K | 2023-10 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 
 <br>
 <br>
