@@ -126,12 +126,12 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Final Score:       **48.22/100**
 
 
-### Score Breakdown for internlm2_5-20b-chat
+### Score Breakdown for internlm3-8b-instruct
 
-- External Score:    34.11/60
-- Community Score:    8.16/20
+- External Score:    33.16/60
+- Community Score:    10.96/20
 - Technical Score:   15.00/20
-- Final Score:       **57.27/100**
+- Final Score:       **59.12/100**
 
 ### Score Breakdown for EXAONE-3.5-32B-Instruct
 
@@ -167,6 +167,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Community Score:   13.70/20
 - Technical Score:   11.00/20
 - Final Score:       **51.79/100**
+
+### Score Breakdown for MiniCPM3-4B
+
+- External Score:    30.12/60
+- Community Score:   8.22/20
+- Technical Score:   13.00/20
+- Final Score:       **51.34/100**
 
 ## PRORIETARY
 
