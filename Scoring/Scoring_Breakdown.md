@@ -184,12 +184,12 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 
 ## PRORIETARY
 
-### Score Breakdown for o1-Preview
+### Score Breakdown for o1
 
-- External Score:    47.64/60
-- Community Score:   18.30/20
+- External Score:    51.54/60
+- Community Score:   19.29/20
 - Technical Score:   11.00/20
-- Final Score:       **76.94/100**
+- Final Score:       **81.83/100**
 
 
 ### Score Breakdown for GPT-4o
