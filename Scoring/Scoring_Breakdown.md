@@ -175,6 +175,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   13.00/20
 - Final Score:       **51.34/100**
 
+### Score Breakdown for DeepSeek-R1
+
+- External Score:    49.48/60
+- Community Score:   19.56/20
+- Technical Score:   14.00/20
+- Final Score:       **83.04/100**
+
 ## PRORIETARY
 
 ### Score Breakdown for o1-Preview
