@@ -1035,22 +1035,29 @@ Models **optimized for Role Play tasks** through specialized training datasets.
 
 Role-playing in LLMs is a technique where **the model assumes a specific character, profession, or persona to generate more focused and contextually relevant responses.**
 
+> [!NOTE]
+> Models are ranked by **Quality Index scores** from [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/), which implements systematic performance evaluation metrics. **This methodology addresses key technical considerations** including dataset contamination, model quantization, and overfitting detection. **Rankings are updated daily through automated testing protocols.**
+> 
+> Quality Index scores **reflect base model performance before specialization.**
+
 | Organization       |Base Model                                       | Finetuned Model | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | Quality Index | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
 |:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|:----------------:|:-------------:|
-|  **Steelskull**  | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [L3.3-MS-Nevoria-70b](https://huggingface.co/Steelskull/L3.3-MS-Nevoria-70b) | 70B |  **Incoming** (~70+)  | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **ResplendentAI**  | [Mistral-Small-Instruct-2409](https://huggingface.co/mistralai/Mistral-Small-Instruct-2409) | [Pantheon-RP-Pure-1.6.2-22b-Small](https://huggingface.co/Gryphe/Pantheon-RP-Pure-1.6.2-22b-Small) | 22B |  **Incoming** (~60+)  | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **Oxygen**  | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) | [Oxy-1-small](https://huggingface.co/oxyapi/oxy-1-small) | 14.8B |  **Incoming** (~50+)  | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **Latitude Games**  | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | [Wayfarer-12B](https://huggingface.co/LatitudeGames/Wayfarer-12B) | 13B |  **Incoming** (~50+)  | 128K | 2023-12   | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **BosonAI**  | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) | [Higgs-Llama-3-70B](https://huggingface.co/bosonai/Higgs-Llama-3-70B) | 70B |  **Incoming** (~45+)  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **NeverSleep**  | [lama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B)| [Llama-3-Lumimaid-8B-v0.1](https://huggingface.co/NeverSleep/Llama-3-Lumimaid-8B-v0.1?not-for-all-audiences=true) | 8B |  **Incoming** (~45+)  | 8K | 2023-12   | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **ResplendentAI**  | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | [DaturaCookie_7B](https://huggingface.co/ResplendentAI/DaturaCookie_7B?not-for-all-audiences=true) | 7B |  **Incoming** (~30+)  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-|  **Nakodanei**  | [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) x2 | [Blue-Orchid-2x7b](https://huggingface.co/nakodanei/Blue-Orchid-2x7b) | 13B |  **Incoming** (~30+)  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **Steelskull**  | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [L3.3-MS-Nevoria-70b](https://huggingface.co/Steelskull/L3.3-MS-Nevoria-70b) | 70B |  71.70  | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **BosonAI**  | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) | [Higgs-Llama-3-70B](https://huggingface.co/bosonai/Higgs-Llama-3-70B) | 70B |  61.9  | 32K | 2023-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **ResplendentAI**  | [Mistral-Small-Instruct-2409](https://huggingface.co/mistralai/Mistral-Small-Instruct-2409) | [Pantheon-RP-Pure-1.6.2-22b-Small](https://huggingface.co/Gryphe/Pantheon-RP-Pure-1.6.2-22b-Small) | 22B | 59.81  | 128K | 2023-12 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **Latitude Games**  | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | [Wayfarer-12B](https://huggingface.co/LatitudeGames/Wayfarer-12B) | 13B |  51.9 | 128K | 2023-12   | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
+|  **Oxygen**  | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) | [Oxy-1-small](https://huggingface.co/oxyapi/oxy-1-small) | 14.8B |  **Incoming** | 131K | 2024-04 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
 
 <br> 
 
 #### Uncensored
 
 Models modified to **operate without standard content filtering mechanisms**, enabling **unrestricted response generation beyond typical LLM safeguards.**
+
+> [!NOTE]
+> Models are ranked by **Quality Index scores** from [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/), which implements systematic performance evaluation metrics. **This methodology addresses key technical considerations** including dataset contamination, model quantization, and overfitting detection. **Rankings are updated daily through automated testing protocols.**
+> 
+> Quality Index scores **reflect base model performance before specialization.**
 
 ##### Top Performing Open source Models (by Model Family)
 
