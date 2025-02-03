@@ -191,6 +191,19 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   11.00/20
 - Final Score:       **81.83/100**
 
+### Score Breakdown for o1-mini
+
+- External Score:    47.24/60
+- Community Score:   16.71/20
+- Technical Score:   13.00/20
+- Final Score:       **76.95/100**
+
+### Score Breakdown for o3-mini
+
+- External Score:    50.64/60
+- Community Score:   16.44/20
+- Technical Score:   14.00/20
+- Final Score:       **80.07/100**
 
 ### Score Breakdown for GPT-4o
 
