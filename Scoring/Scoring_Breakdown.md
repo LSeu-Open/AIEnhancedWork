@@ -72,12 +72,12 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Final Score:       **58.17/100**
 
 
-### Score Breakdown for Mistral-Small-Instruct-2409 
+### Score Breakdown for Mistral-Small-3
 
-- External Score:    35.85/60
-- Community Score:   10.96/20
+- External Score:    40.87/60
+- Community Score:   13.7/20
 - Technical Score:   13.00/20
-- Final Score:       **59.81/100**
+- Final Score:       **67.57/100**
 
 
 ### Score Breakdown for Ministral-8B-Instruct-2410 
