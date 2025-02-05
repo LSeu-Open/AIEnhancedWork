@@ -50,14 +50,14 @@
     - [Learning Resources](#learning-resources)
 - [Academic and Scientific Research](#academic-and-scientific-research)
 - [Audio Processing](#audio-processing)
-    - [Audio and Video transcription and summaries](#audio-and-video-transcription-and-summaries)
+    - [Transcription and Summarization](#transcription-and-summarization)
     - [Music Generation](#music-generation)
-    - [Text to speech](#text-to-speech)
-      - [Text to speech Models](#text-to-speech-models)
-      - [Text to speech Providers](#text-to-speech-providers)
-    - [Speech to text](#speech-to-text)
-      - [Speech to text Models](#speech-to-text-models)
-      - [Speech to text Providers](#speech-to-text-providers)
+    - [Text-to-Speech Synthesis](#text-to-speech-synthesis)
+      - [Text-to-Speech Models](#text-to-speech-models)
+      - [Text-to-Speech Providers](#text-to-speech-providers)
+    - [Speech Recognition](#speech-recognition)
+      - [Speech-to-Text Models](#speech-to-text-models)
+      - [Speech-to-Text Providers](#speech-to-text-providers)
     - [Voice Assistants](#voice-assistants)
       - [Voice Assistants Models](#voice-assistants-models)
       - [Voice Assistants Providers](#voice-assistants-providers)
@@ -65,18 +65,18 @@
     - [Autonomous Agents](#autonomous-agents)
     - [Automation tools](#automation-tools)
 - [Computer Vision](#computer-vision)
-    - [Image Edition](#image-edition)
+    - [Image Editing](#image-editing)
     - [Image Generation](#image-generation)
-      - [Text to Image Models](#text-to-image-models)
-      - [Image to Image Models](#image-to-image-models)
-      - [Image Generation Cloud-based Providers](#image-generation-cloud-based-providers)
-      - [Image Generation Local Providers](#image-generation-local-providers)
+      - [Text-to-Image Models](#text-to-image-models)
+      - [Image-to-Image Models](#image-to-image-models)
+      - [Cloud-based Image Generation Providers](#cloud-based-image-generation-providers)
+      - [Local Image Generation Providers](#local-image-generation-providers)
     - [Video Generation](#video-generation)
-      - [Image to Video Models](#image-to-video-models)
-      - [Text to Video Models](#text-to-video-models)
+      - [Image-to-Video Models](#image-to-video-models)
+      - [Text-to-Video Models](#text-to-video-models)
       - [Video Generation Providers](#video-generation-providers)
     - [3D Model Generation](#3d-model-generation)
-      - [Text/Image to 3D Models](#textimage-to-3d-models)
+      - [Text/Image-to-3D Models](#textimage-to-3d-models)
 - [Data Analysis](#data-analysis)
 - [Foundation Models](#foundation-models)
   - [Language Only Large Language Models](#language-only-large-language-models)
@@ -92,11 +92,11 @@
       - [Reinforcement Learning](#reinforcement-learning)
       - [Role Play](#role-play)
       - [Uncensored](#uncensored)
-    - [Providers](#providers)
-      - [LLMs Cloud-based Providers](#llms-cloud-based-providers)
-      - [LLMs Local Providers](#llms-local-providers)
-      - [Coding LLMs Providers](#coding-llms-providers)
-      - [AI Augmented IDE](#ai-augmented-ide)
+    - [LLM Providers](#llm-providers)
+      - [Cloud-based LLM Providers](#cloud-based-llm-providers)
+      - [Local LLM Providers](#local-llm-providers)
+      - [Coding-focused LLM Providers](#coding-focused-llm-providers)
+      - [AI-Augmented Integrated Development Environments](#ai-augmented-integrated-development-environments)
   - [Multimodal Foundation Models](#multimodal-foundation-models) 
     - [Vision Language Models](#vision-language-models)
       - [Open source VLMs](#open-source-vlms)
@@ -104,8 +104,8 @@
     - [Audio Language Models](#audio-language-models)
       - [Open source ALMs](#open-source-alms)
       - [Proprietary ALMs](#proprietary-alms)
-    - [Multi Input Models](#multi-input-models)
-      - [Open source MLMs](#open-source-mlms)
+    - [Multi-Input Models](#multi-input-models)
+      - [Open-Source MLMs](#open-source-mlms)
       - [Proprietary MLMs](#proprietary-mlms)
 - [Other](#other)
     - [Language learning](#language-learning)
@@ -271,7 +271,7 @@ AI solutions **optimized for academic research and scientific workflows**, enabl
 
 # Audio Processing
 
-### Audio and Video transcription and summaries
+### Transcription and Summarization
 
 AI-powered media processing tools**leverage Natural Language Processing (NLP) and computer vision algorithms to automate transcription and content summarization** from audio-visual sources. These solutions streamline content analysis by **generating accurate text outputs and key insights from multimedia data.**
 
@@ -301,11 +301,11 @@ Music generation algorithms utilize deep learning models to **synthesize origina
 
 <br>
  
-### Text to speech
+### Text-to-Speech Synthesis
 
 Text-to-speech (TTS) systems employ **neural networks for voice synthesis, converting text input into natural speech output.** These models **support voice customization parameters including timbre, prosody, and linguistic variations.**
 
-#### Text to speech Models
+#### Text-to-Speech Models
 
 > [!NOTE]
 > The models are ranked according to their **Arena Elo score (with higher scores indicating better performance)** from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
@@ -328,7 +328,7 @@ Text-to-speech (TTS) systems employ **neural networks for voice synthesis, conve
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="HuggingFace" width="200" height="20" />](https://huggingface.co/)  | [Parler-TTS](https://github.com/huggingface/parler-tts)                | [Parler-tts-large-v1](https://huggingface.co/parler-tts/parler-tts-large-v1)                                   | None | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | **AI4Bharat**    | [Parler-TTS](https://ai4bharat.iitm.ac.in/)                | [Indic-parler-tts](https://huggingface.co/ai4bharat/indic-parler-tts)                                   | None | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
-#### Text to speech Providers
+#### Text-to-Speech Providers
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
 | [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
@@ -346,11 +346,11 @@ Text-to-speech (TTS) systems employ **neural networks for voice synthesis, conve
 
 <br>
  
-### Speech to text
+### Speech Recognition
 
 Speech recognition systems **convert acoustic signals into text through automated speech recognition (ASR) models.** These systems process audio input for text transcription and voice command interpretation.
 
-#### Speech to text Models
+#### Speech-to-Text Models
 
 > [!NOTE]
 > The models are ranked according to their Word Error Rate (%) (% of words transcribed incorrectly. Lower is better) from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
@@ -365,7 +365,7 @@ Speech recognition systems **convert acoustic signals into text through automate
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="HuggingFace" width="200" height="20" />](https://huggingface.co/) | [distil-whisper](https://github.com/huggingface/distil-whisper) | [distil-large-v3](https://huggingface.co/openai/whisper-large-v3)    | 13.0 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepgram.svg" alt="Deepgram" width="200" height="20" />](https://deepgram.com/)       | [Nova](https://deepgram.com/)      | [Nova-2](https://deepgram.com/learn/nova-2-speech-to-text-api)    | 15.1 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 
-#### Speech to text Providers
+#### Speech-to-Text Providers
 
  Tool             | Description                                                                                                                 | Models      | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -451,7 +451,7 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 > [!TIP]
 > **Learn prompt engineering techniques for image generation models to enhance output quality and artistic control.** Follow [@nickfloats](https://x.com/nickfloats) on **𝕏** for valuable insights on **crafting prompts that achieve your desired visual outputs.**
 
-### Image Edition
+### Image Editing
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -467,7 +467,7 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 
 ### Image Generation
 
-#### Text to Image Models
+#### Text-to-Image Models
 
 > [!NOTE]
 > The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [artificialanalysis.ai text to Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
@@ -515,9 +515,11 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 
 
 
-#### Image to Image Models
+#### Image-to-Image Models
 
-#### Image Generation Cloud-based Providers
+**Incoming**
+
+#### Cloud-based Image Generation Providers
 
 | Tool              | Description                                                                                                         |  Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -535,7 +537,7 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 | [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
 | [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
-#### Image Generation Local Providers
+#### Local Image Generation Providers
 
 > [!TIP]
 > **Generate images locally using Fooocus** - Deploy open-source image generation models on your hardware with our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
@@ -559,7 +561,7 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 >
 > This section will be **updated as more open-source and accessible video generation models emerge.**
 
-#### Image to Video Models
+#### Image-to-Video Models
 
 Image-to-video models employ **temporal diffusion algorithms to synthesize video sequences from static image inputs**, generating coherent motion patterns and frame transitions.
 
@@ -571,7 +573,7 @@ Image-to-video models employ **temporal diffusion algorithms to synthesize video
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Stability.svg" alt="stability" width="200" height="20" />](https://stability.ai/) | [Stable Video Diffusion (SV4D)](https://stability.ai/stable-video)      | [sv4d](https://huggingface.co/stabilityai/sv4d)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
 | [Lightricks](https://www.lightricks.com/) | [LTXV](https://www.lightricks.com/)      | [LTX-Video](https://huggingface.co/Lightricks/LTX-Video)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
 
-#### Text to Video Models
+#### Text-to-Video Models
 
 Text-to-video models **convert natural language descriptions into video sequences through multi-modal generation frameworks**, synthesizing temporal and spatial elements from textual inputs.
 
@@ -618,7 +620,7 @@ Text-to-video models **convert natural language descriptions into video sequence
 
 Transform text descriptions and images into detailed 3D models using AI. These Models enable rapid prototyping, asset creation, and visualization by converting natural language or visual inputs into three-dimensional objects.
 
-#### Text/Image to 3D Models
+#### Text/Image-to-3D Models
 
 | Organization         | Model                                                                         | Licence     | Pricing     |
 |:--------------------:|:------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -1097,9 +1099,9 @@ Models modified to **operate without standard content filtering mechanisms**, en
 
 <br>
 
-### Providers
+### LLM Providers
 
-#### LLMs Cloud-based Providers
+#### Cloud-based LLM Providers
 
 > [!Tip]
 > Reference the [Artificial Analysis Leaderboard](https://artificialanalysis.ai/leaderboards/providers) for **comparative analysis of LLM providers across key performance metrics**: pricing, token generation speed, response latency, and context window capabilities.
@@ -1132,7 +1134,7 @@ Models modified to **operate without standard content filtering mechanisms**, en
 | [Together](https://www.together.ai/) | A cloud platform designed for building and running generative AI applications. | Large Panel of Open source Models | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> | 
 | [Vercel](https://sdk.vercel.ai/) | A powerful tool for developers looking to explore and integrate various AI models into their applications efficiently. | Large Panel of Open source and Proprietary Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 
-#### LLMs Local Providers
+#### Local LLM Providers
 
 > [!IMPORTANT]
 > **Deploy LLMs locally** with our [implementation guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md) for privacy-focused language processing and model experimentation on your hardware.
@@ -1149,7 +1151,7 @@ Models modified to **operate without standard content filtering mechanisms**, en
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | All Open source Models |
 
 
-#### Coding LLMs Providers
+#### Coding-focused LLM Providers
 
 Code assistance models provide **contextual suggestions and autocompletion through real-time syntax analysis**, accelerating development workflows and improving code quality.
 
@@ -1170,7 +1172,7 @@ Code assistance models provide **contextual suggestions and autocompletion throu
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 
-#### AI Augmented IDE
+#### AI-Augmented Integrated Development Environments
 
 Integrated Development Environments (IDEs) **leverage LLM capabilities for code generation, real-time analysis, and syntax optimization, enabling automated code review and contextual development assistance.**
 
@@ -1270,9 +1272,9 @@ Audio Language Models represent **a cutting-edge fusion of natural language proc
 
 <br>
 
-### Multi Input Models
+### Multi-Input Models
 
-Versatile AI models capable of **processing and converting between multiple types of input and output.** These advanced systems break traditional boundaries by handling various formats suc as **text, images, audio, and video**, enabling seamless transformations between different media types.
+Multi-Input Models (MLMs) are models capable of **processing and converting between multiple types of input and output.** These advanced systems break traditional boundaries by handling various formats suc as **text, images, audio, and video**, enabling seamless transformations between different media types.
 
 > [!NOTE]
 > The models are ranked according to their **Overall score** (with higher scores indicating better performance) from multiple benchmarks.
@@ -1280,7 +1282,7 @@ Versatile AI models capable of **processing and converting between multiple type
 > >
 >  This benchmark use different method to evaluate various MM-LLMs capabilities, later used to calculate the Overall score. However, **the top-ranked model might not be number one in all specific capacities.**
 
-#### Open source MM-LLMs
+#### Open-Source MLMs
 
 | Organization     | Model                                                                          | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score | Licence |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|--------------------------------------------------------------:|
@@ -1291,7 +1293,7 @@ Versatile AI models capable of **processing and converting between multiple type
 
 
 
-#### Proprietary MM-LLMs
+#### Proprietary MLMs
 
 | Organization     | Model                                                                         | Score      | Licence                                                                    | Pricing                                                      |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:--------------------------------------------------------------------------:|:------------------------------------------------------------:|
