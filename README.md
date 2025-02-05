@@ -107,12 +107,12 @@
     - [Multi-Input Models](#multi-input-models)
       - [Open-Source MLMs](#open-source-mlms)
       - [Proprietary MLMs](#proprietary-mlms)
-- [Other](#other)
-    - [Language learning](#language-learning)
-    - [Meeting transcription and summaries](#meeting-transcription-and-summaries)
-    - [Presentation slides](#presentation-slides)
-    - [Versatile Productivity tools](#versatile-productivity-tools)
-    - [Website building](#website-building)
+- [Other Applications](#other-applications)
+    - [Language Learning Tools](#language-learning-tools)
+    - [Meeting Transcription and Summarization](#meeting-transcription-and-summarization)
+    - [Presentation Slides Generation](#presentation-slides-generation)
+    - [Versatile Productivity Tools](#versatile-productivity-tools)
+    - [Website Building Tools](#website-building-tools)
 
 </details>
 
@@ -1303,11 +1303,11 @@ Multi-Input Models (MLMs) are models capable of **processing and converting betw
 <br>
 <br>
 
-# Other
+# Other Applications
 
 Additional Tools section **features specialized applications and multi-purpose models beyond standard categorization**, including language learning systems and versatile frameworks.
 
-### Language learning
+### Language Learning Tools
 
 Language learning systems implementing **adaptive instruction algorithms and automated feedback mechanisms**.
 
@@ -1321,7 +1321,7 @@ Language learning systems implementing **adaptive instruction algorithms and aut
 
 <br>
  
-### Meeting transcription and summaries
+### Meeting Transcription and Summarization
 
 Meeting analysis systems employ speech recognition and natural language processing (NLP) to **generate transcripts and extract key discussion points through automated summarization algorithms.**
 
@@ -1335,7 +1335,7 @@ Meeting analysis systems employ speech recognition and natural language processi
 
 <br>
  
-### Presentation slides
+### Presentation Slides Generation
 
 Presentation generation systems implement **content structuring algorithms and design optimization frameworks to automate slide creation and layout composition.**
 
@@ -1349,7 +1349,7 @@ Presentation generation systems implement **content structuring algorithms and d
 
 <br>
  
-### Versatile Productivity tools
+### Versatile Productivity Tools
 
 **Multi-modal productivity systems** integrating content generation, research synthesis, and visual design capabilities within unified workflows.
    
@@ -1366,7 +1366,7 @@ Presentation generation systems implement **content structuring algorithms and d
 
 <br>
  
-### Website building
+### Website Building Tools
 
 Website generation platforms utilize **automated design frameworks and code synthesis algorithms to transform content inputs into deployed web applications, streamlining development workflows.**
 
