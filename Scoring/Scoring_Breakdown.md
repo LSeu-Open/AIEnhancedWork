@@ -219,6 +219,13 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   15.00/20
 - Final Score:       **70.81/100**
 
+### Score Breakdown for Gemini 2.0 Pro
+
+- External Score:    43.92/60
+- Community Score:   19.71/20
+- Technical Score:   15.00/20
+- Final Score:       **78.63/100**
+- 
 ### Score Breakdown for Gemini 1.5 Pro
 
 - External Score:    37.57/60
