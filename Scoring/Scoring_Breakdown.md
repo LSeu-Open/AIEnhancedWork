@@ -300,4 +300,12 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   16.00/20
 - Final Score:       **72.62/100**
 
+### Score Breakdown for Qwen 2.5 Max
+
+- External Score:    43.33/60
+- Community Score:   18.19/20
+- Technical Score:   12.00/20
+- Final Score:       **73.52/100**
+
+
 
