@@ -31,8 +31,14 @@ Welcome to our comprehensive model assessment breakdown. This document provides 
 - Technical Score:   13.00/20
 - Final Score:       **70.23/100**
 
+### Score Breakdown for MiniMax-Text-01
 
-### Score Breakdown for mistralai/Mistral-Large-2-Instruct-2411
+- External Score:    39.30/60
+- Community Score:   13.70/20
+- Technical Score:   16.00/20
+- Final Score:       **68.99/100**
+
+### Score Breakdown for Mistral-Large-2
 
 - External Score:    40.34/60
 - Community Score:   13.75/20
