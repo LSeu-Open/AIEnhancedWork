@@ -94,7 +94,7 @@ class ModelScorer:
             return None
             
         base_elo = 1000
-        max_elo = 1365
+        max_elo = 1402
         
         normalized_score = ((elo_rating - base_elo) / (max_elo - base_elo)) * 100
         return (normalized_score * 0.2)  # 20 points max
