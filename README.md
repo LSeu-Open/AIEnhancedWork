@@ -682,7 +682,11 @@ Large Language Models (LLMs) are **advanced AI systems trained on vast text coll
 > 
 > For complete transparency [Detailed score breakdowns](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Scoring_Breakdown.md) are available for all evaluated models.
 >
+> ***Current Last version is Alpha v0.2.1***
+>
 > ***Current Displayed version is Alpha v0.2***
+>
+> **The new score will be displayed shortly.**
 
 > [!NOTE]
 > **Some models may not be evaluated using this framework**, often due to **insufficient data** required for the scoring algorithm. **Unscored models will be categorized into three groups** based on their specific situations.
