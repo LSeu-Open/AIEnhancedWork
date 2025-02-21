@@ -16,9 +16,6 @@
 
 > Contributors are welcome to **enhance this repository through pull requests (PRs)** with new tool submissions or content improvements. **All contributions undergo review to maintain repository quality standards and technical accuracy**.
 
-> [!TIP]
-> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> **All badges link to detailed subject explanations or official organization websites.** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
-
 > [!CAUTION]
 > **Effective AI implementation requires balanced consideration of capabilities and limitations. Risk mitigation strategies should be integral to workflow integration.**
 >
@@ -123,56 +120,54 @@
 
 # Introduction
 
- <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Green%20Circle.png" width="15" height="15" /> ***AI-powered tools offer key advantages for professional workflows:***:
+This repository aggregates **an extensive collection of AI tools, models, and learning resources designed to enhance modern professional workflows.**
 
-- **Task Automation** : Leverage AI systems to handle repetitive operations, allowing focus on strategic and complex initiatives.
-- **Advanced Analytic** s: Extract actionable insights from data through AI-driven analysis, enabling evidence-based decision making.
-- **Process Optimization** : Implement AI algorithms to streamline operations and enhance organizational efficiency.
-- **Workspace Enhancement** : Deploy AI solutions to create personalized, responsive work environments that augment human capabilities.
+ <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Green%20Circle.png" width="15" height="15" /> **AI-Powered Workflow Advantages**
 
-<br>
+- Task Automation : Leverage AI systems to automate repetitive operations, freeing your team to focus on strategic and complex initiatives.
+- Advanced Analytics: Extract actionable insights from data through AI-driven analysis, empowering evidence-based decision-making.
+- Process Optimization: Implement AI algorithms to streamline operations and boost organizational efficiency.
+- Workspace Enhancement: Deploy AI solutions that create personalized, responsive work environments, effectively augmenting human capabilities.
 
- <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Red%20Circle.png" width="15" height="15" /> ***Key Considerations and Limitations:***:
+ <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Red%20Circle.png" width="15" height="15" />  **Key Considerations and Limitations**
 
-- **Technical Dependencies** : Extended reliance on AI systems **may impact core human competencies** in problem-solving and creative thinking.
-- **Algorithm Limitations** : AI models can produce **inaccurate or biased outputs due to training data quality, model architecture, or algorithmic constraints.**
-- **Security Implications** : Implementation of AI solutions introduces **specific data processing and storage vulnerabilities that require robust security protocols.**
-
-<br>
-
- <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Blue%20Circle.png" width="15" height="15" /> ***Helpful definition for this repository***
-
-When referring to the ***Licensing*** of a project or software, we use the following terms :
-
-- [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) : Software with restricted usage rights, owned and maintained by a specific entity under defined terms and conditions.
-- [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) : Software distributed under licenses permitting code access, modification, and redistribution.
-
-Regarding the ***Pricing model***, we categorize projects or software as follows :
-
-- <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> :  No-cost software with unrestricted access to full functionality.
-- [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  :  Dual-tier model offering core features at no cost with premium capabilities available for purchase.
-- <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> : Commercial software requiring monetary compensation for access, either as a single purchase or subscription.
+- Technical Dependencies : Heavy reliance on AI systems may affect core human competencies in problem-solving and creative thinking.
+- Algorithm Limitations: The outputs of AI models can occasionally be inaccurate or biased due to training data quality, model architecture, or inherent algorithmic constraints.
+- Security Implications: Integrating AI solutions introduces vulnerabilities in data processing and storage that necessitate robust security protocols.
 
 <br>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> ***Announcing the alpha of our Comprehensive [AI Model Evaluation Framework](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md)*** :
+ <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Blue%20Circle.png" width="15" height="15" />  **Repository Terminology Definitions**
 
-We're excited to introduce a new standardized evaluation framework for assessing AI models across three key dimensions:
+***Licensing***
 
-- **External Benchmarks (60 points)**: Combining entity benchmarks and extensive dev testing across 41 benchmarks for LLMs and VLMs
-- **Community Assessment (20 points)**: Leveraging arena-based Elo ratings for real-world performance evaluation
-- **Technical Performance (20 points)**: Measuring efficiency through pricing, context handling, and size-to-performance ratios
+- [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) : Software with restricted usage rights, owned and maintained by a specific entity under clearly defined terms and conditions.
+- [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) : Software distributed under licenses that permit full code access, modification, and redistribution.
 
-This framework provides a robust 100-point scoring system designed to offer transparent, comprehensive model evaluation while accommodating both established and emerging AI models.
+***Pricing Model***
 
-**Currently in alpha, we welcome feedback from the AI community to help refine and improve this evaluation methodology.**
+- <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> : No-cost software offering unrestricted access to its full functionality.
+- [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) : A dual-tier model where core features are available at no cost, while premium capabilities require purchase.
+- <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> : Commercial software that requires monetary compensation for access, available as either a one-time purchase or a subscription.
 
-***Current Displayed version is Alpha v0.2***
+Tip:
+All badges—indicated by the Triangular Flag—link to detailed subject explanations or official organization websites.
 
-The scoring framework implementation and all other code files are licensed under MIT, while documentation remains under CC0.
+This Repository documents (.md files) are licensed under [CC0 License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md).
 
+<br>
 
+ <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Purple%20Circle.png" width="15" height="15" /> **Our Comprehensive AI Model Evaluation Framework**
+ 
+We're excited to introduce the **alpha release (v0.3)** of our new standardized AI Model Evaluation Framework. 
 
+**This robust 100-point system offers transparent and comprehensive evaluations of AI models**, and we invite community feedback to help refine the methodology. 
+
+The framework and code are licensed under the MIT license, while the documentation is available under CC0.
+
+This framework and code are licensed under [MIT Licence](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md). 
+
+<br>
 <br>
 
 # AI Tutorials and Learning Resources
