@@ -655,35 +655,27 @@ Data Analysis frameworks implement **machine learning models for processing stru
 
 Large Language Models (LLMs) are **advanced AI systems trained on vast text collections to understand and generate human language through pattern recognition.**
 
+This overview **focuses on base and instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.**
+
+See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
+
 > [!Tip]
 > Follow our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to deploy LLMs locally using Ollama and Page Assist for secure, privacy-focused language processing.
 >
 > Need help choosing ? Our [extended model comparison guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you) **provides broader coverage than our main overview**.
 
-
-> [!NOTE]
-> This overview **focuses on base and instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.**
->
-> See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
-
 ### Generalist LLMs
 
-> [!CAUTION]
-> Models are evaluated and ranked through our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md).
->
-> Our scoring system evaluates AI models through a balanced approach, considering both performance and practical factors. While in active development, **this methodology aims to provide consistent, meaningful comparisons.**
->
-> ***Please Note Rankings are subject to change as we enhance our evaluation methodology.***
-> 
-> For complete transparency [Detailed score breakdowns](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Scoring_Breakdown.md) are available for all evaluated models.
->
-> ***Current Last version is Alpha v0.2.1***
->
-> ***Current Displayed version is Alpha v0.2***
->
-> **The new score will be displayed shortly.**
+Models are evaluated and ranked through our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md).
 
-> [!NOTE]
+Our scoring system evaluates AI models through a balanced approach, considering both performance and practical factors. While in active development, **this methodology aims to provide consistent, meaningful comparisons.**
+
+***Please Note Rankings are subject to change as we enhance our evaluation methodology.***
+
+For complete transparency [Detailed score breakdowns](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Scoring_Breakdown.md) are available for all evaluated models.
+
+***Current Last version is Alpha v0.3***
+
 > **Some models may not be evaluated using this framework**, often due to **insufficient data** required for the scoring algorithm. **Unscored models will be categorized into three groups** based on their specific situations.
 >
 > **Research Models** : Models that are part of an ongoing research process where data gathering and refinement are active components.
