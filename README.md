@@ -163,7 +163,6 @@ We're excited to introduce the **alpha release (v0.3)** of our new standardized 
 
 **This robust 100-point system offers transparent and comprehensive evaluations of AI models**, and we invite community feedback to help refine the methodology. 
 
-The framework and code are licensed under the MIT license, while the documentation is available under CC0.
 
 This framework and code are licensed under [MIT Licence](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md). 
 
