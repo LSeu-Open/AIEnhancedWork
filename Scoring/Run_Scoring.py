@@ -32,6 +32,7 @@ import json
 import os
 import logging
 from Models_Scoring_System import ModelScorer
+import time
 
 
 # ------------------------------------------------------------------------------------------------*
@@ -473,7 +474,7 @@ def run_scoring(model_name: str, models_directory: str = MODELS_DIR) -> Optional
             'input_data': data  # Include input data for reference
         }
         
-        logger.info(f"Successfully completed scoring for model '{model_name}'")
+        logger.info(f"\n Successfully completed scoring for model '{model_name}'")
         return results
 
     except Exception as e:
@@ -486,45 +487,67 @@ def run_scoring(model_name: str, models_directory: str = MODELS_DIR) -> Optional
 
 if __name__ == "__main__":
     try:
+        # Reset any existing handlers
+        for handler in logging.root.handlers[:]:
+            logging.root.removeHandler(handler)
+            
+        # Configure basic logging without timestamps
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(message)s',
+            force=True  # Force override any existing configuration
+        )
+        
+        start_time = time.time()
+        
         # List of model names to process - can be expanded as needed
-        model_names: list[str] = ["DeepSeek-V3", "MiniMax-Text-01"]
+        model_names: list[str] = ["Gemma-2-27b-it"]
         
         # Create Results directory if it doesn't exist
         os.makedirs("Results", exist_ok=True)
         
-        # Track total number of models for progress reporting
         total_models = len(model_names)
         
+        # Different header based on number of models
+        if total_models == 1:
+            logger.info("\n[*] Processing Single Model")
+        else:
+            logger.info(f"\n[*] Batch Processing {total_models} Models")
+            
         # Process each model sequentially
         for index, model_name in enumerate(model_names, 1):
-            # Visual separator and progress indicator in logs
-            logger.info("\n" + "="*80)
-            logger.info(f"Processing model {index}/{total_models}: {model_name}")
-            logger.info("="*80 + "\n")
+            if total_models > 1:
+                logger.info("\n" + "=" * 60)
+                logger.info(f"Model {index}/{total_models}: {model_name}")
+                logger.info("=" * 60)
+            else:
+                logger.info("\n" + "=" * 60)
+            
+            logger.info("[>] Starting evaluation...\n")
             
             # Run scoring pipeline for current model
             results: Optional[ScoringResults] = run_scoring(model_name)
             
             if results:
-                # Save results to JSON file in Results directory
                 output_file: str = os.path.join("Results", f"{model_name}_results.json")
                 with open(output_file, 'w') as f:
                     json.dump(results, f, indent=4)
-                logger.info(f"Results saved to {output_file}")
-                
-                # Visual separator after successful processing
-                logger.info("\n" + "-"*80 + "\n")
+                logger.info("[+] Results successfully saved to:")
+                logger.info(f"    {output_file}\n")
             else:
-                # Log error if scoring failed
-                logger.error(f"Failed to generate results for {model_name}")
-                # Visual separator after error
-                logger.info("\n" + "-"*80 + "\n")
+                logger.error(f"[-] Failed to generate results for {model_name}\n")
         
-        # Log final summary of batch processing
-        logger.info("="*80)
-        logger.info(f"Batch processing completed for {total_models} models")
-        logger.info("="*80)
+        # Calculate elapsed time
+        elapsed_time = time.time() - start_time
+        
+        # Final summary
+        logger.info("=" * 60)
+        if total_models == 1:
+            logger.info("[+] Processing completed successfully")
+        else:
+            logger.info(f"[+] Batch processing completed successfully for all {total_models} models")
+        logger.info(f"[*] Total processing time: {elapsed_time:.2f} seconds")
+        logger.info("=" * 60 + "\n")
             
     except Exception as e:
-        # Log any unexpected errors during batch processing
-        logger.error(f"Batch processing failed: {str(e)}")
+        logger.error(f"\n[-] Processing failed: {str(e)}")
