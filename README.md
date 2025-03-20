@@ -160,7 +160,7 @@ This Repository documents (.md files) are licensed under [CC0 License](https://g
 
  <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Purple%20Circle.png" width="15" height="15" /> **Our Comprehensive AI Model Evaluation Framework**
  
-We're excited to introduce the **alpha release (v0.3)** of our new standardized AI Model Evaluation Framework. 
+We're excited to introduce the **alpha release (v0.3.1)** of our new standardized AI Model Evaluation Framework. 
 
 **This robust 100-point system offers transparent and comprehensive evaluations of AI models**, and we invite community feedback to help refine the methodology. 
 
@@ -695,7 +695,7 @@ Our scoring system evaluates AI models through a balanced approach, considering 
 
 For complete transparency [Detailed score breakdowns](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Scoring_Breakdown.md) are available for all evaluated models.
 
-***Current Last version is Alpha v0.3***
+***Current Last version is Alpha v0.3.1***
 
 > **Some models may not be evaluated using this framework**, often due to **insufficient data** required for the scoring algorithm. **Unscored models will be categorized into three groups** based on their specific situations.
 >
@@ -709,7 +709,7 @@ For complete transparency [Detailed score breakdowns](https://github.com/LSeu-Op
 
 ##### Top Performing Open source Models (by Model Family)
 
-| Organization       | Model Familly                                       | Best Model                                                                       | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff | Geographic Origin |
+| Organization       | Model Familly                                       | Best Model                                                                       | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff | Geographic Origin |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:------------------:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) | [DeepSeek](https://www.deepseek.com/)               | [DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3)                | 685B         | 71.95       | 128K               | 2023-11            | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="200" height="20" />](https://github.com/Tencent/) | [Hunyuan](https://github.com/Tencent/Tencent-Hunyuan-Large) | [Hunyuan-Large](https://huggingface.co/tencent/Tencent-Hunyuan-Large)    | 389B         | 67.98 | 128K               | Unknown            | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
@@ -812,7 +812,7 @@ For complete transparency [Detailed score breakdowns](https://github.com/LSeu-Op
 
 ##### Top Performing Proprietary Models (by Model Family)
 
-| Organization       | Model Familly                                       | Best Model                                                                       | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3) | [Context Window](https://research.ibm.com/blog/larger-context-window) | Knowledge Cutoff  | Geographic Origin | Pricing  |
+| Organization       | Model Familly                                       | Best Model                                                                       | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | Knowledge Cutoff  | Geographic Origin | Pricing  |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:-----------------:|:-------------:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)  | [Gemini](https://gemini.google.com/)            | [Gemini 2.0 Pro](https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/) | 77.08 | 2M | 2024-08 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/xAI.svg" alt="xAI" width="220" height="20" />](https://x.ai/) | [Grok](https://x.ai/) | [Grok-3](https://x.ai/blog/grok-3) | 75.4  | 1M | Unknown | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
@@ -879,7 +879,7 @@ Specialized AI models **designed to break down complex problems through step-by-
 
 #### Open source Models
 
-| Organization       | Model Familly                                       | Best Model                                                                       | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff | Licence |
+| Organization       | Model Familly                                       | Best Model                                                                       | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) |  Knowledge Cutoff | Licence |
 |:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:------------------:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) | [DeepSeek](https://www.deepseek.com/) | [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) | 685B | 79.61 | 128K | 2023-11 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Perplexity.svg" alt="Perplexity" width="150" height="20" />](https://www.perplexity.ai) | [R1](https://perplexity.ai/hub/blog/open-sourcing-r1-1776) | [R1-1776](https://huggingface.co/perplexity-ai/r1-1776) | 685B | 79.51 | 128K | 2023-11 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
