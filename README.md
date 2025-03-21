@@ -2,35 +2,32 @@
 
 [![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=AIEnhancedWork%20🤖&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Welcome to AI Enhance Work, a comprehensive repository of artificial intelligence tools and models designed to optimize productivity, automate repetitive tasks, and streamline professional workflows.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Welcome to AIEnhancedWork repo*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
 
 </div>
 
-> This repository aims to provide **a curated selection of AI resources**. While we maintain high standards for inclusion, the rapidly evolving nature of AI technology means **this collection represents a subset of available tools**. Inclusion in this repository is based on technical merit and practical utility, and ***does not constitute an official endorsement of any specific tool or service.***
+This repository provides **a curated index of impactful AI tools and models**. Selection emphasizes technical merit and practical utility, **without endorsement**.
+***We are Prioritizing open-source for accessibility and flexibility.***
 
-<div align="center"> 
-	
-***This repository prioritizes open-source models to ensure broad accessibility and deployment flexibility.***
+<div align="center">
+
+
 
 </div>
 
-> Contributors are welcome to **enhance this repository through pull requests (PRs)** with new tool submissions or content improvements. **All contributions undergo review to maintain repository quality standards and technical accuracy**.
+> **Contribute via PRs** with new tools or improvements. All submissions undergo review for quality and accuracy.
 
 > [!CAUTION]
-> **Effective AI implementation requires balanced consideration of capabilities and limitations. Risk mitigation strategies should be integral to workflow integration.**
->
-> Understanding the fundamental principles of generative AI technologies enables proper validation of outputs and identification of potential biases. This technical knowledge is crucial for maintaining output quality and reliability.
+> **Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
 
 > [!IMPORTANT]
-> **This repository uses dual licensing**.
->
-> **Documentation**: [Creative Commons Zero v1.0 Universal](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)
->
-> **Code**: [MIT License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
+> **Dual licensing:**  
+> - **Documentation**: [CC0-1.0 Universal](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)  
+> - **Code**: [MIT License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
 
-<div align="center"> 
- 
-***Liked the content ? Please <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="30" height="30" /> AIEnhancedWork to show your support!***
+<div align="center">
+
+**🌟 Star AIEnhancedWork if you find it useful!**
 
 </div>
 
