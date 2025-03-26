@@ -62,15 +62,17 @@ Modern development environments now **leverage AI capabilities to enhance code s
 
 **Currently Supported Models** :
 
-- ***Claude 3.5 Sonnet*** by Anthropic
-- ***o1-preview / o1-mini and gpt4-o*** by OpenAI
+- ***Claude 3.7 Sonnet and Claude 3.5 Sonnet*** by Anthropic
+- ***o1 / o3-mini and gpt-4.5*** by OpenAI
+- ***Gemini 2.0 Flash and Gemini 2.0 Pro*** by Google
+- ***Deepseek-R1 and Deepseek-V3*** by Deepseek
+- ***Cursor-fast and Cursor-small*** by Cursor
 
 Some key features of Cursor include:
 
 * **Code understanding and context** : Cursor.sh can ***understand the context of your entire codebase***, allowing it to provide tailored suggestions, generate unit tests, and even implement new features by modifying the relevant files.
 * **Natural language editing** : You can edit code using natural language prompts, such as changing an entire method or class with a single instruction.
 * **Code generation** : Cursor.sh can generate code from scratch based on simple instructions provided by the user.
-* **Copilot++** : An enhanced version of GitHub Copilot that can suggest mid-line completions and entire diffs, trained to autocomplete based on sequences of edits.
 * **Integration with VSCode** : Cursor.sh is ***a fork of VSCode***, allowing users to import all their extensions, themes, and keybindings with a single click.
 * **Privacy options** : Cursor.sh ***offers a privacy mode*** where none of your code is stored on their servers or logs, catering to security-critical work.
 
