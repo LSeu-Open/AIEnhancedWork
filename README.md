@@ -688,6 +688,7 @@ Advanced AI models now integrate step-by-step logical analysis as a core feature
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/LG.svg" alt="LG" width="200" height="20" />](https://www.lgresearch.ai/) | [EXAONE-Deep-32B](https://huggingface.co/LGAI-EXAONE/EXAONE-Deep-32B) | 32B | **Pending** | 32k  | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="200" height="20" />](https://allenai.org/)   | [OLMo-2-0325-32B-Instruct](https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct) | 32B | **Pending** | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Kyutai.svg" alt="Kyutai" width="250" height="25" />](https://kyutai.org/) | [Helium-1-preview-2b](https://huggingface.co/kyutai/helium-1-preview-2b) | 2B | **Pending** | 4k  | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/eu.svg" alt="eu" width="20" height="15" />  |
+| [Ant Group](https://github.com/inclusionAI) | [Ling-plus](https://huggingface.co/inclusionAI/Ling-plus) | 293B | **Pending** | 64k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 
 
