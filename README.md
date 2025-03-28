@@ -78,12 +78,9 @@ This repository provides **a curated index of impactful AI tools and models**. S
     - [Vision Language Models](#vision-language-models)
       - [Open source VLMs](#open-source-vlms)
       - [Proprietary VLMs](#proprietary-vlms)
-    - [Audio Language Models](#audio-language-models)
-      - [Open source ALMs](#open-source-alms)
-      - [Proprietary ALMs](#proprietary-alms)
-    - [Multi-Input Models](#multi-input-models)
-      - [Open-Source MLMs](#open-source-mlms)
-      - [Proprietary MLMs](#proprietary-mlms)
+    - [Multimodal Large Language Models](#multimodal-large-language-models)
+      - [Open-Source MLLMs](#open-source-mllms)
+      - [Proprietary MLLMs](#proprietary-mllms)
 - [Search and Research Tools](#search-and-research-tools)
     - [Academic and Scientific Research](#academic-and-scientific-research)
     - [AI-Powered Web Browsers](#ai-powered-web-browsers)
@@ -1160,7 +1157,6 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL2_5-8B-MPO](https://huggingface.co/OpenGVLab/InternVL2_5-8B-MPO) | 8B | 74.4  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)      | [Ovis2-8B](https://huggingface.co/AIDC-AI/Ovis2-8B) | 8B   | 73.8 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  | 
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)      | [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | 7B | 72.7 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenBMB.svg" alt="OpenBMB" width="200" height="20" />](https://www.openbmb.cn/) | [MiniCPM-o-2_6](https://huggingface.co/openbmb/MiniCPM-o-2_6) | 9B | 72  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)     | [InternVL2-26B](https://huggingface.co/OpenGVLab/InternVL2-26B) | 26B | 68.5  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  | 
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL2_5-4B-MPO](https://huggingface.co/OpenGVLab/InternVL2_5-4B-MPO) | 4B | 68.2  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/) | [NVLM-D-72B](https://huggingface.co/nvidia/NVLM-D-72B) | 72B | 67.6 |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
@@ -1197,53 +1193,31 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 
 <br>
 
-### Audio Language Models
+### Multimodal Large Language Models
 
-Audio Language Models represent **a cutting-edge fusion of natural language processing and audio technology.** These AI systems are capable of **accepting various audio signal inputs and performing audio analysis or direct textual responses with regard to speech instructions. , bridging the gap between spoken language and machine comprehension.** 
+Multimodal Large Language Models (MLLMs) are models capable of **processing and converting between multiple types of input and output.** These advanced systems break traditional boundaries by handling various formats such as **text, images, audio, and video**, enabling seamless transformations between different media types.
 
+#### Open-Source MLLMs
 
-> [!NOTE]
-> The models will ranked according to their **Overall score** (with higher scores indicating better performance) from multiple benchmarks.
+| Organization      | Model                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score | Geographic Origin |
+|:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:-----------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenBMB.svg" alt="OpenBMB" width="200" height="20" />](https://www.openbmb.cn/) | [MiniCPM-o-2_6](https://huggingface.co/openbmb/MiniCPM-o-2_6) | 8.67B | 70.2  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/) | [Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) | 5.57B | 64.7 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)     | [Janus-Pro-7B](https://huggingface.co/deepseek-ai/Janus-Pro-7B) | 7B                   | 50.2      | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [Beijing Academy of Artificial Intelligence](https://www.baai.ac.cn/english.html)     | [Emu3-Gen](https://huggingface.co/BAAI/Emu3-Gen) | 8.49B                   | 47.5        | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)     | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B) | 1.3B                   |40.2      | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)      | [Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) | 10.7B   | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
-#### Open source ALMs
+#### Proprietary MLLMs
 
-| Organization     | Model                                                                          | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score | Licence |
-|:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|--------------------------------------------------------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen2-Audio-7B-Instruct](https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct) | 7B | Soon | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-| [Fixie.ai](https://fixie.ai/) | [Ultravox-v0_4](https://huggingface.co/fixie-ai/ultravox-v0_4) | 8B | Soon | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-| [Homebrew Research](https://homebrew.ltd/) | [Ichigo-llama3.1-s-instruct-v0.3-phase-3](https://huggingface.co/homebrewltd/Ichigo-llama3.1-s-instruct-v0.3-phase-3) | 8B | Soon | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-
-#### Proprietary ALMs
-
-<br>
-
-### Multi-Input Models
-
-Multi-Input Models (MLMs) are models capable of **processing and converting between multiple types of input and output.** These advanced systems break traditional boundaries by handling various formats suc as **text, images, audio, and video**, enabling seamless transformations between different media types.
-
-> [!NOTE]
-> The models are ranked according to their **Overall score** (with higher scores indicating better performance) from multiple benchmarks.
->
-> >
->  This benchmark use different method to evaluate various MM-LLMs capabilities, later used to calculate the Overall score. However, **the top-ranked model might not be number one in all specific capacities.**
-
-#### Open-Source MLMs
-
-| Organization     | Model                                                                          | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score | Licence |
-|:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|--------------------------------------------------------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/) | [Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) | 5.57B                   | 76.3      | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)     | [Janus-Pro-7B](https://huggingface.co/deepseek-ai/Janus-Pro-7B) | 7B                   | 65.3       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-| [Beijing Academy of Artificial Intelligence](https://www.baai.ac.cn/english.html)     | [Emu3-Gen](https://huggingface.co/BAAI/Emu3-Gen) | 8B                   | 64.6        | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenBMB.svg" alt="OpenBMB" width="200" height="20" />](https://www.openbmb.cn/) | [MiniCPM-o-2_6](https://huggingface.co/openbmb/MiniCPM-o-2_6) | 8B | 61.24 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)     | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B) | 1.3B                   | 60.2        | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |
-
-
-#### Proprietary MLMs
-
-| Organization     | Model                                                                         | Score      | Licence                                                                    | Pricing                                                      |
-|:-----------------:|:------------------------------------------------------------------------------|:----------:|:--------------------------------------------------------------------------:|:------------------------------------------------------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/)       | [GPT-4o](https://chat.openai.com/)                                            | 78.5       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)      | [Gemini 1.5 Pro](https://gemini.google.com/)                                  | 78.3       | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| Organization     | Model                                                                         | Score      | Geographic Origin | Pricing                                                      |
+|:-----------------:|:------------------------------------------------------------------------------|:----------:|:----------:|:--------------------------------------------------------------------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 2.0 Pro](https://gemini.google.com/) | 73.3 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 2.0 Flash](https://gemini.google.com/) | 72.6| <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/) | [GPT-4o](https://chat.openai.com/) | 72 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 1.5 Flash](https://gemini.google.com/) | 68.9 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 1.5 Pro](https://gemini.google.com/) | 64.5 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 2.5 Pro](https://gemini.google.com/) | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 
 <br>
 <br>
