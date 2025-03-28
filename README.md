@@ -45,8 +45,7 @@ This repository provides **a curated index of impactful AI tools and models**. S
 - [Computer Vision](#computer-vision)
     - [Image Editing](#image-editing)
     - [Image Generation](#image-generation)
-      - [Text-to-Image Models](#text-to-image-models)
-      - [Image-to-Image Models](#image-to-image-models)
+      - [Image Generation Models](#image-generation-models)
       - [Cloud-based Image Generation Providers](#cloud-based-image-generation-providers)
       - [Local Image Generation Providers](#local-image-generation-providers)
     - [Video Generation](#video-generation)
@@ -427,7 +426,7 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 
 ### Image Generation
 
-#### Text-to-Image Models
+#### Image Generation Models
 
 > [!NOTE]
 > The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [artificialanalysis.ai text to Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
@@ -472,10 +471,6 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/)           | [DALLE 2](https://openai.com/index/dall-e-2/)                                 | 747        | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Stability.svg" alt="stability" width="200" height="20" />](https://stability.ai/) | [Stable Diffusion 2.1](https://stability.ai/stable-image)                     | 744        | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Stability.svg" alt="stability" width="200" height="20" />](https://stability.ai/) | [Stable Diffusion 1.5](https://stability.ai/stable-image)                     | 656        | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-
-#### Image-to-Image Models
-
-**Incoming**
 
 #### Cloud-based Image Generation Providers
 
