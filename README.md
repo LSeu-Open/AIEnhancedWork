@@ -4,28 +4,13 @@
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Welcome to AIEnhancedWork repo*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
 
-</div>
-
 This repository provides **a curated index of impactful AI tools and models**. Selection emphasizes technical merit and practical utility, **without endorsement**.
 ***We are Prioritizing open-source for accessibility and flexibility.***
 
-<div align="center">
-
-
-
-</div>
-
-> **Contribute via PRs** with new tools or improvements. All submissions undergo review for quality and accuracy.
-
-> [!CAUTION]
-> **Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
-
-> [!IMPORTANT]
-> **Dual licensing:**  
-> - **Documentation**: [CC0-1.0 Universal](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)  
-> - **Code**: [MIT License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
-
-<div align="center">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />  **Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
+	
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
 
 **🌟 Star AIEnhancedWork if you find it useful!**
 
