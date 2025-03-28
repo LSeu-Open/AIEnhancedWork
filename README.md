@@ -159,8 +159,8 @@ Master AI concepts through **hands-on tutorials and practical implementations.**
 
 ***Online tutorials***
 
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Bomb.png" alt="Bomb" width="25" height="25" /> **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** - Interactive platform for mastering prompt engineering methodologies. Developed by Loic Baconnier.
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Bomb.png" alt="Bomb" width="25" height="25" /> **[Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629)** - Systematic guide to prompt optimization techniques. Created by Anthropic.
+* **[AI Prompt Engineering Tutor](https://huggingface.co/spaces/baconnier/PrompTutor)** - Interactive platform for mastering prompt engineering methodologies. Developed by Loic Baconnier.
+* **[Prompt Engineering Interactive Tutorial](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?gid=869808629#gid=869808629)** - Systematic guide to prompt optimization techniques. Created by Anthropic.
 
 <br> 
 
