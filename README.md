@@ -860,17 +860,16 @@ Models **optimized for Astrophysics and Astronomy research** through specialized
 
 #### Coding
 
-> [!Tip]
-> Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) to **configure cloud-based and local LLM providers within your development environment.**
+ AI models specifically trained on code to **assist with tasks like writing, completing, and understanding software.**
 
 ##### Top Performing Coding Open source Models (by Model Family)
 
 > [!NOTE]
 > Models are ranked by **[BigCodeBench](https://bigcode-bench.github.io/) Hard set with Pass@1 metrics, measuring single-attempt problem-solving accuracy.**
 >
-> **Performance metrics indicate generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [comparative analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
+> **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [comparative analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
 
-| Organization   | Model Familly                                                        | Best Model                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | Pass@1*     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
+| Organization   | Model Familly                                                        | Best Model                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Pass@1](https://bigcode-bench.github.io/)     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|:----------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen2.5 Coder](https://qwenlm.github.io/) | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) | 32B | 30.8 | 132K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) | [Deepseek-coder](https://huggingface.co/deepseek-ai) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 29.4 | 128K|
@@ -886,6 +885,9 @@ Models **optimized for Astrophysics and Astronomy research** through specialized
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Codegemma](https://huggingface.co/blog/codegemma) | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it) | 7B | 10.4 | 8K |
 | [All Hands AI](https://www.all-hands.dev/) | [Qwen2.5 Coder](https://qwenlm.github.io/) | [Openhands-lm-32b-v0.1](https://huggingface.co/all-hands/openhands-lm-32b-v0.1) | 32B | **Pending** | 132K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AntGroup.svg" alt="AntGroup" width="110" height="25" />](https://github.com/inclusionAI)| [Ling](https://huggingface.co/collections/inclusionAI/ling-67c51c85b34a7ea0aba94c32)| [Ling-Coder-lite](https://huggingface.co/inclusionAI/Ling-Coder-lite) | 16.8B | **Pending** | 8K |
+
+> [!Tip]
+> Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) to **configure cloud-based and local LLM providers within your development environment.**
 
 <br>
 
