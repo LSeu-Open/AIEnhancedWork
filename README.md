@@ -1026,14 +1026,22 @@ Models modified to **operate without standard content filtering mechanisms**, en
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [AnythingLLM](https://anythingllm.com/) | an open-source, full-stack application that allows users to chat with their documents in a private and enterprise-friendly environment. | All | All Open source Models |
+| [AnythingLLM](https://anythingllm.com/) | An open-source, full-stack application that allows users to chat with their documents in a private and enterprise-friendly environment. | All | All Open source Models |
+| [Chatbox](https://chatboxai.app) |  AI-powered conversational interface that enables human-like interactions through text or voice. | All | All Open source Models |
+| [ChatWise](https://chatwise.app/) | A high-performance, privacy-focused AI chatbot platform that supports multiple LLMs for versatile, multimodal interactions. | All | Large Panel of Models |
+| [Cherry Studio](https://cherry-ai.com/) | A cross-platform desktop application that serves as a unified interface for interacting with multiple large language models (LLMs)—both cloud-based and locally hosted. | All | Large Panel of Models |
 | [Enchanted](https://github.com/AugustDev/enchanted) | iOS and macOS app for chatting with private self hosted language models.| MacOS/IOS | Large Panel of Open source Models |
-| [FreeChat](https://www.freechat.run/) | an AI-powered chat application designed specifically for macOS. | MacOS | Large Panel of Open source Models |
+| [FreeChat](https://www.freechat.run/) | An AI-powered chat application designed specifically for macOS. | MacOS | Large Panel of Open source Models |
 | [GPT4ALL](https://www.nomic.ai/gpt4all) | An open-source software ecosystem developed by Nomic AI that enables users to run powerful large language models (LLMs) locally on their personal computers. | All | Large Panel of Open source Models |
 | [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Large Panel of Open source Models |
+| [LibreChat](https://www.librechat.ai/) | Open-source chat interface that supports multiple AI models, including Anthropic, AWS, OpenAI, and Azure. It offers features like agents with file handling, a code interpreter for various languages. | All | Large Panel of Models |
 | [LM Studio](https://superagi.com/) |  Elegant UI with the ability to run every Hugging Face repository. | All | Large Panel of Open source Models |
-| [Msty](https://msty.app/) |  an AI chat application that offers a user-friendly interface for interacting with both local and online AI language models. | All | Large Panel of Open source Models |
+| [Msty](https://msty.app/) | An AI chat application that offers a user-friendly interface for interacting with both local and online AI language models. | All | Large Panel of Open source Models |
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | All Open source Models |
+| [Open WebUI](https://openwebui.com/) | Self-hosted, open-source web interface designed for running and managing LLMs locally or offline. | All | All Open source Models |
+| [Silly Tavern](https://sillytavern.app/) | Open-source LLM frontend designed for power users. | All | All Open source Models |
+| [Witsy](https://witsyai.com/) | Open-source LLM frontend designed for power users. | All | All Open source Models |
+
 
 
 #### Coding-focused LLM Providers
