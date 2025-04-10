@@ -636,9 +636,11 @@ Data Analysis frameworks implement **machine learning models for processing stru
 
 Large Language Models (LLMs) are **advanced AI systems trained on vast text collections to understand and generate human language through pattern recognition.**
 
-This overview **focuses on base and instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.** See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
+This overview **focuses on instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.** See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
 
-Models are evaluated and ranked through our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md). ***Current Last version is Alpha v0.3.1***.
+Models are ranked using our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) that balances multiple criteria, such as Entity & Publisher benchmarks, human preference, and technical features. 
+
+**Note that a higher score doesn't guarantee better performance in all tasks or domains; it offers an overall assessment within the model's own size family.**
 
 > [!Tip]
 > Follow our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to deploy LLMs locally using Ollama and Page Assist for secure, privacy-focused language processing.
