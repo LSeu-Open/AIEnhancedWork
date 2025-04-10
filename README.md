@@ -634,7 +634,7 @@ Data Analysis frameworks implement **machine learning models for processing stru
 
 ## Language Only Large Language Models
 
-Large Language Models (LLMs) are **advanced AI systems trained on vast text collections to understand and generate human language through pattern recognition.**
+Large Language Models (LLMs) are **sophisticated artificial intelligence systems that have been trained on enormous amounts of text data to grasp and produce human-like language via pattern analysis.**
 
 This overview **focuses on instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.** See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
 
@@ -649,7 +649,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 #### Open source Models 
 
-***Massive models (<70B)*** : These models demand substantial RAM and VRAM, which can make local deployment impractical for many users. As a result, they are frequently deployed on cloud-based platforms that offer the necessary resources.
+***Large-scale models (>70 billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed.
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | Reasoning Model | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -676,7 +676,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Mid-sized models (<14B)*** : These models are suitable for local deployment on a high-performance workstation. However, this requires a significant investment in high-end consumer hardware, including a powerful GPU, with a total cost typically ranging from $2,000 to $3,400 (or equivalent).
+***Mid-sized models (<14B parameters)*** : These are well-suited for local deployment on high-end workstations. However, such deployment demands substantial investment in hardware, including a powerful GPU and other components, with total costs generally falling between $2,000 to $3,400 (or equivalent).
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | Reasoning Model | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -697,7 +697,8 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Small models (<7B)*** :  These models are lightweight and readily deployable on medium machines, making them accessible to a wider audience. They require a mid-range consumer configuration with a GPU, with a typical investment ranging from $700 to $1,400 (or equivalent).
+***Small models (<7B parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, with costs generally between $700 to $1,400 (or equivalent).
+
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | Reasoning Model | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -721,7 +722,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Tiny models (>7B)*** : These models are designed for broad compatibility, running on even the oldest machines. They require minimal resources – just 6-8 GB of RAM – and can be deployed on most standard consumer hardware configurations.
+***Tiny models (>7B parameters)*** : Designed for broad compatibility, these models can run effectively on older or less powerful machines. They typically require only 6-8 GB of RAM and can generally be deployed across a wide range of standard consumer hardware setups.
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | Reasoning Model | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -738,7 +739,6 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/) | [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) | 1B | 36.32 |128K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemma-3-1b-it](https://huggingface.co/google/gemma-3-1b-it) | 1B | 31.47 | 32k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct) | 0.5B | 31.37 | 32K  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
-
 
 
 <br>
