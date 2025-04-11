@@ -64,7 +64,7 @@ Modern development environments now **leverage AI capabilities to enhance code s
 
 - ***Claude 3.7 Sonnet and Claude 3.5 Sonnet*** by Anthropic
 - ***o1 / o3-mini and gpt-4.5*** by OpenAI
-- ***Gemini 2.0 Flash and Gemini 2.0 Pro*** by Google
+- ***Gemini 2.0 Flash and Gemini 2.5 Pro*** by Google
 - ***Deepseek-R1 and Deepseek-V3*** by Deepseek
 - ***Cursor-fast and Cursor-small*** by Cursor
 
@@ -181,25 +181,20 @@ Some key features of Cursor include:
 
 Now that you've chosen your provider, let's find the right model for your coding needs.
 
-We designed **two tables** to assist those who require **guidance in selecting the ideal model for coding purposes.**
+To ensure optimal performance, **I have outlined the recommended hardware requirements for each model.**
 
-The first table highlights **Open-source models**, which you can typically run **locally on your machine** (Probably not hte Massive Models). To ensure a smooth experience running these models locally, I will provide the necessary hardware requirements for optimal performance. Please note that while you may be able to run certain models with lower hardware specifications, you can expect slower output and performance as a result.
+For **users with limited system resources** or older hardware configurations, I will also provide **cloud-based providers that can efficiently run these models**.
 
-The second table features **Proprietary models** that usually operate on **cloud-based providers**.
+> [!IMPORTANT]
+> Please note that while it is possible to **run models without a GPU**, doing so will load the model into RAM and perform inference using the CPU.
+>
+> ***This approach will significantly slow down inference speeds.***
 
 The models are ranked according to **[BigCodeBench Pass@1](https://bigcode-bench.github.io/)** scores (with higher scores indicating better performance). ***Pass@1 is the probability of passing a given problem in one attempt***.
 
-> [!CAUTION]
-> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> Please note that the hardware requirements provided are only indicative, and the specified VRAM requirements in the tables below apply specifically to the default Ollama Q4_0 quantization version of the models. [Learn more about LLMs Quantization](https://huggingface.co/blog/merve/quantization). <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
-
-> [!TIP]
-> **You can always try different models to find your perfect match. Many developers mix and match based on different tasks!**
->
-> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> **Badges provide direct links to model downloads, provider services, and official documentation.** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
-
 ### Open Source Models
 
-***Massive models*** : Challenging for local deployment due to computational requirements. Use them via any of the [listed Cloud-based Providers](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#cloud-based-providers-1) (e.g. Groq / Together / Mistral or OpenRouter).
+***Large-scale models (>70 billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed. Use them via any of the [listed Cloud-based Providers](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#cloud-based-providers-1).
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
@@ -217,7 +212,7 @@ The models are ranked according to **[BigCodeBench Pass@1](https://bigcode-bench
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/)            | [CodeLlama-70B-Instruct](https://ollama.com/library/codellama:70b-instruct) | 70B |  40GB+ VRAM GPU (2xRTX 4090 or better) | 13.5 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Ollama.svg" alt="Ollama" width="230" height="30" />](https://ollama.com/library/codellama:70b-instruct) | None |
 
 
-**Mid-sized models** : Suitable for deployment on a high-performance local workstation.
+***Mid-sized models (<14B parameters)*** : These are well-suited for local deployment on high-end workstations. However, such deployment demands substantial investment in hardware, including a powerful GPU and other components, with total costs generally falling between $2,000 to $3,400 (or equivalent).
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
@@ -230,7 +225,7 @@ The models are ranked according to **[BigCodeBench Pass@1](https://bigcode-bench
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)        | [DeepSeek-Coder-V2-Lite-Instruct](https://ollama.com/library/deepseek-coder-v2)    | 16B  | 10GB+ VRAM GPU (RX 7800 or RTX 4070 or better)| 17.2   | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Ollama.svg" alt="Ollama" width="230" height="30" />](https://ollama.com/library/deepseek-coder-v2) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://chat.deepseek.com/sign_in?from=coder)  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/)          | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B  | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) | 15.2 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Ollama.svg" alt="Ollama" width="230" height="30" />](https://ollama.com/wojtek/opencodeinterpreter)  | None |
 
-***Small models*** : Lightweight and deployable on most local machines.
+***Small models (<7B parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, with costs generally between $700 to $1,400 (or equivalent).
 
 | Organization       | Model                                                                 | Model Size  | Hardware requirement              | Pass@1 score (/100) |  Ollama libraries |  Cloud-based providers |
 |:------------------:|:---------------------------------------------------------------------:|:-----------:|:---------------------------------:|:-----------:|:-----------------:|:----------------------:|
@@ -317,13 +312,13 @@ For those who prioritize keeping everything local and private, I'll be using ***
   },
 ```
 
-* Replace **starcoder-2-3b** with the model you prefer. For example, if you want to use **Codestral:22b**, update the code to:
+* Replace **starcoder-2-3b** with the model you prefer. For example, if you want to use **Qwen2.5-Coder-32B-Instruct**, update the code to:
 
  ```
  "tabAutocompleteModel": {
-    "title": "codestral:22b",
+    "title": "Qwen2.5-Coder-32B-Instruct",
     "provider": "ollama",
-    "model": "codestral:22b"
+    "model": "Qwen2.5-Coder-32B-Instruct"
   },
 ```
 or by **Qwen2.5-Coder-7B-Instruct** for less powerfull computers : 
