@@ -1,8 +1,9 @@
 <div align="center"> 
 
-[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=AIEnhancedWork%20🤖&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
+<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/AIEnhancedWork.png">
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Welcome to AIEnhancedWork repo*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+<br>
+<br>
 
 This repository provides **a curated index of impactful AI tools and models**. Selection emphasizes technical merit and practical utility, **without endorsement**.
 ***We are Prioritizing open-source for accessibility and flexibility.***
