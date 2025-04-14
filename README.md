@@ -5,22 +5,19 @@
 <br>
 <br>
 
-This repository provides **a curated index of impactful AI tools and models**. Selection emphasizes technical merit and practical utility, **without endorsement**.
-***We are Prioritizing open-source for accessibility and flexibility.***
+***A curated index of impactful AI tools and models, that emphasizes technical merit, practical utility and Prioritizing open-source.***
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />  **Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
-	
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
+🔺**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.** 🔺
 
-**🌟 Star AIEnhancedWork if you find it useful!**
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=for-the-badge)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
 
 </div>
 
 <br>
 
  <details>
-		<summary> <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Waving Hand" width="25" height="25" /> <h2>Table of contents</h2> <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left.png" alt="Waving Hand" width="25" height="25" /> </summary>
+		<summary> &nbsp; <h2>Table of contents</h2> </summary>
 
 <br>
 
@@ -93,8 +90,6 @@ This repository provides **a curated index of impactful AI tools and models**. S
     - [Website Building Tools](#website-building-tools)
 
 </details>
-
-<br>
 
 # Introduction
 
