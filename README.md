@@ -700,7 +700,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Small models (7B+ parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, including a GPU (8-16 GB of VRAM) and associated components, with costs generally between $1000 to $2,000 (or equivalent).
+***Small models (7B+ parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, including a GPU (8-16 GB of VRAM) and associated components, with costs generally between $1,000 to $2,000 (or equivalent).
 
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin |
