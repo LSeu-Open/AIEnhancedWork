@@ -646,7 +646,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 #### Open source Models 
 
-***Large-scale models (>70 billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed.
+***Large-scale models (70+ billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed.
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -675,7 +675,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Mid-sized models (<14B parameters)*** : These are well-suited for local deployment on high-end workstations. However, such deployment demands substantial investment in hardware, including a powerful GPU and other components, with total costs generally falling between $2,000 to $3,400 (or equivalent).
+***Mid-sized models (14+ billion parameters)*** : These models are well-suited for local deployment on high-end workstations. However, such deployments require a significant hardware investment, including a powerful GPU (24-32 GB of VRAM) and associated components, typically resulting in total costs exceeding $3,000 (or equivalent).
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -700,7 +700,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Small models (<7B parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, with costs generally between $700 to $1,400 (or equivalent).
+***Small models (7B+ parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, including a GPU (8-16 GB of VRAM) and associated components, with costs generally between $1000 to $2,000 (or equivalent).
 
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin |
@@ -730,7 +730,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Tiny models (>7B parameters)*** : Designed for broad compatibility, these models can run effectively on older or less powerful machines. They typically require only 6-8 GB of RAM and can generally be deployed across a wide range of standard consumer hardware setups.
+***Tiny models (under 7B parameters)*** : Designed for broad compatibility, these models run effectively on older or less powerful machines, making them accessible to a wider range of users. They typically require only 6-8 GB of RAM and can be deployed across a wide range of standard consumer hardware setups.
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
