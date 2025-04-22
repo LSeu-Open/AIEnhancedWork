@@ -1077,7 +1077,8 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 
 #### Open source VLMs
 
-***Large-scale models (>70 billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed.
+***Large-scale models (70+ billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed.
+
 | Organization     | Model                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score      | Geographic Origin |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:-----------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL2_5-78B-MPO](https://huggingface.co/OpenGVLab/InternVL2_5-78B-MPO) | 78B | 80.3  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
@@ -1090,7 +1091,7 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 
 <br>
 
-***Mid-sized models (<14B parameters)*** : These are well-suited for local deployment on high-end workstations. However, such deployment demands substantial investment in hardware, including a powerful GPU and other components, with total costs generally falling between $2,000 to $3,400 (or equivalent).
+***Mid-sized models (14+ billion parameters)*** : These models are well-suited for local deployment on high-end workstations. However, such deployments require a significant hardware investment, including a powerful GPU (24-32 GB of VRAM) and associated components, typically resulting in total costs exceeding $3,000 (or equivalent).
 
 | Organization     | Model                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score      | Geographic Origin |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:-----------:|
@@ -1102,10 +1103,11 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Rhymes.svg" alt="Rhymes" width="200" height="20" />](https://rhymes.ai/)  | [Aria](https://huggingface.co/rhymes-ai/Aria) | 25.3B | 64.3 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="200" height="20" />](https://cohere.com/)         | [Aya-vision-32b](https://huggingface.co/CohereForAI/aya-vision-32b) | 32B | **Pending** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)   | [Mistral-Small-3.1-24B-Instruct](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503) | 24B | **Pending** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/eu.svg" alt="eu" width="20" height="15" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL3-38B](https://huggingface.co/OpenGVLab/InternVL3-38B) | 38B | **Incoming**  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 <br>
 
-***Small models (<7B parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, with costs generally between $700 to $1,400 (or equivalent).
+***Small models (7B+ parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, including a GPU (8-16 GB of VRAM) and associated components, with costs generally between $1,000 to $2,000 (or equivalent).
 
 | Organization     | Model                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score      | Geographic Origin |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:-----------:|
@@ -1117,10 +1119,13 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenBMB.svg" alt="OpenBMB" width="200" height="20" />](https://www.openbmb.cn/) | [MiniCPM-V-2_6](https://huggingface.co/openbmb/MiniCPM-V-2_6) | 8B | 65.6  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/)   | [Pixtral-12B](https://huggingface.co/mistralai/Pixtral-12B-2409) | 12B | 61.4 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/eu.svg" alt="eu" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/)         | [Llama-3.2-11B-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) | 11B | 58.2 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL3-14B](https://huggingface.co/OpenGVLab/InternVL3-14B) | 14B | **Incoming**  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL3-8B](https://huggingface.co/OpenGVLab/InternVL3-8B) | 38B | **Incoming**  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+
 
 <br>
 
-***Tiny models (>7B parameters)*** : Designed for broad compatibility, these models can run effectively on older or less powerful machines. They typically require only 6-8 GB of RAM and can generally be deployed across a wide range of standard consumer hardware setups.
+***Tiny models (under 7B parameters)*** : Designed for broad compatibility, these models run effectively on older or less powerful machines, making them accessible to a wider range of users. They typically require only 6-8 GB of RAM and can be deployed across a wide range of standard consumer hardware setups.
 
 | Organization     | Model                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score      | Geographic Origin |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:-----------:|
@@ -1129,6 +1134,8 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)    | [Phi-3.5-vision-instruct](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) | 4.15B | 54.2 |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="HuggingFace" width="200" height="20" />](https://huggingface.co/) | [SmolVLM2-2.2B-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct) | 2.2B | 53 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/eu.svg" alt="eu" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="200" height="20" />](https://cohere.com/)         | [Aya-vision-8b](https://huggingface.co/CohereForAI/aya-vision-8b) | 8B | **Pending** |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL3-2B](https://huggingface.co/OpenGVLab/InternVL3-8B) | 2B | **Incoming**  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL3-1B](https://huggingface.co/OpenGVLab/InternVL3-8B) | 1B | **Incoming**  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 <br>
 
