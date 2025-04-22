@@ -637,14 +637,14 @@ This overview **focuses on instruction-tuned models to maintain clarity**. **Fin
 
 Models are ranked using our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) that balances multiple criteria, such as Entity & Publisher benchmarks, human preference, and technical features. 
 
+### Advanced Language and Reasoning LLMs
+
+#### Open source Models 
+
 **Note that a higher score doesn't guarantee better performance in all tasks or domains; it offers an overall assessment within the model's own size family.**
 
 > [!Tip]
 > Follow our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to deploy LLMs locally using Ollama and Page Assist for secure, privacy-focused language processing.
-
-### Advanced Language and Reasoning LLMs
-
-#### Open source Models 
 
 ***Large-scale models (70+ billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed.
 
@@ -754,7 +754,9 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 <br>
 <br>
 
-#### Proprietary Models 
+#### Proprietary Models
+
+**Note that scores reflect an overall assessment and do not guarantee consistently superior performance in every situation.**
 
 | Organization       | Model Name                                                                       | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (Alpha v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin | Pricing  |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:---:|:-------------:|:-------------:|
