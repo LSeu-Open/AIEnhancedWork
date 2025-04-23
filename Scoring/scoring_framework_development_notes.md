@@ -39,10 +39,24 @@
 
 #### Considered Entity Benchmarks for LLMS
 
+**Generalist**
 - [Artificial Analysis](https://artificialanalysis.ai/models)
-- [LiveCodeBench](https://livecodebench.github.io/leaderboard.html)
-- [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)
 - [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
+- [OpenCompass LLM Leaderboard](https://rank.opencompass.org.cn/leaderboard-llm/?m=25-01)
+- [LiveBench Leaderboard](https://livebench.ai/#/)
+- [LLM Explorer Leaderboard](https://llm.extractum.io/list/)
+- [UGI Leaderboard](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard)
+
+**Coding**
+
+- [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)
+- [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html)
+- [Webdev Arena](https://web.lmarena.ai/leaderboard)
+
+**Vision**
+
+- [Open VLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard)
+
 
 #### Considered Entity Weighting
 
@@ -51,26 +65,7 @@
 Entity Score = Final Score × (25/100)
 
 When all benchmarks are available:
-Each leaderboard gets equal weight: 25% (100% ÷ 4)
- 
-**Example Calculation**
-
-If a model scores:
-
-Artificial Analysis: 82%
-LiveCodeBench: Not Available
-Big Code Models: 75%
-Open LLM: 85%
-
-
-Adjust weights for 3 available benchmarks:
-33% each
-
-Calculate weighted average:
-Final Score = (82×20)+(75×20)+(85×20)/100= 80.66%  
-​
-Scale to framework points:
-Entity Score = 80.66 × (25/100) = 20.165 points
+Each leaderboard gets equal weight: 10% (100% ÷ 10)
 
 **Interpretation**
 
@@ -113,121 +108,78 @@ Score < 10 points (<40%) = Below Average Performance
 
 #### Considered Benchmarks for LLMS
 
-##### General Reasoning and Comprehension
+### General knowledge and reasoning
 
-| Benchmark | Handles Contamination | Description |
-|-----------|---------------------|-------------|
-| MMLU | Yes | 3.5% |
-| MMLU Pro | Unknown | 5.5% |
-| BigBench | No | Large-scale tasks testing model capabilities |
-| DROP | No | Tests numerical reasoning and reading comprehension |
-| HellaSwag | No | Evaluates commonsense completion prediction |
-| GPQA | Yes | Graduate-level science questions with contamination resistance |
-| ARC-C | No | Tests commonsense and implicit knowledge |
-| LiveBench | Yes | Continuously updated questions from recent sources |
-| LatestEval | Yes | Uses recent data to prevent memorization |
+| Benchmark            | Contamination Free | Weight |
+|----------------------|--------------------|--------|
+| MMLU                 | No                 | 3    |
+| MMLU Pro             | No                 | 5    |
+| BigBenchHard         | No                 | 3    |
+| GPQA diamond         | Yes                | 7    |
+| DROP                 | No                 | 3    |
+| Humanity's Last Exam | No                 | 5    |
+| HellaSwag            | No                 | 3    |
+| ARC-C                | No                 | 3    |
 
-##### Instruction Following
+### Instruction following
 
-| Benchmark | Handles Contamination | Description |
-|-----------|---------------------|-------------|
-| AlignBench | Yes | Tests Chinese language model alignment |
-| Wild Bench | No | Real-world user query evaluation |
-| MT-bench | No | Multi-turn conversation assessment |
-| IFEval | No | Instruction following evaluation |
-| Arena-Hard | No | Challenging user queries from Chatbot Arena |
-| TruthfulQA | No | Tests factual accuracy and truthfulness |
+| Benchmark   | Contamination Free | Weight |
+|-------------|--------------------|--------|
+| Wild bench  | No                 | 3.0    |
+| MT bench    | No                 | 3.0    |
+| IFEval      | No                 | 3.0    |
+| Arena Hard  | No                 | 3.0    |
 
-##### Mathematical Reasoning
+### Math
 
-| Benchmark | Handles Contamination | Description |
-|-----------|---------------------|-------------|
-| MATH | No | Mathematical problem-solving evaluation |
-| GSM-8K | No | Grade school math word problems |
-| MGSM | No | Multilingual grade school math problems |
+| Benchmark | Contamination Free | Weight |
+|-----------|--------------------|--------|
+| Math      | No                 | 3.0    |
+| GSM8K     | No                 | 3.0    |
+| AIME      | No                 | 4.0    |
 
-##### Code Generation
+### Coding
 
-| Benchmark | Handles Contamination | Description |
-|-----------|---------------------|-------------|
-| HumanEval | No | Programming challenges for code generation |
-| HumanEval Plus | No | Extended version with additional tests |
-| MBPP | No | Python programming problems |
-| MBPP Plus | No | Enhanced MBPP with more test cases |
+| Benchmark      | Contamination Free | Weight |
+|----------------|--------------------|--------|
+| LiveCodeBench  | Yes                | 4    |
+| Aider Polyglot | No                 | 2    |
+| SWE-Bench      | No                 | 2    |
+| SciCode        | Yes                | 4    |
 
-##### Tool Use
+### Multilingual
 
-| Benchmark | Handles Contamination | Description |
-|-----------|---------------------|-------------|
-| SWE-bench | No | Software engineering problem solving |
-| API-Bank | No | API usage scenario testing |
-| BFCL | Yes | Berkeley Function-Calling evaluation |
-| Gorilla | No | API interaction capability testing |
-| Nexus | No | Tool and API usage assessment |
+| Benchmark | Contamination Free | Weight |
+|-----------|--------------------|--------|
+| MGSM      | No                 | 4.0    |
+| MMMLU     | No                 | 4.0    |
 
+### Context
 
-<br>
-<br>
+| Benchmark  | Contamination Free | Weight |
+|------------|--------------------|--------|
+| LongBench  | No                 | 2.5    |
+| RULER 128K | No                 | 2.5    |
+| RULER 32K  | No                 | 2.5    |
+| MTOB       | No                 | 2.5    |
 
-New weighted distribution that accounts for both contamination sensitivity and the different benchmark categories
+### Function calling
 
-##### General Reasoning and Comprehension (35%)
+| Benchmark | Contamination Free | Weight |
+|-----------|--------------------|--------|
+| BFCL      | Yes                | 4    |
+| Gorilla   | No                 | 2    |
+| Nexus     | No                 | 2    |
 
-| Benchmark Name | Contamination Sensitive | Weight |
-|----------------|------------------------|---------|
-| MMLU | No | 3.0% |
-| MMLU Pro | Yes | 8.0% |
-| BigBench | Yes | 3.0% |
-| DROP | No | 7.0% |
-| HellaSwag | No | 7.0% |
-| GPQA | Yes | 2.0% |
-| ARC-C | Yes | 2.0% |
-| LiveBench | Yes | 1.5% |
-| LatestEval | Yes | 1.5% |
+### Vision
 
-##### Instruction Following (25%)
-
-| Benchmark Name | Contamination Sensitive | Weight |
-|----------------|------------------------|---------|
-| AlignBench | Unknown | 4.0% |
-| Wild Bench | Yes | 4.0% |
-| MT-bench | Yes | 4.0% |
-| IFEval | Yes | 4.0% |
-| Arena-Hard | Yes | 4.5% |
-| TruthfulQA | Yes | 4.5% |
-
-##### Mathematical Reasoning (15%)
-
-| Benchmark Name | Contamination Sensitive | Weight |
-|----------------|------------------------|---------|
-| MATH | Yes | 4.0% |
-| GSM-8K | Yes | 4.0% |
-| MGSM | No | 7.0% |
-
-##### Code Generation (12%)
-
-| Benchmark Name | Contamination Sensitive | Weight |
-|----------------|------------------------|---------|
-| HumanEval | Yes | 3.0% |
-| HumanEval Plus | Yes | 3.0% |
-| MBPP | Yes | 3.0% |
-| MBPP Plus | Yes | 3.0% |
-
-##### Tool Use (13%)
-
-| Benchmark Name | Contamination Sensitive | Weight |
-|----------------|------------------------|---------|
-| SWE-bench | Yes | 2.0% |
-| API-Bank | Yes | 2.0% |
-| BFCL | No | 5.0% |
-| Gorilla Benchmark | Yes | 2.0% |
-| Nexus | Yes | 2.0% |
-
-This distribution:
-- Prioritizes non-contaminated benchmarks with higher weights
-- Maintains category importance (General > Instruction > Math > Code/Tool)
-- Allocates more weight to fundamental capabilities
-- Ensures all weights sum to 100%
+| Benchmark | Contamination Free | Weight |
+|-----------|--------------------|--------|
+| MMMU      | No                 | 2    |
+| Mathvista | yes                | 3    |
+| ChartQA   | No                 | 1    |
+| DocVQA    | No                 | 1    |
+| AI2D      | No                 | 1    |
 
 <br>
 <br>
@@ -236,6 +188,7 @@ This distribution:
 **Scaling Formula**
 
 Framework Score for dev Benchmarks section = Final Score × (35/100)
+
 ​
 **Complete Example**
 
