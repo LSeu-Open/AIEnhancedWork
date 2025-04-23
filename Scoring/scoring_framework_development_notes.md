@@ -274,23 +274,30 @@ This approach ensures:
 <br>
 <br>
 
-## Community Assessment (20 points)
+## Community Benchs (20 points)
 
-- Lmsys Arena Elo score (when available)
-- OpenLM arena Elo score (when available)
+No sentiment analysis for now
+
+### LMsys Arena Elo Score (10 points)
+
+setup multiple time points via a early score (model just got released), and a late score (model has been released for a long time)
+
+Provisional score (first month after release) : predictive scoring based on model architecture , tech specs, and model performance on the dev benchs.
+
+Stable score (after 1 month) : based on the actual LMsys Arena score if it is available and with sufficient battles count or use the provisional score.
+
+:TODO: the test implementation OK, need a robust dataset to train the model for a better prediction, feature correlation and hyperparameter tuning.
+
+
+### Hugging Face Community Metrics (10 points)
+
+hf community likes or monthly downloads
+
+:TODO: Explore the hf community metrics and how it can be used to evaluate the community support of a model
 
 **Scoring Formula**
 
 Community Score = Normalized Elo × (20/100)
- 
-**Elo Score Normalization**
-
-Based on current arena standings:
-
-- Top performers: ~1300-1365 Elo
-- Strong performers: ~1200-1300 Elo
-- Average performers: ~1100-1200 Elo
-- Base rating: 1000 Elo
 
 Normalized Elo = ((Model Elo − 1000) / 365) × 100
 
