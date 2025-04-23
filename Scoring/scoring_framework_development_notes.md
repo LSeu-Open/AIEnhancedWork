@@ -35,7 +35,7 @@
 
 ## External Benchmarks (60 points)
 
-### Entity Benchmarks (25 points)
+### Entity Benchmarks (30 points)
 
 #### Considered Entity Benchmarks for LLMS
 
@@ -87,7 +87,7 @@ Score < 10 points (<40%) = Below Average Performance
   
 <br>
 
-### Dev Benchmarks (35 points)
+### Dev Benchmarks (30 points)
 
 #### Why Non-Contaminated Benchmarks Should Have Higher Weights
 
@@ -125,18 +125,18 @@ Score < 10 points (<40%) = Below Average Performance
 
 | Benchmark   | Contamination Free | Weight |
 |-------------|--------------------|--------|
-| Wild bench  | No                 | 3.0    |
-| MT bench    | No                 | 3.0    |
-| IFEval      | No                 | 3.0    |
-| Arena Hard  | No                 | 3.0    |
+| Wild bench  | No                 | 3    |
+| MT bench    | No                 | 3   |
+| IFEval      | No                 | 3    |
+| Arena Hard  | No                 | 3   |
 
 ### Math
 
 | Benchmark | Contamination Free | Weight |
 |-----------|--------------------|--------|
-| Math      | No                 | 3.0    |
-| GSM8K     | No                 | 3.0    |
-| AIME      | No                 | 4.0    |
+| Math      | No                 | 3    |
+| GSM8K     | No                 | 3    |
+| AIME      | No                 | 4   |
 
 ### Coding
 
@@ -151,25 +151,29 @@ Score < 10 points (<40%) = Below Average Performance
 
 | Benchmark | Contamination Free | Weight |
 |-----------|--------------------|--------|
-| MGSM      | No                 | 4.0    |
-| MMMLU     | No                 | 4.0    |
+| MGSM      | No                 | 2      |
+| MMMLU     | No                 | 2      |
+| C-Eval or CMMLU    | No        | 2      |
+| AraMMLu   | No                 | 2      |
 
 ### Context
 
 | Benchmark  | Contamination Free | Weight |
 |------------|--------------------|--------|
-| LongBench  | No                 | 2.5    |
-| RULER 128K | No                 | 2.5    |
-| RULER 32K  | No                 | 2.5    |
-| MTOB       | No                 | 2.5    |
+| LongBench  | No                 | 2   |
+| RULER 128K | No                 | 2    |
+| RULER 32K  | No                 | 2    |
+| MTOB       | No                 | 2    |
 
-### Function calling
+### Function calling (tool use and agent)
 
 | Benchmark | Contamination Free | Weight |
 |-----------|--------------------|--------|
-| BFCL      | Yes                | 4    |
-| Gorilla   | No                 | 2    |
-| Nexus     | No                 | 2    |
+| BFCL      | Yes                | 3    |
+| AgentBench | No                | 2    |
+| Gorilla   | No                 | 1    |
+| ToolBench | No                 | 2    |
+| MINT      | No                 | 2    |
 
 ### Vision
 
@@ -180,6 +184,7 @@ Score < 10 points (<40%) = Below Average Performance
 | ChartQA   | No                 | 1    |
 | DocVQA    | No                 | 1    |
 | AI2D      | No                 | 1    |
+
 
 <br>
 <br>
