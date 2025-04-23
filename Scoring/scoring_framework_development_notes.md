@@ -322,54 +322,57 @@ Score < 8 points (Elo ≤ 1000) = Average/Below Average
 
 <br>
 
+
 ## Technical Performance (20 points)
 
-- Price per USD per 1M Tokens
+- Price (USD) per 1M Tokens
 - Context window
 - Model size vs. performance ratio
 
-**Price per USD per 1M Tokens (8 points)**
+**Price (USD) per 1M Tokens (8 points)**
 
 | Cost Range (USD/1M tokens) | Points |
-|-----------|--------|
-|< $1 |	8.0 |
-| $1 - $3 |	7.0 |
-| $3 - $5 |	6.0 |
-| $5 - $10 | 5.0 |
-| $10 - $20 |	4.0 |
-| > $20 |	3.0 |
-| > $40 |	2.0 |
-| > $80 |	1.0 |
+|----------------------------|--------|
+| < $0.10 | 8.0 |
+| $0.10 - $0.50 | 7.0 |
+| $0.50 - $1.00 | 6.0 |
+| $1.00 - $3.00 | 5.0 |
+| $3.00 - $5.00 | 4.0 |
+| $5.00 - $10.00 | 3.0 |
+| $10.00 - $20.00 | 2.0 |
+| > $20.00 | 1.0 |
 
 **Context Window (6 points)**
 
 | Window Size | Points |
 |-----------|--------|
-| > 200K |	6.0 |
-| > 100K |	5.0 |
-| 32K - 100K |	4.0 |
-| 16K - 32K |	3.0 |
-| 8K - 16K |	2.0 |
-| < 8K	| 1.0 |
+| > 1M      |	6.0 |
+| 200K - 1M |	5.0 |
+| 100K - 200K |	4.0 |
+| 32K - 100K |	3.0 |
+| 8K - 32K   |	2.0 |
+| < 8K      |	1.0 |
 
 **Model Size vs Performance Ratio (6 points)**
 
-|Performance & Size Category |	Points |
-|-----------|--------|
-| Excellent (≥85% benchmark) with Size Efficiency* | 	6.0 |
-| Good (75-84% benchmark) with Size Efficiency* |	5.0 |
-| Decent (65-74% benchmark) with Size Efficiency* |	4.0 |
-| Moderate (55-64% benchmark) |	3.0 |
-| Poor (<55% benchmark) |	2.0 |
+| Combined Score | Points |
+|----------------|--------|
+| ≥ 1.0          | 6.0 |
+| 0.8 - 0.99     | 5.0 |
+| 0.6 - 0.79     | 4.0 |
+| 0.4 - 0.59     | 3.0 |
+| 0.2 - 0.39     | 2.0 |
+| < 0.2         | 1.0 |
 
-Size Efficiency Thresholds:
-- Ultra Efficient (<15B params): No reduction in base score
-- Very Efficient (15-29B params): Max 5.5 points
-- Efficient (30-39B params): Max 5.0 points
-- Moderate (40-69B params): Max 4.0 points
-- Large (≥70B params): Max 3.0 points
+Where Combined Score = (Average Benchmark Score × Efficiency Factor)
 
-*Final score is the minimum between the performance-based score and the size efficiency maximum threshold.
+Efficiency Factor:
+
+<15B params: 1.0
+15-40B params: 0.9
+40-70B params: 0.8
+70-100B params: 0.7
+>100B params: 0.6
 
 <br>
 <br>
