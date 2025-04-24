@@ -2,8 +2,6 @@
 
 ## Scoring Framework Alpha Version (100 points total)
 
-![Scoring_Framework](https://github.com/user-attachments/assets/f705f0d5-2859-4872-8b43-3c772c7ff8b6)
-
 <br>
 
 ## Limitations of the current Framework 
@@ -12,10 +10,8 @@
 
 **External Benchmarks (60 points)**
 - Models without public benchmark scores cannot be evaluated (Will become a exclusion rule in the final framework)
-- Non-English models might be excluded from primarily English-based benchmarks (this is an issue LT)
 
 **Community Assessment (20 points)**
-- New models without sufficient arena participation would be disadvantaged (Score Adjustment and Weight Redistribution can partially resolve this until participation is sufficient) 
 - Models not publicly available for testing would be excluded
 - Regional models might lack sufficient community exposure (this is an issue LT)
 
@@ -23,12 +19,6 @@
 - Open-source models might lack standardized pricing metrics (Score Adjustment and Weight Redistribution can resolve this)
 - Research models might not have production-ready context windows (Score Adjustment and Weight Redistribution can resolve this)
 - Specialized models might be unfairly judged on general performance ratios (this is an issue LT)
-
-### Ideas to avoid Exclusion
-- Create tiered evaluation categories (Research, Production, Specialized)
-- Allow partial scoring with clear documentation of missing metrics
-- Implement weighted adjustments for specialized models
-- Temporary score until more metrics are available
 
 <br>
 
@@ -290,13 +280,6 @@ Stable score (after 1 month) : based on the actual LMsys Arena score if it is av
 
 :TODO: the test implementation OK, need a robust dataset to train the model for a better prediction, feature correlation and hyperparameter tuning.
 
-
-### Hugging Face Community Metrics (10 points)
-
-hf community likes or monthly downloads
-
-:TODO: Explore the hf community metrics and how it can be used to evaluate the community support of a model
-
 **Scoring Formula**
 
 Community Score = Normalized Elo × (20/100)
@@ -328,6 +311,50 @@ Score 8-12 points (Elo 1100-1200) = Good Performance
 Score < 8 points (Elo ≤ 1000) = Average/Below Average
 - Baseline or lower performance
 - Mixed to negative user preference
+
+### Hugging Face Community Metrics (10 points)
+
+In order to avoid over reliance on the LMsys Arena score, we will try to use a custom Hugging Face Community Score as a complement.
+
+The Hugging Face Community Score (0-10 points) evaluates a model's community adoption and maturity using three weighted components:
+
+**Downloads Component (0-4 points)**
+
+| Download Range | Points | Notes |
+|----------------|--------|-------|
+| <10 downloads | 0 | Minimal adoption |
+| 10-999 downloads | 0-1 | Scaled logarithmically |
+| 1K-99K downloads | 1-3 | Significant growth per log unit |
+| 100K-10M downloads | 3-4 | Elite tier with gradual scaling |
+| 10M+ downloads | 4 | Maximum possible score |
+
+**Likes Component (0-4 points)**
+
+| Likes Range | Points | Formula |
+|-------------|--------|---------|
+| <3 likes | ~0 | Minimal community validation |
+| 10 likes | ~0.8 | Modest community interest |
+| 100 likes | ~2.1 | Strong community endorsement |
+| 1,000+ likes | ~4.0 | Maximum community appreciation |
+
+**Age/Maturity Component (0-2 points)**
+
+| Age Range | Points | Rationale |
+|-----------|--------|-----------|
+| <1 month | <0.5 | Encourages validation period |
+| 1-3 months | 0.5-1.5 | Growing maturity |
+| 3-12 months | 1.5-2.0 | Optimal maturity zone |
+| >12 months | 0.5-2.0 | Slight reduction for potentially outdated models |
+
+This balanced approach produces a score that effectively differentiates between:
+
+| Score Range | Model Category |
+|-------------|----------------|
+| <3 points | Niche models |
+| 3-6 points | Moderately adopted models |
+| 6-8 points | Community favorites |
+| 8-10 points | Industry-leading models |
+
 
 <br>
 
@@ -386,76 +413,9 @@ Efficiency Factor:
 <br>
 <br>
 
-### Exploring Problematic scenarios
-
-#### No Community score (no Elo grading from leaderboard)
-
-**Potential Model Categories for This Scenario**
-
-- Research Models: Models developed by academic institutions or research organizations, often focusing on specific aspects of a larger problem.
-- Niche Models: Models created by specialized entities or small teams, tailored to address unique or particular challenges within the broader context.
-
-**Redistribution Method**
-
-New Point Distribution (100 points total)
-- External Benchmarks: 75 points
-  - Entity Benchmarks: 31.25 points (previously 25)
-  - Dev Benchmarks: 43.75 points (previously 35)
-- Technical Performance: 25 points (previously 20)
-
-**Calculation Formula**
-
-Adjustment Factor = 100/80 = 1.25
-
-For each remaining category
-
-New Score = Original Score × 1.25
-
-**Implementation Example**
-
-If a model scores:
-Entity Benchmarks: 20/25 points
-Dev Benchmarks: 28/35 points
-Technical Performance: 15/20 points
-
-New adjusted scores:
-Entity Benchmarks: 20 × 1.25 = 25/31.25 points
-Dev Benchmarks: 28 × 1.25 = 35/43.75 points
-Technical Performance: 15 × 1.25 = 18.75/25 points
-Total Final Score: 78.75/100 points
-
-This approach maintains the relative importance of each category while ensuring the final score remains on a 100-point scale.
-
-<br>
-<br>
-<br>
-
-## Calculation
+## Final Score Calculation
 
 Final Score = (External × 0.6) + (Community × 0.2) + (Technical × 0.2)
 
 <br>
 <br>
-
-## Citations
-
-- [1] https://docs.confident-ai.com/docs/benchmarks-mmlu
-- [2] https://paperswithcode.com/dataset/mmlu
-- [3] https://klu.ai/glossary/mmlu-pro-eval
-- [4] http://arxiv.org/abs/2311.07911
-- [5] https://paperswithcode.com/dataset/arena-hard
-- [6] https://datatunnel.io/glossary/gpqa/
-- [7] https://datatunnel.io/glossary/arc-c/
-- [8] https://www.charlesrathkopf.net/publication/bigbench/bigbench.pdf
-- [9] https://www.theainavigator.com/blog/what-is-truthfulqa
-- [10] https://paperswithcode.com/dataset/alignbench
-- [11] https://arxiv.org/html/2406.04770v1
-- [12] https://klu.ai/glossary/mt-bench-eval
-- [13] https://klu.ai/glossary/math-eval
-- [14] https://docs.confident-ai.com/docs/benchmarks-gsm8k
-- [15] https://klu.ai/glossary/humaneval-benchmark
-- [16] https://evalplus.github.io/leaderboard.html
-- [17] https://arxiv.org/html/2410.06992v1
-- [18] https://aclanthology.org/2023.emnlp-main.187.pdf
-- [19] https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html
-- [20] https://arxiv.org/pdf/2305.15334.pdf
