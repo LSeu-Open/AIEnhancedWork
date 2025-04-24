@@ -117,11 +117,11 @@ Score < 10 points (<40%) = Below Average Performance
 | BigBenchHard         | No                 | 3    |
 | GPQA diamond         | Yes                | 7    |
 | DROP                 | No                 | 3    |
-| Humanity's Last Exam | No                 | 5    |
+| Humanity's Last Exam | No                 | 4    |
 | HellaSwag            | No                 | 3    |
 | ARC-C                | No                 | 3    |
 
-### Instruction following
+### Instruction followingd
 
 | Benchmark   | Contamination Free | Weight |
 |-------------|--------------------|--------|
@@ -142,10 +142,12 @@ Score < 10 points (<40%) = Below Average Performance
 
 | Benchmark      | Contamination Free | Weight |
 |----------------|--------------------|--------|
+| HumanEval      | No                 | 1    |
+| Mbp            | No                 | 1    |
 | LiveCodeBench  | Yes                | 4    |
 | Aider Polyglot | No                 | 2    |
 | SWE-Bench      | No                 | 2    |
-| SciCode        | Yes                | 4    |
+| SciCode        | Yes                | 3    |
 
 ### Multilingual
 
