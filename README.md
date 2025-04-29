@@ -396,6 +396,8 @@ Execute predefined task sequences through algorithmic workflows to **optimize pr
 
 # Coding and Software Development
 
+<br>
+
 ### Coding LLMs
 
  AI models specifically trained on code to **assist with tasks like writing, completing, and understanding software.**
@@ -428,6 +430,8 @@ Execute predefined task sequences through algorithmic workflows to **optimize pr
 > [!Tip]
 > Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) to **configure cloud-based and local LLM providers within your development environment.**
 
+<br>
+
 ### AI-Augmented Integrated Development Environments
 
 Integrated Development Environments (IDEs) **leverage LLM capabilities for code generation, real-time analysis, and syntax optimization, enabling automated code review and contextual development assistance.**
@@ -444,6 +448,8 @@ Integrated Development Environments (IDEs) **leverage LLM capabilities for code 
 > Various VS Code extensions enable integration with LLMs for coding assistance. Notably, Codeium, GitHub Copilot, and Continue.dev are reputable options (see table below).
 > 
 > check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into vs code**.
+
+<br>
 
 ### Coding-focused LLM Providers
 
@@ -467,6 +473,8 @@ Code assistance models provide **contextual suggestions and autocompletion throu
 | [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 | [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 
+<br>
+
 ### App Building Tools
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
@@ -475,6 +483,8 @@ Code assistance models provide **contextual suggestions and autocompletion throu
 | [Dyad](https://www.dyad.sh/)              | an AI tool designed for both building AI applications and functioning as an AI coding mentor and pair programmer. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)        | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />        |
 | [Lovable](https://lovable.dev/)              | an AI tool that generates responsive front-end web applications from natural language prompts. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 | [v0 by Vercel](https://v0.dev/)              | An AI-powered tool designed to generate user interfaces (UI) and corresponding code based on natural language text prompts or image. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+
+<br>
 
 ### Website Building Tools
 
@@ -505,7 +515,7 @@ Website generation platforms utilize **automated design frameworks and code synt
 Computer Vision (CV) frameworks implement **neural architectures for visual data processing, analysis, and synthesis across image and video domains**.
 
 > [!CAUTION]
-> Use AI-generated images responsibly: **Always disclose that they were generated by AI.**
+> Use AI-generated images responsibly: **Always disclose that they were created by AI.**
 > Be mindful of **intellectual property rights.**
 
 > [!TIP]
@@ -741,22 +751,22 @@ Data Analysis frameworks implement **machine learning models for processing stru
 
 ## Language Only Large Language Models
 
-Large Language Models (LLMs) are **sophisticated artificial intelligence systems that have been trained on enormous amounts of text data to grasp and produce human-like language via pattern analysis.**
+Large Language Models (LLMs) are **artificial intelligence systems trained on large amounts of text data to recognize patterns and generate human-like language.**
 
-This overview **focuses on instruction-tuned models to maintain clarity**. **Fine-tuned variants**, while numerous and continuously evolving, **are not included in this comparison.** See [Fine-tuned Models section](#finetuned-llms) below for specialized implementations.
+This overview **focuses on instruction-tuned models for consistency.** Fine-tuned variants, though numerous and constantly developing, are not included in this comparison. For details on specific implementations, see the "[Fine-tuned Models section](#finetuned-llms)" section below.
 
-Models are ranked using our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) that balances multiple criteria, such as Entity & Publisher benchmarks, human preference, and technical features. 
+Models are ranked using our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md), which considers multiple factors such as Entity & Publisher benchmarks, human preference, and technical features.
 
 ### Advanced Language and Reasoning LLMs
 
 #### Open source Models 
 
-**Note that a higher score doesn't guarantee better performance in all tasks or domains; it offers an overall assessment within the model's own size family.**
+**Note that a higher score does not guarantee better performance across all tasks or domains; it provides an overall evaluation within the model's own size category.**
 
 > [!Tip]
 > Follow our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to deploy LLMs locally using Ollama and Page Assist for secure, privacy-focused language processing.
 
-***Large-scale models (70+ billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed.
+***Large-scale models (70+ billion parameters)*** : These require substantial amounts of RAM and GPU memory, making local installation impractical for most users. As a result, these models are typically deployed on cloud-based platforms that provide the necessary computational resources.
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -786,7 +796,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Mid-sized models (14+ billion parameters)*** : These models are well-suited for local deployment on high-end workstations. However, such deployments require a significant hardware investment, including a powerful GPU (24-32 GB of VRAM) and associated components, typically resulting in total costs exceeding $3,000 (or equivalent).
+***Mid-sized models (14+ billion parameters)*** :  These models are suitable for local deployment on high-end workstations. However, such deployments require a significant hardware investment, including a powerful GPU (24–32 GB of VRAM) and related components, typically resulting in total costs exceeding $3,000 (or equivalent).
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -811,7 +821,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Small models (7B+ parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, including a GPU (8-16 GB of VRAM) and associated components, with costs generally between $1,000 to $2,000 (or equivalent).
+***Small models (7B+ parameters)*** :  These are lightweight and easy to deploy on standard machines, offering wider accessibility. They typically require a mid-range consumer setup, including a GPU (8–16 GB of VRAM) and related components, with costs generally ranging from $1,000 to $2,000 (or equivalent).
 
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin |
@@ -843,7 +853,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 <br>
 
-***Tiny models (under 7B parameters)*** : Designed for broad compatibility, these models run effectively on older or less powerful machines, making them accessible to a wider range of users. They typically require only 6-8 GB of RAM and can be deployed across a wide range of standard consumer hardware setups.
+***Tiny models (under 7B parameters)*** : Designed for broad compatibility, these models run effectively on older or less powerful machines, making them accessible to a wider range of users. They typically require only 6–8 GB of RAM and can be deployed across a wide range of standard consumer hardware setups.
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md) (v0.3.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Geographic Origin |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -909,7 +919,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 
 ### Finetuned LLMs
 
-**Fine-tuned Large Language Models (LLMs)** refer to AI models that have been **specifically adapted for a particular domain, task, or dataset.** This adaptation significantly **enhances their performance and accuracy within that specific context**, compared to training them on more general-purpose datasets.
+**Fine-tuned Large Language Models (LLMs)** refer to AI models that have been **specifically adapted for a particular domain, task, or dataset.** This adaptation significantly **enhances their performance and accuracy within that specific context**, compared to using them on more general-purpose datasets.
 
 #### Astrophysics
 
