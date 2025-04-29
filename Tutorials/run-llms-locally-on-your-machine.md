@@ -183,7 +183,9 @@ LM Studio is a powerful yet user-friendly tool for running large language models
 LM Studio offers several advantages that make it ideal for **newcomers**:
 
 **Ease of Use**: It provides a graphical user interface (GUI), so you don’t need to know command-line tools or coding.
+
 **Privacy**: Since models run locally, your data stays on your machine — no uploading required.
+
 **Model Access**: You can easily download and use many popular open-source LLMs.
 
 ### System Requirements
@@ -192,11 +194,11 @@ Before installing LM Studio, make sure your system meets the following minimum r
 
 **RAM**: At least 8GB (16GB or more is recommended for larger models).
 
-**:Storage**: Enough space to store model files (typically between 2GB and 20GB+).
+**Storage**: Enough space to store model files (typically between 2GB and 20GB+).
 
-**:CPU/GPU**:: A modern CPU is sufficient. An NVIDIA or AMD GPU can improve performance, but it's not required. Mac users with M1/M2/M3/M4 chips don’t need a separate GPU.
+**CPU/GPU**: A modern CPU is sufficient. An NVIDIA or AMD GPU can improve performance, but it's not required. Mac users with M1/M2/M3/M4 chips don’t need a separate GPU.
 
-**:Operating System**:: Windows (x86/ARM), macOS (M1–M4 recommended), or Linux (x86 with AVX2 support)
+**Operating System**:: Windows (x86/ARM), macOS (M1–M4 recommended), or Linux (x86 with AVX2 support)
 
 ### Installation
 
