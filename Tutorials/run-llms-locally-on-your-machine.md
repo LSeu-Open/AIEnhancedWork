@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Ready to explore the world of local AI? This guide will help you set up and run language models right on your computer, giving you full control over your AI tools.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
 
-***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Square.png" alt="Green Square" width="15" height="15" /> Level : Beginner***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 9min***
+***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : +15min***
 
 
 </div> 
@@ -14,8 +14,9 @@
 * [Introduction](#introduction)
 * [Find the Provider that is right for you](#find-the-provider-that-is-right-for-you)
 * [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
-* [LM Studio](#lm-studio)
-* [Ollama](#ollama)
+* [LM Studio (Beginner)](#lm-studio)
+* [Ollama (Intermediate)](#ollama)
+* [Llama.cpp (Expert)](#llama-cpp)
 
 <br>
 
@@ -173,7 +174,7 @@ For **users with limited system resources** or older hardware configurations, I 
 <br>
 <br>
 
-## LM Studio
+## LM Studio (Beginner) {#lm-studio}
 
 LM Studio is a powerful yet user-friendly tool for running large language models (LLMs) on your local machine. It’s especially well-suited for beginners who want to experiment with AI without needing advanced technical skills or an internet connection.
 
@@ -239,7 +240,7 @@ For more detailed information, please refer to the [official LM Studio documenta
 <br>
 <br>
 
-## Ollama
+## Ollama (Intermediate) {#ollama}
 
 Ollama is our top recommendation for running LLMs locally for non beginners users due to its robust integration capabilities and adaptability. 
 
@@ -338,4 +339,230 @@ You can open the Web UI by clicking on the extension icon which will open a new 
 > [!Note]
 > You can change the keyboard shortcuts from the extension settings on the Chrome Extension Management page.
 
+<br>
+<br>
+
+## Llama.cpp (Expert) {#llama-cpp}
+
+Llama.cpp is a high-performance C++ library designed to run large language models (LLMs) efficiently on various hardware platforms. It supports both standard CPUs and systems with limited resources, making it ideal for deploying quantized models in the **GGUF** format.
+
+### Prerequisites
+
+Before you begin, make sure the following tools are installed:
+
+1. Git
+Git is used to clone the Llama.cpp repository from GitHub.
+
+2. Build Tools (Based on Your OS)
+
+- Linux:
+Install essential build tools using `apt`:
+
+```bash
+sudo apt update && sudo apt install build-essential cmake git
+```
+
+- macOS:
+Install Xcode command line tools:
+
+```bash
+xcode-select --install
+```
+
+- Windows:
+Use **MSYS2** or a similar environment that provides C++ compilation tools such as `make`, `g++`, and `clang++`. Git for Windows often includes these tools by default.
+
+---
+
+3. Python (Optional)
+
+Python is optional but required if you plan to use the Python bindings (`llama-cpp-python`). You can install it using:
+
+```bash
+sudo apt install python3   # Linux
+brew install python     # macOS
+```
+
+### Installation and Setup
+
+You have two main options for using Llama.cpp: either via its **C++ executable** or through **Python bindings**.
+
+#### Option 1: Using the Core C++ Executable
+
+This is the most straightforward way to run Llama.cpp on your system.
+
+**Step 1: Clone the Repository**
+
+Open a terminal and run:
+
+```bash
+git clone https://github.com/ggerganov/llama.cpp.git
+cd llama.cpp
+```
+
+**Step 2: Build the Project**
+
+Compile the source code using `make`:
+
+```bash
+make
+```
+
+This builds the main executable, `./main`, which is optimized for **CPU inference**.
+
+> 🔧 **Note**: For GPU acceleration (CUDA, Metal), you'll need to use specific build commands. See the [Llama.cpp Build Documentation](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md) for more details.
+
+
+**Step 3: Verify the Build (Optional)**
+
+You can check the available command-line options by running:
+
+```bash
+./main -h
+```
+
+This will display all the supported flags and usage examples.
+
+
+#### Option 2: Using Python Bindings (`llama-cpp-python`)
+
+If you want to use Llama.cpp within Python, follow these steps:
+
+**Step 1: Create a Virtual Environment**
+
+It's recommended to create an isolated environment to avoid package conflicts.
+
+Using **Conda**:
+
+```bash
+conda create --name llama-cpp-env
+conda activate llama-cpp-env
+```
+
+Using **Python’s built-in `venv`** (Linux/macOS):
+
+```bash
+python -m venv llama-cpp-env
+source llama-cpp-env/bin/activate  # On Linux/macOS
+```
+
+On Windows:
+
+```bash
+llama-cpp-env\Scripts\activate
+```
+
+**Step 2: Install the Python Bindings**
+
+Install `llama-cpp-python` using pip:
+
+```bash
+pip install llama-cpp-python
+```
+
+**Step 3: Verify Installation (Optional)**
+
+Run a simple test to confirm it's working:
+
+```bash
+python -c "from llama_cpp import Llama; print('llama-cpp-python installed successfully!')"
+```
+
+### Getting a Model
+
+Llama.cpp primarily uses models in the **GGUF** format, which are quantized versions of popular large language models. These allow running large models with reduced memory usage.
+
+### Steps to Get a GGUF Model:
+
+1. Visit [Hugging Face Hub](https://huggingface.co/) and search for models compatible with Llama.cpp (e.g., "Llama-3-8B-Instruct-GGUF").
+2. Choose the desired **quantization level**:
+   - `Q4_K_M`: Low memory usage, good for most users.
+   - `Q5_K_M`, `Q8_0`: Higher quality but uses more memory.
+3. Download the `.gguf` file and save it in a known location (e.g., `models/`).
+
+
+### Running Inference
+
+#### Option 1 : Using the Core Executable (`./main`)
+
+Run inference from the command line:
+
+```bash
+./main -m <path_to_model.gguf> -p "<your_prompt>" [options]
+```
+
+**Example:**
+
+```bash
+./main -m ./models/llama-3-8b-instruct.Q4_K_M.gguf \
+      -p "Explain the theory of relativity in simple terms." \
+      -n 256 \          # Max tokens to generate
+      -c 2048 \         # Context size (must be >= prompt length + max tokens)
+      --temp 0.7        # Temperature setting for randomness
+```
+
+**Flags explained:**
+
+- `-m`: Path to your GGUF model file.
+- `-p`: The prompt or input text you want the model to respond to.
+- `-n`: Maximum number of tokens (words/subwords) to generate.
+- `-c`: Context size — how much text the model considers at once. Should be >= prompt length + max tokens.
+- `--temp`: Temperature value for controlling randomness.
+
+
+#### Option 2 : Using Python Bindings
+
+Here's a simple example script (`inference.py`) that loads and runs a model:
+
+```python
+from llama_cpp import Llama
+
+# Load the model (adjust path as needed)
+llm = Llama(
+    model_path="./models/llama-3-8b-instruct.Q4_K_M.gguf",
+    n_ctx=2048,      # Context window size
+    n_gpu_layers=-1,   # Use GPU if available
+    verbose=True     # Show detailed output
+)
+
+# Define the prompt
+user_prompt = "What are the main benefits of using Python?"
+
+# Generate text
+output = llm(
+    user_prompt,
+    max_tokens=256,
+    temperature=0.7,
+    top_p=0.9,
+    echo=True,        # Include the prompt in output
+    stop=["\n", "User:"]
+)
+
+# Process and print the result
+if output and 'choices' in output and len(output['choices']) > 0:
+    generated_text = output['choices'][0]['text']
+    response_only = generated_text.replace(user_prompt, "", 1).strip()
+    print("Model Response:\n", response_only)
+else:
+    print("No output generated.")
+```
+
+**To run the script:**
+
+```bash
+python inference.py
+```
+
+## Next Steps
+
+This tutorial covers the basics of setting up and using Llama.cpp. For more advanced features such as:
+
+- **Multi-GPU support**
+- **Grammar-based output control**
+- **Quantization tuning**
+- **Custom sampling methods**
+
+You can refer to the [official Llama.cpp documentation](https://github.com/ggml-org/llama.cpp).
+
+<br>
 <br>
