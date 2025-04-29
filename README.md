@@ -764,7 +764,7 @@ Models are ranked using our [structured scoring system](https://github.com/LSeu-
 **Note that a higher score does not guarantee better performance across all tasks or domains; it provides an overall evaluation within the model's own size category.**
 
 > [!Tip]
-> Follow our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** to deploy LLMs locally using Ollama and Page Assist for secure, privacy-focused language processing.
+> Whether you're just starting out, have some experience, or are an advanced user, our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** guides you through deploying LLMs locally using tools suited to your skill level.
 
 ***Large-scale models (70+ billion parameters)*** : These require substantial amounts of RAM and GPU memory, making local installation impractical for most users. As a result, these models are typically deployed on cloud-based platforms that provide the necessary computational resources.
 
