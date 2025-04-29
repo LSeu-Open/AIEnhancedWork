@@ -14,14 +14,8 @@
 * [Introduction](#introduction)
 * [Find the Provider that is right for you](#find-the-provider-that-is-right-for-you)
 * [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
+* [LM Studio](#lm-studio)
 * [Ollama](#ollama)
-  + [Installation](#installation)
-  + [Quickstart](#quickstart)
-  + [User Friendly Ollama Models Interaction](#user-friendly-ollama-models-interaction)
-    + [Installation and setup](#installation-and-setup)
-    + [Browser Support](#browser-support)
-    + [Usage](#usage)
-
 
 <br>
 
@@ -179,9 +173,75 @@ For **users with limited system resources** or older hardware configurations, I 
 <br>
 <br>
 
+## LM Studio
+
+LM Studio is a powerful yet user-friendly tool for running large language models (LLMs) on your local machine. It’s especially well-suited for beginners who want to experiment with AI without needing advanced technical skills or an internet connection.
+
+### Why Use LM Studio?
+
+LM Studio offers several advantages that make it ideal for **newcomers**:
+
+**Ease of Use**: It provides a graphical user interface (GUI), so you don’t need to know command-line tools or coding.
+**Privacy**: Since models run locally, your data stays on your machine — no uploading required.
+**Model Access**: You can easily download and use many popular open-source LLMs.
+
+### System Requirements
+
+Before installing LM Studio, make sure your system meets the following minimum requirements:
+
+**RAM**: At least 8GB (16GB or more is recommended for larger models).
+
+**:Storage**: Enough space to store model files (typically between 2GB and 20GB+).
+
+**:CPU/GPU**:: A modern CPU is sufficient. An NVIDIA or AMD GPU can improve performance, but it's not required. Mac users with M1/M2/M3/M4 chips don’t need a separate GPU.
+
+**:Operating System**:: Windows (x86/ARM), macOS (M1–M4 recommended), or Linux (x86 with AVX2 support)
+
+### Installation
+
+To get started, follow these simple steps:
+
+1. Go to the official [LM Studio website](https://lmstudio.ai/).
+2. Download the installer for your operating system.
+3. Run the installer and follow the on-screen instructions.
+4. Launch LM Studio after installation is complete.
+
+### Finding and Downloading Models
+
+Once installed, you can use LM Studio to find, download, and run a wide variety of open-source LLMs.
+
+1. Open LM Studio and click the Discover tab (magnifying glass icon) or use Ctrl + 2 (Windows/Linux) / Cmd + 2 (macOS).
+2. Browse featured models or search for specific ones like "Llama", "Phi-3", "Mistral", or "Gemma" based on the info you gathered in the [Find the Model that is right for you section](#find-the-model-that-is-right-for-you).
+3. Choose a model version: many are available in quantized forms (e.g., Q4_K_M), which are optimized for performance and size. LM Studio will automatically select the most suitable version based on your machine specifications.
+4. Click Download to get the model.
+
+### Loading a Model
+
+After downloading, you can load the model into LM Studio.
+
+1. Go to the AI Chat tab (chat bubble icon) or use Ctrl + 3 (Windows/Linux) / Cmd + 3 (macOS).
+2. Open the Model Loader by clicking the dropdown at the top center or using Ctrl + L (Windows/Linux) / Cmd + L (macOS).
+3. Select the model you downloaded.
+4. Click Load — LM Studio will allocate memory to run the model. Default loading settings usually work well for beginners.
+
+### Chatting with the Model
+
+Once a model is loaded, you can start interacting with it:
+
+1. Type your question or prompt in the message box at the bottom of the screen.
+2. Press Enter to send.
+3. The AI will process and respond locally — no internet connection required.
+
+You’ll see the response appear immediately in the chat window.
+
+For more detailed information, please refer to the [official LM Studio documentation](https://lmstudio.ai/docs/app). Read more on [Downloading Models](https://lmstudio.ai/docs/app/basics/download-model) or [Manage chats](https://lmstudio.ai/docs/app/basics/chat).
+
+<br>
+<br>
+
 ## Ollama
 
-Ollama is our top recommendation for running LLMs locally due to its robust integration capabilities and adaptability. 
+Ollama is our top recommendation for running LLMs locally for non beginners users due to its robust integration capabilities and adaptability. 
 
 As an example, you will find below a step-by-step guide on setting up Ollama as a local model provider through an accessible and user-friendly interface. 
 
