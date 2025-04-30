@@ -7,17 +7,46 @@
 
 ***A curated index of impactful AI tools and models, that emphasizes technical merit, practical utility and Prioritizing open-source.***
 
-🔺**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.** 🔺
+**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=for-the-badge)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
+<br>
+
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
+![LastCommit](https://img.shields.io/github/last-commit/LSeu-Open/AIEnhancedWork?style=flat)
 
 </div>
 
 <br>
 
- <details>
-		<summary> &nbsp; <h2>Table of contents</h2> </summary>
+# Introduction
+
+Navigating the rapidly evolving field of Artificial Intelligence can be overwhelming. This repository serves as a comprehensive, curated guide designed for **developers, data scientists, researchers, students, and AI enthusiasts** seeking practical tools, cutting-edge models, and valuable learning resources.
+
+Our goal is to help you **discover, compare, and select the right AI solutions** for your projects by providing structured information, comparisons, and direct links. We place a strong emphasis on **open-source options** while also including noteworthy proprietary tools.
+
+**Understanding the Indicators:**
+
+Throughout this guide, you may see the following indicator:
+
+* [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) : Indicates proprietary software, requires payment/subscription for full use, or has restrictive licensing. 
+* [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="15" />](https://opensource.com/resources/what-open-source) implies Open Source or a significant free tier, but always verify specific licenses before use.
+
+<br>
+
+<div align="center"> 
+	
+*Explore the sections below via the Table of Contents to find what you need.* 
+
+*(Documentation: [CC0 License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md). Code/Framework Contributions: [MIT License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md).)*
+
+**[Contributions](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/CONTRIBUTING.md) and suggestions are welcome!**
+
+</div>
+
+<br>
+
+# Table of contents
 
 <br>
 
@@ -91,39 +120,7 @@
     - [Presentation Slides Generation](#presentation-slides-generation)
     - [Versatile Productivity Tools](#versatile-productivity-tools)
    
-
-</details>
-
-# Introduction
-
-**Unlock peak productivity and navigate the AI landscape with confidence.** This repository is your central hub for carefully curated AI tools, models, and learning resources designed to help developers, researchers, and professionals **work smarter, not harder.**
-
-Inside, discover resources to automate tasks, enhance workflows, and stay cutting-edge:
-
-* **Categorized AI solutions** (Audio, Vision, LLMs, etc.), with a focus on **Open Source** options.
-* Discover top model insights with comprehensive rankings and leverage our **LLM Model Evaluation Framework (version 0.3.1) for informed decision-making.** (Version 0.4 is currently in development.)
-* **Practical tutorials and guides.**
-
-### 🔑 Understanding the Tools
-
-Quickly grasp licensing and pricing models with these indicators:
-
-*   **Licensing:** [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) (Proprietary) vs. [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="15" />](https://opensource.com/resources/what-open-source) (Open Source)
-*   **Pricing:** <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="15" /> (Free) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="15" />](https://builtin.com/articles/freemium) (Freemium) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="15" /> (Paid)
-
-*(Documentation: [CC0 License](link). Code/Framework Contributions: [MIT License](link).)*
-
-### 🤝 Join the Community & Contribute!
-
-This project thrives on collaboration. Here’s how you can get involved:
-
-*   🌟 **Star** this repository to follow updates.
-*   💡 **[Contribute](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/CONTRIBUTING.md)** your favorite tools, resources, or improvements (Issues & PRs welcome!).
-*   📊 Help refine our **AI Model Evaluation Framework**.
-*   🗣️ Share your experiences and use cases.
-
-**Let's build the future of intelligent workflows together!**
-
+<br>
 <br>
 
 # AI Tutorials and Learning Resources
