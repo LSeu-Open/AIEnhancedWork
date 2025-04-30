@@ -101,6 +101,7 @@ Throughout this guide, you may see the following indicator:
     - [LLM Providers](#llm-providers)
       - [Cloud-based LLM Providers](#cloud-based-llm-providers)
       - [Local LLM Providers](#local-llm-providers)
+      - [LLM Inference Engines](#llm-inference-engines)
   - [Multimodal Foundation Models](#multimodal-foundation-models) 
     - [Vision Language Models](#vision-language-models)
       - [Open source VLMs](#open-source-vlms)
@@ -1091,6 +1092,7 @@ Models modified to **operate without standard content filtering mechanisms**, en
 | [Replicate](https://replicate.com/home) | A cloud platform that allows developers to easily run and deploy open-source machine learning models. | Large Panel of Open source Models | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [SambaNova](https://sambanova.ai/) | An artificial intelligence company that provides a comprehensive AI platform for enterprises. | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) and more | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [Together](https://www.together.ai/) | A cloud platform designed for building and running generative AI applications. | Large Panel of Open source Models | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> | 
+| [Venice](https://venice.ai/) | A generative AI platform that emphasizes user privacy and provides uncensored AI capabilities. | Panel of uncensored Open source Models  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  
 | [Vercel](https://sdk.vercel.ai/) | A powerful tool for developers looking to explore and integrate various AI models into their applications efficiently. | Large Panel of Open source and Proprietary Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 
 
@@ -1116,6 +1118,29 @@ Models modified to **operate without standard content filtering mechanisms**, en
 | [Open WebUI](https://openwebui.com/) | Self-hosted, open-source web interface designed for running and managing LLMs locally or offline. | All | All Open source Models |
 | [Silly Tavern](https://sillytavern.app/) | Open-source LLM frontend designed for power users. | All | All Open source Models |
 | [Witsy](https://witsyai.com/) | Open-source LLM frontend designed for power users. | All | All Open source Models |
+
+#### LLM Inference Engines
+
+This table lists notable frameworks and libraries designed for running and serving Large Language Models efficiently, focusing on performance, scalability, and deployment.
+
+> The landscape evolves rapidly. Some tools might integrate techniques or components from others (e.g., many serving frameworks might leverage optimized kernels like FlashAttention or specific backend libraries like `vLLM` or `TensorRT-LLM`). This table focuses on the primary offering or framework level.
+
+| Engine/Server          | Developer/Origin       | Key Features & Focus                                                                 | Primary Use Case(s)         | Notes                                                              |
+| :--------------------- | :--------------------- | :----------------------------------------------------------------------------------- | :-------------------------- | :----------------------------------------------------------------- |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | Georgi Gerganov et al. | Highly optimized C++ inference for GGUF models; CPU & GPU (Metal, CUDA, OpenCL) support. | Local inference, experimentation, backend for other tools | Foundational library/CLI, broad hardware support.                    |
+| [vLLM](https://github.com/vllm-project/vllm) | vLLM Project (Berkeley) | High-throughput serving library; PagedAttention, continuous batching.                 | Production serving, research | Primarily Python library, integrates with frameworks like Ray, OpenLLM. |
+| [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) | Hugging Face           | Production-ready server; Optimized for HF models, high throughput, streaming.       | Production serving          | Rust/Python based, commonly used for deploying HF models.         |
+| [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA                 | Optimization library & engine for NVIDIA GPUs; Quantization, in-flight batching.   | High-performance serving (NVIDIA HW) | Requires model compilation, integrates with Triton.                  |
+| [Triton Inference Server](https://developer.nvidia.com/triton-inference-server) | NVIDIA                 | General-purpose inference server; Supports multiple frameworks (TRT, PyTorch, TF). | Production serving (diverse models) | Can serve LLMs (often via TensorRT-LLM backend) and other models. |
+| [OpenLLM](https://github.com/bentoml/OpenLLM) | BentoML                | Production-ready LLM serving framework; Integrates vLLM/BentoML, OpenAI API compat. | Production serving          | Aims to simplify deployment and scaling.                           |
+| [Ray Serve](https://docs.ray.io/en/latest/serve/index.html) | Anyscale (Ray Team)    | Scalable model serving library on Ray; Distributed computing support.            | Distributed production serving | General purpose, but powerful for scaling LLM endpoints.           |
+| [LMDeploy](https://github.com/InternLM/lmdeploy) | OpenMMLab / MMDeploy   | Efficient inference framework; Quantization, TurboMind engine.                     | Research, production serving | Part of the OpenMMLab ecosystem.                                  |
+| [MLC LLM](https://github.com/mlc-ai/mlc-llm) | MLC AI Team            | Universal deployment solution; Compiles models for diverse hardware (CPU, GPU, mobile). | Cross-platform deployment | Focuses on Machine Learning Compilation.                           |
+| [SGLang](https://github.com/sgl-project/sglang) | SGL Project            | Efficient structured generation & inference; RadixAttention.                         | Research, production serving | Optimized for complex generation tasks.                            |
+| [DeepSpeed Inference](https://www.deepspeed.ai/inference/) | Microsoft              | Optimized inference kernels & engine (part of DeepSpeed library).                  | High-performance serving | Leverages techniques developed for large-scale training.          |
+| [Xinference](https://github.com/xorbitsai/inference) | Xorbits                | Platform for deploying LLMs & embedding models; API compatible with popular tools.  | Local & cloud deployment    | Aims to be a unified deployment solution.                        |
+| [LocalAI](https://localai.io/) | Go-Skynet              | OpenAI-compatible API layer; Pluggable backends (incl. llama.cpp, but others too). | Local development, API replacement | Acts as a bridge, not the core engine itself.                     |
+| [LLM Engine (Scale)](https://github.com/scaleapi/llm-engine) | Scale AI               | Fine-tuning & serving platform; Optimized inference, simplified deployment.        | Production serving (hosted or self-hosted) | Provides both infrastructure and optimization.                    |
 
 <br>
 <br>
