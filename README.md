@@ -241,7 +241,7 @@ Text-to-speech (TTS) systems employ **neural networks for voice synthesis, conve
 #### Text-to-Speech Models
 
 > [!NOTE]
-> The models are ranked according to their **Arena Elo score (with higher scores indicating better performance)** from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
+> The models are ranked according to their **Arena Elo score (Higher score is better)** from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
 
 | Organization       | Model Name                                                                       | Arena Elo | Licence     | Pricing   |
 |:------------------:|:----------------------------------------------------|:--------------------------------------------------------------------------------:|:--------------:|:---------------:|
@@ -296,7 +296,7 @@ Speech recognition systems **convert acoustic signals into text through automate
 #### Speech-to-Text Models
 
 > [!NOTE]
-> Models are ranked according to their Word Error Rate (%) (% of words transcribed incorrectly. Lower is better) from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
+> Models are ranked according to their **Word Error Rate (%) (% of words transcribed incorrectly. Lower score is better)** from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
 
 | Organization       | Model Name					   | Word Error Rate (%) | Licence     | Pricing   |
 |:------------------:|:----------------------------------------------------|:-------------------:|:-----------:|:---------:|
@@ -401,7 +401,7 @@ Execute predefined task sequences through algorithmic workflows to **optimize pr
 #### Top Performing Coding Open source Models (by Model Family)
 
 > [!NOTE]
-> Models are ranked by **[BigCodeBench](https://bigcode-bench.github.io/) Hard set with Pass@1 metrics, measuring single-attempt problem-solving accuracy.**
+> Models are ranked by **[BigCodeBench](https://bigcode-bench.github.io/) Hard set with Pass@1 metrics, measuring single-attempt problem-solving accuracy (Higher score is better).**
 >
 > **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [comparative analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
 
@@ -536,7 +536,7 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 #### Image Generation Models
 
 > [!NOTE]
-> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [artificialanalysis.ai text to Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+> The models are ranked according to their **Elo scores (Higher score is better)** from the [artificialanalysis.ai text to Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 >
 > To provide a comprehensive overview of the generative image model landscape, only **pre-trained versions of the listed models are included in this ranking.**
 >
@@ -646,7 +646,7 @@ Image-to-video models employ **temporal diffusion algorithms to synthesize video
 Text-to-video models **convert natural language descriptions into video sequences through multi-modal generation frameworks**, synthesizing temporal and spatial elements from textual inputs.
 
 > [!NOTE]
-> The models are ranked according to their **Elo scores (with higher scores indicating better performance)** from the [artificialanalysis.ai Video Generation Arena](https://artificialanalysis.ai/text-to-image/arena). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+> The models are ranked according to their **Elo scores (Higher score is better)** from the [artificialanalysis.ai Video Generation Arena](https://artificialanalysis.ai/text-to-image/arena). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 
 | Organization       | Best Model                                                                       | Elo score       | Licence         | Pricing   |
 |:------------------:|:---------------------------------------------------------------------------------|:---------------:|:---------------:|:---------------:|
@@ -751,7 +751,7 @@ Large Language Models (LLMs) are **artificial intelligence systems trained on la
 
 This overview **focuses on instruction-tuned models for consistency.** Fine-tuned variants, though numerous and constantly developing, are not included in this comparison. For details on specific implementations, see the "[Fine-tuned Models section](#finetuned-llms)" section below.
 
-Models are ranked using our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md), which considers multiple factors such as Entity & Publisher benchmarks, human preference, and technical features.
+Models are ranked using our [structured scoring system](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Scoring/Models_Scoring_System.md), which considers multiple factors such as Entity & Publisher benchmarks, human preference, and technical features (Higher score is better).
 
 ### Advanced Language and Reasoning LLMs
 
@@ -937,7 +937,7 @@ Models **optimized for [Function calling](https://finetunedb.com/blog/what-is-fu
 Function calling **enables LLMs to interact with external systems and tools through structured interfaces.**
 
 > [!NOTE]
-> Models are ranked by [Berkeley Function Calling Leaderboard V3 Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html), designed to evaluate the function calling capabilities of LLMs. it provides a comprehensive evaluation of LLMs' function calling capabilities, offering insights into their performance, cost-effectiveness, and error patterns in real-world scenarios.
+> Models are ranked by **[Berkeley Function Calling Leaderboard V3 Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) (Higher is better)**., designed to evaluate the function calling capabilities of LLMs. it provides a comprehensive evaluation of LLMs' function calling capabilities, offering insights into their performance, cost-effectiveness, and error patterns in real-world scenarios.
 
 
 | Organization       |Base Model                                       | Finetuned Model                                                                                | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [BCFL Score](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) | [Context Window](https://research.ibm.com/blog/larger-context-window)  | Knowledge Cutoff | Licence |
@@ -959,7 +959,7 @@ Function calling **enables LLMs to interact with external systems and tools thro
 Models **optimized for mathematical reasoning and computation** through specialized training architectures.
 
 > [!NOTE]
-> Model rankings utilize combined performance metrics from **GSM8K and MATH benchmarks, averaging scores across both frameworks to provide comprehensive evaluation standards.**
+> Model rankings utilize combined performance metrics from **GSM8K and MATH benchmarks, averaging scores across both frameworks to provide comprehensive evaluation standards (Higher score is better).**
 
 ##### Top Performing Open source Models (by Model Family)
 
@@ -1011,7 +1011,7 @@ Role-playing in LLMs is a technique where **the model assumes a specific charact
 Models modified to **operate without standard content filtering mechanisms**, enabling **unrestricted response generation beyond typical LLM safeguards.**
 
 > [!NOTE]
-> Models are ranked by [UGI Leaderboard Score](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), designed to evaluate both willingness to answer and accuracy in fact-based contentious questions.
+> Models are ranked by **[UGI Leaderboard Score](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard) (Higher score is better)**, designed to evaluate both willingness to answer and accuracy in fact-based contentious questions.
 >
 > The provided score **does not evaluate the overall performance of the models** but instead focuses on how **effectively they remain uncensored.**
 
@@ -1131,7 +1131,7 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 **Deploy these open-source models locally** using our Local LLM Deployment Guide : ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***.
 
 > [!NOTE]
-> The models are ranked according to their **[Open VLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) average score** (with higher scores indicating better performance).
+> The models are ranked according to their **[Open VLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) average score (higher score is better)**.
 >
 >  This benchmark use different method to evaluate various VLMs capabilities, later used to calculate the Overall score. However, **the top-ranked model might not be number one in all specific capacities.**
 
