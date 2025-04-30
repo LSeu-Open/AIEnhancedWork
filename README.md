@@ -50,7 +50,6 @@ Throughout this guide, you may see the following indicator:
 
 <br>
 
-- [Introduction](#introduction)
 - [AI Tutorials and Learning Resources](#ai-tutorials-and-learning-resources)
     - [Tutorials](#tutorials)
     - [Learning Resources](#learning-resources)
