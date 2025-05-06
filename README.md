@@ -12,7 +12,6 @@
 <br>
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md)
 ![LastCommit](https://img.shields.io/github/last-commit/LSeu-Open/AIEnhancedWork?style=flat)
 
 </div>
@@ -29,8 +28,21 @@ Our goal is to help you **discover, compare, and select the right AI solutions**
 
 Throughout this guide, you may see the following indicator:
 
-* [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) : Indicates proprietary software, requires payment/subscription for full use, or has restrictive licensing. 
-* [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="15" />](https://opensource.com/resources/what-open-source) implies Open Source or a significant free tier, but always verify specific licenses before use.
+[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) : Indicates proprietary software, requires payment/subscription for full use, or has restrictive licensing. 
+
+
+[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="15" />](https://opensource.com/resources/what-open-source) implies Open Source or a significant free tier, but always verify specific licenses before use.
+
+**LLM Scoring Framework:**
+
+Since benchmarks cannot always be trusted and existing leaderboards typically focus only on one aspect of modern LLMs' capabilities, we chose to develop our own approach.
+
+Our approach aims to cover a wide range of benchmarks, leaderboards, community assessments, and technical specifications, **trying to provide an unbiased estimation of the overall capacities of any public LLM.**
+
+<br>
+
+> [!NOTE]
+> ***Formerly developed within this repository, the scoring framework is now under development in a dedicated repository [LLMScoreEngine](https://github.com/LSeu-Open/LLMScoreEngine).***
 
 <br>
 
@@ -38,7 +50,7 @@ Throughout this guide, you may see the following indicator:
 	
 *Explore the sections below via the Table of Contents to find what you need.* 
 
-*(Documentation: [CC0 License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md). Code/Framework Contributions: [MIT License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE-CODE.md).)*
+(Documentation: [CC0 License](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/LICENSE.md).
 
 **[Contributions](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/CONTRIBUTING.md) and suggestions are welcome!**
 
