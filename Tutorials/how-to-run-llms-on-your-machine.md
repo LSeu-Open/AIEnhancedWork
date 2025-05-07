@@ -16,7 +16,6 @@
 ## Table of Contents
 
 * [Introduction](#introduction)
-* [Find the Provider that is right for you](#find-the-provider-that-is-right-for-you)
 * [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
 * [LM Studio (Beginner)](#lm-studio)
 * [Ollama (Intermediate)](#ollama)
@@ -39,24 +38,6 @@ This tutorial guides **individuals seeking greater control and transparency in t
 * **Data Control** : Keep your information entirely on your machine, ensuring it's not shared with external parties.
 * **Instant Performance** : Eliminate internet latency for real-time tasks and continuous interaction.
 * **Simplified Compliance** : Maintain complete control over data storage and processing, easing adherence to privacy regulations.
-
-<br>
-
-## Find the Provider that is right for you
-
-To get started, **choose a local model provider that simplifies hosting and deploying a Large Language Model (LLM).**
-
-This section equips you with the knowledge and resources to make an informed decision tailored to your specific needs.
-
-
-| Provider        | User Interface      | Ease of use               | Model customization      | Built-in chat interface  | Model discovery/download | Multi-platform support        | Open-source   | Integration with other tools |
-|:----------------|:-------------------:|:-------------------------:|:------------------------:|:------------------------:|:------------------------:|:---------------------------:|:-------------:|:-------------------------:|
-| [Ollama](https://ollama.com/) | Command-line & API  | Simple      | Yes                      | No (requires client)     | Limited                  | Windows, macOS, Linux       | Yes           | Extensive                |
-| [LM Studio](https://lmstudio.ai/) | GUI | User-friendly           | Yes                      | Yes                      | Extensive                | Windows, macOS, Linux       | No            | Limited                  |
-| [Jan](https://jan.ai/) | GUI          | User-friendly             | Limited                  | Yes                      | Limited                  | Windows, macOS, Linux       | Yes           | Limited                  |
-| [MSTY](https://msty.app/) | GUI       | User-friendly             | Limited                  | Yes                      | Limited                  |macOS                        | No            | Limited                  |
-| [Enchanted](https://github.com/AugustDev/enchanted) | GUI | User-friendly |  Limited         | Yes                      | Limited                  | macOS                       | No            | Yes (macOS)              |
-| [AnythingLLM](https://anythingllm.com/) | Web-based | User-friendly | Yes                    | Yes                      | Limited                  |Cross-platform (web-based)   | Yes           | Yes                      |
 
 <br>
 
