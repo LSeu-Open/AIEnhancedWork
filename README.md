@@ -828,6 +828,7 @@ Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLM
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="200" height="20" />](https://allenai.org/)   | [OLMo-2-0325-32B-Instruct](https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct) | 32B | 57.40 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AntGroup.svg" alt="AntGroup" width="250" height="25" />](https://github.com/inclusionAI)| [Ling-lite](https://huggingface.co/inclusionAI/Ling-lite) | 16.8B | 55.15 | 64k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="200" height="20" />](https://cohere.com/) | [Command R](https://cohere.com/blog/command-r) | 32.3B | 39.53 | 128K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
+| [<Service Now](https://www.servicenow.com/) | [Apriel-Nemotron-15b-Thinker](https://huggingface.co/ServiceNow-AI/Apriel-Nemotron-15b-Thinker) | 15B | **Incoming** | 32K | ✔️ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 
 <br>
 
@@ -884,7 +885,7 @@ Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLM
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B) | 4B | **Incoming** | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) | 1.7B | **Incoming** | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B) | 0.6B | **Incoming** | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
-
+| [<Service Now](https://www.servicenow.com/) | [Apriel-5B-Instruct](https://huggingface.co/ServiceNow-AI/Apriel-5B-Instruct) | 5B | **Incoming** | 32K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 
 
 <br>
