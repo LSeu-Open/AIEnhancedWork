@@ -1,11 +1,15 @@
 <div align="center"> 
  
-[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=How%20to%20run%20LLMs%20locally%20on%20your%20Machine%20🖥️&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
+<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/TextGeneration.png">
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Ready to explore the world of local AI? This guide will help you set up and run language models right on your computer, giving you full control over your AI tools.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+<br>
+<br>
+
+ ***This guide explains how to set up and run language models on your computer, enabling you to maintain full control over your AI tools.***
+ 
+ <br>
 
 ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : +15min***
-
 
 </div> 
 
