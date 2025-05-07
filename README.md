@@ -143,9 +143,9 @@ Master AI concepts through **hands-on tutorials and practical implementations.**
 
 ***Local tutorials***
 
-* ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)*** - Deploy and operate large language models on local hardware, with options designed for three skill levels: beginner, intermediate, and expert.
+* ***[How to run LLMs on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-llms-on-your-machine.md)*** - Deploy and operate large language models on local hardware, with options designed for three skill levels: beginner, intermediate, and expert.
 * ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)*** - Configure development environments for seamless AI model integration.
-* ***[Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md)***- Implement local image generation using open-source AI models.
+* ***[How to run Image Generation on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-image-generation-on-your-machine.md)***- Implement local image generation using open-source AI models.
 * ***[How to Use AI Privately](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/How-to-Use-AI-Privately.md)*** - Implement privacy-preserving practices for AI implementation.
 
 <br> 
@@ -621,7 +621,7 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 #### Local Image Generation Providers
 
 > [!TIP]
-> **Generate images locally using Fooocus** - Deploy open-source image generation models on your hardware with our [Local Image Generation with Fooocus: A Comprehensive Tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/local-image-generation-with-fooocus.md).
+> **Generate images locally** - Deploy open-source image generation models on your hardware with our [How to run Image Generation on your Machine tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-image-generation-on-your-machine.md).
 
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
@@ -776,7 +776,7 @@ Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLM
 **Note that a higher score does not guarantee better performance across all tasks or domains; it provides an overall evaluation within the model's own size category.**
 
 > [!Tip]
-> Whether you're just starting out, have some experience, or are an advanced user, our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)** guides you through deploying LLMs locally using tools suited to your skill level.
+> Whether you're just starting out, have some experience, or are an advanced user, our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-llms-on-your-machine.md)** guides you through deploying LLMs locally using tools suited to your skill level.
 
 ***Large-scale models (70+ billion parameters)*** : These require substantial amounts of RAM and GPU memory, making local installation impractical for most users. As a result, these models are typically deployed on cloud-based platforms that provide the necessary computational resources.
 
@@ -1115,7 +1115,7 @@ Models modified to **operate without standard content filtering mechanisms**, en
 #### Local LLM Providers
 
 > [!IMPORTANT]
-> **Deploy LLMs locally** with our [implementation guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md) for privacy-focused language processing and model experimentation on your hardware.
+> **Deploy LLMs locally** with our [implementation guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-llms-on-your-machine.md) for privacy-focused language processing and model experimentation on your hardware.
 
 | Tool             | Description                                                                                                                 | OS     | Models     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -1169,7 +1169,7 @@ This table lists notable frameworks and libraries designed for running and servi
 
 Vision Language Models (VLMs) **integrate visual perception and language processing architectures to enable multi-modal understanding and generation.** Technical details available on [Huggingface.co](https://huggingface.co/blog/vlms).
 
-**Deploy these open-source models locally** using our Local LLM Deployment Guide : ***[How to run LLMs locally on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md)***.
+**Deploy these open-source models locally** using our Local LLM Deployment Guide : ***[How to run LLMs on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-llms-on-your-machine.md)***.
 
 > [!NOTE]
 > The models are ranked according to their **[Open VLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) average score (higher score is better)**.
