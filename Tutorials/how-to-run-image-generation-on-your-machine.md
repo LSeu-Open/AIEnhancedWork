@@ -1,49 +1,38 @@
 <div align="center"> 
+ 
+<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/ImageGeneration.png">
 
-[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=Local%20image%20generation%20with%20Fooocus%20🖌️&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
+<br>
+<br>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Ready to create AI art on your own computer? This guide will walk you through setting up Fooocus, a powerful local alternative to Midjourney, giving you complete creative freedom without cloud dependencies.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+ ***This guide explains how to set up and run Image Generation models on your computer, enabling you to maintain full control over your AI Image workflows.***
 
-***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Square.png" alt="Green Square" width="15" height="15" /> Level : Beginner***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 12min***
+ ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 12min***
+ 
+ <br>
 
-</div>
+</div> 
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Hardware Requirement](#hardware-requirement)
-- [Download and Setup](#download-and-setup)
-  - [Windows](#windows)
-  - [MacOS](#macos)
-  - [Linux](#linux)
-- [Usage](#usage)
-    - [Before Starting](#before-starting)
-    - [Basic Mode](#basic-mode)
-    - [Advanced Mode](#advanced-mode)
-        - [Settings](#settings)
-        - [Style](#style)
-        - [Model](#model)
-        - [Advanced](#advanced)     
-    - [Input Image](#input-image)
-        - [Upscaling](#upscaling)
-        - [Variation](#variation)
-        - [Image Prompting](#image-prompting)
-        - [Describe Image](#describe-image)
-        - [Inpainting and Outpainting](#inpainting-and-outpainting)
+- [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
+- [Fooocus (Beginner)](#fooocus)
+- [AUTOMATIC1111 Stable Diffusion web UI (Intermediate)](#automatic1111-stable-diffusion-web-ui)
+- [ComfyUI (Expert)](#comfyui)
 
 <br>
 
-
-
-# Introduction
+## Introduction
 
 Fooocus provides **stable diffusion image generation capabilities on local hardware**, offering creative control and privacy-focused artwork creation. This offline implementation **enables unrestricted experimentation with styles, prompts, and generation parameters.**
 
-> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> **Key Benefit: Generate AI art independently without cloud services or usage limitations.**
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> **Key Benefit: Generate AI art independently without cloud services or usage limitations.**
 
-# Hardware Requirement
+## Hardware Requirement
 
-To run Fooocus locally, Your hardware configuration **must meet these specifications for optimal performance.** Lower specifications may impact generation speed and quality.
+To run Image generation on your machine, Your hardware configuration **must meet these specifications for optimal performance.** Lower specifications may impact generation speed and quality.
 
 | Operating System  | GPU                          | Minimal GPU Memory           | Minimal System Memory     | [System Swap](https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md) | Note                                                                       |
 |:-----------------:|:----------------------------:|:----------------------------:|:-------------------------:|:------------------------------:|:---------------------------------------------------------------------------|
@@ -58,352 +47,113 @@ To run Fooocus locally, Your hardware configuration **must meet these specificat
 | Mac               | M1/M2 MPS                    | Shared                       | Shared                    | Shared                         | about 9x slower than Nvidia RTX 3XXX                                       |
 | Windows/Linux/Mac | **only use CPU**             | 0GB                          | 32GB                      | Required                       | **about 17x slower than Nvidia RTX 3XXX**                                      |
 
+<br>
+
+## Find the Model that is right for you
+
+:TODO: List of best Open source text to image models
 
 <br>
 
-# Download and Setup
+## Fooocus (Beginner)
 
-## Windows
+Fooocus is an open-source AI image generation tool that simplifies the use of Stable Diffusion, making it accessible for users to create high-quality visuals. It requires minimal setup and can run on systems with a GPU (Nvidia) with 4GB of memory and 8GB of RAM.
 
-### Nvidia GPUs
+### Installation
+1.  Download the Fooocus files from its [official GitHub repository](https://github.com/lllyasviel/Fooocus).
+2.  Extract the downloaded files to your desired location on your computer (e.g., your desktop).
+3.  Locate and run the `run.bat` file (for Windows). This will initiate the download and installation of necessary files, including the default Stable Diffusion XL model (e.g., Juggernaut XL). The first time you run it, it will download a checkpoint file which contains the image data. This might take some time.
+4.  Once the setup is complete, a web page (usually `http://127.0.0.1:7865/`) will automatically open in your default web browser. This is the Fooocus interface where you can begin generating images.
 
-To get started with Fooocus, follow these steps:
+Alternatively, you can use online platforms that host Fooocus (like Google Colab notebooks, or services like MimicPC) to run it without a local installation, though local installation gives you more control.
 
-* Download the files from the [official GitHub repository](https://github.com/lllyasviel/Fooocus/releases).
-* Extract the downloaded file and run the ```run.bat``` script.
-* When you launch Fooocus for the first time, it will download default models to the ```\Fooocus\models\checkpoints``` folder. You can choose to download them in advance if you prefer not to wait.
-* You may also see options for ```run_anime.bat``` and ```run_realistic.bat``` , but note that **since version 2.3.0, you can switch presets directly from the browser.**
-* By following these steps, you'll be able to access and use Fooocus with ease.
+### Basic Image Generation
+1.  Once Fooocus is running and the web interface is open, you'll see a prominent prompt input field at the bottom of the page.
+2.  Type a detailed description of the image you want to create into this prompt box. For example: "a photorealistic portrait of an astronaut cat exploring a vibrant alien jungle, detailed fur, glowing plants".
+3.  Click the "Generate" button. Fooocus will then process your prompt and generate images based on it. By default, it usually generates two images per prompt.
 
-### AMD GPUs
+### Advanced Options
 
-> [!NOTE]
-> The AMD support is in beta.
-> In case of trouble check the [troubleshoot page](https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md).
+To access more granular controls and fine-tune your image generation, click the "Advanced" checkbox, typically located at the bottom of the interface, near the prompt input.
 
-Same with Nvidia GPU. Download the software and edit the content of ```run.bat``` as:
+#### Key Advanced Settings:
 
-    .\python_embeded\python.exe -m pip uninstall torch torchvision torchaudio torchtext functorch xformers -y
-    .\python_embeded\python.exe -m pip install torch-directml
-    .\python_embeded\python.exe -s Fooocus\entry_with_update.py --directml
-    pause
+*   **Performance Settings**:
+    *   Located under the "Speed" tab (or similar).
+    *   Adjust the trade-off between generation speed and image quality.
+    *   Options typically include:
+        *   **Speed**: Faster generation with a moderate number of steps (e.g., 30 steps). Good for quick iterations.
+        *   **Quality**: Slower generation with more steps (e.g., 60 steps), often resulting in higher detail.
+        *   **Extreme Speed**: Very fast generation with fewer steps (e.g., 8 steps), useful for rapid prototyping but may sacrifice quality.
 
-Then run the ```run.bat```.
+*   **Aspect Ratios**:
+    *   Found under the "Advanced" tab or near the prompt.
+    *   Choose the desired dimensions and orientation for your output images (e.g., 1:1 square, 16:9 widescreen, 9:16 portrait). The same prompt can produce significantly different compositions based on this setting.
 
-## MacOS
+*   **Number of Images**:
+    *   Also under the "Advanced" tab.
+    *   Specify how many images you want Fooocus to generate at once for a single prompt (e.g., 1, 2, 4).
 
-> [!NOTE]
-> Mac is not intensively tested. The following is an unofficial guide to help you get started.
-> In case of trouble check the [troubleshoot page](https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md).
+*   **Negative Prompt**:
+    *   A separate input field within the "Advanced" options.
+    *   Input terms for elements, styles, or artifacts you want to *exclude* from your image. For instance, you can add "ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, disfigured, deformed, body out of frame, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, noise, text, words" to improve results.
 
-Installing Fooocus is possible on Apple M1 or M2-based Macs running macOS Catalina or later. It's essential to note that M1 and M2 computers rely on integrated graphics processing, which may result in longer image processing times compared to machines with dedicated graphics cards.
+*   **Style**:
+    *   Found under the "Style" tab.
+    *   Fooocus offers a wide range of predefined styles. You can select multiple styles to combine their effects.
+    *   Examples: "Fooocus V2", "Fooocus Enhance", "Fooocus Sharp", "Photorealistic", "Cinematic", "Anime", "Impressionism", etc. Experiment with these to drastically change the look and feel of your images.
 
-* Install the conda package manager and pytorch nightly. Read the Accelerated PyTorch training on Mac Apple Developer guide for instructions. Make sure pytorch recognizes your MPS device.
-* Open the macOS Terminal app and clone this repository with ```git clone https://github.com/lllyasviel/Fooocus.git```.
-* Change to the new Fooocus directory, ```cd Fooocus```.
-* Create a new conda environment, ```conda env create -f environment.yaml```.
-* Activate your new conda environment, ```conda activate fooocus```.
-* Install the packages required by Fooocus, ```pip install -r requirements_versions.txt```.
-* Launch Fooocus by running ```python entry_with_update.py```. (Some Mac M2 users may need python entry_with_update.py --disable-offload-from-vram to speed up model loading/unloading.)
-* The first time you run Fooocus, it will automatically download the Stable Diffusion SDXL models and will take a significant amount of time, depending on your internet connection.
-* Use ```python entry_with_update.py --preset anime``` or ```python entry_with_update.py --preset realistic``` for Fooocus Anime/Realistic Edition.
+*   **Model Selection**:
+    *   Under the "Model" tab.
+    *   **Base Model**: Choose the primary Stable Diffusion model Fooocus will use (e.g., JuggernautXL, SDXL Base). You can download additional models and place them in the `Fooocus\models\checkpoints` folder.
+    *   **Refiner Model**: Optionally, select a refiner model that can enhance the details of the generated image. This is often used in a second pass.
+    *   **LoRAs (Low-Rank Adaptations)**: Select up to five LoRAs. LoRAs are smaller, fine-tuned models that can add specific styles, characters, or concepts. You can adjust the weight (influence) of each LoRA. Place LoRA files in `Fooocus\models\loras`.
 
-## Linux
+*   **Advanced Tab (Fine-tuning)**:
+    *   **Guidance Scale (CFG Scale)**: Controls how strictly the AI adheres to your prompt. Lower values (e.g., 4-7) give the AI more creative freedom, while higher values (e.g., 7-12) make it follow the prompt more closely. Default is often around 7.
+    *   **Image Sharpness**: Adjusts the clarity and detail of edges in the image. Lower settings produce softer, potentially blurrier edges, while higher settings create sharper images. Often a subtle effect.
+    *   **Sampler & Scheduler**: These are more technical settings that determine how the noise is iteratively removed to form an image. For most users, the defaults work well. Common samplers include `dpmpp_2m_sde_gpu` and schedulers like `karras`.
 
-### NVIDIA GPUs
+### Image-to-Image Generation (Input Image)
 
-If you want to use Anaconda/Miniconda, you can
+Fooocus allows you to use existing images as a basis for new creations. Click the "Input Image" checkbox (usually below the prompt area) to reveal these features. This will open up several tabs: "Upscale or Variation", "Image Prompt", and "Inpaint or Outpaint".
 
-```
-git clone https://github.com/lllyasviel/Fooocus.git
-cd Fooocus
-conda env create -f environment.yaml
-conda activate fooocus
-pip install -r requirements_versions.txt
-```
+#### Input Image Features:
 
-Then download the models: download default models to the folder "Fooocus\models\checkpoints". Or let Fooocus automatically download the models using the launcher:
+*   **Upscale or Variation**:
+    *   Upload an image to this section.
+    *   **Vary (Subtle/Strong)**: Generate new versions of an uploaded image. "Subtle" makes minor changes, while "Strong" introduces more significant alterations while trying to retain the core subject.
+    *   **Upscale (e.g., 1.5x, 2x, Fast 2x)**: Increase the resolution of an uploaded image. For example, the "Upscale (Fast 2x)" option is optimized for enlarging images like 2k to 4k. Select an option and click "Generate".
 
-```
-conda activate fooocus
-python entry_with_update.py
-```
+*   **Image Prompt**:
+    *   Upload up to four reference images. These images, along with your text prompt, will guide the generation of new images.
+    *   You can control the influence of each image prompt using options like "PyraCanny" (edge detection), "CPDS" (detail preservation), or "FaceSwap" (if you have a face in the image prompt and want to apply it).
+    *   Adjust the "Stop At" and "Weight" parameters to control how much each image prompt influences the final result.
 
-Or, if you want to open a remote port, use
+*   **Inpaint or Outpaint**:
+    *   Upload an image. The interface will allow you to draw a mask over the image.
+    *   **Inpainting**: Modify or add details *within* the selected (masked) area of an image. Provide a prompt describing what you want in the masked area (e.g., "add a red hat").
+    *   **Outpainting**: Extend the image beyond its original borders. Mask the area *outside* the part you want to keep, or use the "Outpaint Direction" buttons. The AI will predict and generate the new areas based on your prompt and the existing image.
+    *   You can choose the method (e.g., "Inpaint" or "Improve Detail").
+    *   After setting up your image, mask, and prompt, click "Generate".
 
-```
-conda activate fooocus
-python entry_with_update.py --listen
-```
+### Tips for Better Results
 
-Use ```python entry_with_update.py --preset anime``` or ```python entry_with_update.py --preset realistic``` for Fooocus Anime/Realistic Edition.
+*   **Be Specific in Prompts**: The more detail you provide, the better Fooocus can understand your vision. Think about subject, action, environment, lighting, style, and composition.
+*   **Iterate**: Don't expect the perfect image on the first try. Generate multiple images, pick the ones you like, and refine your prompts or use image-to-image features.
+*   **Experiment with Styles**: The "Style" tab is very powerful. Combining a few well-chosen styles can dramatically improve your output.
+*   **Use Negative Prompts**: This is crucial for avoiding common AI artifacts and unwanted elements.
+*   **Check the Console**: If `run.bat` is still open in a command prompt window, it often shows progress and any errors, which can be helpful for troubleshooting.
+*   **Update Fooocus**: The software is actively developed. Pull the latest updates from GitHub regularly to get new features and bug fixes by running `update.bat` or `git pull` if you cloned the repository.
 
-### AMD GPUs
-
-> [!NOTE]
-> The AMD support is in beta.
-> In case of trouble check the [troubleshoot page](https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md).
-
-Same with the above instructions. You need to change torch to the AMD version.
-
-```
-pip uninstall torch torchvision torchaudio torchtext functorch xformers 
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm5.6
-```
-
-Use ```python entry_with_update.py --preset anime``` or ```python entry_with_update.py --preset realistic``` for Fooocus Anime/Realistic Edition.
+Fooocus is designed to be user-friendly, with many optimizations happening automatically "under the hood" to improve image quality. It's an excellent tool for both beginners and experienced users looking for a powerful yet streamlined image generation experience.
 
 <br>
 
-# Usage
+## AUTOMATIC1111 Stable Diffusion web UI (Intermediate)
 
-> [!NOTE]
-> The following guide is based on the usage of Fooocus on a windows 11 machine using an Nvidia RTX 4090 GPU.
+<br>
 
-> [!CAUTION]
-> Use AI-generated images responsibly: **Always disclose that they were generated by AI.**
-> Be mindful of **intellectual property rights.**
-
-## Before Starting
-
-When using your image generation model, **it's essential to provide detailed and specific prompts to achieve the desired output**. A well-crafted prompt can make all the difference in generating an image that meets your needs.
-
-To get started, try to be as descriptive as possible:
-
-* ***Specify the object or scene you want to see***: "Generate a photo of a sunset on a beach".
-* ***Provide context***: "Create an image of a futuristic cityscape with towering skyscrapers and flying cars".
-* ***Add style guidance***: "Produce a minimalist illustration of a cat in a bold, comic book-style font".
-
-By being **specific and detailed**, you'll help the model understand your vision and generate an output that aligns with your expectations. 
-
-> [!TIP]
-> You Check out this helpful [twitter/X account](https://twitter.com/nickfloats) to learn how to improve your skills. While this account is for Midjourney, its prompting principles can be applied to Fooocus. Take inspiration and adapt them to create compelling prompts.
-
-## Basic Mode
-
-To begin, simply execute the ```run.bat``` file (or use ```python entry_with_update.py``` on other platforms) to load the software and models.
-
-Once loaded, Fooocus will open a tab in your browser, where you can start exploring its features. By default, you'll see an input box for writing prompts, a "Generate" button, and an image window.
-
-**Starting Image Generation**
-
-To generate images, simply type what you want to create into the input box and click the "Generate" button. Fooocus will then produce two images with a 9:7 ratio by default.
-
-As the generation process unfolds, you'll be able to visualize the output in real-time within the image window.
-
-**Saving and Viewing Generated Images**
-
-Once the images are created, you can zoom in on them by clicking directly on the new images. To save your generated creations, use the dedicated button at the top of each image.
-
-
-## Advanced Mode
-
-For greater control over your image generation, toggle into Advanced Mode by clicking the corresponding button located below the input field. This mode offers a range of additional settings and options to fine-tune your creative output.
-
-### Settings
-
-In the Settings tab, you can refine your image generation experience by adjusting various options.
-
- * **Preset Selection** : Select a preset model optimized for a specific image style, such as Anime. This ensures that the model is tailored to produce images that match the chosen style.
-
- * **Performance Selection** : Choose a preset performance setting to focus on specific generation parameters, like Speed or quality. For example, if you need a highly detailed image, select the Quality option.
-
-* **Aspect Ratio** : Choose from a list of pre-defined aspect ratios to control the shape and proportions of your generated images. Fooocus limits the ratio options to ensure better output results.
-
-* **Number of Images** : Decide how many images you want the model to generate. It's often helpful to produce multiple iterations, as the output images may vary significantly. This allows you to choose your preferred result.
-
-* **Output Format** : The default output format is PNG. You can also select JPEG or WebP formats to suit your needs.
-
-* **Negative Prompt Box** : Use the negative prompt box to fine-tune your image output by removing unwanted objects, colors, or characters from the generated images. This feature enables you to further customize your results.
-
-### Style
-
-The Style tab allows you to **modify the aesthetic of your generated images**. To explore different styles, use the search box to find a specific style that suits your needs.
-
-**Use the search box to quickly locate a specific style** that resonates with your creative vision. Once you've found the desired style, **adjust the settings as needed to refine the look** of your generated images.
-
-Some examples of available styles include:
-
-* **Minimalism** : A sleek and simple design
-* **Rococo** : A ornate and decorative style inspired by 18th-century French art
-* **Watercolor** : A soft and whimsical aesthetic reminiscent of watercolor paintings
-* **Art Deco** : A glamorous and geometric style popularized in the Roaring Twenties
-
-Fooocus offers a wide range of styles, each one carefully crafted to evoke a unique mood, atmosphere, or visual identity. Take some time to browse through the library and get familiar with what's available.
-
-### Model
-
-The Model tab provides advanced users with the ability to fine-tune the **underlying model and weights used by Fooocus**. While this level of customization can be powerful, it is essential to carefully consider any changes before making them.
-
-Before modifying the model or weights, we strongly recommend that you have a solid understanding of the concepts involved.
-
-<div align="center"> 
- 
-<strong> If you are unsure about what you are doing, it is best to leave these settings unchanged. </strong>
-
-</div>
-
-### Advanced
-
-The Advanced tab offers two settings, carefully developed by the Fooocus team, which provide additional control over your image generation process.
-
-**Sharpness**
-
-Fooocus introduces Image Sharpness, a feature designed to address the common issue of overly smooth images generated by SDXL. **This setting allows you to control the level of detail and sharpness** in your final image.
-
-By adjusting the Image Sharpness value, you can achieve a range of effects:
-* Higher values will result in **less smoothed images with more defined edges**.
-* Lower values will **produce smoother, more subtle images**.
-  
-To get the most out of this feature, try experimenting with different settings to find the sweet spot that suits your creative vision. The default value is set to 2, providing a good balance between sharpness and smoothness.
-
-**Guidance Scale**
-
-The Guidance Scale, also known as the Classifier-Free Guidance (CFG) scale, is a critical parameter that **controls how closely the image generation process follows your text prompt**.
-
-As you increase the value of the CFG scale:
-
-* The generated images will become more aligned with the original text prompt.
-* However, be cautious not to set it too high, as this can limit diversity and quality in your output.
-  
-On the other hand, a **lower CFG scale value**:
-
-* Allows for greater creative freedom and produces higher-quality images.
-* May result in output that deviates from the original text prompt, but still maintains a strong connection to its essence.
-
-**To get the most out of the Guidance Scale**:
-
-* Experiment with different values to find the sweet spot that suits your creative vision.
-* Consider the trade-off between prompt adherence and creative freedom when setting this parameter.
-* Don't be afraid to adjust the CFG scale value to achieve the perfect balance for your project.
-
-## Input Image
-
-The Input Image option allows you to **leverage images as input for your generation process, offering a powerful way to guide and refine your creative output.**
-
-There are several scenarios where using images as input can be particularly useful.
-
-### Upscaling 
-
-If you need to enlarge an image while maintaining its quality, the input image option can help you achieve this.
-
-**To upscale your desired image**, follow these easy steps:
-
-***Step 1: Upload Your Image***
-Begin by uploading your target image into the designated box.
-
-***Step 2: Choose the Upscale Option***
-Select the "Upscale" option from the right-hand menu. You can choose from various upscaling options, such as 1.5x or 2x.
-
-***Step 3: Set the Image Number***
-In the Settings tab, make sure the image number is set to 1.
-
-***Step 4: Generate Your Enlarged Image***
-Once you've completed these steps, click the "Generate" button to create your enlarged image.
-
-When you choose the upscale option (2x), your generated image will have x2 more pixels than the original. This means that if your original image has 1000x1000 pixels, the upscaled image will have 2000x2000 pixels.
-
-### Variation
-
-Want to create a variation of an existing image? **This feature allows you to build upon a starting point and generate new and interesting variations**. Here's how to do it:
-
-***Step 1: Upload Your Starting Image***
-Begin by uploading your existing image into the designated box.
-
-***Step 2: Choose the Variation Option***
-Select the "Variation" option from the right-hand menu.  You can choose from various Vary options, such as Subtle variation or Strong variation.
-
-***Step 3: Generate Your Variations***
-Once you've completed these steps, click the "Generate" button to create your variations. You'll receive a new set of images that are inspired by your starting image but with unique twists and features.
-
-When you generate variations, **you can expect to see changes in aspects** such as:
-
-* Color palette
-* Composition
-* Texture
-* Object placement
-  
-These changes will be applied in various ways, resulting in a set of new images that are distinct from the original but still share similarities with it.
-
-### Image Prompting 
-
-Want to use an existing image as inspiration for a new creation ? **Image prompting is a powerful feature that allows you to generate a new image based on an existing one.** Here's how to do it:
-
-***Step 1: Upload Your Prompt Image***
-Begin by uploading the image (or multiple images) you want to use as a prompt(s) into the designated box.
-
-***Step 2: Set the Generation Parameters***
-In the Settings tab, you can adjust various parameters to control the style and direction of the generated image.
-
-***Step 3: Generate Your Prompted Image***
-Once you've completed these steps, click the "Generate" button to create your prompted image. You'll receive a new set of images that are inspired by your starting image but with unique characteristics and features.
-
-When you generate an image prompt, **you can expect to see a new image that is influenced by the original**. The generated image may:
-
-* Share similar colors or textures
-* Feature similar objects or compositions
-* Have a similar mood or atmosphere
-  
-These elements will be combined in unique ways to create a new and creative image that's inspired by your starting prompt.
-
-### Describe Image
-
-Want to know more about what's in an image? **The Image Description feature allows you to upload an image and receive a detailed description of its contents**. Here's how to do it:
-
-***Step 1: Upload Your Image***
-Begin by uploading the image you want to have described into the designated box.
-
-***Step 2: Choose which type of content you want the model to describe.***
-
-***Step 3: Review Your Description***
-Once you've completed these steps, click the "Generate" button to receive your image description. You'll be provided with a detailed and accurate summary of the image's contents, including:
-
-* Objects and their positions
-* Colors and textures
-* Compositions and layouts
-* Any notable features or details
-
-This feature can also inspire new prompt ideas by revealing what makes an image compelling.
-
-### Inpainting and Outpainting 
-
-**Inpainting**
-
-Inpainting is a process that allows you to **modify or replace specific parts of an existing image.** Here's how to do it:
-
-***Step 1: Upload Your Image***
-Begin by uploading the image you want to modify in the designated box.
-
-***Step 2: Define the Inpaint Area***
-Carefully select the area to modify. Avoid large zones that can alter the image's structure.
-
-***Step 3: Describe want you want to change (3 Method)***
-* (**default**) Describe what you want to achieve in the input box.
-* (**Improve details**) Add more indications for improving details or refining the image using the Inpaint Additional Prompt box.
-* (**Modify Content**) To simply add object or change the image background, describe the wanted change in the Inpaint Additional Prompt box.
-
-***Step 4: Generate Your Modification***
-Click "Generate" to create your prompted inpaint. You'll receive a new set of images based on your selection and guidance.
-
-> [!TIP]
-> Be patient and refine your approach if needed.
-> Inpainting may require multiple iterations before achieving the desired result. 
-
-**Outpainting**
-
-Outpainting lets you **take an image beyond its original borders**. Here's how to do it:
-
-***Step 1: Upload Your Image***
-Begin by uploading the image you want to modify in the designated box.
-
-***Step 2: Choose the directions***
-Choose where you want your image to expand by selecting from the dedicated buttons (Left, Right, Top, Bottom). For a comprehensive expansion, select all four options!
-
-***Step 3: Generate Your Modification***
-Once you've completed these steps, click the "Generate" button to create your desired outpaint. You'll receive a new set of images that have been modified based on your chosen directions.
-
-> [!TIP]
-> Keep in mind that outpainting may require multiple iterations before achieving the desired result.
-> Be patient and refine your approach as needed!
+## ComfyUI (Expert)
 
 <br>
