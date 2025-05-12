@@ -334,10 +334,6 @@ This tab allows you to upload an existing image and transform it using a text pr
 
 ComfyUI is a powerful, node-based interface for AI image generation that offers unprecedented flexibility and control. Unlike traditional linear interfaces, ComfyUI allows you to visually design complex workflows by connecting nodes on a canvas, giving you full control over every aspect of the image generation process. This tutorial will guide you through setting up ComfyUI and creating various workflows for AI image generation.
 
-### What is ComfyUI?
-
-ComfyUI is an open-source, node-based program that allows users to generate images from text prompts using diffusion models such as Stable Diffusion. Released in January 2023, ComfyUI offers a visual programming environment where each function (like loading a model or specifying prompts) is represented by a node. These nodes are connected to form workflows that determine how your images are generated.
-
 Key features of ComfyUI include:
 - **Visual Programming**: An intuitive node-based interface for building complex image generation workflows
 - **Model Support**: Compatibility with various image generation models, including different versions of Stable Diffusion
@@ -381,10 +377,6 @@ For users who want more control over the installation process:
         git clone https://github.com/comfyanonymous/ComfyUI.git C:\ComfyUI
         ```
     *   Install dependencies using the provided scripts.
-
-#### Option 4: Using ComfyUI Online
-
-If you prefer not to install anything, you can use ComfyUI through online services like ComfyUI Web, which offers a free option.
 
 ### Understanding the ComfyUI Interface
 
