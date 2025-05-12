@@ -25,7 +25,7 @@
 
 ## Introduction
 
-This tutorial guides **individuals seeking greater control and transparency in their data processing through setting up a local Large Language Model (LLM) environment.*** We'll use Ollama as the backend and the Page Assist extension in your browser for this purpose.
+This tutorial guides **individuals seeking greater control and transparency in their data processing by setting up a local Large Language Model (LLM) environment.*** We'll use Ollama as the backend and the Page Assist extension in your browser for this purpose.
 
 #### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20in%20Clouds.png" alt="Face in Clouds" width="25" height="25" /> Challenges with Cloud-Based AI Services
 
@@ -45,9 +45,9 @@ This tutorial guides **individuals seeking greater control and transparency in t
 
 This section provides you with the **knowledge and resources to select the right model for your specific needs.** The first table showcases open-source models that can be run locally on your machine. 
 
-To ensure optimal performance, **I have outlined the recommended hardware requirements for each model.**
+To help you choose, **I have outlined the estimated hardware requirements for each model.** These estimates generally assume the model is quantized (specifically using a common 4-bit quantization), a process that reduces the model's size and memory footprint, offering a good balance between performance and quality. Keep in mind that actual performance can vary based on the specific software used and your system's configuration.
 
-For **users with limited system resources** or older hardware configurations, I will also provide **cloud-based providers that can efficiently run these models**.
+Learn more about quantization [here](https://huggingface.co/blog/merve/quantization).
 
 > [!IMPORTANT]
 > Please note that while it is possible to **run models without a GPU**, doing so will load the model into RAM and perform inference using the CPU.
@@ -58,7 +58,7 @@ For **users with limited system resources** or older hardware configurations, I 
 
 ***Large-scale models (>70 billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed.
 
-| Organization       | Model                                                                 | Model Size  | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (Alpha v0.3.1) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Hardware requirement              |
+| Organization       | Model                                                                 | Model Size  | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (Alpha v0.3.1) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Hardware requirement (using Q4 quantization)              |
 |:------------------:|:---------------------------------------------------------------------|:-----------:|:---------------------------------:|:-----------:|:-----------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)       | [Deepseek-R1](https://huggingface.co/deepseek-ai/DeepSeek-V3)     | 685B        | 79.61 | ✔️ | 404GB+ VRAM GPU (5xH100 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Perplexity.svg" alt="Perplexity" width="150" height="20" />](https://www.perplexity.ai) | [R1-1776](https://huggingface.co/perplexity-ai/r1-1776) | 685B | 79.51 |✔️ | 404GB+ VRAM GPU (6xH100 or better) |
@@ -67,7 +67,7 @@ For **users with limited system resources** or older hardware configurations, I 
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)       | [Deepseek-v3](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 236B | 72.79 | ❌ | 133GB+ VRAM GPU (2xH100 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/DeepCogito.svg" alt="DeepCogito" width="200" height="20" />](https://www.deepcogito.com/research/cogito-v1-preview) | [Cogito-v1-preview-llama-70B](https://huggingface.co/deepcogito/cogito-v1-preview-llama-70B) | 70B | 68.81 | ✔️ | 47GB+ VRAM GPU (2xRTX 4090 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="200" height="20" />](https://github.com/Tencent/) | [Hunyuan-Large](https://huggingface.co/tencent/Tencent-Hunyuan-Large) | 389B | 67.98 | ❌ | 300GB+ VRAM GPU (5xH100 or better) | 
-|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="200" height="20" />](https://www.minimaxi.com/en) | [MiniMax-Text-01](https://huggingface.co/MiniMaxAI/MiniMax-Text-01) | 456B | 67.73 | ❌ | 404GB+ VRAM GPU (6xH100 or better) |
+|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/MiniMax.svg" alt="MiniMax" width="200" height="20" />](https://www.minimaxi.com/en) | [MiniMax-Text-01](https://huggingface.co/MiniMaxAI/MiniMax-Text-01) | 456B | 67.73 | ❌ | 404GB+ VRAM GPU (6xH100 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)        | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)  | 72.2B | 67.38 | ❌ | 47GB+ VRAM GPU (2xRTX 4090 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/) | [Llama-4-Maverick-17B-128E-Instruct](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct) | 402B | 67.14 | ❌ | 230+ VRAM GPU (4xH100 or better)  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/)           | [Llama-3.3-70b-Instruct](https://ollama.com/library/llama3.3) | 70B | 66.64 | ❌ | 40GB+ VRAM GPU (2xRTX 4090 or better) |
@@ -82,7 +82,7 @@ For **users with limited system resources** or older hardware configurations, I 
 
 ***Mid-sized models (<14B parameters)*** : These are well-suited for local deployment on high-end workstations. However, such deployment demands substantial investment in hardware, including a powerful GPU and other components, with total costs generally falling between $2,000 to $3,400 (or equivalent).
 
-| Organization       | Model                                                                 | Model Size  | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (Alpha v0.3.1) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Hardware requirement              |
+| Organization       | Model                                                                 | Model Size  | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (Alpha v0.3.1) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Hardware requirement (using Q4 quantization)              |
 |:------------------:|:---------------------------------------------------------------------|:-----------:|:---------------------------------:|:-----------:|:-----------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B) | 32B | 72.06 | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen3-30B-A3B](https://huggingface.co/Qwen/Qwen3-30B-A3B) | 30.5B | 71.42 | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | 20GB+ VRAM GPU (RX 7900 XT or RTX 4090 or better) |
@@ -104,7 +104,7 @@ For **users with limited system resources** or older hardware configurations, I 
 
 ***Small models (<7B parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, with costs generally between $700 to $1,400 (or equivalent).
 
-| Organization       | Model                                                                 | Model Size  | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (Alpha v0.3.1) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Hardware requirement              |
+| Organization       | Model                                                                 | Model Size  | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (Alpha v0.3.1) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Hardware requirement (using Q4 quantization)              |
 |:------------------:|:---------------------------------------------------------------------|:-----------:|:---------------------------------:|:-----------:|:-----------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen3-14B](https://huggingface.co/Qwen/Qwen3-14B) | 14B | 69.33 | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/DeepCogito.svg" alt="DeepCogito" width="200" height="20" />](https://www.deepcogito.com/research/cogito-v1-preview) | [Cogito-v1-preview-qwen-14B](https://huggingface.co/deepcogito/cogito-v1-preview-qwen-14B) | 14B | 66.91 | ✔️ | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) |
@@ -112,7 +112,7 @@ For **users with limited system resources** or older hardware configurations, I 
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/) | [Phi-4-reasoning-plus](https://huggingface.co/microsoft/Phi-4-reasoning-plus) | 14B | 65.46 | ✔️ | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/) | [Phi-4-reasoning](https://huggingface.co/microsoft/Phi-4-reasoning) | 14B | 63.78 | ✔️ | 16GB+ VRAM GPU (RX 7800 or RTX 4080 or better) |
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  |  [Llama-3.1-Nemotron-Nano-8B-v1](https://huggingface.co/nvidia/Llama-3.1-Nemotron-Nano-8B-v1) | 8B | 62.81 | ✔️ |  8GB+ VRAM GPU (rx 7700 or RTX 4070 or better) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) |  [DeepSeek-R1-Distill-Qwen-14B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B) | 14B | 60.91 | ✔️ | 10GB+ VRAM GPU (rx 7700 or RTX 4070 or better) | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) |  [DeepSeek-R1-Distill-Qwen-14B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B) | 14B | 60.91 | ✔️ | 10GB+ VRAM GPU (rx 7700 or RTX 4070 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemma-3-12b-it](https://huggingface.co/google/gemma-3-12b-it) | 12B |  59.60  | ❌ | 12GB+ VRAM GPU (rx 7700 or RTX 4070 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/LG.svg" alt="LG" width="200" height="20" />](https://www.lgresearch.ai/) | [EXAONE-Deep-7.8B](https://huggingface.co/LGAI-EXAONE/EXAONE-Deep-7.8B) | 7.8B | 59.29 | ✔️ | 8GB+ VRAM GPU (rx 7700 or RTX 4070 or better) |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM) | [Internlm3-8b-instruct](https://huggingface.co/internlm/internlm3-8b-instruct) | 8B | 58.90 | ❌ | 8GB+ VRAM GPU (rx 7700 or RTX 4070 or better) |
@@ -133,7 +133,7 @@ For **users with limited system resources** or older hardware configurations, I 
 
 ***Tiny models*** : The smallest models are designed to run on all types of machines, including the oldest ones. These models can be run on most consumer hardware configurations, provided they have at least 6-8 GB of RAM.
 
-| Organization       | Model                                                                 | Model Size  | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (Alpha v0.3.1) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Hardware requirement              |
+| Organization       | Model                                                                 | Model Size  | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (Alpha v0.3.1) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Hardware requirement (using Q4 quantization)              |
 |:------------------:|:---------------------------------------------------------------------|:-----------:|:---------------------------------:|:-----------:|:-----------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B) | 4B | 60.87 | [Hybrid](https://qwenlm.github.io/blog/qwen3/) |  6GB+ RAM  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/DeepCogito.svg" alt="DeepCogito" width="200" height="20" />](https://www.deepcogito.com/research/cogito-v1-preview) | [Cogito-v1-preview-llama-3B](https://huggingface.co/deepcogito/cogito-v1-preview-llama-3B) | 3B | 56.74 | ✔️ | 6GB+ RAM  |
@@ -157,13 +157,13 @@ For **users with limited system resources** or older hardware configurations, I 
 
 ## LM Studio (Beginner) {#lm-studio}
 
-LM Studio is a powerful yet user-friendly tool for running large language models (LLMs) on your local machine. It’s especially well-suited for beginners who want to experiment with AI without needing advanced technical skills or an internet connection.
+LM Studio is a powerful yet user-friendly tool for running large language models (LLMs) on your local machine. It's especially well-suited for beginners who want to experiment with AI without needing advanced technical skills or an internet connection.
 
 ### Why Use LM Studio?
 
 LM Studio offers several advantages that make it ideal for **newcomers**:
 
-**Ease of Use**: It provides a graphical user interface (GUI), so you don’t need to know command-line tools or coding.
+**Ease of Use**: It provides a graphical user interface (GUI), so you don't need to know command-line tools or coding.
 
 **Privacy**: Since models run locally, your data stays on your machine — no uploading required.
 
@@ -177,7 +177,7 @@ Before installing LM Studio, make sure your system meets the following minimum r
 
 **Storage**: Enough space to store model files (typically between 2GB and 20GB+).
 
-**CPU/GPU**: A modern CPU is sufficient. An NVIDIA or AMD GPU can improve performance, but it's not required. Mac users with M1/M2/M3/M4 chips don’t need a separate GPU.
+**CPU/GPU**: A modern CPU is sufficient. An NVIDIA or AMD GPU can improve performance, but it's not required. Mac users with M1/M2/M3/M4 chips don't need a separate GPU.
 
 **Operating System**:: Windows (x86/ARM), macOS (M1–M4 recommended), or Linux (x86 with AVX2 support)
 
@@ -216,7 +216,7 @@ Once a model is loaded, you can start interacting with it:
 2. Press Enter to send.
 3. The AI will process and respond locally — no internet connection required.
 
-You’ll see the response appear immediately in the chat window.
+You'll see the response appear immediately in the chat window.
 
 For more detailed information, please refer to the [official LM Studio documentation](https://lmstudio.ai/docs/app). Read more on [Downloading Models](https://lmstudio.ai/docs/app/basics/download-model) or [Manage chats](https://lmstudio.ai/docs/app/basics/chat).
 
@@ -266,7 +266,7 @@ ollama list
 
 ### User Friendly Ollama Models Interaction
 
-For those who prefer a more user-friendly experience, We'll demonstrate how to interact with your Ollama model through our browser-based interface, which provides a graphical and intuitive way of working with your LLM. We will be using the [Page assist extension](https://github.com/n4ze3m/page-assist).
+For those who prefer a more user-friendly experience, we'll demonstrate how to interact with your Ollama model through our browser-based interface, which provides a graphical and intuitive way of working with your LLM. We will be using the [Page assist extension](https://github.com/n4ze3m/page-assist).
 
 Page Assist is an open-source Chrome Extension that provides a Sidebar and Web UI for your Local AI model. It allows you to interact with your model from any webpage.
 
@@ -293,7 +293,7 @@ If needed, see the [Manual Installation](https://github.com/n4ze3m/page-assist) 
 
 Once the extension is installed Just click on the extension icon and it'll take you straight to the chatGPT-like UI.
 
-To verify after installation process, I would suggest the following steps :
+After installation, I suggest the following steps :
 
 - A center message **must letting you know that Ollama is running in the background**, ready to handle your requests.
 - To the top left corner, a **dropdown menu** awaits, listing all models you've installed and are currently available for interaction. Simply **select the model with which you wish to engage.**
@@ -391,7 +391,7 @@ Compile the source code using `make`:
 make
 ```
 
-This builds the main executable, `./main`, which is optimized for **CPU inference**.
+This builds the main executable, `./main`, which is optimized for **CPU inference**. For significantly improved performance on compatible hardware, you can build with GPU acceleration (e.g., using `make LLAMA_CUDA=1` for NVIDIA GPUs). Refer to the official documentation for specific commands for CUDA, Metal (macOS), and other backends.
 
 > 🔧 **Note**: For GPU acceleration (CUDA, Metal), you'll need to use specific build commands. See the [Llama.cpp Build Documentation](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md) for more details.
 
@@ -422,7 +422,7 @@ conda create --name llama-cpp-env
 conda activate llama-cpp-env
 ```
 
-Using **Python’s built-in `venv`** (Linux/macOS):
+Using **Python's built-in `venv`** (Linux/macOS):
 
 ```bash
 python -m venv llama-cpp-env
