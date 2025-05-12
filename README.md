@@ -39,6 +39,8 @@ Since benchmarks cannot always be trusted and existing leaderboards typically fo
 
 Our approach aims to cover a wide range of benchmarks, leaderboards, community assessments, and technical specifications, **trying to provide an unbiased estimation of the overall capacities of any public LLM.**
 
+***The latest release of the LLM scoring framework is v0.3.1-beta. Version v0.4.0-beta is currently in development, featuring a broader and significantly more complex approach.***
+
 <br>
 
 > [!NOTE]
