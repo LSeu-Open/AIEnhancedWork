@@ -332,4 +332,279 @@ This tab allows you to upload an existing image and transform it using a text pr
 
 ## ComfyUI (Expert)
 
+ComfyUI is a powerful, node-based interface for AI image generation that offers unprecedented flexibility and control. Unlike traditional linear interfaces, ComfyUI allows you to visually design complex workflows by connecting nodes on a canvas, giving you full control over every aspect of the image generation process. This tutorial will guide you through setting up ComfyUI and creating various workflows for AI image generation.
+
+### What is ComfyUI?
+
+ComfyUI is an open-source, node-based program that allows users to generate images from text prompts using diffusion models such as Stable Diffusion. Released in January 2023, ComfyUI offers a visual programming environment where each function (like loading a model or specifying prompts) is represented by a node. These nodes are connected to form workflows that determine how your images are generated.
+
+Key features of ComfyUI include:
+- **Visual Programming**: An intuitive node-based interface for building complex image generation workflows
+- **Model Support**: Compatibility with various image generation models, including different versions of Stable Diffusion
+- **Extensibility**: The ability to add custom nodes and integrate your own models
+- **Parameter Control**: Precise control over generation parameters
+- **Workflow Sharing**: Ability to save and share entire workflows
+- **Local Execution**: All computations performed locally, ensuring data privacy
+
+### Installation Options
+
+There are several ways to install ComfyUI depending on your needs and technical expertise:
+
+#### Option 1: ComfyUI Desktop (Recommended for Windows Users)
+
+ComfyUI now offers a desktop version that can be installed like standard software. This version supports multiple languages and provides an optimized experience.
+
+#### Option 2: Windows Portable Version
+
+1.  Download the portable version from the official GitHub repository.
+2.  Unzip the file to your preferred location.
+3.  Run the appropriate script (`run_gpu.sh` or `run_cpu.sh`).
+
+#### Option 3: Native Installation
+
+For users who want more control over the installation process:
+
+1.  **Hardware Requirements**:
+    *   GPU: NVIDIA graphics card with at least 4GB VRAM (RTX 3060 or higher recommended)
+    *   Memory: At least 16GB RAM (32GB recommended for complex tasks)
+    *   Storage: At least 10GB free disk space
+
+2.  **Software Requirements**:
+    *   Windows 10 or later
+    *   Python 3.10
+    *   Git
+
+3.  **Installation Steps**:
+    *   Install Python and Git.
+    *   Clone the ComfyUI repository:
+        ```
+        git clone https://github.com/comfyanonymous/ComfyUI.git C:\ComfyUI
+        ```
+    *   Install dependencies using the provided scripts.
+
+#### Option 4: Using ComfyUI Online
+
+If you prefer not to install anything, you can use ComfyUI through online services like ComfyUI Web, which offers a free option.
+
+### Understanding the ComfyUI Interface
+
+Upon launching ComfyUI, you'll encounter a clean yet powerful interface with these key areas:
+
+#### Workspace Components
+
+-   **Workspace**: The central canvas area where you build node workflows.
+-   **Top Toolbar**: Contains buttons for loading, saving, clearing workflows and queuing prompts.
+-   **Right Panel**: Displays node properties and queue manager.
+-   **Left Sidebar**: Offers quick access to common nodes.
+
+#### Navigation:
+-   Use the mouse wheel to zoom in/out.
+-   Hold the middle mouse button to pan across the workspace.
+-   Right-click on the workspace for contextual options.
+
+### Basic Text-to-Image Workflow
+
+Let's start with the fundamental workflow - generating images from text prompts:
+
+#### Step 1: Load a Checkpoint Model
+
+1.  Add a "Load Checkpoint" node to your workspace.
+2.  Select a Stable Diffusion model (like `v1-5-pruned-emaonly.safetensors`).
+
+#### Step 2: Set Up Text Prompts
+
+1.  Add a "CLIP Text Encode" node.
+2.  Connect it to the "CLIP" output from the "Load Checkpoint" node.
+3.  In the CLIP Text Encode node, enter your positive prompt (what you want in the image).
+4.  Add another "CLIP Text Encode" node for negative prompts (what you don't want).
+
+#### Step 3: Create the Empty Latent Image
+
+1.  Add an "Empty Latent Image" node.
+2.  Set your desired width and height (e.g., 512x512).
+3.  This defines your "canvas" for image generation.
+
+#### Step 4: Set Up the Sampler
+
+1.  Add a "KSampler" node.
+2.  Connect:
+    *   "model" to the "MODEL" output from "Load Checkpoint"
+    *   "positive" to the output of your positive CLIP Text Encode
+    *   "negative" to the output of your negative CLIP Text Encode
+    *   "latent_image" to the output of "Empty Latent Image"
+3.  Configure sampling parameters:
+    *   **seed**: A number that determines randomness (same seed = reproducible results)
+    *   **steps**: How many steps to run (20-30 is common)
+    *   **cfg**: How closely to follow the prompt (7-12 is common)
+    *   **sampler_name**: Choose a sampler algorithm (e.g., `Euler_a`, `dpmpp_2m`)
+    *   **scheduler**: The noise schedule (e.g., `normal`, `karras`)
+
+#### Step 5: Decode and Save the Image
+
+1.  Add a "VAE Decode" node.
+    *   Connect it to the "LATENT" output from KSampler.
+    *   Connect its "vae" input to the "VAE" output from Load Checkpoint.
+2.  Add a "Save Image" node.
+    *   Connect it to the "IMAGE" output from "VAE Decode".
+
+#### Step 6: Generate Your Image
+
+Click the "Queue Prompt" button or press `Ctrl+Enter` to run your workflow.
+
+### Image-to-Image Workflow
+
+The image-to-image workflow allows you to modify existing images:
+
+#### Step 1: Set Up the Basic Nodes
+
+1.  Follow steps 1-2 from the text-to-image workflow to set up your model and text prompts.
+
+#### Step 2: Load Your Input Image
+
+1.  Add a "Load Image" node.
+2.  Select your input image.
+
+#### Step 3: Convert Image to Latent Space
+
+1.  Add a "VAE Encode" node.
+2.  Connect:
+    *   "image" to the output of "Load Image"
+    *   "vae" to the "VAE" output from "Load Checkpoint"
+
+#### Step 4: Set Up the Sampler
+
+1.  Add a "KSampler" node with connections similar to the text-to-image workflow.
+2.  Important: Set "denoise" to less than 1.0 (e.g., 0.6-0.8) to preserve some of the original image.
+    *   Lower values = closer to original image
+    *   Higher values = more influenced by the prompt
+
+#### Step 5: Decode and Save
+
+Complete the workflow with "VAE Decode" and "Save Image" nodes as in the text-to-image workflow.
+
+### Inpainting Workflow
+
+Inpainting allows you to modify specific parts of an image while leaving the rest unchanged:
+
+#### Step 1: Set Up the Base Workflow
+
+1.  Load your model and set up text prompts as in previous workflows.
+
+#### Step 2: Load and Prepare Your Image
+
+1.  Add a "Load Image" node to load your base image.
+2.  Create or load a mask for the areas you want to modify:
+    *   Black areas = protected (unchanged)
+    *   White areas = inpainted (changed)
+
+#### Step 3: Create Masked Latent
+
+1.  Add a "VAE Encode" node to convert your image to latent space.
+2.  Add a "Set Latent Noise Mask" node.
+3.  Connect:
+    *   "latent" to the output of "VAE Encode"
+    *   "mask" to your mask image
+
+#### Step 4: Configure the Sampler
+
+1.  Set up the "KSampler" node as in previous workflows.
+2.  Connect the "latent_image" input to the output of "Set Latent Noise Mask".
+3.  Set an appropriate denoise value (0.5-0.8 recommended).
+
+#### Step 5: Decode and Save
+
+Complete the workflow with "VAE Decode" and "Save Image" nodes as in previous workflows.
+
+### Image Upscaling Methods in ComfyUI
+
+ComfyUI offers multiple ways to upscale your generated images:
+
+#### Method 1: Pixel Resampling
+
+1.  Add an "Upscale Image By" node.
+2.  Connect it to your image output.
+3.  Select a scaling factor and method (e.g., `lanczos`, `nearest-neighbor`).
+4.  This is fast but may result in less detail.
+
+#### Method 2: SD Secondary Sampling Upscaling
+
+1.  Create a basic workflow with "Load Checkpoint" and text encoding.
+2.  Load your image and encode it to latent space.
+3.  Add a "Latent Upscale" node to increase resolution in latent space.
+4.  Use "KSampler" with a denoise value less than 1.0.
+5.  Decode and save the upscaled image.
+    *   This method can add new details but may slightly alter the image.
+
+#### Method 3: Using Specialized Upscaling Models
+
+1.  Load your image and a dedicated upscaling model.
+2.  Apply the upscaling model to your image.
+3.  This often provides the best quality but requires additional models.
+
+### Advanced Techniques
+
+#### Using ControlNet
+
+ControlNet allows for precise control over image generation based on various conditions like poses, depth maps, or edges:
+
+1.  Add a "Load ControlNet Model" node and select the appropriate model (e.g., `openpose`, `canny`, `depth`).
+2.  Add the corresponding preprocessor node (must match your ControlNet model).
+3.  Connect:
+    *   Your input image to the preprocessor
+    *   The preprocessor output to an "Apply ControlNet" node
+    *   The "Apply ControlNet" node between your conditioning and KSampler
+
+ControlNet types include:
+-   OpenPose: Control human poses
+-   Canny: Follow edge detection
+-   Depth: Maintain depth relationships
+-   Lineart: Follow line drawings
+-   Scribble: Generate from simple sketches
+-   Segmentation: Follow segmentation masks
+
+#### Batch Image Generation
+
+To generate multiple images at once:
+
+1.  Create your basic workflow.
+2.  Add a "Latent From Batch" node.
+3.  Configure it to generate multiple images in one run.
+4.  Process the batch through your workflow.
+
+Alternatively, use the "Image Batch" node to combine existing images into a batch for processing.
+
+### Tips and Shortcuts
+
+ComfyUI offers several shortcuts to speed up your workflow:
+
+-   **Copy/Paste**: `Ctrl+C` to copy a node, `Ctrl+V` to paste.
+-   **Move Multiple Nodes**: Hold `Ctrl` to select multiple nodes, then `Shift+drag`.
+-   **Bypass a Node**: Select a node and press `Ctrl+M` to temporarily disable it.
+-   **Minimize a Node**: Click the dot in the top left corner.
+-   **Generate Image**: Press `Ctrl+Enter` to queue your workflow.
+-   **Save Workflows in Images**: ComfyUI embeds the entire workflow in the metadata of generated PNGs.
+-   **Fix Seeds**: Fixing the random seed saves time when working with long node chains.
+
+### ComfyUI Manager
+
+ComfyUI Manager is an extension that helps manage custom nodes:
+
+1.  **Installation**:
+    *   Go to `ComfyUI/custom_nodes` directory.
+    *   Run:
+        ```
+        git clone https://github.com/ltdrdata/ComfyUI-Manager.git comfyui-manager
+        ```
+    *   Restart ComfyUI.
+
+2.  **Features**:
+    *   Install, remove, disable, and enable custom nodes.
+    *   Update installed nodes.
+    *   Install model files required by nodes.
+
+
+ComfyUI offers unprecedented flexibility for AI image generation through its node-based interface. Starting with basic workflows and progressing to more complex techniques, you can leverage the full potential of Stable Diffusion models with granular control over every aspect of the generation process.
+
+As you grow more comfortable with ComfyUI, experiment with combining different nodes, creating custom workflows, and exploring the vast ecosystem of community-created extensions. The ability to save and share workflows makes it easy to collaborate and learn from others in the community.
+
 <br>
