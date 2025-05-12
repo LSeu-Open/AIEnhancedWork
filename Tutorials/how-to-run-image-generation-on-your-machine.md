@@ -26,32 +26,82 @@
 
 ## Introduction
 
-Fooocus provides **stable diffusion image generation capabilities on local hardware**, offering creative control and privacy-focused artwork creation. This offline implementation **enables unrestricted experimentation with styles, prompts, and generation parameters.**
+Running AI image generation models like Stable Diffusion directly on your own computer offers significant advantages over relying solely on online services. This local approach grants you complete creative control, ensures privacy as your data and creations stay on your machine, and removes limitations often found in cloud-based platforms, such as usage restrictions or content filters. It allows for unrestricted experimentation with different models, styles, prompts, and generation parameters.
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> **Key Benefit: Generate AI art independently without cloud services or usage limitations.**
+This guide will walk you through setting up and using three popular interfaces for local image generation, each catering to different levels of user experience and desired control:
+
+*   **Fooocus:** Designed for simplicity and ease of use, great for beginners or those wanting quick results with minimal setup.
+*   **AUTOMATIC1111 Stable Diffusion web UI:** A feature-rich interface offering extensive options and community extensions, popular among intermediate users who want more control.
+*   **ComfyUI:** A powerful node-based system providing maximum flexibility and customization for advanced users and complex workflows.
 
 ## Hardware Requirement
 
-To run Image generation on your machine, Your hardware configuration **must meet these specifications for optimal performance.** Lower specifications may impact generation speed and quality.
+To run Image generation on your machine, your hardware configuration **must meet these specifications for optimal performance.** Lower specifications may impact generation speed and quality.
 
-| Operating System  | GPU                          | Minimal GPU Memory           | Minimal System Memory     | [System Swap](https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md) | Note                                                                       |
-|:-----------------:|:----------------------------:|:----------------------------:|:-------------------------:|:------------------------------:|:---------------------------------------------------------------------------|
-| Windows/Linux     | Nvidia RTX 4XXX              | 4GB                          | 8GB                       | Required                       | fastest                                                                    |
-| Windows/Linux     | Nvidia RTX 3XXX              | 4GB                          | 8GB                       | Required                       | usually faster than RTX 2XXX                                               |
-| Windows/Linux     | Nvidia RTX 2XXX              | 4GB                          | 8GB                       | Required                       | usually faster than GTX 1XXX                                               |
-| Windows/Linux     | Nvidia GTX 1XXX              | 8GB (6GB uncertain)          | 8GB                       | Required                       | only marginally faster than CPU                                            |
-| Windows/Linux     | Nvidia GTX 9XX               | 8GB                          | 8GB                       | Required                       | faster or slower than CPU                                                  |
-| Windows/Linux     | Nvidia GTX < 9XX             | Not supported                | /                         | /                              | /                                                                          |
-| Windows           | AMD GPU                      | 8GB    (updated 2023 Dec 30) | 8GB                       | Required                       | via DirectML (&ast; ROCm is on hold), about 3x slower than Nvidia RTX 3XXX |
-| Linux             | AMD GPU                      | 8GB                          | 8GB                       | Required                       | via ROCm, about 1.5x slower than Nvidia RTX 3XXX                           |
-| Mac               | M1/M2 MPS                    | Shared                       | Shared                    | Shared                         | about 9x slower than Nvidia RTX 3XXX                                       |
-| Windows/Linux/Mac | **only use CPU**             | 0GB                          | 32GB                      | Required                       | **about 17x slower than Nvidia RTX 3XXX**                                      |
+| OS                | GPU Category          | Min VRAM        | Min RAM | Notes                                                                                                     |
+| :---------------- | :-------------------- | :-------------- | :------ | :-------------------------------------------------------------------------------------------------------- |
+| Windows / Linux   | Nvidia RTX (Any Gen)  | 4GB             | 8GB     | Recommended for best performance (newer is faster: 4xxx > 3xxx > 2xxx).                                |
+| Windows / Linux   | Nvidia GTX (1xxx/9xx) | 8GB (6GB maybe) | 8GB     | Much slower than RTX. GTX 1xxx (8GB+) slightly faster than CPU. GTX <9xx not supported.                    |
+| Windows           | AMD Radeon            | 8GB             | 8GB     | Uses DirectML. Significantly slower than comparable Nvidia (e.g., ~3x slower than RTX 3xxx). Check drivers. |
+| Linux             | AMD Radeon            | 8GB             | 8GB     | Uses ROCm. Faster than Windows AMD, but still slower than comparable Nvidia (e.g., ~1.5x slower than RTX 3xxx). |
+| macOS             | Apple Silicon (M1/M2+)| Unified (8GB+)  | Shared  | Performance significantly lower than mid/high-end Nvidia GPUs.                                           |
+| Windows/Linux/Mac | CPU Only              | N/A             | 32GB    | **Very slow** (~17x slower than RTX 3xxx). Technically possible but not ideal for regular use.           |
 
 <br>
 
 ## Find the Model that is right for you
 
-:TODO: List of best Open source text to image models
+Choosing the right model is key to getting the results you want. 
+
+### High-quality models to beggin with
+
+*   **[Stable Diffusion XL (SDXL)](https://civitai.com/models/101055/sd-xl)** (Good for most styles)
+*   **[Pony](https://civitai.com/models/257749/pony-diffusion-v6-xl)** (best for Anime/Comics style)
+*   **[Illustrious XL](https://civitai.com/models/1224788/prefect-illustrious-xl)** (best for Anime/Manga style)
+*   **[Flux.1 Dev](https://civitai.com/models/618692/flux)** (best for photorealism)
+
+### Where to Find Models
+
+*   [**Hugging Face**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending): A major hub for AI models. Excellent source for official base models (SDXL, SD3, etc.) and many research models. Search for text-to-image models.
+*   [**Civitai**](https://civitai.com/): The most popular community site specifically for Stable Diffusion models. Huge collection of user-created Checkpoints, LoRAs, Embeddings, VAEs, etc., with image examples and reviews. **Caution:** Content can be NSFW; use filters if needed. Check model licenses.
+*   [**OpenModelDB**](https://openmodeldb.info/): A database focused on upscaling models, often hosting various types like ESRGAN.
+
+**Understanding these different components will help you navigate the vast options available and combine them effectively to achieve your creative vision.**
+
+The Stable Diffusion ecosystem involves several types of model files that work together. Here's a breakdown:
+### Understanding the different model files
+### 1. Checkpoints / Base Models (`.ckpt` or `.safetensors`)
+
+*   **What they are:** These are the large, foundational models (often several gigabytes). They contain the core knowledge and artistic style learned during training. Think of them as the "brain" of the image generation process.
+*   **Purpose:** Switching checkpoints is the primary way to drastically change the overall style, capability, or subject focus (e.g., photorealistic, anime, fantasy art).
+*   **Examples:** Models are often based on architectures like Stable Diffusion 1.5 (SD1.5), SDXL (Stable Diffusion XL), Stable Diffusion 3 (SD3), or others like PixArt, Pony, etc. 
+
+**Many popular checkpoints are fine-tunes of these base architectures, specialized for certain styles or subjects (e.g., Juggernaut XL, DreamShaper).**
+
+### 2. Modifiers & Fine-tuners
+
+These smaller files work *with* a base checkpoint to modify or add specific elements:
+
+*   **LoRAs (Low-Rank Adaptations) (`.safetensors`)**
+    *   **What they are:** Much smaller files (typically megabytes) that apply targeted adjustments to a checkpoint.
+    *   **Purpose:** Used to add specific artistic styles, characters, objects, clothing concepts, or poses without needing a whole new checkpoint. You can often combine multiple LoRAs, adjusting their influence (weight).
+*   **Embeddings / Textual Inversions (`.pt` or `.bin`)**
+    *   **What they are:** Tiny files (kilobytes) that teach the model a new keyword associated with a specific visual concept (often a style or a specific person/object).
+    *   **Purpose:** Activated by using their specific trigger word(s) in your prompt to invoke the learned concept. Less impactful on overall style than LoRAs, more focused on specific entities.
+
+### 3. Utility Models
+
+These models perform specific helper tasks within the generation workflow:
+
+*   **VAEs (Variational Auto Encoders) (`.safetensors` or `.pt`)**
+    *   **What they are:** Models responsible for translating the abstract "latent image" generated by Stable Diffusion into the actual pixels you see, and vice-versa for image-to-image tasks.
+    *   **Purpose:** While checkpoints often include a default VAE, using a different VAE can subtly (or sometimes significantly) alter the final image's colors, saturation, and fine details. Sometimes required for specific checkpoints.
+*   **Upscaling Models (`.pth` or `.safetensors`)**
+    *   **What they are:** Dedicated models designed specifically to increase image resolution while adding detail (or attempting to preserve it).
+    *   **Purpose:** Used in post-processing (like the Extras tab in A1111) or integrated into workflows (like Hires. Fix or ComfyUI nodes) to generate larger, higher-quality images. Examples include ESRGAN, SwinIR, 4x-UltraSharp.
+*   **ControlNet Models (`.pth` or `.safetensors`)**
+    *   **What they are:** Models that condition the image generation process based on an input image or map (like a depth map, pose skeleton, edge detection map, etc.).
+    *   **Purpose:** Allow for much finer control over the composition, pose, or structure of the generated image, making the output conform closely to the ControlNet input. Requires specific software support (Extensions in A1111, nodes in ComfyUI).
 
 <br>
 
@@ -60,6 +110,7 @@ To run Image generation on your machine, Your hardware configuration **must meet
 Fooocus is an open-source AI image generation tool that simplifies the use of Stable Diffusion, making it accessible for users to create high-quality visuals. It requires minimal setup and can run on systems with a GPU (Nvidia) with 4GB of memory and 8GB of RAM.
 
 ### Installation
+
 1.  Download the Fooocus files from its [official GitHub repository](https://github.com/lllyasviel/Fooocus).
 2.  Extract the downloaded files to your desired location on your computer (e.g., your desktop).
 3.  Locate and run the `run.bat` file (for Windows). This will initiate the download and installation of necessary files, including the default Stable Diffusion XL model (e.g., Juggernaut XL). The first time you run it, it will download a checkpoint file which contains the image data. This might take some time.
@@ -67,7 +118,10 @@ Fooocus is an open-source AI image generation tool that simplifies the use of St
 
 Alternatively, you can use online platforms that host Fooocus (like Google Colab notebooks, or services like MimicPC) to run it without a local installation, though local installation gives you more control.
 
+official troubleshooting guide [here](https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md).
+
 ### Basic Image Generation
+
 1.  Once Fooocus is running and the web interface is open, you'll see a prominent prompt input field at the bottom of the page.
 2.  Type a detailed description of the image you want to create into this prompt box. For example: "a photorealistic portrait of an astronaut cat exploring a vibrant alien jungle, detailed fur, glowing plants".
 3.  Click the "Generate" button. Fooocus will then process your prompt and generate images based on it. By default, it usually generates two images per prompt.
@@ -205,7 +259,7 @@ The `txt2img` tab is where you'll typically start, turning text prompts into ima
     *   Example: `masterpiece, best quality, a majestic lion king sitting on a throne in a futuristic neon city, cinematic lighting`
     *   **Emphasis**: Use parentheses to increase or decrease a word's influence:
         *   `(word)`: increases attention by a factor of 1.1
-        *   `((word))`: increases attention by a factor of 1.21 (1.1 * 1.1)
+        *   `((word))`: increases attention by a factor of 1.1 * 1.1 = 1.21
         *   `[word]`: decreases attention
         *   `(word:1.5)`: increases attention by a factor of 1.5
 3.  **Enter Negative Prompt**: In the "Negative prompt" text box, list elements you want to exclude.
@@ -350,33 +404,37 @@ There are several ways to install ComfyUI depending on your needs and technical 
 
 ComfyUI now offers a desktop version that can be installed like standard software. This version supports multiple languages and provides an optimized experience.
 
-#### Option 2: Windows Portable Version
+#### Option 2: Windows Portable Version (Easier Setup)
 
 1.  Download the portable version from the official GitHub repository.
-2.  Unzip the file to your preferred location.
-3.  Run the appropriate script (`run_gpu.sh` or `run_cpu.sh`).
+2.  Unzip the file to your preferred location. **This package includes most necessary components (like Python and key dependencies), making setup simpler.**
+3.  Run the appropriate script (`run_gpu.bat` or `run_cpu.bat`). *Note: Names might vary slightly, check the downloaded package.*
 
-#### Option 3: Native Installation
+#### Option 3: Native Installation (More Control)
 
-For users who want more control over the installation process:
+For users who want more control over the installation process and environment:
 
 1.  **Hardware Requirements**:
     *   GPU: NVIDIA graphics card with at least 4GB VRAM (RTX 3060 or higher recommended)
     *   Memory: At least 16GB RAM (32GB recommended for complex tasks)
     *   Storage: At least 10GB free disk space
 
-2.  **Software Requirements**:
+2.  **Software Requirements (Manual Installation Needed)**:
     *   Windows 10 or later
-    *   Python 3.10
+    *   Python 3.10 or compatible version (check ComfyUI documentation)
     *   Git
 
 3.  **Installation Steps**:
-    *   Install Python and Git.
+    *   Install Python (ensure it's added to PATH) and Git if you haven't already.
     *   Clone the ComfyUI repository:
-        ```
+        ```bash
         git clone https://github.com/comfyanonymous/ComfyUI.git C:\ComfyUI
         ```
-    *   Install dependencies using the provided scripts.
+        *(You can choose a different installation path)*
+    *   Navigate into the `C:\ComfyUI` directory.
+    *   Install dependencies, typically by running a setup script provided (e.g., `install.bat` or `pip install -r requirements.txt`). Check the ComfyUI documentation for the exact command.
+    *   Place models in the appropriate `ComfyUI/models/` subdirectories (e.g., `checkpoints`, `loras`).
+    *   Run ComfyUI using `python main.py` or a provided run script (e.g., `run_nvidia_gpu.bat`).
 
 ### Understanding the ComfyUI Interface
 
@@ -394,14 +452,30 @@ Upon launching ComfyUI, you'll encounter a clean yet powerful interface with the
 -   Hold the middle mouse button to pan across the workspace.
 -   Right-click on the workspace for contextual options.
 
+#### Model Placement
+
+For ComfyUI to recognize your models, LoRAs, VAEs, etc., you need to place them in the correct subdirectories within your main `ComfyUI` installation folder:
+
+*   **Checkpoints (Main Models)**: `ComfyUI/models/checkpoints/` (e.g., SD1.5, SDXL base models)
+*   **LoRAs**: `ComfyUI/models/loras/`
+*   **VAEs**: `ComfyUI/models/vae/`
+*   **CLIP Models**: `ComfyUI/models/clip/`
+*   **Embeddings/Textual Inversions**: `ComfyUI/models/embeddings/`
+*   **ControlNet Models**: `ComfyUI/models/controlnet/`
+*   **Upscale Models**: `ComfyUI/models/upscale_models/`
+
+*Note: You might need to create these subdirectories if they don't exist. Some custom nodes might look for models in different locations; refer to their specific documentation.*
+
 ### Basic Text-to-Image Workflow
+
+![ComfyUI Basic Text-to-Image Workflow](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*naubOEteU23eMwPuhDb03w.png)
 
 Let's start with the fundamental workflow - generating images from text prompts:
 
 #### Step 1: Load a Checkpoint Model
 
 1.  Add a "Load Checkpoint" node to your workspace.
-2.  Select a Stable Diffusion model (like `v1-5-pruned-emaonly.safetensors`).
+2.  Select a Stable Diffusion model from the dropdown list. Models placed in the `ComfyUI/models/checkpoints/` directory will appear here. *(You might need to refresh ComfyUI or restart it after adding new models).*
 
 #### Step 2: Set Up Text Prompts
 
@@ -444,6 +518,8 @@ Let's start with the fundamental workflow - generating images from text prompts:
 Click the "Queue Prompt" button or press `Ctrl+Enter` to run your workflow.
 
 ### Image-to-Image Workflow
+
+![ComfyUI Image-to-Image Workflow](https://comfyanonymous.github.io/ComfyUI_examples/img2img/img2img_workflow.png)
 
 The image-to-image workflow allows you to modify existing images:
 
@@ -529,9 +605,15 @@ ComfyUI offers multiple ways to upscale your generated images:
 
 #### Method 3: Using Specialized Upscaling Models
 
+![ComfyUI Image Upscaling Methods](https://comfyanonymous.github.io/ComfyUI_examples/upscale_models/esrgan_example.png)
+
 1.  Load your image and a dedicated upscaling model.
 2.  Apply the upscaling model to your image.
 3.  This often provides the best quality but requires additional models.
+
+### More ComfyUI Workflow Examples
+
+The ComfyUI GitHub repository contains numerous examples of workflows for different tasks. You can find these examples in the dedicated [ComfyUI Examples](https://github.com/comfyanonymous/ComfyUI_examples) repository.
 
 ### Advanced Techniques
 
