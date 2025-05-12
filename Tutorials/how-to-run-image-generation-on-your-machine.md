@@ -8,6 +8,9 @@
  ***This guide explains how to set up and run Image Generation models on your computer, enabling you to maintain full control over your AI Image workflows.***
 
  ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 12min***
+
+
+ ***TODO:  Add Visual Aids (UI Screenshots and ComfyUI Workflow Diagrams)*** 
  
  <br>
 
