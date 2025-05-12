@@ -22,7 +22,9 @@ This framework aims to provide a comprehensive system for evaluating and scoring
 
 Since benchmarks cannot always be trusted and existing leaderboards typically focus only on one aspect of modern LLMs' capabilities, we chose to develop our own approach.
 
-Our approach aims to cover a wide range of benchmarks, leaderboards, community assessments, and technical specifications, trying to provide an unbiased estimation of the overall capacities of any public LLM. 
+Our approach aims to cover a wide range of benchmarks, leaderboards, community assessments, and technical specifications, trying to provide an unbiased estimation of the overall capacities of any public LLM.
+
+***Version v0.4.0-beta is currently in development, featuring a broader and significantly more complex approach.***
 
 > [!NOTE]
 > ***Formerly developed within this repository, the scoring framework is now under development in a dedicated repository [LLMScoreEngine](https://github.com/LSeu-Open/LLMScoreEngine).***
