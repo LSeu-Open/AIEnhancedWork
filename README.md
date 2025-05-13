@@ -146,7 +146,7 @@ Master AI concepts through **hands-on tutorials and practical implementations.**
 ***Local tutorials***
 
 * ***[How to run LLMs on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-llms-on-your-machine.md)*** - Deploy and operate large language models on local hardware, with options designed for three skill levels: beginner, intermediate, and expert.
-* ***[Integrating AI Models into Your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)*** - Configure development environments for seamless AI model integration.
+* ***[How to use LLMs in Coding](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-use-llms-in-coding.md)*** - Learn how to use LLMs to improve your coding experience.
 * ***[How to run Image Generation on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-image-generation-on-your-machine.md)***- Implement local image generation using open-source AI models.
 * ***[How to Use AI Privately](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/How-to-Use-AI-Privately.md)*** - Implement privacy-preserving practices for AI implementation.
 
