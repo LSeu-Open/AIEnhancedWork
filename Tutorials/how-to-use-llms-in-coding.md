@@ -2,28 +2,31 @@
  
 <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/CodingAI.png">
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /> ***Welcome to your guide for enhancing your development workflow with AI assistance! Whether you're new to AI-powered coding or looking to optimize your setup, this tutorial will walk you through seamless IDE integration.*** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+***Welcome! This guide helps you boost your coding workflow with AI, from choosing tools and models to seamless IDE integration.***
 
-***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Orange%20Square.png" alt="Orange Square" width="15" height="15" /> Level : Intermediate***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 16min***
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 16min
 
-***TODO: Overall rework of this tutorial***
+***TODO: Complete Empty sections and update the models list***
 
 </div> 
 
 ## Table of Contents
 
 * [Introduction](#introduction)
-* [Cursor the dedicated IDE for seamless AI integration](#cursor-the-dedicated-ide-for-seamless-ai-integration)
 * [Implementing AI Assistance](#implementing-ai-assistance)
-  * [Model providers](#model-providers)
-    * [Code dedicated providers](#code-dedicated-providers)
-    * [Generalist Models Providers](#generalist-models-providers)
-  * [LLMs Models](#llms-models)
-    * [Open Source Models](#open-source-models)
-    * [Proprietary Models](#proprietary-models)
-* [Hands-on implementation guide using Ollama and Continue](#hands-on-implementation-guide-using-ollama-and-continue)  
-  * [Setup Ollama as the Local Model Provider](#setup-ollama-as-the-local-model-provider)
-  * [Installation and usage of Continue.dev extension](#install-continue-extension)
+  * [AI-powered integrated development environment (IDE)](#ai-powered-integrated-development-environment-ide)
+    * [Cursor](#cursor)
+    * [Void](#void)
+    * [Windsurf](#windsurf)
+    * [Zed](#zed)
+  * [AI-powered Extensions for VScode](#ai-powered-extensions-for-vscode)
+    * [Cline](#cline)
+    * [Continue](#continue)
+    * [Github Copilot](#github-copilot)
+    * [Roo Code](#roo-code)
+* [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
+  * [Open Source Models](#open-source-models)
+  * [Proprietary Models](#proprietary-models)
 
 <br>
 
@@ -31,7 +34,7 @@
 
 Modern development environments now **leverage AI capabilities to enhance code synthesis, automate routine operations, and optimize development workflows.** IDE integration of language models enables contextual code assistance, automated testing, and intelligent refactoring while maintaining established development practices.
 
-<img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Green%20Circle.png" width="15" height="15" /> ***The Pros: Boosting Productivity and Innovation***
+***The Pros: Boosting Productivity and Innovation***
 
 * **Increased productivity** : AI tools can automate repetitive coding tasks, generate code snippets, and provide intelligent code suggestions, allowing developers to focus on more complex problems and accelerate development cycles.
 * **Improved code quality** : AI-powered code analysis can detect bugs, security vulnerabilities, and code smells, helping developers write cleaner and more maintainable code.
@@ -40,7 +43,7 @@ Modern development environments now **leverage AI capabilities to enhance code s
 
 <br>
 
-<img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Symbols/Red%20Circle.png" width="15" height="15" /> ***The Cons: Challenges and Considerations***
+***The Cons: Challenges and Considerations***
 
 * **Potential bias and errors** : AI models can inherit biases from their training data or make mistakes, leading to incorrect code suggestions or flawed analysis.
 * **Over-reliance and loss of skills** : Excessive dependence on AI tools may hinder developers' ability to write code independently and erode their problem-solving skills over time.
@@ -53,11 +56,16 @@ Modern development environments now **leverage AI capabilities to enhance code s
 > [!CAUTION]
 > Code assistance models **complement developer expertise by augmenting development workflows through contextual suggestions and documentation integration.** These systems enhance implementation speed and technical learning while relying on established programming principles and human oversight.
 >
-> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> **Always validate AI-generated code against official documentation and established development standards. Implement thorough code review practices when using automated suggestions.** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
+> **Always validate AI-generated code against official documentation and established development standards. Implement thorough code review practices when using automated suggestions.** 
 
 <br>
+<br>
 
-# Cursor the dedicated IDE for seamless AI integration 
+# Implementing AI Assistance
+
+##  AI-powered integrated development environment (IDE)
+
+### Cursor
 
 <img src="https://cursor.sh/brand/icon.svg" width="20" height="20" > ***[Cursor](https://cursor.sh/)*** integrates language models into a VS Code-based editor, **providing contextual code completion, codebase analysis, and natural language editing capabilities.** The platform supports both cloud-based and local AI models.
 
@@ -78,107 +86,210 @@ Some key features of Cursor include:
 * **Privacy options** : Cursor.sh ***offers a privacy mode*** where none of your code is stored on their servers or logs, catering to security-critical work.
 
 <br>
+
+### Void
+
 <br>
 
-# Implementing AI Assistance
+### Windsurf
 
-## Model providers
+<br>
 
-**First Let's pick the right AI provider** for your coding needs! Consider What features you'll use most, Where your code will live (local or cloud), Your privacy preferences, and How it fits with your favorite IDE.
+### Zed
 
-> [!TIP]
-> **Take a moment to explore different options - finding the right fit makes all the difference!**
-> 
-> Reference the [Artificial Analysis Leaderboard](https://artificialanalysis.ai/leaderboards/providers) for **comparative analysis of LLM providers across key performance metrics**: pricing, token generation speed, response latency, and context window capabilities.
+<br>
 
-> [!CAUTION]
-> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> **Security Consideration** : Cloud-based code assistance services process codebase data through remote infrastructure, potentially exposing sensitive information to third-party systems. Consider data privacy implications and compliance requirements when implementing proprietary code processing services.
+##  AI-powered Extensions for VScode
+
+### Cline
+
+#### Install Cline
+
+* **Using VS Code Marketplace** :
+
+* **using VSIX File** :
+
+#### Create Your account
+
+#### How Cline works
+
+<br>
+
+### Continue
+
+For those who prioritize keeping everything local and private, I'll be using ***[Ollama](https://ollama.com/)*** as the provider in this tutorial. If you haven't already, be sure to check out our **[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to learn how to install Ollama and get started.
+  
+> [!Note]
+> In this tutorial, I am using the ***Codestral:22b*** model. This particular model is specialized for coding and has been meticulously trained on vast datasets by Mistral.ai.
 >
-> Proprietary code assistance services **may utilize submitted code for model training and refinement.** Review provider terms of service regarding data collection and model training practices. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
+> This model stands out for its **exceptional size and capabilities, selected specifically for the hardware I use on my PC.** As with any model, it has its unique strengths and weaknesses. To get the most out of this tool, be sure to **[choose wisely](#models-for-coding)** among the available options.
 
-### Code dedicated providers
+#### Install Continue extension
 
-***Cloud-based Proprietary Providers*** 
+> [Official Continue.dev website](https://www.continue.dev/)
 
-| Tool       | Description                                                                                                           | Licence     | Pricing |
-|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
-| [AskCodi](https://www.askcodi.com/)    | An AI-powered coding assistant that offers code suggestions, debugging help, and explanations for code snippets. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [Blackbox](https://www.blackbox.ai/)   | An AI platform that helps businesses automate processes, make predictions, and optimize decision-making. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [Boxy](https://codesandbox.io/blog/meet-boxy-ai-coding-assistant)       | An AI coding assistant by CodeSandbox providing real-time code suggestions and completions. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [Codeium](https://codeium.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [CodeWhisperer](https://aws.amazon.com/codewhisperer/)    | Developed by Amazon, provide real-time code suggestions and completions. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [Codium](https://www.codium.ai/)     | An AI-powered tool that analyze your code, docstring, and comments and suggests tests as you code. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />        |
-| [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+* Click on the Extensions icon in the left sidebar or use the keyboard shortcut: Ctrl + Shift + X (Windows/Linux) or Cmd + Shift + X (macOS).
+* In the Extensions marketplace, search for "Continue" to find the extension.
+* Click on the "Continue" extension to open its page.
+* Click the "Install" button to begin the installation process.
+* Wait for the extension to download and install. This might take a few seconds.
+* Once the installation is complete, click on the "Reload Required" button to reload VS Code.
 
-<br>
 
-***Open-Source Providers*** 
+#### Sidebar chat Model
 
-| Tool       | Description                                                                                                           | Licence     | Pricing |
-|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
-| [Aider](https://aider.chat/)    | an AI-powered pair programming tool designed to assist developers in writing and editing code directly from the command line.  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="Free" width="80" height="20" /> |
-| [Continue](https://www.continue.dev/)     | An open-source autopilot for software development that enables developers to create their own AI code assistant within their integrated development environment (IDE) like VS Code or JetBrains IDEs. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="Free" width="80" height="20" /> |
-| [Llamacoder](https://llamacoder.together.ai/) | An open source Claude Artifacts – generate small apps with one prompt. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="Free" width="80" height="20" /> |
-| [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | Open Interpreter is an innovative open-source project that allows language models to execute code on a user's computer to complete various tasks. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="Free" width="80" height="20" /> |
+* Open the **Continue.dev** extension by clicking on its icon in the left sidebar.
 
-<br>
+* The extension will prompt you for a Model Provider; select the **Local Provider** option.
 
-### Generalist Models Providers
+* If you have set up Ollama correctly, **it should automatically detect your models.**
+  
+* At the bottom of the window, you will find a list of all your installed models. For this tutorial, I choose ***Codestral:22b***.
 
-***Cloud-based Providers***
+#### Inline autocomplete Model
 
-| Tool             | Description                                                                                                                 | Pricing     |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AI21.svg" alt="ai21" width="200" height="20" />](https://www.ai21.com) |  Known for their language models like Jurassic-1 Jumbo focused on quality, safety, and controllability. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/amazon.svg" alt="Amazon" width="200" height="20" />](https://aws.amazon.com/ai/) | Offers models like Amazon CodeWhisperer for code generation and understanding through their SageMaker platform. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |  
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="200" height="20" />](https://www.anthropic.com/) | Known for their constitutional AI model Claude, focused on being helpful, harmless, and honest. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) | 
-| [Cerebras](https://inference.cerebras.ai/) | An AI company that has developed innovative hardware and software solutions for AI computing. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="200" height="20" />](https://cohere.com/) | Provides an enterprise AI platform with models like Cohere Generate for custom content creation. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/databricks.svg" alt="databricks" width="200" height="20" />](https://www.databricks.com) | A unified, open analytics platform that provides tools and services for data processing, analytics, and artificial intelligence at scale. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [DeepInfra](https://deepinfra.com/chat) | A platform that provides scalable and cost-effective infrastructure for deploying machine learning models. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://chat.deepseek.com/) | An AI company that has developed several notable AI models and technologies | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Fireworks.svg" alt="Fireworks" width="200" height="20" />](https://fireworks.ai/) | A comprehensive solution for companies looking to deploy AI into production, focusing on performance, cost-effectiveness, and developer experience. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) | 
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/)  |  Provides models like LaMBDA, PaLM, and Bard for language understanding, generation, and multimodal AI tasks. |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) | 
-|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Groq.svg" alt="Groq" width="220" height="20" />](https://groq.com/) | Specializes in high-performance AI inference with custom LPU (Language Processing Unit) hardware, offering models like Meta's Llama 3. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="Hugging Face" width="200" height="20" />](https://huggingface.co/spaces) | The AI dedicated github, Offers a platform with most open-source models like BERT, GPT-Neo, and Llama for various AI tasks. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="Free" width="80" height="20" /> | 
-| [LeptonAI](https://www.lepton.ai/) | A platform that provides cloud-based infrastructure and tools for deploying and running AI applications efficiently. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://azure.microsoft.com/) | A comprehensive suite of AI services and tools designed to help developers and organizations build, deploy, and manage AI applications at scale. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | A French artificial intelligence company that specializes in developing large language models (LLMs) and AI products. |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [OctoAI](https://octoai.cloud/) | A full-stack inference platform designed specifically for generative AI applications. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/) | Offers models like GPT-4, DALL-E, and Whisper for natural language processing, image generation, and speech recognition. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenRouter.svg" alt="OpenRouter" width="200" height="20" />](https://openrouter.ai/) |  A versatile platform designed to provide access to a wide range of large language models (LLMs) from both proprietary and open-source sources. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Perplexity.svg" alt="Perplexity" width="200" height="20" />](https://labs.perplexity.ai/) | An online platform that provides free access to various powerful open-source large language models (LLMs) for experimentation and use in a wide range of applications. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="Free" width="80" height="20" /> | 
-| [Poe](https://poe.com) | An AI chatbot aggregator platform developed by Quora that provides users access to multiple advanced language models and chatbots within a single interface. |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Reka.svg" alt="Reka" width="150" height="20" />](https://www.reka.ai/)| An AI company that develops advanced multimodal AI models and technologies. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [Replicate](https://replicate.com/home) | A cloud platform that allows developers to easily run and deploy open-source machine learning models. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [SambaNova](https://sambanova.ai/) | An artificial intelligence company that provides a comprehensive AI platform for enterprises. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Together](https://www.together.ai/) | A cloud platform designed for building and running generative AI applications. | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> | 
-| [Vercel](https://sdk.vercel.ai/) | A powerful tool for developers looking to explore and integrate various AI models into their applications efficiently. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+* By default, the extension is set to use **starcoder-2-3b for autocomplete**. If you want to keep using this model, ensure it is installed with your Ollama setup. Otherwise, if you wish to switch to a more capable model, click on the settings icon at the bottom right of the extension window.
+  
+* This will open the **config.json** file, where you can customize the extension's behavior.
+  
+* Navigate to the following snippet:
+
+```
+ "tabAutocompleteModel": {
+    "title": "starcoder-2-3b",
+    "provider": "ollama",
+    "model": "starcoder-2-3b"
+  },
+```
+
+* Replace **starcoder-2-3b** with the model you prefer. For example, if you want to use **Qwen2.5-Coder-32B-Instruct**, update the code to:
+
+ ```
+ "tabAutocompleteModel": {
+    "title": "Qwen2.5-Coder-32B-Instruct",
+    "provider": "ollama",
+    "model": "Qwen2.5-Coder-32B-Instruct"
+  },
+```
+or by **Qwen2.5-Coder-7B-Instruct** for less powerfull computers : 
+
+ ```
+ "tabAutocompleteModel": {
+    "title": "qwen2.5-coder:7b-instruct",
+    "provider": "ollama",
+    "model": "qwen2.5-coder:7b-instruct"
+  },
+```
+
+* Save your modifications and close the config file.
 
 <br>
 
-***Local Providers***
+### Github Copilot
 
-> [!IMPORTANT]
-> **Deploy LLMs locally** with our [implementation guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md) for privacy-focused language processing and model experimentation on your hardware.
+#### Install Github Copilot
 
-| Tool             | Description                                                                                                                 | OS     | Models     |
+* **Using VS Code Marketplace** :
+
+* **using VSIX File** :
+
+#### Create Your account
+
+#### How Github Copilot works
+
+<br>
+
+### Roo Code
+
+#### Install Roo Code
+
+* **Using VS Code Marketplace** :
+
+* **using VSIX File** :
+
+#### Connect your AI Provider
+
+#### How Roo Code works
+
+<br>
+
+# Find the Provider that is right for you
+
+Choosing the right AI provider is a foundational step in leveraging Large Language Models (LLMs) effectively for your coding tasks. In this context, a "provider" refers to any entity or platform that grants you access to these powerful models. This could be the original developers of an LLM, a third-party service hosting various models, or even software that enables you to run models directly on your own local machine.
+
+The decision is more than just picking a name; it significantly influences crucial aspects of your AI-assisted development experience. Your choice will determine the range and type of models available to you, the associated costs and licensing terms, the features and overall performance you can expect, and, critically, the level of data privacy and security for your code. Furthermore, it impacts how easily the AI capabilities can be integrated into your existing workflows.
+
+Therefore, before diving into specific providers, it's vital to consider several key factors. Think about your preferred **deployment model**: are you comfortable with cloud-based solutions, or is a local, self-hosted setup a priority for data control and offline access? Evaluate the **model access and variety** offered—do you need cutting-edge proprietary models, a broad selection of open-source options, or models specifically fine-tuned for coding?
+
+Naturally, **pricing and licensing** are practical concerns, so understanding the cost structures and usage rights is essential. The **integration and developer experience**, including the quality of APIs and documentation, will affect your productivity. Given the sensitivity of code, **security and data usage policies** demand careful review. Finally, assess the provider's **performance, reliability, and scalability** to ensure they meet your current and future needs for speed and consistent availability.
+
+## Major Cloud AI Providers
+
+These are typically large tech companies that develop and offer access to their own flagship LLMs. Access is usually via APIs, and they manage all the underlying infrastructure.
+
+| Tool             | Description                                                                                                                 | Models      | Pricing     |
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [AnythingLLM](https://anythingllm.com/) | an open-source, full-stack application that allows users to chat with their documents in a private and enterprise-friendly environment. | All | Open source Models and Proprietary models via API |
-| [Enchanted](https://github.com/AugustDev/enchanted) | iOS and macOS app for chatting with private self hosted language models.| MacOS/IOS | Open source Models |
-| [GPT4ALL](https://www.nomic.ai/gpt4all) | An open-source software ecosystem developed by Nomic AI that enables users to run powerful large language models (LLMs) locally on their personal computers. | All | Open source Models |
-| [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Open source Models. |
-| [LM Studio](https://superagi.com/) |  Elegant UI with the ability to run every Hugging Face repository. | All | Open source Models |
-| [Msty](https://msty.app/) |  an AI chat application that offers a user-friendly interface for interacting with both local and online AI language models. | All | Open source Models and Proprietary models via API |
-| [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | Open sources Models |
+| [AI21 Labs](https://www.ai21.com/) |  Known for their language models like Jurassic-1 Jumbo focused on quality, safety, and controllability. |  [Jamba Large 1.6 ](https://huggingface.co/ai21labs/AI21-Jamba-Large-1.6) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Anthropic](https://www.anthropic.com/claude) | Known for their constitutional AI model Claude, focused on being helpful, harmless, and honest. | Claude 3.7 Sonnet  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  | 
+| [Cohere](https://cohere.com/) | Provides an enterprise AI platform with models like Cohere Generate for custom content creation. | [Command A](https://cohere.com/blog/command-A) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Databricks](https://www.databricks.com/) | A unified, open analytics platform that provides tools and services for data processing, analytics, and artificial intelligence at scale. | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Deepseek](https://chat.deepseek.com/) | An AI company that has developed several notable AI models and technologies | [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Google](https://gemini.google.com/) |  Provides models like LaMBDA, PaLM, and Bard for language understanding, generation, and multimodal AI tasks. | all Gemini Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  | 
+| [Microsoft Azure](https://azure.microsoft.com/) | A comprehensive suite of AI services and tools designed to help developers and organizations build, deploy, and manage AI applications at scale. | Large Panel of Open source and Proprietary Models | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Mistral AI](https://mistral.ai/) | A French artificial intelligence company that specializes in developing large language models (LLMs) and AI products. | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2411) and more| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [OpenAI](https://chatgpt.com/) | Offers models like GPT-4, DALL-E, and Whisper for natural language processing, image generation, and speech recognition. | [o1](https://openai.com/o1/) and more | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Reka](https://chat.reka.ai/) | An AI company that develops advanced multimodal AI models and technologies. | [Reka Flash 3](https://huggingface.co/RekaAI/reka-flash-3) and more | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 
 <br>
+
+## Aggregator & Specialized Cloud Platforms
+
+These platforms offer access to a variety of models from different developers, including many popular open-source models and sometimes proprietary ones, often through a single API or interface. Some may offer specialized hardware or value-added services like fine-tuning.
+
+| Tool             | Description                                                                                                                 | Models      | Pricing     |
+|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
+| [Amazon Web Services (AWS)](https://aws.amazon.com/bedrock/) | Offers models like Amazon CodeWhisperer for code generation and understanding through their SageMaker platform. | Large Panel of Open source and Proprietary Models | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Cerebras](https://inference.cerebras.ai/) | An AI company that has developed innovative hardware and software solutions for AI computing. | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) and more | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  | 
+| [DeepInfra](https://deepinfra.com/chat) | A platform that provides scalable and cost-effective infrastructure for deploying machine learning models. | Large Panel of Open source Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Fireworks](https://fireworks.ai/) | A comprehensive solution for companies looking to deploy AI into production, focusing on performance, cost-effectiveness, and developer experience. | Large Panel of Open source Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Groq](https://groq.com/) | Specializes in high-performance AI inference with custom LPU (Language Processing Unit) hardware, offering models like Meta's Llama 3. | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) and more  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  | 
+| [Hyperbolic](https://app.hyperbolic.xyz/models) | an open-access AI cloud platform designed to democratize AIe by making high-performance compute resources—especially GPUs—affordable and accessible to everyone. | Large Panel of Open source Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [LeptonAI](https://www.lepton.ai/) | A platform that provides cloud-based infrastructure and tools for deploying and running AI applications efficiently. | Large Panel of Open source Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Nebius](https://studio.nebius.com/) | A high-performance, cost-effective Inference-as-a-Service platform designed to make advanced AI generation accessible | Large Panel of Open source Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Novita](https://novita.ai/models) | A high-performance, cost-effective Inference-as-a-Service platform designed to make advanced AI generation accessible | Large Panel of Open source Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [OctoAI](https://octoai.cloud/) | A full-stack inference platform designed specifically for generative AI applications. | Large Panel of Open source Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [OpenRouter](https://openrouter.ai/) |  A versatile platform designed to provide access to a wide range of large language models (LLMs) from both proprietary and open-source sources. |  Large Panel of Open source and Proprietary Models | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Poe](https://poe.com) | An AI chatbot aggregator platform developed by Quora that provides users access to multiple advanced language models and chatbots within a single interface. | Large Panel of Open source and Proprietary Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [SambaNova](https://sambanova.ai/) | An artificial intelligence company that provides a comprehensive AI platform for enterprises. | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) and more | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Together](https://www.together.ai/) | A cloud platform designed for building and running generative AI applications. | Large Panel of Open source Models | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> | 
+
 <br>
 
-## LLMs Models
+## Local Model Execution Solutions (Self-Hosting)
+
+These tools allow you to download, configure, and run LLMs directly on your own computer hardware. You become your own "provider." We already covered this in the [How to run LLMs on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-llms-on-your-machine.md) tutorial.
+
+<br>
+
+## Which Provider Type Suits Your Needs?
+
+To determine which category of AI provider best fits your situation, it's helpful to reflect on your specific needs and priorities. 
+
+* **Consider your primary goal**: are you aiming for the highest possible accuracy in code generation, prioritizing absolute data privacy, seeking the most cost-effective solution, or are you in an experimental phase? 
+* **Your budget** constraints will naturally play a role, as will the criticality of data privacy for your projects. 
+* Also, **take stock of your local hardware capabilities**—can your machine handle running models locally? 
+* Think about **whether you need access to one specific model or the flexibility to switch between many, and how much technical effort you're willing to invest in setup and ongoing maintenance.**
+
+> These reflections can guide you toward a suitable provider type. 
+
+* For instance, if maintaining absolute data privacy is paramount and you have capable hardware, **Local Model Execution Solutions** are likely your best bet.
+* If your work demands the most powerful, cutting-edge proprietary models for critical tasks, then exploring **Major Cloud AI Providers** would be the logical step
+* For those who desire easy access to a variety of open-source models via the cloud, or require specialized performance benefits like high-speed inference, **Aggregator & Specialized Cloud Platforms** offer compelling advantages.
+* And if you're an individual developer or working with a limited budget, investigating free tiers from various cloud providers or starting with a local setup (hardware permitting) can be excellent entry points.
+
+Once you've identified a provider type—or perhaps even a specific provider—that aligns with your priorities, the next crucial step is to explore the actual Large Language Models they offer. Your choice of provider will significantly influence the range and type of models available to you. This brings us to the next important decision: selecting the right model for your coding endeavors.
+
+# Find the Model that is right for you
 
 Now that you've chosen your provider, let's find the right model for your coding needs.
 
@@ -261,107 +372,3 @@ Typically accessible through a paid API or web interface.
 
 <br>
 <br>
-
-## Hands-on implementation guide using Ollama and Continue
-
-***Step-by-step guide for privacy-preserving code assistance using open-source solutions.***
-
-### Setup Ollama as the Local Model Provider
-
-For those who prioritize keeping everything local and private, I'll be using ***[Ollama](https://ollama.com/)*** as the provider in this tutorial. If you haven't already, be sure to check out our **[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to learn how to install Ollama and get started.
-  
-> [!Note]
-> In this tutorial, I am using the ***Codestral:22b*** model. This particular model is specialized for coding and has been meticulously trained on vast datasets by Mistral.ai.
->
-> This model stands out for its **exceptional size and capabilities, selected specifically for the hardware I use on my PC.** As with any model, it has its unique strengths and weaknesses. To get the most out of this tool, be sure to **[choose wisely](#models-for-coding)** among the available options.
-
-### Install Continue extension
-
-> [Official Continue.dev website](https://www.continue.dev/)
-
-* Click on the Extensions icon in the left sidebar or use the keyboard shortcut: Ctrl + Shift + X (Windows/Linux) or Cmd + Shift + X (macOS).
-* In the Extensions marketplace, search for "Continue" to find the extension.
-* Click on the "Continue" extension to open its page.
-* Click the "Install" button to begin the installation process.
-* Wait for the extension to download and install. This might take a few seconds.
-* Once the installation is complete, click on the "Reload Required" button to reload VS Code.
-
-
-#### Sidebar chat Model
-
-* Open the **Continue.dev** extension by clicking on its icon in the left sidebar.
-
-* The extension will prompt you for a Model Provider; select the **Local Provider** option.
-
-* If you have set up Ollama correctly, **it should automatically detect your models.**
-  
-* At the bottom of the window, you will find a list of all your installed models. For this tutorial, I choose ***Codestral:22b***.
-
-#### Inline autocomplete Model
-
-* By default, the extension is set to use **starcoder-2-3b for autocomplete**. If you want to keep using this model, ensure it is installed with your Ollama setup. Otherwise, if you wish to switch to a more capable model, click on the settings icon at the bottom right of the extension window.
-  
-* This will open the **config.json** file, where you can customize the extension's behavior.
-  
-* Navigate to the following snippet:
-
-```
- "tabAutocompleteModel": {
-    "title": "starcoder-2-3b",
-    "provider": "ollama",
-    "model": "starcoder-2-3b"
-  },
-```
-
-* Replace **starcoder-2-3b** with the model you prefer. For example, if you want to use **Qwen2.5-Coder-32B-Instruct**, update the code to:
-
- ```
- "tabAutocompleteModel": {
-    "title": "Qwen2.5-Coder-32B-Instruct",
-    "provider": "ollama",
-    "model": "Qwen2.5-Coder-32B-Instruct"
-  },
-```
-or by **Qwen2.5-Coder-7B-Instruct** for less powerfull computers : 
-
- ```
- "tabAutocompleteModel": {
-    "title": "qwen2.5-coder:7b-instruct",
-    "provider": "ollama",
-    "model": "qwen2.5-coder:7b-instruct"
-  },
-```
-
-* Save your modifications and close the config file.
-
-<div align="center"> 
- 
- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" />   **That's it for this tutorial ! You now have an AI model integrated into your VSCode setup.** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" />
-
-</div>
-  
-<br>
-
-## (Bonus) Setup Groq as the Cloud-based Model Provider
-
-If you **don't have the necessary hardware to run models locally** or want to tap into more powerful capabilities, this tutorial is for you. I'll be using ***[Groq](https://groq.com/)*** as the provider, leveraging their infrastructure's fast inference capabilities. 
-
-> [!Note]
-> In this tutorial, I'll be leveraging **Groq**, but feel free to substitute it with your preferred provider - whether that's OpenAI, Anthropic, or another that suits your needs.
->
->  When choosing your model, Keep in mind that each model has its strengths and weaknesses.
-
-> Before we get started, make sure you have a Groq account set up - if you haven't already, take a moment to create one.
-
-* Click on the **Continue icon** in the left sidebar to open the Continue panel.
-* If it is the first time you open it, The extension will prompt you for a Model Provider; select the **Cloud Provider** option.
-* Select **Groq** as your preferred AI provider.
-* Head to the **GroqCloud section** of the Groq website (look for the icon at the bottom).
-* Create a new **API key** and copy it to your clipboard.
-* Return to the window and **paste your API key into the apiKey input field**.
-* **Select the AI model** you want to use from the available options. Here on Groq, I'll choose the "Llama-3-70b Model".
-* You now have access to a capable model, **ready to be used** as a programming assistant within Visual Studio Code.
-  
-
-<br>
-
