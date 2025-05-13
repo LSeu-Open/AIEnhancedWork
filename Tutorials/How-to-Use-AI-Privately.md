@@ -1,8 +1,6 @@
 <div align="center"> 
  
-[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=How%20to%20use%20AI%20Models%20Privately%20🥷&width=1100&height=550)](https://github.com/Akshay090/svg-banners)
-
-***TODO : Make the banner to match repository style***
+<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/PrivacyAI.png">
 
 This tutorial explains how to set up private AI workflows using local models and secure development practices, enabling you to harness AI capabilities while keeping your data secure.
 
