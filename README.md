@@ -79,7 +79,7 @@ Documentation: [CC0 License](./LICENSE.md).
 - [AI Tutorials and Learning Resources](#ai-tutorials-and-learning-resources)
     - [Tutorials](#tutorials)
     - [Learning Resources](#learning-resources)
-- [Audio Processing](#audio-processing)
+- [Audio Processing](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md)
     - [Transcription and Summarization](#transcription-and-summarization)
     - [Music Generation](#music-generation)
     - [Text-to-Speech Synthesis](#text-to-speech-synthesis)
