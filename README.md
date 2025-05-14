@@ -76,9 +76,14 @@ Documentation: [CC0 License](./LICENSE.md).
 
 <br>
 
-- [AI Tutorials and Learning Resources](#ai-tutorials-and-learning-resources)
-    - [Tutorials](#tutorials)
-    - [Learning Resources](#learning-resources)
+- [AI Tutorials and Learning Resources](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md)
+    - [Tutorials](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#tutorials)
+      - [Local tutorials](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#local-tutorials)
+      - [Online tutorials](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#online-tutorials)
+    - [Learning Resources](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#learning-resources)
+      - [Beginner](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#beginner)
+      - [Intermediate](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#intermediate)
+      - [Advanced](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#advanced)  
 - [Audio Processing](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md)
     - [Transcription and Summarization](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#transcription-and-summarization)
     - [Music Generation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#music-generation)
