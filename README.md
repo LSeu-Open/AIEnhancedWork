@@ -145,11 +145,11 @@ Documentation: [CC0 License](./LICENSE.md).
     - [AI-Powered Web Browsers](#ai-powered-web-browsers)
     - [Deep Research Tools](#deep-research-tools)
     - [Search Engines](#search-engines)
-- [Other Applications](#other-applications)
-    - [Language Learning Tools](#language-learning-tools)
-    - [Meeting Transcription and Summarization](#meeting-transcription-and-summarization)
-    - [Presentation Slides Generation](#presentation-slides-generation)
-    - [Versatile Productivity Tools](#versatile-productivity-tools)
+- [Other Applications](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md)
+    - [Language Learning Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md#language-learning-tools)
+    - [Meeting Transcription and Summarization](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md#meeting-transcription-and-summarization)
+    - [Presentation Slides Generation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md#presentation-slides-generation)
+    - [Versatile Productivity Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md#versatile-productivity-tools)
    
 <br>
 <br>
