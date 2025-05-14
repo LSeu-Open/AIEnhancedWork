@@ -117,7 +117,7 @@ Documentation: [CC0 License](./LICENSE.md).
       - [Video Generation Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#video-generation-providers)
     - [3D Model Generation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#3d-model-generation)
       - [Text/Image-to-3D Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#textimage-to-3d-models)
-- [Data Analysis](#data-analysis)
+- [Data Analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md)
 - [Foundation Models](#foundation-models)
   - [Language Only Large Language Models](#language-only-large-language-models)
     - [Advanced Language and Reasoning LLMs](#advanced-language-and-reasoning-llms)
