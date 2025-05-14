@@ -1,3 +1,41 @@
+<div align="center"> 
+
+<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/AIEnhancedWork.png">
+
+<br>
+<br>
+
+***A curated index of impactful AI tools and models, that emphasizes technical merit, practical utility and Prioritizing open-source.***
+
+**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
+
+<br>
+
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](./LICENSE.md)
+
+<br>
+
+[⬅️ Back to the Main Page](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/README.md) 
+
+</div>
+
+<br>
+
+# Table of contents
+
+- [Transcription and Summarization](#transcription-and-summarization)
+- [Music Generation](#music-generation)
+- [Text-to-Speech Synthesis](#text-to-speech-synthesis)
+  - [Text-to-Speech Models](#text-to-speech-models)
+  - [Text-to-Speech Providers](#text-to-speech-providers)
+- [Speech Recognition](#speech-recognition)
+  - [Speech-to-Text Models](#speech-to-text-models)
+  - [Speech-to-Text Providers](#speech-to-text-providers)
+- [Voice Assistants](#voice-assistants)
+  - [Voice Assistants Models](#voice-assistants-models)
+  - [Voice Assistants Providers](#voice-assistants-providers)
+
+<br>
 
 # Audio Processing
 
@@ -151,5 +189,13 @@ These systems combine multiple AI technologies to create interactive voice exper
 |:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [OpenAI](https://openai.com/index/chatgpt-can-now-see-hear-and-speak/) | Premium voice interface for GPT-4, offering natural conversations with high-quality voice synthesis and recognition. Features multiple voice options and seamless integration with ChatGPT.|  [GPT4-o](https://openai.com/index/hello-gpt-4o/) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />  |
 | [Gemini](https://gemini.google/assistant/?hl=en) | Google's conversational AI assistant offering natural voice interactions through the Gemini app. Features multilingual support, voice input/output, and integration with Google services. |  [Gemini 1.5 Pro](https://gemini.google.com/?hl=en) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+
+<br>
+
+<div align="center">
+
+[⬆️ Back to Top](#audio-processing)
+
+</div>
 
 <br>
