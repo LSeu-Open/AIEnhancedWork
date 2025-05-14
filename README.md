@@ -415,12 +415,15 @@ Execute predefined task sequences through algorithmic workflows to **optimize pr
 
  AI models specifically trained on code to **assist with tasks like writing, completing, and understanding software.**
 
+> [!Tip]
+> Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-use-llms-in-coding.md) to **configure cloud-based and local LLM providers within your development environment.**
+
 #### Top Performing Coding Open source Models (by Model Family)
 
 > [!NOTE]
 > Models are ranked by **[BigCodeBench](https://bigcode-bench.github.io/) Hard set with Pass@1 metrics, measuring single-attempt problem-solving accuracy (Higher score is better).**
 >
-> **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [comparative analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md#models-for-coding).
+> **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-use-llms-in-coding.md#find-the-model-that-is-right-for-you).
 
 | Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Pass@1](https://bigcode-bench.github.io/)     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|
@@ -443,9 +446,6 @@ Execute predefined task sequences through algorithmic workflows to **optimize pr
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/ByteDance.svg" alt="Bytedance" width="200" height="20" />](https://www.bytedance.com/en/) | [Seed-Coder-8B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-Coder-8B-Instruct) | 8B | **Incoming** | 32K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [OpenCodeReasoning-Nemotron-32B](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-32B) | 32B | **Incoming** | 128K |
 
-> [!Tip]
-> Follow our [integration guide](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) to **configure cloud-based and local LLM providers within your development environment.**
-
 <br>
 
 ### AI-Augmented Integrated Development Environments
@@ -459,11 +459,6 @@ Integrated Development Environments (IDEs) **leverage LLM capabilities for code 
 | [Visual Studio Code with Extensions](https://code.visualstudio.com/) | A popular, free source-code editor developed by Microsoft. | All | Claude 3.7 Sonnet / o1 / Deepseek-R1 / Locally provided Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | [Windsurf](https://windsurf.com/editor) | AI-powered code editor designed to enhance developer productivity by providing advanced AI features | All | Claude 3.7 Sonnet / o1 / Deepseek-R1 / Locally provided Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 | [Zed](https://zed.dev/) | A high-performance, next-generation code editor designed for collaborative coding and integration with AI.  | All | Claude 3.7 Sonnet / o1 / Deepseek-R1 / Locally provided Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-
-> [!Tip]
-> Various VS Code extensions enable integration with LLMs for coding assistance. Notably, Codeium, GitHub Copilot, and Continue.dev are reputable options (see table below).
-> 
-> check out our **[tutorial](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)** to integrate Cloud-based AI providers like OpenAI, Anthropic, or Groq, or local model providers such as ollama, **directly into vs code**.
 
 <br>
 
