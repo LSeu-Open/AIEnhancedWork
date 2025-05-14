@@ -24,14 +24,23 @@ Navigating the rapidly evolving field of Artificial Intelligence can be overwhel
 
 Our goal is to help you **discover, compare, and select the right AI solutions** for your projects by providing structured information, comparisons, and direct links. We place a strong emphasis on **open-source options** while also including noteworthy proprietary tools.
 
+<br>
+
 **Understanding the Indicators:**
 
 Throughout this guide, you may see the following indicator:
 
-[<img src="./Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) : Indicates proprietary software, requires payment/subscription for full use, or has restrictive licensing. 
+[<img src="./Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) The source code is typically not available, and its **use, modification, and distribution are restricted by the vendor.** Access often requires payment or a subscription, and licenses may limit how the software can be deployed or integrated.
 
+[<img src="./Images/Licence/opensource.svg" alt="opensource" width="90" height="15" />](https://opensource.com/resources/what-open-source) The source code is **publicly available, allowing users to freely use, modify, and distribute the software (or derived versions) under licenses that grant these permissions.** While often free of charge, always verify the specific license terms for compliance, as some licenses have conditions regarding redistribution or derivative works.
 
-[<img src="./Images/Licence/opensource.svg" alt="opensource" width="90" height="15" />](https://opensource.com/resources/what-open-source) implies Open Source or a significant free tier, but always verify specific licenses before use.
+<img src="./Images/Pricing/free.svg" alt="free" width="80" height="15" /> The tool or service is **available at no cost.** Some free offerings may have limitations or be supported by other means (e.g., community support for open-source projects).
+
+[<img src="./Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="15" />](https://builtin.com/articles/freemium) Offers a **basic tier of services free of charge,** with more **advanced features or capabilities available under a paid subscription.**
+
+<img src="./Images/Pricing/Paid.svg" alt="Paid" width="80" height="15" /> Access to the tool or **service requires a one-time purchase or an ongoing subscription.**
+
+<br>
 
 **LLM Scoring Framework:**
 
@@ -39,17 +48,20 @@ Since benchmarks cannot always be trusted and existing leaderboards typically fo
 
 Our approach aims to cover a wide range of benchmarks, leaderboards, community assessments, and technical specifications, **trying to provide an unbiased estimation of the overall capacities of any public LLM.**
 
-***The latest release of the LLM scoring framework is v0.3.1-beta. Version v0.4.0-beta is currently in development, featuring a broader and significantly more complex approach.***
-
-<br>
-
 > [!NOTE]
 > ***Formerly developed within this repository, the scoring framework is now under development in a dedicated repository [LLMScoreEngine](https://github.com/LSeu-Open/LLMScoreEngine).***
 
 <br>
 
 <div align="center"> 
-	
+
+***The latest release of the LLM scoring framework is v0.3.1-beta.*** 
+
+***Version v0.4.0-beta is currently in development, featuring a broader and significantly more complex approach.***
+
+<br>
+<br>
+
 *Explore the sections below via the Table of Contents to find what you need.* 
 
 Documentation: [CC0 License](./LICENSE.md).
