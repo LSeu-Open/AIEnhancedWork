@@ -42,7 +42,7 @@
 > [!Tip]
 > Follow our [integration guide](./Tutorials/how-to-use-llms-in-coding.md) to **configure cloud-based and local LLM providers within your development environment.**
 
-#### Top Performing Coding Open source Models (by Model Family)
+#### Top Performing Open Source Coding Models (by Model Family)
 
 > [!NOTE]
 > Models are ranked by **[BigCodeBench](https://bigcode-bench.github.io/) Hard set with Pass@1 metrics, measuring single-attempt problem-solving accuracy (Higher score is better).**
@@ -111,6 +111,8 @@ Code assistance models provide **contextual suggestions and autocompletion throu
 <br>
 
 ### App Building Tools
+
+App building tools leverage **automated code generation and design tools to streamline the development process, allowing users to create functional applications quickly and efficiently.**
 
 | Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
 |:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------|-----------|
