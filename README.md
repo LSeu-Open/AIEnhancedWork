@@ -48,6 +48,13 @@ Since benchmarks cannot always be trusted and existing leaderboards typically fo
 
 Our approach aims to cover a wide range of benchmarks, leaderboards, community assessments, and technical specifications, **trying to provide an unbiased estimation of the overall capacities of any public LLM.**
 
+The **Score** column in some tables may display either **Incoming** or **Pending**.
+
+* ***Incoming*** : The score is not yet computed but will be available soon.
+* ***Pending*** : The score cannot currently be computed due to a lack of information or benchmarks. It's unclear when it will be available.
+
+<br>
+
 > [!NOTE]
 > ***Formerly developed within this repository, the scoring framework is now under development in a dedicated repository [LLMScoreEngine](https://github.com/LSeu-Open/LLMScoreEngine).***
 
