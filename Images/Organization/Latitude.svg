@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="168"
+   height="30"
+   viewBox="0 0 168 30"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs5" /><g
+     id="g2"
+     transform="translate(8.690775)"><path
+       d="M 0,15 C 0,6.71573 6.0209096,0 13.448076,0 H 137.17037 c 7.42692,0 13.44808,6.71573 13.44808,15 v 0 c 0,8.2843 -6.02116,15 -13.44808,15 H 13.448076 C 6.0209096,30 0,23.2843 0,15 Z"
+       fill="#BFC2FF"
+       id="path1"
+       style="fill:#000000;fill-opacity:1;stroke-width:0.946857" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fefeff;fill-opacity:1;stroke-width:1.00157;stroke-linejoin:round"
+       x="32.253674"
+       y="20.925781"
+       id="text5"><tspan
+         id="tspan5"
+         x="32.253674"
+         y="20.925781"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fefeff;fill-opacity:1">Latitude Games</tspan></text><path
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.260067"
+       d="m 18.478518,23.462857 c -2.220066,-0.517916 -4.391577,-3.410071 -4.391886,-5.849389 -1.96e-4,-1.544383 0.50934,-2.724356 2.080406,-4.817759 1.491296,-1.987112 2.024668,-3.163493 2.299349,-5.0713231 0.09954,-0.6913474 0.231759,-1.2569949 0.29383,-1.2569949 0.06206,0 0.354529,0.2535664 0.649908,0.5634804 1.519202,1.593962 2.341613,4.0041256 1.98027,5.8033896 -0.19968,0.994277 -0.236305,1.080721 -1.292445,3.050458 -0.597416,1.114201 -0.619256,1.209755 -0.381548,1.669431 0.458339,0.886329 1.275408,0.946263 1.891341,0.138735 0.507999,-0.666022 0.722305,-1.1658 1.232872,-2.875147 l 0.379985,-1.272163 0.46129,0.974259 c 0.848045,1.791096 1.050346,3.829175 0.531295,5.352505 -0.735293,2.157965 -3.759335,4.051341 -5.734667,3.590518 z"
+       id="path2" /></g></svg>
