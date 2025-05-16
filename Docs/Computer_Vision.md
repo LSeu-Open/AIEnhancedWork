@@ -50,6 +50,8 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 
 ### Image Editing
 
+This section highlights tools that assist in modifying and enhancing existing images using AI-powered capabilities.
+
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [BRIA AI](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4) | An AI-powered model to automatically remove backgrounds from images.    | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)        | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />        |
@@ -64,16 +66,18 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 
 ### Image Generation
 
+Explore tools and models designed to create novel images from textual descriptions or other inputs, leveraging the power of generative AI.
+
 #### Image Generation Models
 
 > [!NOTE]
-> The models are ranked according to their **Elo scores (Higher score is better)** from the [artificialanalysis.ai text to Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+> The models are ranked according to their **Elo scores (Higher score is better)** from the [artificialanalysis.ai Text-to-Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 >
 > To provide a comprehensive overview of the generative image model landscape, only **pre-trained versions of the listed models are included in this ranking.**
 >
 > Due to the continuous evolution and **vast number of possible fine-tuned configurations, it is impractical to comprehensively list every variant here.**
 
-| Organization         | Model                                                                         | Elo score  | Licence     | Pricing   |
+| Organization         | Model Name                                                                    | Elo score  | Licence     | Pricing   |
 |:--------------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 1153 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/ByteDance.svg" alt="Bytedance" width="200" height="20" />](https://www.bytedance.com/en/) | [Seedream 3.0](https://seed.bytedance.com/zh/tech/seedream3_0) | 1150 |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
@@ -117,6 +121,8 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 
 #### Cloud-based Image Generation Providers
 
+This subsection lists platforms that offer image generation capabilities as a cloud service, typically accessible via web interfaces or APIs, without requiring local model deployment.
+
 | Tool              | Description                                                                                                         |  Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [Craiyon](https://www.craiyon.com/) | An AI-powered platform for generating artistic images and animations.                             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />        |
@@ -130,7 +136,6 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 | [Midjourney](https://www.midjourney.com/home) | A world-famous AI platform that generates images and visual content based on user input. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [Nightcafe](https://creator.nightcafe.studio/) | An open-source AI art platform that generates images from textual descriptions using deep learning models. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | [Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) | An AI-powered platform for generating images and animations, developed by NVIDIA. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
 | [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
 #### Local Image Generation Providers
@@ -167,14 +172,14 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 
 Image-to-video models employ **temporal diffusion algorithms to synthesize video sequences from static image inputs**, generating coherent motion patterns and frame transitions.
 
-| Organization       | Model Familly                                       | Best Model                                                                       | Licence     | Pricing   |
-|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="200" height="20" />](https://github.com/THUDM) | [CogVideo](https://github.com/THUDM/CogVideo)     | [CogVideoX-5B-I2V](https://huggingface.co/THUDM/CogVideoX-5b-I2V)                | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Stability.svg" alt="stability" width="200" height="20" />](https://stability.ai/) | [Stable Video Diffusion (SVD)](https://stability.ai/stable-video)       | [img2vid-xt](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Stability.svg" alt="stability" width="200" height="20" />](https://stability.ai/) | [Stable Video Diffusion (SV3D)](https://stability.ai/stable-video)      | [sv3d](https://huggingface.co/stabilityai/sv3d)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Stability.svg" alt="stability" width="200" height="20" />](https://stability.ai/) | [Stable Video Diffusion (SV4D)](https://stability.ai/stable-video)      | [sv4d](https://huggingface.co/stabilityai/sv4d)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [Lightricks](https://www.lightricks.com/) | [LTXV](https://www.lightricks.com/)      | [LTX-Video](https://huggingface.co/Lightricks/LTX-Video)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Wan](https://wan.video/)      | [Wan2.1-I2V-14B-720P](https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-720P)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
+| Organization       | Model Name                                                                       | Licence     | Pricing   |
+|:------------------:|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="200" height="20" />](https://github.com/THUDM) | [CogVideoX-5B-I2V](https://huggingface.co/THUDM/CogVideoX-5b-I2V)                | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Stability.svg" alt="stability" width="200" height="20" />](https://stability.ai/) | [img2vid-xt](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Stability.svg" alt="stability" width="200" height="20" />](https://stability.ai/) | [sv3d](https://huggingface.co/stabilityai/sv3d)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Stability.svg" alt="stability" width="200" height="20" />](https://stability.ai/) | [sv4d](https://huggingface.co/stabilityai/sv4d)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
+| [Lightricks](https://www.lightricks.com/) | [LTX-Video](https://huggingface.co/Lightricks/LTX-Video)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Wan2.1-I2V-14B-720P](https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-720P)             | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
 
 
 
@@ -185,7 +190,7 @@ Text-to-video models **convert natural language descriptions into video sequence
 > [!NOTE]
 > The models are ranked according to their **Elo scores (Higher score is better)** from the [artificialanalysis.ai Video Generation Arena](https://artificialanalysis.ai/text-to-image/arena). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
 
-| Organization       | Best Model                                                                       | Elo score       | Licence         | Pricing   |
+| Organization       | Model Name                                                                       | Elo score       | Licence         | Pricing   |
 |:------------------:|:---------------------------------------------------------------------------------|:---------------:|:---------------:|:---------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Veo 2](https://deepmind.google/technologies/veo/veo-2/) | 1124 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Kling.svg" alt="klingai" width="200" height="20" />](https://klingai.com/) |[Kling 1.5 (Pro)](https://klingai.com/) | 1050 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
@@ -207,6 +212,8 @@ Text-to-video models **convert natural language descriptions into video sequence
 
 
 #### Video Generation Providers
+
+Discover platforms that provide video generation services, enabling users to create video content from text or image prompts through cloud-based solutions.
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -231,7 +238,7 @@ Transform text descriptions and images into detailed 3D models using AI. These M
 
 #### Text/Image-to-3D Models
 
-| Organization         | Model                                                                         | Licence     | Pricing     |
+| Organization         | Model Name                                                                         | Licence     | Pricing     |
 |:--------------------:|:------------------------------------------------------------------------------|:-----------:|:-----------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="200" height="20" />](https://github.com/Tencent/)  | [Hunyuan3D-2](https://huggingface.co/tencent/Hunyuan3D-2mv) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="200" height="20" />](https://github.com/Tencent/)  | [InstantMesh](https://huggingface.co/TencentARC/InstantMesh) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
@@ -252,3 +259,4 @@ Transform text descriptions and images into detailed 3D models using AI. These M
 </div>
 
 <br>
+
