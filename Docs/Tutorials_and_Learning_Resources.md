@@ -86,6 +86,7 @@
 | [What are AI hallucinations?](https://www.ibm.com/topics/ai-hallucinations) | Learn why AI systems can generate nonsensical outputs by perceiving non-existent patterns or objects. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)            |
 | [What is Prompt Engineering?](https://aws.amazon.com/what-is/prompt-engineering/) | A concise guide to the key concepts, considerations, and methodologies behind prompt engineering. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/amazon.svg" alt="Amazon" width="200" height="20" />](https://aws.amazon.com/ai/)          |
 | [What is prompt-tuning?](https://research.ibm.com/blog/what-is-ai-prompt-tuning) | A lightweight method for fine-tuning AI foundation models on downstream tasks. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)           |
+| [What is tool calling?](https://www.ibm.com/think/topics/tool-calling) | Understanding how LLMs interact with external tools. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/) |
 
 <br> 
 
@@ -107,7 +108,6 @@
 | [What is reasoning in AI?](https://www.ibm.com/think/topics/ai-reasoning) | Understanding AI Reasoning and why it is usefull. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/) |
 | [What is retrieval-augmented generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) | Learn what is retrieval-augmented generation (RAG) and why it is usefull. |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/) |
 | [What is reinforcement learning from human feedback (RLHF)?](https://www.ibm.com/topics/rlhf) | Learn what is reinforcement learning from human feedback (RLHF) and why it is usefull. |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/) |
-| [What is tool calling?](https://www.ibm.com/think/topics/tool-calling) | Understanding how LLMs interact with external tools. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/) |
 
 <br>
 
