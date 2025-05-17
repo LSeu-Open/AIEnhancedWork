@@ -44,7 +44,7 @@ Throughout this guide, you may see the following indicator:
 
 **LLM Scoring Framework:**
 
-Since benchmarks cannot always be trusted and existing leaderboards typically focus only on one aspect of modern LLMs' capabilities, we chose to develop our own approach.
+Since benchmarks cannot always be trusted and existing leaderboards typically focus only on one aspect of modern LLMs' capabilities, we chose to develop our own approach. Formerly developed within this repository, the scoring framework is now under development in a dedicated repository.
 
 Our approach aims to cover a wide range of benchmarks, leaderboards, community assessments, and technical specifications, **trying to provide an unbiased estimation of the overall capacities of any public LLM.**
 
@@ -54,17 +54,22 @@ The **Score** column in some tables may display either **Incoming** or **Pending
 * ***Pending*** : The score cannot currently be computed due to a lack of information or benchmarks. It's unclear when it will be available.
 
 <br>
-
-> [!NOTE]
-> ***Formerly developed within this repository, the scoring framework is now under development in a dedicated repository [LLMScoreEngine](https://github.com/LSeu-Open/LLMScoreEngine).***
-
 <br>
 
 <div align="center"> 
+    
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" />
+<a href="https://github.com/LSeu-Open/LLMScoreEngine">
+  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/LLMScoreEngine.png" width="200">
+</a>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left.png" alt="Backhand Index Pointing Left" width="25" height="25" />
 
-***The latest release of the LLM scoring framework is v0.3.1-beta.*** 
+<br>
+<br>
 
-***Version v0.4.0-beta is currently in development, featuring a broader and significantly more complex approach.***
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://github.com/LSeu-Open/LLMScoreEngine/blob/main/LICENSE)
+![LastCommit](https://img.shields.io/github/last-commit/LSeu-Open/LLMScoreEngine?style=flat)
+![LastRelease](https://img.shields.io/github/v/release/LSeu-Open/LLMScoreEngine?style=flat)
 
 <br>
 <br>
