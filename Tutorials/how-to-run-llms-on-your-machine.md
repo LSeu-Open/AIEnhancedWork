@@ -155,9 +155,9 @@ Learn more about quantization [here](https://huggingface.co/blog/merve/quantizat
 <br>
 <br>
 
-## LM Studio (Beginner) {#lm-studio}
+## LM Studio 
 
-LM Studio is a powerful yet user-friendly tool for running large language models (LLMs) on your local machine. It's especially well-suited for beginners who want to experiment with AI without needing advanced technical skills or an internet connection.
+***(Beginner)*** LM Studio is a powerful yet user-friendly tool for running large language models (LLMs) on your local machine. It's especially well-suited for beginners who want to experiment with AI without needing advanced technical skills or an internet connection.
 
 ### Why Use LM Studio?
 
@@ -223,9 +223,9 @@ For more detailed information, please refer to the [official LM Studio documenta
 <br>
 <br>
 
-## Ollama (Intermediate) {#ollama}
+## Ollama 
 
-Ollama is our top recommendation for running LLMs locally for non beginners users due to its robust integration capabilities and adaptability. 
+***(Intermediate)*** Ollama is our top recommendation for running LLMs locally for non beginners users due to its robust integration capabilities and adaptability. 
 
 As an example, you will find below a step-by-step guide on setting up Ollama as a local model provider through an accessible and user-friendly interface. 
 
@@ -325,9 +325,9 @@ You can open the Web UI by clicking on the extension icon which will open a new 
 <br>
 <br>
 
-## Llama.cpp (Expert) {#llama-cpp}
+## Llama cpp 
 
-Llama.cpp is a high-performance C++ library designed to run large language models (LLMs) efficiently on various hardware platforms. It supports both standard CPUs and systems with limited resources, making it ideal for deploying quantized models in the **GGUF** format.
+***(Expert)*** Llama.cpp is a high-performance C++ library designed to run large language models (LLMs) efficiently on various hardware platforms. It supports both standard CPUs and systems with limited resources, making it ideal for deploying quantized models in the **GGUF** format.
 
 ### Prerequisites
 
