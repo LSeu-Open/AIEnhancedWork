@@ -257,6 +257,7 @@ GitHub Copilot leverages generative AI models developed by GitHub, OpenAI, and M
 
 <br>
 <br>
+
 # Find the Provider that is right for you
 
 Choosing the right AI provider is a foundational step in leveraging Large Language Models (LLMs) effectively for your coding tasks. In this context, a "provider" refers to any entity or platform that grants you access to these powerful models. This could be the original developers of an LLM, a third-party service hosting various models, or even software that enables you to run models directly on your own local machine.
