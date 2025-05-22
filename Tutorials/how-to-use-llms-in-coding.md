@@ -71,13 +71,15 @@ Modern development environments now **leverage AI capabilities to enhance code s
 
 **Currently Supported Models** :
 
-- ***Claude 3.7 Sonnet and Claude 3.5 Sonnet*** by Anthropic
-- ***o1 / o3-mini and gpt-4.5*** by OpenAI
-- ***Gemini 2.0 Flash and Gemini 2.5 Pro*** by Google
-- ***Deepseek-R1 and Deepseek-V3*** by Deepseek
-- ***Cursor-fast and Cursor-small*** by Cursor
+Cursor provides access to **Premium large models** such as :
 
-Some key features of Cursor include:
+  - ***Claude 3.7 Sonnet and Claude 3.5 Sonnet*** by Anthropic
+  - ***o3 / o4-mini and gpt-4.1*** by OpenAI
+  - ***Gemini 2.5 Flash and Gemini 2.5 Pro*** by Google
+  - ***Deepseek-R1 and Deepseek-V3*** by Deepseek
+  - ***Grok 3 and Grok 3-mini*** by xAI
+
+Key highlights of Cursor include:
 
 * **Code understanding and context** : Cursor.sh can ***understand the context of your entire codebase***, allowing it to provide tailored suggestions, generate unit tests, and even implement new features by modifying the relevant files.
 * **Natural language editing** : You can edit code using natural language prompts, such as changing an entire method or class with a single instruction.
@@ -89,13 +91,67 @@ Some key features of Cursor include:
 
 ### Void
 
+<img src="https://voideditor.com/void/logo_cube_noshadow.png" width="20" height="20" > ***[Void](https://voideditor.com/)*** is an open-source AI code editor built as a fork of VS Code, emphasizing user flexibility and data privacy. It enables direct connections to virtually any LLM, bypassing private backends.
+
+**Currently Supported Models** :
+
+- ***Claude 3.7 Sonnet and Claude 3.5 Sonnet*** by Anthropic
+- ***o3 / o4-mini and gpt-4.1*** by OpenAI
+- ***Gemini 2.5 Flash and Gemini 2.5 Pro*** by Google
+- ***Deepseek-R1 and Deepseek-V3*** by Deepseek
+- ***All models from your favorite cloud-provider***
+- ***Local models via Ollama/vLLM***
+
+Key highlights of Void include:
+
+*   **VS Code Foundation**: Easily transfer existing themes, keybinds, and settings.
+*   **Universal & Direct LLM Access**: Connect to any preferred LLM without intermediaries, ensuring data control.
+*   **Core AI Coding Features**: Includes Tab Autocomplete, Quick Edit, and versatile Chat modes (Agent, Gather, Normal).
+*   **Developer-Focused Tools**: Offers checkpoints for LLM changes, lint error detection, native tool use, and efficient application of edits, even on large files.
+
 <br>
 
 ### Windsurf
 
+<img src="https://windsurf.com/favicon.ico" width="20" height="20" > ***[Windsurf](https://windsurf.com/editor)*** is an agentic IDE and VS Code fork, designed for a "flow state" by blending developer and AI workflows. It employs "Flows," where AI acts as both Copilot and Agent, powered by its core engine, **Cascade**, for deep codebase understanding, command execution, and multi-file editing.
+
+**Currently Supported Models** :
+
+Windsurf provides access to **Premium large models** such as :
+
+- ***Claude 3.7 Sonnet and Claude 3.5 Sonnet*** by Anthropic
+- ***o3 / o4-mini and gpt-4.1*** by OpenAI
+- ***Gemini 2.5 Flash and Gemini 2.5 Pro*** by Google
+- ***Deepseek-R1 and Deepseek-V3*** by Deepseek
+
+and also in-house models such as :
+
+- ***SWE-1*** and ***SWE-1-lite*** by Windsurf
+
+Key highlights of Windsurf include:
+
+*   **Agentic AI (Flows & Cascade)**: AI seamlessly collaborates and performs autonomous tasks, deeply integrated into the editing experience.
+*   **Windsurf Previews**: Live preview web applications, use AI to reshape elements, and deploy directly from the IDE.
+*   **VS Code Foundation**: Builds upon the familiar and extensible VS Code environment.
+*   **Smart Coding Tools**: Features include linter integration, "Tab to Jump" predictive navigation, "Supercomplete" for anticipating next actions, natural language commands (in-line & terminal via Cmd+I), Codelenses for quick actions, and @mentions for contextual AI guidance.
+
 <br>
 
 ### Zed
+
+<img src="https://zed.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_icon.d67dc948.webp&w=48&q=100" width="20" height="20" > ***[Zed](https://zed.dev/)*** is a high-performance code editor built in Rust, prioritizing speed, human-AI collaboration, and advanced AI features. It supports macOS, Linux, and is coming to Windows. It features native AI capabilities like **Agentic Editing** and **Edit Prediction** (powered by its open-source ***Zeta*** model) and supports integration with various leading LLMs.
+
+**Currently Supported Models** :
+- Integrates with its native open-source model: ***Zeta***
+- Supports external LLMs such as:
+    - ***Claude 3.7 Sonnet*** and ***Claude 3.5 Sonnet*** by Anthropic
+
+Key highlights of Zed include:
+
+*   **Exceptional Performance**: Built in Rust for efficient multi-core CPU and GPU usage, ensuring speed.
+*   **Intelligent & Collaborative AI**: Native support for agentic editing and AI-driven code assistance, plus built-in tools for team collaboration.
+*   **Modern Development Tools**: Includes native Git support, remote development capabilities, multibuffer editing, and interactive programming (Jupyter).
+*   **Extensible & Customizable**: Supports multiple languages (Tree-sitter, LSP), a fast integrated terminal, Vim-friendly modal editing, and a growing extensions ecosystem.
 
 <br>
 <br>
