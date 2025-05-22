@@ -158,119 +158,105 @@ Key highlights of Zed include:
 
 ##  AI-powered Extensions for VScode
 
+VS Code users have access to a variety of powerful AI-driven extensions. Below are some notable options designed to enhance different aspects of the development workflow:
+
 ### Cline
 
-#### Install Cline
+<img src="https://avatars.githubusercontent.com/u/184127137?s=48&v=4" width="20" height="20" > ***[Cline](https://cline.bot/)*** is self-described as "The Collaborative AI Coder." It's an open-source VS Code extension designed as an AI partner to enhance engineering team capabilities by deeply integrating into the development workflow and amplifying developer impact.
 
-* **Using VS Code Marketplace** :
+**Currently Supported Models**:
 
-* **using VSIX File** :
+Upon creating a Cline account, users get instant access to frontier AI models. New users start with free credits (no credit card needed). Models available include:
+  - ***Anthropic Claude 3.7 Sonnet*** (recommended for coding)
+  - ***Anthropic Claude 3.5 Sonnet***
+  - ***DeepSeek Chat*** (a cost-effective alternative)
+  - ***Google Gemini 2.0 Flash***
 
-#### Create Your account
-
-#### How Cline works
+Key highlights of Cline include:
+*   **Collaborative AI Partner**: Cline focuses on collaboration by creating a thoughtful plan before acting, explaining its reasoning, asking for user input, and breaking down complex tasks step-by-step.
+*   **Deep Workflow Integration**: It's more than a code generator. Cline monitors your development environment (terminals, files, error logs), can integrate with external databases and live documents via MCP Servers, and automatically detects and applies fixes.
+*   **Enterprise-Grade Security & Privacy**: Cline is engineered for enterprise-level security. It allows access to top-tier models through AWS Bedrock, GCP Vertex, or Azure endpoints while keeping code secure. The website emphasizes that **Cline never tracks or stores your data**.
+*   **Open Source & Community Driven**: With a 100% transparent codebase on GitHub (boasting 44.2k stars), Cline promotes an active community and ensures users retain control over the tool.
+*   **Safe & Controlled Development**: It implements a checkpoint system, allowing developers to review every change before it's applied and easily roll back to any previous state.
+*   **VS Code Extension**: Cline is integrated directly into Visual Studio Code as an extension. Installation is done via the VS Code Marketplace: search for 'Cline', install, and then add an API key after creating an account.
+*   **Significant Adoption**: The tool has a strong user base, with 1.5 million installations reported on its website.
 
 <br>
 
 ### Continue
 
-For those who prioritize keeping everything local and private, I'll be using ***[Ollama](https://ollama.com/)*** as the provider in this tutorial. If you haven't already, be sure to check out our **[A Practical Tutorial to Run a Local Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-local-llm-ollama-and-page-assist.md)** to learn how to install Ollama and get started.
-  
-> [!Note]
-> In this tutorial, I am using the ***Codestral:22b*** model. This particular model is specialized for coding and has been meticulously trained on vast datasets by Mistral.ai.
->
-> This model stands out for its **exceptional size and capabilities, selected specifically for the hardware I use on my PC.** As with any model, it has its unique strengths and weaknesses. To get the most out of this tool, be sure to **[choose wisely](#models-for-coding)** among the available options.
+<img src="https://avatars.githubusercontent.com/u/127876214?s=48&v=4" width="20" height="20" > ***[Continue](https://www.continue.dev/)*** provides open-source IDE extensions (for VS Code and JetBrains) and a hub of models, rules, prompts, and docs. It enables developers to create, share, and use custom AI code assistants tailored to their specific environments, tools, and development practices, aiming for an "AI-native development" experience that amplifies developer capabilities.
 
-#### Install Continue extension
+**Currently Supported Models & Providers**:
 
-> [Official Continue.dev website](https://www.continue.dev/)
+Continue is designed to work with a wide range of models and providers. The website highlights compatibility with:
+  - Ollama and LM Studio (for local models)
+  - OpenAI
+  - Together AI
+  - Anthropic
+  - Mistral
+  - Azure OpenAI Service
 
-* Click on the Extensions icon in the left sidebar or use the keyboard shortcut: Ctrl + Shift + X (Windows/Linux) or Cmd + Shift + X (macOS).
-* In the Extensions marketplace, search for "Continue" to find the extension.
-* Click on the "Continue" extension to open its page.
-* Click the "Install" button to begin the installation process.
-* Wait for the extension to download and install. This might take a few seconds.
-* Once the installation is complete, click on the "Reload Required" button to reload VS Code.
-
-
-#### Sidebar chat Model
-
-* Open the **Continue.dev** extension by clicking on its icon in the left sidebar.
-
-* The extension will prompt you for a Model Provider; select the **Local Provider** option.
-
-* If you have set up Ollama correctly, **it should automatically detect your models.**
-  
-* At the bottom of the window, you will find a list of all your installed models. For this tutorial, I choose ***Codestral:22b***.
-
-#### Inline autocomplete Model
-
-* By default, the extension is set to use **starcoder-2-3b for autocomplete**. If you want to keep using this model, ensure it is installed with your Ollama setup. Otherwise, if you wish to switch to a more capable model, click on the settings icon at the bottom right of the extension window.
-  
-* This will open the **config.json** file, where you can customize the extension's behavior.
-  
-* Navigate to the following snippet:
-
-```
- "tabAutocompleteModel": {
-    "title": "starcoder-2-3b",
-    "provider": "ollama",
-    "model": "starcoder-2-3b"
-  },
-```
-
-* Replace **starcoder-2-3b** with the model you prefer. For example, if you want to use **Qwen2.5-Coder-32B-Instruct**, update the code to:
-
- ```
- "tabAutocompleteModel": {
-    "title": "Qwen2.5-Coder-32B-Instruct",
-    "provider": "ollama",
-    "model": "Qwen2.5-Coder-32B-Instruct"
-  },
-```
-or by **Qwen2.5-Coder-7B-Instruct** for less powerfull computers : 
-
- ```
- "tabAutocompleteModel": {
-    "title": "qwen2.5-coder:7b-instruct",
-    "provider": "ollama",
-    "model": "qwen2.5-coder:7b-instruct"
-  },
-```
-
-* Save your modifications and close the config file.
+**Key highlights of Continue include**:
+*   **Custom AI Code Assistants**: Build AI assistants tailored to your specific codebase, internal documentation, and development workflows.
+*   **IDE Integration**: Available as extensions for both VS Code and JetBrains IDEs.
+*   **Core AI Coding Features**:
+    *   **Tab to Autocomplete**: Autocompletes single lines or entire sections of code in any programming language.
+    *   **Reference and Chat**: Attach code snippets, files, or other context (like documentation, GitLab issues, Confluence pages) to ask questions or get explanations.
+    *   **Highlight and Edit/Instruct**: Select code sections and use natural language prompts via a keyboard shortcut to rewrite or modify the code.
+*   **Open Source**: The core tooling is open-source, with the code available on GitHub.
+*   **Continue Hub**: A central place to discover and share models, rules, prompts, documentation, and other building blocks for creating custom AI assistants.
+*   **Flexible Context Integration**: Can leverage various sources of context, including your codebase, Git issues, documentation (Methods, Confluence), and local files.
+*   **Modular Building Blocks**: Utilize data blocks, docs blocks, rules blocks, MCP (Model Customization Pack) blocks, and prompts blocks to define and refine your AI assistants.
 
 <br>
 
 ### Github Copilot
 
-#### Install Github Copilot
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" width="20" height="20" > ***[GitHub Copilot](https://github.com/features/copilot)*** is an AI pair programmer that provides contextualized assistance throughout the software development lifecycle. It's designed to help developers write better code faster by offering code completions, chat assistance, code explanations, and more, directly within the IDE and GitHub platform.
 
-* **Using VS Code Marketplace** :
+**Currently Supported Models & Access**:
 
-* **using VSIX File** :
+GitHub Copilot leverages generative AI models developed by GitHub, OpenAI, and Microsoft. Users can often swap between different models depending on their plan and the task at hand. 
 
-#### Create Your account
+  - OpenAI's GPT (e.g., GPT-4.1, o1, o3, o3-mini, o4-mini), 
+  - Anthropic's Claude (e.g., Claude 3.5 Sonnet, Claude 3.7 Sonnet)
+  - Google's Gemini (e.g., Gemini 2.0 Flash, Gemini 2.5 Pro).
+  - The Pro+ plan offers access to all models, including GPT-4.5.
 
-#### How Github Copilot works
+**Key highlights of GitHub Copilot include**:
+*   **Agent Mode (Preview)**: Allows delegation of open issues to Copilot, which can then plan, write, test, and iterate on code, ultimately delivering pull requests. It can connect to MCP servers to use repository and external data.
+*   **IDE and Platform Integration**: Natively built into GitHub and available as an extension for major IDEs including Visual Studio Code, Visual Studio, JetBrains suite, Neovim, Xcode, Azure Data Studio, and Eclipse.
+*   **Broad Language Support**: Trained on all languages found in public repositories, with performance varying based on the volume of training data for each language.
+*   **Code Completions & Chat**: Offers intelligent code suggestions as you type and allows for natural language conversations to generate code, explain snippets, or answer questions.
+*   **Next Edit Suggestions**: Helps maintain consistency by showing the potential ripple effects of code changes across a project.
+*   **Code Review Capabilities**: Can analyze code, identify potential bugs, suggest fixes, and more, before human review.
+*   **Flexible Model Usage**: Depending on the subscription, users can switch between different AI models optimized for speed or depth.
+*   **Tiered Plans**: Offers "Free" (limited requests), "Pro" (unlimited completions/chats, more models), and "Pro+" (maximum flexibility, all models, coding agent preview) plans. It's free for verified students, teachers, and maintainers of popular open-source projects.
+*   **Security & Privacy Focus**: Includes an optional code referencing filter to detect and suppress suggestions matching public code. GitHub offers IP indemnification for unmodified suggestions when this filter is enabled. It also scans for vulnerable code patterns.
+*   **Productivity Enhancement**: Widely adopted, with users reporting significant improvements in job satisfaction and coding productivity.
 
 <br>
 
 ### Roo Code
 
-#### Install Roo Code
+<img src="https://avatars.githubusercontent.com/u/169046090?s=48&v=4" width="20" height="20" > ***[Roo Code](https://github.com/RooCodeInc/Roo-Code)*** (formerly Roo Cline) positions itself as providing "a whole dev team of AI agents in your code editor." It is an open-source project, forked from `cline/cline`, and aims to provide advanced AI-driven development assistance.
 
-* **Using VS Code Marketplace** :
+**Currently Supported Models & Providers**:
 
-* **using VSIX File** :
+*   Being a fork of Cline, Roo Code likely inherits Cline's capabilities regarding model support. 
 
-#### Connect your AI Provider
-
-#### How Roo Code works
+**Key highlights of Roo Code include**:
+*   **AI Agent Team**: The core premise is to offer multiple AI agents within the IDE, suggesting a focus on diverse and specialized AI assistance for development tasks.
+*   **Open Source & Forked from Cline**: Built upon the foundation of the `cline/cline` project, indicating a robust set of initial features related to AI-powered coding, environment monitoring, and potentially MCP server integration.
+*   **VS Code Extension**: Primarily distributed as a VS Code extension, integrating directly into the editor.
+*   **Community & Development**: The project has a significant number of stars (14.2k) and forks (1.4k) on GitHub, indicating active interest and community involvement. It is licensed under Apache-2.0.
+*   **Focus on Autonomous Capabilities**: The tagline "Whether you keep it on a short leash or let it roam autonomously" suggests features that allow for varying degrees of AI control and independent operation.
+*   **Active Development**: The repository shows ongoing commits and releases, with the latest release noted as v3.18.0 (as of the information on the GitHub page).
+*   **Community Engagement**: Encourages users to join their Reddit community or Discord for questions and feature ideas.
 
 <br>
 <br>
-
 # Find the Provider that is right for you
 
 Choosing the right AI provider is a foundational step in leveraging Large Language Models (LLMs) effectively for your coding tasks. In this context, a "provider" refers to any entity or platform that grants you access to these powerful models. This could be the original developers of an LLM, a third-party service hosting various models, or even software that enables you to run models directly on your own local machine.
