@@ -50,7 +50,7 @@
 > **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [dedicated section](./Tutorials/how-to-use-llms-in-coding.md#find-the-model-that-is-right-for-you).
 
 | Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Pass@1](https://bigcode-bench.github.io/)     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------|:-------------:|:-----------:|
+|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|:-----------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) | 32B | 30.8 | 132K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 29.4 | 128K|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1) | 22B | 20.6 | 33K |
@@ -69,6 +69,7 @@
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/JetBrains.svg" alt="JetBrains" width="90" height="25" />](https://www.jetbrains.com/) | [Mellum-4b-sft-python](https://huggingface.co/JetBrains/Mellum-4b-sft-python) | 4B | **Pending** | 8K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/ByteDance.svg" alt="Bytedance" width="200" height="20" />](https://www.bytedance.com/en/) | [Seed-Coder-8B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-Coder-8B-Instruct) | 8B | **Incoming** | 32K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [OpenCodeReasoning-Nemotron-32B](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-32B) | 32B | **Incoming** | 128K |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Devstral-Small-2505](https://huggingface.co/mistralai/Devstral-Small-2505) | 23.6B | **Incoming**  | 128K |
 
 <br>
 
