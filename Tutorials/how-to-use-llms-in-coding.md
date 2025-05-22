@@ -6,8 +6,6 @@
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 16min
 
-***TODO: Complete Empty sections and update the models score***
-
 </div> 
 
 ## Table of Contents
