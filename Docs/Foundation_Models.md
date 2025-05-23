@@ -185,6 +185,8 @@ Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLM
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-H1-1.5B-Deep-Instruct](https://huggingface.co/tiiuae/Falcon-H1-1.5B-Deep-Instruct) | 1.5B | **Incoming** | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/ae.svg" alt="ae" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-H1-1.5B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-1.5B-Instruct) | 1.5B | **Incoming** | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/ae.svg" alt="ae" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-H1-0.5B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-0.5B-Instruct) | 0.5B | **Incoming** | 16k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/ae.svg" alt="ae" width="20" height="15" />  |
+|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [Llama-3.1-Nemotron-Nano-4B-v1.1](https://huggingface.co/nvidia/Llama-3.1-Nemotron-Nano-4B-v1.1) | 4B | **Incoming** | 128K | ✔️ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
+
 <br>
 
 <div align="center">
