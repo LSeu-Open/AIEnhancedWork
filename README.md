@@ -131,7 +131,7 @@ Documentation: [CC0 License](./LICENSE.md).
       - [Text/Image-to-3D Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#textimage-to-3d-models)
 - [Data Analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md)
   - [AI-Powered Data Analysis and Visualization Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md#ai-powered-data-analysis-and-visualization-tools)
-  - [Specialized Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md#ai-powered-data-analysis-and-visualization-tools)
+  - [Specialized Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md#specialized-tools)
     - [Spreadsheet Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md#spreadsheet-tools)  
 - [Foundation Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md)
   - [Language Only Large Language Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#language-only-large-language-models)
