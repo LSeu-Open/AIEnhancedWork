@@ -47,7 +47,7 @@
 > [!NOTE]
 > Models are ranked by **[BigCodeBench](https://bigcode-bench.github.io/) Hard set with Pass@1 metrics, measuring single-attempt problem-solving accuracy (Higher score is better).**
 >
-> **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [dedicated section](./Tutorials/how-to-use-llms-in-coding.md#find-the-model-that-is-right-for-you).
+> **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-use-llms-in-coding.md#find-the-model-that-is-right-for-you).
 
 | Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Pass@1](https://bigcode-bench.github.io/)     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|:-----------:|
