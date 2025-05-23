@@ -8,11 +8,8 @@
  ***This guide explains how to set up and run Image Generation models on your computer, enabling you to maintain full control over your AI Image workflows.***
 
  ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 12min***
-
-
- ***TODO:  Add Visual Aids (UI Screenshots and ComfyUI Workflow Diagrams)*** 
  
- <br>
+<br>
 
 </div> 
 
@@ -125,6 +122,16 @@ official troubleshooting guide [here](https://github.com/lllyasviel/Fooocus/blob
 
 ### Basic Image Generation
 
+<br>
+
+<div align="center"> 
+
+<img src="https://private-user-images.githubusercontent.com/19834515/278888447-483fb86d-c9a2-4c20-997c-46dafc124f25.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc5OTAyOTcsIm5iZiI6MTc0Nzk4OTk5NywicGF0aCI6Ii8xOTgzNDUxNS8yNzg4ODg0NDctNDgzZmI4NmQtYzlhMi00YzIwLTk5N2MtNDZkYWZjMTI0ZjI1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTIzVDA4NDYzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkwZTQyMjhkOTA0NmI1ZTg1OTBlOTkwNzExOWNjMTA1M2YxNjIyYmIzZjNiMjhmMThiYTI1Yjk3MmNkMzAyNWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wOBIrzsWLTmz53r_KnD93EwW9Md7NyGOgQkpCLIrYbA" alt="Fooocus Interface" width="750"/>
+
+</div> 
+
+<br>
+
 1.  Once Fooocus is running and the web interface is open, you'll see a prominent prompt input field at the bottom of the page.
 2.  Type a detailed description of the image you want to create into this prompt box. For example: "a photorealistic portrait of an astronaut cat exploring a vibrant alien jungle, detailed fur, glowing plants".
 3.  Click the "Generate" button. Fooocus will then process your prompt and generate images based on it. By default, it usually generates two images per prompt.
@@ -172,6 +179,14 @@ To access more granular controls and fine-tune your image generation, click the 
     *   **Sampler & Scheduler**: These are more technical settings that determine how the noise is iteratively removed to form an image. For most users, the defaults work well. Common samplers include `dpmpp_2m_sde_gpu` and schedulers like `karras`.
 
 ### Image-to-Image Generation (Input Image)
+
+<div align="center"> 
+
+<img src="https://doimages.nyc3.cdn.digitaloceanspaces.com/010AI-ML/content/images/2023/12/Screenshot-2023-12-08-at-6.10.25-PM.png" alt="Fooocus Input Image" width="750"/> 
+
+</div> 
+
+<br>
 
 Fooocus allows you to use existing images as a basis for new creations. Click the "Input Image" checkbox (usually below the prompt area) to reveal these features. This will open up several tabs: "Upscale or Variation", "Image Prompt", and "Inpaint or Outpaint".
 
@@ -254,6 +269,16 @@ You can change the default white theme to a dark theme by appending `?__theme=da
 
 ### Text-to-Image (`txt2img`) Tab
 
+<br>
+
+<div align="center"> 
+
+<img src="https://thecodedose.com/assets/automatic1111.png" alt="A1111 txt2img" width="750"/> 
+
+</div> 
+
+<br>
+
 The `txt2img` tab is where you'll typically start, turning text prompts into images.
 
 #### Basic Usage:
@@ -310,6 +335,16 @@ The `txt2img` tab is where you'll typically start, turning text prompts into ima
 *   **Tiling**: Creates images that can be seamlessly tiled, useful for patterns and textures.
 
 ### Image-to-Image (`img2img`) Tab
+
+<br>
+
+<div align="center"> 
+
+<img src="https://i.gzn.jp/img/2022/09/13/automatic1111-stable-diffusion-webui-img2img/00.png" alt="A1111 img2img" width="750"/> 
+
+</div> 
+
+<br>
 
 This tab allows you to upload an existing image and transform it using a text prompt.
 
