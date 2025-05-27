@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="168"
+   height="30"
+   viewBox="0 0 168 30"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs5" /><g
+     id="g2"><path
+       d="m 42.746523,15 c 0,-8.28427 3.298181,-15 7.366693,-15 h 67.773574 c 4.06838,0 7.36669,6.71573 7.36669,15 v 0 c 0,8.2843 -3.29831,15 -7.36669,15 H 50.113216 c -4.068512,0 -7.366693,-6.7157 -7.366693,-15 z"
+       fill="#BFC2FF"
+       id="path1"
+       style="fill:#fedc00;fill-opacity:1;stroke-width:0.700794" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fefeff;fill-opacity:1;stroke-width:1.00157;stroke-linejoin:round"
+       x="72.688965"
+       y="20.503593"
+       id="text5"><tspan
+         id="tspan5"
+         x="72.688965"
+         y="20.503593"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fefeff;fill-opacity:1">Kakao</tspan></text><path
+       style="fill:#ffffff;fill-opacity:1;stroke-width:2.5585"
+       d="m 51.500558,15.000002 c 0,-4.258063 0.930069,-7.741932 2.066818,-7.741932 1.136752,0 2.066822,2.0213599 2.066822,4.491911 0,4.222662 0.17569,4.328262 2.931246,1.761744 1.612182,-1.501592 3.604858,-2.271398 4.428162,-1.710679 0.823306,0.560717 0.422847,1.900898 -0.889909,2.978178 -1.836586,1.507147 -1.671496,2.36302 0.716129,3.712569 1.706627,0.964633 2.55583,2.356802 1.887119,3.093706 -0.685228,0.755104 -2.930288,0.28313 -5.144296,-1.081469 -3.601231,-2.219614 -3.928451,-2.227253 -3.928451,-0.0917 0,1.281278 -0.93007,2.3296 -2.066822,2.3296 -1.136749,0 -2.066818,-3.483869 -2.066818,-7.741932 z"
+       id="path2" /></g></svg>
