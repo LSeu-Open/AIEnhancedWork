@@ -23,6 +23,7 @@
 
 # Table of contents
 
+- [Agentic Coding Tools](#agentic-coding-tools)
 - [Coding LLMs](#coding-llms)
 - [Coding-focused LLM Providers](#coding-focused-llm-providers)
 - [AI-Augmented Integrated Development Environments](#ai-augmented-integrated-development-environments)
@@ -35,7 +36,31 @@
 
 <br>
 
-### Coding LLMs
+### Agentic Coding Tools
+
+Agentic coding tools are advanced software systems that use AI agents—typically powered by LLMs to **autonomously perform complex software engineering tasks.**
+
+> [!NOTE]
+> Tools are ranked by **[LiveSWEBench](https://liveswebench.ai/) A Challenging, Contamination-Free Benchmark for AI Software Engineers. Scores are represented as a percentage of resolved tasks (Higher score is better).**
+>
+> This benchmark evaluate the software engineering capabilities of AI agent applications including tasks such as **agentic programming** (autonomous task completion), **targeted editing** (direct file modifications), and **autocompletion** (code snippet continuation).
+
+
+| Tool       | Description                                                                                                           | Score     | Licence     | Pricing  |
+|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|:-------------:|
+| [SWE-Agent](https://swe-agent.com/latest/) | An open-source tool that enables LLMs to autonomously interact with real GitHub repositories | 47.83 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [OpenHands](https://docs.all-hands.dev/) | An Open Platform for AI Software Developers as Generalist Agents. | 46.89 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Cursor](https://www.cursor.com/) | AI-first IDE designed to accelerate development with intelligent code generation, editing, and understanding. | 43.67 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | 43.04 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Windsurf](https://windsurf.com/editor) | AI-powered code editor focused on boosting developer productivity with features like AI-driven refactoring and code generation. | 43.02 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) | AI-powered coding features within the Claude platform, enabling users to generate, analyze, and refine code efficiently. | 39.32 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Aider](https://aider.chat/)    | an AI-powered pair programming tool designed to assist developers in writing and editing code directly from the command line.  | 33.47 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Amazon Q](https://aws.amazon.com/q/) | A generative AI–powered assistant from AWS designed to help software engineers build, operate, and transform software more efficiently. | 30.30 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+
+<br>
+
+### Coding LLMs 
+
 
  AI models specifically trained on code to **assist with tasks like writing, completing, and understanding software.**
 
