@@ -112,6 +112,7 @@ Documentation: [CC0 License](./LICENSE.md).
     - [Autonomous Agents](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Automation.md#autonomous-agents)
     - [Automation tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Automation.md#automation-tools)
 - [Coding and Software Development](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md)
+    - [Agentic Coding tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#agentic-coding-tools) 
     - [Coding LLMs](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#coding-llms)
     - [Coding-focused LLM Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#coding-focused-llm-providers)
     - [AI-Augmented Integrated Development Environments](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#ai-augmented-integrated-development-environments)
