@@ -60,3 +60,33 @@ source : [Llama 3.1](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct),
 
 > [!NOTE]
 > Llama 3.1, 3.2 and 3.3 has been trained on a broader collection of languages than the 8 supported languages. Developers may fine-tune Llama 3.1 models for languages beyond the 8 supported languages provided they comply with the Llama 3.1 Community License and the Acceptable Use Policy and in such cases are responsible for ensuring that any uses of Llama 3.1 in additional languages is done in a safe and responsible manner.
+
+<br>
+
+## Mistral Models
+
+### Mixtral 8x22B
+
+source : https://mistral.ai/news/mixtral-8x22b
+
+**5** officials Supported languages : English, French, Italian, German, and Spanish
+
+### Mistral Large 
+
+source : https://mistral.ai/news/mistral-large-2407
+
+**13** officials Supported languages : English, French, German, Spanish, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, Korean, Arabic, and Hindi.
+
+### Mistral Small
+
+source : https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501
+
+**11** officials Supported languages : English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Dutch, and Polish.
+
+### Ministral
+
+source : https://huggingface.co/mistralai/Ministral-8B-Instruct-2410
+
+**10** : officials Supported languages : English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Russian, and Korean.
+
+<br>
