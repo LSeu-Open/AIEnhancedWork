@@ -120,3 +120,15 @@ source : https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
 source : https://cloud.google.com/gemini/docs/codeassist/supported-languages
 
 **38** officials Supported languages : Arabic, Bengali, Bulgarian, Chinese simplified and traditional, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Thai, Turkish, Ukrainian, Vietnamese.
+
+<br>
+
+## Falcon Families
+
+### Falcon H1
+
+source : https://falcon-lm.github.io/blog/falcon-h1/
+
+**18**  officials Supported languages : arabic, Czech, German, English, Spanish, French, Hindi, Italian, Japanese, Korean, Dutch, Polish, Portuguese, Romanian, Russian, Swedish, Urdu, and Chinese.
+
+<br>
