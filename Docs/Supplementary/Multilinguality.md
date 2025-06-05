@@ -105,3 +105,12 @@ source : [Command A](https://huggingface.co/CohereLabs/c4ai-command-a-03-2025), 
 
 **23** officials Supported languages : English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian.
 
+<br>
+
+## IBM Granite Models
+
+source : https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
+
+**12** officials Supported languages : English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. 
+
+<br>
