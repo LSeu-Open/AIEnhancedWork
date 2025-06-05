@@ -41,6 +41,14 @@ source : https://qwenlm.github.io/blog/qwen3/
 
 <br>
 
+## Qwen2 Family
+
+source : https://qwenlm.github.io/blog/qwen2.5/#takeaways
+
+**29** officials Supported languages: Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.
+
+<br>
+
 ## Llama Families
 
 ### Llama 4
