@@ -38,3 +38,25 @@ source : https://qwenlm.github.io/blog/qwen3/
 | Uralic       | 	Finnish, Estonian, Hungarian |
 | Austroasiatic | Vietnamese, Khmer |
 | Other       | Japanese, Korean, Georgian, Basque, Haitian, Papiamento, Kabuverdianu, Tok Pisin, Swahili |
+
+<br>
+
+## Llama Families
+
+### Llama 4
+
+source : [Llama 4](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct)
+
+**12** officials Supported languages: Arabic, English, French, German, Hindi, Indonesian, Italian, Portuguese, Spanish, Tagalog, Thai, and Vietnamese.
+
+> [!NOTE]
+> Llama 4 has been trained on a broader collection of languages than the 12 supported languages (pre-training includes 200 total languages). Developers may fine-tune Llama 4 models for languages beyond the 12 supported languages provided they comply with the Llama 4 Community License and the Acceptable Use Policy.
+
+### Llama 3.1 and 3.2 and 3.3
+
+source : [Llama 3.1](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct), [Llama 3.2](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) and [Llama 3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct)
+
+**8** officials supported languages : English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.
+
+> [!NOTE]
+> Llama 3.1, 3.2 and 3.3 has been trained on a broader collection of languages than the 8 supported languages. Developers may fine-tune Llama 3.1 models for languages beyond the 8 supported languages provided they comply with the Llama 3.1 Community License and the Acceptable Use Policy and in such cases are responsible for ensuring that any uses of Llama 3.1 in additional languages is done in a safe and responsible manner.
