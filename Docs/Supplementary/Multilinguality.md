@@ -114,3 +114,9 @@ source : https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
 **12** officials Supported languages : English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. 
 
 <br>
+
+## Gemini 2.5 Models
+
+source : https://cloud.google.com/gemini/docs/codeassist/supported-languages
+
+**38** officials Supported languages : Arabic, Bengali, Bulgarian, Chinese simplified and traditional, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Thai, Turkish, Ukrainian, Vietnamese.
