@@ -131,4 +131,10 @@ source : https://falcon-lm.github.io/blog/falcon-h1/
 
 **18**  officials Supported languages : arabic, Czech, German, English, Spanish, French, Hindi, Italian, Japanese, Korean, Dutch, Polish, Portuguese, Romanian, Russian, Swedish, Urdu, and Chinese.
 
+### Falcon 3
+
+source : https://huggingface.co/tiiuae/Falcon3-10B-Instruct
+
+**4** officials Supported languages : English, French, Spanish, Portuguese
+
 <br>
