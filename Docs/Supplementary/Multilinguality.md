@@ -138,3 +138,14 @@ source : https://huggingface.co/tiiuae/Falcon3-10B-Instruct
 **4** officials Supported languages : English, French, Spanish, Portuguese
 
 <br>
+
+## Claude Families
+
+### Claude 4 and Claude 3.X
+
+source : https://docs.anthropic.com/fr/docs/build-with-claude/multilingual-support
+
+**15** officials Supported languages : English, Chinese, Spanish, French, German, Japanese, Korean, Russian, Portuguese, Italian, Arabic, Hindi, Bengali, Swahili, Yoruba.
+
+<br>
+
