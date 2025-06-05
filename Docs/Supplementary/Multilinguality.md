@@ -87,6 +87,13 @@ source : https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501
 
 source : https://huggingface.co/mistralai/Ministral-8B-Instruct-2410
 
-**10** : officials Supported languages : English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Russian, and Korean.
+**10** officials Supported languages : English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Russian, and Korean.
 
 <br>
+
+## Cohere Command Models
+
+source : [Command A](https://huggingface.co/CohereLabs/c4ai-command-a-03-2025), [Command R](https://huggingface.co/CohereLabs/c4ai-command-r-08-2024) and [Command R+](https://huggingface.co/CohereLabs/c4ai-command-r-plus-08-2024)
+
+**23** officials Supported languages : English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian.
+
