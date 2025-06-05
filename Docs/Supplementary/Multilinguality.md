@@ -22,30 +22,76 @@
 
 This supplementary page aims to list the languages officially supported by each LLM family. We will attempt to keep it up-to-date as frequently as possible.
 
-## Qwen3 Family
+# Table of contents
 
-source : https://qwenlm.github.io/blog/qwen3/
+- [chatGPT and oX Families](#chatgpt-and-ox-families)
+- [Claude Families](#claude-families)
+- [Command Family](#command-family)
+- [Falcon Families](#falcon-families)
+- [Gemini Family](#gemini-family)
+- [Granite Family](#granite-family)
+- [Llama Families](#llama-families)
+- [Mistral Families](#mistral-families)
+- [Qwen Families](#qwen-families)
 
-| Language Family       | Languages & Dialects |
-|:------------------:|:---------------------------------------------------------------------------------|
-| Indo-European | English, French, Portuguese, German, Romanian, Swedish, Danish, Bulgarian, Russian, Czech, Greek, Ukrainian, Spanish, Dutch, Slovak, Croatian, Polish, Lithuanian, Norwegian Bokmål, Norwegian Nynorsk, Persian, Slovenian, Gujarati, Latvian, Italian, Occitan, Nepali, Marathi, Belarusian, Serbian, Luxembourgish, Venetian, Assamese, Welsh, Silesian, Asturian, Chhattisgarhi, Awadhi, Maithili, Bhojpuri, Sindhi, Irish, Faroese, Hindi, Punjabi, Bengali, Oriya, Tajik, Eastern Yiddish, Lombard, Ligurian, Sicilian, Friulian, Sardinian, Galician, Catalan, Icelandic, Tosk Albanian, Limburgish, Dari, Afrikaans, Macedonian, Sinhala, Urdu, Magahi, Bosnian, Armenian |
-| Sino-Tibetan | Chinese (Simplified Chinese, Traditional Chinese, Cantonese), Burmese |
-| Afro-Asiatic | Arabic (Standard, Najdi, Levantine, Egyptian, Moroccan, Mesopotamian, Ta’izzi-Adeni, Tunisian), Hebrew, Maltese |
-| Austronesian | Indonesian, Malay, Tagalog, Cebuano, Javanese, Sundanese, Minangkabau, Balinese, Banjar, Pangasinan, Iloko, Waray (Philippines) |
-| Dravidian    | Tamil, Telugu, Kannada, Malayalam |
-| Turkic       | Turkish, North Azerbaijani, Northern Uzbek, Kazakh, Bashkir, Tatar |
-| Tai-Kadai    | Thai, Lao |
-| Uralic       | 	Finnish, Estonian, Hungarian |
-| Austroasiatic | Vietnamese, Khmer |
-| Other       | Japanese, Korean, Georgian, Basque, Haitian, Papiamento, Kabuverdianu, Tok Pisin, Swahili |
+<br>
+<br>
+
+## chatGPT and OX Families
+
+source : https://platform.openai.com/docs/
+
+**57** officials Supported languages : Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.
 
 <br>
 
-## Qwen2 Family
+## Claude Families
 
-source : https://qwenlm.github.io/blog/qwen2.5/#takeaways
+### Claude 4 and Claude 3.X
 
-**29** officials Supported languages: Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.
+source : https://docs.anthropic.com/fr/docs/build-with-claude/multilingual-support
+
+**15** officials Supported languages : English, Chinese, Spanish, French, German, Japanese, Korean, Russian, Portuguese, Italian, Arabic, Hindi, Bengali, Swahili, Yoruba.
+
+<br>
+
+## Command Family
+
+source : [Command A](https://huggingface.co/CohereLabs/c4ai-command-a-03-2025), [Command R](https://huggingface.co/CohereLabs/c4ai-command-r-08-2024) and [Command R+](https://huggingface.co/CohereLabs/c4ai-command-r-plus-08-2024)
+
+**23** officials Supported languages : English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian.
+
+<br>
+
+## Falcon Families
+
+### Falcon H1
+
+source : https://falcon-lm.github.io/blog/falcon-h1/
+
+**18**  officials Supported languages : arabic, Czech, German, English, Spanish, French, Hindi, Italian, Japanese, Korean, Dutch, Polish, Portuguese, Romanian, Russian, Swedish, Urdu, and Chinese.
+
+### Falcon 3
+
+source : https://huggingface.co/tiiuae/Falcon3-10B-Instruct
+
+**4** officials Supported languages : English, French, Spanish, Portuguese
+
+<br>
+
+## Gemini Family
+
+source : https://cloud.google.com/gemini/docs/codeassist/supported-languages
+
+**38** officials Supported languages : Arabic, Bengali, Bulgarian, Chinese simplified and traditional, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Thai, Turkish, Ukrainian, Vietnamese.
+
+<br>
+
+## Granite Family
+
+source : https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
+
+**12** officials Supported languages : English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. 
 
 <br>
 
@@ -71,7 +117,7 @@ source : [Llama 3.1](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct),
 
 <br>
 
-## Mistral Models
+## Mistral Families
 
 ### Mixtral 8x22B
 
@@ -99,60 +145,31 @@ source : https://huggingface.co/mistralai/Ministral-8B-Instruct-2410
 
 <br>
 
-## Cohere Command Models
+## Qwen Families
 
-source : [Command A](https://huggingface.co/CohereLabs/c4ai-command-a-03-2025), [Command R](https://huggingface.co/CohereLabs/c4ai-command-r-08-2024) and [Command R+](https://huggingface.co/CohereLabs/c4ai-command-r-plus-08-2024)
+### Qwen3 Family
 
-**23** officials Supported languages : English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, Chinese, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, and Persian.
+source : https://qwenlm.github.io/blog/qwen3/
 
-<br>
-
-## IBM Granite Models
-
-source : https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
-
-**12** officials Supported languages : English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese. 
-
-<br>
-
-## Gemini 2.5 Models
-
-source : https://cloud.google.com/gemini/docs/codeassist/supported-languages
-
-**38** officials Supported languages : Arabic, Bengali, Bulgarian, Chinese simplified and traditional, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Thai, Turkish, Ukrainian, Vietnamese.
+| Language Family       | Languages & Dialects |
+|:------------------:|:---------------------------------------------------------------------------------|
+| Indo-European | English, French, Portuguese, German, Romanian, Swedish, Danish, Bulgarian, Russian, Czech, Greek, Ukrainian, Spanish, Dutch, Slovak, Croatian, Polish, Lithuanian, Norwegian Bokmål, Norwegian Nynorsk, Persian, Slovenian, Gujarati, Latvian, Italian, Occitan, Nepali, Marathi, Belarusian, Serbian, Luxembourgish, Venetian, Assamese, Welsh, Silesian, Asturian, Chhattisgarhi, Awadhi, Maithili, Bhojpuri, Sindhi, Irish, Faroese, Hindi, Punjabi, Bengali, Oriya, Tajik, Eastern Yiddish, Lombard, Ligurian, Sicilian, Friulian, Sardinian, Galician, Catalan, Icelandic, Tosk Albanian, Limburgish, Dari, Afrikaans, Macedonian, Sinhala, Urdu, Magahi, Bosnian, Armenian |
+| Sino-Tibetan | Chinese (Simplified Chinese, Traditional Chinese, Cantonese), Burmese |
+| Afro-Asiatic | Arabic (Standard, Najdi, Levantine, Egyptian, Moroccan, Mesopotamian, Ta’izzi-Adeni, Tunisian), Hebrew, Maltese |
+| Austronesian | Indonesian, Malay, Tagalog, Cebuano, Javanese, Sundanese, Minangkabau, Balinese, Banjar, Pangasinan, Iloko, Waray (Philippines) |
+| Dravidian    | Tamil, Telugu, Kannada, Malayalam |
+| Turkic       | Turkish, North Azerbaijani, Northern Uzbek, Kazakh, Bashkir, Tatar |
+| Tai-Kadai    | Thai, Lao |
+| Uralic       | 	Finnish, Estonian, Hungarian |
+| Austroasiatic | Vietnamese, Khmer |
+| Other       | Japanese, Korean, Georgian, Basque, Haitian, Papiamento, Kabuverdianu, Tok Pisin, Swahili |
 
 <br>
 
-## Falcon Families
+### Qwen2 Family
 
-### Falcon H1
+source : https://qwenlm.github.io/blog/qwen2.5/#takeaways
 
-source : https://falcon-lm.github.io/blog/falcon-h1/
-
-**18**  officials Supported languages : arabic, Czech, German, English, Spanish, French, Hindi, Italian, Japanese, Korean, Dutch, Polish, Portuguese, Romanian, Russian, Swedish, Urdu, and Chinese.
-
-### Falcon 3
-
-source : https://huggingface.co/tiiuae/Falcon3-10B-Instruct
-
-**4** officials Supported languages : English, French, Spanish, Portuguese
-
-<br>
-
-## Claude Families
-
-### Claude 4 and Claude 3.X
-
-source : https://docs.anthropic.com/fr/docs/build-with-claude/multilingual-support
-
-**15** officials Supported languages : English, Chinese, Spanish, French, German, Japanese, Korean, Russian, Portuguese, Italian, Arabic, Hindi, Bengali, Swahili, Yoruba.
-
-<br>
-
-## GPT and O Families
-
-source : https://platform.openai.com/docs/
-
-**57** officials Supported languages : Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.
+**29** officials Supported languages: Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.
 
 <br>
