@@ -32,6 +32,7 @@ This supplementary page aims to list the languages officially supported by each 
 - [Granite Family](#granite-family)
 - [Llama Families](#llama-families)
 - [Mistral Families](#mistral-families)
+- [Nova Family](#nova-family)
 - [Qwen Families](#qwen-families)
 
 <br>
@@ -146,6 +147,14 @@ source : https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501
 source : https://huggingface.co/mistralai/Ministral-8B-Instruct-2410
 
 **10** officials Supported languages : English, French, German, Spanish, Italian, Chinese, Japanese, Korean, Portuguese, Russian, and Korean.
+
+<br>
+
+## Nova Family
+
+source : https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html
+
+**15** officials Supported languages : English, German, Spanish, French, Italian, Japanese, Korean, Arabic, Simplified Chinese, Russian, Hindi, Portuguese, Dutch, Turkish, and Hebrew.
 
 <br>
 
