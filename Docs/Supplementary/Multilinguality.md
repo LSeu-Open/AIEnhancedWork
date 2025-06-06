@@ -108,6 +108,8 @@ source : [Llama 4](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-I
 
 ### Llama 3.1 and 3.2 and 3.3
 
++ Fine tuned Models like Sonar (Perplexity).
+  
 source : [Llama 3.1](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct), [Llama 3.2](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) and [Llama 3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct)
 
 **8** officials supported languages : English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.
@@ -130,6 +132,8 @@ source : https://mistral.ai/news/mixtral-8x22b
 source : https://mistral.ai/news/mistral-large-2407
 
 **13** officials Supported languages : English, French, German, Spanish, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, Korean, Arabic, and Hindi.
+
+no source but it seems to be the same for Mistral Medium 3
 
 ### Mistral Small
 
