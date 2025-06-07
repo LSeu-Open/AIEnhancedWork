@@ -30,6 +30,7 @@
   - [Finetuned LLMs](#finetuned-llms)
     - [Astrophysics](#astrophysics)
     - [Function calling](#function-calling)
+    - [Language Specific](#language-specific)
     - [Math](#math)
     - [Role Play](#role-play)
     - [Uncensored](#uncensored)
@@ -95,8 +96,8 @@ Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLM
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/databricks.svg" alt="databricks" width="200" height="20" />](https://www.databricks.com) | [Dbrx-instruct](https://huggingface.co/databricks/dbrx-instruct) | 132B | 54.11 | 33k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2411)  | 123B | 50.69  | 128K | ❌ | **[13](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#mistral-large)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="200" height="20" />](https://cohere.com/) | [Command R+](https://huggingface.co/CohereForAI/c4ai-command-r-plus-08-2024) | 104B | 44.34 | 128k | ❌ | **[23](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#command-family)** |
-| [Shisa](https://shisa.ai/) | [Shisa-v2-llama3.1-405b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-405b) | 405B | **Incoming** | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
-| [Shisa](https://shisa.ai/) | [Shisa-v2-llama3.3-70b](https://huggingface.co/shisa-ai/shisa-v2-llama3.3-70b) | 70B | **Incoming** | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
+| [Rednote](https://github.com/rednote-hilab) | [Dots.llm1](https://huggingface.co/rednote-hilab/dots.llm1.inst) | 143B | **Incoming** | 128k | ❌ | **Incoming** |
+
 
 
 
@@ -125,8 +126,7 @@ Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLM
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenThoughts.svg" alt="Open Thoughts" width="150" height="20" />](https://www.open-thoughts.ai/) | [OpenThinker-32B](https://huggingface.co/open-thoughts/OpenThinker-32B) | 32B | 53.96 | 132K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AntGroup.svg" alt="AntGroup" width="250" height="25" />](https://github.com/inclusionAI)| [Ling-lite-1.5](https://huggingface.co/inclusionAI/Ling-lite-1.5) | 16.8B | 53.81 | 64k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />   |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="200" height="20" />](https://cohere.com/) | [Command R](https://cohere.com/blog/command-r) | 32.3B | 38.79 | 128K | ❌ | **[23](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#command-family)** |
-| [Shisa](https://shisa.ai/) | [Shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-32b) | 32B | **Incoming** | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
-| [Shisa](https://shisa.ai/) | [Shisa-v2-mistral-small-24b](https://huggingface.co/shisa-ai/shisa-v2-mistral-small-24b) | 24B | **Incoming** | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
+
 
 <br>
 
@@ -163,9 +163,7 @@ Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLM
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="200" height="20" />](https://allenai.org/)   | [OLMo-2-1124-7B-Instruct](https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct) | 7B | 47.66 | 4k  | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Ministral-8B-Instruct](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) | 8B | 46.92 | 128K | ❌ |  **[10](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#ministral)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Kakao.svg" alt="Kakao" width="220" height="22" />](https://www.kakaocorp.com/page/) | [Kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505) | 8B | 46.03 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
-| [Shisa](https://shisa.ai/) | [Shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) | 12B | **Incoming** | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
-| [Shisa](https://shisa.ai/) | [Shisa-v2-mistral-llama3.1-8b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-8b) | 8B | **Incoming** | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
-| [Shisa](https://shisa.ai/) | [Shisa-v2-mistral-qwen2.5-7b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-7b) | 7B | **Incoming** | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenBMB.svg" alt="OpenBMB" width="200" height="20" />](https://www.openbmb.cn/) | [MiniCPM4-8B](https://huggingface.co/openbmb/MiniCPM4-8B) | 8B | **Incoming** | 32K  | ❌ | **Incoming**  |
 
 <br>
 
@@ -200,6 +198,7 @@ Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLM
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-H1-0.5B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-0.5B-Instruct) | 0.5B | 31.69 | 16k | ❌ | **[18](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-h1)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-E-3B-Instruct](https://huggingface.co/tiiuae/Falcon-E-3B-Instruct) | 3B | 30.72 | 32k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-E-1B-Instruct](https://huggingface.co/tiiuae/Falcon-E-1B-Instruct) | 1B | 26.35 | 8k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenBMB.svg" alt="OpenBMB" width="200" height="20" />](https://www.openbmb.cn/) | [MiniCPM4-0.5B](https://huggingface.co/openbmb/MiniCPM4-0.5B) | 8B | **Incoming** | 32K  | ❌ | **Incoming** |
 
 <br>
 
@@ -290,6 +289,22 @@ Function calling **enables LLMs to interact with external systems and tools thro
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)  | [Granite-20b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-20b-code-instruct-8k) | [Granite-20b-functioncalling](https://huggingface.co/ibm-granite/granite-20b-functioncalling) | 20B | 49.19 | 8k  | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Nexusflow.svg" alt="Nexuflow" width="200" height="20" />](https://nexusflow.ai/) | [CodeLlama-13b-Instruct-hf](https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf) | [NexusRaven-V2-13B](https://huggingface.co/Nexusflow/NexusRaven-V2-13B) | 13B | 36.98 | 8K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 
+
+<br>
+
+#### Language Specific
+
+Models fine-tuned for **efficiency in a specific language or language family.**
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Context Window](https://research.ibm.com/blog/larger-context-window)  | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Language |
+|:------------------:|:-----------------------------------------|:------------------------------------------------------------------------------------------|:--------------:|:------------:|:----------------:|
+| [Shisa](https://shisa.ai/) | [Shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) | 12B | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
+| [Shisa](https://shisa.ai/) | [Shisa-v2-mistral-llama3.1-8b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-8b) | 8B | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
+| [Shisa](https://shisa.ai/) | [Shisa-v2-mistral-qwen2.5-7b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-7b) | 7B | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
+| [Shisa](https://shisa.ai/) | [Shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-32b) | 32B | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
+| [Shisa](https://shisa.ai/) | [Shisa-v2-mistral-small-24b](https://huggingface.co/shisa-ai/shisa-v2-mistral-small-24b) | 24B | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
+| [Shisa](https://shisa.ai/) | [Shisa-v2-llama3.1-405b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-405b) | 405B | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
+| [Shisa](https://shisa.ai/) | [Shisa-v2-llama3.3-70b](https://huggingface.co/shisa-ai/shisa-v2-llama3.3-70b) | 70B | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
 
 <br>
 
