@@ -7,8 +7,24 @@
 
  ***This  guide explains how to understand and select the optimal quantization for your large language models (LLMs).***
  
- <br>
-
 ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : ???***
 
+ <br>
+
 </div> 
+
+## Table of Contents
+
+ <br>
+
+ ## Understand the different types of Quantization
+
+ ### GGUF
+
+### AWQ
+
+### GPTQ
+
+### DWQ
+
+### EXL
