@@ -527,6 +527,18 @@ These are typically large tech companies that develop and offer access to their 
 
 <br>
 
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
+
+<br>
+
+## Multimodal Foundation Models
+
+<br>
+
 ***Aggregator & Specialized Cloud Platforms***
 
 These platforms offer access to a variety of models from different developers, including many popular open-source models and sometimes proprietary ones, often through a single API or interface. Some may offer specialized hardware or value-added services like fine-tuning.
@@ -551,7 +563,19 @@ These platforms offer access to a variety of models from different developers, i
 | [SambaNova](https://sambanova.ai/) | An artificial intelligence company that provides a comprehensive AI platform for enterprises. | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) and more | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 | [Together](https://www.together.ai/) | A cloud platform designed for building and running generative AI applications. | Large Panel of Open source Models | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> | 
 
-<br> 
+<br>
+
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
+
+<br>
+
+## Multimodal Foundation Models
+
+<br>
 
 #### Local LLM Providers
 
@@ -575,6 +599,20 @@ These platforms offer access to a variety of models from different developers, i
 | [Open WebUI](https://openwebui.com/) | Self-hosted, open-source web interface designed for running and managing LLMs locally or offline. | All | All Open source Models |
 | [Silly Tavern](https://sillytavern.app/) | Open-source LLM frontend designed for power users. | All | All Open source Models |
 | [Witsy](https://witsyai.com/) | Open-source LLM frontend designed for power users. | All | All Open source Models |
+
+<br>
+
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
+
+<br>
+
+## Multimodal Foundation Models
+
+<br>
 
 #### LLM Inference Engines
 
