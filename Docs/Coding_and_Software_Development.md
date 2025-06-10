@@ -62,40 +62,15 @@ Agentic coding tools are advanced software systems that use AI agents—typicall
 
 ### Coding LLMs 
 
-
  AI models specifically trained on code to **assist with tasks like writing, completing, and understanding software.**
 
 > [!Tip]
 > Follow our [integration guide](./Tutorials/how-to-use-llms-in-coding.md) to **configure cloud-based and local LLM providers within your development environment.**
 
-#### Top Performing Open Source Coding Models (by Model Family)
-
-> [!NOTE]
-> Models are ranked by **[BigCodeBench](https://bigcode-bench.github.io/) Hard set with Pass@1 metrics, measuring single-attempt problem-solving accuracy (Higher score is better).**
+> [!IMPORTANT]
 >
-> **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare Pass@1 scores across both model categories in our [dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-use-llms-in-coding.md#find-the-model-that-is-right-for-you).
+> **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare scores across both model categories in our [dedicated section](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-use-llms-in-coding.md#find-the-model-that-is-right-for-you).
 
-| Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Pass@1](https://bigcode-bench.github.io/)     | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|:-----------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) | 32B | 30.8 | 132K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 29.4 | 128K|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1) | 22B | 20.6 | 33K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Agentica.svg" alt="Agentica" width="200" height="20" />](https://github.com/agentica-project) | [DeepCoder-14B-Preview](https://huggingface.co/agentica-org/DeepCoder-14B-Preview) | 14B | 20.3 | 64K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [CodeQwen1.5-7B](https://huggingface.co/Qwen/CodeQwen1.5-7B) | 7B | 17.2 | 64K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="200" height="20" />](https://github.com/THUDM) | [Codegeex4-all-9b](https://huggingface.co/THUDM/codegeex4-all-9b) | 9B | 17.2 | 128K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B | 15.2 | 8K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/) | [Granite-34b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-34b-code-instruct-8k) | 34B | 14.8 | 8k |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/) | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat) | 9B | 14.6 | 128K|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B | 13.9 | 256k |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BigCode.svg" alt="BigCode" width="200" height="20" />](https://www.bigcode-project.org/) | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b) | 15B | 13.6 | 4K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/) | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 13.5 | 16K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it) | 7B | 10.4 | 8K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AllHands.svg" alt="AllHands" width="200" height="20" />](https://www.all-hands.dev/) | [Openhands-lm-32b-v0.1](https://huggingface.co/all-hands/openhands-lm-32b-v0.1) | 32B | **Pending** | 132K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AntGroup.svg" alt="AntGroup" width="110" height="25" />](https://github.com/inclusionAI)| [Ling-Coder-lite](https://huggingface.co/inclusionAI/Ling-Coder-lite) | 16.8B | **Pending** | 8K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/JetBrains.svg" alt="JetBrains" width="90" height="25" />](https://www.jetbrains.com/) | [Mellum-4b-sft-python](https://huggingface.co/JetBrains/Mellum-4b-sft-python) | 4B | **Pending** | 8K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/ByteDance.svg" alt="Bytedance" width="200" height="20" />](https://www.bytedance.com/en/) | [Seed-Coder-8B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-Coder-8B-Instruct) | 8B | **Incoming** | 32K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [OpenCodeReasoning-Nemotron-32B](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-32B) | 32B | **Incoming** | 128K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Devstral-Small-2505](https://huggingface.co/mistralai/Devstral-Small-2505) | 23.6B | **Incoming**  | 128K |
 
 <br>
 
