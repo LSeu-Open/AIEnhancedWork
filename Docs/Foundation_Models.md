@@ -198,8 +198,19 @@ Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLM
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon3-1B-Instruct](https://huggingface.co/tiiuae/Falcon3-1B-Instruct) | 1B | 32.33 | 8k | ❌ | **[4](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-3)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B) | 0.6B | 32.15 | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-H1-0.5B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-0.5B-Instruct) | 0.5B | 31.69 | 16k | ❌ | **[18](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-h1)** |
+
+
+<br>
+
+<details>
+<summary>✳️ <b>Bitnet Models</b></summary>
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.4.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-E-3B-Instruct](https://huggingface.co/tiiuae/Falcon-E-3B-Instruct) | 3B | 30.72 | 32k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-E-1B-Instruct](https://huggingface.co/tiiuae/Falcon-E-1B-Instruct) | 1B | 26.35 | 8k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
+
+</details>
 
 <br>
 
