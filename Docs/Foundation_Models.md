@@ -615,7 +615,7 @@ This table lists notable frameworks and libraries designed for running and servi
 
 ### Vision Language Models
 
-Vision Language Models (VLMs) **integrate visual perception and language processing architectures to enable multi-modal understanding and generation.** Technical details available on [Huggingface.co](https://huggingface.co/blog/vlms).
+ Vision Language Models (VLMs) are a specialized type of multimodal AI that understands and generates content by integrating **both visual and text-based data.** This allows them to perform tasks like image captioning, visual question answering, and object recognition. For more Technical details, see the  [Huggingface VLM overview](https://huggingface.co/blog/vlms).
 
 **Deploy these open-source models locally** using our Local LLM Deployment Guide : ***[How to run LLMs on your machine](./Tutorials/how-to-run-llms-on-your-machine.md)***.
 
@@ -683,7 +683,7 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 
 | Organization     | Model                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Score      | Geographic Origin |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:-----------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL3-2B](https://huggingface.co/OpenGVLab/InternVL3-8B) | 2B | 69.1  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL3-2B](https://huggingface.co/OpenGVLab/InternVL3-2B) | 2B | 69.1  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL2_5-4B-MPO](https://huggingface.co/OpenGVLab/InternVL2_5-4B-MPO) | 4B | 68.2  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/ByteDance.svg" alt="Bytedance" width="200" height="20" />](https://www.bytedance.com/en/) | [SAIL-VL-1.5-2B](https://huggingface.co/BytedanceDouyinContent/SAIL-VL-1d5-2B) | 2B | 67 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM)    | [InternVL3-1B](https://huggingface.co/OpenGVLab/InternVL3-8B) | 1B | 62.7  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
@@ -720,7 +720,12 @@ Vision Language Models (VLMs) **integrate visual perception and language process
 
 ### Multimodal Large Language Models
 
-Multimodal Large Language Models (MLLMs) can **process and convert between various input and output formats, including text, images, audio, and video.** Unlike traditional models restricted to single modalities, MLLMs offer unique capabilities for multimodal data integration.
+Beyond just image and text, Multimodal Large Language Models (MLLMs) can **process a wider array of data formats, including audio, video, and time-series data.** This enables them to perform more complex tasks like video-to-text conversion and audio-based reasoning, offering a more comprehensive approach to multimodal data integration.
+
+> [!NOTE]
+> The models are ranked according to their **[Open VLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) average score (higher score is better)**.
+>
+>  This benchmark use different method to evaluate various VLMs capabilities, later used to calculate the Overall score. However, **the top-ranked model might not be number one in all specific capacities.**
 
 #### Open-Source MLLMs
 
@@ -731,7 +736,7 @@ Multimodal Large Language Models (MLLMs) can **process and convert between vario
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)     | [Janus-Pro-7B](https://huggingface.co/deepseek-ai/Janus-Pro-7B) | 7B                   | 50.2      | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/FlagOpen.svg" alt="flagopen" width="200" height="23" />](https://flagopen.baai.ac.cn/#/home)    | [Emu3-Gen](https://huggingface.co/BAAI/Emu3-Gen) | 8.49B                   | 47.5        | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> | 
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)     | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B) | 1.3B                   |40.2      | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)      | [Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) | 10.7B   | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)      | [Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) | 10.7B   | **Pending** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 #### Proprietary MLLMs
 
