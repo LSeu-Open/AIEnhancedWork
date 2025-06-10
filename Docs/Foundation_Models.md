@@ -54,16 +54,16 @@
 
 Large Language Models (LLMs) are **artificial intelligence systems trained on large amounts of text data to recognize patterns and generate human-like language.**
 
-This overview **focuses on instruction-tuned models for consistency.** Fine-tuned variants, though numerous and constantly developing, are not included in this comparison. For details on specific implementations, see the "[Fine-tuned Models section](#finetuned-llms)" section below.
-
-Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLMScoreEngine), which considers multiple factors such as Entity & Publisher benchmarks, human preference, and technical features (Higher score is better).
-
-**Note that a higher score does not guarantee better performance across all tasks or domains; it provides an overall evaluation within the model's own size category.**
+This overview focuses on instruction-tuned models to ensure a fair comparison. Fine-tuned variants are excluded due to their vast number and constant development, but you can find more information in the [Fine-tuned Models](#finetuned-llms) section.
 
 > [!NOTE]
-> Whether you're just starting out, have some experience, or are an advanced user, our **[tutorial](./Tutorials/how-to-run-llms-on-your-machine.md)** guides you through deploying LLMs locally using tools suited to your skill level.
+> Whether you're a beginner or an expert, our [tutorial](./Tutorials/how-to-run-llms-on-your-machine.md) provides step-by-step guidance for deploying LLMs on your own machine using tools tailored to your skill level.
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
+> Models are ranked using our [scoring framework](https://github.com/LSeu-Open/LLMScoreEngine), which synthesizes performance benchmarks, human preference evaluations, and technical specifications. A higher score indicates better overall performance.
+>
+> **Note that scores provide a relative ranking within each model's size category. A higher score does not guarantee superior performance on any specific task or in every language.**
+>   
 > We have recently added a multilinguality indicator to the tables below, including the number of officially supported languages.
 >
 > Most models are trained on data encompassing diverse languages, but **you may see varying degrees of performance degradation depending on the language being processed.**
