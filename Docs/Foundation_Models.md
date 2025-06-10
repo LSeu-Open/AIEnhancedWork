@@ -535,10 +535,6 @@ These are typically large tech companies that develop and offer access to their 
 
 <br>
 
-## Multimodal Foundation Models
-
-<br>
-
 ***Aggregator & Specialized Cloud Platforms***
 
 These platforms offer access to a variety of models from different developers, including many popular open-source models and sometimes proprietary ones, often through a single API or interface. Some may offer specialized hardware or value-added services like fine-tuning.
@@ -573,10 +569,6 @@ These platforms offer access to a variety of models from different developers, i
 
 <br>
 
-## Multimodal Foundation Models
-
-<br>
-
 #### Local LLM Providers
 
 > [!IMPORTANT]
@@ -607,10 +599,6 @@ These platforms offer access to a variety of models from different developers, i
 [⬆️ Back to Top](#table-of-contents)
 
 </div>
-
-<br>
-
-## Multimodal Foundation Models
 
 <br>
 
