@@ -217,10 +217,13 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 <details>
 <summary>✳️ <b>Bitnet Models</b></summary>
 
+<br>
+
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.4.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-E-3B-Instruct](https://huggingface.co/tiiuae/Falcon-E-3B-Instruct) | 3B | 30.72 | 32k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="200" height="20" />](https://www.tii.ae/) | [Falcon-E-1B-Instruct](https://huggingface.co/tiiuae/Falcon-E-1B-Instruct) | 1B | 26.35 | 8k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/) | [Bitnet-b1.58-2B-4T](https://huggingface.co/microsoft/bitnet-b1.58-2B-4T) | 2B | **Incoming** | 4k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 
 </details>
 
