@@ -98,9 +98,13 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2411)  | 123B | 50.69  | 128K | ❌ | **[13](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#mistral-large)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="200" height="20" />](https://cohere.com/) | [Command R+](https://huggingface.co/CohereForAI/c4ai-command-r-plus-08-2024) | 104B | 44.34 | 128k | ❌ | **[23](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#command-family)** |
 
+<br>
 
+<div align="center">
 
+[⬆️ Back to Top](#table-of-contents)
 
+</div>
 
 <br>
 
@@ -128,6 +132,13 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AntGroup.svg" alt="AntGroup" width="250" height="25" />](https://github.com/inclusionAI)| [Ling-lite-1.5](https://huggingface.co/inclusionAI/Ling-lite-1.5) | 16.8B | 53.81 | 64k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />   |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="200" height="20" />](https://cohere.com/) | [Command R](https://cohere.com/blog/command-r) | 32.3B | 38.79 | 128K | ❌ | **[23](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#command-family)** |
 
+<br>
+
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
 
 <br>
 
@@ -170,6 +181,14 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="200" height="20" />](https://allenai.org/)   | [OLMo-2-1124-7B-Instruct](https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct) | 7B | 47.66 | 4k  | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Ministral-8B-Instruct](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) | 8B | 46.92 | 128K | ❌ |  **[10](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#ministral)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Kakao.svg" alt="Kakao" width="220" height="22" />](https://www.kakaocorp.com/page/) | [Kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505) | 8B | 46.03 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
+
+<br>
+
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
 
 <br>
 
@@ -316,6 +335,13 @@ Function calling **enables LLMs to interact with external systems and tools thro
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/)  | [Granite-20b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-20b-code-instruct-8k) | [Granite-20b-functioncalling](https://huggingface.co/ibm-granite/granite-20b-functioncalling) | 20B | 49.19 | 8k  | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Nexusflow.svg" alt="Nexuflow" width="200" height="20" />](https://nexusflow.ai/) | [CodeLlama-13b-Instruct-hf](https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf) | [NexusRaven-V2-13B](https://huggingface.co/Nexusflow/NexusRaven-V2-13B) | 13B | 36.98 | 8K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 
+<br>
+
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
 
 <br>
 
@@ -377,6 +403,13 @@ Models **optimized for mathematical reasoning and computation** through speciali
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="200" height="20" />](https://github.com/InternLM) | [Internlm2-math-plus-1.8B](https://huggingface.co/internlm/internlm2-math-plus-1_8b) | 1.8B | 34.33  | 4K |  ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 <br>
+
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
+
 <br>
 
 #### Role Play
