@@ -136,6 +136,12 @@ source : https://mistral.ai/news/mistral-large-2407
 
 no source but it seems to be the same for Mistral Medium 3
 
+### Magistral Small and Medium
+
+Source : https://mistral.ai/news/magistral
+
+**8** officials Supported languages : English, French, Spanish, German, Italian, Arabic, Russian, and Simplified Chinese.
+
 ### Mistral Small
 
 source : https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501
