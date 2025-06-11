@@ -43,6 +43,7 @@
 * ***[How to use LLMs in Coding](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-use-llms-in-coding.md)*** - Learn how to use LLMs to improve your coding experience.
 * ***[How to run Image Generation on your machine](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-run-image-generation-on-your-machine.md)***- Implement local image generation using open-source AI models.
 * ***[How to Use AI Privately](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/How-to-Use-AI-Privately.md)*** - Implement privacy-preserving practices for AI implementation.
+* ***[How to Select the Right Quantized Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-select-the-right-quantized-model.md)*** - Understand and select the optimal quantization for your LLMs.
 
 <br> 
 
