@@ -143,6 +143,12 @@ The letters and numbers at the end denote the specific variant of the quantizati
 
 <br>
 
+**4. Provider-Specific Enhancements**
+
+You may also see prefixes or additional tags added by specific providers. For example, Unsloth uses `UD` in their filenames (e.g., `...-UD-IQ2_XXS.gguf`) to denote their **Unsloth Dynamic** quantization, which is an advanced, model-specific quantization method.
+
+<br>
+
 **Recommendations:**
 
 | VRAM / Goal           | Recommended GGUF Quants                 | Why                                                                       |
@@ -272,10 +278,14 @@ For a long time, [**TheBloke**](https://huggingface.co/TheBloke) was the most pr
 
 #### **unsloth**
 
-[**unsloth**](https://huggingface.co/unsloth) is a team focused on performance. They create both models and a supporting library that dramatically speeds up fine-tuning and inference.
+[**unsloth**](https://huggingface.co/unsloth) is a team that has rapidly become a key provider, focusing on creating high-performance models and the tools to run them. Beyond just quantizing, they are deeply involved in the ecosystem, often contributing critical bug fixes to the original model repositories for issues related to accuracy, chat templates, and stability.
 
-*   **Specialty**: **Fine-tuning** & high-performance inference. They provide their own `unsloth-bnb-4bit` models and GGUFs optimized for their library.
-*   **Use them when**: Your goal is to fine-tune a model. Their library makes it much faster and more memory-efficient.
+*   **Specialty**: **High-Performance GGUFs & Fine-Tuning**.
+    *   **Unsloth Dynamic GGUFs**: Unsloth has developed an advanced quantization method they call "Dynamic GGUFs". Instead of using a one-size-fits-all approach, this method intelligently analyzes each model and custom-tailors the quantization layer by layer.
+    *   **Performance**: According to their own benchmarks, these dynamic quants can outperform standard `imatrix` GGUFs and even the original provider's Quantization-Aware Training (QAT) models on benchmarks like MMLU, while being smaller in file size. They advocate for using KL Divergence as a more accurate measure of quantization quality over perplexity. [Source: Unsloth Documentation](https://docs.unsloth.ai/basics/unsloth-dynamic-2.0-ggufs).
+    *   **Fine-tuning**: They provide an optimized library that dramatically speeds up fine-tuning (2-5x faster) and reduces memory usage, making it possible to fine-tune larger models on consumer GPUs.
+
+*   **Use them when**: Your goal is to fine-tune a model, or you want a GGUF that is potentially more performant and meticulously optimized than a standard GGUF. Look for `UD` in their GGUF filenames.
 
 <br>
 
