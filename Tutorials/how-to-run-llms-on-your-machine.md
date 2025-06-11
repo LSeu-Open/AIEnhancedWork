@@ -69,7 +69,7 @@ Instead of listing every model here (as that detailed list is maintained in our 
 | < 7B (Small/Tiny)                             | 4GB - 8GB+ VRAM, or 8GB+ System RAM (for CPU) | Entry-level GPU / Most modern CPUs with sufficient system RAM    |
 
 **Important Considerations:**
-*   **Quantization:** These VRAM estimates are for 4-bit quantized models. Unquantized models will require significantly more VRAM (roughly double for 8-bit, four times for 16-bit precision).
+*   **Quantization:** These VRAM estimates are for 4-bit quantized models. Unquantized models will require significantly more VRAM (roughly double for 8-bit, four times for 16-bit precision). Learn how to choose the right quantization method in our tutorial: [How to Select the Right Quantized Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-select-the-right-quantized-model.md).
 *   **Model Architecture:** Different model architectures can have slightly different memory footprints even with the same parameter count.
 *   **Context Length:** Longer context windows can also increase VRAM usage.
 *   **Specific Implementations:** The software used to run the model (e.g., Ollama, vLLM, llama.cpp) can influence actual memory usage.
@@ -118,7 +118,7 @@ Once installed, you can use LM Studio to find, download, and run a wide variety 
 
 1. Open LM Studio and click the Discover tab (magnifying glass icon) or use Ctrl + 2 (Windows/Linux) / Cmd + 2 (macOS).
 2. Browse featured models or search for specific ones like "Llama", "Phi-3", "Mistral", or "Gemma" based on the info you gathered in the [Find the Model that is right for you section](#find-the-model-that-is-right-for-you).
-3. Choose a model version: many are available in quantized forms (e.g., Q4_K_M), which are optimized for performance and size. LM Studio will automatically select the most suitable version based on your machine specifications.
+3. Choose a model version: many are available in quantized forms (e.g., Q4_K_M), which are optimized for performance and size. LM Studio will automatically select the most suitable version based on your machine specifications. Learn how to choose the right quantization method in our tutorial: [How to Select the Right Quantized Model](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/how-to-select-the-right-quantized-model.md).
 4. Click Download to get the model.
 
 ### Loading a Model
