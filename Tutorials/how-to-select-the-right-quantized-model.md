@@ -9,13 +9,16 @@
  
 ***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 20 min***
 
- <br>
+<br>
 
-</div> 
+[⬅️ Back to the Main Page](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/README.md) 
 
-## Table of Contents
+</div>
 
-- [Table of Contents](#table-of-contents)
+<br>
+
+# Table of Contents
+
 - [Introduction to Quantization](#introduction-to-quantization)
   - [What is Quantization?](#what-is-quantization)
   - [Why Quantize?](#why-quantize)
@@ -31,8 +34,8 @@
 - [Finding Quantized Models: The Providers](#finding-quantized-models-the-providers)
   - [The Hugging Face Hub: Your Primary Destination](#the-hugging-face-hub-your-primary-destination)
   - [Key Community Providers](#key-community-providers)
-    - [**TheBloke**](#thebloke)
-    - [**unsloth**](#unsloth)
+    - [TheBloke](#thebloke)
+    - [unsloth](#unsloth)
     - [GGUF, CPU \& Mac Providers](#gguf-cpu--mac-providers)
     - [GPU-Native Providers (EXL2)](#gpu-native-providers-exl2)
 - [How to Choose the Right Quantized Model](#how-to-choose-the-right-quantized-model)
@@ -40,8 +43,6 @@
   - [Step 2: Define Your Goal](#step-2-define-your-goal)
   - [Decision Matrix](#decision-matrix)
 - [Conclusion](#conclusion)
-
-[⬅️ Back to the Main Page](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/README.md) 
 
 <br>
 
@@ -73,7 +74,15 @@ Here are some common data types you'll encounter when dealing with quantized mod
 *   **INT8 (8-bit Integer)**: Represents numbers using 8 bits. This is where significant memory and speed gains are often realized. Quantization to INT8 requires careful mapping from FP32 to minimize accuracy loss.
 *   **NF4 (4-bit NormalFloat)**: A 4-bit data type introduced in the QLoRA paper. It's designed to be optimal for normally distributed weights, which is common in LLMs.
 
----
+<br>
+
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
+
+<br>
 
 ## Common Quantization Formats & Methods
 
@@ -97,14 +106,21 @@ GGUF (Georgi Gerganov Unified Format) is a file format designed by the team behi
 
 When you look for GGUF models, like the ones provided by `unsloth` for `Devstral-Small-2505`, you'll see a variety of cryptic file names like `Q4_K_M`, `IQ4_XS`, or `Q8_0`. These names tell you everything about the quantization level and method. Let's break it down.
 
-<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/GGUF-Quants.png" alt="GGUF quantization options from a Hugging Face model card">
+<br>
+
+<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/GGUF_Devstral-Small-2505.png" alt="GGUF quantization options from a Hugging Face model card">
+
 *A typical selection of GGUF quantizations, as seen on a Hugging Face model card.*
+
+<br>
 
 **1. Quantization Method: `IQ` vs. `Q`**
 
 *   **`Q` (Standard Quantization)**: This is the original method. It applies a uniform reduction in precision across all the model's weights.
 *   **`IQ` (Importance-Matrix Quantization)**: This is a newer, more intelligent method. It identifies the most important weights in the model and preserves their precision more carefully during quantization. This results in a model with better performance for the same file size. Human preference tests show that `IQ` quants are consistently rated higher than their `Q` counterparts. [Source: `llama.cpp` GitHub Discussions #5962](https://github.com/ggml-org/llama.cpp/discussions/5962)
 *   **Rule of Thumb**: **Always choose an `IQ` quant over a `Q` quant if available.**
+
+<br>
 
 **2. Bit-rate: The First Number**
 
@@ -114,6 +130,8 @@ The number after `Q` or `IQ` (`2`, `3`, `4`, `5`, `6`, `8`) indicates the number
 *   `Q8_0` is a full 8-bit quantization and is very high quality, close to the original `BF16` or `FP16`.
 *   4-bit and 5-bit quants usually offer the best balance of performance and size.
 
+<br>
+
 **3. Variant: The Suffix (`_K_M`, `_XS`, etc.)**
 
 The letters and numbers at the end denote the specific variant of the quantization.
@@ -122,6 +140,8 @@ The letters and numbers at the end denote the specific variant of the quantizati
 *   **`_S`, `_M`, `_L`, `_XL`**: These stand for Small, Medium, Large, and Extra Large. They are used with K-Quants (`_K`) to indicate different levels of quantization within that method. `_M` is often the most popular balance. For example, `Q4_K_M` is a 4-bit, K-Quant, Medium variant.
 *   **`_XS`, `_XXS`**: These stand for Extra Small and Extra Extra Small, typically used for `IQ` quants. `IQ4_XS` is a very popular and high-quality 4-bit option.
 *   **`_0`, `_1`**: These are older legacy variants. For example, `Q4_0` is a basic 4-bit quant, generally lower quality than `Q4_K_M`.
+
+<br>
 
 **Recommendations:**
 
@@ -133,6 +153,9 @@ The letters and numbers at the end denote the specific variant of the quantizati
 | **Experimental/Tiny** | `IQ2_XXS`, `Q2_K`                       | Very small and fast, but expect a significant drop in coherence and quality. The model may be more prone to repetition, hallucination, or losing the plot in conversation. |
 
 By understanding these components, you can look at a list of GGUF files and make an informed decision based on your hardware and performance needs.
+
+<br>
+<br>
 
 ### GPTQ
 
@@ -148,6 +171,8 @@ GPTQ (Generative Pre-trained Transformer Quantization) is a popular Post-Trainin
     *   Can sometimes struggle with models that are not standard transformer architectures.
 *   **Use it when**: You have a decent NVIDIA GPU and want to run a model with good speed and accuracy.
 
+<br>
+
 ### AWQ
 
 AWQ (Activation-aware Weight Quantization) is another PTQ method that improves upon GPTQ. It recognizes that not all weights are equally important. By analyzing the activation scales, AWQ selectively preserves the precision of more important weights.
@@ -160,6 +185,8 @@ AWQ (Activation-aware Weight Quantization) is another PTQ method that improves u
     *   Slightly less common than GPTQ, but gaining popularity rapidly.
     *   Primarily for NVIDIA GPUs.
 *   **Use it when**: You want the state-of-the-art in 4-bit quantization for GPU inference, potentially with better accuracy than GPTQ.
+
+<br>
 
 ### EXL2 / EXL3
 
@@ -175,6 +202,8 @@ EXL2 is a quantization format specifically designed for the `exllamav2` inferenc
     *   Quantization process can be complex.
 *   **Use it when**: Your top priority is raw inference speed on an NVIDIA GPU.
 
+<br>
+
 ### MLX
 
 MLX is a machine learning framework designed by Apple, specifically for Apple Silicon. MLX models are quantized models optimized to run efficiently on the unified memory and Neural Engine of M-series chips.
@@ -188,6 +217,8 @@ MLX is a machine learning framework designed by Apple, specifically for Apple Si
     *   Specific to Apple hardware.
 *   **Use it when**: You are using a Mac with Apple Silicon and want the best possible performance.
 
+<br>
+
 ### bitsandbytes
 
 `bitsandbytes` is not a model format like GGUF, but a library that provides on-the-fly quantization. It's famous for its role in QLoRA, which enables fine-tuning of quantized models.
@@ -200,7 +231,15 @@ MLX is a machine learning framework designed by Apple, specifically for Apple Si
     *   Can be slower for pure inference compared to pre-quantized formats like GPTQ or EXL2.
 *   **Use it when**: You want to fine-tune a large model, or when you want an easy way to load a model in 8-bit or 4-bit without looking for a pre-quantized version.
 
----
+<br>
+
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
+
+<br>
 
 ## Finding Quantized Models: The Providers
 
@@ -216,13 +255,20 @@ The [Hugging Face Hub](https://huggingface.co/models) is the central repository 
 2.  Look for community versions by filtering by "Community" on the left panel.
 3.  Often, you will find models with format names in the title, like "Llama-3-8B-Instruct-GGUF" or "Llama-3-8B-Instruct-GPTQ".
 
+<br>
+<br>
+
 ### Key Community Providers
 
 The community of providers is constantly evolving. While some names become trusted sources for a wide range of models, new specialists often emerge with new model releases or formats. For example, a search for the `mistralai/Devstral-Small-2505` model reveals quantizations from a diverse group of contributors. Here are some of the key players you'll frequently encounter.
 
+<br>
+
 #### **TheBloke**
 
 For a long time, [**TheBloke**](https://huggingface.co/TheBloke) was the most prolific and trusted provider of quantized models. He created a massive library of GGUF, GPTQ, AWQ, and EXL2 models. While he may be less active with the very latest releases, his repository remains an invaluable, high-quality resource, especially for slightly older or foundational models.
+
+<br>
 
 #### **unsloth**
 
@@ -230,6 +276,8 @@ For a long time, [**TheBloke**](https://huggingface.co/TheBloke) was the most pr
 
 *   **Specialty**: **Fine-tuning** & high-performance inference. They provide their own `unsloth-bnb-4bit` models and GGUFs optimized for their library.
 *   **Use them when**: Your goal is to fine-tune a model. Their library makes it much faster and more memory-efficient.
+
+<br>
 
 #### GGUF, CPU & Mac Providers
 
@@ -239,13 +287,23 @@ Several contributors focus on providing GGUF models, which are excellent for CPU
 *   [**lmstudio-community**](https://huggingface.co/lmstudio-community): Provides GGUF and is also a key source for **MLX** formats, which are specifically optimized for Apple Silicon.
 *   [**mlx-community**](https://huggingface.co/mlx-community): As the name suggests, this group focuses on providing the community with MLX-quantized models for Macs.
 
+<br>
+
 #### GPU-Native Providers (EXL2)
 
 For maximum inference speed on NVIDIA GPUs, the EXL2 format is a top choice.
 
 *   [**ArtusDev**](https://huggingface.co/ArtusDev) and [**matatonic**](https://huggingface.co/matatonic): These are examples of community members who specialize in providing high-quality EXL2 quantizations, often offering a wide range of bit-rates for the latest models.
 
----
+<br>
+
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
+
+<br>
 
 ## How to Choose the Right Quantized Model
 
@@ -280,7 +338,7 @@ Here is a simple table to help you decide:
 | **Apple Silicon (Mac)** | All tasks (Inference)                  | GGUF, MLX                      | bartowski, mlx-community, lmstudio-community     |
 | **AMD GPU**             | All tasks (Inference)                  | GGUF (with GPU offload)        | bartowski, TheBloke                              |
 
----
+<br>
 
 ## Conclusion
 
@@ -292,4 +350,10 @@ The best quantized model for you depends entirely on your specific circumstances
 
 <br>
 
-[⬅️ Back to the Main Page](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/README.md)
+<div align="center">
+
+[⬆️ Back to Top](#table-of-contents)
+
+</div>
+
+<br>
