@@ -143,6 +143,7 @@ Documentation: [CC0 License](./LICENSE.md).
     - [Finetuned LLMs](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#finetuned-llms)
       - [Astrophysics](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#astrophysics)
       - [Function calling](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#function-calling)
+      - [Language Specific](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#language-specific)
       - [Math](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#math)
       - [Role Play](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#role-play)
       - [Uncensored](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#uncensored)
