@@ -27,24 +27,22 @@
   - [Advanced Language and Reasoning LLMs](#advanced-language-and-reasoning-llms)
     - [Open source Models](#open-source-models)
     - [Proprietary Models](#proprietary-models)
-  - [Finetuned LLMs](#finetuned-llms)
-    - [Astrophysics](#astrophysics)
-    - [Function calling](#function-calling)
-    - [Language Specific](#language-specific)
-    - [Math](#math)
-    - [Role Play](#role-play)
-    - [Uncensored](#uncensored)
-  - [LLM Providers](#llm-providers)
-    - [Cloud-based LLM Providers](#cloud-based-llm-providers)
-    - [Local LLM Providers](#local-llm-providers)
-    - [LLM Inference Engines](#llm-inference-engines)
-- [Multimodal Foundation Models](#multimodal-foundation-models) 
-  - [Vision Language Models](#vision-language-models)
-    - [Open source VLMs](#open-source-vlms)
-    - [Proprietary VLMs](#proprietary-vlms)
-  - [Multimodal Large Language Models](#multimodal-large-language-models)
-    - [Open-Source MLLMs](#open-source-mllms)
-    - [Proprietary MLLMs](#proprietary-mllms)
+    - [Finetuned LLMs](#finetuned-llms)
+      - [Astrophysics](#astrophysics)
+      - [Function calling](#function-calling)
+      - [Language Specific](#language-specific)
+      - [Math](#math)
+      - [Role Play](#role-play)
+      - [Uncensored](#uncensored)
+    - [LLM Providers](#llm-providers)
+      - [Cloud-based LLM Providers](#cloud-based-llm-providers)
+      - [Local LLM Providers](#local-llm-providers)
+      - [LLM Inference Engines](#llm-inference-engines)
+  - [Multimodal Language Models](#multimodal-Language-models) 
+    - [Vision Language Models](#vision-language-models)
+      - [Open source VLMs](#open-source-vlms)
+      - [Proprietary VLMs](#proprietary-vlms)
+    - [Omni Large Language Models](#omni-large-language-models)
 
 <br>
 
@@ -641,7 +639,7 @@ This table lists notable frameworks and libraries designed for running and servi
 
 <br>
 
-## Multimodal Foundation Models
+## Multimodal Language Models
 
 <br>
 
@@ -750,9 +748,9 @@ This table lists notable frameworks and libraries designed for running and servi
 
 <br>
 
-### Multimodal Large Language Models
+### Omni Large Language Models
 
-Beyond just image and text, Multimodal Large Language Models (MLLMs) can **process a wider array of data formats, including audio, video, and time-series data.** This enables them to perform more complex tasks like video-to-text conversion and audio-based reasoning, offering a more comprehensive approach to multimodal data integration.
+Beyond just image and text, Omni Large Language Models (OLLMs) can **process a wider array of data formats, including audio, video, and time-series data.** This enables them to perform more complex tasks like video-to-text conversion and audio-based reasoning, offering a more comprehensive approach to multimodal data integration.
 
 > [!NOTE]
 > The models are ranked according to their **[Open VLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) average score (higher score is better)**.
@@ -764,25 +762,11 @@ Beyond just image and text, Multimodal Large Language Models (MLLMs) can **proce
 | Organization     | Model Name                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | [Score](https://github.com/LSeu-Open/VLMScoreEngine) (v0.1.0) | Geographic Origin |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:-----------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenBMB.svg" alt="OpenBMB" width="200" height="20" />](https://www.openbmb.cn/) | [MiniCPM-o-2_6](https://huggingface.co/openbmb/MiniCPM-o-2_6) | 8.67B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/) | [Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) | 5.57B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) | [Janus-Pro-7B](https://huggingface.co/deepseek-ai/Janus-Pro-7B) | 7B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/FlagOpen.svg" alt="flagopen" width="200" height="23" />](https://flagopen.baai.ac.cn/#/home)    | [Emu3-Gen](https://huggingface.co/BAAI/Emu3-Gen) | 8.49B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> | 
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/)     | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B) | 1.3B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/)      | [Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) | 10.7B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AntGroup.svg" alt="AntGroup" width="200" height="20" />](https://github.com/inclusionAI)| [Ming-Lite-Omni](https://huggingface.co/inclusionAI/Ming-Lite-Omni) | 19.1B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
-
-#### Proprietary MLLMs
-
-| Organization     | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | [Score](https://github.com/LSeu-Open/VLMScoreEngine) (v0.1.0) | Geographic Origin | Pricing |
-|:-----------------:|:------------------------------------------------------------------------------|:----------:|:----------:|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 2.5 Pro](https://gemini.google.com/) | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 2.0 Pro](https://gemini.google.com/) | **Incoming**| <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 2.0 Flash](https://gemini.google.com/) | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/) | [GPT-4o](https://chat.openai.com/) | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 1.5 Flash](https://gemini.google.com/) | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Gemini 1.5 Pro](https://gemini.google.com/) | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-
-<br>
 
 <div align="center">
 
