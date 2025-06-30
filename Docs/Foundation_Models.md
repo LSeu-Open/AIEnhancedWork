@@ -592,12 +592,14 @@ These platforms offer access to a variety of models from different developers, i
 | [GPT4ALL](https://www.nomic.ai/gpt4all) | An open-source software ecosystem developed by Nomic AI that enables users to run powerful large language models (LLMs) locally on their personal computers. | All | Large Panel of Open source Models |
 | [Jan](https://jan.ai/) | Clean UI with useful features like system monitoring and LLM library.| All | Large Panel of Open source Models |
 | [LibreChat](https://www.librechat.ai/) | Open-source chat interface that supports multiple AI models, including Anthropic, AWS, OpenAI, and Azure. It offers features like agents with file handling, a code interpreter for various languages. | All | Large Panel of Models |
+| [LLMFarm](https://github.com/guinmoon/LLMFarm) | An open-source app for running LLMs locally and offline on iOS and macOS devices. | iOS/ MacOS | All Open source Models |
 | [LM Studio](https://superagi.com/) |  Elegant UI with the ability to run every Hugging Face repository. | All | Large Panel of Open source Models |
 | [Msty](https://msty.app/) | An AI chat application that offers a user-friendly interface for interacting with both local and online AI language models. | All | Large Panel of Open source Models |
 | [Ollama](https://ollama.com/) | Fastest when used on the terminal, and any model can be downloaded with a single command. | All | All Open source Models |
 | [Open WebUI](https://openwebui.com/) | Self-hosted, open-source web interface designed for running and managing LLMs locally or offline. | All | All Open source Models |
 | [Silly Tavern](https://sillytavern.app/) | Open-source LLM frontend designed for power users. | All | All Open source Models |
 | [Witsy](https://witsyai.com/) | Open-source LLM frontend designed for power users. | All | All Open source Models |
+| [Pocketpal](https://github.com/a-ghorbani/pocketpal-ai) |  AI assistant powered by small language models (SLMs) that run directly on your phone. | Android / iOS | All Open source Models |
 
 <br>
 
