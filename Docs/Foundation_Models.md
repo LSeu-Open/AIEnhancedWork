@@ -357,6 +357,11 @@ Function calling **enables LLMs to interact with external systems and tools thro
 
 Models fine-tuned for **efficiency in a specific language or language family.**
 
+<img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/in.svg" alt="Indian" width="20" height="15" />   ***Indian languages*** 
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Context Window](https://research.ibm.com/blog/larger-context-window)  | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) |
+|:------------------:|:----------------------------------------|:-----------------------------------------------------------------------------------------:|:--------------:|:------------:|
+| [Sarvam AI](https://www.sarvam.ai/) | [Sarvam-m](https://huggingface.co/sarvamai/sarvam-m) | 24B | 131k | ✔️ |
 
 <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  ***Japenese*** 
 
