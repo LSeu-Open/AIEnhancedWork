@@ -676,7 +676,7 @@ This table lists notable frameworks and libraries designed for running and servi
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="100" height="20" />](https://build.nvidia.com/) | [NVLM-D-72B](https://huggingface.co/nvidia/NVLM-D-72B) | 72B | **Incoming** |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="100" height="20" />](https://ai.meta.com/)         | [Llama-3.2-90B-Vision-Instruct](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct) | 90B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="100" height="20" />](https://allenai.org/)      | [Molmo-72B](https://huggingface.co/allenai/Molmo-72B-0924) | 72B | **Incoming** |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
-
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Baidu.svg" alt="Baidu" width="100" height="20" />](https://ernie.baidu.com/) | [ERNIE-4.5-VL-424B-A47B-PT](https://huggingface.co/baidu/ERNIE-4.5-VL-424B-A47B-PT) | 300B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 <br>
 
@@ -693,6 +693,7 @@ This table lists notable frameworks and libraries designed for running and servi
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="100" height="20" />](https://github.com/InternLM)     | [InternVL2-26B](https://huggingface.co/OpenGVLab/InternVL2-26B) | 26B | **Incoming**  | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="100" height="20" />](https://gemini.google.com/) | [Gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it) | 27B | **Incoming** |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Rhymes.svg" alt="Rhymes" width="100" height="20" />](https://rhymes.ai/)  | [Aria](https://huggingface.co/rhymes-ai/Aria) | 25.3B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Baidu.svg" alt="Baidu" width="100" height="20" />](https://ernie.baidu.com/) | [ERNIE-4.5-VL-28B-A3B-PT](https://huggingface.co/baidu/ERNIE-4.5-VL-28B-A3B-PT) | 28B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 <br>
 
