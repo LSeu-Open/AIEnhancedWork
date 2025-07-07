@@ -24,6 +24,8 @@
 # Table of contents
 
 - [Image Editing](#image-editing)
+  - [Image Editing Models](#image-generation-models)
+  - [Cloud-based Image Editing Providers](#cloud-based-image-generation-providers)
 - [Image Generation](#image-generation)
   - [Image Generation Models](#image-generation-models)
   - [Cloud-based Image Generation Providers](#cloud-based-image-generation-providers)
