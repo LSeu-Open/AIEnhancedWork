@@ -50,7 +50,31 @@ Computer Vision (CV) frameworks implement **neural architectures for visual data
 
 ### Image Editing
 
-This section highlights tools that assist in modifying and enhancing existing images using AI-powered capabilities.
+This section highlights tools and models that assist in modifying and enhancing existing images using AI-powered capabilities.
+
+#### Image Editing Models
+
+> [!NOTE]
+> The models are ranked according to their **Elo scores (Higher score is better)** from the [artificialanalysis.ai Text-to-Image Arena](https://artificialanalysis.ai/text-to-image/arena?tab=leaderboard&input=image) Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
+>
+> To provide a comprehensive overview of the generative image model landscape, only **pre-trained versions of the listed models are included in this ranking.**
+>
+> Due to the continuous evolution and **vast number of possible fine-tuned configurations, it is impractical to comprehensively list every variant here.**
+
+| Organization         | Model Name                                                                    | Elo score  | Licence     | Pricing   |
+|:--------------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 1094 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 Kontext (pro)](https://bfl.ai/models/flux-kontext) | 1078 |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 Kontext (max)](https://bfl.ai/models/flux-kontext) | 1077 |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 Kontext (dev)](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev) | 1008 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/ByteDance.svg" alt="Bytedance" width="130" height="20" />](https://www.bytedance.com/en/) | [Bagel](https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT) | 928 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/StepFun.svg" alt="Stepfun" width="100" height="20" />](https://platform.stepfun.com/) | [Step1X-Edit](https://huggingface.co/stepfun-ai/Step1X-Edit) | 864 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [HiDream](https://hidreamai.com/home)  | [HiDream-E1-Full](https://huggingface.co/HiDream-ai/HiDream-E1-Full) | 857 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+
+
+#### Cloud-based Image Editing Providers 
+
+This subsection lists platforms that offer image Editing capabilities as a cloud service, typically accessible via web interfaces or APIs, without requiring local model deployment.
 
 | Tool              | Description                                                                                                         | Licence     | Pricing     |
 |:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
@@ -63,6 +87,8 @@ This section highlights tools that assist in modifying and enhancing existing im
 | [Pixlr](https://pixlr.com/) | An AI-powered online photo editing tool.                                                                  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 | [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
 | [ZMO AI](https://remover.zmo.ai/) | Comprehensive online platform offering AI-powered image editing tools. Features include background removal, object erasure, image enhancement, and creative modifications. | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
+
+<br>
 
 ### Image Generation
 
