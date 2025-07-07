@@ -121,6 +121,8 @@ Documentation: [CC0 License](./LICENSE.md).
     - [Website Building Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#website-building-tools)
 - [Computer Vision](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md)
     - [Image Editing](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#image-editing)
+      - [Image Editing Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#image-editing-models)
+      - [Cloud-based Image Editing Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#cloud-based-image-editing-providers)
     - [Image Generation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#image-generation)
       - [Image Generation Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#image-generation-models)
       - [Cloud-based Image Generation Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#cloud-based-image-generation-providers)
