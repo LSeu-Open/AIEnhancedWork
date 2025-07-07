@@ -357,15 +357,27 @@ Function calling **enables LLMs to interact with external systems and tools thro
 
 Models fine-tuned for **efficiency in a specific language or language family.**
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Context Window](https://research.ibm.com/blog/larger-context-window)  | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Language |
-|:------------------:|:----------------------------------------|:-----------------------------------------------------------------------------------------:|:--------------:|:------------:|:----------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-llama3.1-405b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-405b) | 405B | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-llama3.3-70b](https://huggingface.co/shisa-ai/shisa-v2-llama3.3-70b) | 70B | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-32b) | 32B | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-small-24b](https://huggingface.co/shisa-ai/shisa-v2-mistral-small-24b) | 24B | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) | 12B | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-llama3.1-8b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-8b) | 8B | 128k | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-qwen2.5-7b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-7b) | 7B | 128k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  |
+
+<img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/jp.svg" alt="japan" width="20" height="15" />  ***Japenese*** 
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Context Window](https://research.ibm.com/blog/larger-context-window)  | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) |
+|:------------------:|:----------------------------------------|:-----------------------------------------------------------------------------------------:|:--------------:|:------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-llama3.1-405b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-405b) | 405B | 128k | ❌ |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-llama3.3-70b](https://huggingface.co/shisa-ai/shisa-v2-llama3.3-70b) | 70B | 128k | ❌ |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-32b) | 32B | 128k | ❌ |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-small-24b](https://huggingface.co/shisa-ai/shisa-v2-mistral-small-24b) | 24B | 128k | ❌ |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) | 12B | 128k | ❌ |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-llama3.1-8b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-8b) | 8B | 128k | ❌ | 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-qwen2.5-7b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-7b) | 7B | 128k | ❌ | 
+
+<img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  ***Korean*** 
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Context Window](https://research.ibm.com/blog/larger-context-window)  | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) |
+|:------------------:|:----------------------------------------|:-----------------------------------------------------------------------------------------:|:--------------:|:------------:|
+| [sktelecom](https://www.sktelecom.com/)  | [A.X-4.0](https://huggingface.co/skt/A.X-4.0) | 72B | 128k | ❌ |
+| [sktelecom](https://www.sktelecom.com/)  | [A.X-4.0-Light](https://huggingface.co/skt/A.X-4.0-Light) | 7B | 131k | ❌ |
+| [kt](https://ai.kt.com/main)  | [Midm-2.0-Base-Instruct](https://huggingface.co/K-intelligence/Midm-2.0-Base-Instruct) | 12B | 32k | ❌ |
+| [kt](https://ai.kt.com/main)  | [Midm-2.0-Mini-Instruct](https://huggingface.co/K-intelligence/Midm-2.0-Mini-Instruct) | 2B | 32k | ❌ |
 
 <br>
 
