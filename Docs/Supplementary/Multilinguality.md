@@ -164,6 +164,14 @@ source : https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html
 
 <br>
 
+## SmolLM Family
+
+source : https://huggingface.co/blog/smollm3
+
+**6** officials Supported languages : English, French, Spanish, German, Italian, and Portuguese
+
+<br>
+
 ## Qwen Families
 
 ### Qwen3 Family
