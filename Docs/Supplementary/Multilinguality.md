@@ -33,6 +33,7 @@ This supplementary page aims to list the languages officially supported by each 
 - [Llama Families](#llama-families)
 - [Mistral Families](#mistral-families)
 - [Nova Family](#nova-family)
+- [SmolLM Family](#smollm-family)
 - [Qwen Families](#qwen-families)
 
 <br>
