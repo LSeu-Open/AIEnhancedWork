@@ -77,6 +77,7 @@ Agentic coding tools are advanced software systems that use AI agents—typicall
 | Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 128K|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/MoonshotAI.svg" alt="MoonshotAI" width="200" height="20" />](https://www.moonshot.ai/) | [Kimi-Dev-72B](https://huggingface.co/moonshotai/Kimi-Dev-72B)  | 72B  | 131K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/) | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 16K |
 
 <br>
