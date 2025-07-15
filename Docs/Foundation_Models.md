@@ -139,7 +139,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="100" height="20" />](https://allenai.org/)   | [OLMo-2-0325-32B-Instruct](https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct) | 32B | 52.80 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="100" height="20" />](https://cohere.com/) | [Command R](https://cohere.com/blog/command-r) | 32.3B | 37.77 | 128K | ❌ | **[23](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#command-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/LG.svg" alt="LG" width="100" height="20" />](https://www.lgresearch.ai/) | [EXAONE-4.0-32B](https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B) | 32B | **Incoming** | 131k  | Hybrid | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
-
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Reka.svg" alt="Reka" width="100" height="20" />](https://www.reka.ai/) | [Reka Flash 3.1](https://huggingface.co/RekaAI/reka-flash-3.1) | 21B | **Incoming** | 128K |✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 <br>
 
 <div align="center">
