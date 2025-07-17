@@ -30,7 +30,7 @@ Our approach aims to cover a wide range of benchmarks, leaderboards, community a
 
 <br>
 
- ## V0.4.0 Score Components Explanation  (100 points total)
+ ## V0.5.0 Score Components Explanation  (100 points total)
  
  ## Entity Benchs (30 points)
 
