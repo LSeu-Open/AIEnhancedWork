@@ -25,6 +25,9 @@
 
 - [Agentic Coding Tools](#agentic-coding-tools)
 - [Coding LLMs](#coding-llms)
+  - [Generalist Coding LLMs](#generalist-coding-llms) 
+  - [Task-Specific Coding LLMs](#task-specific-coding-llms)
+    - [UI Generation LLMs](#ui-generation-llms)
 - [AI-Augmented Integrated Development Environments](#ai-augmented-integrated-development-environments)
 - [Code Completion \& In-Editor Assistants](#code-completion--in-editor-assistants)
 - [AI Development Agents \& Task Automation](#ai-development-agents--task-automation)
@@ -67,6 +70,8 @@ Agentic coding tools are advanced software systems that use AI agents—typicall
 
 > [!Tip]
 > Follow our [integration guide](./Tutorials/how-to-use-llms-in-coding.md) to **configure cloud-based and local LLM providers within your development environment.**
+
+#### Generalist Coding LLMs 
 
 > [!IMPORTANT]
 >
@@ -114,7 +119,18 @@ Agentic coding tools are advanced software systems that use AI agents—typicall
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [OpenCodeReasoning-Nemotron-1.1-7B](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-7B) | 7B | 128K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)  | [NextCoder-7B](https://huggingface.co/microsoft/NextCoder-7B) | 7B | 32K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it) | 7B | 8K |
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/JetBrains.svg" alt="JetBrains" width="90" height="25" />](https://www.jetbrains.com/) | [Mellum-4b-sft-python](https://huggingface.co/JetBrains/Mellum-4b-sft-python) | 4B | 8K 
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/JetBrains.svg" alt="JetBrains" width="90" height="25" />](https://www.jetbrains.com/) | [Mellum-4b-sft-python](https://huggingface.co/JetBrains/Mellum-4b-sft-python) | 4B | 8K |
+
+<br>
+
+#### Task-Specific Coding LLMs
+
+##### UI Generation LLMs
+
+| Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
+|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
+| [Tesslate](https://tesslate.com/) | [UIGEN-X-32B-0727](https://huggingface.co/Tesslate/UIGEN-X-32B-0727) | 32B | 128K |
+| [Tesslate](https://tesslate.com/) | [UIGEN-X-4B-0729](https://huggingface.co/Tesslate/UIGEN-X-4B-0729) | 4B | 128K |
 
 <br>
 <br>
@@ -131,6 +147,7 @@ Integrated Development Environments (IDEs) **leverage LLM capabilities for code 
 | [Visual Studio Code with Extensions](https://code.visualstudio.com/) |Popular, extensible editor by Microsoft, augmented with AI capabilities through various extensions. | All | All Models via API Providers + Locally provided Models| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 | [Windsurf](https://windsurf.com/editor) | AI-powered code editor focused on boosting developer productivity with features like AI-driven refactoring and code generation. | All | [Models list](https://docs.windsurf.com/plugins/cascade/models) + Locally provided Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 | [Zed](https://zed.dev/) |  High-performance, collaborative code editor with deeply integrated AI for autocompletion, chat, and code analysis.  | All | [Models list](https://zed.dev/docs/ai/models?highlight=models#models) + Locally provided Models | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+
 
 <br>
 
