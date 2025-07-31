@@ -180,6 +180,16 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 </details>
 
+<details>
+<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
+
+<br>
+
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
+
+</details>
+
 <br>
 
 <div align="center">
@@ -240,6 +250,16 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 </details>
 
+<details>
+<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
+
+<br>
+
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
+
+</details>
+
 <br>
 
 <div align="center">
@@ -282,6 +302,16 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 </details>
 
+<details>
+<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
+
+<br>
+
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
+
+</details>
+
 <br>
 
 ##### Tiny models (under 3B parameters)
@@ -319,7 +349,15 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 </details>
 
+<details>
+<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
+
 <br>
+
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
+
+</details>
 
 <details>
 <summary>✳️ <b>Bitnet Models</b></summary>
@@ -389,6 +427,16 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Perplexity.svg" alt="Perplexity" width="100" height="20" />](https://www.perplexity.ai)  | [Sonar](https://sonar.perplexity.ai/) | 51.33  | 127k | ❌ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="100" height="20" />](https://www.anthropic.com/) | [Claude 3.5 Haiku](https://claude.ai/) | 50.96 | 200k | ❌ | **[15](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#claude-4-and-claude-3x)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/amazon.svg" alt="Amazon" width="100" height="20" />](https://aws.amazon.com/ai/) | [Nova Pro](https://aws.amazon.com/ai/) | 48.93 | 300K | ❌ | **[15](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#nova-family)** |
+
+</details>
+
+<details>
+<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
+
+<br>
+
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 
 </details>
 
