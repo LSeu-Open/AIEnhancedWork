@@ -72,6 +72,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ***Large-scale models (70+ billion parameters)*** : These require substantial amounts of RAM and GPU memory, making local installation impractical for most users. As a result, these models are typically deployed on cloud-based platforms that provide the necessary computational resources.
 
+***Top 10 Models by Score***
+
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | **[DeepSeek-R1-0528](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528)** | **685B** | **75.96** | **128K** | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
@@ -84,6 +86,14 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="80" height="20" />](https://www.minimaxi.com/en) | [MiniMax-M1](https://huggingface.co/MiniMaxAI/MiniMax-M1-80k) | 456B | 68.56 | 1M | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="100" height="20" />](https://github.com/Tencent/) | [Hunyuan-80B-A13B-Instruct](https://huggingface.co/tencent/Hunyuan-A13B-Instruct) | 80B | 68.56 | 256K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="100" height="20" />](https://build.nvidia.com/)  | [Llama-3_1-Nemotron-Ultra-253B-v1](https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1) | 253B | 68.05 | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
+
+<details>
+<summary> ⬇️ <b>More Large-scale models</b></summary>
+
+<br>
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="100" height="20" />](https://github.com/THUDM)  | [GLM-4.5-Air](https://huggingface.co/zai-org/GLM-4.5-Air) | 110B | 67.62 | 128K | Hybrid | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="80" height="20" />](https://www.minimaxi.com/en) | [MiniMax-Text-01](https://huggingface.co/MiniMaxAI/MiniMax-Text-01) | 456B | 65.72 | 4M | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="100" height="20" />](https://ai.meta.com/) | [Llama-4-Maverick-17B-128E-Instruct](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct) | 402B | 62.29 | 1M | ❌ | **[12](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-4)** |
@@ -103,6 +113,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="100" height="20" />](https://mistral.ai/) | [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2411)  | 123B | 51.71  | 128K | ❌ | **[13](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#mistral-large)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="100" height="20" />](https://cohere.com/) | [Command R+](https://huggingface.co/CohereForAI/c4ai-command-r-plus-08-2024) | 104B | 44.18 | 128k | ❌ | **[23](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#command-family)** |
 
+</details>
+
 <br>
 
 <div align="center">
@@ -115,9 +127,11 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ***Mid-sized models (14+ billion parameters)*** :  These models are suitable for local deployment on high-end workstations. However, such deployments require a significant hardware investment, including a powerful GPU (24–32 GB of VRAM) and related components, typically resulting in total costs exceeding $3,000 (or equivalent).
 
+***Top 10 Models by Score***
+
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
-| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | **[Qwen3-30B-A3B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507)** | **30.5B** | **71.49** | **262K** | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | **[Qwen3-30B-A3B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507)** | **30.5B** | **71.49** | **262K** | ❌ | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B) | 32B | 70.84 | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) |  **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="100" height="20" />](https://build.nvidia.com/)  | [Llama-3_3-Nemotron-Super-49B-v1.5](https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5) | 49B | 67.64 | 131K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [QwQ-32B](https://huggingface.co/Qwen/QwQ-32B) | 32B | 65.99 | 131K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
@@ -127,6 +141,15 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon-H1-34B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct) | 34B | 61.61 | 256k | ❌ | **[18](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-h1)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="100" height="20" />](https://mistral.ai/) | [Magistral-Small-2507](https://huggingface.co/mistralai/Magistral-Small-2507) | 23.9B | 61.42 | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#magistral-small-and-medium)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="100" height="20" />](https://gemini.google.com/) | [Gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it) | 27B | 61.06 | 128k | ❌ | **[140+](https://ai.google.dev/gemma/docs/core#multilingual)** |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-30B-A3B-Thinking-2507](https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507) | 30.5B | **incoming** | 262K | ✔️ | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
+
+<details>
+<summary> ⬇️ <b>More Mid-sized models</b></summary>
+
+<br>
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/LG.svg" alt="LG" width="100" height="20" />](https://www.lgresearch.ai/) | [EXAONE-3.5-32B-Instruct](https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct) | 32B | 59.64 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="100" height="20" />](https://mistral.ai/) | [Mistral-Small-3.2](https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506) | 23.9B | 59.95 | 128K | ❌ | **[11](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#mistral-small)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | [DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | 32B | 59.35 | 132K | ✔️ | **[29](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen2-family)** |
@@ -141,6 +164,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AntGroup.svg" alt="AntGroup" width="110" height="20" />](https://github.com/inclusionAI)| [Ling-lite-1.5](https://huggingface.co/inclusionAI/Ling-lite-1.5) | 16.8B | 54.23 | 64k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />   |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Allen.svg" alt="Allen" width="100" height="20" />](https://allenai.org/)   | [OLMo-2-0325-32B-Instruct](https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct) | 32B | 52.80 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="100" height="20" />](https://cohere.com/) | [Command R](https://cohere.com/blog/command-r) | 32.3B | 37.77 | 128K | ❌ | **[23](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#command-family)** |
+
+</details>
 
 <br>
 
@@ -170,6 +195,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ##### Small models (7B to <10B parameters)
 
+***Top 10 Models by Score***
+
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | **[DeepSeek-R1-0528-Qwen3-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B)** | **8B** | **65.03** | **128K** | ✔️ |  **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
@@ -182,6 +209,14 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="100" height="20" />](https://github.com/InternLM) | [Internlm3-8b-instruct](https://huggingface.co/internlm/internlm3-8b-instruct) | 8B | 52.32 | 300K  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | [DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) | 7B | 52.53 | 128K | ✔️ | **[29](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen2-family)**|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Xiaomi.svg" alt="Xiaomi" width="100" height="20" />](https://www.mi.com/global/) | [MiMo-7B-RL](https://huggingface.co/XiaomiMiMo/MiMo-7B-RL) | 7B | 52.44 | 32K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+
+<details>
+<summary> ⬇️ <b>More Small models (7B to <10B parameters)</b></summary>
+
+<br>
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="100" height="20" />](https://github.com/THUDM)  | [GLM-4-9B-0414](https://huggingface.co/THUDM/GLM-4-32B-0414) | 9B | 52.20 | 132K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="100" height="20" />](https://build.nvidia.com/)  | [Llama-3.1-Nemotron-Nano-8B-v1](https://huggingface.co/nvidia/Llama-3.1-Nemotron-Nano-8B-v1) | 8B | 51.26 | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon-H1-7B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-7B-Instruct) | 7B | 51.13 | 256k | ❌ | **[18](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-h1)** |
@@ -192,6 +227,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | [DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B) | 8B | 48.90 | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Kakao.svg" alt="Kakao" width="150" height="20" />](https://www.kakaocorp.com/page/) | [Kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505) | 8B | 47.30 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
 
+</details>
 
 <br>
 
@@ -207,6 +243,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ##### Tiny models (3B to <7B parameters)
 
+***Top 10 Models by Score***
+
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="HuggingFace" width="100" height="20" />](https://huggingface.co/) | **[SmolLM3-3B](https://huggingface.co/HuggingFaceTB/SmolLM3-3B)** | **3B** | **58.73** | **65k** | **Hybrid** | **[6](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#smollm-family)** |
@@ -219,10 +257,25 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/DeepCogito.svg" alt="DeepCogito" width="100" height="20" />](https://www.deepcogito.com/research/cogito-v1-preview) | [Cogito-v1-preview-llama-3B](https://huggingface.co/deepcogito/cogito-v1-preview-llama-3B) | 3B | 45.95 | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon-H1-3B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-3B-Instruct) | 3B | 42.79 | 128k | ❌ | **[18](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-h1)** |
 | [PowerInfer](https://huggingface.co/PowerInfer) | [SmallThinker-4BA0.6B-Instruct](https://huggingface.co/PowerInfer/SmallThinker-4BA0.6B-Instruct) | 4B | 42.78 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />   |
+
+
+<details>
+<summary> ⬇️ <b>More Tiny models (3B to <7B parameters)</b></summary>
+
+<br>
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/ServiceNow.svg" alt="Service Now" width="100" height="20" />](https://www.servicenow.com/)  | [Apriel-5B-Instruct](https://huggingface.co/ServiceNow-AI/Apriel-5B-Instruct) | 5B | 42.55 | 32K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="100" height="20" />](https://gemini.google.com/) | [Gemma-3n-E4B-it-preview](https://huggingface.co/google/gemma-3n-E4B-it-litert-preview) | [E4B](https://ai.google.dev/gemma/docs/gemma-3n#parameters) | 35.75 | 32k | ❌ | **[140+](https://ai.google.dev/gemma/docs/core#multilingual)** |
 
+</details>
+
+<br>
+
 ##### Tiny models (under 3B parameters)
+
+***Top 10 Models by Score***
 
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
@@ -236,6 +289,14 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon3-1B-Instruct](https://huggingface.co/tiiuae/Falcon3-1B-Instruct) | 1B | 42.16 | 8k | ❌ | **[4](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-3)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Kakao.svg" alt="Kakao" width="150" height="20" />](https://www.kakaocorp.com/page/) | [Kanana-1.5-2.1b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-2.1b-instruct-2505) | 2.1B | 40.92 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon-H1-1.5B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-1.5B-Instruct) | 1.5B | 39.52 | 128k | ❌ | **[18](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-h1)** |
+
+<details>
+<summary> ⬇️ <b>More Tiny models (3B to <7B parameters)</b></summary>
+
+<br>
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Baidu.svg" alt="Baidu" width="100" height="20" />](https://ernie.baidu.com/) | [ERNIE-4.5-0.3B-PT](https://huggingface.co/baidu/ERNIE-4.5-0.3B-PT) | 0.3B | 39.18 | 131K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Meta.svg" alt="Meta" width="100" height="20" />](https://ai.meta.com/) | [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) | 1B | 37.97 |128K | ❌ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | [DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B) | 1.5B | 36.21 | 128K | ✔️ | **[29](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen2-family)** |
@@ -244,6 +305,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="100" height="20" />](https://gemini.google.com/) | [Gemma-3n-E2B-it-preview](https://huggingface.co/google/gemma-3n-E2B-it-litert-preview) | [E2B](https://ai.google.dev/gemma/docs/gemma-3n#parameters) | 32.49 | 32k | ❌ | **[140+](https://ai.google.dev/gemma/docs/core#multilingual)**|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon-H1-0.5B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-0.5B-Instruct) | 0.5B | 33.57 | 16k | ❌ | **[18](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-h1)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B) | 0.6B | 32.05 | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
+
+</details>
 
 <br>
 
@@ -274,6 +337,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 **Note that scores reflect an overall assessment and do not guarantee consistently superior performance in every situation.**
 
+***Top 15 Models by Score***
+
 | Organization       | Model Name                                                                       | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality | 
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:---:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="100" height="20" />](https://gemini.google.com/)  | **[Gemini 2.5 Pro](https://deepmind.google/technologies/gemini/pro/)** | **79.65** | **1M** | ✔️ | **[38](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#gemini-family)** |
@@ -291,6 +356,14 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Doubao.svg" alt="doubao" width="100" height="20" />](https://team.doubao.com/en/) | [Doubao 1.5 Pro](https://team.doubao.com/en/special/doubao_1_5_pro) | 66.57 | 256K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [Upstage](https://www.upstage.ai/) | [Solar Pro 2](https://www.upstage.ai/blog/en/solar-pro-2-launch) | 66.32 | 66K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="100" height="20" />](https://mistral.ai/) | [Magistral Medium](https://mistral.ai/news/magistral) | 65.67 | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#magistral-small-and-medium)** |
+
+<details>
+<summary> ⬇️ <b>More Proprietary Models</b></summary>
+
+<br>
+
+| Organization       | Model Name                                                                       | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality | 
+|:------------------:|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:---:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/MoonshotAI.svg" alt="moonshot" width="100" height="20" />](https://www.moonshot.cn/) | [Kimi-k1.5](https://github.com/MoonshotAI/Kimi-k1.5) | 65.20 | Unknown | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="100" height="20" />](https://www.anthropic.com/) | [Claude 3.7 Sonnet](https://claude.ai/) | 65.13 | 200k | ✔️ | **[15](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#claude-4-and-claude-3x)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [GPT-4.1 mini](https://openai.com/index/gpt-4-1/) | 63.47 | 1M | ❌ | **[57](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#chatgpt-and-ox-families)** |
@@ -305,6 +378,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Perplexity.svg" alt="Perplexity" width="100" height="20" />](https://www.perplexity.ai)  | [Sonar](https://sonar.perplexity.ai/) | 51.33  | 127k | ❌ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="100" height="20" />](https://www.anthropic.com/) | [Claude 3.5 Haiku](https://claude.ai/) | 50.96 | 200k | ❌ | **[15](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#claude-4-and-claude-3x)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/amazon.svg" alt="Amazon" width="100" height="20" />](https://aws.amazon.com/ai/) | [Nova Pro](https://aws.amazon.com/ai/) | 48.93 | 300K | ❌ | **[15](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#nova-family)** |
+
+</details>
 
 <br>
 
