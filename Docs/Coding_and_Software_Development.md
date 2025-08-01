@@ -99,6 +99,7 @@ Agentic coding tools are advanced software systems that use AI agents—typicall
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AllHands.svg" alt="AllHands" width="200" height="20" />](https://www.all-hands.dev/) | [Openhands-lm-32b-v0.1](https://huggingface.co/all-hands/openhands-lm-32b-v0.1) | 32B | 132K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/Agentica.svg" alt="Agentica" width="200" height="20" />](https://huggingface.co/agentica-org)  | [DeepSWE-Preview](https://huggingface.co/agentica-org/DeepSWE-Preview) | 32B | 131K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)  | [NextCoder-32B](https://huggingface.co/microsoft/NextCoder-32B) | 32B | 32K |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-Coder-30B-A3B-Instruct](https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct) | 30B | 262K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Devstral-Small-2507](https://huggingface.co/mistralai/Devstral-Small-2507) | 23.6B | 128K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1) | 22B | 33K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AntGroup.svg" alt="AntGroup" width="110" height="25" />](https://github.com/inclusionAI)| [Ling-Coder-lite](https://huggingface.co/inclusionAI/Ling-Coder-lite) | 16.8B | 8K |
@@ -124,6 +125,12 @@ Agentic coding tools are advanced software systems that use AI agents—typicall
 <br>
 
 #### Task-Specific Coding LLMs
+
+##### Cybersecurity 
+
+| Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
+|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
+| [Cisco Foundation AI](https://fdtn.ai/) | [Foundation-Sec-8B-Instruct](https://huggingface.co/fdtn-ai/Foundation-Sec-8B-Instruct) | 8B | 128K |
 
 ##### UI Generation LLMs
 
