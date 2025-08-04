@@ -258,7 +258,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
-
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="100" height="20" />](https://github.com/Tencent/) | [Hunyuan-7B-Instruct](https://huggingface.co/tencent/Hunyuan-7B-Instruct) | 7B | **Incoming** | 256K | Hybrid | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 </details>
 
 <br>
@@ -310,7 +310,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
-
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="100" height="20" />](https://github.com/Tencent/) | [Hunyuan-4B-Instruct](https://huggingface.co/tencent/Hunyuan-4B-Instruct) | 4B | **Incoming** | 256K | Hybrid | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 </details>
 
 <br>
@@ -357,6 +357,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="100" height="20" />](https://github.com/Tencent/) | [Hunyuan-1.8B-Instruct](https://huggingface.co/tencent/Hunyuan-1.8B-Instruct) | 1.8B | **Incoming** | 256K | Hybrid | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="100" height="20" />](https://github.com/Tencent/) | [Hunyuan-0.5B-Instruct](https://huggingface.co/tencent/Hunyuan-0.5B-Instruct) | 0.5B | **Incoming** | 256K | Hybrid | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 </details>
 
