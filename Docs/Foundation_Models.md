@@ -442,7 +442,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
-
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="100" height="20" />](https://www.anthropic.com/) | [Claude 4.1 Opus](https://www.anthropic.com/claude/opus) | **Incoming**  | 200k | ✔️ | **[15](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#claude-4-and-claude-3x)** |
 </details>
 
 <br>
