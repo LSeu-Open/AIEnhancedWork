@@ -127,6 +127,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/DeepCogito.svg" alt="DeepCogito" width="100" height="20" />](https://www.deepcogito.com/) | [Cogito-v2-preview-llama-109B-MoE](https://huggingface.co/deepcogito/cogito-v2-preview-llama-109B-MoE) | 109B | **Incoming** | 1M | Hybrid | **[12](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-4)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/DeepCogito.svg" alt="DeepCogito" width="100" height="20" />](https://www.deepcogito.com/) | [Cogito-v2-preview-llama-70B](https://huggingface.co/deepcogito/cogito-v2-preview-llama-70B) | 70B | **Incoming** | 128K | Hybrid | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/StepFun.svg" alt="Stepfun" width="100" height="20" />](https://platform.stepfun.com/) | [Step3](https://huggingface.co/stepfun-ai/step3) | 321B | **Incoming** | 65K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/)  | [GPT-oss-120b](https://huggingface.co/openai/gpt-oss-120b) | 120B | **Incoming** | 128K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
+
 
 </details>
 
@@ -188,7 +190,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
-
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/)  | [GPT-oss-20b](https://huggingface.co/openai/gpt-oss-20b) | 20B | **Incoming** | 128K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 </details>
 
 <br>
