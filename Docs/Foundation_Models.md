@@ -313,6 +313,8 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="100" height="20" />](https://github.com/Tencent/) | [Hunyuan-4B-Instruct](https://huggingface.co/tencent/Hunyuan-4B-Instruct) | 4B | **Incoming** | 256K | Hybrid | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | **Qwen3-4B** <br> [Thinking-2507](https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507) <br> [Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) | **4B** | **Incoming** <br> **Incoming** | **262K** | ✔️ <br> ❌ | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
+
 </details>
 
 <br>
@@ -892,6 +894,7 @@ This table lists notable frameworks and libraries designed for running and servi
 |[<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="100" height="20" />](https://www.microsoft.com/)    | [Phi-3.5-vision-instruct](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) | 4.15B | 59.38 |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/)      | [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) | 3B | 58.82 | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/InternLM.svg" alt="InternLM" width="100" height="20" />](https://github.com/InternLM)    | [InternVL3-1B](https://huggingface.co/OpenGVLab/InternVL3-8B) | 1B | 58.80| <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenBMB.svg" alt="OpenBMB" width="80" height="20" />](https://www.openbmb.cn/) | [MiniCPM-V-4](https://huggingface.co/openbmb/MiniCPM-V-4) | 4B | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 <br>
 
