@@ -74,7 +74,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ***Top 10 Models by Score***
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | **Qwen3-235B-A22B** <br> [Instruct-2507](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507) <br> [Thinking-2507](https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507) | **235B** | **76.61 <br> 76.53** | **256K** | ✔️ <br> ❌ | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | [DeepSeek-R1-0528](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 685B | 75.96 | 128K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
@@ -91,7 +91,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="100" height="20" />](https://build.nvidia.com/)  | [Llama-3_1-Nemotron-Ultra-253B-v1](https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1) | 253B | 68.05 | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/)  | [GPT-oss-120b](https://huggingface.co/openai/gpt-oss-120b) | 120B | 67.73 | 128K | ✔️ |**[57](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#chatgpt-and-ox-families)** |
@@ -121,7 +121,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
- Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/DeepCogito.svg" alt="DeepCogito" width="100" height="20" />](https://www.deepcogito.com/) | [Cogito-v2-preview-deepseek-671B-MoE](https://huggingface.co/deepcogito/cogito-v2-preview-deepseek-671B-MoE) | 671B | **Incoming** | 128K | Hybrid | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/DeepCogito.svg" alt="DeepCogito" width="100" height="20" />](https://www.deepcogito.com/) | [Cogito-v2-preview-llama-405B](https://huggingface.co/deepcogito/cogito-v2-preview-llama-405B) | 405B | **Incoming** | 128K | Hybrid | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
@@ -145,7 +145,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ***Top 10 Models by Score***
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | **Qwen3-30B-A3B** <br> [Thinking-2507](https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507) <br> [Instruct-2507](https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507) | **30.5B** | **74.49 <br> 71.49** | **262K** | ✔️ <br> ❌ | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B) | 32B | 70.84 | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) |  **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
@@ -163,7 +163,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Mistral.svg" alt="Mistral" width="100" height="20" />](https://mistral.ai/) | [Magistral-Small-2507](https://huggingface.co/mistralai/Magistral-Small-2507) | 23.9B | 61.42 | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#magistral-small-and-medium)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="100" height="20" />](https://gemini.google.com/) | [Gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it) | 27B | 61.06 | 128k | ❌ | **[140+](https://ai.google.dev/gemma/docs/core#multilingual)** |
@@ -189,7 +189,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
- Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 
 </details>
@@ -208,7 +208,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ##### Small models (10B to <14B parameters)
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | **[Qwen3-14B](https://huggingface.co/Qwen/Qwen3-14B)** | **14B** | **68.66** | **131K** | [Hybrid](https://qwenlm.github.io/blog/qwen3/) |  **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Microsoft.svg" alt="microsoft" width="90" height="20" />](https://www.microsoft.com/) | **Phi-4** <br> [reasoning-plus](https://huggingface.co/microsoft/Phi-4-reasoning-plus) <br> [Phi-4](https://huggingface.co/microsoft/phi-4) <br> [reasoning](https://huggingface.co/microsoft/Phi-4-reasoning) | 14B | 62.91 <br> 62.77 <br> 60.10 | 32K | ✔️ <br> ❌ <br> ✔️ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
@@ -222,7 +222,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ***Top 10 Models by Score***
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | **[DeepSeek-R1-0528-Qwen3-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B)** | **8B** | **65.03** | **128K** | ✔️ |  **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | 8B | 64.22 | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
@@ -241,7 +241,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Xiaomi.svg" alt="Xiaomi" width="100" height="20" />](https://www.mi.com/global/) | [MiMo-7B-RL](https://huggingface.co/XiaomiMiMo/MiMo-7B-RL) | 7B | 52.44 | 32K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/THUDM.svg" alt="THUDM" width="100" height="20" />](https://github.com/THUDM)  | [GLM-4-9B-0414](https://huggingface.co/THUDM/GLM-4-32B-0414) | 9B | 52.20 | 132K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
@@ -261,7 +261,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
- Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 
 </details>
@@ -282,7 +282,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ***Top 10 Models by Score***
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | **[Qwen3-4B-Thinking-2507](https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507)** | **4B** | **59.12** | **262K** |  ✔️ | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/HuggingFace.svg" alt="HuggingFace" width="100" height="20" />](https://huggingface.co/) | [SmolLM3-3B](https://huggingface.co/HuggingFaceTB/SmolLM3-3B) | 3B | 58.73 | 65k | Hybrid | **[6](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#smollm-family)** |
@@ -301,7 +301,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon-H1-3B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-3B-Instruct) | 3B | 42.79 | 128k | ❌ | **[18](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-h1)** |
 | [PowerInfer](https://huggingface.co/PowerInfer) | [SmallThinker-4BA0.6B-Instruct](https://huggingface.co/PowerInfer/SmallThinker-4BA0.6B-Instruct) | 4B | 42.78 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />   |
@@ -315,7 +315,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
- Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 
 
@@ -327,7 +327,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ***Top 10 Models by Score***
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/LG.svg" alt="LG" width="100" height="20" />](https://www.lgresearch.ai/) | **[EXAONE-3.5-2.4B-Instruct](https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct)** | **2.4B** | **54.48** | **32k** | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) | 1.7B | 49.20 | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
@@ -346,7 +346,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon-H1-1.5B-Instruct](https://huggingface.co/tiiuae/Falcon-H1-1.5B-Instruct) | 1.5B | 39.52 | 128k | ❌ | **[18](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#falcon-h1)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Baidu.svg" alt="Baidu" width="100" height="20" />](https://ernie.baidu.com/) | [ERNIE-4.5-0.3B-PT](https://huggingface.co/baidu/ERNIE-4.5-0.3B-PT) | 0.3B | 39.18 | 131K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
@@ -366,7 +366,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
- Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 
 </details>
@@ -376,7 +376,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
-| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon-E-3B-Instruct](https://huggingface.co/tiiuae/Falcon-E-3B-Instruct) | 3B | 30.72 | 32k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/TII.svg" alt="TII" width="100" height="20" />](https://www.tii.ae/) | [Falcon-E-1B-Instruct](https://huggingface.co/tiiuae/Falcon-E-1B-Instruct) | 1B | 26.35 | 8k | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
@@ -400,7 +400,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 ***Top 15 Models by Score***
 
-| Organization       | Model Name                                                                       | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality | 
+| Organization       | Model Name                                                                       | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality | 
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:---:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="100" height="20" />](https://gemini.google.com/)  | **[Gemini 2.5 Pro](https://deepmind.google/technologies/gemini/pro/)** | **79.65** | **1M** | ✔️ | **[38](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#gemini-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/xAI.svg" alt="xAI" width="220" height="20" />](https://x.ai/) | [Grok-4](https://grok.com/) | 77.70 | 256K | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
@@ -423,7 +423,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
-| Organization       | Model Name                                                                       | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality | 
+| Organization       | Model Name                                                                       | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality | 
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:---:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/MoonshotAI.svg" alt="moonshot" width="100" height="20" />](https://www.moonshot.cn/) | [Kimi-k1.5](https://github.com/MoonshotAI/Kimi-k1.5) | 65.20 | Unknown | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="100" height="20" />](https://www.anthropic.com/) | [Claude 3.7 Sonnet](https://claude.ai/) | 65.13 | 200k | ✔️ | **[15](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#claude-4-and-claude-3x)** |
@@ -447,7 +447,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 <br>
 
- Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.0) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
+ Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="100" height="20" />](https://www.anthropic.com/) | [Claude 4.1 Opus](https://www.anthropic.com/claude/opus) | **Incoming**  | 200k | ✔️ | **[15](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#claude-4-and-claude-3x)** |
 </details>
