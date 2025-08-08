@@ -60,7 +60,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 > [!IMPORTANT]
 > Models are ranked using our [LLM scoring framework](https://github.com/LSeu-Open/LLMScoreEngine), which synthesizes performance benchmarks, human preference evaluations, and technical specifications. A higher score indicates better overall performance.
 >
-> **Note that scores provide a relative ranking within each model's size category. A higher score does not guarantee superior performance on any specific task or in every language.**
+> **Note that scores reflect a relative ranking within each model's size category. A higher score indicates better performance compared to other models of the same size, but it does not guarantee superior results on any particular task or across all languages.**
 >   
 > We have recently added a multilinguality indicator to the tables below, including the number of officially supported languages.
 >
