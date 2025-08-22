@@ -121,17 +121,12 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 </details>
 
-<details>
-<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
-
-<br>
+⬇️ **Models Awaiting Scoring**
 
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | [DeepSeek-v3.1](https://huggingface.co/collections/deepseek-ai/deepseek-v31-68a491bed32bd77e7fca048f) | 685B | **Incoming** | 128K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
-
-</details> 
-
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Cohere.svg" alt="cohere" width="100" height="20" />](https://cohere.com/) | [Command-A-reasoning-08-2025](https://huggingface.co/CohereLabs/command-a-reasoning-08-2025) | 111B | **Incoming** | 256k | ✔️ | **[23](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#command-family)** |
 <br>
 
 <div align="center">
@@ -185,15 +180,11 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 </details>
 
-<details>
-<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
-
-<br>
+⬇️ **Models Awaiting Scoring**
 
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
-
-</details>
+| [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/ByteDance.svg" alt="Bytedance" width="100" height="20" />](https://www.bytedance.com/en/) | [Seed-OSS-36B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct) | 36B | **Incoming** | 512k  | ✔️ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />   |
 
 <br>
 
@@ -257,15 +248,11 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 </details>
 
-<details>
-<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
-
-<br>
+**⬇️ Models Awaiting Scoring**
 
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 |  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="100" height="20" />](https://build.nvidia.com/)  | [Nemotron-Nano-9B-v2](https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2) | 9B | **Incoming** | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
-</details>
 
 <br>
 
@@ -444,18 +431,13 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 </details>
 
-<details>
-<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
-
-<br>
+⬇️ **Models Awaiting Scoring**
 
 | Organization       | Model Name                                                                       | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality | 
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:---------------:|:---:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Anthropic.svg" alt="Anthropic" width="100" height="20" />](https://www.anthropic.com/) | [Claude 4.1 Opus](https://www.anthropic.com/claude/opus) | **Incoming**  | 200k | ✔️ | **[15](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#claude-4-and-claude-3x)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [GPT-5-mini](https://openai.com/index/introducing-gpt-5/) | **Incoming** | 400K | ✔️ | **[57](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#chatgpt-and-ox-families)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [GPT-5-nano](https://openai.com/index/introducing-gpt-5/) | **Incoming** | 400K | ✔️ | **[57](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#chatgpt-and-ox-families)** |
-
-</details>
 
 <br>
 
