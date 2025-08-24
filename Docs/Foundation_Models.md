@@ -222,6 +222,7 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | **[DeepSeek-R1-0528-Qwen3-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B)** | **8B** | **65.03** | **128K** | ✔️ |  **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | 8B | 64.22 | 131K | [Hybrid](https://qwenlm.github.io/blog/qwen3/) | **[119](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#qwen3-family)** |
+|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="100" height="20" />](https://build.nvidia.com/)  | [Nemotron-Nano-9B-v2](https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2) | 9B | 62.79 | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/LG.svg" alt="LG" width="100" height="20" />](https://www.lgresearch.ai/) | [EXAONE-3.5-7.8B-Instruct](https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct) | 7.8B | 62.49 | 32k  | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/OpenBMB.svg" alt="OpenBMB" width="80" height="20" />](https://www.openbmb.cn/) | [MiniCPM4-8B](https://huggingface.co/openbmb/MiniCPM4-8B) | 8B | 58.15 | 32K  | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Tencent.svg" alt="Tencent" width="100" height="20" />](https://github.com/Tencent/) | [Hunyuan-7B-Instruct](https://huggingface.co/tencent/Hunyuan-7B-Instruct) | 7B | 54.17 | 256K | Hybrid | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
@@ -252,11 +253,15 @@ This overview focuses on instruction-tuned models to ensure a fair comparison. F
 
 </details>
 
-**⬇️ Models Awaiting Scoring**
+<details>
+<summary> ⬇️ <b>Models Awaiting Scoring</b></summary>
+
+<br>
 
  Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Score](https://github.com/LSeu-Open/LLMScoreEngine) (v0.6.1) | [Context Window](https://research.ibm.com/blog/larger-context-window) | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) | Multilinguality |
 |:------------------:|:---------------------------------------------------------------------------------|:--------------:|:------------:|:------------------:|:----:|:-------------:|
-|  [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="100" height="20" />](https://build.nvidia.com/)  | [Nemotron-Nano-9B-v2](https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2) | 9B | **Incoming** | 128K | ✔️ | **[8](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Supplementary/Multilinguality.md#llama-31-and-32-and-33)** |
+
+</details>
 
 <br>
 
