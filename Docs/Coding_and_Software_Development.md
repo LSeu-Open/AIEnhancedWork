@@ -94,6 +94,7 @@ Agentic coding tools are advanced software systems that use AI agents—typicall
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/) | [Granite-34b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-34b-code-instruct-8k) | 34B | 8k |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B | 8K |
+| [Kwaipilot](https://huggingface.co/Kwaipilot) | [KAT-Dev](https://huggingface.co/Kwaipilot/KAT-Dev) | 32B | 132K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) | 32B | 132K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [OpenCodeReasoning-Nemotron-1.1-32B](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-32B) | 32B | 128K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/AllHands.svg" alt="AllHands" width="200" height="20" />](https://www.all-hands.dev/) | [Openhands-lm-32b-v0.1](https://huggingface.co/all-hands/openhands-lm-32b-v0.1) | 32B | 132K |
@@ -120,6 +121,7 @@ Agentic coding tools are advanced software systems that use AI agents—typicall
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [OpenCodeReasoning-Nemotron-1.1-7B](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-7B) | 7B | 128K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images//Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)  | [NextCoder-7B](https://huggingface.co/microsoft/NextCoder-7B) | 7B | 32K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it) | 7B | 8K |
+| [Bralynn](https://huggingface.co/bralynn) | [pydevmini1](https://huggingface.co/bralynn/pydevmini1) | 4B | 262K |
 | [<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Organization/JetBrains.svg" alt="JetBrains" width="90" height="25" />](https://www.jetbrains.com/) | [Mellum-4b-sft-python](https://huggingface.co/JetBrains/Mellum-4b-sft-python) | 4B | 8K |
 
 <br>
@@ -137,7 +139,9 @@ Agentic coding tools are advanced software systems that use AI agents—typicall
 | Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
 |:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
 | [Tesslate](https://tesslate.com/) | [UIGEN-X-32B-0727](https://huggingface.co/Tesslate/UIGEN-X-32B-0727) | 32B | 128K |
+| [Tesslate](https://tesslate.com/) | [WEBGEN-OSS-20B](https://huggingface.co/Tesslate/WEBGEN-OSS-20B) | 20.9B | 128K |
 | [Tesslate](https://tesslate.com/) | [UIGEN-X-4B-0729](https://huggingface.co/Tesslate/UIGEN-X-4B-0729) | 4B | 128K |
+| [Tesslate](https://tesslate.com/) | [WEBGEN-4B-Preview](https://huggingface.co/Tesslate/WEBGEN-4B-Preview) | 4B | 128K |
 
 <br>
 <br>
