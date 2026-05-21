@@ -5,14 +5,16 @@
 <br>
 <br>
 
-***A curated index of impactful AI tools and models, that emphasizes technical merit, practical utility and Prioritizing open-source.***
-
-**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
-    
-🔴 ***The update for this repository is currently on hold as the maintainer does not have time to work on it at the moment.*** 🔴 
-
-***Thank you for your understanding.*** 
-
+> **Archived repository**
+>
+> A curated index of impactful AI tools and models, with an emphasis on technical merit, practical utility, and open-source projects.
+>
+> **Effective AI use requires understanding capabilities, limitations, and bias-mitigation strategies.**
+>
+> 🔴 **This repository is archived and no longer actively maintained.**
+> The sole maintainer no longer has time to update it.
+>
+> **Thank you for your understanding.**
 
 <br>
 
