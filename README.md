@@ -6,7 +6,6 @@
 <br>
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](./LICENSE.md)
-![LastCommit](https://img.shields.io/github/last-commit/LSeu-Open/AIEnhancedWork?style=flat)
 
 </div>
 
@@ -62,7 +61,7 @@ Each entry is annotated with a license badge and a pricing badge.
 
 ## Table of contents
 
-- [AI Tutorials and Learning Resources](Docs/Tutorials_and_Learning_Resources.md)
+- [Tutorials and Learning Resources](Docs/Tutorials_and_Learning_Resources.md)
   - [Tutorials](Docs/Tutorials_and_Learning_Resources.md#tutorials)
     - [Local tutorials](Docs/Tutorials_and_Learning_Resources.md#local-tutorials)
     - [Online tutorials](Docs/Tutorials_and_Learning_Resources.md#online-tutorials)
@@ -84,13 +83,13 @@ Each entry is annotated with a license badge and a pricing badge.
     - [Voice Assistants Providers](Docs/Audio_Processing.md#voice-assistants-providers)
 - [Automation](Docs/Automation.md)
   - [Autonomous Agents](Docs/Automation.md#autonomous-agents)
-  - [Automation tools](Docs/Automation.md#automation-tools)
+  - [Automation Tools](Docs/Automation.md#automation-tools)
 - [Coding and Software Development](Docs/Coding_and_Software_Development.md)
-  - [Agentic Coding tools](Docs/Coding_and_Software_Development.md#agentic-coding-tools)
+  - [Agentic Coding Tools](Docs/Coding_and_Software_Development.md#agentic-coding-tools)
   - [Coding LLMs](Docs/Coding_and_Software_Development.md#coding-llms)
   - [AI-Augmented Integrated Development Environments](Docs/Coding_and_Software_Development.md#ai-augmented-integrated-development-environments)
   - [Code Completion \& In-Editor Assistants](Docs/Coding_and_Software_Development.md#code-completion--in-editor-assistants)
-  - [Development Agents \& Task Automation](Docs/Coding_and_Software_Development.md#code-completion--in-editor-assistants)
+  - [AI Development Agents \& Task Automation](Docs/Coding_and_Software_Development.md#ai-development-agents--task-automation)
   - [App Building Tools](Docs/Coding_and_Software_Development.md#app-building-tools)
   - [Website Building Tools](Docs/Coding_and_Software_Development.md#website-building-tools)
 - [Computer Vision](Docs/Computer_Vision.md)
@@ -114,23 +113,10 @@ Each entry is annotated with a license badge and a pricing badge.
 - [Foundation Models](Docs/Foundation_Models.md)
   - [Language Only Large Language Models](Docs/Foundation_Models.md#language-only-large-language-models)
     - [Advanced Language and Reasoning LLMs](Docs/Foundation_Models.md#advanced-language-and-reasoning-llms)
-      - [Open source Models](Docs/Foundation_Models.md#open-source-models)
-      - [Proprietary Models](Docs/Foundation_Models.md#proprietary-models)
     - [Finetuned LLMs](Docs/Foundation_Models.md#finetuned-llms)
-      - [Astrophysics](Docs/Foundation_Models.md#astrophysics)
-      - [Function calling](Docs/Foundation_Models.md#function-calling)
-      - [Language Specific](Docs/Foundation_Models.md#language-specific)
-      - [Math](Docs/Foundation_Models.md#math)
-      - [Role Play](Docs/Foundation_Models.md#role-play)
-      - [Uncensored](Docs/Foundation_Models.md#uncensored)
     - [LLM Providers](Docs/Foundation_Models.md#llm-providers)
-      - [Cloud-based LLM Providers](Docs/Foundation_Models.md#cloud-based-llm-providers)
-      - [Local LLM Providers](Docs/Foundation_Models.md#local-llm-providers)
-      - [LLM Inference Engines](Docs/Foundation_Models.md#llm-inference-engines)
   - [Multimodal Language Models](Docs/Foundation_Models.md#multimodal-language-models)
     - [Vision Language Models](Docs/Foundation_Models.md#vision-language-models)
-      - [Open source VLMs](Docs/Foundation_Models.md#open-source-vlms)
-      - [Proprietary VLMs](Docs/Foundation_Models.md#proprietary-vlms)
     - [Omni Large Language Models](Docs/Foundation_Models.md#omni-large-language-models)
 - [Search and Research Tools](Docs/Search_and_Research_Tools.md)
   - [Academic and Scientific Research](Docs/Search_and_Research_Tools.md#academic-and-scientific-research)
