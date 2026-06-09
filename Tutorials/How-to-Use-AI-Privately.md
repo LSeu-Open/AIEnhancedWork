@@ -1,6 +1,6 @@
 <div align="center"> 
  
-<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/PrivacyAI.png">
+<img src="../Images/Tutorials/PrivacyAI.png">
 
 This tutorial explains how to set up private AI workflows using local models and secure development practices, enabling you to harness AI capabilities while keeping your data secure.
 
@@ -143,7 +143,7 @@ Proactively managing your data when using AI begins with informed preparation.
 
 For the highest level of security, running a Large Language Model (LLM) directly on your own machine is the optimal solution, as this ensures your data never leaves your computer.
 
-*** A detailed guide on how to set this up is available in our dedicated tutorial on [how to run the model locally](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md).***
+*** A detailed guide on how to set this up is available in our dedicated tutorial on [how to run the model locally](how-to-run-llms-on-your-machine.md).***
 
 The primary advantage of this approach is complete control over the model selection and its usage. 
 
@@ -185,7 +185,7 @@ If your absolute priority is **maximum privacy, security, and complete control o
 
 * This method ensures your **data never leaves your computer**, offering you full command over model selection and usage without relying on third-party trust. **You can utilize any compatible open-source models without concerns about rate limitations or subscription fees for the local operation itself.** 
 
-* The main considerations for this path are the necessity for capable hardware, which can be a significant investment, and a degree of technical familiarity for the setup and maintenance, as detailed in the [dedicated tutorial on running models locally](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/run-llms-locally-on-your-machine.md#find-the-model-that-is-right-for-you).
+* The main considerations for this path are the necessity for capable hardware, which can be a significant investment, and a degree of technical familiarity for the setup and maintenance, as detailed in the [dedicated tutorial on running models locally](how-to-run-llms-on-your-machine.md#find-the-model-that-is-right-for-you).
 
 If you prefer **cloud-based AI that emphasizes uncensored content and gives you control over your conversation history**, [Venice.ai](https://venice.ai/) presents an interesting alternative. 
 

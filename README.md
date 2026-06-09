@@ -1,21 +1,8 @@
-<div align="center"> 
+<div align="center">
 
 <img src="./Images/AIEnhancedWork.png">
 
 <br>
-<br>
-
-> **Archived repository**
->
-> A curated index of impactful AI tools and models, with an emphasis on technical merit, practical utility, and open-source projects.
->
-> **Effective AI use requires understanding capabilities, limitations, and bias-mitigation strategies.**
->
-> 🔴 **This repository is archived and no longer actively maintained.**
-> The sole maintainer no longer has time to update it.
->
-> **Thank you for your understanding.**
-
 <br>
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](./LICENSE.md)
@@ -24,166 +11,152 @@
 </div>
 
 <br>
+<br>
 
-# Introduction
+## Overview
 
-Navigating the rapidly evolving field of Artificial Intelligence can be overwhelming. This repository serves as a comprehensive, curated guide designed for **developers, data scientists, researchers, students, and AI enthusiasts** seeking practical tools, cutting-edge models, and valuable learning resources.
+A curated index of AI tools and models, selected for technical merit and
+practical utility, with a deliberate emphasis on open-source projects.
 
-Our goal is to help you **discover, compare, and select the right AI solutions** for your projects by providing structured information, comparisons, and direct links. We place a strong emphasis on **open-source options** while also including noteworthy proprietary tools.
+The field of AI moves quickly, and the volume of available tools makes it
+hard to know what is worth using. This index is intended for **developers,
+data scientists, researchers, students, and AI practitioners** who need a
+structured starting point. It is organized to help you **discover, compare,
+and select** tools for a given task, through consistent categories, short
+descriptions, and direct links.
+
+Proprietary tools are included where they are notable, but open-source
+options are prioritized throughout.
+
+Effective use of any AI tool depends on understanding its capabilities,
+its limitations, and the strategies needed to mitigate bias. The index is
+a map, not a substitute for that judgment.
 
 <br>
 
-**Understanding the Indicators:**
+## How to read the entries
 
-Throughout this guide, you may see the following indicator:
+Each entry is annotated with a license badge and a pricing badge.
 
-[<img src="./Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) The source code is typically not available, and its **use, modification, and distribution are restricted by the vendor.** Access often requires payment or a subscription, and licenses may limit how the software can be deployed or integrated.
+**License**
 
-[<img src="./Images/Licence/opensource.svg" alt="opensource" width="90" height="15" />](https://opensource.com/resources/what-open-source) The source code is **publicly available, allowing users to freely use, modify, and distribute the software (or derived versions) under licenses that grant these permissions.** While often free of charge, always verify the specific license terms for compliance, as some licenses have conditions regarding redistribution or derivative works.
+| Badge | Meaning |
+| --- | --- |
+| [<img src="./Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | Source code is generally not available. Use, modification, and distribution are restricted by the vendor, and access may require payment or a subscription. |
+| [<img src="./Images/Licence/opensource.svg" alt="opensource" width="90" height="15" />](https://opensource.com/resources/what-open-source) | Source code is publicly available under a license that permits use, modification, and distribution. Always verify the specific license for redistribution and derivative-work terms. |
 
-<img src="./Images/Pricing/free.svg" alt="free" width="80" height="15" /> The tool or service is **available at no cost.** Some free offerings may have limitations or be supported by other means (e.g., community support for open-source projects).
+**Pricing**
 
-[<img src="./Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="15" />](https://builtin.com/articles/freemium) Offers a **basic tier of services free of charge,** with more **advanced features or capabilities available under a paid subscription.**
-
-<img src="./Images/Pricing/Paid.svg" alt="Paid" width="80" height="15" /> Access to the tool or **service requires a one-time purchase or an ongoing subscription.**
-
-<br>
-
-**LLM Scoring Framework:**
-
-Since benchmarks cannot always be trusted and existing leaderboards typically focus only on one aspect of modern LLMs' capabilities, we chose to develop our own approach. Formerly developed within this repository, the scoring framework is now under development in a dedicated repository.
-
-Our approach aims to cover a wide range of benchmarks, leaderboards, community assessments, and technical specifications, **trying to provide an unbiased estimation of the overall capacities of any public LLM.**
-
-The **Score** column in some tables may display either **Incoming** or **Pending**.
-
-* ***Incoming*** : The score is not yet computed but will be available soon.
-* ***Pending*** : The score cannot currently be computed due to a lack of information or benchmarks. It's unclear when it will be available.
+| Badge | Meaning |
+| --- | --- |
+| <img src="./Images/Pricing/free.svg" alt="free" width="80" height="15" /> | Available at no cost. Some free offerings carry limitations or rely on community support. |
+| [<img src="./Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="15" />](https://builtin.com/articles/freemium) | A basic tier is free, with advanced features available under a paid subscription. |
+| <img src="./Images/Pricing/Paid.svg" alt="Paid" width="80" height="15" /> | Access requires a one-time purchase or an ongoing subscription. |
 
 <br>
 <br>
-
-<div align="center"> 
-    
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" />
-<a href="https://github.com/LSeu-Open/LLMScoreEngine">
-  <img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/LLMScoreEngine.png" width="200">
-</a>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left.png" alt="Backhand Index Pointing Left" width="25" height="25" />
-
-<br>
-<br>
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://github.com/LSeu-Open/LLMScoreEngine/blob/main/LICENSE)
-![LastCommit](https://img.shields.io/github/last-commit/LSeu-Open/LLMScoreEngine?style=flat)
-![LastRelease](https://img.shields.io/github/v/release/LSeu-Open/LLMScoreEngine?style=flat)
-
-<br>
-<br>
-
-*Explore the sections below via the Table of Contents to find what you need.* 
-
-Documentation: [CC0 License](./LICENSE.md).
-
-**[Contributions](./CONTRIBUTING.md) and suggestions are welcome!**
 
 </div>
 
 <br>
 
-# Table of contents
+## Table of contents
+
+- [AI Tutorials and Learning Resources](Docs/Tutorials_and_Learning_Resources.md)
+  - [Tutorials](Docs/Tutorials_and_Learning_Resources.md#tutorials)
+    - [Local tutorials](Docs/Tutorials_and_Learning_Resources.md#local-tutorials)
+    - [Online tutorials](Docs/Tutorials_and_Learning_Resources.md#online-tutorials)
+  - [Learning Resources](Docs/Tutorials_and_Learning_Resources.md#learning-resources)
+    - [Beginner](Docs/Tutorials_and_Learning_Resources.md#beginner)
+    - [Intermediate](Docs/Tutorials_and_Learning_Resources.md#intermediate)
+    - [Advanced](Docs/Tutorials_and_Learning_Resources.md#advanced)
+- [Audio Processing](Docs/Audio_Processing.md)
+  - [Transcription and Summarization](Docs/Audio_Processing.md#transcription-and-summarization)
+  - [Music Generation](Docs/Audio_Processing.md#music-generation)
+  - [Text-to-Speech Synthesis](Docs/Audio_Processing.md#text-to-speech-synthesis)
+    - [Text-to-Speech Models](Docs/Audio_Processing.md#text-to-speech-models)
+    - [Text-to-Speech Providers](Docs/Audio_Processing.md#text-to-speech-providers)
+  - [Speech Recognition](Docs/Audio_Processing.md#speech-recognition)
+    - [Speech-to-Text Models](Docs/Audio_Processing.md#speech-to-text-models)
+    - [Speech-to-Text Providers](Docs/Audio_Processing.md#speech-to-text-providers)
+  - [Voice Assistants](Docs/Audio_Processing.md#voice-assistants)
+    - [Voice Assistants Models](Docs/Audio_Processing.md#voice-assistants-models)
+    - [Voice Assistants Providers](Docs/Audio_Processing.md#voice-assistants-providers)
+- [Automation](Docs/Automation.md)
+  - [Autonomous Agents](Docs/Automation.md#autonomous-agents)
+  - [Automation tools](Docs/Automation.md#automation-tools)
+- [Coding and Software Development](Docs/Coding_and_Software_Development.md)
+  - [Agentic Coding tools](Docs/Coding_and_Software_Development.md#agentic-coding-tools)
+  - [Coding LLMs](Docs/Coding_and_Software_Development.md#coding-llms)
+  - [AI-Augmented Integrated Development Environments](Docs/Coding_and_Software_Development.md#ai-augmented-integrated-development-environments)
+  - [Code Completion \& In-Editor Assistants](Docs/Coding_and_Software_Development.md#code-completion--in-editor-assistants)
+  - [Development Agents \& Task Automation](Docs/Coding_and_Software_Development.md#code-completion--in-editor-assistants)
+  - [App Building Tools](Docs/Coding_and_Software_Development.md#app-building-tools)
+  - [Website Building Tools](Docs/Coding_and_Software_Development.md#website-building-tools)
+- [Computer Vision](Docs/Computer_Vision.md)
+  - [Image Editing](Docs/Computer_Vision.md#image-editing)
+    - [Image Editing Models](Docs/Computer_Vision.md#image-editing-models)
+    - [Cloud-based Image Editing Providers](Docs/Computer_Vision.md#cloud-based-image-editing-providers)
+  - [Image Generation](Docs/Computer_Vision.md#image-generation)
+    - [Image Generation Models](Docs/Computer_Vision.md#image-generation-models)
+    - [Cloud-based Image Generation Providers](Docs/Computer_Vision.md#cloud-based-image-generation-providers)
+    - [Local Image Generation Providers](Docs/Computer_Vision.md#local-image-generation-providers)
+  - [Video Generation](Docs/Computer_Vision.md#video-generation)
+    - [Image-to-Video Models](Docs/Computer_Vision.md#image-to-video-models)
+    - [Text-to-Video Models](Docs/Computer_Vision.md#text-to-video-models)
+    - [Video Generation Providers](Docs/Computer_Vision.md#video-generation-providers)
+  - [3D Model Generation](Docs/Computer_Vision.md#3d-model-generation)
+    - [Text/Image-to-3D Models](Docs/Computer_Vision.md#textimage-to-3d-models)
+- [Data Analysis](Docs/Data_Analysis.md)
+  - [AI-Powered Data Analysis and Visualization Tools](Docs/Data_Analysis.md#ai-powered-data-analysis-and-visualization-tools)
+  - [Specialized Tools](Docs/Data_Analysis.md#specialized-tools)
+    - [Spreadsheet Tools](Docs/Data_Analysis.md#spreadsheet-tools)
+- [Foundation Models](Docs/Foundation_Models.md)
+  - [Language Only Large Language Models](Docs/Foundation_Models.md#language-only-large-language-models)
+    - [Advanced Language and Reasoning LLMs](Docs/Foundation_Models.md#advanced-language-and-reasoning-llms)
+      - [Open source Models](Docs/Foundation_Models.md#open-source-models)
+      - [Proprietary Models](Docs/Foundation_Models.md#proprietary-models)
+    - [Finetuned LLMs](Docs/Foundation_Models.md#finetuned-llms)
+      - [Astrophysics](Docs/Foundation_Models.md#astrophysics)
+      - [Function calling](Docs/Foundation_Models.md#function-calling)
+      - [Language Specific](Docs/Foundation_Models.md#language-specific)
+      - [Math](Docs/Foundation_Models.md#math)
+      - [Role Play](Docs/Foundation_Models.md#role-play)
+      - [Uncensored](Docs/Foundation_Models.md#uncensored)
+    - [LLM Providers](Docs/Foundation_Models.md#llm-providers)
+      - [Cloud-based LLM Providers](Docs/Foundation_Models.md#cloud-based-llm-providers)
+      - [Local LLM Providers](Docs/Foundation_Models.md#local-llm-providers)
+      - [LLM Inference Engines](Docs/Foundation_Models.md#llm-inference-engines)
+  - [Multimodal Language Models](Docs/Foundation_Models.md#multimodal-language-models)
+    - [Vision Language Models](Docs/Foundation_Models.md#vision-language-models)
+      - [Open source VLMs](Docs/Foundation_Models.md#open-source-vlms)
+      - [Proprietary VLMs](Docs/Foundation_Models.md#proprietary-vlms)
+    - [Omni Large Language Models](Docs/Foundation_Models.md#omni-large-language-models)
+- [Search and Research Tools](Docs/Search_and_Research_Tools.md)
+  - [Academic and Scientific Research](Docs/Search_and_Research_Tools.md#academic-and-scientific-research)
+  - [AI-Powered Web Browsers](Docs/Search_and_Research_Tools.md#ai-powered-web-browsers)
+  - [Deep Research Tools](Docs/Search_and_Research_Tools.md#deep-research-tools)
+  - [Search Engines](Docs/Search_and_Research_Tools.md#search-engines)
+- [Other Applications](Docs/Other_Applications.md)
+  - [Language Learning Tools](Docs/Other_Applications.md#language-learning-tools)
+  - [Meeting Transcription and Summarization](Docs/Other_Applications.md#meeting-transcription-and-summarization)
+  - [Presentation Slides Generation](Docs/Other_Applications.md#presentation-slides-generation)
+  - [Versatile Productivity Tools](Docs/Other_Applications.md#versatile-productivity-tools)
 
 <br>
 
-- [AI Tutorials and Learning Resources](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md)
-    - [Tutorials](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#tutorials)
-      - [Local tutorials](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#local-tutorials)
-      - [Online tutorials](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#online-tutorials)
-    - [Learning Resources](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#learning-resources)
-      - [Beginner](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#beginner)
-      - [Intermediate](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#intermediate)
-      - [Advanced](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Tutorials_and_Learning_Resources.md#advanced)  
-- [Audio Processing](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md)
-    - [Transcription and Summarization](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#transcription-and-summarization)
-    - [Music Generation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#music-generation)
-    - [Text-to-Speech Synthesis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#text-to-speech-synthesis)
-      - [Text-to-Speech Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#text-to-speech-models)
-      - [Text-to-Speech Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#text-to-speech-providers)
-    - [Speech Recognition](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#speech-recognition)
-      - [Speech-to-Text Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#speech-to-text-models)
-      - [Speech-to-Text Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#speech-to-text-providers)
-    - [Voice Assistants](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#voice-assistants)
-      - [Voice Assistants Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#voice-assistants-models)
-      - [Voice Assistants Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Audio_Processing.md#voice-assistants-providers)
-- [Automation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Automation.md)
-    - [Autonomous Agents](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Automation.md#autonomous-agents)
-    - [Automation tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Automation.md#automation-tools)
-- [Coding and Software Development](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md)
-    - [Agentic Coding tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#agentic-coding-tools) 
-    - [Coding LLMs](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#coding-llms)
-    - [AI-Augmented Integrated Development Environments](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#ai-augmented-integrated-development-environments)
-    - [Code Completion \& In-Editor Assistants](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#code-completion--in-editor-assistants)
-    - [Development Agents \& Task Automation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#code-completion--in-editor-assistants)
-    - [App Building Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#app-building-tools)
-    - [Website Building Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Coding_and_Software_Development.md#website-building-tools)
-- [Computer Vision](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md)
-    - [Image Editing](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#image-editing)
-      - [Image Editing Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#image-editing-models)
-      - [Cloud-based Image Editing Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#cloud-based-image-editing-providers)
-    - [Image Generation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#image-generation)
-      - [Image Generation Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#image-generation-models)
-      - [Cloud-based Image Generation Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#cloud-based-image-generation-providers)
-      - [Local Image Generation Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#local-image-generation-providers)
-    - [Video Generation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#video-generation)
-      - [Image-to-Video Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#image-to-video-models)
-      - [Text-to-Video Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#text-to-video-models)
-      - [Video Generation Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#video-generation-providers)
-    - [3D Model Generation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#3d-model-generation)
-      - [Text/Image-to-3D Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Computer_Vision.md#textimage-to-3d-models)
-- [Data Analysis](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md)
-  - [AI-Powered Data Analysis and Visualization Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md#ai-powered-data-analysis-and-visualization-tools)
-  - [Specialized Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md#specialized-tools)
-    - [Spreadsheet Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Data_Analysis.md#spreadsheet-tools)  
-- [Foundation Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md)
-  - [Language Only Large Language Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#language-only-large-language-models)
-    - [Advanced Language and Reasoning LLMs](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#advanced-language-and-reasoning-llms)
-      - [Open source Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#open-source-models)
-      - [Proprietary Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#proprietary-models)
-    - [Finetuned LLMs](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#finetuned-llms)
-      - [Astrophysics](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#astrophysics)
-      - [Function calling](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#function-calling)
-      - [Language Specific](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#language-specific)
-      - [Math](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#math)
-      - [Role Play](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#role-play)
-      - [Uncensored](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#uncensored)
-    - [LLM Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#llm-providers)
-      - [Cloud-based LLM Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#cloud-based-llm-providers)
-      - [Local LLM Providers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#local-llm-providers)
-      - [LLM Inference Engines](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#llm-inference-engines)
-  - [Multimodal Language Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#multimodal-language-models) 
-    - [Vision Language Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#vision-language-models)
-      - [Open source VLMs](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#open-source-vlms)
-      - [Proprietary VLMs](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#proprietary-vlms)
-    - [Omni Large Language Models](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Foundation_Models.md#omni-large-language-models)
-- [Search and Research Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Search_and_Research_Tools.md)
-    - [Academic and Scientific Research](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Search_and_Research_Tools.md#academic-and-scientific-research)
-    - [AI-Powered Web Browsers](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Search_and_Research_Tools.md#ai-powered-web-browsers)
-    - [Deep Research Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Search_and_Research_Tools.md#deep-research-tools)
-    - [Search Engines](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Search_and_Research_Tools.md#search-engines)
-- [Other Applications](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md)
-    - [Language Learning Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md#language-learning-tools)
-    - [Meeting Transcription and Summarization](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md#meeting-transcription-and-summarization)
-    - [Presentation Slides Generation](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md#presentation-slides-generation)
-    - [Versatile Productivity Tools](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Docs/Other_Applications.md#versatile-productivity-tools)
-   
-<br>
-<br>
+## Contributing
 
-<h3 align="center">  We welcome community contributions through pull requests and issue discussions. </h3>
-<h4 align="center">  A <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="30" height="30" /> to AIEnhancedWork is must as a motivation booster. </h4>
+Contributions and suggestions are welcome. See the
+[contribution guidelines](./CONTRIBUTING.md) to propose a tool, correct an
+entry, or open a discussion.
+
+Documentation in this repository is released under the [CC0 License](./LICENSE.md).
 
 <div align="center">
 
-[⬆️ Back to Top](#introduction)
+<br>
+
+[Back to top](#overview)
 
 </div>

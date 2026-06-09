@@ -1,7 +1,7 @@
 
 <div align="center"> 
 
-<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/LLMScoreEngine.png">
+<img src="../Images/LLMScoreEngine.png">
 
 <br>
 <br>

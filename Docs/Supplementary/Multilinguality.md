@@ -1,6 +1,6 @@
 <div align="center"> 
 
-<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/AIEnhancedWork.png">
+<img src="../../Images/AIEnhancedWork.png">
 
 <br>
 <br>
@@ -11,7 +11,7 @@
 
 <br>
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](./LICENSE.md)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](../../LICENSE.md)
 ![LastCommit](https://img.shields.io/github/last-commit/LSeu-Open/AIEnhancedWork?style=flat)
 
 </div>

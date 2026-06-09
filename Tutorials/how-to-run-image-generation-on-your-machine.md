@@ -1,6 +1,6 @@
 <div align="center"> 
  
-<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/ImageGeneration.png">
+<img src="../Images/Tutorials/ImageGeneration.png">
 
 <br>
 <br>
@@ -18,9 +18,9 @@
 - [Introduction](#introduction)
 - [Hardware Requirement](#hardware-requirement)
 - [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
-- [Fooocus (Beginner)](#fooocus)
-- [AUTOMATIC1111 Stable Diffusion web UI (Intermediate)](#automatic1111-stable-diffusion-web-ui)
-- [ComfyUI (Expert)](#comfyui)
+- [Fooocus (Beginner)](#fooocus-beginner)
+- [AUTOMATIC1111 Stable Diffusion web UI (Intermediate)](#automatic1111-stable-diffusion-web-ui-intermediate)
+- [ComfyUI (Expert)](#comfyui-expert)
 
 <br>
 

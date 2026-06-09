@@ -1,6 +1,6 @@
 <div align="center"> 
  
-<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/Quantization.png">
+<img src="../Images/Tutorials/Quantization.png">
 
 <br>
 <br>
@@ -11,7 +11,7 @@
 
 <br>
 
-[⬅️ Back to the Main Page](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/README.md) 
+[⬅️ Back to the Main Page](../README.md) 
 
 </div>
 
@@ -108,7 +108,7 @@ When you look for GGUF models, like the ones provided by `unsloth` for `Devstral
 
 <br>
 
-<img src="https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Images/Tutorials/GGUF_Devstral-Small-2505.png" alt="GGUF quantization options from a Hugging Face model card">
+<img src="../Images/Tutorials/GGUF_Devstral-Small-2505.png" alt="GGUF quantization options from a Hugging Face model card">
 
 *A typical selection of GGUF quantizations, as seen on a Hugging Face model card.*
 
