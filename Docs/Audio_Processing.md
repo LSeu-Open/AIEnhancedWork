@@ -1,202 +1,168 @@
-<div align="center"> 
+<div align="center">
 
 <img src="../Images/AIEnhancedWork.png">
 
 <br>
 <br>
 
-***A curated index of impactful AI tools and models, that emphasizes technical merit, practical utility and Prioritizing open-source.***
-
-**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
-
-<br>
-
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](../LICENSE.md)
 
 <br>
 
-[⬅️ Back to the Main Page](../README.md) 
+[Back to the main index](../README.md)
 
 </div>
 
 <br>
 
-# Table of contents
-
-- [Table of contents](#table-of-contents)
-- [Audio Processing](#audio-processing)
-    - [Transcription and Summarization](#transcription-and-summarization)
-    - [Music Generation](#music-generation)
-    - [Text-to-Speech Synthesis](#text-to-speech-synthesis)
-      - [Text-to-Speech Models](#text-to-speech-models)
-      - [Text-to-Speech Providers](#text-to-speech-providers)
-    - [Speech Recognition](#speech-recognition)
-      - [Speech-to-Text Models](#speech-to-text-models)
-      - [Speech-to-Text Providers](#speech-to-text-providers)
-    - [Voice Assistants](#voice-assistants)
-      - [Voice Assistants Models](#voice-assistants-models)
-      - [Voice Assistants Providers](#voice-assistants-providers)
-
-<br>
-
 # Audio Processing
 
-### Transcription and Summarization
-
-AI-powered media processing tools **leverage Natural Language Processing (NLP) and computer vision algorithms to automate transcription and content summarization** from audio-visual sources. These solutions streamline content analysis by **generating accurate text outputs and key insights from multimedia data.**
-
-| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
-| [Eightify](https://eightify.app/)                          | A powerful tool that utilizes YouTube AI technology to summarize videos quickly, providing users with key ideas in seconds. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [Exemplary AI](https://exemplary.ai/)                      | A cloud-based tool that harnesses Artificial Intelligence (AI) and LLMs to offer transcription solutions.                   | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Riverside](https://riverside.fm/)                         | An online studio that specializes in high-quality podcast and video recording and editing.                                  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [SolidPoint](https://solidpoint.ai/)                       | A range of tools that leverage AI technology to enhance productivity and efficiency in various tasks. One of its key features is the Summarize tool. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />  |
-| [Summarize.tech](https://www.summarize.tech/)              | An AI-powered tool that automatically generates summaries of long videos from YouTube.                                      | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Summify](https://summify.io/)                             | A powerful tool that efficiently condenses lengthy videos into concise and informative summaries.                           | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
-| [Voxweave](https://voxweave.xyz/)                          | An innovative AI-powered tool that revolutionizes the interaction with YouTube videos by transforming them into concise summaries. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
-| [WavoAI](https://wavoai.com/)                              | An AI-powered tool that provides accurate transcriptions and insights from audio recordings.                                | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-
-### Music Generation
-
-Music generation algorithms utilize deep learning models to **synthesize original compositions, enabling style-specific audio creation and adaptive soundtrack generation.**
-
-| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
-|:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
-| [Jukebox](https://jukebox.openai.com/)            | A generative AI model developed by OpenAI that can create original music, including rudimentary singing, in a variety of genres and artist styles.                     | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />  |
-| [Magenta](https://magenta.tensorflow.org/)        |  AI  project developed by Google that explores the use of machine learning as a tool for creative applications, particularly in music and art.                         | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)          | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />       |
-| [Mubert](https://mubert.com/)                     |  A generative AI platform that allows users to create and stream original, AI-generated music and audio.                                                               | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)  | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
-| [MuseNet](https://openai.com/research/musenet)    |  An AI model developed by OpenAI that can generate original 4-minute musical compositions with up to 10 different instruments.                                         | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />   |
-| [Stable Audio](https://stability.ai/stable-audio) |  A generative AI system developed by Stability AI for creating high-quality audio and music.                                                                           | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Suno](https://suno.com/)                         |  A cutting-edge AI-powered music generator that lets users create custom songs in various genres using text prompts.                                                   | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />       |
+Tools and models for working with audio: transcription and summarization,
+music generation, text-to-speech, speech recognition, and voice assistants.
 
 <br>
- 
-### Text-to-Speech Synthesis
 
-Text-to-speech (TTS) systems employ **neural networks for voice synthesis, converting text input into natural speech output.** These models **support voice customization parameters including timbre, prosody, and linguistic variations.**
+## Table of contents
 
-#### Text-to-Speech Models
+- [Transcription and Summarization](#transcription-and-summarization)
+- [Music Generation](#music-generation)
+- [Text-to-Speech Synthesis](#text-to-speech-synthesis)
+  - [Text-to-Speech Models](#text-to-speech-models)
+  - [Text-to-Speech Providers](#text-to-speech-providers)
+- [Speech Recognition](#speech-recognition)
+  - [Speech-to-Text Models](#speech-to-text-models)
+  - [Speech-to-Text Providers](#speech-to-text-providers)
+- [Voice Assistants](#voice-assistants)
+  - [Voice Assistants Models](#voice-assistants-models)
+  - [Voice Assistants Providers](#voice-assistants-providers)
+
+<br>
+
+## Transcription and Summarization
+
+Tools that transcribe and summarize audio and video into text and key points.
+
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Eightify](https://eightify.app/) | Summarizes YouTube videos into key points. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Exemplary AI](https://exemplary.ai/) | Cloud-based transcription powered by LLMs. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Riverside](https://riverside.fm/) | Online studio for podcast and video recording, with transcription. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [SolidPoint](https://solidpoint.ai/) | AI productivity tools, including audio and video summarization. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Summarize.tech](https://www.summarize.tech/) | Generates summaries of long YouTube videos. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Summify](https://summify.io/) | Condenses long videos into short summaries. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [WavoAI](https://wavoai.com/) | Transcribes audio recordings and extracts insights. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+
+<br>
+
+## Music Generation
+
+Models that generate original music from text prompts or parameters.
+
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Jukebox](https://jukebox.openai.com/) | An OpenAI model that produces music, including basic singing, across genres and artist styles. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Magenta](https://magenta.tensorflow.org/) | A Google research project exploring machine learning for music and art. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Mubert](https://mubert.com/) | A platform for creating and streaming AI-generated music. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [MuseNet](https://openai.com/research/musenet) | An OpenAI model that generates 4-minute compositions with up to 10 instruments. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Stable Audio](https://stability.ai/stable-audio) | Stability AI's system for generating audio and music. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Suno](https://suno.com/) | Generates songs in various genres from text prompts. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+
+<br>
+
+## Text-to-Speech Synthesis
+
+Systems that convert text into spoken audio, often with control over voice,
+prosody, and language.
+
+### Text-to-Speech Models
+
+Text-to-speech models change quickly, and any static ranking goes stale fast.
+For an up-to-date comparison of models, voices, and pricing, see the
+continuously updated leaderboard:
 
 > [!NOTE]
-> The models are ranked according to their **Arena Elo score (Higher score is better)** from the [Artificial Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
+> [Artificial Analysis — Text-to-Speech leaderboard](https://artificialanalysis.ai/text-to-speech/models)
 
-| Organization       | Model Name                                                                       | Arena Elo | Licence     | Pricing   |
-|:------------------:|:----------------------------------------------------|:--------------------------------------------------------------------------------:|:--------------:|:---------------:|
-| [<img src="../Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="200" height="20" />](https://www.minimaxi.com/en) | [Speech-02-HD](https://www.minimax.io/news/speech-02-series) | 1176 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/) | [TTS-1-HD](https://platform.openai.com/docs/models/tts-1-hd) | 1146 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="200" height="20" />](https://www.minimaxi.com/en)| [Speech-02-Turbo](https://www.minimax.io/news/speech-02-series) | 1136 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/) | [TTS-1](https://platform.openai.com/docs/models/tts-1) | 1132 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/Elevenlabs.svg" alt="elevenlabs" width="200" height="20" />](https://elevenlabs.io/) | [Multilingual v2](https://elevenlabs.io/blog/eleven-multilingual-v2) | 1115 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/Elevenlabs.svg" alt="elevenlabs" width="200" height="20" />](https://elevenlabs.io/) | [Turbo v2.5](https://elevenlabs.io/blog/introducing-turbo-v2-5) | 1110 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/Elevenlabs.svg" alt="elevenlabs" width="200" height="20" />](https://elevenlabs.io/) | [Flash v2.5](https://elevenlabs.io/blog/meet-flash) | 1107 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/Cartesia.svg" alt="Cartesia" width="200" height="20" />](https://www.cartesia.ai/) | [Sonic English](https://docs.cartesia.ai/getting-started/available-models) | 1103 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Hexgrad](https://github.com/hexgrad/kokoro) | [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) | 1080 |  [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> | 
-| [<img src="../Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="200" height="20" />](https://www.minimaxi.com/en)| [T2A-01-HD](https://www.minimax.io/news/speech-01-hd-release) | 1073 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/amazon.svg" alt="Amazon" width="200" height="20" />](https://aws.amazon.com/ai/) | [Polly Generative](https://aws.amazon.com/polly/) | 1059 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/) | [Azure Neural](https://speech.microsoft.com/portal) | 1056 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/amazon.svg" alt="Amazon" width="200" height="20" />](https://aws.amazon.com/ai/) | [Polly Long-form](https://aws.amazon.com/polly/) | 1055 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [TTS Studio](https://cloud.google.com/text-to-speech?hl=en) | 1039 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="200" height="20" />](https://www.minimaxi.com/en)| [T2A-01-Turbo](https://www.minimax.io/news/speech-01) | 1031 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/FishAudio.svg" alt="fishaudio" width="200" height="20" />](https://fish.audio/) | [Fish Speech 1.5](https://fish.audio/) | 1027  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/PlayAI.svg" alt="playAI" width="200" height="20" />](https://play.ai/) | [Dialog](https://play.ai/play-dialog) | 1015  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [Zyphra](https://www.zyphra.com/)  | [Zonos v0.1](https://www.zyphra.com/post/beta-release-of-zonos-v0-1) | 1000 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/PlayAI.svg" alt="playAI" width="200" height="20" />](https://play.ai/) | [3.0 Mini](https://play.ai/play-mini) | 995  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/MurfAI.svg" alt="murfAI" width="200" height="20" />](https://murf.ai/) | [Murf Speech Gen 2](https://murf.ai/text-to-speech-gen-2) | 974  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/MyShell.svg" alt="myshell" width="200" height="20" />](https://research.myshell.ai)    | [OpenVoice V2](https://cloud.google.com/text-to-speech?hl=en) | 973 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/LMNT.svg" alt="LMNT" width="200" height="20" />](https://www.lmnt.com/) | [LMNT](https://www.lmnt.com/) | 971 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/StepFun.svg" alt="Stepfun" width="150" height="20" />](https://platform.stepfun.com/) | [Step TTS Mini](https://www.lmnt.com/) | 958 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/Coqui.svg" alt="Coqui" width="200" height="20" />](https://coqui.ai/) | [XTTS V2](https://huggingface.co/coqui/XTTS-v2) | 898 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/StyleTTS.svg" alt="StyleTTS" width="200" height="20" />](https://github.com/yl4579)       | [StyleTTS 2](https://huggingface.co/spaces/styletts2/styletts2) | 889  | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/MetaVoice.svg" alt="MetaVoice" width="200" height="20" />](https://studio.themetavoice.xyz/)      | [MetaVoice V1](https://github.com/metavoiceio/metavoice-src) | 784  | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+### Text-to-Speech Providers
 
-
-#### Text-to-Speech Providers
-| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
-| [Audioread](https://audioread.com/)                        | A transformative tool that converts text into lifelike speech.                                              | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [Bark](https://github.com/suno-ai/bark)                    | A groundbreaking text-to-audio model developed by Suno, leveraging GPT-style models.                        | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [Coqui](https://github.com/coqui-ai/TTS)                   | A pioneering project that focused on advancing generative voice technology.                                 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [Eleven Labs](https://elevenlabs.io/)                      | Industry leader proprietary tool for generating speech from text using deep learning.                       | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Listnr](https://listnr.ai/)                               | A cutting-edge AI voice generator that seamlessly converts text into natural-sounding speech.               | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [MeloTTS](https://github.com/myshell-ai/MeloTTS)           | An open-source text-to-speech tool that uses deep learning to generate high-quality speech synthesis.       | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [Metavoice](https://github.com/metavoiceio/metavoice-src)  | A groundbreaking model that has been developed to create human-like speech with emotional nuances.          | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [Murf](https://murf.ai/)                                   | A n innovative voice generator tool that revolutionizes the process of creating voiceovers.                 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [SpeechT5](https://github.com/microsoft/SpeechT5/)         | A cutting-edge model in speech synthesis and natural language processing that offers a unified approach to various speech-related tasks. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [Speechki](https://speechki.org/)                          | An advanced AI Realistic Voice Generator that offers over 1100 voices in more than 80 languages.            | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Unrealspeech](https://unrealspeech.com/)                  | A text-to-speech software that stands out for its human-like audio output, providing a superior listening experience. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/)   | A state-of-the-art text-to-speech (TTS) model that can perform zero-shot speech editing and TTS on diverse audio data. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Audioread](https://audioread.com/) | Converts text and articles into speech. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Bark](https://github.com/suno-ai/bark) | A text-to-audio model from Suno based on a GPT-style architecture. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Coqui](https://github.com/coqui-ai/TTS) | An open-source generative voice toolkit. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Eleven Labs](https://elevenlabs.io/) | Proprietary text-to-speech using deep learning. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Listnr](https://listnr.ai/) | An AI voice generator that converts text to speech. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [MeloTTS](https://github.com/myshell-ai/MeloTTS) | An open-source text-to-speech library. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Metavoice](https://github.com/metavoiceio/metavoice-src) | A model for human-like speech with emotional expression. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Murf](https://murf.ai/) | A voice generator for creating voiceovers. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [SpeechT5](https://github.com/microsoft/SpeechT5/) | A unified model for speech synthesis and other speech tasks. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Speechki](https://speechki.org/) | An AI voice generator with 1,100+ voices in 80+ languages. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Unrealspeech](https://unrealspeech.com/) | Text-to-speech with human-like audio output. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [VoiceCraft](https://jasonppy.github.io/VoiceCraft_web/) | A model for zero-shot speech editing and text-to-speech. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
 <br>
- 
-### Speech Recognition
 
-Speech recognition systems **convert acoustic signals into text through automated speech recognition (ASR) models.** These systems process audio input for text transcription and voice command interpretation.
+## Speech Recognition
 
-#### Speech-to-Text Models
+Systems that convert speech audio into text (automatic speech recognition).
+
+### Speech-to-Text Models
+
+Speech-to-text models change quickly, and any static ranking goes stale fast.
+For an up-to-date comparison ranked by Word Error Rate, see the continuously
+updated leaderboard:
 
 > [!NOTE]
-> Models are ranked according to their **Word Error Rate (%) (% of words transcribed incorrectly. Lower score is better)** from the [Artifical Analysis' Leaderboard](https://artificialanalysis.ai/speech-to-text).
+> [Artificial Analysis — Speech-to-Text leaderboard](https://artificialanalysis.ai/speech-to-text/non-streaming)
 
-| Organization       | Model Name					   | Word Error Rate (%) | Licence     | Pricing   |
-|:------------------:|:----------------------------------------------------|:-------------------:|:-----------:|:---------:|
-| [<img src="../Images/Organization/Elevenlabs.svg" alt="elevenlabs" width="200" height="20" />](https://elevenlabs.io/)  | [Scribe](https://elevenlabs.io/speech-to-text)    | 7.7 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Speechmatics.svg" alt="Speechmatics" width="200" height="20" />](https://www.speechmatics.com/)   | [Enhanced](https://www.speechmatics.com/)    | 8.6 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/AssemblyAI.svg" alt="AssemblyAI" width="200" height="20" />](https://www.assemblyai.com/)     | [Universal-2](https://www.assemblyai.com/research/universal-1)    | 8.6 |  [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/AssemblyAI.svg" alt="AssemblyAI" width="200" height="20" />](https://www.assemblyai.com/)     | [Universal-1](https://www.assemblyai.com/research/universal-1)    | 8.7 |  [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Chirp 2](https://cloud.google.com/speech-to-text?hl=en)    | 9.8 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/) | [Whisper Large V3](https://huggingface.co/openai/whisper-large-v3)               | 10.3 |  [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/) | [Whisper Large V2](https://huggingface.co/openai/whisper-large-v2)               | 10.6 |  [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="../Images/Organization/amazon.svg" alt="Amazon" width="200" height="20" />](https://aws.amazon.com/ai/) | [Transcribe](https://aws.amazon.com/transcribe/)    | 11.2 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Chirp](https://cloud.google.com/speech-to-text?hl=en)    | 12.4 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/Speechmatics.svg" alt="Speechmatics" width="200" height="20" />](https://www.speechmatics.com/)   | [Standard](https://www.speechmatics.com/)    | 12.6 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/Deepgram.svg" alt="Deepgram" width="200" height="20" />](https://deepgram.com/)       |  [Nova-3](https://deepgram.com/product/speech-to-text)    | 12.8 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/HuggingFace.svg" alt="HuggingFace" width="200" height="20" />](https://huggingface.co/) | [distil-large-v3](https://huggingface.co/openai/whisper-large-v3)    | 13.0 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="200" height="20" />](https://openai.com/) | [GPT-4o Transcribe](https://platform.openai.com/docs/models/gpt-4o-transcribe)               | 13.2 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Deepgram.svg" alt="Deepgram" width="200" height="20" />](https://deepgram.com/)       |  [Nova-2](https://deepgram.com/learn/nova-2-speech-to-text-api)    | 15.1 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/FishAudio.svg" alt="fishaudio" width="200" height="20" />](https://fish.audio/) | [Fish Speech to text](https://fish.audio/)                    | 19.1  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+### Speech-to-Text Providers
 
-#### Speech-to-Text Providers
-
- Tool             | Description                                                                                                                 | Models      | Pricing     |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [Amazon Web Services (AWS)](https://aws.amazon.com/bedrock/) | A fully managed service provided by Amazon Web Services (AWS) designed to facilitate the development of generative AI applications. | [Amazon Transcribe](https://aws.amazon.com/transcribe/) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [AssemblyAI](https://www.assemblyai.com/products/speech-to-text) | A powerful speech recognition and audio intelligence platform. | [Universal-1](https://www.assemblyai.com/research/universal-1) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Deepgram](https://deepgram.com/) | A powerful accurate speech recognition with advanced AI capabilities and developer-friendly tools. | [Nova-2](https://deepgram.com/learn/nova-2-speech-to-text-api) and [Whisper Large V2](https://huggingface.co/openai/whisper-large-v2)   | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [DeepInfra](https://deepinfra.com/chat) | A platform that provides scalable and cost-effective infrastructure for deploying machine learning models. | [Whisper Large V3](https://huggingface.co/openai/whisper-large-v3) and [distil-large-v3](https://huggingface.co/openai/whisper-large-v3) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Fal.ai](https://fal.ai/) | A powerful cloud platform designed for deploying and integrating AI models into applications. | [Whisper Large V3](https://huggingface.co/openai/whisper-large-v3) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Gladia](https://www.gladia.io/) | An advanced AI platform that specializes in real-time transcription, translation, and audio intelligence. | [Whisper Large V2](https://huggingface.co/openai/whisper-large-v2) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Google](https://cloud.google.com/speech-to-text?hl=en) |  A powerful service offered by Google Cloud that utilizes advanced machine learning techniques to convert spoken language into written text. | [Chirp](https://cloud.google.com/speech-to-text?hl=en) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Groq](https://groq.com/) | Specializes in high-performance AI inference with custom LPU (Language Processing Unit) hardware, offering models like Meta's Llama 3. |  [Whisper Large V3](https://huggingface.co/openai/whisper-large-v3) and [distil-large-v3](https://huggingface.co/openai/whisper-large-v3)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Microsoft Azure](https://azure.microsoft.com/) | A comprehensive suite of AI services and tools designed to help developers and organizations build, deploy, and manage AI applications at scale. |  [Whisper Large V2](https://huggingface.co/openai/whisper-large-v2) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [OpenAI](https://openai.com/index/whisper/) |  A state-of-the-art automatic speech recognition (ASR) system developed by OpenAI. | [Whisper Large V2](https://huggingface.co/openai/whisper-large-v2) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Replicate](https://replicate.com/home) | A cloud platform that allows developers to easily run and deploy open-source machine learning models. | All Whisper Familly | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Rev AI](https://www.rev.ai/) | A sophisticated speech recognition platform that provides automatic speech-to-text transcription services.  | Rev AI | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Speechmatics](https://www.speechmatics.com/) | A powerful AI-driven speech recognition and transcription platform. | [Universal-1](https://www.assemblyai.com/research/universal-1) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| Tool | Description | Models | Pricing |
+|:---|:---|:---:|:---:|
+| [Amazon Web Services (AWS)](https://aws.amazon.com/bedrock/) | Amazon's managed platform for building generative AI applications. | [Amazon Transcribe](https://aws.amazon.com/transcribe/) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [AssemblyAI](https://www.assemblyai.com/products/speech-to-text) | A speech recognition and audio intelligence platform. | [Universal-2](https://www.assemblyai.com/research/universal-2) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Deepgram](https://deepgram.com/) | A speech recognition API with developer-focused tooling. | [Nova-3](https://deepgram.com/product/speech-to-text) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [DeepInfra](https://deepinfra.com/chat) | Infrastructure for deploying machine learning models. | [Whisper Large V3](https://huggingface.co/openai/whisper-large-v3) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Fal.ai](https://fal.ai/) | A cloud platform for deploying AI models. | [Whisper Large V3](https://huggingface.co/openai/whisper-large-v3) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Gladia](https://www.gladia.io/) | A platform for real-time transcription, translation, and audio intelligence. | [Whisper Large V2](https://huggingface.co/openai/whisper-large-v2) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Google](https://cloud.google.com/speech-to-text?hl=en) | Google Cloud's speech-to-text service. | [Chirp 3](https://cloud.google.com/speech-to-text?hl=en) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Groq](https://groq.com/) | High-performance inference on custom LPU hardware. | [Whisper Large V3](https://huggingface.co/openai/whisper-large-v3) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Microsoft Azure](https://azure.microsoft.com/) | Azure's suite of AI services, including speech-to-text. | [Whisper Large V2](https://huggingface.co/openai/whisper-large-v2) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [OpenAI](https://openai.com/index/whisper/) | OpenAI's speech-to-text API, including Whisper and gpt-4o-transcribe. | [gpt-4o-transcribe](https://platform.openai.com/docs/models/gpt-4o-transcribe) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Replicate](https://replicate.com/home) | Run and deploy open-source models in the cloud. | Whisper family | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Rev AI](https://www.rev.ai/) | A speech-to-text transcription platform. | Rev AI | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Speechmatics](https://www.speechmatics.com/) | A speech recognition and transcription platform. | Enhanced / Standard | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
 
 <br>
 
-### Voice Assistants
+## Voice Assistants
 
-These systems combine multiple AI technologies to create interactive voice experiences.
+These systems combine multiple AI technologies to create interactive voice
+experiences.
 
-#### Voice Assistants Models
+### Voice Assistants Models
 
-| Organization       | Model Familly                                       | Best Model                                                                       | Licence     	| Pricing   	  |
-|:------------------:|:----------------------------------------------------|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
-| [<img src="../Images/Organization/Kyutai.svg" alt="Kyutai" width="250" height="25" />](https://kyutai.org/)  | [Moshi](https://moshi.chat/)     | [Moshi v0.1](https://huggingface.co/kyutai/moshiko-pytorch-bf16)                | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
+| Organization | Model Family | Best Model | License | Pricing |
+|:---:|:---|:---|:---:|:---:|
+| [<img src="../Images/Organization/Kyutai.svg" alt="Kyutai" width="250" height="25" />](https://kyutai.org/) | [Moshi](https://moshi.chat/) | [Moshi v0.1](https://huggingface.co/kyutai/moshiko-pytorch-bf16) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
-#### Voice Assistants Providers
+### Voice Assistants Providers
 
-| Tool             | Description                                                                                                                 | Models      | Pricing     |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [OpenAI](https://openai.com/index/chatgpt-can-now-see-hear-and-speak/) | Premium voice interface for GPT-4, offering natural conversations with high-quality voice synthesis and recognition. Features multiple voice options and seamless integration with ChatGPT.|  [GPT4-o](https://openai.com/index/hello-gpt-4o/) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />  |
-| [Gemini](https://gemini.google/assistant/?hl=en) | Google's conversational AI assistant offering natural voice interactions through the Gemini app. Features multilingual support, voice input/output, and integration with Google services. |  [Gemini 1.5 Pro](https://gemini.google.com/?hl=en) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| Tool | Description | Models | Pricing |
+|:---|:---|:---:|:---:|
+| [Amazon Alexa+](https://www.amazon.com/alexa) | Amazon's conversational assistant; routes each request to a specialized model via Amazon Bedrock. | [Amazon Nova / Claude](https://aws.amazon.com/bedrock/) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Gemini](https://gemini.google/assistant/?hl=en) | Google's conversational assistant (Gemini Live) in the Gemini app, with multilingual voice input and output and integration with Google services. | [Gemini 2.5 Flash Native Audio](https://blog.google/products/gemini/gemini-audio-model-updates/) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Grok](https://grok.com/) | xAI's conversational assistant in the Grok app, with low-latency, interruptible spoken conversation. | [Grok 4](https://x.ai/news/grok-4) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Kyutai Unmute](https://kyutai.org/unmute) | An open-source voice layer that wraps any text LLM with Kyutai's speech-to-text and text-to-speech for real-time conversation. | [Unmute](https://github.com/kyutai-labs/unmute) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [OpenAI](https://openai.com/index/chatgpt-can-now-see-hear-and-speak/) | Advanced Voice Mode for ChatGPT, with natural, low-latency spoken conversation. | [GPT-Realtime](https://openai.com/index/introducing-gpt-realtime/) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Perplexity](https://www.perplexity.ai/) | Voice mode in the Perplexity app, giving spoken answers backed by live web search. | [GPT Realtime](https://openai.com/index/introducing-gpt-realtime/) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Sesame](https://www.sesame.com/) | Conversational voice companions (Maya and Miles) built on an open-sourced speech model. | [CSM](https://github.com/SesameAILabs/csm) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
 <br>
 
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
 
 </div>
 
