@@ -1,67 +1,108 @@
-<div align="center"> 
+<div align="center">
 
 <img src="../Images/AIEnhancedWork.png">
 
 <br>
 <br>
 
-***A curated index of impactful AI tools and models that emphasizes technical merit, practical utility and Prioritizing open-source.***
-
-**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
-
-<br>
-
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](../LICENSE.md)
 
 <br>
 
-[⬅️ Back to the Main Page](../README.md) 
+[Back to the main index](../README.md)
 
 </div>
 
 <br>
 
-# Table of contents
+# Automation
 
-- [Autonomous Agents](#autonomous-agents)
-- [Automation tools](#automation-tools)
+Agents and tools that carry out tasks with limited human input, from
+general-purpose AI agents and browser automation to open-source frameworks
+and no-code workflow platforms.
 
 <br>
 
-# Automation
+## Table of contents
 
-### Autonomous Agents
+- [Autonomous Agents](#autonomous-agents)
+  - [General-purpose Agents](#general-purpose-agents)
+  - [Browser and Computer-use Agents](#browser-and-computer-use-agents)
+  - [Agent Frameworks](#agent-frameworks)
+- [Automation Tools](#automation-tools)
 
-AI agents are autonomous software systems that execute predefined tasks through decision-making algorithms and environment interaction protocols. These systems **implement adaptive learning mechanisms and inter-agent communication frameworks to achieve specified objectives.**
+<br>
 
-| Tool                                     | Description                                                                                                                                  | Licence     | Pricing     |
-|:-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [AgentGPT](https://agentgpt.reworkd.ai/) | A generative artificial intelligence tool that allows users to create autonomous AI agents capable of performing various tasks. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)        | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
-| [Cognosys](https://www.cognosys.ai/)     | An AI assistant that can help you automate tasks, organize your work, and perform research.                                                  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
-| [Evo.ninja](https://evo.ninja/)          | A generalist agent that can flow between multiple agent personas to solve any task.                                                          | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)       | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
-| [Godmode](https://godmode.space/)        |  A web platform that provides access to innovative AI agents like autoGPT and babyAGI, allowing users to harness the power of autonomous AI agents. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />    |
-| [Super AGI](https://superagi.com/)       | An open-source autonomous AI agent framework that enables developers to build, manage, and run useful autonomous agents efficiently and reliably. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)   | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />    |
+## Autonomous Agents
 
-### Automation tools
+Agents that plan and carry out multi-step tasks with limited supervision. This
+section covers hosted general-purpose agents, agents that operate a browser or
+desktop directly, and open-source frameworks for building your own.
 
-Execute predefined task sequences through algorithmic workflows to **optimize process efficiency and minimize operational variance.**
+### General-purpose Agents
 
-| Tool             | Description                                                                                                                   | Licence       | Pricing       |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-------------:|:-------------:|
-| [Bardeen](https://www.bardeen.ai/) | An AI-powered automation platform that enables users to automate repetitive tasks across various applications without writing code. It offers pre-built integrations with popular tools and allows users to create custom workflows. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Cykel](https://www.cykel.ai/) | an AI company focused on developing intelligent automation solutions that can understand natural language and interact with various software and websites to automate complex digital tasks for businesses. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Gumloop](https://www.gumloop.com/) | AI-native workflow automation platform that allows users to build complex automations by visually connecting modular components on a canvas | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Lindy](https://www.lindy.ai/) | An advanced automation platform designed to create custom AI assistants that streamline various business workflows without requiring coding skills. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [N8N](https://n8n.io/) | A free and open-source fair-code licensed workflow automation tool. It allows users to create workflows using a visual editor and connect various services to automate tasks. N8N can be self-hosted, providing users with more control over their data. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [ProFlow](https://useproflow.com/) | an AI-powered workflow automation and optimization platform that helps businesses streamline their sales, marketing, and operations processes. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Taskade](https://www.taskade.com/) | An all-in-one collaboration platform that combines project management, task tracking, and team communication features. It offers real-time syncing, customizable templates, and integrations with popular tools. Taskade also has AI-powered features like smart due dates and natural language processing for better task management. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Zapier](https://zapier.com/) | A popular web-based automation platform that connects various apps and services to automate workflows. It offers a wide range of pre-built integrations and allows users to create custom automation rules called "Zaps" without needing to write code. Zapier's AI capabilities include filtering, formatting, and transforming data between apps. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+Hosted agents that take a goal and autonomously plan, use tools, and return a
+result.
+
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [ChatGPT Agent](https://openai.com/index/introducing-chatgpt-agent/) | OpenAI's agent mode in ChatGPT, which can browse, run code, and use tools to complete tasks end to end. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Genspark](https://www.genspark.ai/) | A general-purpose agent for research, document, and media tasks, with its own built-in tool set. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Hermes Agent](https://github.com/nousresearch/hermes-agent) | An open-source, self-hosted agent from Nous Research with persistent memory that improves as it runs. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Manus](https://manus.im/) | A general-purpose agent that plans and executes multi-step tasks such as research, analysis, and content production. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Microsoft Copilot](https://copilot.microsoft.com/) | Microsoft's assistant with an agent mode that completes tasks across Microsoft 365 apps. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [OpenClaw](https://github.com/openclaw/openclaw) | An open-source, self-hosted agent that connects LLMs to your apps, browser, and system tools, controlled from a chat app. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+
+### Browser and Computer-use Agents
+
+Agents that act directly in a web browser or on the desktop, clicking, typing,
+and navigating applications on your behalf.
+
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [OpenAI Atlas](https://openai.com/index/introducing-chatgpt-atlas/) | OpenAI's browser with an agent mode that completes multi-step tasks on the web. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Perplexity Comet](https://www.perplexity.ai/comet) | Perplexity's browser with an assistant that researches, summarizes, and completes tasks within the page. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Claude (Computer Use)](https://www.anthropic.com/claude) | Anthropic's Claude controlling a browser or desktop to complete tasks, via Claude in Chrome and Claude Cowork. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Google Project Mariner](https://deepmind.google/models/project-mariner/) | Google DeepMind's agent that navigates and acts within the browser, available in the Gemini app. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Browser Use](https://browser-use.com/) | An open-source framework that lets AI models control a browser for custom automation. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+
+### Agent Frameworks
+
+Open-source libraries for building, orchestrating, and running your own agents.
+
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | One of the first autonomous-agent projects, now a platform for building and running agents. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [CrewAI](https://www.crewai.com/) | A framework for orchestrating role-based teams of collaborating agents. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [LangGraph](https://www.langchain.com/langgraph) | A framework from the LangChain ecosystem for building stateful, controllable agents as graphs. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Microsoft AutoGen](https://github.com/microsoft/autogen) | A Microsoft framework for multi-agent conversational systems. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | OpenAI's lightweight SDK for building agents with tools, handoffs, and guardrails. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [smolagents](https://github.com/huggingface/smolagents) | A minimal agent library from Hugging Face, focused on code-writing agents. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Google ADK](https://google.github.io/adk-docs/) | Google's Agent Development Kit for building and deploying agents. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+
+<br>
+
+## Automation Tools
+
+Platforms for connecting apps and automating workflows, increasingly with AI
+steps built in.
+
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Activepieces](https://www.activepieces.com/) | An open-source workflow automation platform with a visual builder. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Bardeen](https://www.bardeen.ai/) | A no-code automation tool for repetitive tasks across web applications. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Gumloop](https://www.gumloop.com/) | An AI-native platform for building automations by connecting modular nodes on a canvas. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Lindy](https://www.lindy.ai/) | A no-code platform for building AI assistants that automate business workflows. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Make](https://www.make.com/) | A visual platform for building multi-step automations across thousands of apps. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [n8n](https://n8n.io/) | An open-source, self-hostable workflow automation tool with a visual editor. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Relay.app](https://www.relay.app/) | An automation platform that combines workflows with AI steps and human approvals. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Zapier](https://zapier.com/) | A widely used automation platform connecting thousands of apps with no-code "Zaps". | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
 <br>
 
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
 
 </div>
 
