@@ -108,6 +108,7 @@ Each entry is annotated with a license badge and a pricing badge.
     - [Text/Image-to-3D Models](Docs/Computer_Vision.md#textimage-to-3d-models)
 - [Data Analysis](Docs/Data_Analysis.md)
   - [AI-Powered Data Analysis and Visualization Tools](Docs/Data_Analysis.md#ai-powered-data-analysis-and-visualization-tools)
+  - [Business Intelligence Platforms](Docs/Data_Analysis.md#business-intelligence-platforms)
   - [Specialized Tools](Docs/Data_Analysis.md#specialized-tools)
     - [Spreadsheet Tools](Docs/Data_Analysis.md#spreadsheet-tools)
 - [Foundation Models](Docs/Foundation_Models.md)
