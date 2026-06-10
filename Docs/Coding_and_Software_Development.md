@@ -1,248 +1,210 @@
-<div align="center"> 
+<div align="center">
 
 <img src="../Images/AIEnhancedWork.png">
 
 <br>
 <br>
 
-***A curated index of impactful AI tools and models, that emphasizes technical merit, practical utility and Prioritizing open-source.***
-
-**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
-
-<br>
-
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](../LICENSE.md)
 
 <br>
 
-[⬅️ Back to the Main Page](../README.md) 
+[Back to the main index](../README.md)
 
 </div>
 
 <br>
 
-# Table of contents
-
-- [Agentic Coding Tools](#agentic-coding-tools)
-- [Coding LLMs](#coding-llms)
-  - [Generalist Coding LLMs](#generalist-coding-llms) 
-  - [Task-Specific Coding LLMs](#task-specific-coding-llms)
-    - [UI Generation LLMs](#ui-generation-llms)
-- [AI-Augmented Integrated Development Environments](#ai-augmented-integrated-development-environments)
-- [Code Completion \& In-Editor Assistants](#code-completion--in-editor-assistants)
-- [AI Development Agents \& Task Automation](#ai-development-agents--task-automation)
-- [App Building Tools](#app-building-tools)
-- [Website Building Tools](#website-building-tools)
-
-<br>
-
 # Coding and Software Development
 
+AI tools and models for writing software: autonomous coding agents, coding
+models, AI-augmented IDEs, in-editor assistants, and tools for building apps
+and websites.
+
 <br>
 
-### Agentic Coding Tools
+## Table of contents
 
-Agentic coding tools are advanced software systems that use AI agents—typically powered by LLMs to **autonomously perform complex software engineering tasks.**
+- [Coding and Software Development](#coding-and-software-development)
+  - [Table of contents](#table-of-contents)
+  - [Agentic Coding Tools](#agentic-coding-tools)
+    - [Command-Line (CLI) Agents](#command-line-cli-agents)
+    - [Autonomous & Cloud Agents](#autonomous--cloud-agents)
+  - [Coding LLMs](#coding-llms)
+  - [AI-Augmented Integrated Development Environments](#ai-augmented-integrated-development-environments)
+  - [Code Completion \& In-Editor Assistants](#code-completion--in-editor-assistants)
+  - [AI Development Agents \& Task Automation](#ai-development-agents--task-automation)
+  - [App Building Tools](#app-building-tools)
+  - [Website Building Tools](#website-building-tools)
+
+<br>
+
+## Agentic Coding Tools
+
+Tools in which an AI agent autonomously plans and carries out
+software-engineering tasks across a codebase.
 
 > [!NOTE]
-> Tools are ranked by **[LiveSWEBench](https://liveswebench.ai/) A Challenging, Contamination-Free Benchmark for AI Software Engineers. Scores are represented as a percentage of resolved tasks (Higher score is better).**
->
-> This benchmark evaluate the software engineering capabilities of AI agent applications including tasks such as **agentic programming** (autonomous task completion), **targeted editing** (direct file modifications), and **autocompletion** (code snippet continuation).
+> For benchmarked rankings of AI software engineers, see
+> [LiveSWEBench](https://liveswebench.ai/) and the
+> [Artificial Analysis Coding Agents leaderboard](https://artificialanalysis.ai/agents/coding-agents).
 
+### Command-Line (CLI) Agents
 
-| Tool       | Description                                                                                                           | Score     | Licence     | Pricing  |
-|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|:-------------:|
-| [SWE-Agent](https://swe-agent.com/latest/) | An open-source tool that enables LLMs to autonomously interact with real GitHub repositories | 47.83 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [OpenHands](https://docs.all-hands.dev/) | An Open Platform for AI Software Developers as Generalist Agents. | 46.89 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Cursor](https://www.cursor.com/) | AI-first IDE designed to accelerate development with intelligent code generation, editing, and understanding. | 43.67 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | 43.04 |  [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Windsurf](https://windsurf.com/editor) | AI-powered code editor focused on boosting developer productivity with features like AI-driven refactoring and code generation. | 43.02 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) | AI-powered coding features within the Claude platform, enabling users to generate, analyze, and refine code efficiently. | 39.32 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Aider](https://aider.chat/)    | an AI-powered pair programming tool designed to assist developers in writing and editing code directly from the command line.  | 33.47 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Amazon Q](https://aws.amazon.com/q/) | A generative AI–powered assistant from AWS designed to help software engineers build, operate, and transform software more efficiently. | 30.30 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli)    | An open-source AI agent that brings the power of Gemini directly into your terminal.  | **Pending** | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+Coding agents that run in your terminal and work in your existing environment.
 
-<br>
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Aider](https://aider.chat/) | An open-source pair-programming agent that edits code from the command line with Git integration. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Claude Code](https://www.anthropic.com/claude-code) | Anthropic's terminal-based coding agent that works in your existing environment. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Codex CLI](https://github.com/openai/codex) | OpenAI's open-source terminal coding agent, powered by its models. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Factory Droid](https://factory.ai/) | Factory's terminal agent with specialized sub-agents for implementation, research, and incident response. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Google's open-source terminal agent for Gemini. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Goose](https://block.github.io/goose/) | Block's open-source, on-machine agent for coding and automation. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [OpenCode](https://opencode.ai/) | An open-source terminal coding agent that works across many models, including local ones. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [SWE-agent](https://swe-agent.com/latest/) | An open-source agent that autonomously resolves issues in real GitHub repositories. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Warp](https://www.warp.dev/) | A Rust-based terminal with built-in agents that can also orchestrate Claude Code, Codex, and Gemini CLI. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
-### Coding LLMs 
+### Autonomous & Cloud Agents
 
- AI models specifically trained on code to **assist with tasks like writing, completing, and understanding software.**
+Hosted or background agents that take a task and work toward it asynchronously.
 
-> [!Tip]
-> Follow our [integration guide](../Tutorials/how-to-use-llms-in-coding.md) to **configure cloud-based and local LLM providers within your development environment.**
-
-#### Generalist Coding LLMs 
-
-> [!IMPORTANT]
->
-> **Generalist models can match or exceed domain-specific coding models in certain tasks.** Compare scores across both model categories in our [dedicated section](../Tutorials/how-to-use-llms-in-coding.md#find-the-model-that-is-right-for-you).
-
-***Large-scale models (>70 billion parameters)*** : These require significant amounts of both RAM and GPU memory, often rendering local installation infeasible for most users. Consequently, such models are predominantly deployed on cloud-based platforms designed to provide the essential computational resources needed.
-
-| Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
-| [<img src="../Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-Coder-480B-A35B-Instruct](https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct) | 480B | 1M |
-| [<img src="../Images/Organization/Deepseek.svg" alt="Deepseek" width="200" height="20" />](https://www.deepseek.com/) | [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct) | 236B | 128K|
-| [<img src="../Images/Organization/MoonshotAI.svg" alt="MoonshotAI" width="200" height="20" />](https://www.moonshot.ai/) | [Kimi-Dev-72B](https://huggingface.co/moonshotai/Kimi-Dev-72B)  | 72B  | 131K |
-| [<img src="../Images/Organization/Meta.svg" alt="Meta" width="200" height="20" />](https://ai.meta.com/) | [CodeLlama-70b-Instruct-hf](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)  | 70B  | 16K |
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS's AI assistant and agent for building, testing, and modernizing software. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Devin](https://devin.ai/) | Cognition's autonomous software engineer that completes tasks end to end. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Jules](https://jules.google/) | Google's asynchronous coding agent that works on tasks in the background. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [OpenHands](https://www.all-hands.dev/) | An open-source platform of generalist software-development agents (formerly OpenDevin). | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
 <br>
 
-***Mid-sized models (>14B parameters)*** : These are well-suited for local deployment on high-end workstations. However, such deployment demands substantial investment in hardware, including a powerful GPU and other components, with total costs generally falling between $2,000 to $3,400 (or equivalent).
+## Coding LLMs
 
-| Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
-| [<img src="../Images/Organization/IBM.svg" alt="ibm" width="200" height="20" />](https://github.com/ibm-granite/) | [Granite-34b-code-instruct-8k](https://huggingface.co/ibm-granite/granite-34b-code-instruct-8k) | 34B | 8k |
-| [<img src="../Images/Organization/Map.svg" alt="Map" width="200" height="20" />](https://m-a-p.ai/) | [OpenCodeInterpreter-DS-33B](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B) | 33B | 8K |
-| [Kwaipilot](https://huggingface.co/Kwaipilot) | [KAT-Dev](https://huggingface.co/Kwaipilot/KAT-Dev) | 32B | 132K |
-| [<img src="../Images/Organization/Alibaba.svg" alt="Alibaba" width="200" height="20" />](https://qwenlm.github.io/) | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) | 32B | 132K |
-| [<img src="../Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [OpenCodeReasoning-Nemotron-1.1-32B](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-32B) | 32B | 128K |
-| [<img src="../Images/Organization/AllHands.svg" alt="AllHands" width="200" height="20" />](https://www.all-hands.dev/) | [Openhands-lm-32b-v0.1](https://huggingface.co/all-hands/openhands-lm-32b-v0.1) | 32B | 132K |
-| [<img src="../Images/Organization/Agentica.svg" alt="Agentica" width="200" height="20" />](https://huggingface.co/agentica-org)  | [DeepSWE-Preview](https://huggingface.co/agentica-org/DeepSWE-Preview) | 32B | 131K |
-| [<img src="../Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)  | [NextCoder-32B](https://huggingface.co/microsoft/NextCoder-32B) | 32B | 32K |
-| [<img src="../Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-Coder-30B-A3B-Instruct](https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct) | 30B | 262K |
-| [<img src="../Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Devstral-Small-2507](https://huggingface.co/mistralai/Devstral-Small-2507) | 23.6B | 128K |
-| [<img src="../Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Codestral-22B-v0.1](https://huggingface.co/mistralai/Codestral-22B-v0.1) | 22B | 33K |
-| [<img src="../Images/Organization/AntGroup.svg" alt="AntGroup" width="110" height="25" />](https://github.com/inclusionAI)| [Ling-Coder-lite](https://huggingface.co/inclusionAI/Ling-Coder-lite) | 16.8B | 8K |
-| [<img src="../Images/Organization/BigCode.svg" alt="BigCode" width="200" height="20" />](https://www.bigcode-project.org/) | [Starcoder2-15b](https://huggingface.co/bigcode/starcoder2-15b) | 15B | 4K |
-| [<img src="../Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [OpenCodeReasoning-Nemotron-1.1-14B](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-14B) | 14B | 128K |
-| [<img src="../Images/Organization/Agentica.svg" alt="Agentica" width="200" height="20" />](https://github.com/agentica-project) | [DeepCoder-14B-Preview](https://huggingface.co/agentica-org/DeepCoder-14B-Preview) | 14B | 64K |
-| [<img src="../Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)  | [NextCoder-14B](https://huggingface.co/microsoft/NextCoder-14B) | 14B | 32K |
+AI models trained on code to help write, complete, and understand software.
+
+> [!TIP]
+> Follow our [integration guide](../Tutorials/how-to-use-llms-in-coding.md) to
+> configure cloud-based and local LLM providers in your development environment.
+
+Coding models change quickly, and any static ranking goes stale fast. For an
+up-to-date comparison of coding models and agents, see the continuously
+updated leaderboards:
+
+> [!NOTE]
+> - [Artificial Analysis — Coding Agents leaderboard](https://artificialanalysis.ai/agents/coding-agents)
+> - [LM Arena — Code Arena leaderboard](https://arena.ai/leaderboard/code/webdev)
 
 <br>
 
-***Smaller models (<14B parameters)*** : These are lightweight and easily deployable on medium machines, offering broader accessibility. They typically require a mid-range consumer configuration, with costs generally between $700 to $1,400 (or equivalent).
+## AI-Augmented Integrated Development Environments
 
-| Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
-| [<img src="../Images/Organization/01AI.svg" alt="01AI" width="200" height="20" />](https://www.01.ai/) | [Yi-Coder-9B-Chat](https://huggingface.co/01-ai/Yi-Coder-9B-Chat) | 9B | 128K |
-| [<img src="../Images/Organization/ByteDance.svg" alt="Bytedance" width="200" height="20" />](https://www.bytedance.com/en/) | [Seed-Coder-8B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-Coder-8B-Instruct) | 8B | 32K |
-| [<img src="../Images/Organization/Mistral.svg" alt="Mistral" width="200" height="20" />](https://mistral.ai/) | [Mamba-Codestral-7B-v0.1](https://huggingface.co/mistralai/mamba-codestral-7B-v0.1) | 7B | 256k |
-| [<img src="../Images/Organization/nvidia.svg" alt="Nvidia" width="200" height="20" />](https://build.nvidia.com/)  | [OpenCodeReasoning-Nemotron-1.1-7B](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-7B) | 7B | 128K |
-| [<img src="../Images/Organization/Microsoft.svg" alt="microsoft" width="200" height="20" />](https://www.microsoft.com/)  | [NextCoder-7B](https://huggingface.co/microsoft/NextCoder-7B) | 7B | 32K |
-| [<img src="../Images/Organization/Google.svg" alt="Google" width="200" height="20" />](https://gemini.google.com/) | [Codegemma-1.1-7b-it](https://huggingface.co/google/codegemma-1.1-7b-it) | 7B | 8K |
-| [Bralynn](https://huggingface.co/bralynn) | [pydevmini1](https://huggingface.co/bralynn/pydevmini1) | 4B | 262K |
-| [<img src="../Images/Organization/JetBrains.svg" alt="JetBrains" width="90" height="25" />](https://www.jetbrains.com/) | [Mellum-4b-sft-python](https://huggingface.co/JetBrains/Mellum-4b-sft-python) | 4B | 8K |
+Editors and IDEs with AI built in for code generation, analysis, and in-context
+assistance.
 
-<br>
-
-#### Task-Specific Coding LLMs
-
-##### Cybersecurity 
-
-| Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
-| [Cisco Foundation AI](https://fdtn.ai/) | [Foundation-Sec-8B-Instruct](https://huggingface.co/fdtn-ai/Foundation-Sec-8B-Instruct) | 8B | 128K |
-
-##### UI Generation LLMs
-
-| Organization   | Model Name                                    | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)   | [Context Window](https://research.ibm.com/blog/larger-context-window)  |
-|:--------------:|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------:|:-------------:|
-| [Tesslate](https://tesslate.com/) | [UIGEN-X-32B-0727](https://huggingface.co/Tesslate/UIGEN-X-32B-0727) | 32B | 128K |
-| [Tesslate](https://tesslate.com/) | [WEBGEN-OSS-20B](https://huggingface.co/Tesslate/WEBGEN-OSS-20B) | 20.9B | 128K |
-| [Tesslate](https://tesslate.com/) | [UIGEN-X-4B-0729](https://huggingface.co/Tesslate/UIGEN-X-4B-0729) | 4B | 128K |
-| [Tesslate](https://tesslate.com/) | [WEBGEN-4B-Preview](https://huggingface.co/Tesslate/WEBGEN-4B-Preview) | 4B | 128K |
-
-<br>
-<br>
-
-### AI-Augmented Integrated Development Environments
-
-Integrated Development Environments (IDEs) **leverage LLM capabilities for code generation, real-time analysis, and syntax optimization, enabling automated code review and contextual development assistance.**
-
-| Tool             | Description                                                                                                                 | OS     | Models     | Licence       | Pricing    |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|:-----------:|:-----------:|
-| [Avante](https://github.com/yetone/avante.nvim) | Neovim plugin emulating Cursor AI IDE features for enhanced AI-driven development. | All | All Models via API Providers + Locally provided Models | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Cursor](https://www.cursor.com/) | AI-first IDE designed to accelerate development with intelligent code generation, editing, and understanding. | All | [Models list](https://docs.cursor.com/models#models) | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Firebase Studio](https://firebase.studio/) | Firebase Studio is a cloud-based development environment designed to help developers rapidly prototype, build, and deploy full-stack AI-powered applications directly from their browser.  | Browser | Gemini | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Qoder](https://qoder.com/) | An AI-native coding platform that enables developers to optimize their workflows by delegating complex software development tasks to capable AI agents  | MacOS / Windows | All | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Visual Studio Code with Extensions](https://code.visualstudio.com/) |Popular, extensible editor by Microsoft, augmented with AI capabilities through various extensions. | All | All Models via API Providers + Locally provided Models| [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Windsurf](https://windsurf.com/editor) | AI-powered code editor focused on boosting developer productivity with features like AI-driven refactoring and code generation. | All | [Models list](https://docs.windsurf.com/plugins/cascade/models) + Locally provided Models | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Zed](https://zed.dev/) |  High-performance, collaborative code editor with deeply integrated AI for autocompletion, chat, and code analysis.  | All | [Models list](https://zed.dev/docs/ai/models?highlight=models#models) + Locally provided Models | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-
+| Tool | Description | OS | Models | License | Pricing |
+|:---|:---|:---:|:---:|:---:|:---:|
+| [Avante](https://github.com/yetone/avante.nvim) | A Neovim plugin that brings Cursor-style AI features to Neovim. | All | Via API providers + local | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Cursor](https://www.cursor.com/) | An AI-first IDE with strong multi-file editing and codebase awareness. | All | [Models list](https://docs.cursor.com/models#models) | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Firebase Studio](https://firebase.studio/) | A browser-based environment for prototyping and deploying full-stack AI apps. | Browser | Gemini | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Google Antigravity](https://antigravity.google/) | Google's agent-first development platform, built on a VS Code fork, for orchestrating multiple coding agents. | macOS / Windows / Linux | Gemini + others | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Kiro](https://www.kiro.dev/) | AWS's agentic IDE built around spec-driven development. | macOS / Windows / Linux | Claude | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [PearAI](https://trypear.ai/) | An open-source, standalone VS Code fork with integrated AI, positioned as a Cursor alternative. | All | Via API providers + local | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Qoder](https://qoder.com/) | An AI-native IDE that delegates development tasks to coding agents. | macOS / Windows | Multiple | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Trae](https://www.trae.ai/) | ByteDance's AI IDE with an agent for building features across files. | macOS / Windows | Multiple | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Visual Studio Code](https://code.visualstudio.com/) | Microsoft's extensible editor, augmented with AI through extensions. | All | Via API providers + local | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Windsurf](https://windsurf.com/editor) | An AI-first code editor with the Cascade agent for autonomous, multi-file work. | All | [Models list](https://docs.windsurf.com/plugins/cascade/models) + local | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Zed](https://zed.dev/) | A fast, collaborative editor written in Rust with integrated AI. | All | [Models list](https://zed.dev/docs/ai/models) + local | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
 <br>
 
-### Code Completion & In-Editor Assistants
+## Code Completion & In-Editor Assistants
 
-Tools primarily focused on real-time code suggestions, autocompletion, and direct assistance within the coding environment to accelerate development and improve code quality.
+Tools that add real-time suggestions, autocompletion, and chat to an existing
+editor.
 
-| Tool       | Description                                                                                                           | Licence     | Pricing  |
-|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
-| [Alex Codes](https://www.alexcodes.app/)    | An AI-powered coding assistant and sidebar extension designed specifically for iOS and macOS developers working in Xcode. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |[<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Amp](https://ampcode.com/)    | An AI-powered coding assistant that offers code suggestions, debugging help and tool use. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |[<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [AskCodi](https://www.askcodi.com/)    | An AI-powered coding assistant that offers code suggestions, debugging help, and explanations for code snippets. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |[<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Augment Code](https://www.augmentcode.com/)    | An advanced AI-powered coding assistant designed for professional software engineers, particularly those working with large and complex codebases. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |[<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Blackbox](https://www.blackbox.ai/)   | An AI coding assistant offering code chat, autocompletion, and code search to accelerate development. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Cline](https://github.com/cline/cline)     | a VSCode extension that uses AI to act as an autonomous coding agent, streamlining software development by automating tasks like file manipulation, command execution, and web browsing directly within the IDE. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |<img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Codeium](https://codeium.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [CodeWhisperer](https://aws.amazon.com/codewhisperer/)    | Developed by Amazon, provide real-time code suggestions and completions. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Continue](https://www.continue.dev/)     | An open-source autopilot for software development that enables developers to create their own AI code assistant within their integrated development environment (IDE) like VS Code or JetBrains IDEs. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |<img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Copilot](https://github.com/features/copilot) | Developed by GitHub and OpenAI, provide real-time code suggestions and completions. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | JetBrains is working on integrating AI capabilities into their development tools. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) |<img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />        |
-| [Kilo Code](https://kilocode.ai/)     | An open-source, AI-powered coding assistant and agent platform designed to automate and enhance software development directly within your code editor. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |<img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Roo Code](https://github.com/RooCodeInc/Roo-Code)     | An open-source AI agent that functions autonomously to debug, code, and evolve software with little human involvement. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |<img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Tabnine](https://www.tabnine.com/)    | An AI-powered code completion tool that helps developers write code faster and more accurately. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-
-<br>
-
-### AI Development Agents & Task Automation
-
-Tools that offer more autonomous capabilities, acting as AI agents for tasks like pair programming, test generation, application scaffolding, or executing complex coding instructions.
-
-| Tool       | Description                                                                                                           | Licence     | Pricing  |
-|:-----------|-----------------------------------------------------------------------------------------------------------------------|:-----------:|:-------------:|
-| [Aider](https://aider.chat/)    | an AI-powered pair programming tool designed to assist developers in writing and editing code directly from the command line.  | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [AppMap](https://appmap.io/)     | An AI-powered tool that that records and visualizes your application's real runtime behavior—like function to help you deeply understand, debug, and improve your code.| [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Qodo](https://www.qodo.ai/)     | An AI-powered tool that analyze your code, docstring, and comments and suggests tests as you code. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Llamacoder](https://llamacoder.together.ai/) | An open source Claude Artifacts – generate small apps with one prompt. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | Open Interpreter is an innovative open-source project that allows language models to execute code on a user's computer to complete various tasks. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Replit AI](https://replit.com/ai)  | A coding assistant and tutorial platform developed by Replit, offering code suggestions and explanations. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Yappus Terminal](https://yappus-term.vercel.app/) | A modern terminal interface for your AI assistant, bringing intelligence to your command line. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)  | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [ZenCoder](https://zencoder.ai/)  | An advanced AI-powered coding agent platform designed to automate and streamline software development workflows. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Alex Codes](https://www.alexcodes.app/) | An AI coding assistant for Xcode on iOS and macOS development. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Amp](https://ampcode.com/) | Sourcegraph's AI coding assistant with agentic tool use. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [AskCodi](https://www.askcodi.com/) | An AI assistant for code suggestions, explanations, and debugging. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Augment Code](https://www.augmentcode.com/) | An AI assistant aimed at large, complex codebases. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Blackbox](https://www.blackbox.ai/) | An AI assistant for code chat, autocompletion, and search. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Cline](https://github.com/cline/cline) | An open-source VS Code extension that acts as an autonomous coding agent. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Cody](https://sourcegraph.com/cody) | Sourcegraph's AI assistant with codebase-wide context. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Continue](https://www.continue.dev/) | An open-source assistant for building custom AI code helpers in VS Code and JetBrains. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Gemini Code Assist](https://codeassist.google/) | Google's AI coding assistant with a generous free tier. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [GitHub Copilot](https://github.com/features/copilot) | GitHub and OpenAI's in-editor assistant for completions and chat, with an agent mode. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [JetBrains AI](https://www.jetbrains.com/ai/) | AI assistance integrated across JetBrains IDEs. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Kilo Code](https://kilocode.ai/) | An open-source AI coding assistant and agent for your editor. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Roo Code](https://github.com/RooCodeInc/Roo-Code) | An open-source autonomous coding agent for VS Code. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Tabnine](https://www.tabnine.com/) | An AI code completion tool with privacy and self-hosting options. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
 <br>
 
-### App Building Tools
+## AI Development Agents & Task Automation
 
-App building tools leverage **automated code generation and design tools to streamline the development process, allowing users to create functional applications quickly and efficiently.**
+Specialized tools that automate parts of the development workflow, such as code
+review, testing, runtime analysis, and task execution.
 
-| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------|-----------|
-| [Bolt](https://bolt.new/)              | An AI-powered web development agent designed for creating, running, editing, and deploying full-stack applications. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [Dyad](https://www.dyad.sh/)              | An AI tool designed for both building AI applications and functioning as an AI coding mentor and pair programmer. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)        | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />        |
-| [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer) |  An AI-powered application builder that generates codebases from natural language project descriptions.  | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)        | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />    |
-| [Lovable](https://lovable.dev/)              | An AI tool that generates responsive front-end web applications from natural language prompts. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [v0 by Vercel](https://v0.dev/)              | An AI-powered tool designed to generate user interfaces (UI) and corresponding code based on natural language text prompts or image. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [AppMap](https://appmap.io/) | Records and visualizes an application's runtime behavior to help understand and debug code. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [CodeRabbit](https://www.coderabbit.ai/) | An AI code reviewer that comments on pull requests. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Graphite](https://graphite.dev/) | A code review platform built around stacked changes, with an AI reviewer. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Greptile](https://www.greptile.com/) | An AI code reviewer that indexes the whole codebase to catch cross-file issues. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | An open-source tool that lets language models run code on your machine to complete tasks. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Qodo](https://www.qodo.ai/) | An AI tool that generates and maintains tests and reviews code. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [ZenCoder](https://zencoder.ai/) | An AI coding agent platform for automating development workflows. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
 <br>
 
-### Website Building Tools
+## App Building Tools
 
-Website generation platforms utilize **automated design frameworks and code synthesis algorithms to transform content inputs into deployed web applications, streamlining development workflows.**
+Tools that generate working applications from prompts, often called "vibe
+coding" platforms.
 
-| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------|-----------|
-| [10web](https://10web.io/ai-website-builder/)              | An AI-powered website building platform that allows users to create websites quickly and easily using artificial intelligence. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [B12](https://www.b12.io/)                                 | An AI-powered website builder platform designed specifically for professional service providers and businesses. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [Carrd](https://carrd.co/)                                 | A website-building platform designed for creating simple, fully responsive one-page sites.  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)       |
-| [Framer](https://www.framer.com/features/ai/)              | A comprehensive web design and prototyping tool that combines visual design, interactive prototyping, CMS capabilities, AI-powered tools, and collaboration features into a single platform. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Hostinger](https://www.hostinger.com/website-builder)     | A powerful tool that allows users to create a fully functional website using artificial intelligence in just a few simple steps. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [Limecube](https://www.limecube.co/)                       | An AI-driven, code-free solution for small businesses to quickly build a professional, on-brand website .   | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [Odoo](https://www.odoo.com/app/website)                   | Odoo's AI Website Builder aims to empower businesses of all sizes to easily build a professional, feature-rich online presence leveraging advanced AI capabilities, without any coding or design expertise required. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [Relume](https://www.relume.io/)                           | An AI-powered website building platform that aims to streamline and accelerate the design process for marketing websites. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Squarespace](https://www.squarespace.com/website-design)  | A comprehensive website design tool that enables users to create professional-looking websites without the need for coding skills. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />  |
-| [Studio.design](https://studio.design/)                    | An AI-powered web design tool that aims to revolutionize the website building process for designers and creatives. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Uimagic](https://www.uimagic.io/)                         | A powerful AI-driven web design solution that aims to streamline the website creation process by generating tailored designs, content, and visuals using advanced AI capabilities. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Webflow](https://webflow.com/)                            | A powerful visual web development platform that allows users to design, build, and launch responsive websites without writing code.| [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Wegic](https://wegic.ai/)                                 | An innovative AI-powered web design and development tool that simplifies the process of creating websites through a conversational interface | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Wix](https://www.wix.com/ai-website-builder)              | Wix AI Website Builder utilizes advanced artificial intelligence and natural language processing to automatically generate a complete, professional website tailored to the user's specific business needs and preferences. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Base44](https://base44.com/) | An AI app builder that handles database, authentication, and hosting automatically. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Bolt](https://bolt.new/) | An AI web development agent for building, running, and deploying full-stack apps in the browser. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Create](https://www.create.xyz/) | An AI builder that turns natural-language prompts into apps, sites, and tools. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Dyad](https://www.dyad.sh/) | An open-source, local AI app builder and pair programmer. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer) | An AI app builder that generates a codebase from a natural-language description. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Lovable](https://lovable.dev/) | An AI builder that generates full-stack web apps from prompts, with GitHub sync. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Replit](https://replit.com/) | A cloud development platform whose Agent builds and deploys apps autonomously. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Tempo](https://www.tempo.new/) | An AI builder for React apps that spans design and production-ready code. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [v0 by Vercel](https://v0.dev/) | An AI tool that generates UI and Next.js code from text or image prompts. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+
+<br>
+
+## Website Building Tools
+
+Platforms that generate and host websites from prompts or guided input, with AI
+handling layout, content, and design.
+
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [10web](https://10web.io/ai-website-builder/) | An AI website builder that generates and hosts WordPress sites. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [B12](https://www.b12.io/) | An AI website builder aimed at professional service businesses. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Carrd](https://carrd.co/) | A builder for simple, responsive one-page sites. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Durable](https://durable.co/) | An AI website builder that generates a business site in seconds, with hosting and marketing tools. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Framer](https://www.framer.com/features/ai/) | A web design and prototyping tool with AI-assisted layout and content. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Hostinger](https://www.hostinger.com/website-builder) | An AI website builder bundled with Hostinger hosting. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Limecube](https://www.limecube.co/) | A no-code AI website builder for small businesses. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Odoo](https://www.odoo.com/app/website) | Odoo's AI website builder, part of its business app suite. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Relume](https://www.relume.io/) | An AI tool that generates sitemaps and wireframes for marketing sites. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Squarespace](https://www.squarespace.com/website-design) | A website builder for creating sites without code, with AI assistance. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Studio.design](https://studio.design/) | An AI-assisted web design tool for designers. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Uimagic](https://www.uimagic.io/) | An AI tool that generates website designs, content, and visuals from a prompt. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Webflow](https://webflow.com/) | A visual web development platform with AI features for building responsive sites. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Wegic](https://wegic.ai/) | An AI website builder driven by a conversational interface. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Wix](https://www.wix.com/ai-website-builder) | Wix's AI website builder that generates a site from a description of your business. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
 <br>
 
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
 
 </div>
 
