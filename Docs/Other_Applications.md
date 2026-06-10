@@ -1,27 +1,29 @@
-<div align="center"> 
+<div align="center">
 
 <img src="../Images/AIEnhancedWork.png">
 
 <br>
 <br>
 
-***A curated index of impactful AI tools and models, that emphasizes technical merit, practical utility and Prioritizing open-source.***
-
-**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
-
-<br>
-
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](../LICENSE.md)
 
 <br>
 
-[⬅️ Back to the Main Page](../README.md) 
+[Back to the main index](../README.md)
 
 </div>
 
 <br>
 
-# Table of contents
+# Other Applications
+
+Tools and applications that fall outside the main categories: language learning,
+meeting transcription, presentation generation, and general-purpose productivity
+assistants.
+
+<br>
+
+## Table of contents
 
 - [Language Learning Tools](#language-learning-tools)
 - [Meeting Transcription and Summarization](#meeting-transcription-and-summarization)
@@ -30,80 +32,93 @@
 
 <br>
 
-# Other Applications
+## Language Learning Tools
 
-Additional Tools section **features specialized applications and multi-purpose models beyond standard categorization**, including language learning systems and versatile frameworks.
+AI tools for practicing and learning languages through conversation, feedback,
+and personalized lessons.
 
-### Language Learning Tools
-
-Language learning systems implementing **adaptive instruction algorithms and automated feedback mechanisms**.
-
-| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
+| Tool                                              | Description                                                                                                                                                            | License       | Pricing    |
 |:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
-| [Conversly](https://www.conversly.ai/)            | A language learning app that allows users to practice conversing and improve their speaking and listening skills in a new language.                                    | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
-| [Duolingo max](https://blog.duolingo.com/duolingo-max/) |  New premium subscription tier from Duolingo that incorporates advanced AI technology, specifically OpenAI's GPT-4, to provide enhanced language learning features and exercises. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />   |
-| [Langotalk](https://www.langotalk.org/)           | An AI-powered language learning tool that helps users learn languages like Spanish, English, French, German, Dutch, or Italian.                                        | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />       |
-| [Lingolette](https://lingolette.com/en)           | An AI-powered language learning tool that focuses on improving spoken and written fluency through interactive conversations and personalized lessons.                  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />       |
-| [Proseable](https://www.proseable.com/)           | An AI-powered language learning tool designed to help users improve their conversational skills and fluency in a new language through interactive practice and personalized feedback.  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
+| [Conversly](https://www.conversly.ai/)            | A language-learning app for practicing conversation to improve speaking and listening skills. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
+| [Duolingo Max](https://blog.duolingo.com/duolingo-max/) | Duolingo's premium tier with AI features such as roleplay conversations and explanations of answers. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />   |
+| [Langotalk](https://www.langotalk.org/)           | An AI language tutor for practicing several European languages through chat. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />       |
+| [Lingolette](https://lingolette.com/en)           | An AI tool for building spoken and written fluency through interactive conversations and personalized lessons. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />       |
+| [Proseable](https://www.proseable.com/)           | An AI tool for practicing conversational skills with interactive exercises and personalized feedback. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
+| [Speak](https://www.speak.com/)                   | An AI language tutor focused on speaking practice, with real-time feedback on pronunciation and fluency. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
 
 <br>
- 
-### Meeting Transcription and Summarization
 
-Meeting analysis systems employ speech recognition and natural language processing (NLP) to **generate transcripts and extract key discussion points through automated summarization algorithms.**
+## Meeting Transcription and Summarization
 
-| Tool                                                       | Description                                                                                                                                             | Licence     | Pricing  |
+Tools that record meetings, transcribe them, and produce summaries and action
+items using speech recognition and natural language processing.
+
+| Tool                                                       | Description                                                                                                                                             | License     | Pricing  |
 |:-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|:--------:|
-| [Airgram](https://www.airgram.io/)                         | Industry leader proprietary tool for generating speech from text using deep learning.                                                                   | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Fireflies](https://fireflies.ai/)                         | An AI Meeting Assistant tool that offers a range of features to enhance meeting productivity.                                                           | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Otter](https://otter.ai/)                                 | AI Meeting Assistant tool that transcribes meetings in real-time, records audio, captures slides, extracts action items, and generates AI meeting summaries | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Tactiq](https://tactiq.io/)                               | A powerful tool that provides live transcriptions and insightful AI summaries for meetings conducted on platforms like Google Meet, Zoom, and MS Teams. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Tldv](https://tldv.io/)                                   | A powerful tool designed to record, transcribe, and share online meetings on platforms like Google Meet and Zoom.                                       | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Fathom](https://fathom.video/)                            | An AI meeting assistant that records, transcribes, and summarizes calls, with free unlimited recording. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Fireflies](https://fireflies.ai/)                         | An AI meeting assistant that records, transcribes, and summarizes meetings, with search across past calls. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Granola](https://www.granola.ai/)                         | An AI notepad for meetings that enriches your own notes with transcript detail, without joining as a bot. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Otter](https://otter.ai/)                                 | An AI meeting assistant that transcribes in real time, captures slides, extracts action items, and generates summaries. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Tactiq](https://tactiq.io/)                               | A tool that adds live transcription and AI summaries to Google Meet, Zoom, and Microsoft Teams. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
+| [Tldv](https://tldv.io/)                                   | A tool that records, transcribes, and shares online meetings on Google Meet, Zoom, and Microsoft Teams. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
 
 <br>
 
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
 
 </div>
 
 <br>
- 
-### Presentation Slides Generation
 
-Presentation generation systems implement **content structuring algorithms and design optimization frameworks to automate slide creation and layout composition.**
+## Presentation Slides Generation
 
-| Tool                                              | Description                                                                                                                                                            | Licence       | Pricing    |
+Tools that generate slide decks and presentations from prompts, outlines, or
+existing documents.
+
+| Tool                                              | Description                                                                                                                                                            | License       | Pricing    |
 |:--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|
-| [Gamma](https://gamma.app/)                       | An innovative tool that harnesses artificial intelligence to create professional presentations, documents, and webpages swiftly and efficiently. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
-| [MagicSlides](https://www.magicslides.app/)       | A powerful tool that leverages artificial intelligence to create professional presentations quickly and effortlessly. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
-| [PlusAI](https://www.plusdocs.com/)               |  An advanced AI tool that integrates with Google Slides and Google Docs to assist users in creating professional presentations and well-written documents efficiently. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />       |
-| [Prezo](https://prezo.ai/)       | An AI-powered presentation platform that combines slides, documents, and websites into a single workspace. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [SlidesPilot](https://www.slidespilot.com/)       | An innovative tool designed to streamline the creation of professional and visually appealing presentation slides. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
-
-<br>
- 
-### Versatile Productivity Tools
-
-**Multi-modal productivity systems** integrating content generation, research synthesis, and visual design capabilities within unified workflows.
-   
-| Tool                                                       | Description                                                                                                 | Licence     | Pricing   |
-|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
-| [BeeyondAI](https://www.beeyondai.com/)                    | AI digital assistant that offers a wide range of tools to enhance productivity and creativity across various aspects of life. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [Cerebrella](https://cerebrella.com/)                      | A versatile tool for organizing and designing content, brainstorming ideas, writing, researching, and creating visuals.       | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [Copilot](https://www.microsoft.com/fr-fr/microsoft-copilot) |  An AI assistant developed by Microsoft, designed to enhance productivity and creativity for users.       | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [GitMind](https://gitmind.com/)                            |  An AI-powered mind mapping and brainstorming tool that helps users create visual representations of ideas, concepts, and information. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />  |
-| [Hyperis](https://hyperis.com/welcome)                     | AI-driven assistant app designed to help users prioritize tasks, focus on important work, and boost creativity. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
-| [KPU](https://maisa.ai/)                                   | A revolutionary Knowledge Processing Unit by Maisa AI that enhances the reasoning capabilities of large language models. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Odyssey](https://odysseyapp.io/)                          |a macOS application that allows users to visually connect and run various AI models and other tools without coding, making it a versatile platform for creative and automation tasks.| [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Ultra-Attention](https://ultra-attention.com/)            |  AI-powered software solution designed specifically for freelancers and remote workers to help them conquer distractions, boost focus, and enhance productivity. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
+| [Beautiful.ai](https://www.beautiful.ai/)         | A presentation tool that applies design rules automatically to keep AI-generated slides consistent and on-brand. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />       |
+| [Canva](https://www.canva.com/)                   | A design platform whose Magic Design and AI features generate presentations, images, and documents. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
+| [Gamma](https://gamma.app/)                       | A tool that generates presentations, documents, and webpages from a prompt or outline. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
+| [MagicSlides](https://www.magicslides.app/)       | A tool that generates presentation slides from text, topics, or documents. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
+| [PlusAI](https://www.plusdocs.com/)               | An AI add-on for Google Slides and PowerPoint that drafts and edits presentations. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />       |
+| [Prezo](https://prezo.ai/)                        | An AI presentation platform that combines slides, documents, and websites in one workspace. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [SlidesPilot](https://www.slidespilot.com/)       | A tool for generating presentation slides and templates from a topic or outline. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)   | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)    |
 
 <br>
 
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
+
+</div>
+
+<br>
+
+## Versatile Productivity Tools
+
+Multi-purpose AI assistants and tools that span content generation, research,
+brainstorming, and workflow automation.
+
+| Tool                                                       | Description                                                                                                 | License     | Pricing   |
+|:-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|
+| [BeeyondAI](https://www.beeyondai.com/)                    | An AI assistant offering a set of tools for everyday productivity and creative tasks. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
+| [Copilot](https://copilot.microsoft.com/)                  | Microsoft's AI assistant for productivity and creative tasks across its apps and the web. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
+| [GitMind](https://gitmind.com/)                            | An AI mind-mapping and brainstorming tool for building visual representations of ideas. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />  |
+| [Hyperis](https://hyperis.com/welcome)                     | An AI assistant that helps prioritize tasks and focus on important work. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
+| [KPU](https://maisa.ai/)                                   | Maisa AI's Knowledge Processing Unit, a system aimed at improving the reasoning reliability of large language models. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [NotebookLM](https://notebooklm.google.com/)               | Google's research and note-taking assistant that grounds answers, summaries, and audio overviews in your own uploaded sources. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
+| [Notion AI](https://www.notion.com/product/ai)             | Notion's built-in AI for writing, summarizing, and answering questions across your workspace. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
+| [Odyssey](https://odysseyapp.io/)                          | A macOS app for visually connecting and running AI models and tools without code. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Ultra-Attention](https://ultra-attention.com/)            | A focus tool for freelancers and remote workers aimed at reducing distractions. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)   |
+
+<br>
+
+<div align="center">
+
+[Back to top](#table-of-contents)
 
 </div>
 
