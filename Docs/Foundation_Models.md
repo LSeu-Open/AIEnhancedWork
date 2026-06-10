@@ -115,7 +115,9 @@ Models fine-tuned for a specific language or language family.
 | [<img src="../Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-small-24b](https://huggingface.co/shisa-ai/shisa-v2-mistral-small-24b) | 24B | 128k | ❌ |
 | [<img src="../Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-nemo-12b](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) | 12B | 128k | ❌ |
 | [<img src="../Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-llama3.1-8b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-8b) | 8B | 128k | ❌ | 
-| [<img src="../Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-qwen2.5-7b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-7b) | 7B | 128k | ❌ | 
+| [<img src="../Images/Organization/Shisa.svg" alt="Shisa" width="100" height="23" />](https://shisa.ai/) | [Shisa-v2-mistral-qwen2.5-7b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-7b) | 7B | 128k | ❌ |
+| [ELYZA](https://huggingface.co/elyza) | [Llama-3-ELYZA-JP-8B](https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B) | 8B | 8k | ❌ |
+| [Swallow](https://huggingface.co/tokyotech-llm) | [Llama-3.1-Swallow-8B-Instruct-v0.3](https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.3) | 8B | 128k | ❌ | 
 
 <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/kr.svg" alt="korea" width="20" height="15" />  ***Korean*** 
 
@@ -125,6 +127,29 @@ Models fine-tuned for a specific language or language family.
 | [sktelecom](https://www.sktelecom.com/)  | [A.X-4.0-Light](https://huggingface.co/skt/A.X-4.0-Light) | 7B | 131k | ❌ |
 | [kt](https://ai.kt.com/main)  | [Midm-2.0-Base-Instruct](https://huggingface.co/K-intelligence/Midm-2.0-Base-Instruct) | 12B | 32k | ❌ |
 | [kt](https://ai.kt.com/main)  | [Midm-2.0-Mini-Instruct](https://huggingface.co/K-intelligence/Midm-2.0-Mini-Instruct) | 2B | 32k | ❌ |
+| [Naver](https://huggingface.co/naver-hyperclovax) | [HyperCLOVAX-SEED-Think-14B](https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B) | 14B | ? | ✔️ |
+| [Trillion Labs](https://huggingface.co/trillionlabs) | [Trillion-7B-preview](https://huggingface.co/trillionlabs/Trillion-7B-preview) | 7B | ? | ❌ |
+
+<img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/sa.svg" alt="Arabic" width="20" height="15" />  ***Arabic***
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Context Window](https://research.ibm.com/blog/larger-context-window)  | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) |
+|:------------------:|:----------------------------------------|:-----------------------------------------------------------------------------------------:|:--------------:|:------------:|
+| [Inception](https://huggingface.co/inceptionai) | [Jais-family-30B-16K-chat](https://huggingface.co/inceptionai/jais-family-30b-16k-chat) | 30B | 16k | ❌ |
+| [ALLaM](https://huggingface.co/ALLaM-AI) | [ALLaM-7B-Instruct](https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview) | 7B | ? | ❌ |
+
+<img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/sg.svg" alt="Southeast Asian" width="20" height="15" />  ***Southeast Asian***
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Context Window](https://research.ibm.com/blog/larger-context-window)  | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) |
+|:------------------:|:----------------------------------------|:-----------------------------------------------------------------------------------------:|:--------------:|:------------:|
+| [Sea AI Lab](https://huggingface.co/sail) | [Sailor2-20B-Chat](https://huggingface.co/sail/Sailor2-20B-Chat) | 20B | 32k | ❌ |
+| [AI Singapore](https://huggingface.co/aisingapore) | [Llama-SEA-LION-v3-8B-IT](https://huggingface.co/aisingapore/Llama-SEA-LION-v3-8B-IT) | 8B | 128k | ❌ |
+
+<img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/eu.svg" alt="European" width="20" height="15" />  ***European***
+
+| Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Context Window](https://research.ibm.com/blog/larger-context-window)  | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) |
+|:------------------:|:----------------------------------------|:-----------------------------------------------------------------------------------------:|:--------------:|:------------:|
+| [UTTER](https://huggingface.co/utter-project) | [EuroLLM-9B-Instruct](https://huggingface.co/utter-project/EuroLLM-9B-Instruct) | 9B | 4k | ❌ |
+| [BSC](https://huggingface.co/BSC-LT) | [Salamandra-7B-Instruct](https://huggingface.co/BSC-LT/salamandra-7b-instruct) | 7B | 8k | ❌ |
 
 <br>
 
@@ -142,6 +167,9 @@ Role-playing is a technique where the model assumes a specific character, profes
 |  [<img src="../Images/Organization/Steelskull.svg" alt="Steelskull" width="100" height="25" />](https://huggingface.co/Steelskull) | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [L3.3-MS-Nevoria-70b](https://huggingface.co/Steelskull/L3.3-MS-Nevoria-70b) | 70B | 128K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 |  [<img src="../Images/Organization/Latitude.svg" alt="LatitudeGames" width="100" height="25" />](https://play.aidungeon.com/) | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [Wayfarer-Large-70B-Llama-3.3](https://huggingface.co/LatitudeGames/Wayfarer-Large-70B-Llama-3.3) | 70B | 128K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
 |  **BosonAI**  | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) | [Higgs-Llama-3-70B](https://huggingface.co/bosonai/Higgs-Llama-3-70B) | 70B | 32K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
+|  [<img src="../Images/Organization/TheDrummer.svg" alt="TheDrummer" width="100" height="25" />](https://huggingface.co/TheDrummer) | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [Anubis-70B-v1.1](https://huggingface.co/TheDrummer/Anubis-70B-v1.1) | 70B | 128K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
+|  [Sao10K](https://huggingface.co/Sao10K) | [Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [L3.3-70B-Euryale-v2.3](https://huggingface.co/Sao10K/L3.3-70B-Euryale-v2.3) | 70B | 128K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" />  |
+|  [Anthracite](https://huggingface.co/anthracite-org) | [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) | [magnum-v4-72b](https://huggingface.co/anthracite-org/magnum-v4-72b) | 72B | 128K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 
 <br>
 
@@ -158,6 +186,8 @@ Role-playing is a technique where the model assumes a specific character, profes
 |  Wave | [Mistral-Nemo-Base-2407](https://huggingface.co/mistralai/Mistral-Nemo-Base-2407) | [silly-v0.2](https://huggingface.co/wave-on-discord/silly-v0.2) | 12.2B |  128K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/eu.svg" alt="eu" width="20" height="15" />   |
 |  [<img src="../Images/Organization/Oxygen.svg" alt="Oxygen" width="100" height="25" />](https://huggingface.co/oxyapi) | [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) | [Oxy-1-small](https://huggingface.co/oxyapi/oxy-1-small) | 14.8B |  131K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
 |  [<img src="../Images/Organization/Oxygen.svg" alt="Oxygen" width="100" height="25" />](https://huggingface.co/oxyapi) | [Qwen2-1.5B](https://huggingface.co/Qwen/Qwen2-1.5B) | [Oxy-1-micro](https://huggingface.co/oxyapi/oxy-1-micro) | 1.54B |  131K | ❌ |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
+|  [<img src="../Images/Organization/TheDrummer.svg" alt="TheDrummer" width="100" height="25" />](https://huggingface.co/TheDrummer) | [Mistral-Small-24B-Instruct-2501](https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501) | [Cydonia-24B-v2](https://huggingface.co/TheDrummer/Cydonia-24B-v2) | 24B | 32K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/eu.svg" alt="eu" width="20" height="15" />  |
+|  [<img src="../Images/Organization/TheDrummer.svg" alt="TheDrummer" width="100" height="25" />](https://huggingface.co/TheDrummer) | [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | [Rocinante-12B-v1.1](https://huggingface.co/TheDrummer/Rocinante-12B-v1.1) | 12B | 128K | ❌ | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/eu.svg" alt="eu" width="20" height="15" />  |
 
 
 <br>
@@ -361,17 +391,21 @@ are kept current.
 
 Omni Large Language Models (OLLMs) extend beyond image and text to handle audio, video, and real-time streaming data, supporting tasks such as video transcription, audiovisual reasoning, and multimodal integration. They can produce text, audio, and image output.
 
+This is a fast-moving, mostly open-weight niche with no established leaderboard, so the table below is a curated snapshot of current open models rather than a ranking.
+
 #### Open-Source OLLMs
 
 | Organization     | Model Name                                                                         | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d) | Input | Output | Geographic Origin |
 |:-----------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:-----------:|:-----------:|
-| [<img src="../Images/Organization/OpenBMB.svg" alt="OpenBMB" width="80" height="20" />](https://www.openbmb.cn/) | [MiniCPM-o-2_6](https://huggingface.co/openbmb/MiniCPM-o-2_6) | 8.67B | **Incoming** | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
-| [<img src="../Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | [Janus-Pro-7B](https://huggingface.co/deepseek-ai/Janus-Pro-7B) | 7B | **Incoming** | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
-| [<img src="../Images/Organization/FlagOpen.svg" alt="flagopen" width="100" height="23" />](https://flagopen.baai.ac.cn/#/home)    | [Emu3-Gen](https://huggingface.co/BAAI/Emu3-Gen) | 8.49B | **Incoming** | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> | 
-| [<img src="../Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/)     | [Janus-1.3B](https://huggingface.co/deepseek-ai/Janus-1.3B) | 1.3B | **Incoming** | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
-| [<img src="../Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/)      | [Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) | 10.7B | **Incoming** | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
-| [<img src="../Images/Organization/AntGroup.svg" alt="AntGroup" width="80" height="20" />](https://github.com/inclusionAI) | [Ming-Lite-Omni-1.5](https://huggingface.co/inclusionAI/Ming-Lite-Omni-1.5) | 19.1B | **Incoming** | **Incoming** | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" />  |
-| [<img src="../Images/Organization/Allen.svg" alt="Allen" width="100" height="20" />](https://allenai.org/)      | [Molmo-7B-O](https://huggingface.co/allenai/Molmo-7B-O-0924) | 7B | **Incoming** | **Incoming** |  <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/us.svg" alt="usa" width="20" height="15" /> |
+| [<img src="../Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen3-Omni-30B-A3B-Instruct](https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct) | 30B (A3B) | Text, Image, Audio, Video | Text, Speech | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [<img src="../Images/Organization/OpenBMB.svg" alt="OpenBMB" width="80" height="20" />](https://www.openbmb.cn/) | [MiniCPM-o 4.5](https://huggingface.co/openbmb/MiniCPM-o-4_5) | 9B | Text, Image, Audio, Video | Text, Speech | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [<img src="../Images/Organization/AntGroup.svg" alt="AntGroup" width="80" height="20" />](https://github.com/inclusionAI) | [Ming-Lite-Omni-1.5](https://huggingface.co/inclusionAI/Ming-Lite-Omni-1.5) | 19.1B | Text, Image, Audio, Video | Text, Image, Speech | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [Baichuan](https://huggingface.co/baichuan-inc) | [Baichuan-Omni-1.5](https://huggingface.co/baichuan-inc/Baichuan-Omni-1d5) | 7B | Text, Image, Audio, Video | Text, Speech | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [VITA](https://huggingface.co/VITA-MLLM) | [VITA-1.5](https://huggingface.co/VITA-MLLM/VITA-1.5) | 7B | Text, Image, Audio, Video | Text, Speech | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [Infinigence](https://huggingface.co/Infinigence) | [Megrez-3B-Omni](https://huggingface.co/Infinigence/Megrez-3B-Omni) | 3B | Text, Image, Audio | Text | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [<img src="../Images/Organization/Deepseek.svg" alt="Deepseek" width="100" height="20" />](https://www.deepseek.com/) | [Janus-Pro-7B](https://huggingface.co/deepseek-ai/Janus-Pro-7B) | 7B | Text, Image | Text, Image | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [<img src="../Images/Organization/FlagOpen.svg" alt="flagopen" width="100" height="23" />](https://flagopen.baai.ac.cn/#/home) | [Emu3](https://huggingface.co/BAAI/Emu3-Gen) | 8B | Text, Image, Video | Text, Image, Video | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
+| [<img src="../Images/Organization/ByteDance.svg" alt="ByteDance" width="100" height="20" />](https://www.bytedance.com/en/) | [BAGEL-7B-MoT](https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT) | 7B (14B MoE) | Text, Image | Text, Image | <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/cn.svg" alt="China" width="20" height="15" /> |
 
 <div align="center">
 
