@@ -1,31 +1,40 @@
-<div align="center"> 
+<div align="center">
 
 <img src="../Images/AIEnhancedWork.png">
 
 <br>
 <br>
 
-***A curated index of impactful AI tools and models, that emphasizes technical merit, practical utility and Prioritizing open-source.***
-
-**Effective AI use requires understanding capabilities, limitations, and bias mitigation strategies.**
-
-<br>
-
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat)](../LICENSE.md)
 
 <br>
 
-[⬅️ Back to the Main Page](../README.md) 
+[Back to the main index](../README.md)
 
 </div>
 
 <br>
 
-# Table of contents
+# Computer Vision
+
+Tools and models for generating, editing, and synthesizing visual content:
+image editing, image generation, video generation, and 3D model generation.
+
+> [!CAUTION]
+> Use AI-generated images responsibly. Disclose that content was created by AI,
+> and be mindful of intellectual property rights.
+
+> [!TIP]
+> Prompt engineering has a large effect on image quality and control. For
+> practical prompt techniques, see [@nickfloats](https://x.com/nickfloats) on X.
+
+<br>
+
+## Table of contents
 
 - [Image Editing](#image-editing)
-  - [Image Editing Models](#image-generation-models)
-  - [Cloud-based Image Editing Providers](#cloud-based-image-generation-providers)
+  - [Image Editing Models](#image-editing-models)
+  - [Cloud-based Image Editing Providers](#cloud-based-image-editing-providers)
 - [Image Generation](#image-generation)
   - [Image Generation Models](#image-generation-models)
   - [Cloud-based Image Generation Providers](#cloud-based-image-generation-providers)
@@ -39,260 +48,162 @@
 
 <br>
 
-# Computer Vision
+## Image Editing
 
-Computer Vision (CV) frameworks implement **neural architectures for visual data processing, analysis, and synthesis across image and video domains**.
+Tools and models for modifying and enhancing existing images.
 
-> [!CAUTION]
-> Use AI-generated images responsibly: **Always disclose that they were created by AI.**
-> Be mindful of **intellectual property rights.**
+### Image Editing Models
 
-> [!TIP]
-> **Learn prompt engineering techniques for image generation models to enhance output quality and artistic control.** Follow [@nickfloats](https://x.com/nickfloats) on **𝕏** for valuable insights on **crafting prompts that achieve your desired visual outputs.**
-
-### Image Editing
-
-This section highlights tools and models that assist in modifying and enhancing existing images using AI-powered capabilities.
-
-#### Image Editing Models
+Image editing models change quickly, and any static ranking goes stale fast.
+For an up-to-date comparison, see the continuously updated leaderboard:
 
 > [!NOTE]
-> The models are ranked according to their **Elo scores (Higher score is better)** from the [artificialanalysis.ai Text-to-Image Arena](https://artificialanalysis.ai/text-to-image/arena?tab=leaderboard&input=image) Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
->
-> To provide a comprehensive overview of the generative image model landscape, only **pre-trained versions of the listed models are included in this ranking.**
->
-> Due to the continuous evolution and **vast number of possible fine-tuned configurations, it is impractical to comprehensively list every variant here.**
+> - [Artificial Analysis — Image Editing leaderboard](https://artificialanalysis.ai/image/leaderboard/editing)
+> - [LM Arena — Image Edit leaderboard](https://arena.ai/leaderboard/image-edit)
 
-| Organization         | Model Name                                                                    | Elo score  | Licence     | Pricing   |
-|:--------------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 1094 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 Kontext (pro)](https://bfl.ai/models/flux-kontext) | 1078 |[<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 Kontext (max)](https://bfl.ai/models/flux-kontext) | 1077 |[<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 Kontext (dev)](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev) | 1008 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/ByteDance.svg" alt="Bytedance" width="130" height="20" />](https://www.bytedance.com/en/) | [Bagel](https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT) | 928 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/StepFun.svg" alt="Stepfun" width="100" height="20" />](https://platform.stepfun.com/) | [Step1X-Edit](https://huggingface.co/stepfun-ai/Step1X-Edit) | 864 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [HiDream](https://hidreamai.com/home)  | [HiDream-E1-Full](https://huggingface.co/HiDream-ai/HiDream-E1-Full) | 857 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+### Cloud-based Image Editing Providers
 
+Platforms that offer image editing as a cloud service, via a web interface or API.
 
-#### Cloud-based Image Editing Providers 
-
-This subsection lists platforms that offer image Editing capabilities as a cloud service, typically accessible via web interfaces or APIs, without requiring local model deployment.
-
-| Tool              | Description                                                                                                         | Licence     | Pricing     |
-|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [BRIA AI](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4) | An AI-powered model to automatically remove backgrounds from images.    | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)        | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />        |
-| [Clarity AI](https://github.com/philz1337x/clarity-upscaler)  |AI Image Upscaler & Enhancer - free and open-source Magnific Alternative | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)        | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />        |
-| [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) | An AI-powered tool for applying various image effects and filters.     | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Lensa](https://prisma-ai.com/lensa) | An AI-powered mobile app for editing and enhancing photos, particularly for portrait editing.    | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Luminar Neo](https://skylum.com/fr/luminar) | An AI-powered photo editing software developed by Skylum.                                | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Magnific AI](https://magnific.ai/) | an AI-powered image upscaler and enhancer designed for professionals and enthusiasts in photography, graphic design, digital art, and illustration. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Pixlr](https://pixlr.com/) | An AI-powered online photo editing tool.                                                                  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Removebg](https://www.remove.bg/) | An online tool that allows users to automatically remove backgrounds from images.                  | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
-| [ZMO AI](https://remover.zmo.ai/) | Comprehensive online platform offering AI-powered image editing tools. Features include background removal, object erasure, image enhancement, and creative modifications. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)     |
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [BRIA AI](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4) | A model that automatically removes image backgrounds. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Clarity AI](https://github.com/philz1337x/clarity-upscaler) | An open-source image upscaler and enhancer, an alternative to Magnific. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) | Google's tool for generating and adjusting images, in AI Test Kitchen. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Lensa](https://prisma-ai.com/lensa) | A mobile app for editing and enhancing photos, focused on portraits. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Luminar Neo](https://skylum.com/fr/luminar) | Skylum's AI photo editing software. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Magnific AI](https://magnific.ai/) | An image upscaler and enhancer for photography, design, and art. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Photoroom](https://www.photoroom.com/) | A tool for background removal and product-photo editing. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Pixlr](https://pixlr.com/) | An online photo editor with AI tools. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Removebg](https://www.remove.bg/) | An online tool that removes image backgrounds automatically. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
 <br>
 
-### Image Generation
+## Image Generation
 
-Explore tools and models designed to create novel images from textual descriptions or other inputs, leveraging the power of generative AI.
+Tools and models that create new images from text prompts or other inputs.
 
-#### Image Generation Models
+### Image Generation Models
+
+Image generation models change quickly, and any static ranking goes stale fast.
+For an up-to-date comparison, see the continuously updated leaderboard:
 
 > [!NOTE]
-> The models are ranked according to their **Elo scores (Higher score is better)** from the [artificialanalysis.ai Text-to-Image Arena](https://artificialanalysis.ai/text-to-image/arena) and [Imgsys.org Ranking](https://imgsys.org/rankings). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
->
-> To provide a comprehensive overview of the generative image model landscape, only **pre-trained versions of the listed models are included in this ranking.**
->
-> Due to the continuous evolution and **vast number of possible fine-tuned configurations, it is impractical to comprehensively list every variant here.**
+> - [Artificial Analysis — Text-to-Image leaderboard](https://artificialanalysis.ai/image/leaderboard/text-to-image)
+> - [LM Arena — Text-to-Image leaderboard](https://arena.ai/leaderboard/text-to-image)
 
-| Organization         | Model Name                                                                    | Elo score  | Licence     | Pricing   |
-|:--------------------:|:------------------------------------------------------------------------------|:----------:|:-----------:|:---------:|
-| [<img src="../Images/Organization/ByteDance.svg" alt="Bytedance" width="130" height="20" />](https://www.bytedance.com/en/) | [Seedream 3.0](https://seed.bytedance.com/zh/tech/seedream3_0) | 1166 |[<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [GPT-4o](https://openai.com/index/hello-gpt-4o/) | 1165 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Google.svg" alt="Google" width="130" height="20" />](https://gemini.google.com/) | [Imagen 4 Ultra](https://deepmind.google/models/imagen/) | 1150 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Google.svg" alt="Google" width="130" height="20" />](https://gemini.google.com/) | [Imagen 4](https://deepmind.google/models/imagen/) | 1145 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [FLUX.1-Kontext [Pro]](https://bfl.ai/models/flux-kontext) | 1127 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/Recraft.svg" alt="Recraft" width="130" height="20" />](https://www.recraft.ai/) | [Recraft V3](https://www.recraft.ai/blog/recraft-introduces-a-revolutionary-ai-model-that-thinks-in-design-language) | 1114 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Alibaba.svg" alt="Alibaba" width="100" height="20" />](https://qwenlm.github.io/) | [Qwen-Image](https://huggingface.co/Qwen/Qwen-Image) | 1099 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 Kontext](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev) | 1098 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/Google.svg" alt="Google" width="130" height="20" />](https://gemini.google.com/) | [Imagen 3](https://deepmind.google/technologies/imagen-3/) | 1097 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Ideogram.svg" alt="Ideogram" width="130" height="20" />](https://ideogram.ai/login) | [Ideogram 3.0](https://ideogram.ai/login) | 1093 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux1.1 Pro](https://blackforestlabs.ai/) | 1083 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Reve AI](https://preview.reve.art/) | [Reve Image 1.0](https://preview.reve.art/) | 1090 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [HiDream](https://hidreamai.com/home)  | [HiDream-I1-Dev](https://huggingface.co/HiDream-ai/HiDream-I1-Dev) | 1078 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 Pro](https://blackforestlabs.ai/) | 1067 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [<img src="../Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="130" height="20" />](https://www.minimaxi.com/en)   | [MiniMax Image-01](https://replicate.com/minimax/image-01) | 1052 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/Midjourney.svg" alt="midjourney" width="130" height="20" />](https://www.midjourney.com/home) | [Midjourney v6.1](https://www.midjourney.com/home) | 1047 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [<img src="../Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 Dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) | 1046 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/Ideogram.svg" alt="Ideogram" width="130" height="20" />](https://ideogram.ai/login) | [Ideogram v2](https://ideogram.ai/login) | 1043 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Midjourney.svg" alt="midjourney" width="130" height="20" />](https://www.midjourney.com/home) | [Midjourney v7 Alpha](https://www.midjourney.com/home) | 1039 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [<img src="../Images/Organization/Midjourney.svg" alt="midjourney" width="130" height="20" />](https://www.midjourney.com/home) | [Midjourney v6](https://www.midjourney.com/home) | 1038 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [<img src="../Images/Organization/Ideogram.svg" alt="Ideogram" width="130" height="20" />](https://ideogram.ai/login) | [Ideogram v2 Turbo](https://ideogram.ai/login) | 1033 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Luma.svg" alt="Lumalabs" width="130" height="20" />](https://lumalabs.ai/) | [Photon](https://lumalabs.ai/photon) | 1033 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion 3.5 Large Turbo](https://huggingface.co/stabilityai/stable-diffusion-3.5-large-turbo) | 1030 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />    |
-|  [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) | 1026 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="../Images/Organization/ByteDance.svg" alt="Bytedance" width="130" height="20" />](https://www.bytedance.com/en/) | [Infinity 8B](https://foundationvision.github.io/infinity.project/) | 1021 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/Ideogram.svg" alt="Ideogram" width="130" height="20" />](https://ideogram.ai/login) | [Ideogram v1](https://ideogram.ai/login) | 1021 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion 3 Large](https://stability.ai/stable-image) | 1014 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/BlackForest.svg" alt="blackforestlabs" width="130" height="20" />](https://blackforestlabs.ai) | [Flux.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) | 1000 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/Playground.svg" alt="playground" width="130" height="20" />](https://playground.com) | [Playground v3 (beta)](https://playground.com/pg-v3) | 997 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/Recraft.svg" alt="Recraft" width="130" height="20" />](https://www.recraft.ai/) | [Recraft 20B](https://www.recraft.ai/blog/recraft-20b) | 976 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Luma.svg" alt="Lumalabs" width="130" height="20" />](https://lumalabs.ai/) | [Photon Flash](https://lumalabs.ai/photon) | 996 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-|  [<img src="../Images/Organization/Playground.svg" alt="playground" width="130" height="20" />](https://playground.com) | [Playground v2.5](https://playground.com/blog/playground-v2-5) | 954 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-|  [<img src="../Images/Organization/InternLM.svg" alt="InternLM" width="130" height="20" />](https://github.com/InternLM) | [Lumina Image v2](https://huggingface.co/Alpha-VLLM/Lumina-Image-2.0) | 950 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-|  [<img src="../Images/Organization/Adobe.svg" alt="adobe" width="130" height="20" />](https://www.adobe.com) | [Firefly Image 3](https://www.adobe.com/fr/products/firefly.html) | 942 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />      |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [DALLE 3 HD](https://openai.com/index/dall-e-3/) | 941 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion 3.5 medium](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium) | 932 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [DALLE 3](https://openai.com/index/dall-e-3/) | 926 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion 3 Medium](https://stability.ai/stable-image) | 902 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion 3 Large Turbo](https://stability.ai/stable-image) | 897 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion 1.6](https://stability.ai/stable-image) | 885 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion XL base 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) | 849 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [DALLE 2](https://openai.com/index/dall-e-2/) | 714 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion 2.1](https://stability.ai/stable-image) | 712 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable Diffusion 1.5](https://stability.ai/stable-image) | 625 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />      |
+### Cloud-based Image Generation Providers
 
-#### Cloud-based Image Generation Providers
+Platforms that offer image generation as a cloud service, via a web interface or API.
 
-This subsection lists platforms that offer image generation capabilities as a cloud service, typically accessible via web interfaces or APIs, without requiring local model deployment.
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Craiyon](https://www.craiyon.com/) | A platform for generating images and animations from prompts. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [DALL·E](https://openai.com/research/dall-e) | OpenAI's text-to-image model, available through ChatGPT and the API. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Fal.ai](https://fal.ai/) | A generative media platform for developers building AI applications. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Firefly](https://firefly.adobe.com/) | Adobe's generative AI tool for images and other visual content. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Grok Imagine](https://grok.com/imagine) | xAI's image and video generation, part of the Grok app. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Freepik](https://www.freepik.com/ai/image-generator) | A creative workspace offering several top image and video generation models. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Ideogram](https://ideogram.ai/) | A text-to-image generator with strong text rendering. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Krea](https://www.krea.ai/) | A platform for generating and enhancing images and video across many models. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Leonardo](https://leonardo.ai/) | A platform for generating images and visual assets from prompts. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Lexica](https://lexica.art/) | An AI art platform that generates images from text descriptions. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Midjourney](https://www.midjourney.com/home) | A platform that generates images and visual content from prompts. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [NightCafe](https://creator.nightcafe.studio/) | An AI art platform that generates images from text descriptions. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [NVIDIA Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) | NVIDIA's cloud foundry for building generative visual models. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Playground](https://playground.com/) | A platform for generating images and graphics from prompts. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Recraft](https://www.recraft.ai/) | An image generation platform with vector output and brand-style controls. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Stable Diffusion](https://stability.ai/stable-image) | Stability AI's open image models, offered via API and apps. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
 
-| Tool              | Description                                                                                                         |  Licence     | Pricing     |
-|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [Craiyon](https://www.craiyon.com/) | An AI-powered platform for generating artistic images and animations.                             | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />        |
-| [Dall-E](https://openai.com/research/dall-e) | An AI model developed by OpenAI that generates images from textual descriptions.         | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />|
-| [Fal.ai](https://fal.ai/) | Fal.ai is a cutting-edge generative media platform designed for developers to build advanced AI applications. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" />|
-| [Firefly](https://www.adobe.com/fr/products/firefly.html) | A creative AI tool for generating images, animations, and other visual content. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Ideogram](https://ideogram.ai/) |  An advanced text-to-image generator that creates high-quality images based on text prompts.         | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Krea](https://www.krea.ai/home) | An advanced AI-powered platform designed for generating and enhancing visual content, including images and videos. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Lexica](https://lexica.art/) | An AI art platform that generates images from textual descriptions.                                     | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Leonardo](https://leonardo.ai/) | An open-source AI model for generating images from textual descriptions.                             | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source)        | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Midjourney](https://www.midjourney.com/home) | A world-famous AI platform that generates images and visual content based on user input. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Nightcafe](https://creator.nightcafe.studio/) | An open-source AI art platform that generates images from textual descriptions using deep learning models. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Picasso](https://www.nvidia.com/en-us/gpu-cloud/picasso/) | An AI-powered platform for generating images and animations, developed by NVIDIA. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Stable diffusion](https://stability.ai/stable-image) | An open-source AI model for generating images from textual descriptions using diffusion-based generative models. | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-
-#### Local Image Generation Providers
+### Local Image Generation Providers
 
 > [!TIP]
-> **Generate images locally** - Deploy open-source image generation models on your hardware with our [How to run Image Generation on your Machine tutorial](../Tutorials/how-to-run-image-generation-on-your-machine.md).
+> To run open-source image models on your own hardware, see our
+> [How to run Image Generation on your Machine tutorial](../Tutorials/how-to-run-image-generation-on-your-machine.md).
 
+| Tool | Description | OS | Models |
+|:---|:---|:---:|:---:|
+| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | A modular, node-based interface for precise control over image generation workflows. | All | Stable Diffusion + Flux.1 |
+| [Diffusion Bee](https://diffusionbee.com/) | A free, offline image generation app for macOS. | macOS | Stable Diffusion |
+| [Draw Things](https://drawthings.ai/) | A free image generation app for macOS and iOS. | macOS / iOS | Stable Diffusion |
+| [Fooocus](https://github.com/lllyasviel/Fooocus) | An open-source tool that simplifies image generation with Stable Diffusion. | All | Stable Diffusion XL |
+| [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) | A faster, streamlined fork of the AUTOMATIC1111 web UI. | All | Stable Diffusion + Flux.1 |
+| [Invoke](https://github.com/invoke-ai/InvokeAI) | A creative engine and interface for Stable Diffusion models. | All | Stable Diffusion |
+| [Stable Diffusion web UI (AUTOMATIC1111)](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | A widely used interface for working with Stable Diffusion models. | All | Stable Diffusion |
+| [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | A modular interface for multi-model and multi-GPU image generation workflows. | All | Stable Diffusion + Flux.1 |
 
-| Tool             | Description                                                                                                                 | OS     | Models     |
-|:-----------------|-----------------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | A powerful and modular graphical user interface (GUI) for Stable Diffusion, provide users with precise control over image generation workflows. | All | All Stable Diffusion Models + Flux.1 |
-| [Diffusion Bee](https://msty.app/) | A free, offline AI art generation tool designed specifically for macOS users. | MacOS/IOS | All Stable Diffusion Models. |
-| [Draw Things](https://superagi.com/) | A free AI-assisted image generation app available for iOS devices, including iPhones and iPads. | MacOS/IOS | All Stable Diffusion Models. |
-| [Fooocus](https://github.com/lllyasviel/Fooocus) | An open-source AI image generation tool designed to simplify the process of creating images using Stable Diffusion technology. | All | Stable Diffusion XL models. |
-| [Invoke](https://github.com/invoke-ai/InvokeAI) | A leading creative engine for Stable Diffusion models. | All | All Stable Diffusion Models. |
-| [Stable Diffusion web UI by Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | a popular graphical user interface (GUI) for interacting with the Stable Diffusion models. | All | All Stable Diffusion Models. |
+<br>
+
+## Video Generation
+
+Tools and models that generate video from text or image inputs.
+
+### Image-to-Video Models
+
+Image-to-video models change quickly, and any static ranking goes stale fast.
+For an up-to-date comparison, see the continuously updated leaderboard:
+
+> [!NOTE]
+> - [Artificial Analysis — Image-to-Video leaderboard](https://artificialanalysis.ai/video/leaderboard/image-to-video)
+> - [LM Arena — Image-to-Video leaderboard](https://arena.ai/leaderboard/image-to-video)
+
+### Text-to-Video Models
+
+Text-to-video models change quickly, and any static ranking goes stale fast.
+For an up-to-date comparison, see the continuously updated leaderboard:
+
+> [!NOTE]
+> - [Artificial Analysis — Text-to-Video leaderboard](https://artificialanalysis.ai/video/leaderboard/text-to-video)
+> - [LM Arena — Text-to-Video leaderboard](https://arena.ai/leaderboard/text-to-video)
+
+### Video Generation Providers
+
+Platforms that generate video from text or image prompts as a cloud service.
+
+| Tool | Description | License | Pricing |
+|:---|:---|:---:|:---:|
+| [Dream Machine](https://lumalabs.ai/dream-machine) | Luma's text- and image-to-video platform. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Elai](https://elai.io/) | A platform for creating videos narrated by AI avatars from text. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Hailuo](https://hailuoai.video/) | MiniMax's text- and image-to-video platform. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [HeyGen](https://www.heygen.com/) | A platform for generating avatar and presenter videos. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Higgsfield](https://higgsfield.ai/) | A platform for AI video generation with cinematic camera controls. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Kling](https://klingai.com/) | Kuaishou's text- and image-to-video platform. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Krea](https://www.krea.ai/) | A platform for generating and enhancing images and video across many models. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Pika](https://pika.art/) | A platform for short, effects-driven AI video clips. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Runway](https://runwayml.com/) | A platform of generative video and editing tools for creatives. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Sora](https://openai.com/sora) | OpenAI's text-to-video model. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Synthesia](https://www.synthesia.io/) | A platform for generating avatar-presenter videos for business use. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
+| [Veo](https://deepmind.google/technologies/veo/) | Google's text- and image-to-video model. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+| [Wombo](https://www.w.ai/) | A mobile app for creating lip-syncing and other AI video content. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
+
+<br>
+
+## 3D Model Generation
+
+Models that turn text descriptions or images into 3D assets for prototyping,
+asset creation, and visualization.
+
+### Text/Image-to-3D Models
+
+| Organization | Model Name | License | Pricing |
+|:---:|:---|:---:|:---:|
+| [<img src="../Images/Organization/Tencent.svg" alt="Tencent" width="130" height="20" />](https://github.com/Tencent/) | [Hunyuan3D-2.1](https://huggingface.co/tencent/Hunyuan3D-2.1) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [<img src="../Images/Organization/Tencent.svg" alt="Tencent" width="130" height="20" />](https://github.com/Tencent/) | [InstantMesh](https://huggingface.co/TencentARC/InstantMesh) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [<img src="../Images/Organization/Microsoft.svg" alt="Microsoft" width="130" height="20" />](https://www.microsoft.com/) | [TRELLIS](https://huggingface.co/microsoft/TRELLIS-image-large) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [Stable-zero123](https://huggingface.co/stabilityai/stable-zero123) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [TripoSR](https://huggingface.co/stabilityai/TripoSR) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [stable-fast-3d](https://huggingface.co/stabilityai/stable-fast-3d) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [craftsman3d](https://huggingface.co/craftsman3d) | [CraftsMan-v1-5](https://huggingface.co/craftsman3d/craftsman) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Ashawkey](https://huggingface.co/ashawkey) | [LGM](https://huggingface.co/ashawkey/LGM) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Jade Choghari](https://huggingface.co/jadechoghari) | [vfusion3d](https://huggingface.co/jadechoghari/vfusion3d) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
+| [Zhaoxi Chen](https://huggingface.co/FrozenBurning) | [3DTopia-XL](https://huggingface.co/FrozenBurning/3DTopia-XL) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
 
 <br>
 
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
-
-</div>
- 
-### Video Generation
-
-> [!NOTE]
-> **Video generation technology remains primarily concentrated among major AI research organizations**, with models like OpenAI's Sora and Runway's Gen3 leading development. Current publicly available implementations are limited due to the computational complexity and proprietary nature of these systems.
->
-> This section will be **updated as more open-source and accessible video generation models emerge.**
-
-#### Image-to-Video Models
-
-Image-to-video models employ **temporal diffusion algorithms to synthesize video sequences from static image inputs**, generating coherent motion patterns and frame transitions.
-
-| Organization       | Model Name                                                                       | Licence     | Pricing   |
-|:------------------:|:---------------------------------------------------------------------------------|:---------------:|:---------------:|
-| [<img src="../Images/Organization/THUDM.svg" alt="THUDM" width="130" height="20" />](https://github.com/THUDM) | [CogVideoX-5B-I2V](https://huggingface.co/THUDM/CogVideoX-5b-I2V)                | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [img2vid-xt](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [sv3d](https://huggingface.co/stabilityai/sv3d)             | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/) | [sv4d](https://huggingface.co/stabilityai/sv4d)             | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [Lightricks](https://www.lightricks.com/) | [LTX-Video](https://huggingface.co/Lightricks/LTX-Video)             | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="../Images/Organization/Alibaba.svg" alt="Alibaba" width="130" height="20" />](https://qwenlm.github.io/) | [Wan2.1-I2V-14B-720P](https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-720P)             | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-
-
-
-#### Text-to-Video Models
-
-Text-to-video models **convert natural language descriptions into video sequences through multi-modal generation frameworks**, synthesizing temporal and spatial elements from textual inputs.
-
-> [!NOTE]
-> The models are ranked according to their **Elo scores (Higher score is better)** from the [artificialanalysis.ai Video Generation Arena](https://artificialanalysis.ai/text-to-image/arena). Please note that **Elo scores are subject to change** based on user votes and will be updated regularly to reflect the latest rankings.
-
-| Organization       | Model Name                                                                       | Elo score       | Licence         | Pricing   |
-|:------------------:|:---------------------------------------------------------------------------------|:---------------:|:---------------:|:---------------:|
-| [<img src="../Images/Organization/ByteDance.svg" alt="Bytedance" width="130" height="20" />](https://www.bytedance.com/en/) | [Seedance 1.0](https://seed.bytedance.com/en/seedance) | 1292 |[<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Google.svg" alt="Google" width="130" height="20" />](https://gemini.google.com/) | [Veo 3](https://gemini.google/overview/video-generation/) | 1244 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Google.svg" alt="Google" width="130" height="20" />](https://gemini.google.com/) | [Veo 2](https://deepmind.google/technologies/veo/veo-2/) | 1133 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Kling.svg" alt="klingai" width="130" height="20" />](https://klingai.com/) |[Kling 2.0](https://klingai.com/) | 1116 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/OpenAI.svg" alt="OpenAI" width="130" height="20" />](https://openai.com/) | [Sora](https://openai.com/sora/) | 1046 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Kling.svg" alt="klingai" width="130" height="20" />](https://klingai.com/) |[Kling 1.5 (Pro)](https://klingai.com/) | 1050 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="130" height="20" />](https://www.minimaxi.com/en) | [T2V-01](https://www.minimax.io/news/video-01) | 1040 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/Pika.svg" alt="pika" width="130" height="20" />](https://pika.art/) | [Pika 2.0](https://pika.art/try) | 1034 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Alibaba.svg" alt="Alibaba" width="130" height="20" />](https://qwenlm.github.io/) | [Wan2.1-T2V-14B](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B)  | 1022 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-| [<img src="../Images/Organization/Kling.svg" alt="klingai" width="130" height="20" />](https://klingai.com/) |[Kling 1.6 (Pro)](https://klingai.com/) | 1030 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/MiniMax.svg.svg" alt="MiniMax" width="130" height="20" />](https://www.minimaxi.com/en) | [T2V-01-Director](https://www.minimax.io/news/01-director) | 1020 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary)| [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium) |
-| [<img src="../Images/Organization/Tencent.svg" alt="Tencent" width="130" height="20" />](https://github.com/Tencent/) | [HunyuanVideo](https://huggingface.co/tencent/HunyuanVideo) | 1005 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/Genmo.svg" alt="genmo" width="130" height="20" />](https://www.genmo.ai/) | [Mochi-1](https://www.genmo.ai/) | 1000 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/Runway.svg" alt="Runway" width="130" height="20" />](https://runwayml.com/) | [Gen-3 Alpha](https://runwayml.com/research/introducing-gen-3-alpha) | 987 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Kling.svg" alt="klingai" width="130" height="20" />](https://klingai.com/) |[Kling 1.0](https://klingai.com/) | 969 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Luma.svg" alt="Lumalabs" width="130" height="20" />](https://lumalabs.ai/) | [Ray 1](https://lumalabs.ai/dream-machine) | 969 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Luma.svg" alt="Lumalabs" width="130" height="20" />](https://lumalabs.ai/) | [Ray 2](https://lumalabs.ai/dream-machine) | 954 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Haiper](https://haiper.ai)       | [Haiper 2.0](https://haiper.ai/product/text-to-video) | 947 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/Pika.svg" alt="pika" width="130" height="20" />](https://pika.art/) | [Pika 1.5](https://pika.art/try) | 943 | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [<img src="../Images/Organization/THUDM.svg" alt="THUDM" width="130" height="20" />](https://github.com/THUDM) | [CogVideoX-5B](https://huggingface.co/THUDM/CogVideoX-5b) | 784 | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" />     |
-
-
-#### Video Generation Providers
-
-Discover platforms that provide video generation services, enabling users to create video content from text or image prompts through cloud-based solutions.
-
-| Tool              | Description                                                                                                         | Licence     | Pricing     |
-|:------------------|---------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [Dream Machine](https://lumalabs.ai/dream-machine) | A groundbreaking text-to-video AI tool that enables users to generate high-quality, realistic video clips from simple text prompts in just minutes. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Elai](https://elai.io/) | A video creation platform that enables users to produce  videos by inputting text that is then narrated by AI-generated avatars. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Heygen](https://www.heygen.com/) | An innovative video platform that harnesses the power of generative AI to streamline the video creation process. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Higgsfield](https://higgsfield.ai/) | A pioneering foundational model company that specializes in democratizing social media content creation through AI-powered video generation and editing tools. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Kling](https://klingai.com/) | An advanced video generation model developed by Kuaishou Technology, known for its capabilities in creating high-quality videos from text prompts. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Krea](https://www.krea.ai/home) | An advanced AI-powered platform designed for generating and enhancing visual content, including images and videos. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-| [Runway](https://runwayml.com/) | An AI-powered platform for creatives to use machine learning models in their workflows.               | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Sora](https://openai.com/sora) | An AI model developed by OpenAI for generating videos from textual descriptions.                      | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Synthesia](https://www.synthesia.io/) | A synthetic media generation AI tool to create AI-generated video content efficiently.         | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/Paid.svg" alt="Paid" width="80" height="20" /> |
-| [Veo](https://deepmind.google/technologies/veo/) | A generative video model developed by Google, capable of producing high-quality 1080p videos. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Vlogger](https://enriccorona.github.io/vlogger/) | A method for text and audio-driven talking human video generation from a single input image of a person. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [Wombo](https://www.w.ai/) | An AI-powered mobile app for creating lip-syncing videos and other creative content.                       | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | [<img src="../Images/Pricing/Freemium.svg" alt="Freemium" width="80" height="20" />](https://builtin.com/articles/freemium)  |
-
-<br>
-
-### 3D Model Generation
-
-Transform text descriptions and images into detailed 3D models using AI. These Models enable rapid prototyping, asset creation, and visualization by converting natural language or visual inputs into three-dimensional objects.
-
-#### Text/Image-to-3D Models
-
-| Organization         | Model Name                                                                         | Licence     | Pricing     |
-|:--------------------:|:------------------------------------------------------------------------------|:-----------:|:-----------:|
-| [<img src="../Images/Organization/Tencent.svg" alt="Tencent" width="130" height="20" />](https://github.com/Tencent/)  | [Hunyuan3D-2.1](https://huggingface.co/tencent/Hunyuan3D-2.1) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |  <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/Tencent.svg" alt="Tencent" width="130" height="20" />](https://github.com/Tencent/)  | [InstantMesh](https://huggingface.co/TencentARC/InstantMesh) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |  <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/)  | [Stable-zero123](https://huggingface.co/stabilityai/stable-zero123) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |  <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/)  | [TripoSR](https://huggingface.co/stabilityai/TripoSR) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |  <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| [<img src="../Images/Organization/Stability.svg" alt="stability" width="130" height="20" />](https://stability.ai/)  | [stable-fast-3d](https://huggingface.co/stabilityai/stable-fast-3d) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |  <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| **[craftsman3d](https://huggingface.co/craftsman3d)** | [CraftsMan-v1-5](https://huggingface.co/craftsman3d/craftsman) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) |  <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| **Ashawkey** | [LGM](https://huggingface.co/ashawkey/LGM) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| **Jade choghari** | [vfusion3d](https://huggingface.co/jadechoghari/vfusion3d) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-| **Zhaoxi Chen** | [3DTopia-XL](https://huggingface.co/FrozenBurning/3DTopia-XL) | [<img src="../Images/Licence/opensource.svg" alt="opensource" width="90" height="25" />](https://opensource.com/resources/what-open-source) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
-
-<br>
-
-<div align="center">
-
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
 
 </div>
 
 <br>
-
