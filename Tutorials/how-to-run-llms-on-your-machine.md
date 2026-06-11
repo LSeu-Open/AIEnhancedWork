@@ -1,458 +1,442 @@
-<div align="center"> 
- 
+<div align="center">
+
 <img src="../Images/Tutorials/TextGeneration.png">
 
 <br>
 <br>
 
- ***This guide explains how to set up and run language models on your computer, enabling you to maintain full control over your AI tools.***
- 
- <br>
+This guide explains how to set up and run large language models on your own
+computer, so you keep full control over your data and your tools.
 
-***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : +15min***
+Reading time: ~20 min
 
-</div> 
+<br>
+
+[Back to the main index](../README.md)
+
+</div>
 
 ## Table of Contents
 
 * [Introduction](#introduction)
-* [Find the Model that is right for you](#find-the-model-that-is-right-for-you)
+* [Find the Model that is Right for You](#find-the-model-that-is-right-for-you)
 * [LM Studio (Beginner)](#lm-studio)
-* [Ollama (Intermediate)](#ollama)
-* [Llama.cpp (Expert)](#llama-cpp)
+* [LocalAI (Intermediate)](#localai)
+* [Llama.cpp (Expert)](#llamacpp)
 
 <br>
 
 ## Introduction
 
-This tutorial guides **individuals seeking greater control and transparency in their data processing by setting up a local Large Language Model (LLM) environment.*** We'll use Ollama as the backend and the Page Assist extension in your browser for this purpose.
+This tutorial is for anyone who wants more control and transparency over how
+their data is processed by running a Large Language Model (LLM) locally. It
+covers three tools, from the simplest to the most advanced:
 
-#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20in%20Clouds.png" alt="Face in Clouds" width="25" height="25" /> Challenges with Cloud-Based AI Services
+* **LM Studio** — a graphical app, the easiest place to start.
+* **LocalAI** — an open-source local runtime with an OpenAI-compatible API.
+* **Llama.cpp** — the low-level engine most of these tools are built on.
 
-* **Privacy Concerns** : Your data traverses remote servers, raising questions about who might access it and how it will be handled.
-* **Lack of Transparency**: Complex algorithms make it difficult to understand or verify how your data is processed, potentially leading to biased results.
-* **Security Risks** : Major AI providers handle vast amounts of user data, making them attractive targets for breaches.
+#### Trade-offs of cloud-based AI services
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Love-You%20Gesture.png" alt="Love-You Gesture" width="25" height="25" /> Benefits of Running LLMs Locally
+* **Privacy**: your data is sent to remote servers, and you have limited visibility into who can access it and how it is retained.
+* **Transparency**: you cannot inspect how a hosted model processes your input or why it produces a given output.
+* **Security**: large providers concentrate huge amounts of user data, which makes them high-value targets for breaches.
 
-* **Data Control** : Keep your information entirely on your machine, ensuring it's not shared with external parties.
-* **Instant Performance** : Eliminate internet latency for real-time tasks and continuous interaction.
-* **Simplified Compliance** : Maintain complete control over data storage and processing, easing adherence to privacy regulations.
+#### What running LLMs locally gives you
+
+* **Data control**: your input stays on your machine and is not shared with third parties.
+* **Offline use**: no network round-trip, so the model keeps working without an internet connection.
+* **Simpler compliance**: you decide where data is stored and processed, which makes privacy requirements easier to meet.
 
 <br>
 
-## Find the Model that is right for you
+## Find the Model that is Right for You
 
-Now that you've chosen your provider, let's find the right model for your coding needs, particularly if you are considering self-hosting open-source models.
+Before installing anything, it helps to know which model your hardware can
+actually run.
 
-Understanding hardware requirements is crucial. The estimates below generally assume models are quantized (specifically using a common 4-bit quantization), a process that reduces size and memory footprint, offering a balance between performance and quality. Actual performance can vary based on software and system configuration.
-
-Learn more about quantization [here](https://huggingface.co/blog/merve/quantization).
+The estimates below assume models are **quantized** to a common 4-bit format,
+which reduces size and memory use while keeping most of the quality. Actual
+performance varies with the software, the model architecture, and your system.
+You can learn more about quantization in [this overview](https://huggingface.co/blog/merve/quantization),
+and how to pick a quantization level in our own tutorial: [How to Select the Right Quantized Model](how-to-select-the-right-quantized-model.md).
 
 > [!IMPORTANT]
-> Please note that while it is possible to **run models without a GPU**, doing so will load the model into RAM and perform inference using the CPU.
->
-> ***This approach will significantly slow down inference speeds.***
+> You can **run models without a GPU**: the model is loaded into system RAM
+> and inference runs on the CPU. This works, but it is much slower than
+> running on a GPU or on a machine with fast unified memory.
 
-For evaluating specific model performance on coding tasks, the **[Aider polyglot coding leaderboard](https://aider.chat/docs/leaderboards/)** is an excellent resource. It benchmarks LLMs on complex coding challenges across multiple languages.
+To compare models on a specific task, use a current leaderboard rather than a
+fixed list. For coding, the [Aider polyglot coding leaderboard](https://aider.chat/docs/leaderboards/)
+benchmarks LLMs across multiple languages; for general capability, see the
+leaderboards linked from our [Foundation Models](../Docs/Foundation_Models.md#advanced-language-and-reasoning-llms) page.
 
-### Open Source Models: Estimating Hardware Needs
+### Estimating hardware needs
 
-Instead of listing every model here (as that detailed list is maintained in our **[Open Source Models Tables](../Docs/Foundation_Models.md#open-source-models)**), here's a general guide to help you estimate VRAM/RAM requirements based on model size when using 4-bit quantization:
+The full model list is maintained in the
+[Foundation Models](../Docs/Foundation_Models.md#language-only-large-language-models)
+page. Here is a general guide to estimate the memory you need, based on model
+size at 4-bit quantization:
 
-| Model Size (Parameters, Approx. Q4 Quantized) | Estimated VRAM/RAM Requirement                 | Typical Hardware Scenario                                         |
-|-----------------------------------------------|------------------------------------------------|-------------------------------------------------------------------|
-| > 100B - 700B+ (Very Large)                   | 60GB - 400GB+ VRAM                             | Multiple server-grade GPUs (e.g., NVIDIA H100s); Cloud deployment often necessary |
-| ~50B - 100B (Large)                           | 30GB - 60GB+ VRAM                              | 1-2 high-end workstation/server GPUs (e.g., RTX 4090, A100)      |
-| ~15B - 50B (Medium)                           | 16GB - 40GB VRAM                               | Single high-end consumer GPU (e.g., RTX 4080/4090, RX 7900XT)     |
-| ~7B - 15B (Small-Medium)                      | 8GB - 16GB VRAM                                | Mid-to-high range consumer GPU (e.g., RTX 3070/4070/4080, RX 6800/7800XT) |
-| < 7B (Small/Tiny)                             | 4GB - 8GB+ VRAM, or 8GB+ System RAM (for CPU) | Entry-level GPU / Most modern CPUs with sufficient system RAM    |
+| Model size (parameters, approx. Q4) | Estimated VRAM / memory | Typical hardware |
+|-------------------------------------|-------------------------|------------------|
+| > 100B (very large)                 | 64GB - 400GB+           | Multiple data-center GPUs (NVIDIA H100/H200/B200) or a high-capacity unified-memory machine; often run in the cloud |
+| ~50B - 100B (large)                 | 32GB - 64GB+            | 1-2 high-end GPUs (RTX 5090, A100) or 64GB+ of unified memory (Apple Silicon, AMD Ryzen AI Max) |
+| ~15B - 50B (medium)                 | 16GB - 40GB             | Single high-end consumer GPU (RTX 4090 / 5080 / 5090) or 32GB+ of unified memory |
+| ~7B - 15B (small-medium)            | 8GB - 16GB              | Mid-to-high range consumer GPU (RTX 4070 / 5070) or 16GB+ of unified memory |
+| < 7B (small)                        | 4GB - 8GB+ VRAM, or 8GB+ system RAM (CPU) | Entry-level GPU, a recent laptop, or any Apple Silicon Mac |
 
-**Important Considerations:**
-*   **Quantization:** These VRAM estimates are for 4-bit quantized models. Unquantized models will require significantly more VRAM (roughly double for 8-bit, four times for 16-bit precision). Learn how to choose the right quantization method in our tutorial: [How to Select the Right Quantized Model](how-to-select-the-right-quantized-model.md).
-*   **Model Architecture:** Different model architectures can have slightly different memory footprints even with the same parameter count.
-*   **Context Length:** Longer context windows can also increase VRAM usage.
-*   **Specific Implementations:** The software used to run the model (e.g., Ollama, vLLM, llama.cpp) can influence actual memory usage.
+**Things that change the numbers:**
+
+* **Quantization**: these estimates are for 4-bit models. Higher precision needs more memory (roughly double for 8-bit, four times for 16-bit).
+* **Unified memory**: on Apple Silicon and on AMD Ryzen AI Max systems, the CPU and GPU share one memory pool, so the "VRAM" budget is effectively your whole system memory. This makes such machines well suited to larger models.
+* **Context length**: longer context windows use more memory on top of the model itself.
+* **Runtime**: the tool you use (LocalAI, llama.cpp, vLLM) affects real memory usage.
 
 <br>
 <br>
 
-## LM Studio 
+## LM Studio
 
-***(Beginner)*** LM Studio is a powerful yet user-friendly tool for running large language models (LLMs) on your local machine. It's especially well-suited for beginners who want to experiment with AI without needing advanced technical skills or an internet connection.
+*(Beginner)* LM Studio is a desktop application for running LLMs locally. It is
+a good starting point because it wraps everything — model download, loading,
+and chat — in a graphical interface, with no command line required.
 
-### Why Use LM Studio?
+### Why use LM Studio
 
-LM Studio offers several advantages that make it ideal for **newcomers**:
+* **Graphical interface**: download and chat with models without touching a terminal.
+* **Local by default**: models run on your machine; nothing is uploaded.
+* **Model catalog**: browse and download many open-source models from inside the app.
 
-**Ease of Use**: It provides a graphical user interface (GUI), so you don't need to know command-line tools or coding.
+> [!NOTE]
+> LM Studio is a proprietary application (the models you run still stay local).
+> If you prefer fully open-source tools, see LocalAI and Jan further down this
+> guide.
 
-**Privacy**: Since models run locally, your data stays on your machine — no uploading required.
+### System requirements
 
-**Model Access**: You can easily download and use many popular open-source LLMs.
-
-### System Requirements
-
-Before installing LM Studio, make sure your system meets the following minimum requirements:
-
-**RAM**: At least 8GB (16GB or more is recommended for larger models).
-
-**Storage**: Enough space to store model files (typically between 2GB and 20GB+).
-
-**CPU/GPU**: A modern CPU is sufficient. An NVIDIA or AMD GPU can improve performance, but it's not required. Mac users with M1/M2/M3/M4 chips don't need a separate GPU.
-
-**Operating System**:: Windows (x86/ARM), macOS (M1–M4 recommended), or Linux (x86 with AVX2 support)
+* **RAM**: at least 8GB; 16GB or more is recommended for larger models.
+* **Storage**: enough space for the model files (typically 2GB to 20GB+ each).
+* **CPU/GPU**: a modern CPU is enough to get started. An NVIDIA or AMD GPU improves speed but is not required. On Apple Silicon (M1-M4), the integrated GPU is used automatically.
+* **Operating system**: Windows (x86/ARM), macOS (Apple Silicon recommended), or Linux (x86 with AVX2 support).
 
 ### Installation
 
-To get started, follow these simple steps:
-
-1. Go to the official [LM Studio website](https://lmstudio.ai/).
+1. Go to the [LM Studio website](https://lmstudio.ai/).
 2. Download the installer for your operating system.
 3. Run the installer and follow the on-screen instructions.
-4. Launch LM Studio after installation is complete.
+4. Launch LM Studio.
 
-### Finding and Downloading Models
+### Finding and downloading models
 
-Once installed, you can use LM Studio to find, download, and run a wide variety of open-source LLMs.
+1. Open the **Discover** tab (magnifying-glass icon), or press Ctrl + 2 (Windows/Linux) / Cmd + 2 (macOS).
+2. Browse the featured models or search for one — for example "Llama", "Qwen3", "Gemma 3", or "Phi-4" — using what you learned in the [Find the Model that is Right for You](#find-the-model-that-is-right-for-you) section.
+3. Pick a version. Most models are offered in several quantized forms (such as Q4_K_M); LM Studio suggests one that fits your machine. See [How to Select the Right Quantized Model](how-to-select-the-right-quantized-model.md) for guidance.
+4. Click **Download**.
 
-1. Open LM Studio and click the Discover tab (magnifying glass icon) or use Ctrl + 2 (Windows/Linux) / Cmd + 2 (macOS).
-2. Browse featured models or search for specific ones like "Llama", "Phi-3", "Mistral", or "Gemma" based on the info you gathered in the [Find the Model that is right for you section](#find-the-model-that-is-right-for-you).
-3. Choose a model version: many are available in quantized forms (e.g., Q4_K_M), which are optimized for performance and size. LM Studio will automatically select the most suitable version based on your machine specifications. Learn how to choose the right quantization method in our tutorial: [How to Select the Right Quantized Model](how-to-select-the-right-quantized-model.md).
-4. Click Download to get the model.
+> [!TIP]
+> On Apple Silicon, LM Studio can run models with Apple's **MLX** engine in
+> addition to GGUF, which is often faster on those machines. LM Studio also
+> ships a command-line tool, `lms`, if you later want to script it.
 
-### Loading a Model
+### Loading a model
 
-After downloading, you can load the model into LM Studio.
-
-1. Go to the AI Chat tab (chat bubble icon) or use Ctrl + 3 (Windows/Linux) / Cmd + 3 (macOS).
-2. Open the Model Loader by clicking the dropdown at the top center or using Ctrl + L (Windows/Linux) / Cmd + L (macOS).
+1. Open the **Chat** tab, or press Ctrl + 3 (Windows/Linux) / Cmd + 3 (macOS).
+2. Open the model selector at the top of the window, or press Ctrl + L / Cmd + L.
 3. Select the model you downloaded.
-4. Click Load — LM Studio will allocate memory to run the model. Default loading settings usually work well for beginners.
+4. Click **Load**. The default settings work well to start.
 
-### Chatting with the Model
+### Chatting with the model
 
-Once a model is loaded, you can start interacting with it:
+1. Type your prompt in the message box at the bottom.
+2. Press Enter.
+3. The model runs locally and the response appears in the chat window — no internet connection required.
 
-1. Type your question or prompt in the message box at the bottom of the screen.
-2. Press Enter to send.
-3. The AI will process and respond locally — no internet connection required.
-
-You'll see the response appear immediately in the chat window.
-
-For more detailed information, please refer to the [official LM Studio documentation](https://lmstudio.ai/docs/app). Read more on [Downloading Models](https://lmstudio.ai/docs/app/basics/download-model) or [Manage chats](https://lmstudio.ai/docs/app/basics/chat).
+For more detail, see the [LM Studio documentation](https://lmstudio.ai/docs/app),
+including [downloading models](https://lmstudio.ai/docs/app/basics/download-model)
+and [managing chats](https://lmstudio.ai/docs/app/basics/chat).
 
 <br>
 <br>
 
-## Ollama 
+## LocalAI
 
-***(Intermediate)*** Ollama is our top recommendation for running LLMs locally for non beginners users due to its robust integration capabilities and adaptability. 
-
-As an example, you will find below a step-by-step guide on setting up Ollama as a local model provider through an accessible and user-friendly interface. 
-
-Please follow  official documentations if you wish to use other providers, or open an issue on this repository if you want a dedicated section for your preferred provider in this file.
+*(Intermediate)* [LocalAI](https://localai.io/) is an open-source (MIT) local
+runtime that exposes an OpenAI-compatible API and runs models from a built-in
+gallery on your own hardware — CPU or GPU, no account required. It is the natural
+step up from a desktop app once you want a local API that your own scripts and
+other tools can call. It is community-driven rather than tied to a commercial
+cloud service, and it runs llama.cpp under the hood.
 
 ### Installation
 
-| Platform          | Installation Method |
-|:-----------------:|:--------------------:|
-| **macOS**         | [Download](https://ollama.com/download/Ollama-darwin.zip) |
-| **Windows**       | [Download](https://ollama.com/download/OllamaSetup.exe)  |
-| **Linux**         | [Manual install instructions](https://github.com/ollama/ollama/blob/main/docs/linux.md) |
-| **Docker**        | [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) is available on Docker Hub.  |
+| Platform | Installation method |
+|:--------:|:--------------------|
+| **Docker (CPU)** | `docker run -ti -p 8080:8080 --name local-ai localai/localai:latest-cpu` |
+| **Docker (NVIDIA GPU)** | `docker run -ti -p 8080:8080 --gpus all --name local-ai localai/localai:latest-gpu-nvidia-cuda-12` |
+| **macOS app / binaries** | [Release downloads](https://github.com/mudler/LocalAI/releases) |
 
-### Quickstart
+The Docker commands start the server and its web UI right away. The native app
+and binaries also install a `local-ai` command-line tool.
+
+### Quickstart (command line)
+
+With the `local-ai` binary installed, run a model from the gallery by name —
+LocalAI downloads it and starts the server:
+
+```
+local-ai run llama-3.2-1b-instruct:q4_k_m
+```
+
+Browse the [model gallery](https://localai.io/models/) for what is available; you
+can also pull GGUF models directly from Hugging Face. The server runs on
+`http://localhost:8080` and exposes an OpenAI-compatible API at
+`http://localhost:8080/v1`, so any OpenAI client or tool can be pointed at it.
 
 <br>
 
-To run and chat with [Llama 3.1](https://ollama.com/library/llama3.1) write the following input in a terminal:
+### Using a graphical interface
 
+You do not have to stay in the terminal. From simplest to most capable:
+
+#### Option 1: the built-in web UI
+
+LocalAI serves its own chat interface at `http://localhost:8080`. Open it in a
+browser to chat, install and manage models, and adjust settings — nothing else
+to install.
+
+#### Option 2: Open WebUI
+
+[Open WebUI](https://github.com/open-webui/open-webui) is a fuller self-hosted
+web interface (chat history, multiple models, document/RAG support). Point it at
+LocalAI's OpenAI-compatible endpoint (`http://localhost:8080/v1`).
+
+Install with pip:
+
+```bash
+pip install open-webui
+open-webui serve
 ```
-ollama run llama3.1
-```
-This will allow you to chat with the **llama3.1:8B model** within the command-line interface (CLI). See the list of models available on [ollama.com/library](https://ollama.com/library 'ollama model library'). 
 
-To download a model without launching it, simply enter the following command:
+Then open `http://localhost:8080`. Alternatively, run it with Docker (served on
+`http://localhost:3000`):
 
-```
-ollama pull llama3.1
-```
-To view the list of models you've downloaded, simply use the following command:
-
-```
-ollama list
+```bash
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway \
+  -v open-webui:/app/backend/data --name open-webui --restart always \
+  ghcr.io/open-webui/open-webui:main
 ```
 
-<br>
+#### Option 3: Page Assist (browser extension)
 
-### User Friendly Ollama Models Interaction
+[Page Assist](https://github.com/n4ze3m/page-assist) is a lightweight,
+open-source browser extension that adds a sidebar and a web UI for your local
+model, and can use the current web page (or a PDF) as context. Point it at your
+local OpenAI-compatible endpoint in its settings — useful if you want a GUI
+without installing anything else.
 
-For those who prefer a more user-friendly experience, we'll demonstrate how to interact with your Ollama model through our browser-based interface, which provides a graphical and intuitive way of working with your LLM. We will be using the [Page assist extension](https://github.com/n4ze3m/page-assist).
+Install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo),
+then click the extension icon to open the chat UI. Manual install instructions
+are in the [project repository](https://github.com/n4ze3m/page-assist).
 
-Page Assist is an open-source Chrome Extension that provides a Sidebar and Web UI for your Local AI model. It allows you to interact with your model from any webpage.
+Browser support:
 
-Want to explore other possibilities? Take a look at the alternative solutions available in our [Local Providers section](../Docs/Foundation_Models.md#local-llm-providers).
+| Browser | Sidebar | Chat with webpage | Web UI |
+| ------- | :-----: | :---------------: | :----: |
+| Chrome  | Yes     | Yes               | Yes    |
+| Brave   | Yes     | Yes               | Yes    |
+| Firefox | Yes     | Yes               | Yes    |
+| Vivaldi | Yes     | Yes               | Yes    |
+| Edge    | Yes     | No                | Yes    |
+| Opera   | No      | No                | Yes    |
+| Arc     | No      | No                | Yes    |
 
-#### Installation and setup 
+To use the "chat with current page" option, set an embedding model in the
+extension's RAG settings.
 
-You can install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo)
+> [!NOTE]
+> The first message to a model can take a moment while it loads into memory.
+> After that, responses are faster. Speed depends on your hardware.
 
-#### Browser Support
+Default keyboard shortcuts: `Ctrl+Shift+P` opens the sidebar, `Ctrl+Shift+L`
+opens the web UI. You can change these in the extension settings.
 
-| Browser  | Sidebar | Chat With Webpage | Web UI |
-| -------- | ------- | ----------------- | ------ |
-| Chrome   | ✅      | ✅                | ✅     |
-| Brave    | ✅      | ✅                | ✅     |
-| Firefox  | ✅      | ✅                | ✅     |
-| Vivaldi  | ✅      | ✅                | ✅     |
-| Edge     | ✅      | ❌                | ✅     |
-| Opera    | ❌      | ❌                | ✅     |
-| Arc      | ❌      | ❌                | ✅     |
+> [!TIP]
+> Prefer a single desktop app instead of a server plus a front-end?
+> [Jan](https://jan.ai/) is an open-source, ChatGPT-style app that bundles its
+> own llama.cpp-based engine and also exposes a local OpenAI-compatible server —
+> a friendlier, GUI-first alternative to LocalAI.
 
-
-If needed, see the [Manual Installation](https://github.com/n4ze3m/page-assist) instructions on their github repository.
-
-Once the extension is installed Just click on the extension icon and it'll take you straight to the chatGPT-like UI.
-
-After installation, I suggest the following steps :
-
-- A center message **must letting you know that Ollama is running in the background**, ready to handle your requests.
-- To the top left corner, a **dropdown menu** awaits, listing all models you've installed and are currently available for interaction. Simply **select the model with which you wish to engage.**
-- In the **top left icon**, click to open a sidebar that enables Conversation Management. This feature allows you to **manage and organize your conversations**.
-
-> [!Note]
-> When you first interact with your model, there might be a brief delay as it loads into memory. But once you're chatting away, responses should come quickly !
-> Just remember that processing time can vary depending on your computer's specs.
-
-#### Usage
-
-##### Sidebar
-
-Once the extension is installed, you can **open the sidebar via context menu or keyboard shortcut**.  By exploiting this sidebar functionality, you can engage in seamless conversations with your model while **leveraging the current web page as contextual reference (website, documentation, PDF...).**
-
-▶️ in order to use `chat with the current page` option you need to set a Embedding Model in the `RAG Settings`.
-
-> Default Keyboard Shortcut: `Ctrl+Shift+P`
-
-##### Web UI
-
-You can open the Web UI by clicking on the extension icon which will open a new tab with the Web UI.
-
-> Default Keyboard Shortcut: `Ctrl+Shift+L`
-
-> [!Note]
-> You can change the keyboard shortcuts from the extension settings on the Chrome Extension Management page.
+> [!TIP]
+> Want other options? See the alternatives in our
+> [Local LLM Providers](../Docs/Foundation_Models.md#local-llm-providers) section.
 
 <br>
 <br>
 
-## Llama cpp 
+## Llama.cpp
 
-***(Expert)*** Llama.cpp is a high-performance C++ library designed to run large language models (LLMs) efficiently on various hardware platforms. It supports both standard CPUs and systems with limited resources, making it ideal for deploying quantized models in the **GGUF** format.
+*(Expert)* [Llama.cpp](https://github.com/ggml-org/llama.cpp) is the
+high-performance C/C++ engine that powers many local LLM tools, including
+LocalAI, LM Studio, and Jan. Running it directly gives you the most control. It
+runs quantized models in the **GGUF** format on CPUs and on a wide range of GPUs.
+
+> [!NOTE]
+> Llama.cpp is built to run a model **locally for one user**, including on CPUs,
+> Apple Silicon, and single consumer GPUs. If your goal is instead to **serve a
+> model to many users or to maximize GPU throughput**, reach for
+> [vLLM](https://github.com/vllm-project/vllm) or
+> [SGLang](https://github.com/sgl-project/sglang). They use continuous batching
+> and paged/prefix-caching attention to handle many concurrent requests on
+> server-class GPUs, expose an OpenAI-compatible API, and are not intended for
+> CPU or Apple Silicon use.
+
+> [!TIP]
+> You do not have to compile it yourself. Prebuilt binaries are published on
+> the [releases page](https://github.com/ggml-org/llama.cpp/releases), and on
+> macOS you can install it with `brew install llama.cpp`. Build from source
+> only if you want a specific configuration. The steps below cover the
+> from-source path.
 
 ### Prerequisites
 
-Before you begin, make sure the following tools are installed:
+1. **Git** — to clone the repository.
+2. **A C++ toolchain and CMake**:
+   * Linux: `sudo apt update && sudo apt install build-essential cmake git`
+   * macOS: `xcode-select --install` (installs the command-line tools); install CMake with `brew install cmake`.
+   * Windows: install [CMake](https://cmake.org/download/) and either Visual Studio (with the C++ workload) or MSYS2.
+3. **Python** (optional) — only needed for the Python bindings (`llama-cpp-python`).
 
-1. Git
-Git is used to clone the Llama.cpp repository from GitHub.
+### Option 1: build the C++ executables
 
-2. Build Tools (Based on Your OS)
-
-- Linux:
-Install essential build tools using `apt`:
-
-```bash
-sudo apt update && sudo apt install build-essential cmake git
-```
-
-- macOS:
-Install Xcode command line tools:
+**Step 1 — clone the repository**
 
 ```bash
-xcode-select --install
-```
-
-- Windows:
-Use **MSYS2** or a similar environment that provides C++ compilation tools such as `make`, `g++`, and `clang++`. Git for Windows often includes these tools by default.
-
----
-
-3. Python (Optional)
-
-Python is optional but required if you plan to use the Python bindings (`llama-cpp-python`). You can install it using:
-
-```bash
-sudo apt install python3   # Linux
-brew install python     # macOS
-```
-
-### Installation and Setup
-
-You have two main options for using Llama.cpp: either via its **C++ executable** or through **Python bindings**.
-
-#### Option 1: Using the Core C++ Executable
-
-This is the most straightforward way to run Llama.cpp on your system.
-
-**Step 1: Clone the Repository**
-
-Open a terminal and run:
-
-```bash
-git clone https://github.com/ggerganov/llama.cpp.git
+git clone https://github.com/ggml-org/llama.cpp.git
 cd llama.cpp
 ```
 
-**Step 2: Build the Project**
-
-Compile the source code using `make`:
+**Step 2 — build with CMake**
 
 ```bash
-make
+cmake -B build
+cmake --build build --config Release -j
 ```
 
-This builds the main executable, `./main`, which is optimized for **CPU inference**. For significantly improved performance on compatible hardware, you can build with GPU acceleration (e.g., using `make LLAMA_CUDA=1` for NVIDIA GPUs). Refer to the official documentation for specific commands for CUDA, Metal (macOS), and other backends.
+The executables are written to `build/bin/` — most importantly `llama-cli`
+(interactive/CLI inference) and `llama-server` (an OpenAI-compatible HTTP
+server). On macOS, Metal GPU acceleration is enabled by default.
 
-> 🔧 **Note**: For GPU acceleration (CUDA, Metal), you'll need to use specific build commands. See the [Llama.cpp Build Documentation](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md) for more details.
-
-
-**Step 3: Verify the Build (Optional)**
-
-You can check the available command-line options by running:
+For NVIDIA GPUs, build with CUDA enabled (requires the CUDA toolkit):
 
 ```bash
-./main -h
+cmake -B build -DGGML_CUDA=ON
+cmake --build build --config Release -j
 ```
 
-This will display all the supported flags and usage examples.
+See the [build documentation](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md)
+for other backends (ROCm/HIP for AMD, Vulkan, SYCL).
 
-
-#### Option 2: Using Python Bindings (`llama-cpp-python`)
-
-If you want to use Llama.cpp within Python, follow these steps:
-
-**Step 1: Create a Virtual Environment**
-
-It's recommended to create an isolated environment to avoid package conflicts.
-
-Using **Conda**:
+**Step 3 — verify the build (optional)**
 
 ```bash
-conda create --name llama-cpp-env
-conda activate llama-cpp-env
+./build/bin/llama-cli -h
 ```
 
-Using **Python's built-in `venv`** (Linux/macOS):
+### Option 2: use the Python bindings (`llama-cpp-python`)
+
+**Step 1 — create a virtual environment**
 
 ```bash
 python -m venv llama-cpp-env
-source llama-cpp-env/bin/activate  # On Linux/macOS
+source llama-cpp-env/bin/activate      # Linux/macOS
+# llama-cpp-env\Scripts\activate       # Windows
 ```
 
-On Windows:
-
-```bash
-llama-cpp-env\Scripts\activate
-```
-
-**Step 2: Install the Python Bindings**
-
-Install `llama-cpp-python` using pip:
+**Step 2 — install the bindings**
 
 ```bash
 pip install llama-cpp-python
 ```
 
-**Step 3: Verify Installation (Optional)**
-
-Run a simple test to confirm it's working:
-
-```bash
-python -c "from llama_cpp import Llama; print('llama-cpp-python installed successfully!')"
-```
-
-### Getting a Model
-
-Llama.cpp primarily uses models in the **GGUF** format, which are quantized versions of popular large language models. These allow running large models with reduced memory usage.
-
-### Steps to Get a GGUF Model:
-
-1. Visit [Hugging Face Hub](https://huggingface.co/) and search for models compatible with Llama.cpp (e.g., "Llama-3-8B-Instruct-GGUF").
-2. Choose the desired **quantization level**:
-   - `Q4_K_M`: Low memory usage, good for most users.
-   - `Q5_K_M`, `Q8_0`: Higher quality but uses more memory.
-3. Download the `.gguf` file and save it in a known location (e.g., `models/`).
-
-
-### Running Inference
-
-#### Option 1 : Using the Core Executable (`./main`)
-
-Run inference from the command line:
+To build with GPU support, pass the same CMake flag through pip, for example
+for CUDA:
 
 ```bash
-./main -m <path_to_model.gguf> -p "<your_prompt>" [options]
+CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
 ```
 
-**Example:**
+**Step 3 — verify the installation (optional)**
 
 ```bash
-./main -m ./models/llama-3-8b-instruct.Q4_K_M.gguf \
-      -p "Explain the theory of relativity in simple terms." \
-      -n 256 \          # Max tokens to generate
-      -c 2048 \         # Context size (must be >= prompt length + max tokens)
-      --temp 0.7        # Temperature setting for randomness
+python -c "from llama_cpp import Llama; print('llama-cpp-python installed successfully')"
 ```
 
-**Flags explained:**
+### Getting a GGUF model
 
-- `-m`: Path to your GGUF model file.
-- `-p`: The prompt or input text you want the model to respond to.
-- `-n`: Maximum number of tokens (words/subwords) to generate.
-- `-c`: Context size — how much text the model considers at once. Should be >= prompt length + max tokens.
-- `--temp`: Temperature value for controlling randomness.
+Llama.cpp uses models in the **GGUF** format.
 
+1. On the [Hugging Face Hub](https://huggingface.co/), search for a GGUF build of the model you want (for example "Qwen3 GGUF" or "Gemma 3 GGUF"). Publishers such as `ggml-org`, `bartowski`, and `unsloth` provide ready-made GGUF files.
+2. Choose a quantization level:
+   * `Q4_K_M`: low memory use, a good default for most users.
+   * `Q5_K_M`, `Q8_0`: higher quality, more memory.
+3. Download the `.gguf` file to a known location (for example `models/`).
 
-#### Option 2 : Using Python Bindings
+### Running inference
 
-Here's a simple example script (`inference.py`) that loads and runs a model:
+#### With `llama-cli`
+
+```bash
+./build/bin/llama-cli \
+  -m ./models/qwen3-8b-Q4_K_M.gguf \
+  -p "Explain the theory of relativity in simple terms." \
+  -n 256 \
+  -c 4096 \
+  --temp 0.7
+```
+
+Flags:
+
+* `-m`: path to the GGUF model file.
+* `-p`: the prompt.
+* `-n`: maximum number of tokens to generate.
+* `-c`: context size (should be at least prompt length + tokens generated).
+* `--temp`: sampling temperature (randomness).
+
+#### With `llama-server`
+
+To use the model through an OpenAI-compatible API and a built-in web UI:
+
+```bash
+./build/bin/llama-server -m ./models/qwen3-8b-Q4_K_M.gguf -c 4096
+```
+
+Then open `http://localhost:8080`, or send requests to the API at
+`http://localhost:8080/v1/chat/completions`.
+
+#### With the Python bindings
 
 ```python
 from llama_cpp import Llama
 
-# Load the model (adjust path as needed)
 llm = Llama(
-    model_path="./models/llama-3-8b-instruct.Q4_K_M.gguf",
-    n_ctx=2048,      # Context window size
-    n_gpu_layers=-1,   # Use GPU if available
-    verbose=True     # Show detailed output
+    model_path="./models/qwen3-8b-Q4_K_M.gguf",
+    n_ctx=4096,        # context window
+    n_gpu_layers=-1,   # offload all layers to GPU if available
+    verbose=True,
 )
 
-# Define the prompt
-user_prompt = "What are the main benefits of using Python?"
-
-# Generate text
-output = llm(
-    user_prompt,
+output = llm.create_chat_completion(
+    messages=[{"role": "user", "content": "What are the main benefits of using Python?"}],
     max_tokens=256,
     temperature=0.7,
     top_p=0.9,
-    echo=True,        # Include the prompt in output
-    stop=["\n", "User:"]
 )
 
-# Process and print the result
-if output and 'choices' in output and len(output['choices']) > 0:
-    generated_text = output['choices'][0]['text']
-    response_only = generated_text.replace(user_prompt, "", 1).strip()
-    print("Model Response:\n", response_only)
-else:
-    print("No output generated.")
+print(output["choices"][0]["message"]["content"])
 ```
 
-**To run the script:**
+Run it with:
 
 ```bash
 python inference.py
@@ -460,14 +444,11 @@ python inference.py
 
 ## Next Steps
 
-This tutorial covers the basics of setting up and using Llama.cpp. For more advanced features such as:
+This tutorial covers the basics of running LLMs locally. To go further:
 
-- **Multi-GPU support**
-- **Grammar-based output control**
-- **Quantization tuning**
-- **Custom sampling methods**
-
-You can refer to the [official Llama.cpp documentation](https://github.com/ggml-org/llama.cpp).
+* **Serving at scale**: for high-throughput, multi-user serving on server-class GPUs, see [vLLM](https://github.com/vllm-project/vllm) and [SGLang](https://github.com/sgl-project/sglang) (introduced in the Llama.cpp section above).
+* **Advanced llama.cpp**: multi-GPU offload, grammar-constrained output, and custom sampling are covered in the [official documentation](https://github.com/ggml-org/llama.cpp).
+* **Choosing quantization**: see [How to Select the Right Quantized Model](how-to-select-the-right-quantized-model.md).
 
 <br>
 <br>
