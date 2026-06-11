@@ -1,23 +1,29 @@
-<div align="center"> 
- 
+<div align="center">
+
 <img src="../Images/Tutorials/Quantization.png">
 
 <br>
 <br>
 
- ***This  guide explains how to understand and select the optimal quantization for your large language models (LLMs).***
- 
-***<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> Reading Time : 20 min***
+Reading time: ~20 min
 
 <br>
 
-[⬅️ Back to the Main Page](../README.md) 
+[Back to the main index](../README.md)
 
 </div>
 
 <br>
 
-# Table of Contents
+# How to Select the Right Quantized Model
+
+This guide explains how to read quantization formats and file names, where to
+find trustworthy pre-quantized models, and how to pick the format that fits your
+hardware and goal.
+
+<br>
+
+## Table of Contents
 
 - [Introduction to Quantization](#introduction-to-quantization)
   - [What is Quantization?](#what-is-quantization)
@@ -28,16 +34,18 @@
     - [Decoding GGUF File Names](#decoding-gguf-file-names)
   - [GPTQ](#gptq)
   - [AWQ](#awq)
-  - [EXL2 / EXL3](#exl2--exl3)
+  - [EXL3 and EXL2](#exl3-and-exl2)
   - [MLX](#mlx)
   - [bitsandbytes](#bitsandbytes)
+  - [FP8](#fp8)
+  - [Other Methods](#other-methods)
 - [Finding Quantized Models: The Providers](#finding-quantized-models-the-providers)
   - [The Hugging Face Hub: Your Primary Destination](#the-hugging-face-hub-your-primary-destination)
   - [Key Community Providers](#key-community-providers)
-    - [TheBloke](#thebloke)
     - [unsloth](#unsloth)
     - [GGUF, CPU \& Mac Providers](#gguf-cpu--mac-providers)
-    - [GPU-Native Providers (EXL2)](#gpu-native-providers-exl2)
+    - [GPU-Native Providers (EXL3 / EXL2)](#gpu-native-providers-exl3--exl2)
+    - [TheBloke (historical)](#thebloke-historical)
 - [How to Choose the Right Quantized Model](#how-to-choose-the-right-quantized-model)
   - [Step 1: Assess Your Hardware](#step-1-assess-your-hardware)
   - [Step 2: Define Your Goal](#step-2-define-your-goal)
@@ -78,7 +86,7 @@ Here are some common data types you'll encounter when dealing with quantized mod
 
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
 
 </div>
 
@@ -90,7 +98,7 @@ Now, let's dive into the specific formats and methods you'll see when looking fo
 
 ### GGUF
 
-GGUF (Georgi Gerganov Unified Format) is a file format designed by the team behind `llama.cpp`. It's a container format that stores the model's architecture, vocabulary, and quantized weights in a single file.
+GGUF is the model file format used by `llama.cpp`, succeeding the earlier GGML format. It's a container format that stores the model's architecture, vocabulary, and quantized weights in a single file.
 
 *   **Key Feature**: Primarily designed for running LLMs on **CPUs**, although it also has excellent GPU offloading capabilities.
 *   **Pros**:
@@ -117,8 +125,8 @@ When you look for GGUF models, like the ones provided by `unsloth` for `Devstral
 **1. Quantization Method: `IQ` vs. `Q`**
 
 *   **`Q` (Standard Quantization)**: This is the original method. It applies a uniform reduction in precision across all the model's weights.
-*   **`IQ` (Importance-Matrix Quantization)**: This is a newer, more intelligent method. It identifies the most important weights in the model and preserves their precision more carefully during quantization. This results in a model with better performance for the same file size. Human preference tests show that `IQ` quants are consistently rated higher than their `Q` counterparts. [Source: `llama.cpp` GitHub Discussions #5962](https://github.com/ggml-org/llama.cpp/discussions/5962)
-*   **Rule of Thumb**: **Always choose an `IQ` quant over a `Q` quant if available.**
+*   **`IQ` (Importance-Matrix Quantization)**: A newer method that uses an importance matrix (imatrix) to preserve the most important weights more carefully during quantization. This gives better quality for the same file size, which matters most at low bit-rates. [Source: `llama.cpp` GitHub Discussions #5962](https://github.com/ggml-org/llama.cpp/discussions/5962)
+*   **Rule of Thumb**: At low bit-rates (2-4 bit), prefer an `IQ` quant for the best quality at a given size. The trade-off is that `IQ` quants can be **slower than K-quants on CPU and Apple Silicon**, so if you are running on those and want maximum speed, a K-quant like `Q4_K_M` is often the better pick.
 
 <br>
 
@@ -188,25 +196,24 @@ AWQ (Activation-aware Weight Quantization) is another PTQ method that improves u
     *   Often provides better performance than GPTQ at the same bit-rate.
     *   Very fast inference speeds.
 *   **Cons**:
-    *   Slightly less common than GPTQ, but gaining popularity rapidly.
     *   Primarily for NVIDIA GPUs.
-*   **Use it when**: You want the state-of-the-art in 4-bit quantization for GPU inference, potentially with better accuracy than GPTQ.
+*   **Use it when**: You want strong 4-bit accuracy for GPU inference. AWQ is now one of the most widely used formats in GPU serving engines such as vLLM and SGLang.
 
 <br>
 
-### EXL2 / EXL3
+### EXL3 and EXL2
 
-EXL2 is a quantization format specifically designed for the `exllamav2` inference engine. It offers very fast inference speeds and low VRAM usage. EXL3 is a further evolution of this format.
+These are the quantization formats for the ExLlama inference engines. **EXL3** is the current format, used by [`exllamav3`](https://github.com/turboderp-org/exllamav3); **EXL2** is the previous format, used by `exllamav2`. Both target fast inference and low VRAM on NVIDIA GPUs, and both use a flexible, variable bit-rate scheme — you'll see files labelled with an average bit-rate such as `4.5bpw` or `6.0bpw` rather than a fixed `Q4`.
 
-*   **Key Feature**: Highly optimized for speed on **NVIDIA GPUs**. It uses a more flexible quantization scheme where different bit-rates can be used for different layers. This allows the model to preserve more detail in important layers.
+EXL3 is a redesign based on the QTIP quantization method. It delivers noticeably better quality per bit than EXL2 (a 3-bit EXL3 model is roughly comparable to a 4-bit EXL2 one), quantizes in a single step, and preserves the model's original tensor structure, which makes wider support (such as in Transformers) more feasible over time.
+
+*   **Key Feature**: Highly optimized for speed on **NVIDIA GPUs**, with variable bit-rates that preserve more detail in important layers.
 *   **Pros**:
-    *   Currently one of the fastest inference methods available.
-    *   Very low VRAM usage.
-    *   The variable bit-rate can improve model quality over fixed-bit quantization. For example, you might see files labeled with an average bit-rate like `4.5bpw` or `6.0bpw`.
+    *   Among the fastest local inference methods available.
+    *   Very low VRAM usage; EXL3 improves quality-per-bit further, making low bit-rates more usable.
 *   **Cons**:
-    *   Locked into the `exllamav2` ecosystem.
-    *   Quantization process can be complex.
-*   **Use it when**: Your top priority is raw inference speed on an NVIDIA GPU.
+    *   Tied to the ExLlama ecosystem (and modern NVIDIA GPUs).
+*   **Use it when**: Your top priority is raw inference speed on an NVIDIA GPU. Prefer **EXL3** for new setups; use EXL2 if a model you need is only available in that format.
 
 <br>
 
@@ -216,7 +223,7 @@ MLX is a machine learning framework designed by Apple, specifically for Apple Si
 
 *   **Key Feature**: The native, most performant format for running models on **Apple Silicon (Macs)**.
 *   **Pros**:
-    *   Best performance and efficiency on M1/M2/M3 chips.
+    *   Best performance and efficiency on Apple Silicon (M1-M4).
     *   Leverages Apple's hardware (GPU, Neural Engine) seamlessly.
     *   Growing ecosystem with providers like `mlx-community`.
 *   **Cons**:
@@ -239,9 +246,36 @@ MLX is a machine learning framework designed by Apple, specifically for Apple Si
 
 <br>
 
+### FP8
+
+FP8 (8-bit floating point) is a quantization format aimed at **GPU serving**. Unlike integer formats, it keeps a floating-point representation (commonly the `E4M3` variant), which maps cleanly onto the FP8 hardware units in recent NVIDIA GPUs (Hopper, Ada, and Blackwell) and on recent AMD data-center GPUs.
+
+*   **Key Feature**: Near-lossless 8-bit quality with hardware-accelerated throughput on modern server GPUs.
+*   **Pros**:
+    *   Very small quality loss compared to FP16/BF16.
+    *   High throughput in serving engines such as vLLM, SGLang, and TensorRT-LLM.
+*   **Cons**:
+    *   Needs recent GPU hardware to get the speed benefit; little advantage on older cards.
+    *   An 8-bit format, so it saves less memory than 4-bit options.
+*   **Use it when**: You are serving a model on recent server-class GPUs and want quality close to the original with good throughput. This pairs naturally with the serving engines covered in [How to Run LLMs on Your Machine](how-to-run-llms-on-your-machine.md#llamacpp).
+
+<br>
+
+### Other Methods
+
+The field moves quickly, and you may come across newer methods aimed at better accuracy at low bit-rates or faster quantization:
+
+*   **AutoRound** (Intel): a post-training method using sign-gradient descent that achieves strong accuracy at 2-4 bit, and can export to GGUF, GPTQ, and AWQ.
+*   **HQQ** (Half-Quadratic Quantization): a fast, calibration-free method that quantizes large models in minutes without a calibration dataset.
+*   **compressed-tensors**: a flexible container format (from the vLLM ecosystem) that stores FP8, INT8, INT4, and sparse models, increasingly used to distribute server-ready quantized models on the Hub.
+
+For most local use you will still pick one of the main formats above; these are worth knowing as they appear more often on the Hub.
+
+<br>
+
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
 
 </div>
 
@@ -249,7 +283,7 @@ MLX is a machine learning framework designed by Apple, specifically for Apple Si
 
 ## Finding Quantized Models: The Providers
 
-The open-source AI community is vibrant, and luckily, you rarely have to quantize a model yourself. Several individuals and groups consistently provide pre-quantized models for the community on platforms like Hugging Face.
+You rarely have to quantize a model yourself. Several individuals and groups consistently publish pre-quantized models on platforms like Hugging Face, usually within hours or days of a new release.
 
 ### The Hugging Face Hub: Your Primary Destination
 
@@ -266,13 +300,7 @@ The [Hugging Face Hub](https://huggingface.co/models) is the central repository 
 
 ### Key Community Providers
 
-The community of providers is constantly evolving. While some names become trusted sources for a wide range of models, new specialists often emerge with new model releases or formats. For example, a search for the `mistralai/Devstral-Small-2505` model reveals quantizations from a diverse group of contributors. Here are some of the key players you'll frequently encounter.
-
-<br>
-
-#### **TheBloke**
-
-For a long time, [**TheBloke**](https://huggingface.co/TheBloke) was the most prolific and trusted provider of quantized models. He created a massive library of GGUF, GPTQ, AWQ, and EXL2 models. While he may be less active with the very latest releases, his repository remains an invaluable, high-quality resource, especially for slightly older or foundational models.
+The set of providers evolves over time: some names become trusted sources for a wide range of models, while new specialists emerge with new releases or formats. For example, a search for the `mistralai/Devstral-Small-2505` model reveals quantizations from a diverse group of contributors. Here are the key players you'll frequently encounter.
 
 <br>
 
@@ -294,22 +322,29 @@ For a long time, [**TheBloke**](https://huggingface.co/TheBloke) was the most pr
 Several contributors focus on providing GGUF models, which are excellent for CPU and Apple Silicon users.
 
 *   [**bartowski**](https://huggingface.co/bartowski): A consistent and reliable provider of GGUF models for new releases.
+*   [**mradermacher**](https://huggingface.co/mradermacher): One of the most prolific GGUF providers, offering both static and weighted/imatrix (`i1`) quants across a very wide range of models. A go-to source since TheBloke wound down.
 *   [**lmstudio-community**](https://huggingface.co/lmstudio-community): Provides GGUF and is also a key source for **MLX** formats, which are specifically optimized for Apple Silicon.
 *   [**mlx-community**](https://huggingface.co/mlx-community): As the name suggests, this group focuses on providing the community with MLX-quantized models for Macs.
 
 <br>
 
-#### GPU-Native Providers (EXL2)
+#### GPU-Native Providers (EXL3 / EXL2)
 
-For maximum inference speed on NVIDIA GPUs, the EXL2 format is a top choice.
+For maximum inference speed on NVIDIA GPUs, the EXL3 and EXL2 formats are a top choice.
 
-*   [**ArtusDev**](https://huggingface.co/ArtusDev) and [**matatonic**](https://huggingface.co/matatonic): These are examples of community members who specialize in providing high-quality EXL2 quantizations, often offering a wide range of bit-rates for the latest models.
+*   [**ArtusDev**](https://huggingface.co/ArtusDev) and [**matatonic**](https://huggingface.co/matatonic): Community members who specialize in high-quality EXL3 and EXL2 quantizations, often offering a wide range of bit-rates for the latest models.
+
+<br>
+
+#### **TheBloke** (historical)
+
+For a long time, [**TheBloke**](https://huggingface.co/TheBloke) was the most prolific and trusted provider of quantized models, with a massive library of GGUF, GPTQ, AWQ, and EXL2 files. He has not published new quants since early 2024, so the repository is best treated as an archive for older, foundational models — for current releases, use the providers above.
 
 <br>
 
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
 
 </div>
 
@@ -317,22 +352,23 @@ For maximum inference speed on NVIDIA GPUs, the EXL2 format is a top choice.
 
 ## How to Choose the Right Quantized Model
 
-This is the crucial part. The right choice depends on your hardware, your VRAM, and your goal.
+The right choice depends on your hardware, your VRAM, and your goal.
 
 ### Step 1: Assess Your Hardware
 
-*   **Powerful NVIDIA GPU (e.g., RTX 3090, 4090)**: You have the most options. You can run high bit-rate EXL2, AWQ, or GPTQ models for maximum quality and speed.
-*   **Mid-range/Low VRAM NVIDIA GPU (e.g., RTX 3060 12GB, RTX 4060 8GB)**: You need to be mindful of VRAM. 4-bit or 5-bit models in GPTQ, AWQ, or EXL2 formats are excellent. For larger models, you might need GGUF with GPU offloading.
-*   **CPU-only or Laptop**: Your best, and often only, choice is **GGUF**. It's optimized for CPU performance.
-*   **Apple Silicon (Mac M1/M2/M3)**: Your best options are **GGUF** (via `llama.cpp`) or the native **MLX** format.
+*   **Powerful NVIDIA GPU (e.g., RTX 3090, 4090, 5090)**: You have the most options. You can run high bit-rate EXL3, AWQ, or GPTQ models for maximum quality and speed.
+*   **Mid-range/Low VRAM NVIDIA GPU (e.g., RTX 3060 12GB, RTX 5060)**: You need to be mindful of VRAM. 4-bit or 5-bit models in EXL3, GPTQ, or AWQ formats work well. For larger models, you might need GGUF with GPU offloading.
+*   **CPU-only or Laptop**: Your best, and often only, choice is **GGUF**, which runs well on CPUs.
+*   **Apple Silicon (Mac, M1-M4)**: Your best options are **GGUF** (via `llama.cpp`) or the native **MLX** format. The shared (unified) memory means your whole system RAM is available to the model.
 *   **AMD GPU**: Support for ROCm (the AMD equivalent of CUDA) is improving, but can still be tricky. The most reliable path is often **GGUF** with GPU offloading, which is well-supported.
 
 ### Step 2: Define Your Goal
 
-*   **I just want the fastest possible inference**: **EXL2** is likely your best bet, if you have a compatible NVIDIA GPU.
-*   **I want to fine-tune the model**: Use a `bitsandbytes` NF4 model, ideally supercharged with the **Unsloth** library.
+*   **I just want the fastest possible inference**: **EXL3** is likely your best bet, if you have a compatible NVIDIA GPU.
+*   **I want to fine-tune the model**: Use a `bitsandbytes` NF4 model, ideally with the **Unsloth** library.
 *   **I want an easy, "it just works" experience**: **GGUF** is the simplest to get started with across the widest range of hardware.
 *   **I want a good balance of speed and accuracy on my GPU**: **AWQ** and **GPTQ** are the standard choices. AWQ often has a slight edge in accuracy.
+*   **I'm serving a model to many users on a server GPU**: **FP8** (near-lossless) or **AWQ** in an engine like vLLM or SGLang.
 
 ### Decision Matrix
 
@@ -340,13 +376,14 @@ Here is a simple table to help you decide:
 
 | Hardware                | Goal                                   | Recommended Format(s)          | Key Provider/Tool                                |
 | ----------------------- | -------------------------------------- | ------------------------------ | ------------------------------------------------ |
-| **NVIDIA GPU**          | Max Inference Speed                    | EXL2                           | ArtusDev, matatonic                              |
-|                         | Balanced Speed/Accuracy                | AWQ, GPTQ                      | TheBloke, or search the Hub for model name       |
+| **NVIDIA GPU**          | Max Inference Speed                    | EXL3 (EXL2)                    | ArtusDev, matatonic                              |
+|                         | Balanced Speed/Accuracy                | AWQ, GPTQ                      | Search the Hub for the model name                |
+|                         | Server / High Throughput               | FP8, AWQ                       | vLLM, SGLang (search the Hub)                    |
 |                         | Fine-Tuning                            | `bitsandbytes` (NF4) + QLoRA   | unsloth, Hugging Face                            |
-|                         | Low VRAM / Large Model                 | GGUF (with GPU offload)        | bartowski,unsloth, TheBloke                      |
-| **CPU**                 | All tasks (Inference)                  | GGUF                           | bartowski, lmstudio-community, TheBloke          |
+|                         | Low VRAM / Large Model                 | GGUF (with GPU offload)        | bartowski, mradermacher, unsloth                 |
+| **CPU**                 | All tasks (Inference)                  | GGUF                           | bartowski, mradermacher, lmstudio-community      |
 | **Apple Silicon (Mac)** | All tasks (Inference)                  | GGUF, MLX                      | bartowski, mlx-community, lmstudio-community     |
-| **AMD GPU**             | All tasks (Inference)                  | GGUF (with GPU offload)        | bartowski, TheBloke                              |
+| **AMD GPU**             | All tasks (Inference)                  | GGUF (with GPU offload)        | bartowski, mradermacher                          |
 
 <br>
 
@@ -354,15 +391,15 @@ Here is a simple table to help you decide:
 
 Quantization is a powerful technique that makes large language models accessible to a wider audience. By reducing the memory and computational requirements of these models, developers and enthusiasts can run them on consumer-grade hardware.
 
-Understanding the landscape of quantization formats—from the CPU-friendly **GGUF** to the GPU-optimized **GPTQ**, **AWQ**, and **EXL2**—is the first step. The second is knowing where to find them and who to trust, with a vibrant community of providers leading the way.
+Understanding the landscape of quantization formats—from the CPU-friendly **GGUF** to the GPU-optimized **GPTQ**, **AWQ**, and **EXL3**—is the first step. The second is knowing where to find them, which a steady community of providers makes straightforward.
 
-The best quantized model for you depends entirely on your specific circumstances. By considering your hardware and your primary goal, you can use the guidance in this tutorial to navigate the options and select the perfect model for your needs. Now go ahead and download a model—the world of local LLMs is at your fingertips!
+The best quantized model for you depends on your specific circumstances. By considering your hardware and your primary goal, you can use the guidance in this tutorial to navigate the options and select a model that fits your needs.
 
 <br>
 
 <div align="center">
 
-[⬆️ Back to Top](#table-of-contents)
+[Back to top](#table-of-contents)
 
 </div>
 
