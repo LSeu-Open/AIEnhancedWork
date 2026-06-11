@@ -26,5 +26,5 @@ This pull request [briefly describe the purpose of the pull request].
 * **Tool Name:** [Insert name of the new tool, e.g. "Wix"]
 * **Description:** [Insert brief description of the new tool]
 * **Link:** [Insert link to the tool's website or documentation]
-* **Licence:** [Insert licence type, e.g. "Proprietary"]
+* **License:** [Insert license type, e.g. "Proprietary"]
 * **Pricing:** [Insert pricing model, e.g. "Freemium"]

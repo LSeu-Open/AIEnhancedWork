@@ -13,10 +13,10 @@ assignees: LSeu-Open
 
 **Tools:**
 
-| Tool | Description | Licence | Pricing |
+| Tool | Description | License | Pricing |
 | --- | --- | --- | --- |
-| [Tool 1](Link to tool) | [Brief description of tool] | [Licence type] | [Pricing model] |
-| [Tool 2](Link to tool) | [Brief description of tool] | [Licence type] | [Pricing model] |
+| [Tool 1](Link to tool) | [Brief description of tool] | [License type] | [Pricing model] |
+| [Tool 2](Link to tool) | [Brief description of tool] | [License type] | [Pricing model] |
 | ... | ... | ... | ... |
 
 **Rationale:** [Insert brief explanation of why this section is important and how it relates to the repository's goals]
