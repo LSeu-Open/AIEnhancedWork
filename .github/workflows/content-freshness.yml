@@ -1,0 +1,42 @@
+name: Content Freshness
+
+# Monthly content-review reminder. Flags Markdown files whose `last-reviewed`
+# marker is overdue, and linked GitHub repositories that are archived or have
+# gone quiet. It never blocks pull requests; on findings it opens or updates an
+# issue. Dead links are handled separately by the link-check workflow.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 1 * *'   # 1st of each month at 07:00 UTC
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Check content freshness
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REVIEW_MAX_MONTHS: '6'
+          REPO_STALE_MONTHS: '12'
+        run: python .github/scripts/content_freshness.py freshness-report.md
+
+      - name: Open an issue on findings
+        if: hashFiles('freshness-report.md') != ''
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: 'Content freshness: items to review'
+          content-filepath: freshness-report.md
+          labels: content-review, automated

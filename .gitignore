@@ -1,0 +1,4 @@
+# Transient output from the CI workflows (generated on the runner, never committed)
+freshness-report.md
+/lychee/
+.lycheecache

@@ -1,3 +1,4 @@
+<!-- last-reviewed: 2026-06 -->
 <div align="center">
 
 <img src="../Images/AIEnhancedWork.png">
@@ -331,7 +332,7 @@ This table lists notable frameworks and libraries designed for running and servi
 | [MLX LM](https://github.com/ml-explore/mlx-lm) | Apple | Inference and fine-tuning on Apple Silicon; built on the MLX unified-memory framework. | Local inference on Mac | Powers Ollama's Apple Silicon backend as of 2026. |
 | [ExLlamaV2](https://github.com/turboderp-org/exllamav2) | turboderp | Fast inference for NVIDIA consumer GPUs; EXL2 quantization format and custom CUDA kernels. | Local inference (consumer NVIDIA GPUs) | Among the fastest single-user engines on RTX hardware. |
 | [vLLM](https://github.com/vllm-project/vllm) | vLLM Project (Berkeley) | High-throughput serving library; PagedAttention, continuous batching.                 | Production serving, research | Primarily Python library, integrates with frameworks like Ray, OpenLLM. |
-| [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) | Hugging Face           | Production-ready server; Optimized for HF models, high throughput, streaming.       | Production serving          | Rust/Python based; in maintenance mode since 2026, with Hugging Face pointing users to vLLM and SGLang. |
+| [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) | Hugging Face           | Production-ready server; Optimized for HF models, high throughput, streaming.       | Production serving          | Rust/Python based; archived and in maintenance mode since 2026, with Hugging Face pointing users to vLLM and SGLang. |
 | [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA                 | Optimization library & engine for NVIDIA GPUs; Quantization, in-flight batching.   | High-performance serving (NVIDIA HW) | Requires model compilation, integrates with Triton.                  |
 | [Triton Inference Server](https://developer.nvidia.com/triton-inference-server) | NVIDIA                 | General-purpose inference server; Supports multiple frameworks (TRT, PyTorch, TF). | Production serving (diverse models) | Can serve LLMs (often via TensorRT-LLM backend) and other models. |
 | [OpenLLM](https://github.com/bentoml/OpenLLM) | BentoML                | Production-ready LLM serving framework; Integrates vLLM/BentoML, OpenAI API compat. | Production serving          | Aims to simplify deployment and scaling.                           |

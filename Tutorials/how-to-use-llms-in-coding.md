@@ -1,3 +1,4 @@
+<!-- last-reviewed: 2026-06 -->
 <div align="center">
 
 <img src="../Images/Tutorials/CodingAI.png">
@@ -33,7 +34,7 @@ Reading time: ~16 min
     * [Cline](#cline)
     * [Continue](#continue)
     * [GitHub Copilot](#github-copilot)
-    * [Roo Code](#roo-code)
+    * [Kilo Code](#kilo-code)
   * [Agentic CLI Coding Tools](#agentic-cli-coding-tools)
     * [Claude Code](#claude-code)
     * [OpenAI Codex CLI](#openai-codex-cli)
@@ -174,15 +175,16 @@ and an agent mode that can plan, edit, test, and open pull requests.
 * **Notable**: agent mode and a coding agent that can take an issue to a pull request; MCP support; next-edit suggestions.
 * **License/Pricing**: proprietary; free tier, paid Pro/Pro+ plans, and free access for verified students, teachers, and popular open-source maintainers.
 
-#### Roo Code
+#### Kilo Code
 
-[Roo Code](https://github.com/RooCodeInc/Roo-Code) (formerly Roo Cline) is an
-open-source VS Code extension, forked from Cline, that frames itself as a team of
-specialized AI agents in your editor, with modes for different kinds of tasks.
+[Kilo Code](https://github.com/Kilo-Org/kilocode) is an open-source VS Code
+extension that builds on ideas from Cline and Roo Code, offering a team of
+specialized agent modes for different kinds of tasks. It became a leading
+successor after Roo Code was discontinued in 2026.
 
 * **Models**: model-agnostic — bring your own provider or use local models.
-* **Notable**: multiple agent modes, environment monitoring, and MCP support; adjustable autonomy from supervised to mostly hands-off.
-* **License/Pricing**: open-source (Apache-2.0); pay for whatever model/provider you use.
+* **Notable**: multiple agent modes, MCP support, and adjustable autonomy from supervised to mostly hands-off.
+* **License/Pricing**: open-source; pay for whatever model/provider you use.
 
 <br>
 
