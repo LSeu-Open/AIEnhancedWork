@@ -59,6 +59,16 @@ Tools that transcribe and summarize audio and video into text and key points.
 
 Models that generate original music from text prompts or parameters.
 
+Music-generation quality changes quickly, so for current rankings see the
+continuously updated leaderboards (separate boards for instrumental and vocal
+tracks):
+
+> [!NOTE]
+> - [Artificial Analysis — Instrumental music leaderboard](https://artificialanalysis.ai/music/leaderboard/instrumental)
+> - [Artificial Analysis — Vocals music leaderboard](https://artificialanalysis.ai/music/leaderboard/vocals)
+
+The tools below add the license and pricing detail the leaderboards do not cover.
+
 | Tool | Description | License | Pricing |
 |:---|:---|:---:|:---:|
 | [Jukebox](https://jukebox.openai.com/) | An OpenAI model that produces music, including basic singing, across genres and artist styles. | [<img src="../Images/Licence/proprietary.svg" alt="proprietary" width="90" height="15" />](https://www.heavybit.com/library/article/open-source-vs-proprietary) | <img src="../Images/Pricing/free.svg" alt="free" width="80" height="20" /> |
@@ -142,6 +152,14 @@ These systems combine multiple AI technologies to create interactive voice
 experiences.
 
 ### Voice Assistants Models
+
+For current rankings of speech-to-speech models, see the continuously updated
+leaderboard:
+
+> [!NOTE]
+> [Artificial Analysis — Speech-to-Speech leaderboard](https://artificialanalysis.ai/speech-to-speech)
+
+The table below adds the license and pricing detail the leaderboard does not cover.
 
 | Organization | Model Family | Best Model | License | Pricing |
 |:---:|:---|:---|:---:|:---:|

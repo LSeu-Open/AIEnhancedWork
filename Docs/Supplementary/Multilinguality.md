@@ -23,6 +23,13 @@ family, with the source for each list. Counts and lists reflect what the vendor
 or model card states; most models also handle additional languages that are not
 formally listed.
 
+> [!TIP]
+> This page covers *official* language support. For how well models actually
+> *perform* across languages, see the [Artificial Analysis Multilingual
+> leaderboard](https://artificialanalysis.ai/models/multilingual) — it ranks
+> open-source and proprietary LLMs on the Global-MMLU-Lite benchmark and lets
+> you filter by language.
+
 <br>
 
 ## Table of contents

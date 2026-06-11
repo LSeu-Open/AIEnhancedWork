@@ -71,11 +71,11 @@ comparison.
 
 > [!NOTE]
 > **Open-source models**
-> - [Artificial Analysis](https://artificialanalysis.ai/models?model-filters=open-source&models=gpt-oss-20b%2Cgpt-oss-120b%2Cgemma-4-31b%2Cmistral-medium-3-5%2Cdeepseek-v4-flash%2Cdeepseek-v4-pro%2Cminimax-m2-7%2Cnvidia-nemotron-3-ultra-550b-a55b%2Ckimi-k2-6%2Cmimo-v2-5-pro%2Ck2-think-v2%2Cglm-5-1%2Cqwen3-5-397b-a17b)
+> - [Artificial Analysis](https://artificialanalysis.ai/models/open-source)
 > - [LM Arena](https://arena.ai/leaderboard/text?license=open-source)
 >
 > **Proprietary models**
-> - [Artificial Analysis](https://artificialanalysis.ai/models?model-filters=proprietary&models=gpt-5-4-mini%2Cgpt-5-5-high%2Cgpt-5-5%2Cgpt-5-5-pro%2Cmuse-spark%2Cgemini-3-5-flash%2Cgemini-3-1-pro-preview%2Cclaude-4-5-haiku-reasoning%2Cclaude-fable-5%2Cclaude-opus-4-8%2Cclaude-sonnet-4-6-adaptive%2Cgrok-4-3%2Cnova-2-0-pro-reasoning-medium%2Csolar-pro-3%2Cminimax-m3%2Cqwen3-7-max)
+> - [Artificial Analysis](https://artificialanalysis.ai/models?model-filters=proprietary)
 > - [LM Arena](https://arena.ai/leaderboard/text?license=proprietary)
 
 > [!TIP]
