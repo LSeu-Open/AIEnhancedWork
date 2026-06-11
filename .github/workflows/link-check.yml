@@ -1,0 +1,62 @@
+name: Link Check
+
+# Checks every link in the Markdown files and reports dead ones.
+# Runs on a weekly schedule (and on demand). It never blocks pull requests;
+# on failure it opens or updates an issue listing the broken links.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'   # Mondays at 06:00 UTC
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Restore lychee cache
+        uses: actions/cache@v5
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Authenticate github.com link checks via the API to avoid the
+          # rate-limit (429) failures that are common on link-heavy repos.
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # --accept lists status codes treated as "live". We include auth,
+          # anti-bot, and rate-limit codes (401, 403, 405, 429, 999) so gated
+          # or protected-but-live pages do not produce false failures.
+          # --exclude-loopback skips the 127.0.0.1 / localhost examples in the
+          # tutorials.
+          args: >-
+            --cache
+            --max-cache-age 1d
+            --no-progress
+            --max-concurrency 8
+            --max-retries 3
+            --retry-wait-time 10
+            --timeout 30
+            --accept 200..=299,301,302,303,307,308,401,403,405,429,999
+            --exclude-loopback
+            './**/*.md'
+          # Do not fail the job; we report via an issue instead.
+          fail: false
+
+      - name: Open an issue on dead links
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: 'Link check: dead links detected'
+          content-filepath: ./lychee/out.md
+          labels: link-check, automated
