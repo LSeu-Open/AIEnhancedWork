@@ -135,7 +135,7 @@ Models fine-tuned for a specific language or language family.
 | Organization       | Model Name | [Model Sizes](https://catherinebreslin.medium.com/what-is-a-parameter-3d4b7736c81d)    | [Context Window](https://research.ibm.com/blog/larger-context-window)  | [Reasoning Model](https://www.ibm.com/think/topics/ai-reasoning) |
 |:------------------:|:----------------------------------------|:-----------------------------------------------------------------------------------------:|:--------------:|:------------:|
 | [Inception](https://huggingface.co/inceptionai) | [Jais-family-30B-16K-chat](https://huggingface.co/inceptionai/jais-family-30b-16k-chat) | 30B | 16k | ❌ |
-| [ALLaM](https://huggingface.co/ALLaM-AI) | [ALLaM-7B-Instruct](https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview) | 7B | ? | ❌ |
+| [ALLaM](https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview) | [ALLaM-7B-Instruct](https://huggingface.co/ALLaM-AI/ALLaM-7B-Instruct-preview) | 7B | ? | ❌ |
 
 <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/sg.svg" alt="Southeast Asian" width="20" height="15" />  ***Southeast Asian***
 
