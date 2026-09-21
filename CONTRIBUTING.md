@@ -10,6 +10,7 @@ Please make sure your pull request follows these guidelines:
 - Make an individual pull request for *each* suggestion.
 - Match the format of the section you are editing: a table row with a `Tool`, `Description`, `License`, and `Pricing` column, using the existing license and pricing badges (see [How to read the entries](README.md#how-to-read-the-entries)).
 - Keep descriptions concise and neutral, avoiding marketing language.
+- **Suggest tools that are at least 6 months past their first public release and still actively maintained** (a commit or release within the last 6 months). This helps ensure entries have a track record and are still alive. Tools from established organizations already represented in the index are exempt from the age requirement.
 - Follow the existing order within the section.
 - Use a direct, working link to the tool, and check your spelling, grammar, and cross-links.
 - New categories, or improvements to the existing categorization, are welcome.
